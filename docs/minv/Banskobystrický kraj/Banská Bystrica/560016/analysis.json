@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2026/012176-MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "JMM s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Horná Mičiná, Dolná Mičiná",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horná Mičiná",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolná Mičiná",
+        "parcely": []
+      }
+    ],
+    "nazov_lokality": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "typ_uzemia": [
+    "ochranné pásmo popod elektrické vedenie 22kV"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
+      "zakon_cislo": "543/2002 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube drevín v ochrannom pásme elektrického vedenia v k. ú. Horná Mičiná a Dolná Mičiná, ktoré podala spoločnosť JMM s. r. o. Na tento typ výrubu sa nevzťahujú všeobecné predpisy o správnom konaní a účasť verejnosti nie je možná.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "Dolná Mičiná",
+        "NATIONALSI": "SKUEV0857",
+        "SITETITLE_": "Mičinské travertíny"
+      },
+      {
+        "parcel_label": "Horná Mičiná",
+        "NATIONALSI": "SKUEV0860",
+        "SITETITLE_": "Iliašská dolina"
+      },
+      {
+        "parcel_label": "Dolná Mičiná",
+        "NATIONALSI": "SKUEV0857",
+        "SITETITLE_": "Mičinské travertíny"
+      },
+      {
+        "parcel_label": "Horná Mičiná",
+        "NATIONALSI": "SKUEV0860",
+        "SITETITLE_": "Iliašská dolina"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "Dolná Mičiná",
+        "NATIONALSI": "355",
+        "SITETITLE_": "NPP Mičinské travertíny"
+      },
+      {
+        "parcel_label": "Horná Mičiná",
+        "NATIONALSI": "319",
+        "SITETITLE_": "PR Kozlinec"
+      },
+      {
+        "parcel_label": "Dolná Mičiná",
+        "NATIONALSI": "355",
+        "SITETITLE_": "NPP Mičinské travertíny"
+      },
+      {
+        "parcel_label": "Horná Mičiná",
+        "NATIONALSI": "319",
+        "SITETITLE_": "PR Kozlinec"
+      }
+    ]
+  }
+}

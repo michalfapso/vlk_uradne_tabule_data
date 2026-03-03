@@ -1,0 +1,53 @@
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562558/text.txt...
+Loading laws from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562558/laws.txt...
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562558/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Giraltovce', 'katastralne_uzemia': [{'nazov': 'Giraltovce', 'parcely': [{'typ': 'C', 'cisla': ['1721/59', '1549/5']}]}], 'nazov_lokality': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Giraltovce', 'katastralne_uzemia': [{'nazov': 'Giraltovce', 'parcely': [{'typ': 'C', 'cisla': ['1721/59', '1549/5']}]}], 'nazov_lokality': None}
+ku_name:Giraltovce obec:Giraltovce okres:Svidník kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: svidnik norm_obec: giraltovce norm_ku: giraltovce
+_get_nationalCadastralZoningReferences() found_ids: {'815136'}
+nationalCadastralZoningReferences: ['815136']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27815136_1721%2F59.C%27%2C%27815136_1549%2F5.C%27%29 
+get_geometry_of_cadastral_zone_parcels() request duration: 0.10 s
+get_geometry_of_cadastral_zone_parcels() Chyba spojenia/timeout: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')). Opakujem pokus o 5 sekúnd... (Pokus 1/5)
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27815136_1721%2F59.C%27%2C%27815136_1549%2F5.C%27%29 
+get_geometry_of_cadastral_zone_parcels() request duration: 0.10 s
+get_geometry_of_cadastral_zone_parcels() Chyba spojenia/timeout: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')). Opakujem pokus o 10 sekúnd... (Pokus 2/5)
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27815136_1721%2F59.C%27%2C%27815136_1549%2F5.C%27%29 
+get_geometry_of_cadastral_zone_parcels() request duration: 0.10 s
+get_geometry_of_cadastral_zone_parcels() Chyba spojenia/timeout: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')). Opakujem pokus o 30 sekúnd... (Pokus 3/5)
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27815136_1721%2F59.C%27%2C%27815136_1549%2F5.C%27%29 
+get_geometry_of_cadastral_zone_parcels() request duration: 0.10 s
+get_geometry_of_cadastral_zone_parcels() Chyba spojenia/timeout: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')). Opakujem pokus o 60 sekúnd... (Pokus 4/5)
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562558/text.txt...
+Loading laws from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562558/laws.txt...
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562558/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Giraltovce', 'katastralne_uzemia': [{'nazov': 'Giraltovce', 'parcely': [{'typ': 'C', 'cisla': ['1721/59', '1549/5']}]}], 'nazov_lokality': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Giraltovce', 'katastralne_uzemia': [{'nazov': 'Giraltovce', 'parcely': [{'typ': 'C', 'cisla': ['1721/59', '1549/5']}]}], 'nazov_lokality': None}
+ku_name:Giraltovce obec:Giraltovce okres:Svidník kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: svidnik norm_obec: giraltovce norm_ku: giraltovce
+_get_nationalCadastralZoningReferences() found_ids: {'815136'}
+nationalCadastralZoningReferences: ['815136']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27815136_1721%2F59.C%27%2C%27815136_1549%2F5.C%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.52 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['1721/59', '1549/5']}' v katastrálnom území 'Giraltovce' sa nenašli dáta v katastri.
+[ERROR]: Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Giraltovce', 'katastralne_uzemia': [{'nazov': 'Giraltovce', 'parcely': [{'typ': 'C', 'cisla': ['1721/59', '1549/5']}]}], 'nazov_lokality': None}
+ku_gdfs: []
+No geometries were found, so no file will be saved.
+nazov_lokality: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 562558 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   3.68 s
+  CELKOVÝ ČAS         :   3.68 s
+------------------------------------------
+Dokument 562558 bol úspešne spracovaný.

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "@featureType": "CadastralParcel", "areaValue": { "value": 7241, "@uom": "m2" }, "beginLifespanVersion": { "@nilReason": "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated", "@nil": "true" }, "endLifespanVersion": { "@nilReason": "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated", "@nil": "true" }, "inspireId": { "@dataType": "Identifier", "localId": "836915_6377/3.E", "namespace": "SK.ESKN.CP", "versionId": "20251106T05:11:59" }, "label": "6377/3", "nationalCadastralReference": "836915_6377/3.E", "referencePoint": { "type": "Point", "coordinates": [ 21.90203824, 48.76425679 ] }, "validFrom": "2025-09-30T16:00:00Z", "validTo": { "@nilReason": "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated", "@nil": "true" }, "administrativeUnit": { "@href": "#auAdmUnitS.2187" }, "place_id": 413977513, "osm_type": "way", "osm_id": 227523459, "place_rank": 22, "category": "natural", "type": "wood", "importance": 0.10672663538567176, "addresstype": "wood", "name": "Hrádok", "display_name": "Hrádok, Milovaná, Michalovce, okres Michalovce, Košický kraj, Východné Slovensko, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 21.90154098, 48.76435256 ], [ 21.90160093361116, 48.764365609369733 ], [ 21.9015965, 48.7643593 ], [ 21.901548358363595, 48.76434228929066 ], [ 21.90154098, 48.76435256 ] ] ] } }
+]
+}
