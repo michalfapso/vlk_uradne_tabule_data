@@ -1,0 +1,181 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=34&odbor=10&sekcia=uradna-tabula&subor=562984
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/562984/orig.pdf
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 3 page images to gemini/gemini-3-flash-preview for OCR.
+LLM_cost: {"cost": 0.025817}
+LLM_tokens: {"input": 3352, "output": 8593, "total": 11945, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/562984/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a príslušný o'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona orgán štátnej vodnej správy rozhodol, že vodohospodársky významný vodný tok Teplianka v evidencii žiadateľa s číslom hydrologického por'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona).** **Zverejnenie verejnej vyhlášky musí byť uskutočnené v zmysle'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/562984/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010836649999999998}
+LLM_tokens: {"input": 7372, "output": 2687, "total": 10059, "cached": 2023}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/562984/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/562984/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Lúčky', 'katastralne_uzemia': [{'nazov': 'Lúčky', 'parcely': [{'typ': 'C', 'cisla': ['3121', '3122/1', '3122/3', '3298/7', '3297/2', '3301', '3302', '3303/9', '3304', '3307', '3308/4', '3311', '3312', '3330/2', '3320', '3326/1', '3326/2', '3128/3', '3129', '3130/1', '3297/1', '3328/1', '3328/2', '3328/3', '3330/1', '3330/27', '3122/2']}, {'typ': 'E', 'cisla': ['1121/1', '3363/2', '3415/2', '1122/53', '1131/2', '1121/3', '1122/54', '1301', '1302', '1307', '1311', '1312', '1315', '1316', '1319', '1320', '1324/2', '1326', '1128/2', '1129', '1130/2', '1297/1', '1327', '1328/202', '1328/203', '1331', '1330/2', '1273/2', '1132/2']}]}], 'nazov_lokality': 'Vodný tok Teplianka'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Lúčky', 'katastralne_uzemia': [{'nazov': 'Lúčky', 'parcely': [{'typ': 'C', 'cisla': ['3121', '3122/1', '3122/3', '3298/7', '3297/2', '3301', '3302', '3303/9', '3304', '3307', '3308/4', '3311', '3312', '3330/2', '3320', '3326/1', '3326/2', '3128/3', '3129', '3130/1', '3297/1', '3328/1', '3328/2', '3328/3', '3330/1', '3330/27', '3122/2']}, {'typ': 'E', 'cisla': ['1121/1', '3363/2', '3415/2', '1122/53', '1131/2', '1121/3', '1122/54', '1301', '1302', '1307', '1311', '1312', '1315', '1316', '1319', '1320', '1324/2', '1326', '1128/2', '1129', '1130/2', '1297/1', '1327', '1328/202', '1328/203', '1331', '1330/2', '1273/2', '1132/2']}]}], 'nazov_lokality': 'Vodný tok Teplianka'}
+ku_name:Lúčky obec:Lúčky okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: lucky norm_ku: lucky
+_get_nationalCadastralZoningReferences() found_ids: {'834017'}
+nationalCadastralZoningReferences: ['834017']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27834017_3121.C%27%2C%27834017_3122%2F1.C%27%2C%27834017_3122%2F3.C%27%2C%27834017_3298%2F7.C%27%2C%27834017_3297%2F2.C%27%2C%27834017_3301.C%27%2C%27834017_3302.C%27%2C%27834017_3303%2F9.C%27%2C%27834017_3304.C%27%2C%27834017_3307.C%27%2C%27834017_3308%2F4.C%27%2C%27834017_3311.C%27%2C%27834017_3312.C%27%2C%27834017_3330%2F2.C%27%2C%27834017_3320.C%27%2C%27834017_3326%2F1.C%27%2C%27834017_3326%2F2.C%27%2C%27834017_3128%2F3.C%27%2C%27834017_3129.C%27%2C%27834017_3130%2F1.C%27%2C%27834017_3297%2F1.C%27%2C%27834017_3328%2F1.C%27%2C%27834017_3328%2F2.C%27%2C%27834017_3328%2F3.C%27%2C%27834017_3330%2F1.C%27%2C%27834017_3330%2F27.C%27%2C%27834017_3122%2F2.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.91 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27834017_1121%2F1.E%27%2C%27834017_3363%2F2.E%27%2C%27834017_3415%2F2.E%27%2C%27834017_1122%2F53.E%27%2C%27834017_1131%2F2.E%27%2C%27834017_1121%2F3.E%27%2C%27834017_1122%2F54.E%27%2C%27834017_1301.E%27%2C%27834017_1302.E%27%2C%27834017_1307.E%27%2C%27834017_1311.E%27%2C%27834017_1312.E%27%2C%27834017_1315.E%27%2C%27834017_1316.E%27%2C%27834017_1319.E%27%2C%27834017_1320.E%27%2C%27834017_1324%2F2.E%27%2C%27834017_1326.E%27%2C%27834017_1128%2F2.E%27%2C%27834017_1129.E%27%2C%27834017_1130%2F2.E%27%2C%27834017_1297%2F1.E%27%2C%27834017_1327.E%27%2C%27834017_1328%2F202.E%27%2C%27834017_1328%2F203.E%27%2C%27834017_1331.E%27%2C%27834017_1330%2F2.E%27%2C%27834017_1273%2F2.E%27%2C%27834017_1132%2F2.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.33 s
+[WARNING]: Nejednoznačne zadané katastrálne územie 'Lúčky' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.
+ku_gdfs: [       @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+
+[27 rows x 12 columns],        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+
+[29 rows x 12 columns]]
+nazov_lokality: Vodný tok Teplianka
+get_geometry_of_a_geoname nazov_lokality: Vodný tok Teplianka
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Vodný tok Teplianka, Lúčky
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Vodný tok Teplianka, Ružomberok
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Vodný tok Teplianka, Žilinský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Vodný tok Teplianka
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+39  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+40  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+41  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+42  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+43  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+44  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+45  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+46  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+47  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+48  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+49  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+50  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+51  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+52  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+53  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+54  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+55  CadastralParcel  ...  {'@href': '#auAdmUnitS.521'}
+
+[56 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/562984/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/562984/analysis.json...
+
+--- Časy spracovania dokumentu 562984 ---
+  download_and_text   :  44.53 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.85 s
+  gis_processing      :  10.04 s
+  CELKOVÝ ČAS         :  67.43 s
+------------------------------------------
+Dokument 562984 bol úspešne spracovaný.

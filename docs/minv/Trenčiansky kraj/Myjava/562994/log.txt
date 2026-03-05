@@ -1,0 +1,57 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=18&odbor=10&sekcia=uradna-tabula&subor=562994
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/562994/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/562994/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov  Vás podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '71//1967 Zb.  o správnom konaní v znení neskorších predpisov  a podľa'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/562994/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008465499999999999}
+LLM_tokens: {"input": 4712, "output": 2338, "total": 7050, "cached": 2010}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/562994/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/562994/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Myjava', 'obec': 'Vrbovce', 'katastralne_uzemia': [{'nazov': 'Vrbovce', 'parcely': [{'typ': 'C', 'cisla': ['25 201']}]}], 'nazov_lokality': 'Bučkova jama'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Myjava', 'obec': 'Vrbovce', 'katastralne_uzemia': [{'nazov': 'Vrbovce', 'parcely': [{'typ': 'C', 'cisla': ['25 201']}]}], 'nazov_lokality': 'Bučkova jama'}
+ku_name:Vrbovce obec:Vrbovce okres:Myjava kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: myjava norm_obec: vrbovce norm_ku: vrbovce
+_get_nationalCadastralZoningReferences() found_ids: {'870587'}
+nationalCadastralZoningReferences: ['870587']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27870587_25+201.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.32 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['25 201']}' v katastrálnom území 'Vrbovce' sa nenašli dáta v katastri.
+[ERROR]: Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Trenčiansky kraj', 'okres': 'Myjava', 'obec': 'Vrbovce', 'katastralne_uzemia': [{'nazov': 'Vrbovce', 'parcely': [{'typ': 'C', 'cisla': ['25 201']}]}], 'nazov_lokality': 'Bučkova jama'}
+ku_gdfs: []
+No geometries were found, so no file will be saved.
+nazov_lokality: Bučkova jama
+get_geometry_of_a_geoname nazov_lokality: Bučkova jama
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bučkova jama, Vrbovce
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.43342 48.81818, 17.43343 48.81807...  ...  Bučkova jama, Vrbovce, okres Myjava, Trenčians...
+
+[1 rows x 11 columns]
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.43342 48.81818, 17.43343 48.81807...  ...  Bučkova jama, Vrbovce, okres Myjava, Trenčians...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/562994/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Bučkova jama, Vrbovce, okres Myjava, Trenčiansky kraj, Západné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0371', 'SITETITLE_': 'Žalostiná'}], 'MCHU': [{'parcel_label': 'Bučkova jama, Vrbovce, okres Myjava, Trenčiansky kraj, Západné Slovensko, Slovensko', 'NATIONALSI': '793', 'SITETITLE_': 'PP Bučkova jama'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/562994/analysis.json...
+
+--- Časy spracovania dokumentu 562994 ---
+  download_and_text   :   1.74 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.86 s
+  gis_processing      :   3.92 s
+  CELKOVÝ ČAS         :  17.54 s
+------------------------------------------
+Dokument 562994 bol úspešne spracovaný.

@@ -1,0 +1,43 @@
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-017656/orig.html
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-017656/text.txt...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-017656/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011159500000000001}
+LLM_tokens: {"input": 4658, "output": 3245, "total": 7903, "cached": 2010}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-017656/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-017656/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': None, 'katastralne_uzemia': [], 'nazov_lokality': 'Počúvadlianske jazero'}
+nazov_lokality: Počúvadlianske jazero
+get_geometry_of_a_geoname nazov_lokality: Počúvadlianske jazero
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Počúvadlianske jazero, Banská Bystrica
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.85198 48.40633, 18.85203 48.40614...  ...  Počúvadliansky tajch, Počúvadlianske jazero, B...
+1  POLYGON ((18.84958 48.39945, 18.8503 48.39926,...  ...  Počúvadlianske jazero, Banská Štiavnica, okres...
+
+[2 rows x 11 columns]
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.85198 48.40633, 18.85203 48.40614...  ...  Počúvadliansky tajch, Počúvadlianske jazero, B...
+1  POLYGON ((18.84958 48.39945, 18.8503 48.39926,...  ...  Počúvadlianske jazero, Banská Štiavnica, okres...
+
+[2 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-017656/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Počúvadlianske jazero, Banská Štiavnica, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko', 'NAZOV_UEV': 'Sitno', 'KOD_UEV': 'SKUEV0216'}], 'UEV': [{'parcel_label': 'Počúvadlianske jazero, Banská Štiavnica, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0216', 'SITETITLE_': 'Sitno'}], 'MCHU': [{'parcel_label': 'Počúvadlianske jazero, Banská Štiavnica, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko', 'NATIONALSI': '413', 'SITETITLE_': 'NPR Sitno'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-017656/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp1-2026-017656 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  16.47 s
+  gis_processing      :   0.70 s
+  CELKOVÝ ČAS         :  18.29 s
+------------------------------------------
+Dokument ou-bb-oszp1-2026-017656 bol úspešne spracovaný.

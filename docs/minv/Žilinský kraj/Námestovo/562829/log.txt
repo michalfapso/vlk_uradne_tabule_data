@@ -1,0 +1,48 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=33&odbor=10&sekcia=uradna-tabula&subor=562829
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/562829/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/562829/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'do          5 pracovných dní od zverejnenia oznámenia na Okresnom úrade Námestove, odbore  starostlivosti o životné prostredie, Miestneho priemyslu 57'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/562829/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00664995}
+LLM_tokens: {"input": 3609, "output": 1915, "total": 5524, "cached": 1999}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/562829/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/562829/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Námestovo', 'obec': 'Rabča', 'katastralne_uzemia': [{'nazov': 'Rabča', 'parcely': [{'typ': 'C', 'cisla': ['671/2', '4586/3']}]}], 'nazov_lokality': None}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Námestovo', 'obec': 'Rabča', 'katastralne_uzemia': [{'nazov': 'Rabča', 'parcely': [{'typ': 'C', 'cisla': ['671/2', '4586/3']}]}], 'nazov_lokality': None}
+ku_name:Rabča obec:Rabča okres:Námestovo kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: namestovo norm_obec: rabca norm_ku: rabca
+_get_nationalCadastralZoningReferences() found_ids: {'850772'}
+nationalCadastralZoningReferences: ['850772']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27850772_671%2F2.C%27%2C%27850772_4586%2F3.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.58 s
+ku_gdfs: [      @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+
+[2 rows x 12 columns]]
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/562829/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/562829/analysis.json...
+
+--- Časy spracovania dokumentu 562829 ---
+  download_and_text   :   1.40 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   9.70 s
+  gis_processing      :   3.88 s
+  CELKOVÝ ČAS         :  14.98 s
+------------------------------------------
+Dokument 562829 bol úspešne spracovaný.

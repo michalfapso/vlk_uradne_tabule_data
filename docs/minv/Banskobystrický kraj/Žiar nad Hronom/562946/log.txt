@@ -1,0 +1,57 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=45&odbor=10&sekcia=uradna-tabula&subor=562946
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/562946/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/562946/text.txt...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/562946/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0122875}
+LLM_tokens: {"input": 4253, "output": 3387, "total": 7640, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/562946/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/562946/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Žiar nad Hronom', 'obec': 'Kremnica', 'katastralne_uzemia': [{'nazov': 'Kremnica', 'parcely': [{'typ': 'E', 'cisla': ['1977/2', '1978', '1979/1']}, {'typ': 'C', 'cisla': ['2901/1']}]}], 'nazov_lokality': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Žiar nad Hronom', 'obec': 'Kremnica', 'katastralne_uzemia': [{'nazov': 'Kremnica', 'parcely': [{'typ': 'E', 'cisla': ['1977/2', '1978', '1979/1']}, {'typ': 'C', 'cisla': ['2901/1']}]}], 'nazov_lokality': None}
+ku_name:Kremnica obec:Kremnica okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: kremnica norm_ku: kremnica
+_get_nationalCadastralZoningReferences() found_ids: {'828882'}
+nationalCadastralZoningReferences: ['828882']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27828882_1977%2F2.E%27%2C%27828882_1978.E%27%2C%27828882_1979%2F1.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.52 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27828882_2901%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.44 s
+[WARNING]: Nejednoznačne zadané katastrálne územie 'Kremnica' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.
+ku_gdfs: [      @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1014'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1014'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1014'}
+
+[3 rows x 12 columns],       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1014'}
+
+[1 rows x 12 columns]]
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1014'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1014'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1014'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1014'}
+
+[4 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/562946/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/562946/analysis.json...
+
+--- Časy spracovania dokumentu 562946 ---
+  download_and_text   :   1.12 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  16.00 s
+  gis_processing      :   7.28 s
+  CELKOVÝ ČAS         :  24.41 s
+------------------------------------------
+Dokument 562946 bol úspešne spracovaný.

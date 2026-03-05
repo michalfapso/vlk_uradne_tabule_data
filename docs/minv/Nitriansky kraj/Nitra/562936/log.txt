@@ -1,0 +1,67 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=562936
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/562936/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/562936/text.txt...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/562936/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00957585}
+LLM_tokens: {"input": 4314, "output": 2774, "total": 7088, "cached": 2007}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 54 column 1 (char 1447)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008219700000000002}
+LLM_tokens: {"input": 4314, "output": 2623, "total": 6937, "cached": 4014}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/562936/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/562936/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Nitra', 'katastralne_uzemia': [{'nazov': 'Párovské Háje', 'parcely': [{'typ': 'C', 'cisla': ['3710/70']}]}], 'nazov_lokality': 'Párovské Háje'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Nitra', 'katastralne_uzemia': [{'nazov': 'Párovské Háje', 'parcely': [{'typ': 'C', 'cisla': ['3710/70']}]}], 'nazov_lokality': 'Párovské Háje'}
+ku_name:Párovské Háje obec:Nitra okres:Nitra kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nitra norm_obec: nitra norm_ku: parovske haje
+_get_nationalCadastralZoningReferences() found_ids: {'840165'}
+nationalCadastralZoningReferences: ['840165']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27840165_3710%2F70.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.34 s
+ku_gdfs: [      @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+
+[1 rows x 12 columns]]
+nazov_lokality: Párovské Háje
+get_geometry_of_a_geoname nazov_lokality: Párovské Háje
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Párovské Háje, Nitra
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.0007 48.28351, 18.00075 48.28341,...  ...  Párovské Háje, Nitra, okres Nitra, Nitriansky ...
+
+[1 rows x 11 columns]
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+
+[1 rows x 12 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.0007 48.28351, 18.00075 48.28341,...  ...  Párovské Háje, Nitra, okres Nitra, Nitriansky ...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/562936/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/562936/analysis.json...
+
+--- Časy spracovania dokumentu 562936 ---
+  download_and_text   :   1.50 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  27.49 s
+  gis_processing      :   4.15 s
+  CELKOVÝ ČAS         :  33.16 s
+------------------------------------------
+Dokument 562936 bol úspešne spracovaný.

@@ -1,0 +1,70 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=12&odbor=10&sekcia=uradna-tabula&subor=562929
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/562929/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/562929/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zákon o ochrane prírody, vydanie súhlasu na dočasné umiestnenie prenosného zariadenia – predajný stánok podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'upovedomuje o začatí konania združenia s právnou subjektivitou, ktorých predmetom činnosti je najmenej jeden rok ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'orgán ochrany prírody stanovuje lehotu prihlásenia sa do konania za zúčastnenú osobu na päť pracovných dní od zverejnenia informácie na internetovej s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/562929/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010878849999999999}
+LLM_tokens: {"input": 5825, "output": 2958, "total": 8783, "cached": 2017}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/562929/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/562929/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Brezová pod Bradlom', 'katastralne_uzemia': [{'nazov': 'Brezová pod Bradlom', 'parcely': [{'typ': 'C', 'cisla': ['3819/1', '3823', '3824/1', '629/9']}]}], 'nazov_lokality': 'Vodná nádrž Brezová pod Bradlom'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Brezová pod Bradlom', 'katastralne_uzemia': [{'nazov': 'Brezová pod Bradlom', 'parcely': [{'typ': 'C', 'cisla': ['3819/1', '3823', '3824/1', '629/9']}]}], 'nazov_lokality': 'Vodná nádrž Brezová pod Bradlom'}
+ku_name:Brezová pod Bradlom obec:Brezová pod Bradlom okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: brezova pod bradlom norm_ku: brezova pod bradlom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: brezova pod bradlom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: brezova pod bradlom
+_get_nationalCadastralZoningReferences() found_ids: {'806749'}
+nationalCadastralZoningReferences: ['806749']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27806749_3819%2F1.C%27%2C%27806749_3823.C%27%2C%27806749_3824%2F1.C%27%2C%27806749_629%2F9.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.95 s
+ku_gdfs: [      @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2577'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2577'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2577'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2577'}
+
+[4 rows x 12 columns]]
+nazov_lokality: Vodná nádrž Brezová pod Bradlom
+get_geometry_of_a_geoname nazov_lokality: Vodná nádrž Brezová pod Bradlom
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Vodná nádrž Brezová pod Bradlom, Brezová pod Bradlom
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Vodná nádrž Brezová pod Bradlom, Trenčín
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Vodná nádrž Brezová pod Bradlom, Trenčiansky kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Vodná nádrž Brezová pod Bradlom
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2577'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2577'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2577'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2577'}
+
+[4 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/562929/gis.geojson...
+Intersections with protected areas...
+Found 4 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '629/9', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': '3824/1', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': '3819/1', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': '3823', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/562929/analysis.json...
+
+--- Časy spracovania dokumentu 562929 ---
+  download_and_text   :   1.44 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.86 s
+  gis_processing      :   6.57 s
+  CELKOVÝ ČAS         :  22.87 s
+------------------------------------------
+Dokument 562929 bol úspešne spracovaný.

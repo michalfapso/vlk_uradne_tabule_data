@@ -1,0 +1,77 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=562931
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/562931/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/562931/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona sa územné rozhodnutie pre navrhovanú akciu nevyžaduje. OU-NR-OSZP3-2026/012772-0032381/2026 2 / 4 Uvedeným dňom bolo začaté vodopráv'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, ako príslušný orgán štátnej vodnej správy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '25/2025 Z. z. Stavebného zákona a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov a v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'upúšťa od miestneho zisťovania a ústneho pojednávania. Toto oznámenie má povahu verejnej vyhlášky podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona – líniová stavba, stavba s veľkým počtom účastníkom konania -Stavebníkovi Obec Golianovo, Golianovo č. 400, 951 08 Golianovo - Známy'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/562931/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011144600000000001}
+LLM_tokens: {"input": 6901, "output": 2868, "total": 9769, "cached": 2022}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/562931/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/562931/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Golianovo', 'katastralne_uzemia': [{'nazov': 'Golianovo', 'parcely': [{'typ': 'C', 'cisla': ['929/17']}, {'typ': 'E', 'cisla': ['929/3', '929/4']}]}], 'nazov_lokality': 'Pri Hliníku'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Golianovo', 'katastralne_uzemia': [{'nazov': 'Golianovo', 'parcely': [{'typ': 'C', 'cisla': ['929/17']}, {'typ': 'E', 'cisla': ['929/3', '929/4']}]}], 'nazov_lokality': 'Pri Hliníku'}
+ku_name:Golianovo obec:Golianovo okres:Nitra kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nitra norm_obec: golianovo norm_ku: golianovo
+_get_nationalCadastralZoningReferences() found_ids: {'815195'}
+nationalCadastralZoningReferences: ['815195']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27815195_929%2F17.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.40 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27815195_929%2F3.E%27%2C%27815195_929%2F4.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.19 s
+[WARNING]: Nejednoznačne zadané katastrálne územie 'Golianovo' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.
+ku_gdfs: [      @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.629'}
+
+[1 rows x 12 columns],       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.629'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.629'}
+
+[2 rows x 12 columns]]
+nazov_lokality: Pri Hliníku
+get_geometry_of_a_geoname nazov_lokality: Pri Hliníku
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Pri Hliníku, Golianovo
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Pri Hliníku, Nitra
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Pri Hliníku, Nitriansky kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Pri Hliníku
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.629'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.629'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.629'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/562931/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/562931/analysis.json...
+
+--- Časy spracovania dokumentu 562931 ---
+  download_and_text   :   1.25 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.28 s
+  gis_processing      :   9.70 s
+  CELKOVÝ ČAS         :  25.23 s
+------------------------------------------
+Dokument 562931 bol úspešne spracovaný.

@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2026-03-05 20:30:39",
+    "type": "warning",
+    "text": "Pre parcelu '{'typ': 'C', 'cisla': ['25 201']}' v katastrálnom území 'Vrbovce' sa nenašli dáta v katastri."
+  },
+  {
+    "date": "2026-03-05 20:30:39",
+    "type": "error",
+    "text": "Nenašli sa žiadne parcely pre zadané parametre: {'kraj': 'Trenčiansky kraj', 'okres': 'Myjava', 'obec': 'Vrbovce', 'katastralne_uzemia': [{'nazov': 'Vrbovce', 'parcely': [{'typ': 'C', 'cisla': ['25 201']}]}], 'nazov_lokality': 'Bučkova jama'}"
+  }
+]

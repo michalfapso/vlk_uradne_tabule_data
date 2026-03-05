@@ -1,0 +1,126 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=4&odbor=10&sekcia=uradna-tabula&subor=562982
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/562982/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/562982/text.txt...
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 363, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+                                                                ~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0161312}
+LLM_tokens: {"input": 7654, "output": 4405, "total": 12059, "cached": 2024}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/562982/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/562982/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Senec', 'katastralne_uzemia': [{'nazov': 'Senec', 'parcely': [{'typ': None, 'cisla': ['5156/2', '5156/36', '5156/41', '5156/35', '5156/22', '5156/38', '5156/31', '5156/90', '5156/6', '5185/2', '5184/2', '5601/6', '5601/7', '5601/8', '5601/49', '5601/50', '5604/3', '5604/9', '5059/6', '5156/232', '5156/118', '5156/89', '5156/70', '5156/86', '5156/44', '5156/96', '5156/209', '5156/183', '5156/206', '5156/243']}]}], 'nazov_lokality': 'Logistický park Senec – Horný dvor'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Senec', 'katastralne_uzemia': [{'nazov': 'Senec', 'parcely': [{'typ': None, 'cisla': ['5156/2', '5156/36', '5156/41', '5156/35', '5156/22', '5156/38', '5156/31', '5156/90', '5156/6', '5185/2', '5184/2', '5601/6', '5601/7', '5601/8', '5601/49', '5601/50', '5604/3', '5604/9', '5059/6', '5156/232', '5156/118', '5156/89', '5156/70', '5156/86', '5156/44', '5156/96', '5156/209', '5156/183', '5156/206', '5156/243']}]}], 'nazov_lokality': 'Logistický park Senec – Horný dvor'}
+ku_name:Senec obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: senec
+_get_nationalCadastralZoningReferences() found_ids: {'854964'}
+nationalCadastralZoningReferences: ['854964']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27854964_5156%2F2.C%27%2C%27854964_5156%2F36.C%27%2C%27854964_5156%2F41.C%27%2C%27854964_5156%2F35.C%27%2C%27854964_5156%2F22.C%27%2C%27854964_5156%2F38.C%27%2C%27854964_5156%2F31.C%27%2C%27854964_5156%2F90.C%27%2C%27854964_5156%2F6.C%27%2C%27854964_5185%2F2.C%27%2C%27854964_5184%2F2.C%27%2C%27854964_5601%2F6.C%27%2C%27854964_5601%2F7.C%27%2C%27854964_5601%2F8.C%27%2C%27854964_5601%2F49.C%27%2C%27854964_5601%2F50.C%27%2C%27854964_5604%2F3.C%27%2C%27854964_5604%2F9.C%27%2C%27854964_5059%2F6.C%27%2C%27854964_5156%2F232.C%27%2C%27854964_5156%2F118.C%27%2C%27854964_5156%2F89.C%27%2C%27854964_5156%2F70.C%27%2C%27854964_5156%2F86.C%27%2C%27854964_5156%2F44.C%27%2C%27854964_5156%2F96.C%27%2C%27854964_5156%2F209.C%27%2C%27854964_5156%2F183.C%27%2C%27854964_5156%2F206.C%27%2C%27854964_5156%2F243.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.83 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27854964_5156%2F2.E%27%2C%27854964_5156%2F36.E%27%2C%27854964_5156%2F41.E%27%2C%27854964_5156%2F35.E%27%2C%27854964_5156%2F22.E%27%2C%27854964_5156%2F38.E%27%2C%27854964_5156%2F31.E%27%2C%27854964_5156%2F90.E%27%2C%27854964_5156%2F6.E%27%2C%27854964_5185%2F2.E%27%2C%27854964_5184%2F2.E%27%2C%27854964_5601%2F6.E%27%2C%27854964_5601%2F7.E%27%2C%27854964_5601%2F8.E%27%2C%27854964_5601%2F49.E%27%2C%27854964_5601%2F50.E%27%2C%27854964_5604%2F3.E%27%2C%27854964_5604%2F9.E%27%2C%27854964_5059%2F6.E%27%2C%27854964_5156%2F232.E%27%2C%27854964_5156%2F118.E%27%2C%27854964_5156%2F89.E%27%2C%27854964_5156%2F70.E%27%2C%27854964_5156%2F86.E%27%2C%27854964_5156%2F44.E%27%2C%27854964_5156%2F96.E%27%2C%27854964_5156%2F209.E%27%2C%27854964_5156%2F183.E%27%2C%27854964_5156%2F206.E%27%2C%27854964_5156%2F243.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.27 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+ku_gdfs: [       @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+
+[29 rows x 12 columns]]
+nazov_lokality: Logistický park Senec – Horný dvor
+get_geometry_of_a_geoname nazov_lokality: Logistický park Senec – Horný dvor
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Logistický park Senec – Horný dvor, Senec
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Logistický park Senec – Horný dvor, Senec
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Logistický park Senec – Horný dvor, Bratislavský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Logistický park Senec – Horný dvor
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+
+[29 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/562982/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/562982/analysis.json...
+
+--- Časy spracovania dokumentu 562982 ---
+  download_and_text   :   1.11 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  20.54 s
+  gis_processing      :   9.53 s
+  CELKOVÝ ČAS         :  31.18 s
+------------------------------------------
+Dokument 562982 bol úspešne spracovaný.

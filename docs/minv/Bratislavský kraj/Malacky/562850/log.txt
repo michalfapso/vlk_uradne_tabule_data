@@ -1,0 +1,97 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=2&odbor=10&sekcia=uradna-tabula&subor=562850
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/562850/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/562850/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona zmena lehoty na dokončenie stavby Výrok Okresný úrad Malacky, odbor starostlivosti o životné prostredie, ako orgán štátnej správy st'.
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 363, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+                                                                ~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00894565}
+LLM_tokens: {"input": 5153, "output": 2425, "total": 7578, "cached": 2013}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 89 column 1 (char 2218)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0119335}
+LLM_tokens: {"input": 5153, "output": 3119, "total": 8272, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/562850/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/562850/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Gajary', 'katastralne_uzemia': [{'nazov': 'Gajary', 'parcely': [{'typ': 'C', 'cisla': ['476/1', '161', '480/2', '1377/3', '1552/52', '1377/2', '2826', '1276', '1552/1']}, {'typ': 'E', 'cisla': ['1277/1', '1279/1', '1279/2', '1463', '1552', '2812', '1464']}]}], 'nazov_lokality': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Gajary', 'katastralne_uzemia': [{'nazov': 'Gajary', 'parcely': [{'typ': 'C', 'cisla': ['476/1', '161', '480/2', '1377/3', '1552/52', '1377/2', '2826', '1276', '1552/1']}, {'typ': 'E', 'cisla': ['1277/1', '1279/1', '1279/2', '1463', '1552', '2812', '1464']}]}], 'nazov_lokality': None}
+ku_name:Gajary obec:Gajary okres:Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: gajary norm_ku: gajary
+_get_nationalCadastralZoningReferences() found_ids: {'814482'}
+nationalCadastralZoningReferences: ['814482']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27814482_476%2F1.C%27%2C%27814482_161.C%27%2C%27814482_480%2F2.C%27%2C%27814482_1377%2F3.C%27%2C%27814482_1552%2F52.C%27%2C%27814482_1377%2F2.C%27%2C%27814482_2826.C%27%2C%27814482_1276.C%27%2C%27814482_1552%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.93 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27814482_1277%2F1.E%27%2C%27814482_1279%2F1.E%27%2C%27814482_1279%2F2.E%27%2C%27814482_1463.E%27%2C%27814482_1552.E%27%2C%27814482_2812.E%27%2C%27814482_1464.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.89 s
+[WARNING]: Nejednoznačne zadané katastrálne územie 'Gajary' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.
+ku_gdfs: [      @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+
+[8 rows x 12 columns],       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+
+[7 rows x 12 columns]]
+nazov_lokality: None
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.570'}
+
+[15 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/562850/gis.geojson...
+Intersections with protected areas...
+Found 5 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '2826', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}, {'parcel_label': '1552/1', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}, {'parcel_label': '2812', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}, {'parcel_label': '1279/2', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}, {'parcel_label': '1552', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/562850/analysis.json...
+
+--- Časy spracovania dokumentu 562850 ---
+  download_and_text   :   2.64 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  27.13 s
+  gis_processing      :   8.08 s
+  CELKOVÝ ČAS         :  37.86 s
+------------------------------------------
+Dokument 562850 bol úspešne spracovaný.

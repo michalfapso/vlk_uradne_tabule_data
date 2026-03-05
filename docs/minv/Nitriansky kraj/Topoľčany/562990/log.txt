@@ -1,0 +1,58 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=26&odbor=10&sekcia=uradna-tabula&subor=562990
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/562990/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/562990/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov - Volkswagen Bora, evidenčné číslo 1S3 4878 Okresnému úr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch o'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch, ak sa držiteľ vozidla ani vlastník vozidla, ktorý nie je držiteľom tohto vozidla, nepodarilo jednoznačne určiť ani zisťovaním s pomocou or'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'sa neuplatní a príslušný orgán štátnej správy odpadového hospodárstva rozhodnutím určí, že vozidlo je starým vozidlom. Okresný úrad Topoľčany, odbor s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch o tom, že vozidlo sa stáva starým vozidlom. OU-TO-OSZP-2026/003197-0009724/2026 2 / 2 Súčasne týmto oznámením Okresný úrad Topoľčany, odbor'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch. Do podkladov rozhodnutia možno nahliadnuť na Okresnom úrade Topoľčany, odbore starostlivosti o životné prostredie, Nám. Ľ. Štúra 1738, 955'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch stáva osoba, u ktorej sa staré vozidlo nachádza a ten je povinný ďalej s ním nakladať v súlade s ustanoveniami'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch. Oznámenie sa doručí: Účastníci konania: 1. Držiteľ vozidla / vlastník vozidla – verejnou vyhláškou 2. Mesto Topoľčany, Nám. M. R. Štefánik'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch. Oznámenie sa doručí: Účastníci konania: 1. Držiteľ vozidla / vlastník vozidla – verejnou vyhláškou 2. Mesto Topoľčany, Nám. M. R. Štefánik'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, - Volkswagen Bora, evidenčné číslo 1S3 4878, ] Identifi'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/562990/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00878385}
+LLM_tokens: {"input": 5895, "output": 2248, "total": 8143, "cached": 2017}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/562990/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/562990/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Topoľčany', 'obec': 'Topoľčany', 'katastralne_uzemia': [], 'nazov_lokality': 'Skýcovská 1683'}
+nazov_lokality: Skýcovská 1683
+get_geometry_of_a_geoname nazov_lokality: Skýcovská 1683
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Skýcovská 1683, Topoľčany
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.16242 48.56454, 18.16256 48.56448...  ...  1683/7, Skýcovská, Topoľčany, okres Topoľčany,...
+1  POLYGON ((18.16229 48.5644, 18.16244 48.56434,...  ...  1683/5, Skýcovská, Topoľčany, okres Topoľčany,...
+2  POLYGON ((18.16207 48.56414, 18.16221 48.56409...  ...  1683/1, Skýcovská, Topoľčany, okres Topoľčany,...
+3  POLYGON ((18.16217 48.56426, 18.16224 48.56423...  ...  1683/3, Skýcovská, Topoľčany, okres Topoľčany,...
+
+[4 rows x 11 columns]
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.16242 48.56454, 18.16256 48.56448...  ...  1683/7, Skýcovská, Topoľčany, okres Topoľčany,...
+1  POLYGON ((18.16229 48.5644, 18.16244 48.56434,...  ...  1683/5, Skýcovská, Topoľčany, okres Topoľčany,...
+2  POLYGON ((18.16207 48.56414, 18.16221 48.56409...  ...  1683/1, Skýcovská, Topoľčany, okres Topoľčany,...
+3  POLYGON ((18.16217 48.56426, 18.16224 48.56423...  ...  1683/3, Skýcovská, Topoľčany, okres Topoľčany,...
+
+[4 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/562990/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/562990/analysis.json...
+
+--- Časy spracovania dokumentu 562990 ---
+  download_and_text   :   1.20 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.86 s
+  gis_processing      :   0.80 s
+  CELKOVÝ ČAS         :  13.87 s
+------------------------------------------
+Dokument 562990 bol úspešne spracovaný.

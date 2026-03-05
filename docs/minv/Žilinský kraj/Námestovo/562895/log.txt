@@ -1,0 +1,82 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=33&odbor=10&sekcia=uradna-tabula&subor=562895
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/562895/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/562895/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov, príslušný orgán štátnej správy podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z .z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vyhlášky MŽP SR č. 170/2021 Z.z. v znení neskorších predpisov, ktorou sa vykonáva zákon o ochrane prírody a krajiny o vydanie súhlasu na výrub 14 ks d'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '145/1995 Z. z. o správnych poplatkoch v znení neskorších predpisov. Toto rozhodnutie sa účastníkom konania doručuje podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/562895/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.015876499999999998}
+LLM_tokens: {"input": 11845, "output": 3318, "total": 15163, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/562895/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/562895/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Námestovo', 'obec': 'Vavrečka', 'katastralne_uzemia': [{'nazov': 'Vavrečka', 'parcely': [{'typ': 'E', 'cisla': ['793/1', '807/1', '817/1', '831/1', '833/1', '845', '872/1', '895/1', '905/1', '919/1', '943/1', '968/1']}]}], 'nazov_lokality': 'Breh potoka v extraviláne obce'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Námestovo', 'obec': 'Vavrečka', 'katastralne_uzemia': [{'nazov': 'Vavrečka', 'parcely': [{'typ': 'E', 'cisla': ['793/1', '807/1', '817/1', '831/1', '833/1', '845', '872/1', '895/1', '905/1', '919/1', '943/1', '968/1']}]}], 'nazov_lokality': 'Breh potoka v extraviláne obce'}
+ku_name:Vavrečka obec:Vavrečka okres:Námestovo kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: namestovo norm_obec: vavrecka norm_ku: vavrecka
+_get_nationalCadastralZoningReferences() found_ids: {'867489'}
+nationalCadastralZoningReferences: ['867489']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27867489_793%2F1.E%27%2C%27867489_807%2F1.E%27%2C%27867489_817%2F1.E%27%2C%27867489_831%2F1.E%27%2C%27867489_833%2F1.E%27%2C%27867489_845.E%27%2C%27867489_872%2F1.E%27%2C%27867489_895%2F1.E%27%2C%27867489_905%2F1.E%27%2C%27867489_919%2F1.E%27%2C%27867489_943%2F1.E%27%2C%27867489_968%2F1.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.35 s
+ku_gdfs: [       @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+
+[12 rows x 12 columns]]
+nazov_lokality: Breh potoka v extraviláne obce
+get_geometry_of_a_geoname nazov_lokality: Breh potoka v extraviláne obce
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Breh potoka v extraviláne obce, Vavrečka
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Breh potoka v extraviláne obce, Námestovo
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Breh potoka v extraviláne obce, Žilinský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Breh potoka v extraviláne obce
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.543'}
+
+[12 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/562895/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/562895/analysis.json...
+
+--- Časy spracovania dokumentu 562895 ---
+  download_and_text   :   1.35 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  24.09 s
+  gis_processing      :   6.36 s
+  CELKOVÝ ČAS         :  31.81 s
+------------------------------------------
+Dokument 562895 bol úspešne spracovaný.

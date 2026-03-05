@@ -1,0 +1,103 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=562841
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562841/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562841/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z. z. o posudzovaní  vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o posudzovaní zisťovaciemu konaniu.   Príslušný orgán  Okresný úrad Bratislava, odbor starostlivosti o životné  prostredie, oddelenie ochrany prírody'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe  starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov ako prísluš'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe  starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov ako prísluš'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o posudzovaní oznamuje, že doručením zámeru navrhovanej činnosti  navrhovateľom SEDUS Group a.s., Rusovská cesta 56, 851 01 Bratislava – mestská  časť'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '.  f)  Relevantné informácie sú sprístupnené v centrálnom informačnom systéme na stránke  www.enviroportal.sk  g)  Všetky úkony príslušného orgánu vo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ak sú v lehote určenej podľa 5 prvej vety doručené stanoviská  od iných subjektov ako je uvedené v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'príslušný orgán takéto nevyžiadané  stanoviská zohľadní a vysporiada sa s nimi v záväznom stanovisku zo zisťovacieho  konania.  h)  Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'sa na konania podľa tohto zákona vzťahuje všeobecný  predpis o správnom konaní okrem zisťovacieho konania podľa'.
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 363, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+                                                                ~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012671799999999999}
+LLM_tokens: {"input": 5672, "output": 3581, "total": 9253, "cached": 2016}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562841/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562841/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava III', 'obec': 'Bratislava – mestská časť Nové Mesto', 'katastralne_uzemia': [{'nazov': 'Vinohrady', 'parcely': [{'typ': 'C', 'cisla': ['19470/218', '19470/219', '19470/220', '19470/226', '19470/275', '19470/7', '19470/236', '19476/23', '19476/1']}, {'typ': 'E', 'cisla': ['19474/1', '22306']}]}], 'nazov_lokality': 'ul. Vlárska a ul. Pod Krásnou hôrkou'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava III', 'obec': 'Bratislava – mestská časť Nové Mesto', 'katastralne_uzemia': [{'nazov': 'Vinohrady', 'parcely': [{'typ': 'C', 'cisla': ['19470/218', '19470/219', '19470/220', '19470/226', '19470/275', '19470/7', '19470/236', '19476/23', '19476/1']}, {'typ': 'E', 'cisla': ['19474/1', '22306']}]}], 'nazov_lokality': 'ul. Vlárska a ul. Pod Krásnou hôrkou'}
+ku_name:Vinohrady obec:Bratislava – mestská časť Nové Mesto okres:Bratislava III kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iii norm_obec: bratislava – mestska cast nove mesto norm_ku: vinohrady
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iii norm_obec: None norm_ku: vinohrady
+_get_nationalCadastralZoningReferences() found_ids: {'804380'}
+nationalCadastralZoningReferences: ['804380']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27804380_19470%2F218.C%27%2C%27804380_19470%2F219.C%27%2C%27804380_19470%2F220.C%27%2C%27804380_19470%2F226.C%27%2C%27804380_19470%2F275.C%27%2C%27804380_19470%2F7.C%27%2C%27804380_19470%2F236.C%27%2C%27804380_19476%2F23.C%27%2C%27804380_19476%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.09 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27804380_19474%2F1.E%27%2C%27804380_22306.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.18 s
+[WARNING]: Nejednoznačne zadané katastrálne územie 'Vinohrady' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.
+ku_gdfs: [      @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+8  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+
+[9 rows x 12 columns],       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+
+[2 rows x 12 columns]]
+nazov_lokality: ul. Vlárska a ul. Pod Krásnou hôrkou
+get_geometry_of_a_geoname nazov_lokality: ul. Vlárska a ul. Pod Krásnou hôrkou
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ul. Vlárska a ul. Pod Krásnou hôrkou, Bratislava – mestská časť Nové Mesto
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ul. Vlárska a ul. Pod Krásnou hôrkou, Bratislava III
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ul. Vlárska a ul. Pod Krásnou hôrkou, Bratislavský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ul. Vlárska a ul. Pod Krásnou hôrkou
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+
+[11 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562841/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562841/analysis.json...
+
+--- Časy spracovania dokumentu 562841 ---
+  download_and_text   :   1.07 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  17.56 s
+  gis_processing      :  10.73 s
+  CELKOVÝ ČAS         :  29.36 s
+------------------------------------------
+Dokument 562841 bol úspešne spracovaný.

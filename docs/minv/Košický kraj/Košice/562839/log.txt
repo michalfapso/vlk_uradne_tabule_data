@@ -1,0 +1,160 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=65&odbor=10&sekcia=uradna-tabula&subor=562839
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/562839/orig.pdf
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 4 page images to gemini/gemini-3-flash-preview for OCR.
+LLM_cost: {"cost": 0.043928}
+LLM_tokens: {"input": 4444, "output": 14630, "total": 19074, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/562839/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona. Súčasne v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona upustil od ústneho pojednávania a miestneho zisťovania, pretože sú mu dobre známe miestne pomery staveniska. Zároveň okresný úrad up'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona doručuje formou  **verejnej vyhlášky**  známym účastníkom konania a osobám, ktoré majú vlastnícke alebo iné práva k pozemkom a stavb'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '272/2016 Z. z. * **Zastúpená osoba:** Ministerstvo vnútra Slovenskej republiky, SK IČO 00151866 * **Spôsob autorizácie:** kvalifikovaný elektronický p'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/562839/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0162337}
+LLM_tokens: {"input": 7637, "output": 4442, "total": 12079, "cached": 2024}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/562839/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/562839/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [{'nazov': 'Skladná', 'parcely': [{'typ': 'C', 'cisla': ['2628/3', '2628/1', '2628/12', '2628/5', '2628/7', '1108/37', '1108/48']}]}, {'nazov': 'Južné Mesto', 'parcely': [{'typ': 'C', 'cisla': ['3375/11', '3375/39', '3375/20', '3375/24', '3375/61', '3375/56', '3375/65', '3375/54', '3375/88', '3375/90', '4504', '4506', '4505/1', '3375/94', '3375/9', '3375/87', '3375/164', '4501', '4569/1', '3375/95', '4561/1', '4505/7', '4560/11', '3375/182']}, {'typ': 'E', 'cisla': ['809/1', '110', '21/1', '21/2', '21/3', '51/1', '71', '97/601', '80/2', '2-377', '2-344']}]}], 'nazov_lokality': 'Modernizácia električkových tratí MET v meste Košice, 2. etapa'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [{'nazov': 'Skladná', 'parcely': [{'typ': 'C', 'cisla': ['2628/3', '2628/1', '2628/12', '2628/5', '2628/7', '1108/37', '1108/48']}]}, {'nazov': 'Južné Mesto', 'parcely': [{'typ': 'C', 'cisla': ['3375/11', '3375/39', '3375/20', '3375/24', '3375/61', '3375/56', '3375/65', '3375/54', '3375/88', '3375/90', '4504', '4506', '4505/1', '3375/94', '3375/9', '3375/87', '3375/164', '4501', '4569/1', '3375/95', '4561/1', '4505/7', '4560/11', '3375/182']}, {'typ': 'E', 'cisla': ['809/1', '110', '21/1', '21/2', '21/3', '51/1', '71', '97/601', '80/2', '2-377', '2-344']}]}], 'nazov_lokality': 'Modernizácia električkových tratí MET v meste Košice, 2. etapa'}
+ku_name:Skladná obec:Košice okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: skladna
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: skladna
+_get_nationalCadastralZoningReferences() found_ids: {'881317'}
+nationalCadastralZoningReferences: ['881317']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27881317_2628%2F3.C%27%2C%27881317_2628%2F1.C%27%2C%27881317_2628%2F12.C%27%2C%27881317_2628%2F5.C%27%2C%27881317_2628%2F7.C%27%2C%27881317_1108%2F37.C%27%2C%27881317_1108%2F48.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.37 s
+ku_gdfs: [      @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+
+[7 rows x 12 columns]]
+ku_name:Južné Mesto obec:Košice okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: juzne mesto
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: juzne mesto
+_get_nationalCadastralZoningReferences() found_ids: {'827118'}
+nationalCadastralZoningReferences: ['827118']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27827118_3375%2F11.C%27%2C%27827118_3375%2F39.C%27%2C%27827118_3375%2F20.C%27%2C%27827118_3375%2F24.C%27%2C%27827118_3375%2F61.C%27%2C%27827118_3375%2F56.C%27%2C%27827118_3375%2F65.C%27%2C%27827118_3375%2F54.C%27%2C%27827118_3375%2F88.C%27%2C%27827118_3375%2F90.C%27%2C%27827118_4504.C%27%2C%27827118_4506.C%27%2C%27827118_4505%2F1.C%27%2C%27827118_3375%2F94.C%27%2C%27827118_3375%2F9.C%27%2C%27827118_3375%2F87.C%27%2C%27827118_3375%2F164.C%27%2C%27827118_4501.C%27%2C%27827118_4569%2F1.C%27%2C%27827118_3375%2F95.C%27%2C%27827118_4561%2F1.C%27%2C%27827118_4505%2F7.C%27%2C%27827118_4560%2F11.C%27%2C%27827118_3375%2F182.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.05 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27827118_809%2F1.E%27%2C%27827118_110.E%27%2C%27827118_21%2F1.E%27%2C%27827118_21%2F2.E%27%2C%27827118_21%2F3.E%27%2C%27827118_51%2F1.E%27%2C%27827118_71.E%27%2C%27827118_97%2F601.E%27%2C%27827118_80%2F2.E%27%2C%27827118_2-377.E%27%2C%27827118_2-344.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.34 s
+[WARNING]: Nejednoznačne zadané katastrálne územie 'Južné Mesto' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.
+ku_gdfs: [       @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+
+[24 rows x 12 columns],       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+8  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+
+[9 rows x 12 columns]]
+nazov_lokality: Modernizácia električkových tratí MET v meste Košice, 2. etapa
+get_geometry_of_a_geoname nazov_lokality: Modernizácia električkových tratí MET v meste Košice, 2. etapa
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Modernizácia električkových tratí MET v meste Košice, 2. etapa, Košice
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Modernizácia električkových tratí MET v meste Košice, 2. etapa, Košice
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Modernizácia električkových tratí MET v meste Košice, 2. etapa, Košický kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Modernizácia električkových tratí MET v meste Košice, 2. etapa
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+39  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+
+[40 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/562839/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/562839/analysis.json...
+
+--- Časy spracovania dokumentu 562839 ---
+  download_and_text   :  71.30 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  20.90 s
+  gis_processing      :  13.65 s
+  CELKOVÝ ČAS         : 105.85 s
+------------------------------------------
+Dokument 562839 bol úspešne spracovaný.

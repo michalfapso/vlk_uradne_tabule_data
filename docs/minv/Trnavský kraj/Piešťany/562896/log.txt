@@ -1,0 +1,96 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=8&odbor=10&sekcia=uradna-tabula&subor=562896
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/562896/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/562896/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z. z. o posudzovaní vplyvov na  životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zisťovaciemu  konaniu.     Príslušný orgán    Okresný úrad Piešťany  odbor starostlivosti o životné prostredie  Krajinská cesta 5053/13, 921 25 Piešťa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'oznamuje, že doručením zámeru navrhovanej činnosti  navrhovateľom Beethoven´s alley II, s. r. o., Teplická 2294/70, 921 01 Piešťany, IČO: 47 556  242'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'oznamuje, že doručením zámeru navrhovanej činnosti  navrhovateľom Beethoven´s alley II, s. r. o., Teplická 2294/70, 921 01 Piešťany, IČO: 47 556  242'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '25/2025 Z. z. Stavebný zákon  a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Stavebného zákona),  kolaudačné osvedčenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Stavebného zákona),  -  povolenie podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách  a o zmene a doplnení zákona  Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '.   f) Relevantné informácie sú sprístupnené v centrálnom informačnom systéme EIA/SEA na stránke  www.enviroportal.sk.   g) Všetky úkony príslušného o'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ak sú v lehote určenej podľa 5 prvej vety doručené stanoviská od iných  subjektov ako je uvedené v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'príslušný orgán takéto nevyžiadané stanoviská zohľadní  a vysporiada sa s nimi v záväznom stanovisku zo zisťovacieho konania.    h) Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'na konania podľa tohto zákona sa vzťahuje všeobecný predpis  o správnom konaní okrem zisťovacieho konania podľa'.
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 363, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+                                                                ~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010046699999999999}
+LLM_tokens: {"input": 5256, "output": 2775, "total": 8031, "cached": 2014}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/562896/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/562896/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Piešťany', 'obec': 'Banka', 'katastralne_uzemia': [{'nazov': 'Banka', 'parcely': [{'typ': 'C', 'cisla': ['2012/24', '2012/4', '2012/25']}]}], 'nazov_lokality': 'Červená veža'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Piešťany', 'obec': 'Banka', 'katastralne_uzemia': [{'nazov': 'Banka', 'parcely': [{'typ': 'C', 'cisla': ['2012/24', '2012/4', '2012/25']}]}], 'nazov_lokality': 'Červená veža'}
+ku_name:Banka obec:Banka okres:Piešťany kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: piestany norm_obec: banka norm_ku: banka
+_get_nationalCadastralZoningReferences() found_ids: {'800678'}
+nationalCadastralZoningReferences: ['800678']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27800678_2012%2F24.C%27%2C%27800678_2012%2F4.C%27%2C%27800678_2012%2F25.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.68 s
+ku_gdfs: [      @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1488'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1488'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1488'}
+
+[3 rows x 12 columns]]
+nazov_lokality: Červená veža
+get_geometry_of_a_geoname nazov_lokality: Červená veža
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Červená veža, Banka
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Červená veža, Piešťany
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Červená veža, Trnavský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Červená veža
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.91876 48.70402, 18.91877 48.70397...  ...  Červená veža, Pavla Križku, Kremnica, okres Ži...
+
+[1 rows x 11 columns]
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1488'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1488'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1488'}
+
+[3 rows x 12 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.91876 48.70402, 18.91877 48.70397...  ...  Červená veža, Pavla Križku, Kremnica, okres Ži...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/562896/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/562896/analysis.json...
+
+--- Časy spracovania dokumentu 562896 ---
+  download_and_text   :   1.11 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.92 s
+  gis_processing      :   5.85 s
+  CELKOVÝ ČAS         :  20.89 s
+------------------------------------------
+Dokument 562896 bol úspešne spracovaný.

@@ -1,0 +1,78 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=562840
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562840/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562840/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona. Okresný úrad Bratislava, odbor starostlivosti o životné prostredie, oddelenie štátnej správy vôd a vybraných zložiek životného prostre'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'NR SR č. 364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona. Investor: VGP Park Bratislava 2 a. s., Suché mýto 1, 811 03 Bratislava, IČO: 17 318 131. Miesto navrhovanej stavby: okres Senec, obec'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v sp'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako orgán štátnej vodnej sp'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona v y d á v a nasledovné záväzné stanovisko: Územie, na ktorom sa plánuje navrhovaná stavba „EUROPOLIS D61 LOGISTICS - LOGISTICKÝ PARK“'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '7/2010 Z. z. o ochrane pred povodňami a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách a vyhlášky MŽP SR č. 100/2005 Z. z. ktorou sa ustanovujú podrobnosti o zaobchádzaní s nebezpečnými látkami, o náležitostiach h'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona a takisto sa nevyžaduje posúdenie z pohľadu požiadaviek článku 4.7 Rámcovej smernice o vode'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona žiadateľ je oprávnený podať návrh na začatie konania o povolení činnosti, ak zo záväzného stanoviska vyplýva, že sa nevyžaduje výnimka'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona je záväzné stanovisko podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona podkladom ku konaniu podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona. Toto záväzné stanovisko sa v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona zverejní na webovom sídle okresného úradu v sídle kraja a na webovom sídle Ministerstva životného prostredia Slovenskej republiky po do'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona.] Identifikátor: OU-BA-OSZP2-2026/280781-0088275/2026 Autorizácia elektronického dokumentu Dokument autorizoval: Ministerstvo vnútra Sl'.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.025498}
+LLM_tokens: {"input": 19604, "output": 5232, "total": 24836, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562840/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562840/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Chorvátsky Grob', 'katastralne_uzemia': [{'nazov': 'Chorvátsky Grob', 'parcely': [{'typ': 'C', 'cisla': ['1704', '1705/1', '1705/2', '1705/4', '1705/5', '1706/1', '1707/1', '1708', '1707/5']}]}], 'nazov_lokality': 'EUROPOLIS D61 LOGISTICS – LOGISTICKÝ PARK'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Chorvátsky Grob', 'katastralne_uzemia': [{'nazov': 'Chorvátsky Grob', 'parcely': [{'typ': 'C', 'cisla': ['1704', '1705/1', '1705/2', '1705/4', '1705/5', '1706/1', '1707/1', '1708', '1707/5']}]}], 'nazov_lokality': 'EUROPOLIS D61 LOGISTICS – LOGISTICKÝ PARK'}
+ku_name:Chorvátsky Grob obec:Chorvátsky Grob okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: chorvatsky grob norm_ku: chorvatsky grob
+_get_nationalCadastralZoningReferences() found_ids: {'820865'}
+nationalCadastralZoningReferences: ['820865']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27820865_1704.C%27%2C%27820865_1705%2F1.C%27%2C%27820865_1705%2F2.C%27%2C%27820865_1705%2F4.C%27%2C%27820865_1705%2F5.C%27%2C%27820865_1706%2F1.C%27%2C%27820865_1707%2F1.C%27%2C%27820865_1708.C%27%2C%27820865_1707%2F5.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.88 s
+ku_gdfs: [      @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+
+[5 rows x 12 columns]]
+nazov_lokality: EUROPOLIS D61 LOGISTICS – LOGISTICKÝ PARK
+get_geometry_of_a_geoname nazov_lokality: EUROPOLIS D61 LOGISTICS – LOGISTICKÝ PARK
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=EUROPOLIS D61 LOGISTICS – LOGISTICKÝ PARK, Chorvátsky Grob
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=EUROPOLIS D61 LOGISTICS – LOGISTICKÝ PARK, Senec
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=EUROPOLIS D61 LOGISTICS – LOGISTICKÝ PARK, Bratislavský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=EUROPOLIS D61 LOGISTICS – LOGISTICKÝ PARK
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+
+[5 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562840/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562840/analysis.json...
+
+--- Časy spracovania dokumentu 562840 ---
+  download_and_text   :   1.45 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  36.52 s
+  gis_processing      :   6.92 s
+  CELKOVÝ ČAS         :  44.89 s
+------------------------------------------
+Dokument 562840 bol úspešne spracovaný.

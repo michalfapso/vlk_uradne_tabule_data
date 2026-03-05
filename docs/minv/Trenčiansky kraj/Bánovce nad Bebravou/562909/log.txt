@@ -1,0 +1,118 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=13&odbor=10&sekcia=uradna-tabula&subor=562909
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/562909/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/562909/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'číslo 364/2004 Z. z. o vodách a o zmene zákona SNR číslo 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona začatie vodoprávneho konania vo veci povolenia uvedenej vodnej stavby dotknutým orgánom a účastníkom konania. Nakoľko to povaha veci'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/562909/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01262675}
+LLM_tokens: {"input": 5533, "output": 3589, "total": 9122, "cached": 2015}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/562909/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/562909/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Bánovce nad Bebravou', 'obec': 'Chudá Lehota', 'katastralne_uzemia': [{'nazov': 'Chudá Lehota', 'parcely': [{'typ': 'C', 'cisla': ['398/11', '398/14', '398/15', '398/16', '398/17', '398/18', '398/19', '398/20', '398/21', '398/22', '398/23', '398/24', '398/25', '398/26', '398/27', '398/28', '398/29', '398/30', '398/31', '398/32', '398/33', '398/34', '398/35', '398/36', '398/37', '407/1', '406/15']}, {'typ': 'E', 'cisla': ['406/16']}]}], 'nazov_lokality': 'IBV Chudá Lehota'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Bánovce nad Bebravou', 'obec': 'Chudá Lehota', 'katastralne_uzemia': [{'nazov': 'Chudá Lehota', 'parcely': [{'typ': 'C', 'cisla': ['398/11', '398/14', '398/15', '398/16', '398/17', '398/18', '398/19', '398/20', '398/21', '398/22', '398/23', '398/24', '398/25', '398/26', '398/27', '398/28', '398/29', '398/30', '398/31', '398/32', '398/33', '398/34', '398/35', '398/36', '398/37', '407/1', '406/15']}, {'typ': 'E', 'cisla': ['406/16']}]}], 'nazov_lokality': 'IBV Chudá Lehota'}
+ku_name:Chudá Lehota obec:Chudá Lehota okres:Bánovce nad Bebravou kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: banovce nad bebravou norm_obec: chuda lehota norm_ku: chuda lehota
+_get_nationalCadastralZoningReferences() found_ids: {'821047'}
+nationalCadastralZoningReferences: ['821047']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27821047_398%2F11.C%27%2C%27821047_398%2F14.C%27%2C%27821047_398%2F15.C%27%2C%27821047_398%2F16.C%27%2C%27821047_398%2F17.C%27%2C%27821047_398%2F18.C%27%2C%27821047_398%2F19.C%27%2C%27821047_398%2F20.C%27%2C%27821047_398%2F21.C%27%2C%27821047_398%2F22.C%27%2C%27821047_398%2F23.C%27%2C%27821047_398%2F24.C%27%2C%27821047_398%2F25.C%27%2C%27821047_398%2F26.C%27%2C%27821047_398%2F27.C%27%2C%27821047_398%2F28.C%27%2C%27821047_398%2F29.C%27%2C%27821047_398%2F30.C%27%2C%27821047_398%2F31.C%27%2C%27821047_398%2F32.C%27%2C%27821047_398%2F33.C%27%2C%27821047_398%2F34.C%27%2C%27821047_398%2F35.C%27%2C%27821047_398%2F36.C%27%2C%27821047_398%2F37.C%27%2C%27821047_407%2F1.C%27%2C%27821047_406%2F15.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.92 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27821047_406%2F16.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.91 s
+[WARNING]: Nejednoznačne zadané katastrálne územie 'Chudá Lehota' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.
+ku_gdfs: [       @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+
+[27 rows x 12 columns],       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+
+[1 rows x 12 columns]]
+nazov_lokality: IBV Chudá Lehota
+get_geometry_of_a_geoname nazov_lokality: IBV Chudá Lehota
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=IBV Chudá Lehota, Chudá Lehota
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=IBV Chudá Lehota, Bánovce nad Bebravou
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=IBV Chudá Lehota, Trenčiansky kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=IBV Chudá Lehota
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.2159'}
+
+[28 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/562909/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/562909/analysis.json...
+
+--- Časy spracovania dokumentu 562909 ---
+  download_and_text   :   1.55 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  17.47 s
+  gis_processing      :   9.97 s
+  CELKOVÝ ČAS         :  29.00 s
+------------------------------------------
+Dokument 562909 bol úspešne spracovaný.

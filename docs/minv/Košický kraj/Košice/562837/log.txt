@@ -1,0 +1,81 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=65&odbor=10&sekcia=uradna-tabula&subor=562837
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/562837/orig.pdf
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 4 page images to gemini/gemini-3-flash-preview for OCR.
+LLM_cost: {"cost": 0.031496}
+LLM_tokens: {"input": 4444, "output": 10486, "total": 14930, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/562837/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona. Súčasne v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona upustil od ústneho pojednávania a miestneho zisťovania, pretože sú mu dobre známe miestne pomery staveniska. Zároveň okresný úrad up'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona doručuje formou  **verejnej vyhlášky**  známym účastníkom konania a osobám, ktoré majú vlastnícke alebo iné práva k pozemkom a stavb'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '272/2016 Z. z. | | **Zastúpená osoba:** | Ministerstvo vnútra Slovenskej republiky<br>SK IČO 00151866 | | **Spôsob autorizácie:** | kvalifikovaný elek'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/562837/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014353200000000002}
+LLM_tokens: {"input": 7518, "output": 3835, "total": 11353, "cached": 2024}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/562837/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/562837/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [{'nazov': 'Južné Mesto', 'parcely': [{'typ': 'C', 'cisla': ['384/9', '3496/2', '384/74', '3496/52']}, {'typ': 'E', 'cisla': ['7627/601', '7628/1']}]}], 'nazov_lokality': 'Modernizácia električkových tratí MET v meste Košice, 2. etapa'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [{'nazov': 'Južné Mesto', 'parcely': [{'typ': 'C', 'cisla': ['384/9', '3496/2', '384/74', '3496/52']}, {'typ': 'E', 'cisla': ['7627/601', '7628/1']}]}], 'nazov_lokality': 'Modernizácia električkových tratí MET v meste Košice, 2. etapa'}
+ku_name:Južné Mesto obec:Košice okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: juzne mesto
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: juzne mesto
+_get_nationalCadastralZoningReferences() found_ids: {'827118'}
+nationalCadastralZoningReferences: ['827118']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27827118_384%2F9.C%27%2C%27827118_3496%2F2.C%27%2C%27827118_384%2F74.C%27%2C%27827118_3496%2F52.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.03 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27827118_7627%2F601.E%27%2C%27827118_7628%2F1.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.19 s
+[WARNING]: Nejednoznačne zadané katastrálne územie 'Južné Mesto' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.
+ku_gdfs: [      @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+
+[4 rows x 12 columns],       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+
+[2 rows x 12 columns]]
+nazov_lokality: Modernizácia električkových tratí MET v meste Košice, 2. etapa
+get_geometry_of_a_geoname nazov_lokality: Modernizácia električkových tratí MET v meste Košice, 2. etapa
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Modernizácia električkových tratí MET v meste Košice, 2. etapa, Košice
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Modernizácia električkových tratí MET v meste Košice, 2. etapa, Košice
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Modernizácia električkových tratí MET v meste Košice, 2. etapa, Košický kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Modernizácia električkových tratí MET v meste Košice, 2. etapa
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.769'}
+
+[6 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/562837/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/562837/analysis.json...
+
+--- Časy spracovania dokumentu 562837 ---
+  download_and_text   :  50.05 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  18.60 s
+  gis_processing      :   7.87 s
+  CELKOVÝ ČAS         :  76.52 s
+------------------------------------------
+Dokument 562837 bol úspešne spracovaný.
