@@ -1,0 +1,46 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=12&odbor=10&sekcia=uradna-tabula&subor=562699
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/562699/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/562699/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'číslo 543/2002 Z. z. o ochrane prírody a krajiny v znení  neskorších predpisov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/562699/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008598}
+LLM_tokens: {"input": 3714, "output": 2547, "total": 6261, "cached": 2000}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/562699/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/562699/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Trenčín', 'katastralne_uzemia': [{'nazov': 'Trenčín', 'parcely': [{'typ': 'C', 'cisla': ['1564/38']}]}], 'nazov_lokality': None}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Trenčín', 'katastralne_uzemia': [{'nazov': 'Trenčín', 'parcely': [{'typ': 'C', 'cisla': ['1564/38']}]}], 'nazov_lokality': None}
+ku_name:Trenčín obec:Trenčín okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: trencin norm_ku: trencin
+_get_nationalCadastralZoningReferences() found_ids: {'864528'}
+nationalCadastralZoningReferences: ['864528']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27864528_1564%2F38.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.35 s
+ku_gdfs: [      @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+
+[1 rows x 12 columns]]
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/562699/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/562699/analysis.json...
+
+--- Časy spracovania dokumentu 562699 ---
+  download_and_text   :   1.48 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.47 s
+  gis_processing      :   3.65 s
+  CELKOVÝ ČAS         :  17.61 s
+------------------------------------------
+Dokument 562699 bol úspešne spracovaný.

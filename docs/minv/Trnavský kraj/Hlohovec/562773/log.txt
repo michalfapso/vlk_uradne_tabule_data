@@ -1,0 +1,138 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=10&odbor=10&sekcia=uradna-tabula&subor=562773
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/562773/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/562773/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako  prísl'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách  a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení  neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní            a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '25/2025 Zb. stavebný zákon a o zmene                 a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona  začatie konania o predĺžení platnosti povolenia na uskutočnenie vodnej stavby dotknutým  orgánom a účastníkom konania, a pretože sú'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného  zákona od miestneho zisťovania a ústneho pojednávania.    Účastníci konania môžu uplatniť svoje námietky najneskôr do 7 pracovných dní odo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona.  Oznámenie musí byť vyvesené 15 dní na úradnej tabuli správneho orgánu a príslušnej obce,  a súčasne sa zverejní iným spôsobom v mi'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona  5. Obec Madunice, Obecný úrad Madunice, P. O. Hviezdoslava 8/368, 922 42 Madunice'.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01259625}
+LLM_tokens: {"input": 5490, "output": 3586, "total": 9076, "cached": 2015}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/562773/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/562773/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Hlohovec', 'obec': 'Madunice', 'katastralne_uzemia': [{'nazov': 'Madunice', 'parcely': [{'typ': 'C', 'cisla': ['1826/1', '1828/4', '1828/5', '1828/6', '1828/7', '1828/8', '1780/59', '1780/60', '1780/61', '1780/62', '1780/63', '1780/64', '1780/65', '1780/66', '1780/16', '1780/67', '1780/2', '1780/68', '1780/69', '1780/70', '1780/71', '1780/72', '1780/73', '1780/58', '1780/74', '1780/75', '1780/76', '1780/19', '1780/77', '1780/78', '1780/79', '1780/80', '1774/168', '1774/167', '1774/41', '1774/39', '1780/1', '1780/21', '1780/5', '1773/26']}]}], 'nazov_lokality': 'Hollého a Záhradná ulica'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Hlohovec', 'obec': 'Madunice', 'katastralne_uzemia': [{'nazov': 'Madunice', 'parcely': [{'typ': 'C', 'cisla': ['1826/1', '1828/4', '1828/5', '1828/6', '1828/7', '1828/8', '1780/59', '1780/60', '1780/61', '1780/62', '1780/63', '1780/64', '1780/65', '1780/66', '1780/16', '1780/67', '1780/2', '1780/68', '1780/69', '1780/70', '1780/71', '1780/72', '1780/73', '1780/58', '1780/74', '1780/75', '1780/76', '1780/19', '1780/77', '1780/78', '1780/79', '1780/80', '1774/168', '1774/167', '1774/41', '1774/39', '1780/1', '1780/21', '1780/5', '1773/26']}]}], 'nazov_lokality': 'Hollého a Záhradná ulica'}
+ku_name:Madunice obec:Madunice okres:Hlohovec kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: hlohovec norm_obec: madunice norm_ku: madunice
+_get_nationalCadastralZoningReferences() found_ids: {'834670'}
+nationalCadastralZoningReferences: ['834670']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27834670_1826%2F1.C%27%2C%27834670_1828%2F4.C%27%2C%27834670_1828%2F5.C%27%2C%27834670_1828%2F6.C%27%2C%27834670_1828%2F7.C%27%2C%27834670_1828%2F8.C%27%2C%27834670_1780%2F59.C%27%2C%27834670_1780%2F60.C%27%2C%27834670_1780%2F61.C%27%2C%27834670_1780%2F62.C%27%2C%27834670_1780%2F63.C%27%2C%27834670_1780%2F64.C%27%2C%27834670_1780%2F65.C%27%2C%27834670_1780%2F66.C%27%2C%27834670_1780%2F16.C%27%2C%27834670_1780%2F67.C%27%2C%27834670_1780%2F2.C%27%2C%27834670_1780%2F68.C%27%2C%27834670_1780%2F69.C%27%2C%27834670_1780%2F70.C%27%2C%27834670_1780%2F71.C%27%2C%27834670_1780%2F72.C%27%2C%27834670_1780%2F73.C%27%2C%27834670_1780%2F58.C%27%2C%27834670_1780%2F74.C%27%2C%27834670_1780%2F75.C%27%2C%27834670_1780%2F76.C%27%2C%27834670_1780%2F19.C%27%2C%27834670_1780%2F77.C%27%2C%27834670_1780%2F78.C%27%2C%27834670_1780%2F79.C%27%2C%27834670_1780%2F80.C%27%2C%27834670_1774%2F168.C%27%2C%27834670_1774%2F167.C%27%2C%27834670_1774%2F41.C%27%2C%27834670_1774%2F39.C%27%2C%27834670_1780%2F1.C%27%2C%27834670_1780%2F21.C%27%2C%27834670_1780%2F5.C%27%2C%27834670_1773%2F26.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.02 s
+ku_gdfs: [       @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+
+[39 rows x 12 columns]]
+nazov_lokality: Hollého a Záhradná ulica
+get_geometry_of_a_geoname nazov_lokality: Hollého a Záhradná ulica
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Hollého a Záhradná ulica, Madunice
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Hollého a Záhradná ulica, Hlohovec
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Hollého a Záhradná ulica, Trnavský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Hollého a Záhradná ulica
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.702'}
+
+[39 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/562773/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/562773/analysis.json...
+
+--- Časy spracovania dokumentu 562773 ---
+  download_and_text   :   1.18 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.41 s
+  gis_processing      :   7.22 s
+  CELKOVÝ ČAS         :  24.81 s
+------------------------------------------
+Dokument 562773 bol úspešne spracovaný.

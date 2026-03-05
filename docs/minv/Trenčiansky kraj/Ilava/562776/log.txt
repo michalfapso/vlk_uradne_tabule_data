@@ -1,0 +1,108 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=17&odbor=10&sekcia=uradna-tabula&subor=562776
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/562776/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/562776/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'NR SR č. 364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona, neobsahuje údaje, podklady a dokumenty potrebné na posúdenie vplyvu žiadaného rozhodnutia na vodné pomery a žiadosť neobsahuje údaje p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Stavebného zákona v znení neskorších predpisov žiadosť na začatie konania'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'OU-IL-OSZP-2026/000117-0002241/2026 3 / 5 - doplnenie správy o prerokovaní stavebného zámeru o záväzné stanovisko orgánu územného plánovania k stavebn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Stavebného zákona ku stavebnému pozemku KN-E parc. č. 7214/501 katastrálne územie Malé Košecké Podhradie, na ktorom sa majú uskutočniť stavebné práce'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona, v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona. Dňa 26. 02. 2026 bolo na Okresný úrad Ilava, odbor starostlivosti o životné prostredie doručené doplnenie podania, chýbajúce doklady p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '200/2022 Z. z. - správa o prerokovaní stavebného zámeru s vyhodnotením všetkých vyjadrení a stanovísk - stanovisko vlastníka stavebného pozemku KN-E p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Stavebného zákona, nakoľko si žiaden dotknutý orgán ani dotknutá právnická osoba nevyhradila právo vydať doložku súladu. Nakoľko je podaná žiadosť úpl'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v sú'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Stavebného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Stavebného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Stavebného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Stavebného zákona správny orgán nenariaďuje ústne pojednávanie, nakoľko sú mu dobre známe pomery staveniska a žiadosť poskytuje dostatočný podklad pre'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona. Týmto oznámením Okresný úrad Ilava, odbor starostlivosti o životné prostredie v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona správny orgán neprihliadne na návrhy, pripomienky a námietky účastníkov konania, ktoré sledujú iný cieľ ako ochranu práv a právom ch'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Stavebného zákona. Doručenie verejnou vyhláškou sa vykoná tak, že sa písomnosť vyvesí po dobu 15 dní na úradnej tabuli obce Košecké Podhradie a Okresn'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/562776/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0163105}
+LLM_tokens: {"input": 10385, "output": 3706, "total": 14091, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/562776/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/562776/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Košecké Podhradie', 'katastralne_uzemia': [{'nazov': 'Malé Košecké Podhradie', 'parcely': [{'typ': 'C', 'cisla': ['442/1', '584/3', '584/2', '724/1', '583/1']}, {'typ': 'E', 'cisla': ['5478/15', '7214/502', '7165/5', '7165/6', '7168/1', '7214/501']}]}], 'nazov_lokality': 'Háj'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Košecké Podhradie', 'katastralne_uzemia': [{'nazov': 'Malé Košecké Podhradie', 'parcely': [{'typ': 'C', 'cisla': ['442/1', '584/3', '584/2', '724/1', '583/1']}, {'typ': 'E', 'cisla': ['5478/15', '7214/502', '7165/5', '7165/6', '7168/1', '7214/501']}]}], 'nazov_lokality': 'Háj'}
+ku_name:Malé Košecké Podhradie obec:Košecké Podhradie okres:Ilava kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: kosecke podhradie norm_ku: male kosecke podhradie
+_get_nationalCadastralZoningReferences() found_ids: {'835552'}
+nationalCadastralZoningReferences: ['835552']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27835552_442%2F1.C%27%2C%27835552_584%2F3.C%27%2C%27835552_584%2F2.C%27%2C%27835552_724%2F1.C%27%2C%27835552_583%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.27 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27835552_5478%2F15.E%27%2C%27835552_7214%2F502.E%27%2C%27835552_7165%2F5.E%27%2C%27835552_7165%2F6.E%27%2C%27835552_7168%2F1.E%27%2C%27835552_7214%2F501.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.63 s
+[WARNING]: Nejednoznačne zadané katastrálne územie 'Malé Košecké Podhradie' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.
+ku_gdfs: [      @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+
+[5 rows x 12 columns],       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+
+[6 rows x 12 columns]]
+nazov_lokality: Háj
+get_geometry_of_a_geoname nazov_lokality: Háj
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Háj, Košecké Podhradie
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.2847 48.96753, 18.28522 48.96736,...  ...  Háj, Malé Košecké Podhradie, Košecké Podhradie...
+
+[1 rows x 11 columns]
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+
+[11 rows x 12 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.2847 48.96753, 18.28522 48.96736,...  ...  Háj, Malé Košecké Podhradie, Košecké Podhradie...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/562776/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/562776/analysis.json...
+
+--- Časy spracovania dokumentu 562776 ---
+  download_and_text   :   1.23 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  23.87 s
+  gis_processing      :   8.59 s
+  CELKOVÝ ČAS         :  33.69 s
+------------------------------------------
+Dokument 562776 bol úspešne spracovaný.

@@ -1,0 +1,91 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=32&odbor=10&sekcia=uradna-tabula&subor=562697
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/562697/orig.pdf
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 3 page images to gemini/gemini-3-flash-preview for OCR.
+LLM_cost: {"cost": 0.018536}
+LLM_tokens: {"input": 3352, "output": 6166, "total": 9518, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/562697/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zák. č. 50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších právnych predpisov**  Okresný úrad Martin, odbor starostlivosti o živo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zák. č. 364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zák. č. 364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zák. č. 50/1976 Zb. o územnom plánovaní a stavebnom poriadku v platnom znení'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zák. č. 50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších právnych predpisov zverejňuje kópiu žiadosti spoločnosti **Vrútky Inve'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z.z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z.z.**  **I./ Žiadateľ / stavebník, odberateľ /** **Meno, priezvisko, titul/ názov firmy/ VRÚTKY INVEST s.r.o., STAROMESTSKÁ 3, 811 03 BRATIS'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'nariadenia vlády č. 296/2005 Z.z.) čas dotoku stokovou sieťou k príslušnému odľahčovaciemu objektu a vypočítaný počet odľahčení, 7. spôsob'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'tohoto článku 1. vyznačenie odľahčovacích stôk a ich vyústených objetov do recipientu, vrátane uvedenia názvu recipientu c./ Stanovisko príslušného po'.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01097085}
+LLM_tokens: {"input": 5895, "output": 2977, "total": 8872, "cached": 2017}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/562697/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/562697/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': 'Vrútky', 'katastralne_uzemia': [{'nazov': 'Vrútky', 'parcely': [{'typ': 'C', 'cisla': ['808/1', '808/3', '808/4']}]}, {'nazov': 'Priekopa', 'parcely': [{'typ': 'C', 'cisla': ['1190/69', '1190/70', '1190/71', '1190/75']}]}], 'nazov_lokality': 'Bytové domy Vrútky'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': 'Vrútky', 'katastralne_uzemia': [{'nazov': 'Vrútky', 'parcely': [{'typ': 'C', 'cisla': ['808/1', '808/3', '808/4']}]}, {'nazov': 'Priekopa', 'parcely': [{'typ': 'C', 'cisla': ['1190/69', '1190/70', '1190/71', '1190/75']}]}], 'nazov_lokality': 'Bytové domy Vrútky'}
+ku_name:Vrútky obec:Vrútky okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: vrutky norm_ku: vrutky
+_get_nationalCadastralZoningReferences() found_ids: {'870650'}
+nationalCadastralZoningReferences: ['870650']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27870650_808%2F1.C%27%2C%27870650_808%2F3.C%27%2C%27870650_808%2F4.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.05 s
+ku_gdfs: [      @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.111'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.111'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.111'}
+
+[3 rows x 12 columns]]
+ku_name:Priekopa obec:Vrútky okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: vrutky norm_ku: priekopa
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: priekopa
+_get_nationalCadastralZoningReferences() found_ids: {'849839'}
+nationalCadastralZoningReferences: ['849839']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27849839_1190%2F69.C%27%2C%27849839_1190%2F70.C%27%2C%27849839_1190%2F71.C%27%2C%27849839_1190%2F75.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.05 s
+ku_gdfs: [      @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2821'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2821'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2821'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2821'}
+
+[4 rows x 12 columns]]
+nazov_lokality: Bytové domy Vrútky
+get_geometry_of_a_geoname nazov_lokality: Bytové domy Vrútky
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bytové domy Vrútky, Vrútky
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bytové domy Vrútky, Martin
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bytové domy Vrútky, Žilinský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bytové domy Vrútky
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...   {'@href': '#auAdmUnitS.111'}
+1  CadastralParcel  ...   {'@href': '#auAdmUnitS.111'}
+2  CadastralParcel  ...   {'@href': '#auAdmUnitS.111'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2821'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.2821'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.2821'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.2821'}
+
+[7 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/562697/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/562697/analysis.json...
+
+--- Časy spracovania dokumentu 562697 ---
+  download_and_text   :  32.95 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.63 s
+  gis_processing      :   8.51 s
+  CELKOVÝ ČAS         :  56.09 s
+------------------------------------------
+Dokument 562697 bol úspešne spracovaný.

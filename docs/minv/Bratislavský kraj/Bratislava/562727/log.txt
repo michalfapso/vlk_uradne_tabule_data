@@ -1,0 +1,53 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=562727
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562727/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562727/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu ', združenie s právnou subjektivitou, ktorého predmetom činnosti je najmenej jeden rok ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu ', a ktoré a ktoré písomne oznámi svoju účasť v konaní v lehote určenej orgánom ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'sa považuje za zúčastnenú osobu.           Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu ', združenie podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'uvedie v písomnom oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo  organizácie, meno a priezvisko osoby oprávnenej konať v jeho'.
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 363, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+                                                                ~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.016640349999999998}
+LLM_tokens: {"input": 3482, "output": 5266, "total": 8748, "cached": 1997}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562727/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/562727/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [], 'nazov_lokality': 'Devínska Kobyla, Dúbravská Hlavica'}
+nazov_lokality: Devínska Kobyla, Dúbravská Hlavica
+get_geometry_of_a_geoname nazov_lokality: Devínska Kobyla, Dúbravská Hlavica
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Devínska Kobyla, Dúbravská Hlavica, Bratislava
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Devínska Kobyla, Dúbravská Hlavica, Bratislava
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Devínska Kobyla, Dúbravská Hlavica, Bratislavský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Devínska Kobyla, Dúbravská Hlavica
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 562727 ---
+  download_and_text   :   1.07 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  25.87 s
+  gis_processing      :   1.79 s
+  CELKOVÝ ČAS         :  28.73 s
+------------------------------------------
+Dokument 562727 bol úspešne spracovaný.

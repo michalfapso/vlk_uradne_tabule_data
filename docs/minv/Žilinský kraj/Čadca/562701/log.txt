@@ -1,0 +1,94 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=29&odbor=10&sekcia=uradna-tabula&subor=562701
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/562701/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/562701/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách Výrok Okresný úrad Čadca, odbor starostlivosti o životné prostredie, ako príslušný orgán štátnej správy podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie v znení a doplnení niektorých zákonov, orgán štátnej vodnej správy podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších zmien a doplnení'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách, zmenu vodnej stavby „SKV Žilina – Čadca – ul. Palárikova – rekonštrukcia vodovodu“ pred jej dokončením, ktorá spočíva v zmene'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'sadzobníka správnych poplatkov. Správny poplatok v hodnote 50,00 eur bol uhradený bankovým prevodom. KÓPIA Číslo spisu Por.č.záznamu Číslo záznamu Dát'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona v predmetnej veci upustil od miestneho zisťovania a od ústneho pojednávania. V oznámení vyzval dotknutých účastníkov konania a dotknuté'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/562701/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011005099999999999}
+LLM_tokens: {"input": 6850, "output": 2830, "total": 9680, "cached": 2022}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/562701/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/562701/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Čadca', 'obec': 'Čadca', 'katastralne_uzemia': [{'nazov': 'Čadca', 'parcely': [{'typ': 'C', 'cisla': ['4224', '4436/1', '3462', '3438/1', '3290/1', '1838/1', '3425', '3290/3', '3435/6', '3435/1']}]}], 'nazov_lokality': 'ul. Palárikova'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Čadca', 'obec': 'Čadca', 'katastralne_uzemia': [{'nazov': 'Čadca', 'parcely': [{'typ': 'C', 'cisla': ['4224', '4436/1', '3462', '3438/1', '3290/1', '1838/1', '3425', '3290/3', '3435/6', '3435/1']}]}], 'nazov_lokality': 'ul. Palárikova'}
+ku_name:Čadca obec:Čadca okres:Čadca kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: cadca norm_obec: cadca norm_ku: cadca
+_get_nationalCadastralZoningReferences() found_ids: {'808393'}
+nationalCadastralZoningReferences: ['808393']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27808393_4224.C%27%2C%27808393_4436%2F1.C%27%2C%27808393_3462.C%27%2C%27808393_3438%2F1.C%27%2C%27808393_3290%2F1.C%27%2C%27808393_1838%2F1.C%27%2C%27808393_3425.C%27%2C%27808393_3290%2F3.C%27%2C%27808393_3435%2F6.C%27%2C%27808393_3435%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.87 s
+ku_gdfs: [      @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+8  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+
+[9 rows x 12 columns]]
+nazov_lokality: ul. Palárikova
+get_geometry_of_a_geoname nazov_lokality: ul. Palárikova
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ul. Palárikova, Čadca
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ul. Palárikova, Čadca
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ul. Palárikova, Žilinský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ul. Palárikova
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.10913 48.15796, 17.10917 48.15795...  ...  Výbeh psov - Palárikova ulica, Palárikova, Hir...
+
+[1 rows x 11 columns]
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+8  CadastralParcel  ...  {'@href': '#auAdmUnitS.444'}
+
+[9 rows x 12 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.10913 48.15796, 17.10917 48.15795...  ...  Výbeh psov - Palárikova ulica, Palárikova, Hir...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/562701/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/562701/analysis.json...
+
+--- Časy spracovania dokumentu 562701 ---
+  download_and_text   :   1.29 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.96 s
+  gis_processing      :   6.34 s
+  CELKOVÝ ČAS         :  21.59 s
+------------------------------------------
+Dokument 562701 bol úspešne spracovaný.

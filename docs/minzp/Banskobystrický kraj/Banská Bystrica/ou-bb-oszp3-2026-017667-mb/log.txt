@@ -1,0 +1,43 @@
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-017667-mb/orig.html
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-017667-mb/text.txt...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-017667-mb/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0090916}
+LLM_tokens: {"input": 4928, "output": 2511, "total": 7439, "cached": 2012}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-017667-mb/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-017667-mb/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Malachov', 'katastralne_uzemia': [{'nazov': 'Malachov', 'parcely': [{'typ': 'C', 'cisla': ['1399/3']}]}], 'nazov_lokality': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Malachov', 'katastralne_uzemia': [{'nazov': 'Malachov', 'parcely': [{'typ': 'C', 'cisla': ['1399/3']}]}], 'nazov_lokality': None}
+ku_name:Malachov obec:Malachov okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: malachov norm_ku: malachov
+_get_nationalCadastralZoningReferences() found_ids: {'801372'}
+nationalCadastralZoningReferences: ['801372']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27801372_1399%2F3.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.43 s
+ku_gdfs: [      @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1662'}
+
+[1 rows x 12 columns]]
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1662'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-017667-mb/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-017667-mb/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp3-2026-017667-mb ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.52 s
+  gis_processing      :   3.64 s
+  CELKOVÝ ČAS         :  16.75 s
+------------------------------------------
+Dokument ou-bb-oszp3-2026-017667-mb bol úspešne spracovaný.

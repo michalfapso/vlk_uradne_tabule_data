@@ -1,0 +1,70 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=7&odbor=10&sekcia=uradna-tabula&subor=562687
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/562687/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/562687/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'NR SR č. 364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o  priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'NR SR č. 364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o  priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona     oznamuje                                                                                                                          v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona začatie konania o povolení vodnej stavby a  súčasne, vzhľadom nato, že sú mu dobre známe pomery stavby     upúšťa     podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona od miestneho zisťovania a ústneho pojednávania.  Do podkladov rozhodnutia možno nahliadnuť na tunajšom úrade'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/562687/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00660475}
+LLM_tokens: {"input": 4202, "output": 1802, "total": 6004, "cached": 2005}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/562687/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/562687/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Dolná Streda', 'katastralne_uzemia': [{'nazov': 'Dolná Streda', 'parcely': [{'typ': 'C', 'cisla': ['751/4', '751/5', '797/4', '810', '799/2']}]}], 'nazov_lokality': 'IBV Dolná Streda, Etapa I.'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Dolná Streda', 'katastralne_uzemia': [{'nazov': 'Dolná Streda', 'parcely': [{'typ': 'C', 'cisla': ['751/4', '751/5', '797/4', '810', '799/2']}]}], 'nazov_lokality': 'IBV Dolná Streda, Etapa I.'}
+ku_name:Dolná Streda obec:Dolná Streda okres:Galanta kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: dolna streda norm_ku: dolna streda
+_get_nationalCadastralZoningReferences() found_ids: {'811777'}
+nationalCadastralZoningReferences: ['811777']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27811777_751%2F4.C%27%2C%27811777_751%2F5.C%27%2C%27811777_797%2F4.C%27%2C%27811777_810.C%27%2C%27811777_799%2F2.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.00 s
+ku_gdfs: [      @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1474'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1474'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1474'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1474'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.1474'}
+
+[5 rows x 12 columns]]
+nazov_lokality: IBV Dolná Streda, Etapa I.
+get_geometry_of_a_geoname nazov_lokality: IBV Dolná Streda, Etapa I.
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=IBV Dolná Streda, Etapa I., Dolná Streda
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=IBV Dolná Streda, Etapa I., Galanta
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=IBV Dolná Streda, Etapa I., Trnavský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=IBV Dolná Streda, Etapa I.
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1474'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1474'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1474'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1474'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.1474'}
+
+[5 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/562687/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/562687/analysis.json...
+
+--- Časy spracovania dokumentu 562687 ---
+  download_and_text   :   1.18 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   9.03 s
+  gis_processing      :   6.94 s
+  CELKOVÝ ČAS         :  17.16 s
+------------------------------------------
+Dokument 562687 bol úspešne spracovaný.

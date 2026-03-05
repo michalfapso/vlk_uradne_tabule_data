@@ -1,0 +1,168 @@
+{
+  "cislo_konania_spisu": "OU-TV-OSZP-2026/002034-009",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-27",
+  "datum_zverejnenia": "2026-03-03",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 8 dní od doručenia podkladov"
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Trebišov",
+    "obec": "Streda nad Bodrogom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Streda nad Bodrogom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2025/1",
+              "2025/2",
+              "2033",
+              "2048",
+              "2056/2",
+              "2056/1",
+              "2049/1",
+              "2017/1",
+              "2067/2",
+              "2051/2",
+              "2051/1",
+              "1996/1",
+              "2025/3",
+              "2041"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "720/2",
+              "721/2",
+              "722/1",
+              "722/2",
+              "725/2",
+              "704",
+              "729",
+              "705",
+              "607",
+              "711/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "nazov_lokality": "NPR Tajba"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania",
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "dopĺňanie vody",
+    "odber povrchových vôd"
+  ],
+  "typ_uzemia": [
+    "Národná prírodná rezervácia Tajba",
+    "Natura 2000",
+    "CHKO Latorica",
+    "Chránené vtáčie územie Medzibodrožie",
+    "SKCHVU015"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "korytnačka močiarna"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "zakon_nazov": "Zákon o vodách",
+      "zakon_cislo": "364/2004 Z.z."
+    },
+    {
+      "zakon_nazov": "Stavebný zákon",
+      "zakon_cislo": "50/1976 Zb."
+    },
+    {
+      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy",
+      "zakon_cislo": "180/2013 Z.z."
+    },
+    {
+      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "zakon_cislo": "525/2003 Z.z."
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania vo veci stavby gravitačného zavodňovacieho potrubia na dopĺňanie vody do NPR Tajba v obci Streda nad Bodrogom. Projekt LIFE IP NATURA 2000 má zabezpečiť stabilnú hladinu vody pre záchranu kriticky ohrozenej populácie korytnačky močiarnej v chránenom území Natura 2000.",
+  "zasiahnute_chranene_uzemia": {
+    "UEV": [
+      {
+        "parcel_label": "2056/2",
+        "NATIONALSI": "SKUEV0019",
+        "SITETITLE_": "Tarbucka"
+      },
+      {
+        "parcel_label": "2048",
+        "NATIONALSI": "SKUEV0019",
+        "SITETITLE_": "Tarbucka"
+      },
+      {
+        "parcel_label": "720/2",
+        "NATIONALSI": "SKUEV0019",
+        "SITETITLE_": "Tarbucka"
+      },
+      {
+        "parcel_label": "721/2",
+        "NATIONALSI": "SKUEV0019",
+        "SITETITLE_": "Tarbucka"
+      }
+    ],
+    "MCHU": [
+      {
+        "parcel_label": "2056/2",
+        "NATIONALSI": "691",
+        "SITETITLE_": "NPR Tajba"
+      },
+      {
+        "parcel_label": "2048",
+        "NATIONALSI": "691",
+        "SITETITLE_": "NPR Tajba"
+      },
+      {
+        "parcel_label": "720/2",
+        "NATIONALSI": "691",
+        "SITETITLE_": "NPR Tajba"
+      },
+      {
+        "parcel_label": "721/2",
+        "NATIONALSI": "691",
+        "SITETITLE_": "NPR Tajba"
+      }
+    ],
+    "CHVU": [
+      {
+        "parcel_label": "2056/2",
+        "NATIONALSI": "SKCHVU015",
+        "SITETITLE_": "Medzibodrožie"
+      },
+      {
+        "parcel_label": "2048",
+        "NATIONALSI": "SKCHVU015",
+        "SITETITLE_": "Medzibodrožie"
+      },
+      {
+        "parcel_label": "2067/2",
+        "NATIONALSI": "SKCHVU015",
+        "SITETITLE_": "Medzibodrožie"
+      },
+      {
+        "parcel_label": "720/2",
+        "NATIONALSI": "SKCHVU015",
+        "SITETITLE_": "Medzibodrožie"
+      },
+      {
+        "parcel_label": "721/2",
+        "NATIONALSI": "SKCHVU015",
+        "SITETITLE_": "Medzibodrožie"
+      }
+    ]
+  }
+}

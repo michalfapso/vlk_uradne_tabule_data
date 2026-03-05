@@ -1,0 +1,119 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=38&odbor=10&sekcia=uradna-tabula&subor=562700
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Tvrdošín/562700/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Tvrdošín/562700/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný orgán štátnej'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný orgán štátnej'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona povolenie na osobitné úžívanie vôd, vypúšťanie dažďovej vody zo spevnených plôch samostatným potrubím - líniovými, polyrnérobetónovými'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona do 31.03.2036. OU-TS-OSZP-2026/000109-0001646/2026 2 / 13 Tri mesiace pred uplynutím lehoty platnosti tohto povolenia možno požiadať o'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona, ak sa nezmenia podmienky, za ktorých bolo povolenie vydané. Podmienky povolenia na vypúšťanie vôd z povrchového odtoku do podzemných v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona povolenie na uskutočnenie vodnej stavby „Rozšírenie radových garáži na Sídlisku Západ v meste Trstená, stavebný objekt SO-09 Dažďová'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'príslušnému špeciálnemu stavebnému úradu. 3. Pred začatím vodnej stavby stavebník umiestni na viditeľnom mieste pri vstupe na stavenisko tabuľu, na kt'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona zabezpečiť vytýčenie vodných stavieb fyzickou osobou alebo právnickou osobou oprávnenou vykonávať geodetické a kartografické činnost'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona geodet a kartograf stavby. 7. Pred začatím výkopových prác vytýčiť jestvujúce inžinierske siete príslušnými správcami sietí. Počas p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona – vykonať potrebné opatrenia, aby pri zaobchádzaní so znečisťujúcimi látkami, tieto nevnikli do pôdy, do povrchových vôd, do podzemných'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona v platnom znení v spojitosti s ustanoveniami'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vyhlášky MŽP SR č. 200/2018 Z. z. ktorou sa ustanovujú podrobnosti o zaobchádzaní so znečisťujúcimi látkami, o náležitostiach havarijného plánu a o po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vyhlášky MŽP SR č. 200/2018 Z. z. ktorou sa ustanovujú podrobnosti o zaobchádzaní so znečisťujúcimi látkami, o náležitostiach havarijného plánu a o po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vyhlášky MŽP SR č. 200/2018 Z. z. ktorou sa ustanovujú podrobnosti o zaobchádzaní so znečisťujúcimi látkami, o náležitostiach havarijného plánu a o po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vyhlášky MŽP SR č. 200/2018 Z. z. ktorou sa ustanovujú podrobnosti o zaobchádzaní so znečisťujúcimi látkami, o náležitostiach havarijného plánu a o po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona. K žiadosti je potrebné doložiť oprávneným hydrogeológom vypracovanú záverečnú správu z hydrogeologického prieskumu – hydrogeologický p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Nariadenia vlády SR č. 269/2010 Z. z., ktorým sa ustanovujú požiadavky na dosiahnutie dobrého stavu vôd možno vypúšťať vody z povrchového odtoku do po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona). Pokiaľ odvádzané vody z povrchového odtoku neobsahujú znečisťujúce látky, nevyžaduje sa povolenie orgánu štátnej vodnej správy na daž'.
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 363, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+                                                                ~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0237395}
+LLM_tokens: {"input": 22171, "output": 4218, "total": 26389, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Tvrdošín/562700/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Tvrdošín/562700/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Tvrdošín', 'obec': 'Trstená', 'katastralne_uzemia': [{'nazov': 'Trstená', 'parcely': [{'typ': 'C', 'cisla': ['2470/2', '2470/3', '2470/4', '2470/5', '2470/8', '2288/5']}, {'typ': 'E', 'cisla': ['14413/301']}]}], 'nazov_lokality': 'Sídlisko Západ'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Tvrdošín', 'obec': 'Trstená', 'katastralne_uzemia': [{'nazov': 'Trstená', 'parcely': [{'typ': 'C', 'cisla': ['2470/2', '2470/3', '2470/4', '2470/5', '2470/8', '2288/5']}, {'typ': 'E', 'cisla': ['14413/301']}]}], 'nazov_lokality': 'Sídlisko Západ'}
+ku_name:Trstená obec:Trstená okres:Tvrdošín kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: tvrdosin norm_obec: trstena norm_ku: trstena
+_get_nationalCadastralZoningReferences() found_ids: {'865478'}
+nationalCadastralZoningReferences: ['865478']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27865478_2470%2F2.C%27%2C%27865478_2470%2F3.C%27%2C%27865478_2470%2F4.C%27%2C%27865478_2470%2F5.C%27%2C%27865478_2470%2F8.C%27%2C%27865478_2288%2F5.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.36 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27865478_14413%2F301.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.85 s
+[WARNING]: Nejednoznačne zadané katastrálne územie 'Trstená' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.
+ku_gdfs: [      @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1403'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1403'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1403'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1403'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.1403'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.1403'}
+
+[6 rows x 12 columns],       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1403'}
+
+[1 rows x 12 columns]]
+nazov_lokality: Sídlisko Západ
+get_geometry_of_a_geoname nazov_lokality: Sídlisko Západ
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Sídlisko Západ, Trstená
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Sídlisko Západ, Tvrdošín
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Sídlisko Západ, Žilinský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Sídlisko Západ
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.53116 48.95424, 20.53274 48.95388...  ...  Sídlisko Západ, Spišská Nová Ves, okres Spišsk...
+
+[1 rows x 11 columns]
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1403'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1403'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1403'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1403'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.1403'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.1403'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.1403'}
+
+[7 rows x 12 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.53116 48.95424, 20.53274 48.95388...  ...  Sídlisko Západ, Spišská Nová Ves, okres Spišsk...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Tvrdošín/562700/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Tvrdošín/562700/analysis.json...
+
+--- Časy spracovania dokumentu 562700 ---
+  download_and_text   :   1.20 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  28.00 s
+  gis_processing      :  10.68 s
+  CELKOVÝ ČAS         :  39.89 s
+------------------------------------------
+Dokument 562700 bol úspešne spracovaný.
