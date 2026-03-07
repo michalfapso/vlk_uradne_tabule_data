@@ -1,0 +1,76 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=6&odbor=10&sekcia=uradna-tabula&subor=563032
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/563032/orig.pdf
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 3 page images to gemini/gemini-3-flash-preview for OCR.
+LLM_cost: {"cost": 0.019154}
+LLM_tokens: {"input": 3352, "output": 6372, "total": 9724, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/563032/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako špeciál'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona a v zmysle ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/563032/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0101758}
+LLM_tokens: {"input": 5570, "output": 2766, "total": 8336, "cached": 2016}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/563032/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/563032/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Dunajská Streda', 'obec': 'Kyselica', 'katastralne_uzemia': [{'nazov': 'Kyselica', 'parcely': [{'typ': 'C', 'cisla': ['181/48', '181/49', '181/57', '181/72', '181/106', '181/104', '181/80']}]}], 'nazov_lokality': 'Rodinné domy Kyselica'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Dunajská Streda', 'obec': 'Kyselica', 'katastralne_uzemia': [{'nazov': 'Kyselica', 'parcely': [{'typ': 'C', 'cisla': ['181/48', '181/49', '181/57', '181/72', '181/106', '181/104', '181/80']}]}], 'nazov_lokality': 'Rodinné domy Kyselica'}
+ku_name:Kyselica obec:Kyselica okres:Dunajská Streda kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: dunajska streda norm_obec: kyselica norm_ku: kyselica
+_get_nationalCadastralZoningReferences() found_ids: {'870013'}
+nationalCadastralZoningReferences: ['870013']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27870013_181%2F48.C%27%2C%27870013_181%2F49.C%27%2C%27870013_181%2F57.C%27%2C%27870013_181%2F72.C%27%2C%27870013_181%2F106.C%27%2C%27870013_181%2F104.C%27%2C%27870013_181%2F80.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.10 s
+ku_gdfs: [      @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1755'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1755'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1755'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1755'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.1755'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.1755'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.1755'}
+
+[7 rows x 12 columns]]
+nazov_lokality: Rodinné domy Kyselica
+get_geometry_of_a_geoname nazov_lokality: Rodinné domy Kyselica
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Rodinné domy Kyselica, Kyselica
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Rodinné domy Kyselica, Dunajská Streda
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Rodinné domy Kyselica, Trnavský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Rodinné domy Kyselica
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1755'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1755'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1755'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1755'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.1755'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.1755'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.1755'}
+
+[7 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/563032/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/563032/analysis.json...
+
+--- Časy spracovania dokumentu 563032 ---
+  download_and_text   :  32.21 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.38 s
+  gis_processing      :   6.03 s
+  CELKOVÝ ČAS         :  54.63 s
+------------------------------------------
+Dokument 563032 bol úspešne spracovaný.

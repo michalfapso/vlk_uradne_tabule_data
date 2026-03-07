@@ -1,0 +1,58 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=3&odbor=10&sekcia=uradna-tabula&subor=563007
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563007/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563007/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zák. č 50/1976 Zb'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'správneho zákona vyvesiť túto vyhlášku po dobu 15 dní na úradnej tabuli. Deň vyvesenia a zvesenia na vyhláške potvrdiť a po zvesení zaslať na Okresný'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563007/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008709}
+LLM_tokens: {"input": 5262, "output": 2026, "total": 7288, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563007/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563007/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Modra', 'katastralne_uzemia': [{'nazov': 'Modra', 'parcely': [{'typ': 'C', 'cisla': ['2533']}]}], 'nazov_lokality': 'Kukučínova ul.'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Modra', 'katastralne_uzemia': [{'nazov': 'Modra', 'parcely': [{'typ': 'C', 'cisla': ['2533']}]}], 'nazov_lokality': 'Kukučínova ul.'}
+ku_name:Modra obec:Modra okres:Pezinok kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: modra norm_ku: modra
+_get_nationalCadastralZoningReferences() found_ids: {'838039'}
+nationalCadastralZoningReferences: ['838039']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27838039_2533.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.13 s
+ku_gdfs: [      @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1321'}
+
+[1 rows x 12 columns]]
+nazov_lokality: Kukučínova ul.
+get_geometry_of_a_geoname nazov_lokality: Kukučínova ul.
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Kukučínova ul., Modra
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Kukučínova ul., Pezinok
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Kukučínova ul., Bratislavský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Kukučínova ul.
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1321'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563007/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563007/analysis.json...
+
+--- Časy spracovania dokumentu 563007 ---
+  download_and_text   :   0.97 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.51 s
+  gis_processing      :   4.50 s
+  CELKOVÝ ČAS         :  17.99 s
+------------------------------------------
+Dokument 563007 bol úspešne spracovaný.

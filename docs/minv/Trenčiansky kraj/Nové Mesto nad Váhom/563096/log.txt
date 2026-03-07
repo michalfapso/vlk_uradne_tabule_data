@@ -1,0 +1,130 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=14&odbor=10&sekcia=uradna-tabula&subor=563096
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563096/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563096/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako príslušn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako príslušn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, určuje podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, určuje podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov po vykonaní zisťovacieh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov sa pre navrhovanú činno'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov sa pre navrhovanú činno'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení účinnom v časovej verzii od 29.09.2025 do 31'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení účinnom do 31.10.2025 ak ide o navrhovanú čin'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'navrhovateľ je povinný pred začatím zisťovacieho konania k navrhovanej činnosti doručiť príslušnému orgánu písomne v listinnej podobe a v elektronicke'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení účinnom do 31.10.2025 predmetom zisťovacieho'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ak ide o činnosť už posúdenú, povolenú, realizovanú alebo v štádiu realizácie, d) zmena navrhovanej činnosti uvedenej v prílohe č. 8 časti B, ak ide o'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o posudzovaní do 31.10.2025 na konanie podľa tohto zákona sa vzťahuje všeobecný predpis o správnom konaní okrem zisťovacieho konania podľa'.
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 363, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+                                                                ~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.040288}
+LLM_tokens: {"input": 48392, "output": 5364, "total": 53756, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563096/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563096/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Nové Mesto nad Váhom', 'katastralne_uzemia': [{'nazov': 'Nové Mesto nad Váhom', 'parcely': [{'typ': 'C', 'cisla': ['1085/1', '1085/3', '1085/4', '3854/1', '3854/102', '3854/109', '3854/110', '3854/111', '3854/112', '3854/113', '3854/114', '3854/115', '3854/116', '3854/117', '3854/118', '3854/119', '3854/121', '3854/122', '3854/123', '3854/124', '3854/125', '3854/126', '3854/139', '3854/140', '5882']}]}], 'nazov_lokality': 'Areál bývalých vojenských kasární'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Nové Mesto nad Váhom', 'katastralne_uzemia': [{'nazov': 'Nové Mesto nad Váhom', 'parcely': [{'typ': 'C', 'cisla': ['1085/1', '1085/3', '1085/4', '3854/1', '3854/102', '3854/109', '3854/110', '3854/111', '3854/112', '3854/113', '3854/114', '3854/115', '3854/116', '3854/117', '3854/118', '3854/119', '3854/121', '3854/122', '3854/123', '3854/124', '3854/125', '3854/126', '3854/139', '3854/140', '5882']}]}], 'nazov_lokality': 'Areál bývalých vojenských kasární'}
+ku_name:Nové Mesto nad Váhom obec:Nové Mesto nad Váhom okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: nove mesto nad vahom norm_ku: nove mesto nad vahom
+_get_nationalCadastralZoningReferences() found_ids: {'842044'}
+nationalCadastralZoningReferences: ['842044']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27842044_1085%2F1.C%27%2C%27842044_1085%2F3.C%27%2C%27842044_1085%2F4.C%27%2C%27842044_3854%2F1.C%27%2C%27842044_3854%2F102.C%27%2C%27842044_3854%2F109.C%27%2C%27842044_3854%2F110.C%27%2C%27842044_3854%2F111.C%27%2C%27842044_3854%2F112.C%27%2C%27842044_3854%2F113.C%27%2C%27842044_3854%2F114.C%27%2C%27842044_3854%2F115.C%27%2C%27842044_3854%2F116.C%27%2C%27842044_3854%2F117.C%27%2C%27842044_3854%2F118.C%27%2C%27842044_3854%2F119.C%27%2C%27842044_3854%2F121.C%27%2C%27842044_3854%2F122.C%27%2C%27842044_3854%2F123.C%27%2C%27842044_3854%2F124.C%27%2C%27842044_3854%2F125.C%27%2C%27842044_3854%2F126.C%27%2C%27842044_3854%2F139.C%27%2C%27842044_3854%2F140.C%27%2C%27842044_5882.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.76 s
+ku_gdfs: [       @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+
+[25 rows x 12 columns]]
+nazov_lokality: Areál bývalých vojenských kasární
+get_geometry_of_a_geoname nazov_lokality: Areál bývalých vojenských kasární
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Areál bývalých vojenských kasární, Nové Mesto nad Váhom
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Areál bývalých vojenských kasární, Nové Mesto nad Váhom
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Areál bývalých vojenských kasární, Trenčiansky kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Areál bývalých vojenských kasární
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.1484'}
+
+[25 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563096/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563096/analysis.json...
+
+--- Časy spracovania dokumentu 563096 ---
+  download_and_text   :   1.15 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  37.73 s
+  gis_processing      :   5.16 s
+  CELKOVÝ ČAS         :  44.05 s
+------------------------------------------
+Dokument 563096 bol úspešne spracovaný.

@@ -1,0 +1,49 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=26&odbor=10&sekcia=uradna-tabula&subor=563016
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/563016/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/563016/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch, že dňom nadobudnutia právoplatnosti tohto rozhodnutia vlastníctvo motorového vozidla zn. Peugeot 206, striebornej farby s evidenčným číslo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch, nakoľko vozidlo zn. Peugeot 206, striebornej farby s evidenčným číslom TO548CF nebolo prevzaté z určeného parkoviska. Mesto Topoľčany, Nám'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch, vlastníka vozidla Petra Bartoníka, Krušovská 1626/36, 955 01 Topoľčany, aby do 30 dní od doručenia výzvy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch, vlastníka vozidla Petra Bartoníka, Krušovská 1626/36, 955 01 Topoľčany, aby do 30 dní od doručenia výzvy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch vo veci posúdenia technického stavu vozidla a prítomnosť všetkých jednoznačných identifikačných znakov, ktorými sú: - evidenčné číslo vozid'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch v rozhodnutí zároveň určil, že vozidlo je starým vozidlom. Držiteľom predmetného starého vozidla sa po nadobudnutí právoplatnosti vydaného'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch, stáva prevádzkovateľ určeného parkoviska Autovrakovisko s.r.o., Priemyselná 2721/11, 900 27 Bernolákovo, ktorý je povinný s ním nakladať v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/563016/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013018749999999999}
+LLM_tokens: {"input": 8078, "output": 3297, "total": 11375, "cached": 2025}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/563016/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/563016/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Topoľčany', 'obec': 'Topoľčany', 'katastralne_uzemia': [], 'nazov_lokality': 'Bernolákova ulica'}
+nazov_lokality: Bernolákova ulica
+get_geometry_of_a_geoname nazov_lokality: Bernolákova ulica
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bernolákova ulica, Topoľčany
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bernolákova ulica, Topoľčany
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bernolákova ulica, Nitriansky kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bernolákova ulica
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 563016 ---
+  download_and_text   :   1.11 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  21.15 s
+  gis_processing      :   1.13 s
+  CELKOVÝ ČAS         :  23.40 s
+------------------------------------------
+Dokument 563016 bol úspešne spracovaný.

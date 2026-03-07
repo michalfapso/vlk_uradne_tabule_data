@@ -1,0 +1,193 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=70&odbor=10&sekcia=uradna-tabula&subor=563006
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/563006/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/563006/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, ako špeciálny stavebný úrad vo veciach vod'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zák. NR SR č.364/2004 Z.z. o vodách a o zmene zákona SNR č.372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zák.č.50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona, na uskutočnenie vodnej stavby „Zemplínska Teplica-Vodovod „podľa projektovej dokumentácie , ktorú vypracoval zodpovedný projektant'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona. 11. Označiť na viditeľnom mieste stavbu výrazným štítkom „Stavba povolená“'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona. 11. Označiť na viditeľnom mieste stavbu výrazným štítkom „Stavba povolená“'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona. 11. Označiť na viditeľnom mieste stavbu výrazným štítkom „Stavba povolená“'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '133/2013 Z. z. o stavebných výrobkoch. Doklady o tom stavebník predloží pri kolaudácii stavby. 16. Vzniknutý odpad zlikvidovať podľa zákona č. 79/2015'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona. K návrhu na vydanie povolenia na užívanie vodnej stavby je potrebné priložiť geodetické zameranie skutočného vyhotovenia stavby, poloh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vyhlášky MŽP SR č. 453/2000 Z.z., ktorou sa vykonávajú niektoré ustanovenia stavebného zákona. Doloží atesty od zabudovaných materiálov. 23. Ku kolaud'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch pri nakladaní so stavebným odpadom a odpadom z demolácií - Stavebné odpady prednostne odovzdať do zariadenia na zhodnocovanie stavebných od'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch - Stavebník požiada o vyjadrenie k dokumentácii v kolaudačnom konaní, kde predloží doklady o spôsobe zhodnotenia, resp. zneškodnenia odpado'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch - Stavebník požiada o vyjadrenie k dokumentácii v kolaudačnom konaní, kde predloží doklady o spôsobe zhodnotenia, resp. zneškodnenia odpado'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '251/2012 Z.z:'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zakázané a) zriaďovať stavby, konštrukcie a skládky, b) uskladňovať ľahko horľavé alebo výbušné látky, c) vykonávať činnosti ohrozujúce bezpečnosť osô'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zakázané: a) zriaďovať stavby, konštrukcie, skládky, vysádzať trvalé porasty a používať osobitne ťažké mechanizmy, b) vykonávať bez predchádzajúceho s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o energetike umiestňovať nadzemné stavby, kontrolné šachty, trvalé porasty a pod. 28. Dodržať podmienky určené vo vyjadrení VVS, a.s. závod Trebišov č'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o energetike umiestňovať nadzemné stavby, kontrolné šachty, trvalé porasty a pod. 28. Dodržať podmienky určené vo vyjadrení VVS, a.s. závod Trebišov č'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '135/1961 Zb. požiadať o čiastočnú uzávierku ciest II. triedy a III. triedy zabezpečujúcu bezpečnosť a plynulosť cestnej premávky na nej počas realizác'.
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 363, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+                                                                ~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.031978}
+LLM_tokens: {"input": 26774, "output": 6197, "total": 32971, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/563006/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/563006/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Trebišov', 'obec': 'Zemplínska Teplica', 'katastralne_uzemia': [{'nazov': 'Zemplínska Teplica', 'parcely': [{'typ': 'C', 'cisla': ['1045/1', '600', '896/4', '896/1', '560', '1024/1', '4/1', '1023/2', '1022/4', '542', '71', '518', '515', '514', '456/1', '402', '493/1', '376', '286', '213', '136', '80/10', '83/6', '895', '290', '877', '896/6', '815/2', '899', '803', '897/1', '717/1', '717/5', '640', '896/9', '898/2', '1036/3', '1036/4', '1037/1', '1038', '69/1', '70/1', '70/4']}, {'typ': 'E', 'cisla': ['2769/4', '2402', '2401/2', '12/1', '2771/1', '2763', '2764', '2765']}]}], 'nazov_lokality': 'Hejča'}
+data: {'kraj': 'Košický kraj', 'okres': 'Trebišov', 'obec': 'Zemplínska Teplica', 'katastralne_uzemia': [{'nazov': 'Zemplínska Teplica', 'parcely': [{'typ': 'C', 'cisla': ['1045/1', '600', '896/4', '896/1', '560', '1024/1', '4/1', '1023/2', '1022/4', '542', '71', '518', '515', '514', '456/1', '402', '493/1', '376', '286', '213', '136', '80/10', '83/6', '895', '290', '877', '896/6', '815/2', '899', '803', '897/1', '717/1', '717/5', '640', '896/9', '898/2', '1036/3', '1036/4', '1037/1', '1038', '69/1', '70/1', '70/4']}, {'typ': 'E', 'cisla': ['2769/4', '2402', '2401/2', '12/1', '2771/1', '2763', '2764', '2765']}]}], 'nazov_lokality': 'Hejča'}
+ku_name:Zemplínska Teplica obec:Zemplínska Teplica okres:Trebišov kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: trebisov norm_obec: zemplinska teplica norm_ku: zemplinska teplica
+_get_nationalCadastralZoningReferences() found_ids: {'873217'}
+nationalCadastralZoningReferences: ['873217']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27873217_1045%2F1.C%27%2C%27873217_600.C%27%2C%27873217_896%2F4.C%27%2C%27873217_896%2F1.C%27%2C%27873217_560.C%27%2C%27873217_1024%2F1.C%27%2C%27873217_4%2F1.C%27%2C%27873217_1023%2F2.C%27%2C%27873217_1022%2F4.C%27%2C%27873217_542.C%27%2C%27873217_71.C%27%2C%27873217_518.C%27%2C%27873217_515.C%27%2C%27873217_514.C%27%2C%27873217_456%2F1.C%27%2C%27873217_402.C%27%2C%27873217_493%2F1.C%27%2C%27873217_376.C%27%2C%27873217_286.C%27%2C%27873217_213.C%27%2C%27873217_136.C%27%2C%27873217_80%2F10.C%27%2C%27873217_83%2F6.C%27%2C%27873217_895.C%27%2C%27873217_290.C%27%2C%27873217_877.C%27%2C%27873217_896%2F6.C%27%2C%27873217_815%2F2.C%27%2C%27873217_899.C%27%2C%27873217_803.C%27%2C%27873217_897%2F1.C%27%2C%27873217_717%2F1.C%27%2C%27873217_717%2F5.C%27%2C%27873217_640.C%27%2C%27873217_896%2F9.C%27%2C%27873217_898%2F2.C%27%2C%27873217_1036%2F3.C%27%2C%27873217_1036%2F4.C%27%2C%27873217_1037%2F1.C%27%2C%27873217_1038.C%27%2C%27873217_69%2F1.C%27%2C%27873217_70%2F1.C%27%2C%27873217_70%2F4.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.79 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27873217_2769%2F4.E%27%2C%27873217_2402.E%27%2C%27873217_2401%2F2.E%27%2C%27873217_12%2F1.E%27%2C%27873217_2771%2F1.E%27%2C%27873217_2763.E%27%2C%27873217_2764.E%27%2C%27873217_2765.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.76 s
+[WARNING]: Nejednoznačne zadané katastrálne územie 'Zemplínska Teplica' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.
+ku_gdfs: [       @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+39  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+40  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+41  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+42  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+
+[43 rows x 12 columns],       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+
+[8 rows x 12 columns]]
+nazov_lokality: Hejča
+get_geometry_of_a_geoname nazov_lokality: Hejča
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Hejča, Zemplínska Teplica
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Hejča, Trebišov
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Hejča, Košický kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Hejča
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+39  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+40  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+41  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+42  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+43  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+44  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+45  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+46  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+47  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+48  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+49  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+50  CadastralParcel  ...  {'@href': '#auAdmUnitS.2365'}
+
+[51 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/563006/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '456/1', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}, {'parcel_label': '898/2', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}, {'parcel_label': '402', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/563006/analysis.json...
+
+--- Časy spracovania dokumentu 563006 ---
+  download_and_text   :   1.16 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  47.30 s
+  gis_processing      :   9.21 s
+  CELKOVÝ ČAS         :  57.67 s
+------------------------------------------
+Dokument 563006 bol úspešne spracovaný.

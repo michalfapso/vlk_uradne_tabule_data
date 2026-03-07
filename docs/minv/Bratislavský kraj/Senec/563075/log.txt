@@ -1,0 +1,64 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=4&odbor=10&sekcia=uradna-tabula&subor=563075
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/563075/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/563075/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'a podalo predbežnú písomnú žiadosť podľa'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/563075/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011663999999999999}
+LLM_tokens: {"input": 4659, "output": 3413, "total": 8072, "cached": 2010}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/563075/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/563075/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Chorvátsky Grob', 'katastralne_uzemia': [{'nazov': 'Chorvátsky Grob', 'parcely': [{'typ': 'C', 'cisla': ['1578/12', '1589/1', '1578/19', '1578/17', '1578/455']}]}], 'nazov_lokality': 'IBV Horný Dvor'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Chorvátsky Grob', 'katastralne_uzemia': [{'nazov': 'Chorvátsky Grob', 'parcely': [{'typ': 'C', 'cisla': ['1578/12', '1589/1', '1578/19', '1578/17', '1578/455']}]}], 'nazov_lokality': 'IBV Horný Dvor'}
+ku_name:Chorvátsky Grob obec:Chorvátsky Grob okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: chorvatsky grob norm_ku: chorvatsky grob
+_get_nationalCadastralZoningReferences() found_ids: {'820865'}
+nationalCadastralZoningReferences: ['820865']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27820865_1578%2F12.C%27%2C%27820865_1589%2F1.C%27%2C%27820865_1578%2F19.C%27%2C%27820865_1578%2F17.C%27%2C%27820865_1578%2F455.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.83 s
+ku_gdfs: [      @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+
+[5 rows x 12 columns]]
+nazov_lokality: IBV Horný Dvor
+get_geometry_of_a_geoname nazov_lokality: IBV Horný Dvor
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=IBV Horný Dvor, Chorvátsky Grob
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=IBV Horný Dvor, Senec
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=IBV Horný Dvor, Bratislavský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=IBV Horný Dvor
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+
+[5 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/563075/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/563075/analysis.json...
+
+--- Časy spracovania dokumentu 563075 ---
+  download_and_text   :   0.96 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  21.71 s
+  gis_processing      :   5.55 s
+  CELKOVÝ ČAS         :  28.23 s
+------------------------------------------
+Dokument 563075 bol úspešne spracovaný.

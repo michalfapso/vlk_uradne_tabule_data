@@ -1,0 +1,53 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=7&odbor=10&sekcia=uradna-tabula&subor=563055
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/563055/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/563055/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Trestného poriadku, trestné stíhanie  prečinu neoprávnené nakladanie s odpadmi podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Trestného zákona, na tom  skutkovom základe, že doposiaľ neznámy páchateľ od presne nezisteného času a dňa mesiaca  júl roka 2024 do presne nezistenéh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov, v znení neskorších  predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch na  zabezpečenie zneškodnenia predmetného odpadu.  Obec Jelka listom OcÚJE-1861/2025 zo dňa 11.02.2026 postúpila podnet na začatie  konania'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe  starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov a ako prísl'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch, v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch vo veci určenia osoby povinnej zabezpečiť  zhodnotenie alebo zneškodnenie nezákonne umiestneného odpadu na pozemku registra C KN  1701/10 k'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch tunajší úrad určuje, že Okresný  úrad Galanta, odbor starostlivosti o životné prostredie Nová Doba 1408/31, 924 36 Galanta,  IČO 00 151 866'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/563055/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00963385}
+LLM_tokens: {"input": 5867, "output": 2536, "total": 8403, "cached": 2017}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/563055/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/563055/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Jelka', 'katastralne_uzemia': [{'nazov': 'Jelka', 'parcely': [{'typ': 'C', 'cisla': ['1701/10']}]}], 'nazov_lokality': None}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Jelka', 'katastralne_uzemia': [{'nazov': 'Jelka', 'parcely': [{'typ': 'C', 'cisla': ['1701/10']}]}], 'nazov_lokality': None}
+ku_name:Jelka obec:Jelka okres:Galanta kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: jelka norm_ku: jelka
+_get_nationalCadastralZoningReferences() found_ids: {'822663'}
+nationalCadastralZoningReferences: ['822663']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27822663_1701%2F10.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.23 s
+ku_gdfs: [      @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1655'}
+
+[1 rows x 12 columns]]
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1655'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/563055/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/563055/analysis.json...
+
+--- Časy spracovania dokumentu 563055 ---
+  download_and_text   :   1.11 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.15 s
+  gis_processing      :   3.45 s
+  CELKOVÝ ČAS         :  20.70 s
+------------------------------------------
+Dokument 563055 bol úspešne spracovaný.

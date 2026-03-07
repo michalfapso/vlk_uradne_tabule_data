@@ -1,0 +1,50 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=65&odbor=10&sekcia=uradna-tabula&subor=563021
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/563021/orig.pdf
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 3 page images to gemini/gemini-3-flash-preview for OCR.
+LLM_cost: {"cost": 0.029144}
+LLM_tokens: {"input": 3352, "output": 9702, "total": 13054, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/563021/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch) správnemu orgánu sú dostatočne známe údaje o stave'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'správneho priadku majú účastníci konania možnosť nahliadnuť do spisu na Okresnom úrade Košice, odbor starostlivosti o životné prostredie, Komenského 5'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch), podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch), podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch, bezodkladne odovzdá spracovateľovi starých vozidiel.  Toto oznámenie sa v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '272/2016 Z. z. | | Zastúpená osoba: | Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 | | Spôsob autorizácie: | kvalifikovaný elektronický po'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/563021/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0081762}
+LLM_tokens: {"input": 5301, "output": 2144, "total": 7445, "cached": 2014}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/563021/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/563021/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [], 'nazov_lokality': 'Krakovská ulica'}
+nazov_lokality: Krakovská ulica
+get_geometry_of_a_geoname nazov_lokality: Krakovská ulica
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krakovská ulica, Košice
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krakovská ulica, Košice
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krakovská ulica, Košický kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krakovská ulica
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 563021 ---
+  download_and_text   :  48.11 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.91 s
+  gis_processing      :   0.99 s
+  CELKOVÝ ČAS         :  63.01 s
+------------------------------------------
+Dokument 563021 bol úspešne spracovaný.

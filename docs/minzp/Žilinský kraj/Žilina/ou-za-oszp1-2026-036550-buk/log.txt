@@ -1,0 +1,34 @@
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-036550-buk/orig.html
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-036550-buk/text.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0084937}
+LLM_tokens: {"input": 3302, "output": 2580, "total": 5882, "cached": 1994}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-036550-buk/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-036550-buk/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Novoť', 'katastralne_uzemia': [], 'nazov_lokality': 'tok rieky Mútňanka'}
+nazov_lokality: tok rieky Mútňanka
+get_geometry_of_a_geoname nazov_lokality: tok rieky Mútňanka
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=tok rieky Mútňanka, Novoť
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=tok rieky Mútňanka, Žilina
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=tok rieky Mútňanka, Žilinský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=tok rieky Mútňanka
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-036550-buk ---
+  download_and_text   :   0.01 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.76 s
+  gis_processing      :   1.37 s
+  CELKOVÝ ČAS         :  17.65 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-036550-buk bol úspešne spracovaný.

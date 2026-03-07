@@ -1,0 +1,117 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=14&odbor=10&sekcia=uradna-tabula&subor=563097
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563097/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563097/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov na základe oznámenia o s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'leteckého zákona...“ nasledovným znením: „V zmysle leteckého zákona je Dopravný úrad na území obce Hrádok dotknutým orgánom v povoľovacom procese stav'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'leteckého zákona...“ nasledovným znením: „V zmysle leteckého zákona je Dopravný úrad na území obce Hrádok dotknutým orgánom v povoľovacom procese stav'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '143/1998 o civilnom letectve..“ rovnakým znením ako v bode 2. výroku tohto rozhodnutia. 4. V textovej a grafickej časti územnoplánovacej dokumentácie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '49/2002 Z.z. o ochrane pamiatkového fondu v znení neskorších predpisov, kde podmienkou pre vydanie územného a stavebného povolenia pre jednotlivé akci'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'citovaného zákona, v oprávnených prípadoch s požiadavkou na zabezpečenie archeologického výskumu aj na mieste stavby alebo inej hospodárskej činnosti'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'citovaného zákona, ak na tomto mieste dôvodne predpokladá výskyt archeologických nálezov. Odôvodnenie Obstarávateľ Obec Hrádok, Obecný úrad Hrádok, Hr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších KÓPIA Číslo spisu Por.č.záznamu Čí'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších KÓPIA Číslo spisu Por.č.záznamu Čí'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '200/2022 Z.z. o územnom plánovaní v aktuálnom znení. Oznámenie o strategickom dokumente vypracoval doc. Ing. arch. Jaroslav Coplák, PhD., odborne spôs'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '200/2022 Z.z. o územnom plánovaní v aktuálnom znení. Oznámenie o strategickom dokumente vypracoval doc. Ing. arch. Jaroslav Coplák, PhD., odborne spôs'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o posudzovaní predmetom posudzovania vplyvov strategických dokumentov je strategický dokument pripravovaný pre oblasť poľnohospodárstva, lesníctva, ry'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o posudzovaní ak príslušný orgán rozhodne na základe výsledkov zisťovacieho konania o posudzovaní vplyvov strategického dokumentu podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'že strategický dokument alebo jeho zmena sa bude posudzovať, pretože má pravdepodobne významný vplyv na životné prostredie, predmetom posudzovania vpl'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'že strategický dokument alebo jeho zmena sa bude posudzovať, pretože má pravdepodobne významný vplyv na životné prostredie, predmetom posudzovania vpl'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ktorý stanovuje rámec na schválenie niektorej z navrhovaných činností uvedených v prílohe č. 8 vrátane jeho zmeny, b) strategický dokument uvedený v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ktorý určuje využitie malých území na miestnej úrovni, c) malá zmena strategického dokumentu uvedeného v'.
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 363, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+                                                                ~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.027788999999999998}
+LLM_tokens: {"input": 33120, "output": 3743, "total": 36863, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563097/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563097/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Hrádok', 'katastralne_uzemia': [{'nazov': 'Hrádok', 'parcely': [{'typ': 'C', 'cisla': ['818/1', '818/2', '819']}, {'typ': 'E', 'cisla': ['1347']}]}], 'nazov_lokality': 'Dolina'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Hrádok', 'katastralne_uzemia': [{'nazov': 'Hrádok', 'parcely': [{'typ': 'C', 'cisla': ['818/1', '818/2', '819']}, {'typ': 'E', 'cisla': ['1347']}]}], 'nazov_lokality': 'Dolina'}
+ku_name:Hrádok obec:Hrádok okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: hradok norm_ku: hradok
+_get_nationalCadastralZoningReferences() found_ids: {'819018'}
+nationalCadastralZoningReferences: ['819018']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27819018_818%2F1.C%27%2C%27819018_818%2F2.C%27%2C%27819018_819.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.60 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27819018_1347.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.88 s
+[WARNING]: Nejednoznačne zadané katastrálne územie 'Hrádok' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.
+ku_gdfs: [      @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.237'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.237'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.237'}
+
+[3 rows x 12 columns],       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.237'}
+
+[1 rows x 12 columns]]
+nazov_lokality: Dolina
+get_geometry_of_a_geoname nazov_lokality: Dolina
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Dolina, Hrádok
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Dolina, Nové Mesto nad Váhom
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Dolina, Trenčiansky kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Dolina
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((13.80789 45.60619, 13.80795 45.60617...  ...  San Dorligo della Valle / Dolina, Terst, Furla...
+1  POLYGON ((15.9654 48.34003, 15.96999 48.34021,...  ...  Tulln an der Donau, Bezirk Tulln, Dolné Rakúsk...
+2  POLYGON ((19.37253 53.77321, 19.3732 53.77276,...  ...  Dolina, gmina Susz, powiat iławski, Varmsko-Ma...
+3  POLYGON ((16.38166 50.41389, 16.38226 50.41394...  ...  Dolina, gmina Szczytna, powiat kłodzki, Dolnos...
+
+[4 rows x 11 columns]
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.237'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.237'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.237'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.237'}
+
+[4 rows x 12 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((13.80789 45.60619, 13.80795 45.60617...  ...  San Dorligo della Valle / Dolina, Terst, Furla...
+1  POLYGON ((15.9654 48.34003, 15.96999 48.34021,...  ...  Tulln an der Donau, Bezirk Tulln, Dolné Rakúsk...
+2  POLYGON ((19.37253 53.77321, 19.3732 53.77276,...  ...  Dolina, gmina Susz, powiat iławski, Varmsko-Ma...
+3  POLYGON ((16.38166 50.41389, 16.38226 50.41394...  ...  Dolina, gmina Szczytna, powiat kłodzki, Dolnos...
+
+[4 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563097/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563097/analysis.json...
+
+--- Časy spracovania dokumentu 563097 ---
+  download_and_text   :   3.07 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  30.74 s
+  gis_processing      :   8.52 s
+  CELKOVÝ ČAS         :  42.34 s
+------------------------------------------
+Dokument 563097 bol úspešne spracovaný.

@@ -1,0 +1,127 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=65&odbor=10&sekcia=uradna-tabula&subor=563017
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/563017/orig.pdf
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 4 page images to gemini/gemini-3-flash-preview for OCR.
+LLM_cost: {"cost": 0.034148000000000005}
+LLM_tokens: {"input": 4444, "output": 11370, "total": 15814, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/563017/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona upustil od ústneho pojednávania a miestneho zisťovania, pričom ich upozornil, že svoje námietky môžu uplatniť najneskôr v lehote do'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o EIA, v ktorom potvrdil súlad žiadosti stavebníka o vydanie stavebného povolenia s podmienkami určenými v rozhodnutí vydanom zo zisťovacieho konania'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '272/2016 Z. z. | | **Zastúpená osoba:** | Ministerstvo vnútra Slovenskej republiky<br>SK IČO 00151866 | | **Spôsob autorizácie:** | kvalifikovaný elek'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/563017/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014335200000000001}
+LLM_tokens: {"input": 7650, "output": 3807, "total": 11457, "cached": 2024}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/563017/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/563017/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [{'nazov': 'Barca', 'parcely': [{'typ': 'C', 'cisla': ['1574/129', '1574/130', '1574/166', '1574/167']}, {'typ': 'E', 'cisla': ['473/31', '473/45', '473/46', '473/47', '473/48', '473/49', '473/50', '473/51', '473/52', '473/53', '473/54', '473/55', '473/56', '473/57', '473/58', '473/59', '473/60', '473/61', '473/62', '473/63', '473/79', '562', '567', '570', '575/1']}]}], 'nazov_lokality': 'Výrobno – skladové haly KSC17, KSC18 Etapa I'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [{'nazov': 'Barca', 'parcely': [{'typ': 'C', 'cisla': ['1574/129', '1574/130', '1574/166', '1574/167']}, {'typ': 'E', 'cisla': ['473/31', '473/45', '473/46', '473/47', '473/48', '473/49', '473/50', '473/51', '473/52', '473/53', '473/54', '473/55', '473/56', '473/57', '473/58', '473/59', '473/60', '473/61', '473/62', '473/63', '473/79', '562', '567', '570', '575/1']}]}], 'nazov_lokality': 'Výrobno – skladové haly KSC17, KSC18 Etapa I'}
+ku_name:Barca obec:Košice okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: barca
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: barca
+_get_nationalCadastralZoningReferences() found_ids: {'827380'}
+nationalCadastralZoningReferences: ['827380']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27827380_1574%2F129.C%27%2C%27827380_1574%2F130.C%27%2C%27827380_1574%2F166.C%27%2C%27827380_1574%2F167.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.65 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27827380_473%2F31.E%27%2C%27827380_473%2F45.E%27%2C%27827380_473%2F46.E%27%2C%27827380_473%2F47.E%27%2C%27827380_473%2F48.E%27%2C%27827380_473%2F49.E%27%2C%27827380_473%2F50.E%27%2C%27827380_473%2F51.E%27%2C%27827380_473%2F52.E%27%2C%27827380_473%2F53.E%27%2C%27827380_473%2F54.E%27%2C%27827380_473%2F55.E%27%2C%27827380_473%2F56.E%27%2C%27827380_473%2F57.E%27%2C%27827380_473%2F58.E%27%2C%27827380_473%2F59.E%27%2C%27827380_473%2F60.E%27%2C%27827380_473%2F61.E%27%2C%27827380_473%2F62.E%27%2C%27827380_473%2F63.E%27%2C%27827380_473%2F79.E%27%2C%27827380_562.E%27%2C%27827380_567.E%27%2C%27827380_570.E%27%2C%27827380_575%2F1.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.34 s
+[WARNING]: Nejednoznačne zadané katastrálne územie 'Barca' - našli sa k nemu 2 zhody a použijú sa všetky, aj keď je pravdepodobne z nich len 1 správne.
+ku_gdfs: [      @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+
+[2 rows x 12 columns],        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+
+[26 rows x 12 columns]]
+nazov_lokality: Výrobno – skladové haly KSC17, KSC18 Etapa I
+get_geometry_of_a_geoname nazov_lokality: Výrobno – skladové haly KSC17, KSC18 Etapa I
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Výrobno – skladové haly KSC17, KSC18 Etapa I, Košice
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Výrobno – skladové haly KSC17, KSC18 Etapa I, Košice
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Výrobno – skladové haly KSC17, KSC18 Etapa I, Košický kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Výrobno – skladové haly KSC17, KSC18 Etapa I
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.1748'}
+
+[28 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/563017/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/563017/analysis.json...
+
+--- Časy spracovania dokumentu 563017 ---
+  download_and_text   :  59.29 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  22.59 s
+  gis_processing      :   8.28 s
+  CELKOVÝ ČAS         :  90.16 s
+------------------------------------------
+Dokument 563017 bol úspešne spracovaný.

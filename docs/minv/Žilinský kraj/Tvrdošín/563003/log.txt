@@ -1,0 +1,37 @@
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=38&odbor=10&sekcia=uradna-tabula&subor=563003
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Tvrdošín/563003/orig.pdf
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Tvrdošín/563003/text.txt...
+Warning: Nebol nájdený kľúč zákona pre referenciu '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov, ako príslušný orgán štátnej správy starostlivosti o živo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov, ako príslušný orgán štátnej správy starostlivosti o živo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zák. č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a ako príslušný orgán štátnej vodn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách a o zmene a doplnení zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona od ústneho pojednávanie a miestneho zisťovania. Účastníci konania môžu svoje námietky a pripomienky uplatniť najneskôr do 5 dní odo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Tvrdošín/563003/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010462099999999998}
+LLM_tokens: {"input": 7072, "output": 2612, "total": 9684, "cached": 2022}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Tvrdošín/563003/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Tvrdošín/563003/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Tvrdošín', 'obec': 'Vitanová', 'katastralne_uzemia': [], 'nazov_lokality': None}
+nazov_lokality: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 563003 ---
+  download_and_text   :   0.89 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  17.26 s
+  gis_processing      :   0.00 s
+  CELKOVÝ ČAS         :  18.16 s
+------------------------------------------
+Dokument 563003 bol úspešne spracovaný.
