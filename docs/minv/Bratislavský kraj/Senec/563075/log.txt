@@ -62,3 +62,19 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  28.23 s
 ------------------------------------------
 Dokument 563075 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Senec/563075/text.txt...
+Loading laws from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Senec/563075/laws.txt...
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Senec/563075/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Senec/563075/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Senec/563075/analysis.json...
+
+--- Časy spracovania dokumentu 563075 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.45 s
+  CELKOVÝ ČAS         :   0.45 s
+------------------------------------------
+Dokument 563075 bol úspešne spracovaný.

@@ -81,33 +81,41 @@
     }
   ],
   "zhrnutie": "Okresný úrad Malacky predĺžil lehotu na dokončenie stavby „Gajary, dobudovanie kanalizácie a vodovodu“ do 05.03.2029 pre obec Gajary. Rozhodnutie sa týka vybudovania splaškovej kanalizácie, vodovodu a súvisiacich objektov na viacerých parcelách v k.ú. Gajary.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "2826",
-        "NATIONALSI": "SKCHVU016",
-        "SITETITLE_": "Záhorské Pomoravie"
-      },
-      {
-        "parcel_label": "1552/1",
-        "NATIONALSI": "SKCHVU016",
-        "SITETITLE_": "Záhorské Pomoravie"
-      },
-      {
-        "parcel_label": "2812",
-        "NATIONALSI": "SKCHVU016",
-        "SITETITLE_": "Záhorské Pomoravie"
-      },
-      {
-        "parcel_label": "1279/2",
-        "NATIONALSI": "SKCHVU016",
-        "SITETITLE_": "Záhorské Pomoravie"
-      },
-      {
-        "parcel_label": "1552",
-        "NATIONALSI": "SKCHVU016",
-        "SITETITLE_": "Záhorské Pomoravie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "2826",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        },
+        {
+          "parcel_label": "1552/1",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        },
+        {
+          "parcel_label": "2812",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        },
+        {
+          "parcel_label": "1279/1",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        },
+        {
+          "parcel_label": "1279/2",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        },
+        {
+          "parcel_label": "1552",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        }
+      ]
+    },
+    "source_type": null
   }
 }

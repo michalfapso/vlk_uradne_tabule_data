@@ -95,3 +95,30 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  37.86 s
 ------------------------------------------
 Dokument 562850 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Malacky/562850/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona zmena lehoty na dokončenie stavby Výrok Okresný úrad Malacky, odbor starostlivosti o životné prostredie, ako orgán štátnej správy st'.
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/document_processor.py", line 364, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Malacky/562850/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Malacky/562850/gis.geojson...
+Intersections with protected areas...
+Found 6 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '2826', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}, {'parcel_label': '1552/1', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}, {'parcel_label': '2812', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}, {'parcel_label': '1279/1', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}, {'parcel_label': '1279/2', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}, {'parcel_label': '1552', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Malacky/562850/analysis.json...
+
+--- Časy spracovania dokumentu 562850 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.50 s
+  CELKOVÝ ČAS         :   0.50 s
+------------------------------------------
+Dokument 562850 bol úspešne spracovaný.

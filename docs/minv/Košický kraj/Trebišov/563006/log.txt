@@ -191,3 +191,49 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  57.67 s
 ------------------------------------------
 Dokument 563006 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/563006/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, ako špeciálny stavebný úrad vo veciach vod'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zák. NR SR č.364/2004 Z.z. o vodách a o zmene zákona SNR č.372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zák.č.50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona, na uskutočnenie vodnej stavby „Zemplínska Teplica-Vodovod „podľa projektovej dokumentácie , ktorú vypracoval zodpovedný projektant'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona. 11. Označiť na viditeľnom mieste stavbu výrazným štítkom „Stavba povolená“'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona. 11. Označiť na viditeľnom mieste stavbu výrazným štítkom „Stavba povolená“'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'stavebného zákona. 11. Označiť na viditeľnom mieste stavbu výrazným štítkom „Stavba povolená“'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '133/2013 Z. z. o stavebných výrobkoch. Doklady o tom stavebník predloží pri kolaudácii stavby. 16. Vzniknutý odpad zlikvidovať podľa zákona č. 79/2015'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona. K návrhu na vydanie povolenia na užívanie vodnej stavby je potrebné priložiť geodetické zameranie skutočného vyhotovenia stavby, poloh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vyhlášky MŽP SR č. 453/2000 Z.z., ktorou sa vykonávajú niektoré ustanovenia stavebného zákona. Doloží atesty od zabudovaných materiálov. 23. Ku kolaud'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch pri nakladaní so stavebným odpadom a odpadom z demolácií - Stavebné odpady prednostne odovzdať do zariadenia na zhodnocovanie stavebných od'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch - Stavebník požiada o vyjadrenie k dokumentácii v kolaudačnom konaní, kde predloží doklady o spôsobe zhodnotenia, resp. zneškodnenia odpado'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o odpadoch - Stavebník požiada o vyjadrenie k dokumentácii v kolaudačnom konaní, kde predloží doklady o spôsobe zhodnotenia, resp. zneškodnenia odpado'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '251/2012 Z.z:'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zakázané a) zriaďovať stavby, konštrukcie a skládky, b) uskladňovať ľahko horľavé alebo výbušné látky, c) vykonávať činnosti ohrozujúce bezpečnosť osô'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zakázané: a) zriaďovať stavby, konštrukcie, skládky, vysádzať trvalé porasty a používať osobitne ťažké mechanizmy, b) vykonávať bez predchádzajúceho s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o energetike umiestňovať nadzemné stavby, kontrolné šachty, trvalé porasty a pod. 28. Dodržať podmienky určené vo vyjadrení VVS, a.s. závod Trebišov č'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o energetike umiestňovať nadzemné stavby, kontrolné šachty, trvalé porasty a pod. 28. Dodržať podmienky určené vo vyjadrení VVS, a.s. závod Trebišov č'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '135/1961 Zb. požiadať o čiastočnú uzávierku ciest II. triedy a III. triedy zabezpečujúcu bezpečnosť a plynulosť cestnej premávky na nej počas realizác'.
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/document_processor.py", line 364, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/563006/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/563006/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '456/1', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}, {'parcel_label': '402', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/563006/analysis.json...
+
+--- Časy spracovania dokumentu 563006 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.68 s
+  CELKOVÝ ČAS         :   0.68 s
+------------------------------------------
+Dokument 563006 bol úspešne spracovaný.

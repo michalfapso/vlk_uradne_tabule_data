@@ -153,23 +153,21 @@
     }
   ],
   "zhrnutie": "Okresný úrad Trebišov vydal vodoprávne povolenie obci Zemplínska Teplica na výstavbu vodovodu, ktorý zahŕňa výtlačné potrubie, vodojem a rozvodnú sieť. Projekt prechádza intravilánom aj extravilánom obce a zahŕňa viaceré križovania vodných tokov Číža a Teplica, ako aj zásahy v ochranných pásmach inžinierskych sietí.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "456/1",
-        "NATIONALSI": "SKCHVU025",
-        "SITETITLE_": "Slanské vrchy"
-      },
-      {
-        "parcel_label": "898/2",
-        "NATIONALSI": "SKCHVU025",
-        "SITETITLE_": "Slanské vrchy"
-      },
-      {
-        "parcel_label": "402",
-        "NATIONALSI": "SKCHVU025",
-        "SITETITLE_": "Slanské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "456/1",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        },
+        {
+          "parcel_label": "402",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        }
+      ]
+    },
+    "source_type": null
   }
 }

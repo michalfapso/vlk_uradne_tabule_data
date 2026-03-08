@@ -1,0 +1,29 @@
+Orig doc already downloaded: /home/miso/projects/VLK/uradne_nastenky/data/docs/minzp/Trnavský kraj/Trnava/ou-tt-oszp3-2020-018991/orig.html
+Converting document to text...
+Saving text doc to /home/miso/projects/VLK/uradne_nastenky/data/docs/minzp/Trnavský kraj/Trnava/ou-tt-oszp3-2020-018991/text.txt...
+Getting law excerpts...
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minzp/Trnavský kraj/Trnava/ou-tt-oszp3-2020-018991/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00720815}
+LLM_tokens: {"input": 3238, "output": 2162, "total": 5400, "cached": 1993}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minzp/Trnavský kraj/Trnava/ou-tt-oszp3-2020-018991/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minzp/Trnavský kraj/Trnava/ou-tt-oszp3-2020-018991/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': None, 'katastralne_uzemia': [], 'nazov_lokality': None}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': None, 'katastralne_uzemia': [], 'nazov_lokality': None}
+No geometries were found.
+nazov_lokality: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu ou-tt-oszp3-2020-018991 ---
+  download_and_text   :   0.01 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.79 s
+  gis_processing      :   0.00 s
+  CELKOVÝ ČAS         :  11.94 s
+------------------------------------------
+Dokument ou-tt-oszp3-2020-018991 bol úspešne spracovaný.

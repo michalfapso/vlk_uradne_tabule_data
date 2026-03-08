@@ -43,20 +43,23 @@
     }
   ],
   "zhrnutie": "Oznámenie o plánovanom výrube a okliesnení drevín v ochrannom pásme 110 kV elektrického vedenia v katastrálnom území Považská Bystrica. Práce sú odôvodnené bezpečnosťou prevádzky energetických zariadení a ich ukončenie je plánované do 20.12.2026.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Považská Bystrica",
-        "NATIONALSI": "SKUEV0256",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Považská Bystrica",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Považská Bystrica",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Považská Bystrica",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": null
   }
 }

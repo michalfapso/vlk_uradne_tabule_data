@@ -41,3 +41,22 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  18.29 s
 ------------------------------------------
 Dokument ou-bb-oszp1-2026-017656 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-017656/text.txt...
+Loading laws from /home/miso/projects/VLK/uradne_nastenky/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-017656/laws.txt...
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-017656/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-017656/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Počúvadlianske jazero, Banská Štiavnica, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko', 'NAZOV_UEV': 'Sitno', 'KOD_UEV': 'SKUEV0216'}], 'UEV': [{'parcel_label': 'Počúvadlianske jazero, Banská Štiavnica, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0216', 'SITETITLE_': 'Sitno'}], 'MCHU': [{'parcel_label': 'Počúvadlianske jazero, Banská Štiavnica, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko', 'NATIONALSI': '413', 'SITETITLE_': 'NPR Sitno'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-017656/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp1-2026-017656 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.47 s
+  CELKOVÝ ČAS         :   0.61 s
+------------------------------------------
+Dokument ou-bb-oszp1-2026-017656 bol úspešne spracovaný.

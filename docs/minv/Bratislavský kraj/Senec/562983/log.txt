@@ -73,3 +73,33 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  33.49 s
 ------------------------------------------
 Dokument 562983 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Senec/562983/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '180/2013 Z.z. o organizácii miestnej štátnej správy a doplnení niektorých zákonov a špeciálny stavebný úrad vo veciach vodných stavieb podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zák. č. 364/2004 Z.z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/document_processor.py", line 364, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Senec/562983/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Senec/562983/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Senec/562983/analysis.json...
+
+--- Časy spracovania dokumentu 562983 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.43 s
+  CELKOVÝ ČAS         :   0.45 s
+------------------------------------------
+Dokument 562983 bol úspešne spracovaný.

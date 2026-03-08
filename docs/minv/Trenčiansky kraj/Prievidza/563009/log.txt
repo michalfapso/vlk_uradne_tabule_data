@@ -78,3 +78,21 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  25.78 s
 ------------------------------------------
 Dokument 563009 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Prievidza/563009/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'za- kona NR SR c. 543/20020 oehrane prirody a krajiny, v zneni neskorsieh predpisov Yam oznamuje, ze zaklade podnetu KDI Trencin a vyzvy OU Trencin bu'.
+No law excerpts found.
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Prievidza/563009/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Prievidza/563009/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Prievidza/563009/analysis.json...
+
+--- Časy spracovania dokumentu 563009 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.53 s
+  CELKOVÝ ČAS         :   0.53 s
+------------------------------------------
+Dokument 563009 bol úspešne spracovaný.

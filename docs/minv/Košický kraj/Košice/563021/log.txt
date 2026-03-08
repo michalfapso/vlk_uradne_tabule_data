@@ -48,3 +48,38 @@ gdf_geoname: None
   CELKOVÝ ČAS         :  63.01 s
 ------------------------------------------
 Dokument 563021 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Košice/563021/text.txt...
+Loading laws from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Košice/563021/laws.txt...
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Košice/563021/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [], 'nazov_lokality': 'Krakovská ulica'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [], 'nazov_lokality': 'Krakovská ulica'}
+Fallback to OBEC: Košice
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: kosice norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: kosice norm_ku: None
+Fallback to OBEC failed: Nenašlo sa žiadne katastrálne uzemie pre zadané parametre kraj:None, okres:None, obec:Košice, katastralneUzemie:None
+No geometries were found.
+nazov_lokality: Krakovská ulica
+get_geometry_of_a_geoname nazov_lokality: Krakovská ulica
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krakovská ulica, Košice
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krakovská ulica, Košice
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krakovská ulica, Košický kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krakovská ulica
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 563021 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   1.08 s
+  CELKOVÝ ČAS         :   1.08 s
+------------------------------------------
+Dokument 563021 bol úspešne spracovaný.

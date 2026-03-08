@@ -56,28 +56,31 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí konania na udelenie súhlasov pre usporiadanie podujatia Pstruhové preteky na vodnej nádrži Brezová pod Bradlom. Zásah zahŕňa vjazd vozidiel a umiestnenie stánkov v 2. stupni ochrany v rámci CHKO Malé Karpaty.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "629/9",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      },
-      {
-        "parcel_label": "3824/1",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      },
-      {
-        "parcel_label": "3819/1",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      },
-      {
-        "parcel_label": "3823",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "629/9",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "3824/1",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "3819/1",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "3823",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": null
   }
 }

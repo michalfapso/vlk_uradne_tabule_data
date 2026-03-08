@@ -38,5 +38,29 @@
       "zakon_cislo": "543/2002 Z. z."
     }
   ],
-  "zhrnutie": "Oznámenie o začatí konania vo veci vydania súhlasu na pasenie, napájanie a nocovanie hospodárskych zvierat (stádo nad 30 DJ) na voľných ležoviskách v obci Čabalovce, na území CHKO Východné Karpaty v 2. stupni ochrany."
+  "zhrnutie": "Oznámenie o začatí konania vo veci vydania súhlasu na pasenie, napájanie a nocovanie hospodárskych zvierat (stádo nad 30 DJ) na voľných ležoviskách v obci Čabalovce, na území CHKO Východné Karpaty v 2. stupni ochrany.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Čabalovce",
+          "NATIONALSI": "SKUEV0387",
+          "SITETITLE_": "Beskyd"
+        },
+        {
+          "parcel_label": "Čabalovce",
+          "NATIONALSI": "SKUEV0016",
+          "SITETITLE_": "Košariská"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Čabalovce",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
 }

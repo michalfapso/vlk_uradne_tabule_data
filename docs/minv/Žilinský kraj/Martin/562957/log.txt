@@ -89,3 +89,19 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  53.98 s
 ------------------------------------------
 Dokument 562957 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Žilinský kraj/Martin/562957/text.txt...
+Loading laws from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Žilinský kraj/Martin/562957/laws.txt...
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Žilinský kraj/Martin/562957/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Žilinský kraj/Martin/562957/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Žilinský kraj/Martin/562957/analysis.json...
+
+--- Časy spracovania dokumentu 562957 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.63 s
+  CELKOVÝ ČAS         :   0.63 s
+------------------------------------------
+Dokument 562957 bol úspešne spracovaný.

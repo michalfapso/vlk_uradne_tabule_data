@@ -36,27 +36,30 @@
     }
   ],
   "zhrnutie": "Informácia o začatí konania vo veci žiadosti o povolenie výnimky a udelenie súhlasu na usporiadanie športovo-turistického podujatia Jaguár Land Rover Nitra Adventure Day 2026 v lokalite Počúvadlianske jazero.",
-  "zasiahnute_chranene_uzemia": {
-    "5st_konsUEV": [
-      {
-        "parcel_label": "Počúvadlianske jazero, Banská Štiavnica, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
-        "NAZOV_UEV": "Sitno",
-        "KOD_UEV": "SKUEV0216"
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Počúvadlianske jazero, Banská Štiavnica, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
-        "NATIONALSI": "SKUEV0216",
-        "SITETITLE_": "Sitno"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Počúvadlianske jazero, Banská Štiavnica, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
-        "NATIONALSI": "413",
-        "SITETITLE_": "NPR Sitno"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Počúvadlianske jazero, Banská Štiavnica, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+          "NAZOV_UEV": "Sitno",
+          "KOD_UEV": "SKUEV0216"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Počúvadlianske jazero, Banská Štiavnica, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+          "NATIONALSI": "SKUEV0216",
+          "SITETITLE_": "Sitno"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Počúvadlianske jazero, Banská Štiavnica, okres Banská Štiavnica, Banskobystrický kraj, Stredné Slovensko, Slovensko",
+          "NATIONALSI": "413",
+          "SITETITLE_": "NPR Sitno"
+        }
+      ]
+    },
+    "source_type": null
   }
 }

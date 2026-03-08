@@ -3,31 +3,33 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": null,
   "datum_zverejnenia": null,
-  "lehoty_na_vyjadrenie": "Neuvedené",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
   "ziadatel_navrhovatel": null,
   "miesto_realizacie": {
-    "kraj": null,
-    "okres": null,
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
     "obec": null,
     "katastralne_uzemia": [],
     "nazov_lokality": null
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_dokumentu": "Oznámenie o výrube",
   "typ_zasahu": [
     "výrub drevín"
   ],
-  "typ_uzemia": [],
+  "typ_uzemia": [
+    "neviem"
+  ],
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "paragrafy": [
+  "zakony": [
     {
-      "paragraf": "47",
-      "odsek": "7",
-      "pismena": [],
       "zakon_nazov": "o ochrane prírody a krajiny",
       "zakon_cislo": "543/2002 Z. z."
     }
   ],
-  "zhrnutie": "Ide o oznámenie podľa § 47 ods. 7 zákona č. 543/2002 Z. z. o ochrane prírody a krajiny, ktoré sa týka výrubu drevín. Dokument nešpecifikuje žiadneho žiadateľa ani konkrétnu lokalitu či prípadné dotknuté chránené územia."
+  "zhrnutie": "Oznámenie o plánovanom výrube drevín v okrese Trnava podľa § 47 ods. 7 zákona o ochrane prírody. Dokument neuvádza presnú lokalitu ani rozsah výrubu priamo v texte."
 }

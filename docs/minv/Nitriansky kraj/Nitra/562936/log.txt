@@ -65,3 +65,19 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  33.16 s
 ------------------------------------------
 Dokument 562936 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nitra/562936/text.txt...
+Loading laws from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nitra/562936/laws.txt...
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nitra/562936/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nitra/562936/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nitra/562936/analysis.json...
+
+--- Časy spracovania dokumentu 562936 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.47 s
+  CELKOVÝ ČAS         :   0.48 s
+------------------------------------------
+Dokument 562936 bol úspešne spracovaný.

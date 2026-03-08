@@ -60,3 +60,30 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  33.02 s
 ------------------------------------------
 Dokument 562979 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Gelnica/562979/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'zák. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov v k. ú. Gelnica nasledovne: 7 ks drevín druhu: Smrek obyčajný'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'uvedie v písomnom oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno a priezvisko osoby oprávnenej konať v jeho'.
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/document_processor.py", line 364, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Gelnica/562979/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Gelnica/562979/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Gelnica/562979/analysis.json...
+
+--- Časy spracovania dokumentu 562979 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.42 s
+  CELKOVÝ ČAS         :   0.44 s
+------------------------------------------
+Dokument 562979 bol úspešne spracovaný.

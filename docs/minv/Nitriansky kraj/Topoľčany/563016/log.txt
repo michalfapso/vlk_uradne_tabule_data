@@ -47,3 +47,56 @@ gdf_geoname: None
   CELKOVÝ ČAS         :  23.40 s
 ------------------------------------------
 Dokument 563016 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Topoľčany/563016/text.txt...
+Loading laws from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Topoľčany/563016/laws.txt...
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Topoľčany/563016/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Topoľčany', 'obec': 'Topoľčany', 'katastralne_uzemia': [], 'nazov_lokality': 'Bernolákova ulica'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Topoľčany', 'obec': 'Topoľčany', 'katastralne_uzemia': [], 'nazov_lokality': 'Bernolákova ulica'}
+Fallback to OBEC: Topoľčany
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'835471', '863548', '867926'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27835471%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.17 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27863548%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.22 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27867926%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.12 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Bernolákova ulica
+get_geometry_of_a_geoname nazov_lokality: Bernolákova ulica
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bernolákova ulica, Topoľčany
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bernolákova ulica, Topoľčany
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bernolákova ulica, Nitriansky kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bernolákova ulica
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.17513 48.61346, 18.17526 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.17677 48.58631, 18.17711 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.16551 48.62461, 18.16559 48...
+
+[3 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Topoľčany/563016/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Topoľčany', 'NATIONALSI': 'SKCHVU031', 'SITETITLE_': 'Tribeč'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Topoľčany/563016/analysis.json...
+
+--- Časy spracovania dokumentu 563016 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   2.17 s
+  CELKOVÝ ČAS         :   2.18 s
+------------------------------------------
+Dokument 563016 bol úspešne spracovaný.

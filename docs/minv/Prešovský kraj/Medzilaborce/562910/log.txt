@@ -41,3 +41,46 @@ gdf_geoname: None
   CELKOVÝ ČAS         :  30.03 s
 ------------------------------------------
 Dokument 562910 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562910/text.txt...
+Getting law excerpts...
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/document_processor.py", line 364, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562910/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Medzilaborce', 'obec': 'Čabalovce', 'katastralne_uzemia': [], 'nazov_lokality': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Medzilaborce', 'obec': 'Čabalovce', 'katastralne_uzemia': [], 'nazov_lokality': None}
+Fallback to OBEC: Čabalovce
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: medzilaborce norm_obec: cabalovce norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'808288'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27808288%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.11 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.98 49.25892, 21.98 49.25841...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562910/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Čabalovce', 'NATIONALSI': 'SKUEV0387', 'SITETITLE_': 'Beskyd'}, {'parcel_label': 'Čabalovce', 'NATIONALSI': 'SKUEV0016', 'SITETITLE_': 'Košariská'}], 'CHVU': [{'parcel_label': 'Čabalovce', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562910/analysis.json...
+
+--- Časy spracovania dokumentu 562910 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.62 s
+  CELKOVÝ ČAS         :   0.64 s
+------------------------------------------
+Dokument 562910 bol úspešne spracovaný.

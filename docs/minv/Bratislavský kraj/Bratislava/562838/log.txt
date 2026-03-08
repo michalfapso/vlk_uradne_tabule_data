@@ -91,3 +91,40 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  32.68 s
 ------------------------------------------
 Dokument 562838 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/562838/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona Okresný úrad Bratislava, odbor starostlivosti o životné prostredie, oddelenie štátnej správy vôd a vybraných zložiek životného prostred'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'NR SR č. 364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona. Investor: UNL, s.r.o., so sídlom Digital Park II, Einsteinova 25, 851 01 Bratislava, IČO: 46 181 202 Miesto navrhovanej stavby: Vajnor'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v sp'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako orgán štátnej vodnej sp'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona v y d á v a nasledovné záväzné stanovisko: Územie, na ktorom sa plánuje navrhovaná stavba: „Polyfunkčný súbor Vajnorská“, k. ú. Nové Me'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '7/2010 Z. z. o ochrane pred povodňami a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách a vyhlášky MŽP SR č. 100/2005 Z. z. ktorou sa ustanovujú podrobnosti o zaobchádzaní s nebezpečnými látkami, o náležitostiach h'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona potrebné povolenie príslušného orgánu štátnej vodnej správy, kde je potrebné predložiť hydrogeologický posudok, ktorý zhodnotí dostatoč'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona. - Navrhnuté vsakovacie objekty musia byť osadené min. 1,0 m nad hladinou podzemnej vody a musia byť hydraulicky prepojené s vrstvou pr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona je studňa vodnou stavbou a je na ňu potrebné povolenie orgánu štátnej vodnej správy'.
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/document_processor.py", line 364, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/562838/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/562838/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/562838/analysis.json...
+
+--- Časy spracovania dokumentu 562838 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.49 s
+  CELKOVÝ ČAS         :   0.49 s
+------------------------------------------
+Dokument 562838 bol úspešne spracovaný.

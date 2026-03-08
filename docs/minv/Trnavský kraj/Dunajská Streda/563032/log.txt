@@ -74,3 +74,19 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  54.63 s
 ------------------------------------------
 Dokument 563032 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trnavský kraj/Dunajská Streda/563032/text.txt...
+Loading laws from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trnavský kraj/Dunajská Streda/563032/laws.txt...
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trnavský kraj/Dunajská Streda/563032/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trnavský kraj/Dunajská Streda/563032/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trnavský kraj/Dunajská Streda/563032/analysis.json...
+
+--- Časy spracovania dokumentu 563032 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.42 s
+  CELKOVÝ ČAS         :   0.42 s
+------------------------------------------
+Dokument 563032 bol úspešne spracovaný.

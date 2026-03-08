@@ -81,20 +81,23 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí vodoprávneho konania vo veci zmeny stavby pred dokončením pre projekt 'ČOV a splašková kanalizácia v obci Plavecký Mikuláš - časť kanalizačné prípojky'. Realizácia je plánovaná na parcelách registra C a E v katastrálnom území Plavecký Mikuláš.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "2/1",
-        "NATIONALSI": "SKUEV0267",
-        "SITETITLE_": "Biele hory"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "2/1",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "2/1",
+          "NATIONALSI": "SKUEV0267",
+          "SITETITLE_": "Biele hory"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "2/1",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": null
   }
 }

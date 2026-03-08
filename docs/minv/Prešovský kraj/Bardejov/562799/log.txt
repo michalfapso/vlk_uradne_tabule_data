@@ -38,3 +38,44 @@ gdf_geoname: None
   CELKOVÝ ČAS         :  14.12 s
 ------------------------------------------
 Dokument 562799 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Bardejov/562799/text.txt...
+Loading laws from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Bardejov/562799/laws.txt...
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Bardejov/562799/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Frička', 'katastralne_uzemia': [{'nazov': 'Frička', 'parcely': [{'typ': 'C', 'cisla': ['609/31']}]}], 'nazov_lokality': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Frička', 'katastralne_uzemia': [{'nazov': 'Frička', 'parcely': [{'typ': 'C', 'cisla': ['609/31']}]}], 'nazov_lokality': None}
+ku_name:Frička obec:Frička okres:Bardejov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: fricka norm_ku: fricka
+_get_nationalCadastralZoningReferences() found_ids: {'814385'}
+nationalCadastralZoningReferences: ['814385']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27814385_609%2F31.C%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.03 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['609/31']}' v KU 'Frička' sa nenašli dáta.
+Fallback to OBEC: Frička
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: fricka norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'814385'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27814385%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.13 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.0732 49.42499, 21.07404 49....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Bardejov/562799/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Bardejov/562799/analysis.json...
+
+--- Časy spracovania dokumentu 562799 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   3.66 s
+  CELKOVÝ ČAS         :   3.66 s
+------------------------------------------
+Dokument 562799 bol úspešne spracovaný.

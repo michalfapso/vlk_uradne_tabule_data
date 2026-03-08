@@ -1,0 +1,29 @@
+Orig doc already downloaded: /home/miso/projects/VLK/uradne_nastenky/data/docs/minzp/Banskobystrický kraj/Poltár/nova-web-stranka/orig.html
+Converting document to text...
+Saving text doc to /home/miso/projects/VLK/uradne_nastenky/data/docs/minzp/Banskobystrický kraj/Poltár/nova-web-stranka/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.005565}
+LLM_tokens: {"input": 2700, "output": 1405, "total": 4105, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minzp/Banskobystrický kraj/Poltár/nova-web-stranka/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minzp/Banskobystrický kraj/Poltár/nova-web-stranka/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Poltár', 'obec': None, 'katastralne_uzemia': [], 'nazov_lokality': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Poltár', 'obec': None, 'katastralne_uzemia': [], 'nazov_lokality': None}
+No geometries were found.
+nazov_lokality: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu nova-web-stranka ---
+  download_and_text   :   0.02 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   7.99 s
+  gis_processing      :   0.00 s
+  CELKOVÝ ČAS         :   9.04 s
+------------------------------------------
+Dokument nova-web-stranka bol úspešne spracovaný.

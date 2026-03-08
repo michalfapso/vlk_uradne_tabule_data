@@ -101,3 +101,145 @@ Traceback (most recent call last):
     raise RuntimeError(f"Error extracting text from PDF: {e}")
 RuntimeError: Error extracting text from PDF: litellm.Timeout: Connection timed out after None seconds.
 [ERROR]: Zlyhalo spracovanie dokumentu 563004 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=563004): Error extracting text from PDF: litellm.Timeout: Connection timed out after None seconds.
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=563004
+Úspešne stiahnuté a uložené ako: /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/563004/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Orig doc already downloaded: /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/563004/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Orig doc already downloaded: /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/563004/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-3-flash-preview for OCR.
+LLM_cost: {"cost": 0.027068000000000002}
+LLM_tokens: {"input": 5536, "output": 9010, "total": 14546, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/563004/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v sp'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako orgán štátnej vodnej sp'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. o územnom plánovaní a stavebnom poriadku a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'vodného zákona, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb., v súčinnosti s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '25/2025 Z. z. Stavebného zákona a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '50/1976 Zb. podáva stavebník. 14. Ku kolaudačnému konaniu predložiť doklady vyplývajúce z podmienok pre realizáciu stavby podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Vyhlášky č. 453/2000 Z. z., ktorou sa vykonávajú niektoré ustanovenia stavebného zákona.  <p align="right">3 / 28</p> <center>OU-BA-OSZP2-2026/328166-'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'Vyhlášky č. 453/2000 Z. z., ktorou sa vykonávajú niektoré ustanovenia stavebného zákona.  <p align="right">3 / 28</p> <center>OU-BA-OSZP2-2026/328166-'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov sa uvádzajú podmienky n'.
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/563004/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0219875}
+LLM_tokens: {"input": 10759, "output": 5536, "total": 16295, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/563004/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/563004/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava IV, Malacky', 'obec': 'Devínska Nová Ves, Záhorská Bystrica, Stupava', 'katastralne_uzemia': [{'nazov': 'Devínska Nová Ves', 'parcely': [{'typ': 'E', 'cisla': ['2843', '2844', '2845']}, {'typ': 'C', 'cisla': ['2955/1', '2640/1']}]}, {'nazov': 'Záhorská Bystrica', 'parcely': [{'typ': 'C', 'cisla': ['4106/14', '4106/15', '4109/1', '4109/2', '4110/8', '4112/7']}]}, {'nazov': 'Stupava', 'parcely': [{'typ': 'C', 'cisla': ['4251/1', '4251/2', '4251/4', '4251/6', '4251/7', '4251/8', '4251/10']}, {'typ': 'E', 'cisla': ['4251/3']}]}], 'nazov_lokality': 'ŽSR, Modernizácia železničnej trate Devínska Nová Ves – štátna hranica SR/ČR'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava IV, Malacky', 'obec': 'Devínska Nová Ves, Záhorská Bystrica, Stupava', 'katastralne_uzemia': [{'nazov': 'Devínska Nová Ves', 'parcely': [{'typ': 'E', 'cisla': ['2843', '2844', '2845']}, {'typ': 'C', 'cisla': ['2955/1', '2640/1']}]}, {'nazov': 'Záhorská Bystrica', 'parcely': [{'typ': 'C', 'cisla': ['4106/14', '4106/15', '4109/1', '4109/2', '4110/8', '4112/7']}]}, {'nazov': 'Stupava', 'parcely': [{'typ': 'C', 'cisla': ['4251/1', '4251/2', '4251/4', '4251/6', '4251/7', '4251/8', '4251/10']}, {'typ': 'E', 'cisla': ['4251/3']}]}], 'nazov_lokality': 'ŽSR, Modernizácia železničnej trate Devínska Nová Ves – štátna hranica SR/ČR'}
+ku_name:Devínska Nová Ves obec:Devínska Nová Ves, Záhorská Bystrica, Stupava okres:Bratislava IV, Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: devinska nova ves norm_ku: devinska nova ves
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: None norm_ku: devinska nova ves
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: None norm_ku: devinska nova ves
+_get_nationalCadastralZoningReferences() found_ids: {'810649'}
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: zahorska bystrica norm_ku: devinska nova ves
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: None norm_ku: devinska nova ves
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: None norm_ku: devinska nova ves
+_get_nationalCadastralZoningReferences() found_ids: {'810649'}
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: stupava norm_ku: devinska nova ves
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: None norm_ku: devinska nova ves
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: None norm_ku: devinska nova ves
+_get_nationalCadastralZoningReferences() found_ids: {'810649'}
+nationalCadastralZoningReferences: ['810649']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27810649_2843.E%27%2C%27810649_2844.E%27%2C%27810649_2845.E%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.07 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27810649_2955%2F1.C%27%2C%27810649_2640%2F1.C%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.40 s
+ku_name:Záhorská Bystrica obec:Devínska Nová Ves, Záhorská Bystrica, Stupava okres:Bratislava IV, Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: devinska nova ves norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: None norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: None norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() found_ids: {'871796'}
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: zahorska bystrica norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: None norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: None norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() found_ids: {'871796'}
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: stupava norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: None norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: None norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() found_ids: {'871796'}
+nationalCadastralZoningReferences: ['871796']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27871796_4106%2F14.C%27%2C%27871796_4106%2F15.C%27%2C%27871796_4109%2F1.C%27%2C%27871796_4109%2F2.C%27%2C%27871796_4110%2F8.C%27%2C%27871796_4112%2F7.C%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.76 s
+ku_name:Stupava obec:Devínska Nová Ves, Záhorská Bystrica, Stupava okres:Bratislava IV, Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: devinska nova ves norm_ku: stupava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: None norm_ku: stupava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: None norm_ku: stupava
+_get_nationalCadastralZoningReferences() found_ids: {'859338'}
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: zahorska bystrica norm_ku: stupava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: None norm_ku: stupava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: None norm_ku: stupava
+_get_nationalCadastralZoningReferences() found_ids: {'859338'}
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: stupava norm_ku: stupava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iv, malacky norm_obec: None norm_ku: stupava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: None norm_ku: stupava
+_get_nationalCadastralZoningReferences() found_ids: {'859338'}
+nationalCadastralZoningReferences: ['859338']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27859338_4251%2F1.C%27%2C%27859338_4251%2F2.C%27%2C%27859338_4251%2F4.C%27%2C%27859338_4251%2F6.C%27%2C%27859338_4251%2F7.C%27%2C%27859338_4251%2F8.C%27%2C%27859338_4251%2F10.C%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.90 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27859338_4251%2F3.E%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.69 s
+nazov_lokality: ŽSR, Modernizácia železničnej trate Devínska Nová Ves – štátna hranica SR/ČR
+get_geometry_of_a_geoname nazov_lokality: ŽSR, Modernizácia železničnej trate Devínska Nová Ves – štátna hranica SR/ČR
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ŽSR, Modernizácia železničnej trate Devínska Nová Ves – štátna hranica SR/ČR, Devínska Nová Ves, Záhorská Bystrica, Stupava
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ŽSR, Modernizácia železničnej trate Devínska Nová Ves – štátna hranica SR/ČR, Bratislava IV, Malacky
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ŽSR, Modernizácia železničnej trate Devínska Nová Ves – štátna hranica SR/ČR, Bratislavský kraj
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ŽSR, Modernizácia železničnej trate Devínska Nová Ves – štátna hranica SR/ČR
+response: <Response [200]>
+gdf_geoname: None
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1398'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1398'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1398'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1398'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2499'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2499'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2499'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2499'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2499'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2499'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2499'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2499'}
+
+[18 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/563004/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '4109/1', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/563004/analysis.json...
+
+--- Časy spracovania dokumentu 563004 ---
+  download_and_text   :  46.02 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  29.98 s
+  gis_processing      :  19.08 s
+  CELKOVÝ ČAS         :  95.11 s
+------------------------------------------
+Dokument 563004 bol úspešne spracovaný.

@@ -128,3 +128,44 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  44.05 s
 ------------------------------------------
 Dokument 563096 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563096/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako príslušn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako príslušn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, určuje podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, určuje podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov po vykonaní zisťovacieh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov sa pre navrhovanú činno'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov sa pre navrhovanú činno'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení účinnom v časovej verzii od 29.09.2025 do 31'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení účinnom do 31.10.2025 ak ide o navrhovanú čin'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'navrhovateľ je povinný pred začatím zisťovacieho konania k navrhovanej činnosti doručiť príslušnému orgánu písomne v listinnej podobe a v elektronicke'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení účinnom do 31.10.2025 predmetom zisťovacieho'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ak ide o činnosť už posúdenú, povolenú, realizovanú alebo v štádiu realizácie, d) zmena navrhovanej činnosti uvedenej v prílohe č. 8 časti B, ak ide o'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o posudzovaní do 31.10.2025 na konanie podľa tohto zákona sa vzťahuje všeobecný predpis o správnom konaní okrem zisťovacieho konania podľa'.
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/document_processor.py", line 364, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563096/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563096/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563096/analysis.json...
+
+--- Časy spracovania dokumentu 563096 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.44 s
+  CELKOVÝ ČAS         :   0.45 s
+------------------------------------------
+Dokument 563096 bol úspešne spracovaný.

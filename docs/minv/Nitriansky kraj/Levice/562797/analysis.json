@@ -92,43 +92,36 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí stavebného a vodoprávneho konania pre komplexnú vodohospodársku infraštruktúru v obci Uhliská, zahŕňajúcu vodojem, kanalizáciu a ČOV. Súčasťou zámeru je vypúšťanie odpadových vôd do Botkovského potoka v území spadajúcom pod CHKO Štiavnické vrchy.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "174/1",
-        "NATIONALSI": "SKUEV0263",
-        "SITETITLE_": "Hodrušská hornatina"
-      },
-      {
-        "parcel_label": "213",
-        "NATIONALSI": "SKUEV0263",
-        "SITETITLE_": "Hodrušská hornatina"
-      },
-      {
-        "parcel_label": "5780/4",
-        "NATIONALSI": "SKUEV0263",
-        "SITETITLE_": "Hodrušská hornatina"
-      },
-      {
-        "parcel_label": "6974/1",
-        "NATIONALSI": "SKUEV0263",
-        "SITETITLE_": "Hodrušská hornatina"
-      },
-      {
-        "parcel_label": "6457",
-        "NATIONALSI": "SKUEV0263",
-        "SITETITLE_": "Hodrušská hornatina"
-      },
-      {
-        "parcel_label": "6975/1",
-        "NATIONALSI": "SKUEV0263",
-        "SITETITLE_": "Hodrušská hornatina"
-      },
-      {
-        "parcel_label": "6979/2",
-        "NATIONALSI": "SKUEV0263",
-        "SITETITLE_": "Hodrušská hornatina"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "213",
+          "NATIONALSI": "SKUEV0263",
+          "SITETITLE_": "Hodrušská hornatina"
+        },
+        {
+          "parcel_label": "5780/4",
+          "NATIONALSI": "SKUEV0263",
+          "SITETITLE_": "Hodrušská hornatina"
+        },
+        {
+          "parcel_label": "6457",
+          "NATIONALSI": "SKUEV0263",
+          "SITETITLE_": "Hodrušská hornatina"
+        },
+        {
+          "parcel_label": "6975/1",
+          "NATIONALSI": "SKUEV0263",
+          "SITETITLE_": "Hodrušská hornatina"
+        },
+        {
+          "parcel_label": "6979/2",
+          "NATIONALSI": "SKUEV0263",
+          "SITETITLE_": "Hodrušská hornatina"
+        }
+      ]
+    },
+    "source_type": null
   }
 }

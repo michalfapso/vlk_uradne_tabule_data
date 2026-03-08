@@ -116,3 +116,19 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  29.00 s
 ------------------------------------------
 Dokument 562909 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/562909/text.txt...
+Loading laws from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/562909/laws.txt...
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/562909/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/562909/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/562909/analysis.json...
+
+--- Časy spracovania dokumentu 562909 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.50 s
+  CELKOVÝ ČAS         :   0.51 s
+------------------------------------------
+Dokument 562909 bol úspešne spracovaný.

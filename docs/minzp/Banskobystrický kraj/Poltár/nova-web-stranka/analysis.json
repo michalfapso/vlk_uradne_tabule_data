@@ -3,21 +3,28 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": null,
   "datum_zverejnenia": null,
-  "lehoty_na_vyjadrenie": null,
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
   "ziadatel_navrhovatel": null,
   "miesto_realizacie": {
-    "kraj": null,
-    "okres": null,
+    "kraj": "Banskobystrický kraj",
+    "okres": "Poltár",
     "obec": null,
     "katastralne_uzemia": [],
     "nazov_lokality": null
   },
-  "typ_dokumentu": "Informácia pre verejnosť",
-  "typ_zasahu": [],
-  "typ_uzemia": [],
+  "typ_dokumentu": null,
+  "typ_zasahu": [
+    "neviem"
+  ],
+  "typ_uzemia": [
+    "neviem"
+  ],
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
-  "paragrafy": [],
-  "zhrnutie": "Dokument s názvom 'Nová web stránka' neobsahuje žiadne relevantné informácie o environmentálnom konaní, zásahu do životného prostredia, lokalite, ani dotknutých územiach či druhoch pre Lesoochranárske zoskupenie VLK."
+  "zakony": [],
+  "zhrnutie": "Dokument obsahuje iba základné geografické údaje o kraji a okrese (Banskobystrický kraj, Poltár) bez špecifikácie konkrétneho konania, žiadateľa alebo typu zásahu."
 }

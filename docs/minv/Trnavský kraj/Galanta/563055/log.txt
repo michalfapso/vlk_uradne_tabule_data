@@ -51,3 +51,19 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  20.70 s
 ------------------------------------------
 Dokument 563055 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trnavský kraj/Galanta/563055/text.txt...
+Loading laws from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trnavský kraj/Galanta/563055/laws.txt...
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trnavský kraj/Galanta/563055/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trnavský kraj/Galanta/563055/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trnavský kraj/Galanta/563055/analysis.json...
+
+--- Časy spracovania dokumentu 563055 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.39 s
+  CELKOVÝ ČAS         :   0.39 s
+------------------------------------------
+Dokument 563055 bol úspešne spracovaný.

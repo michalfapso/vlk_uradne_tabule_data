@@ -35,3 +35,44 @@ gdf_geoname: None
   CELKOVÝ ČAS         :  18.16 s
 ------------------------------------------
 Dokument 563003 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Žilinský kraj/Tvrdošín/563003/text.txt...
+Loading laws from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Žilinský kraj/Tvrdošín/563003/laws.txt...
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Žilinský kraj/Tvrdošín/563003/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Tvrdošín', 'obec': 'Vitanová', 'katastralne_uzemia': [], 'nazov_lokality': None}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Tvrdošín', 'obec': 'Vitanová', 'katastralne_uzemia': [], 'nazov_lokality': None}
+Fallback to OBEC: Vitanová
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: tvrdosin norm_obec: vitanova norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'950106', '869708'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27950106%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.14 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27869708%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.14 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.73343 49.31787, 19.73377 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.72944 49.38115, 19.7295 49....
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Žilinský kraj/Tvrdošín/563003/gis.geojson...
+Intersections with protected areas...
+Found 30 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Tichá dolina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}], 'UEV': [{'parcel_label': 'Tichá dolina', 'NATIONALSI': 'SKUEV0307', 'SITETITLE_': 'Tatry'}], 'MCHU': [{'parcel_label': 'Tichá dolina', 'NATIONALSI': '317', 'SITETITLE_': 'NPR Kotlový žľab'}, {'parcel_label': 'Tichá dolina', 'NATIONALSI': '294', 'SITETITLE_': 'NPR Juráňova dolina'}, {'parcel_label': 'Tichá dolina', 'NATIONALSI': '369', 'SITETITLE_': 'NPR Osobitá'}], 'CHVU': [{'parcel_label': 'Tichá dolina', 'NATIONALSI': 'SKCHVU030', 'SITETITLE_': 'Tatry'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Žilinský kraj/Tvrdošín/563003/analysis.json...
+
+--- Časy spracovania dokumentu 563003 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.94 s
+  CELKOVÝ ČAS         :   0.94 s
+------------------------------------------
+Dokument 563003 bol úspešne spracovaný.

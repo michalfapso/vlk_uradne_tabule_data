@@ -101,3 +101,38 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  29.36 s
 ------------------------------------------
 Dokument 562841 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/562841/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z. z. o posudzovaní  vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o posudzovaní zisťovaciemu konaniu.   Príslušný orgán  Okresný úrad Bratislava, odbor starostlivosti o životné  prostredie, oddelenie ochrany prírody'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe  starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov ako prísluš'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z. z. o štátnej správe  starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov ako prísluš'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o posudzovaní oznamuje, že doručením zámeru navrhovanej činnosti  navrhovateľom SEDUS Group a.s., Rusovská cesta 56, 851 01 Bratislava – mestská  časť'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '.  f)  Relevantné informácie sú sprístupnené v centrálnom informačnom systéme na stránke  www.enviroportal.sk  g)  Všetky úkony príslušného orgánu vo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ak sú v lehote určenej podľa 5 prvej vety doručené stanoviská  od iných subjektov ako je uvedené v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'príslušný orgán takéto nevyžiadané  stanoviská zohľadní a vysporiada sa s nimi v záväznom stanovisku zo zisťovacieho  konania.  h)  Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'sa na konania podľa tohto zákona vzťahuje všeobecný  predpis o správnom konaní okrem zisťovacieho konania podľa'.
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/document_processor.py", line 364, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/562841/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/562841/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Bratislavský kraj/Bratislava/562841/analysis.json...
+
+--- Časy spracovania dokumentu 562841 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.45 s
+  CELKOVÝ ČAS         :   0.45 s
+------------------------------------------
+Dokument 562841 bol úspešne spracovaný.

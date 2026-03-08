@@ -55,20 +55,23 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu 2 jaseňov štíhlych v obci Vrbovce (lokalita Bučkova jama). Stromy sa nachádzajú v 2. stupni ochrany v CHKO Biele Karpaty a ich výrub je odôvodnený zlým zdravotným stavom a ohrozením priľahlej chalupy.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Bučkova jama, Vrbovce, okres Myjava, Trenčiansky kraj, Západné Slovensko, Slovensko",
-        "NATIONALSI": "SKUEV0371",
-        "SITETITLE_": "Žalostiná"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Bučkova jama, Vrbovce, okres Myjava, Trenčiansky kraj, Západné Slovensko, Slovensko",
-        "NATIONALSI": "793",
-        "SITETITLE_": "PP Bučkova jama"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Bučkova jama, Vrbovce, okres Myjava, Trenčiansky kraj, Západné Slovensko, Slovensko",
+          "NATIONALSI": "SKUEV0371",
+          "SITETITLE_": "Žalostiná"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Bučkova jama, Vrbovce, okres Myjava, Trenčiansky kraj, Západné Slovensko, Slovensko",
+          "NATIONALSI": "793",
+          "SITETITLE_": "PP Bučkova jama"
+        }
+      ]
+    },
+    "source_type": null
   }
 }

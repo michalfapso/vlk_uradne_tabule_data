@@ -151,3 +151,45 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  30.34 s
 ------------------------------------------
 Dokument 563098 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563098/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov na základe oznámenia o s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '49/2002 Z.z. o ochrane pamiatkového fondu v znení neskorších predpisov, kde podmienkou pre vydanie územného a stavebného povolenia pre jednotlivé akci'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'citovaného zákona, v oprávnených prípadoch s požiadavkou na zabezpečenie archeologického výskumu aj na mieste stavby alebo inej hospodárskej činnosti'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'citovaného zákona, ak na tomto mieste dôvodne predpokladá výskyt archeologických nálezov. 8. V záväznej časti územného plánu zohľadniť a doplniť záväz'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '200/2022 Z.z. o územnom plánovaní v aktuálnom znení. Oznámenie o strategickom dokumente vypracovala Ing. arch. Marianna Bogyová, odborne spôsobilá oso'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '200/2022 Z.z. o územnom plánovaní v aktuálnom znení. Oznámenie o strategickom dokumente vypracovala Ing. arch. Marianna Bogyová, odborne spôsobilá oso'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o posudzovaní predmetom posudzovania vplyvov strategických dokumentov je strategický dokument pripravovaný pre oblasť poľnohospodárstva, lesníctva, ry'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'o posudzovaní ak príslušný orgán rozhodne na základe výsledkov zisťovacieho konania o posudzovaní vplyvov strategického dokumentu podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'že strategický dokument alebo jeho zmena sa bude posudzovať, pretože má pravdepodobne významný vplyv na životné prostredie, predmetom posudzovania vpl'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'že strategický dokument alebo jeho zmena sa bude posudzovať, pretože má pravdepodobne významný vplyv na životné prostredie, predmetom posudzovania vpl'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ktorý stanovuje rámec na schválenie niektorej z navrhovaných činností uvedených v prílohe č. 8 vrátane jeho zmeny, b) strategický dokument uvedený v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ktorý určuje využitie malých území na miestnej úrovni, c) malá zmena strategického dokumentu uvedeného v'.
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/document_processor.py", line 364, in process_document
+    laws_excerpts = get_law_excerpts_for_text(text_content)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 549, in get_law_excerpts_for_text
+    text_blocks, sub_refs = _fetch_law_text_node(ref, LAW_REGISTRY, LAWS_DIR)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/law_references.py", line 335, in _fetch_law_text_node
+    print(f"Warning: Nebol nájdený kľúč zákona pre referenciu '{reference['zakon_refname']}'.", file=sys.stderr)
+KeyError: 'zakon_refname'
+[WARNING]: Nepodarilo sa získať znenia zákonov pre dokument: 'zakon_refname'
+Loading from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563098/analysis.json...
+Loading geometry from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563098/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563098/analysis.json...
+
+--- Časy spracovania dokumentu 563098 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.41 s
+  CELKOVÝ ČAS         :   0.42 s
+------------------------------------------
+Dokument 563098 bol úspešne spracovaný.
