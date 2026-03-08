@@ -109,20 +109,22 @@
     }
   ],
   "zhrnutie": "Dokument je oznámením o začatí konania vo veci žiadosti o povolenie výnimky na použitie snežného skútra v Jaskyni mŕtvych netopierov v k. ú. Brezno (okres Brezno, Banskobystrický kraj) v zimnom období. Žiadosť sa týka údržby vchodu do jaskyne a odkazuje na §13 a §14 zákona o ochrane prírody, čo naznačuje umiestnenie v chránenom území 3. alebo 4. stupňa ochrany, s potenciálnym dopadom na netopiere.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "8064/3",
-        "NATIONALSI": "SKUEV0302",
-        "SITETITLE_": "Ďumbierske Tatry"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "8064/3",
-        "NATIONALSI": "SKCHVU018",
-        "SITETITLE_": "Nízke Tatry"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "8064/3",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "8064/3",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    }
   }
 }

@@ -178,30 +178,32 @@
     }
   ],
   "zhrnutie": "Tento dokument je \"Informácia pre verejnosť\" o začatí zisťovacieho konania pre navrhovanú činnosť \"Obytná zóna Cukrovar – Bloky A3 a A4\" v k. ú. Trnava. Navrhovateľ, Cukrová III, s.r.o., plánuje vybudovanie nového obytného súboru s vlastným zázemím a infraštruktúrou. Dokument špecifikuje lehoty na odvolanie proti záväznému stanovisku zo zisťovacieho konania, ale neuvádza lehotu pre verejnosť na počiatočné vyjadrenia k zámeru.",
-  "zasiahnute_chranene_uzemia": {
-    "MCHU": [
-      {
-        "parcel_label": "Trnava",
-        "NATIONALSI": "175",
-        "SITETITLE_": "CHA Trnavské rybníky"
-      },
-      {
-        "parcel_label": "Trnava",
-        "NATIONALSI": "175",
-        "SITETITLE_": "OP CHA Trnavské rybníky"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Trnava",
-        "NATIONALSI": "SKCHVU023",
-        "SITETITLE_": "Úľanská mokraď"
-      },
-      {
-        "parcel_label": "Trnava",
-        "NATIONALSI": "SKCHVU054",
-        "SITETITLE_": "Špačinsko-nižnianske polia"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "175",
+          "SITETITLE_": "CHA Trnavské rybníky"
+        },
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "175",
+          "SITETITLE_": "OP CHA Trnavské rybníky"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        }
+      ]
+    }
   }
 }

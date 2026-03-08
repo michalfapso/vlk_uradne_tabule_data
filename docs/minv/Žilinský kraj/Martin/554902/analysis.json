@@ -136,38 +136,40 @@
     }
   ],
   "zhrnutie": "Tento dokument je kolaudačné rozhodnutie vydané Okresným úradom Martin, odborom starostlivosti o životné prostredie, ktorým sa povoľuje užívanie zrekonštruovanej vodnej stavby VDJ Vrícko 2x100 m3 v k.ú. Vrícko. Žiadateľom je Turčianska vodárenská spoločnosť, a.s. Rozhodnutie sa týka zabezpečenia pitnej vody z verejného vodovodu a stanovuje podmienky pre prevádzku. V dokumente nie sú explicitne spomenuté žiadne chránené územia ani významné druhy živočíchov alebo rastlín.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "1395/1",
-        "NATIONALSI": "SKCHVU013",
-        "SITETITLE_": "Malá Fatra"
-      },
-      {
-        "parcel_label": "1319",
-        "NATIONALSI": "SKCHVU013",
-        "SITETITLE_": "Malá Fatra"
-      },
-      {
-        "parcel_label": "95/3",
-        "NATIONALSI": "SKCHVU013",
-        "SITETITLE_": "Malá Fatra"
-      },
-      {
-        "parcel_label": "96",
-        "NATIONALSI": "SKCHVU013",
-        "SITETITLE_": "Malá Fatra"
-      },
-      {
-        "parcel_label": "1343",
-        "NATIONALSI": "SKCHVU013",
-        "SITETITLE_": "Malá Fatra"
-      },
-      {
-        "parcel_label": "1342",
-        "NATIONALSI": "SKCHVU013",
-        "SITETITLE_": "Malá Fatra"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "1395/1",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "1319",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "95/3",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "96",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "1343",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "1342",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    }
   }
 }

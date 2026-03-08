@@ -64,49 +64,51 @@
     }
   ],
   "zhrnutie": "Okresný úrad Poprad informuje o začatí správneho konania na základe žiadosti Poľnohospodárskeho družstva TATRAN Gerlachov. Žiadosť sa týka vydania súhlasu pre činnosti podľa § 13 ods. 2 písm. b), e) a h) Zákona o ochrane prírody a krajiny, ktoré sú obmedzené v chránených územiach, na pozemkoch LPIS v katastrálnych územiach Gerlachov, Batizovce a Veľká. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť zúčastnenou osobou.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "Batizovce",
-        "registry_n": "747",
-        "site_name": "Mraznica",
-        "category_i": 1.0
-      },
-      {
-        "parcel_label": "Batizovce",
-        "registry_n": "747",
-        "site_name": "Mraznica",
-        "category_i": 1.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Batizovce",
-        "NATIONALSI": "SKUEV0309",
-        "SITETITLE_": "Poprad"
-      },
-      {
-        "parcel_label": "Batizovce",
-        "NATIONALSI": "SKUEV0307",
-        "SITETITLE_": "Tatry"
-      },
-      {
-        "parcel_label": "Veľká",
-        "NATIONALSI": "SKUEV0309",
-        "SITETITLE_": "Poprad"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Batizovce",
-        "NATIONALSI": "741",
-        "SITETITLE_": "PR Jelšina"
-      },
-      {
-        "parcel_label": "Batizovce",
-        "NATIONALSI": "747",
-        "SITETITLE_": "NPR Mraznica"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "Batizovce",
+          "registry_n": "747",
+          "site_name": "Mraznica",
+          "category_i": 1
+        },
+        {
+          "parcel_label": "Batizovce",
+          "registry_n": "747",
+          "site_name": "Mraznica",
+          "category_i": 1
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Batizovce",
+          "NATIONALSI": "SKUEV0309",
+          "SITETITLE_": "Poprad"
+        },
+        {
+          "parcel_label": "Batizovce",
+          "NATIONALSI": "SKUEV0307",
+          "SITETITLE_": "Tatry"
+        },
+        {
+          "parcel_label": "Veľká",
+          "NATIONALSI": "SKUEV0309",
+          "SITETITLE_": "Poprad"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Batizovce",
+          "NATIONALSI": "741",
+          "SITETITLE_": "PR Jelšina"
+        },
+        {
+          "parcel_label": "Batizovce",
+          "NATIONALSI": "747",
+          "SITETITLE_": "NPR Mraznica"
+        }
+      ]
+    }
   }
 }

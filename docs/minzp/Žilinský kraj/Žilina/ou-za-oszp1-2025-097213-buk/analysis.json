@@ -41,40 +41,42 @@
     }
   ],
   "zhrnutie": "Obec Bobrov žiada o predĺženie výnimky zo zakázaných činností podľa Zákona o ochrane prírody a krajiny, konkrétne pre vjazd a státie motorových vozidiel a vjazd bicykla po panelovej ceste v katastrálnych územiach Bobrov a Slanica. Verejnosť má možnosť prihlásiť sa do konania do 12. decembra 2025.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Bobrov",
-        "NATIONALSI": "SKUEV0304",
-        "SITETITLE_": "Oravská vodná nádrž"
-      },
-      {
-        "parcel_label": "Bobrov",
-        "NATIONALSI": "SKUEV0963",
-        "SITETITLE_": "Osadská"
-      },
-      {
-        "parcel_label": "Slanica",
-        "NATIONALSI": "SKUEV0304",
-        "SITETITLE_": "Oravská vodná nádrž"
-      },
-      {
-        "parcel_label": "Slanica",
-        "NATIONALSI": "SKUEV0191",
-        "SITETITLE_": "Rašeliniská Bielej Oravy"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Bobrov",
-        "NATIONALSI": "SKCHVU008",
-        "SITETITLE_": "Horná Orava"
-      },
-      {
-        "parcel_label": "Slanica",
-        "NATIONALSI": "SKCHVU008",
-        "SITETITLE_": "Horná Orava"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Bobrov",
+          "NATIONALSI": "SKUEV0304",
+          "SITETITLE_": "Oravská vodná nádrž"
+        },
+        {
+          "parcel_label": "Bobrov",
+          "NATIONALSI": "SKUEV0963",
+          "SITETITLE_": "Osadská"
+        },
+        {
+          "parcel_label": "Slanica",
+          "NATIONALSI": "SKUEV0304",
+          "SITETITLE_": "Oravská vodná nádrž"
+        },
+        {
+          "parcel_label": "Slanica",
+          "NATIONALSI": "SKUEV0191",
+          "SITETITLE_": "Rašeliniská Bielej Oravy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Bobrov",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        },
+        {
+          "parcel_label": "Slanica",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        }
+      ]
+    }
   }
 }

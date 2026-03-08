@@ -54,68 +54,70 @@
     }
   ],
   "zhrnutie": "Dokument je verejnou vyhláškou o rozhodnutí Okresného úradu Dolný Kubín o zmene termínu dokončenia stavby „Žaškov – Babicovská. Rozšírenie vodovodu a kanalizácie“ pre žiadateľa Obec Žaškov. Pôvodný termín dokončenia do decembra 2025 sa predlžuje do 31. decembra 2035 z dôvodu nedostatku finančných prostriedkov. Dokument nešpecifikuje dotknuté chránené územia ani druhy živočíchov a rastlín.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "Žaškov",
-        "registry_n": "SKUEV0663",
-        "site_name": "Šíp",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Žaškov",
-        "registry_n": "SKUEV0663",
-        "site_name": "Šíp",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Žaškov",
-        "registry_n": "SKUEV0663",
-        "site_name": "Šíp",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Žaškov",
-        "registry_n": "SKUEV0663",
-        "site_name": "Šíp",
-        "category_i": 21.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Žaškov",
-        "NATIONALSI": "SKUEV0663",
-        "SITETITLE_": "Šíp"
-      },
-      {
-        "parcel_label": "Žaškov",
-        "NATIONALSI": "SKUEV0243",
-        "SITETITLE_": "Orava"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Žaškov",
-        "NATIONALSI": "441",
-        "SITETITLE_": "NPR Šíp"
-      },
-      {
-        "parcel_label": "Žaškov",
-        "NATIONALSI": "1034",
-        "SITETITLE_": "CHA Rieka Orava"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Žaškov",
-        "NATIONALSI": "SKCHVU013",
-        "SITETITLE_": "Malá Fatra"
-      },
-      {
-        "parcel_label": "Žaškov",
-        "NATIONALSI": "SKCHVU050",
-        "SITETITLE_": "Chočské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "Žaškov",
+          "registry_n": "SKUEV0663",
+          "site_name": "Šíp",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Žaškov",
+          "registry_n": "SKUEV0663",
+          "site_name": "Šíp",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Žaškov",
+          "registry_n": "SKUEV0663",
+          "site_name": "Šíp",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Žaškov",
+          "registry_n": "SKUEV0663",
+          "site_name": "Šíp",
+          "category_i": 21
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Žaškov",
+          "NATIONALSI": "SKUEV0663",
+          "SITETITLE_": "Šíp"
+        },
+        {
+          "parcel_label": "Žaškov",
+          "NATIONALSI": "SKUEV0243",
+          "SITETITLE_": "Orava"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Žaškov",
+          "NATIONALSI": "441",
+          "SITETITLE_": "NPR Šíp"
+        },
+        {
+          "parcel_label": "Žaškov",
+          "NATIONALSI": "1034",
+          "SITETITLE_": "CHA Rieka Orava"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Žaškov",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "Žaškov",
+          "NATIONALSI": "SKCHVU050",
+          "SITETITLE_": "Chočské vrchy"
+        }
+      ]
+    }
   }
 }

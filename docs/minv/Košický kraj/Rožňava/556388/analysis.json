@@ -30,20 +30,22 @@
     }
   ],
   "zhrnutie": "Okresný úrad Rožňava oznamuje začatie správneho konania vo veci vydania rozhodnutia podľa § 47 ods. 3 a 5 zákona o ochrane prírody a krajiny, ktoré sa týka žiadosti spoločnosti TONE s.r.o. v Rožňave. Verejnosť má možnosť potvrdiť záujem o účasť v konaní do 5 pracovných dní od zverejnenia.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Rožňava",
-        "NATIONALSI": "SKUEV0918",
-        "SITETITLE_": "Volovské bučiny"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Rožňava",
-        "NATIONALSI": "SKCHVU036",
-        "SITETITLE_": "Volovské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Rožňava",
+          "NATIONALSI": "SKUEV0918",
+          "SITETITLE_": "Volovské bučiny"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Rožňava",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        }
+      ]
+    }
   }
 }

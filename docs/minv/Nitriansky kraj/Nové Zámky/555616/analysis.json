@@ -74,27 +74,29 @@
     }
   ],
   "zhrnutie": "Dokument je informáciou o začatí správneho konania vedeného Okresným úradom Nové Zámky pod číslom OU-NZ-OSZP-2025/031741, týkajúceho sa žiadosti o vydanie súhlasu na výrub drevín v katastrálnom území Nové Zámky. Verejnosť má 5 pracovných dní od zverejnenia informácie na potvrdenie záujmu byť zúčastnenou osobou.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "SKUEV0084",
-        "SITETITLE_": "Zátoň"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "137",
-        "SITETITLE_": "PP Potok Chrenovka"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "SKCHVU005",
-        "SITETITLE_": "Dolné Považie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKUEV0084",
+          "SITETITLE_": "Zátoň"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "137",
+          "SITETITLE_": "PP Potok Chrenovka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKCHVU005",
+          "SITETITLE_": "Dolné Považie"
+        }
+      ]
+    }
   }
 }

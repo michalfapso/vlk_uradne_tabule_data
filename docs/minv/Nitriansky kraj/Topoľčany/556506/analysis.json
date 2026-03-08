@@ -49,32 +49,34 @@
     }
   ],
   "zhrnutie": "Dokument predstavuje informáciu o začatí správneho konania na Okresnom úrade Topoľčany týkajúceho sa žiadosti fyzickej osoby o vydanie súhlasu na výrub drevín rastúcich za hranicami zastavaného územia obce v katastrálnom území Kovarce. Verejnosť má možnosť prihlásiť sa ako účastník konania do piatich pracovných dní od zverejnenia informácie.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Kovarce",
-        "NATIONALSI": "SKUEV0133",
-        "SITETITLE_": "Hôrky"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Kovarce",
-        "NATIONALSI": "808",
-        "SITETITLE_": "PR Kovarská hôrka"
-      },
-      {
-        "parcel_label": "Kovarce",
-        "NATIONALSI": "51",
-        "SITETITLE_": "NPR Hrdovická"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Kovarce",
-        "NATIONALSI": "SKCHVU031",
-        "SITETITLE_": "Tribeč"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Kovarce",
+          "NATIONALSI": "SKUEV0133",
+          "SITETITLE_": "Hôrky"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Kovarce",
+          "NATIONALSI": "808",
+          "SITETITLE_": "PR Kovarská hôrka"
+        },
+        {
+          "parcel_label": "Kovarce",
+          "NATIONALSI": "51",
+          "SITETITLE_": "NPR Hrdovická"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Kovarce",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        }
+      ]
+    }
   }
 }

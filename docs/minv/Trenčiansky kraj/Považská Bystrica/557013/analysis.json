@@ -89,30 +89,32 @@
     }
   ],
   "zhrnutie": "Dokument oznamuje začatie kolaudačného konania pre vodnú stavbu \"Kanalizačný zberač K9 – Líščie\" v obci Prečín, okres Považská Bystrica. Ústne pojednávanie spojené s miestnym zisťovaním je naplánované na 13. januára 2026, kde účastníci konania môžu podať svoje námietky a pripomienky.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "702",
-        "NATIONALSI": "SKUEV0256",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "697",
-        "NATIONALSI": "SKUEV0256",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "590/1",
-        "NATIONALSI": "SKUEV0256",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "693",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "702",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "697",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "590/1",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "693",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    }
   }
 }

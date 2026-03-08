@@ -55,20 +55,22 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí správneho konania pre výrub 4 ks smrekov v obci Moravské Lieskové, okres Nové Mesto nad Váhom. Dotknutý pozemok leží mimo zastavaného územia obce a vzťahuje sa naň tretí a prvý stupeň ochrany prírody. Verejnosť má 5 pracovných dní od zverejnenia oznámenia na potvrdenie záujmu byť účastníkom konania.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "22842/2",
-        "NATIONALSI": "SKUEV0367",
-        "SITETITLE_": "Holubyho kopanice"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "22842/2",
-        "NATIONALSI": "897",
-        "SITETITLE_": "PP Baricovie lúky"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "22842/2",
+          "NATIONALSI": "SKUEV0367",
+          "SITETITLE_": "Holubyho kopanice"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "22842/2",
+          "NATIONALSI": "897",
+          "SITETITLE_": "PP Baricovie lúky"
+        }
+      ]
+    }
   }
 }

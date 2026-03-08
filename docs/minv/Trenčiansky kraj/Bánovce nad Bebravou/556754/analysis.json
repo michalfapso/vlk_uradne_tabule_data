@@ -93,75 +93,77 @@
     }
   ],
   "zhrnutie": "Okresný úrad Bánovce nad Bebravou oznamuje začatie správneho konania vo veci žiadosti o vydanie súhlasu na oplotenie pozemkov pre ochranu mladých lesných porastov pred zverou. Dotknuté pozemky, klasifikované ako lesné, sa nachádzajú za hranicami zastavaného územia obcí Závada pod Č. vrchom, Slatina nad Bebravou, Čierna Lehota a Šípkov. Združenia s právnou subjektivitou môžu potvrdiť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia informácie.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "560",
-        "NATIONALSI": "SKUEV0275",
-        "SITETITLE_": "Kňaží stôl"
-      },
-      {
-        "parcel_label": "562",
-        "NATIONALSI": "SKUEV0275",
-        "SITETITLE_": "Kňaží stôl"
-      },
-      {
-        "parcel_label": "965/3",
-        "NATIONALSI": "SKUEV0275",
-        "SITETITLE_": "Kňaží stôl"
-      },
-      {
-        "parcel_label": "961/1",
-        "NATIONALSI": "SKUEV0275",
-        "SITETITLE_": "Kňaží stôl"
-      },
-      {
-        "parcel_label": "965/1",
-        "NATIONALSI": "SKUEV0275",
-        "SITETITLE_": "Kňaží stôl"
-      },
-      {
-        "parcel_label": "770/1",
-        "NATIONALSI": "SKUEV0274",
-        "SITETITLE_": "Baské"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "560",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "562",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "862",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "965/3",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "961/1",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "965/1",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "770/1",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "560",
+          "NATIONALSI": "SKUEV0275",
+          "SITETITLE_": "Kňaží stôl"
+        },
+        {
+          "parcel_label": "562",
+          "NATIONALSI": "SKUEV0275",
+          "SITETITLE_": "Kňaží stôl"
+        },
+        {
+          "parcel_label": "965/3",
+          "NATIONALSI": "SKUEV0275",
+          "SITETITLE_": "Kňaží stôl"
+        },
+        {
+          "parcel_label": "961/1",
+          "NATIONALSI": "SKUEV0275",
+          "SITETITLE_": "Kňaží stôl"
+        },
+        {
+          "parcel_label": "965/1",
+          "NATIONALSI": "SKUEV0275",
+          "SITETITLE_": "Kňaží stôl"
+        },
+        {
+          "parcel_label": "770/1",
+          "NATIONALSI": "SKUEV0274",
+          "SITETITLE_": "Baské"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "560",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "562",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "862",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "965/3",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "961/1",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "965/1",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "770/1",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    }
   }
 }

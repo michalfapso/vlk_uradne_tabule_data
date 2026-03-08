@@ -53,67 +53,69 @@
     }
   ],
   "zhrnutie": "Oznámenie o výrube porastov v ochrannom pásme VN vedenia č. 172 v katastrálnych územiach Nitrica, Horné Vestenice a Dolné Vestenice. Výrub je plánovaný na obdobie február - marec 2026 na základe havarijného protokolu v súvislosti so správou energetických zariadení.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Horné Vestenice",
-        "NATIONALSI": "SKUEV0128",
-        "SITETITLE_": "Rokoš"
-      },
-      {
-        "parcel_label": "Horné Vestenice",
-        "NATIONALSI": "SKUEV0128",
-        "SITETITLE_": "Rokoš"
-      },
-      {
-        "parcel_label": "Dolné Vestenice",
-        "NATIONALSI": "SKUEV0883",
-        "SITETITLE_": "Nitrické vrchy"
-      },
-      {
-        "parcel_label": "Dolné Vestenice",
-        "NATIONALSI": "SKUEV0128",
-        "SITETITLE_": "Rokoš"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Nitra",
-        "NATIONALSI": "174",
-        "SITETITLE_": "PP Nitriansky dolomitový lom"
-      },
-      {
-        "parcel_label": "Nitra",
-        "NATIONALSI": "1378",
-        "SITETITLE_": "Nitrianska hradná jaskyňa"
-      },
-      {
-        "parcel_label": "Dolné Vestenice",
-        "NATIONALSI": "112",
-        "SITETITLE_": "PP Nitrica"
-      },
-      {
-        "parcel_label": "Dolné Vestenice",
-        "NATIONALSI": "804",
-        "SITETITLE_": "PR Jankov vŕšok"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Horné Vestenice",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "Horné Vestenice",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "Dolné Vestenice",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Horné Vestenice",
+          "NATIONALSI": "SKUEV0128",
+          "SITETITLE_": "Rokoš"
+        },
+        {
+          "parcel_label": "Horné Vestenice",
+          "NATIONALSI": "SKUEV0128",
+          "SITETITLE_": "Rokoš"
+        },
+        {
+          "parcel_label": "Dolné Vestenice",
+          "NATIONALSI": "SKUEV0883",
+          "SITETITLE_": "Nitrické vrchy"
+        },
+        {
+          "parcel_label": "Dolné Vestenice",
+          "NATIONALSI": "SKUEV0128",
+          "SITETITLE_": "Rokoš"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nitra",
+          "NATIONALSI": "174",
+          "SITETITLE_": "PP Nitriansky dolomitový lom"
+        },
+        {
+          "parcel_label": "Nitra",
+          "NATIONALSI": "1378",
+          "SITETITLE_": "Nitrianska hradná jaskyňa"
+        },
+        {
+          "parcel_label": "Dolné Vestenice",
+          "NATIONALSI": "112",
+          "SITETITLE_": "PP Nitrica"
+        },
+        {
+          "parcel_label": "Dolné Vestenice",
+          "NATIONALSI": "804",
+          "SITETITLE_": "PR Jankov vŕšok"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Horné Vestenice",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Horné Vestenice",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Dolné Vestenice",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    }
   }
 }

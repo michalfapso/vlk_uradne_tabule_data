@@ -109,13 +109,15 @@
     }
   ],
   "zhrnutie": "Tento dokument predstavuje zadanie pre vypracovanie nového územného plánu obce Píla v Banskobystrickom kraji. Cieľom je koordinovať rozvoj územia, regulovať výstavbu a chrániť prírodné a kultúrne hodnoty. Územie obce zasahuje do Chránenej krajinnej oblasti Ponitrie a Územia európskeho významu SKUEV0273 Vtáčnik, s viacerými biotopmi európskeho významu a chránenými druhmi rastlín. Plán má definovať podmienky pre bývanie, infraštruktúru, hospodárstvo, rekreáciu a opatrenia na ochranu životného prostredia, vrátane protipovodňových opatrení a nakladania s odpadmi.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Píla",
-        "NATIONALSI": "SKUEV0273",
-        "SITETITLE_": "Vtáčnik"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Píla",
+          "NATIONALSI": "SKUEV0273",
+          "SITETITLE_": "Vtáčnik"
+        }
+      ]
+    }
   }
 }

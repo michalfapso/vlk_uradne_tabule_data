@@ -80,25 +80,27 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí vodoprávneho konania pre predĺženie lehoty výstavby verejnej kanalizácie a ČOV v obci Pernek. Okresný úrad Malacky upustil od ústneho pojednávania. Účastníci konania môžu podať námietky do 8 dní od doručenia oznámenia.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Pernek",
-        "NATIONALSI": "SKUEV0276",
-        "SITETITLE_": "Kuchynská hornatina"
-      },
-      {
-        "parcel_label": "Pernek",
-        "NATIONALSI": "SKUEV0219",
-        "SITETITLE_": "Malina"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Pernek",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Pernek",
+          "NATIONALSI": "SKUEV0276",
+          "SITETITLE_": "Kuchynská hornatina"
+        },
+        {
+          "parcel_label": "Pernek",
+          "NATIONALSI": "SKUEV0219",
+          "SITETITLE_": "Malina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Pernek",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    }
   }
 }

@@ -45,18 +45,20 @@
     }
   ],
   "zhrnutie": "Dokument je rozhodnutím Okresného úradu Prievidza o prerušení vodoprávneho konania a predĺžení lehoty pre spoločnosť Castor & Pollux, s.r.o., na doplnenie podkladov k žiadosti o povolenie vodnej stavby BAŽANTNICA Bojnice SO-670 Odvedenie dažďových vôd – Vetva A v obci Bojnice. Žiadosť sa týka osobitného užívania vôd a vypúšťania povrchového odtoku do podzemných vôd vsakovaním. V dokumente nie sú uvedené žiadne informácie o dotknutých chránených územiach alebo druhoch.",
-  "zasiahnute_chranene_uzemia": {
-    "MCHU": [
-      {
-        "parcel_label": "Bojnice",
-        "NATIONALSI": "387",
-        "SITETITLE_": "OP NPP Prepoštská jaskyňa"
-      },
-      {
-        "parcel_label": "Bojnice",
-        "NATIONALSI": "0",
-        "SITETITLE_": "PP Bojnická hradná jaskyňa"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Bojnice",
+          "NATIONALSI": "387",
+          "SITETITLE_": "OP NPP Prepoštská jaskyňa"
+        },
+        {
+          "parcel_label": "Bojnice",
+          "NATIONALSI": "0",
+          "SITETITLE_": "PP Bojnická hradná jaskyňa"
+        }
+      ]
+    }
   }
 }

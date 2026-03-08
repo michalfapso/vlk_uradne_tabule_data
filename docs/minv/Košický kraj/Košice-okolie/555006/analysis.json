@@ -44,25 +44,27 @@
     }
   ],
   "zhrnutie": "Okresný úrad Košice-okolie oznámil výrub jedného topoľa v katastrálnom území Ďurkov, ktorý sa nachádza pri ceste II/576 smer Ďurkov, pri moste M5726. Oznamovateľom je Správa ciest Košického samosprávneho kraja. Dôvodom výrubu je zabezpečenie bezpečnosti rekonštruovaného mosta, cestnej premávky a ochrany cesty, nakoľko strom je v zlom zdravotnom stave. Ide o oznámenie podľa § 47 ods. 7 zákona o ochrane prírody a krajiny.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Ďurkov",
-        "NATIONALSI": "SKUEV4009",
-        "SITETITLE_": "Dolný tok Oľšavy"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Ďurkov",
-        "NATIONALSI": "SKCHVU009",
-        "SITETITLE_": "Košická kotlina"
-      },
-      {
-        "parcel_label": "Ďurkov",
-        "NATIONALSI": "SKCHVU025",
-        "SITETITLE_": "Slanské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Ďurkov",
+          "NATIONALSI": "SKUEV4009",
+          "SITETITLE_": "Dolný tok Oľšavy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Ďurkov",
+          "NATIONALSI": "SKCHVU009",
+          "SITETITLE_": "Košická kotlina"
+        },
+        {
+          "parcel_label": "Ďurkov",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        }
+      ]
+    }
   }
 }

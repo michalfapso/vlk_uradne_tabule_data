@@ -38,18 +38,20 @@
     }
   ],
   "zhrnutie": "Okresný úrad Trebišov zverejňuje oznámenie Slovenskej správy ciest o plánovanom výrube drevín rastúcich mimo lesa na pomocných cestných pozemkoch. Výrub sa týka úsekov ciest I/19 a I/79 v okres Trebišov, vrátane lokalít Dargov, Sečovce, Trebišov a mnohých ďalších obcí. Na konanie sa nevzťahujú predpisy o správnom konaní.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "Milhostov",
-        "NATIONALSI": "SKCHVU037",
-        "SITETITLE_": "Ondavská rovina"
-      },
-      {
-        "parcel_label": "Trebišov",
-        "NATIONALSI": "SKCHVU037",
-        "SITETITLE_": "Ondavská rovina"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "Milhostov",
+          "NATIONALSI": "SKCHVU037",
+          "SITETITLE_": "Ondavská rovina"
+        },
+        {
+          "parcel_label": "Trebišov",
+          "NATIONALSI": "SKCHVU037",
+          "SITETITLE_": "Ondavská rovina"
+        }
+      ]
+    }
   }
 }

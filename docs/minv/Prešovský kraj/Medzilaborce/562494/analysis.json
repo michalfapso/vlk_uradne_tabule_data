@@ -42,37 +42,39 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí konania vo veci vydania súhlasu na pasenie, napájanie a ustajnenie hospodárskych zvierat (nad 30 DJ) pre AGROMECH, s.r.o. v obci Palota. Činnosť má prebiehať v CHKO Východné Karpaty v 2. stupni ochrany.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Palota",
-        "NATIONALSI": "SKUEV0387",
-        "SITETITLE_": "Beskyd"
-      },
-      {
-        "parcel_label": "Palota",
-        "NATIONALSI": "SKUEV4054",
-        "SITETITLE_": "Palotské lúky"
-      },
-      {
-        "parcel_label": "Palota",
-        "NATIONALSI": "SKUEV0761",
-        "SITETITLE_": "Vydranka"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Palota",
-        "NATIONALSI": "633",
-        "SITETITLE_": "NPR Palotská jedlina"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Palota",
-        "NATIONALSI": "SKCHVU011",
-        "SITETITLE_": "Laborecká vrchovina"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Palota",
+          "NATIONALSI": "SKUEV0387",
+          "SITETITLE_": "Beskyd"
+        },
+        {
+          "parcel_label": "Palota",
+          "NATIONALSI": "SKUEV4054",
+          "SITETITLE_": "Palotské lúky"
+        },
+        {
+          "parcel_label": "Palota",
+          "NATIONALSI": "SKUEV0761",
+          "SITETITLE_": "Vydranka"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Palota",
+          "NATIONALSI": "633",
+          "SITETITLE_": "NPR Palotská jedlina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Palota",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        }
+      ]
+    }
   }
 }

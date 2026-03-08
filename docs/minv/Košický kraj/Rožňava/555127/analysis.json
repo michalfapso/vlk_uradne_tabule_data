@@ -68,27 +68,29 @@
     }
   ],
   "zhrnutie": "Okresný úrad Rožňava, odbor starostlivosti o životné prostredie, vydal verejnú vyhlášku týkajúcu sa kolaudačného konania pre vodnú stavbu „Gemerská Hôrka - rozšírenie a rekonštrukcia vodovodu“ žiadateľa Východoslovenská vodárenská spoločnosť, a.s. Účastníci konania majú možnosť vyjadriť sa k podkladom rozhodnutia do 3 pracovných dní od doručenia oznámenia. V dokumente nie sú explicitne spomenuté žiadne chránené územia ani dotknuté živočíchy alebo rastliny.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Gemerská Hôrka",
-        "NATIONALSI": "SKUEV0398",
-        "SITETITLE_": "Slaná"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Gemerská Hôrka",
-        "NATIONALSI": "SKCHVU027",
-        "SITETITLE_": "Slovenský kras"
-      }
-    ],
-    "UNESCO": [
-      {
-        "parcel_label": "Gemerská Hôrka",
-        "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
-        "Kod_chrane": "UN01"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Gemerská Hôrka",
+          "NATIONALSI": "SKUEV0398",
+          "SITETITLE_": "Slaná"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Gemerská Hôrka",
+          "NATIONALSI": "SKCHVU027",
+          "SITETITLE_": "Slovenský kras"
+        }
+      ],
+      "UNESCO": [
+        {
+          "parcel_label": "Gemerská Hôrka",
+          "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
+          "Kod_chrane": "UN01"
+        }
+      ]
+    }
   }
 }

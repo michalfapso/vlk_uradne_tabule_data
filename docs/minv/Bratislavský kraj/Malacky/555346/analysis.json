@@ -71,67 +71,69 @@
     }
   ],
   "zhrnutie": "Okresný úrad Malacky informuje o začatom správnom konaní na výrub drevín, ktoré oznámila spoločnosť POZAGAS, a.s. v katastrálnych územiach Kostolište a Malacky. Výrub je odôvodnený bezpečnosťou plynárenských zariadení a lehota na potvrdenie záujmu byť účastníkom konania je 5 pracovných dní od zverejnenia informácie.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Kostolište",
-        "NATIONALSI": "SKUEV0116",
-        "SITETITLE_": "Jakubovské rybníky"
-      },
-      {
-        "parcel_label": "Malacky",
-        "NATIONALSI": "SKUEV0121",
-        "SITETITLE_": "Marhecké rybníky"
-      },
-      {
-        "parcel_label": "Malacky",
-        "NATIONALSI": "SKUEV0219",
-        "SITETITLE_": "Malina"
-      },
-      {
-        "parcel_label": "Malacky",
-        "NATIONALSI": "SKUEV0116",
-        "SITETITLE_": "Jakubovské rybníky"
-      },
-      {
-        "parcel_label": "Malacky",
-        "NATIONALSI": "SKUEV0169",
-        "SITETITLE_": "Orlovské vŕšky"
-      },
-      {
-        "parcel_label": "Malacky",
-        "NATIONALSI": "SKUEV0170",
-        "SITETITLE_": "Mešterova lúka"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Malacky",
-        "NATIONALSI": "1184",
-        "SITETITLE_": "CHA Marhecké rybníky"
-      },
-      {
-        "parcel_label": "Malacky",
-        "NATIONALSI": "1205",
-        "SITETITLE_": "PR Orlovské vŕšky"
-      },
-      {
-        "parcel_label": "Malacky",
-        "NATIONALSI": "1204",
-        "SITETITLE_": "CHA Mešterova lúka"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Kostolište",
-        "NATIONALSI": "SKCHVU016",
-        "SITETITLE_": "Záhorské Pomoravie"
-      },
-      {
-        "parcel_label": "Malacky",
-        "NATIONALSI": "SKCHVU016",
-        "SITETITLE_": "Záhorské Pomoravie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Kostolište",
+          "NATIONALSI": "SKUEV0116",
+          "SITETITLE_": "Jakubovské rybníky"
+        },
+        {
+          "parcel_label": "Malacky",
+          "NATIONALSI": "SKUEV0121",
+          "SITETITLE_": "Marhecké rybníky"
+        },
+        {
+          "parcel_label": "Malacky",
+          "NATIONALSI": "SKUEV0219",
+          "SITETITLE_": "Malina"
+        },
+        {
+          "parcel_label": "Malacky",
+          "NATIONALSI": "SKUEV0116",
+          "SITETITLE_": "Jakubovské rybníky"
+        },
+        {
+          "parcel_label": "Malacky",
+          "NATIONALSI": "SKUEV0169",
+          "SITETITLE_": "Orlovské vŕšky"
+        },
+        {
+          "parcel_label": "Malacky",
+          "NATIONALSI": "SKUEV0170",
+          "SITETITLE_": "Mešterova lúka"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Malacky",
+          "NATIONALSI": "1184",
+          "SITETITLE_": "CHA Marhecké rybníky"
+        },
+        {
+          "parcel_label": "Malacky",
+          "NATIONALSI": "1205",
+          "SITETITLE_": "PR Orlovské vŕšky"
+        },
+        {
+          "parcel_label": "Malacky",
+          "NATIONALSI": "1204",
+          "SITETITLE_": "CHA Mešterova lúka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Kostolište",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        },
+        {
+          "parcel_label": "Malacky",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        }
+      ]
+    }
   }
 }

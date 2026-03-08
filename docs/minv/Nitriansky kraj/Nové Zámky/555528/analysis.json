@@ -51,27 +51,29 @@
     }
   ],
   "zhrnutie": "Dokument je oznámením Železníc SR o výrube drevín z dôvodu údržbovej činnosti v katastrálnom území Nové Zámky. Ide o konanie podľa § 47 ods. 7 zákona o ochrane prírody a krajiny, na ktoré sa nevzťahujú všeobecné predpisy o správnom konaní, a preto nie je možná účasť verejnosti.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "SKUEV0084",
-        "SITETITLE_": "Zátoň"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "137",
-        "SITETITLE_": "PP Potok Chrenovka"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "SKCHVU005",
-        "SITETITLE_": "Dolné Považie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKUEV0084",
+          "SITETITLE_": "Zátoň"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "137",
+          "SITETITLE_": "PP Potok Chrenovka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKCHVU005",
+          "SITETITLE_": "Dolné Považie"
+        }
+      ]
+    }
   }
 }

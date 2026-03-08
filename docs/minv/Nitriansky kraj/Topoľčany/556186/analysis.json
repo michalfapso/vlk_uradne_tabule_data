@@ -155,110 +155,112 @@
     }
   ],
   "zhrnutie": "Okresný úrad Topoľčany zverejňuje oznámenie od Slovenského vodohospodárskeho podniku o výrube stromov a vysekávaní krovia na tokoch a vodných nádržiach v okrese Topoľčany. Ide o odstraňovanie inváznych drevín a poškodených stromov, vrátane tých poškodených bobrom, v rôznych katastrálnych územiach. Práce budú realizované v mimovegetačnom období do konca februára 2026.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "Čermany",
-        "registry_n": "25",
-        "site_name": "Čermiansky močiar",
-        "category_i": 4.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Radošina",
-        "NATIONALSI": "SKUEV4006",
-        "SITETITLE_": "Inovecké dubiny"
-      },
-      {
-        "parcel_label": "Súlovce",
-        "NATIONALSI": "SKUEV0133",
-        "SITETITLE_": "Hôrky"
-      },
-      {
-        "parcel_label": "Kovarce",
-        "NATIONALSI": "SKUEV0133",
-        "SITETITLE_": "Hôrky"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Radošina",
-        "NATIONALSI": "900",
-        "SITETITLE_": "PP Visiace skaly"
-      },
-      {
-        "parcel_label": "Radošina",
-        "NATIONALSI": "1154",
-        "SITETITLE_": "PP Čertova pec"
-      },
-      {
-        "parcel_label": "Nitrianska Blatnica",
-        "NATIONALSI": "900",
-        "SITETITLE_": "PP Visiace skaly"
-      },
-      {
-        "parcel_label": "Čermany",
-        "NATIONALSI": "25",
-        "SITETITLE_": "PP Čermiansky močiar"
-      },
-      {
-        "parcel_label": "Kovarce",
-        "NATIONALSI": "808",
-        "SITETITLE_": "PR Kovarská hôrka"
-      },
-      {
-        "parcel_label": "Kovarce",
-        "NATIONALSI": "51",
-        "SITETITLE_": "NPR Hrdovická"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Oponice",
-        "NATIONALSI": "SKCHVU031",
-        "SITETITLE_": "Tribeč"
-      },
-      {
-        "parcel_label": "Súlovce",
-        "NATIONALSI": "SKCHVU031",
-        "SITETITLE_": "Tribeč"
-      },
-      {
-        "parcel_label": "Kovarce",
-        "NATIONALSI": "SKCHVU031",
-        "SITETITLE_": "Tribeč"
-      },
-      {
-        "parcel_label": "Čeľadince",
-        "NATIONALSI": "SKCHVU031",
-        "SITETITLE_": "Tribeč"
-      },
-      {
-        "parcel_label": "Dvorany nad Nitrou",
-        "NATIONALSI": "SKCHVU031",
-        "SITETITLE_": "Tribeč"
-      },
-      {
-        "parcel_label": "Kamanová",
-        "NATIONALSI": "SKCHVU031",
-        "SITETITLE_": "Tribeč"
-      },
-      {
-        "parcel_label": "Preseľany",
-        "NATIONALSI": "SKCHVU031",
-        "SITETITLE_": "Tribeč"
-      },
-      {
-        "parcel_label": "Hrušovany",
-        "NATIONALSI": "SKCHVU031",
-        "SITETITLE_": "Tribeč"
-      },
-      {
-        "parcel_label": "Koniarovce",
-        "NATIONALSI": "SKCHVU031",
-        "SITETITLE_": "Tribeč"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "Čermany",
+          "registry_n": "25",
+          "site_name": "Čermiansky močiar",
+          "category_i": 4
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Radošina",
+          "NATIONALSI": "SKUEV4006",
+          "SITETITLE_": "Inovecké dubiny"
+        },
+        {
+          "parcel_label": "Súlovce",
+          "NATIONALSI": "SKUEV0133",
+          "SITETITLE_": "Hôrky"
+        },
+        {
+          "parcel_label": "Kovarce",
+          "NATIONALSI": "SKUEV0133",
+          "SITETITLE_": "Hôrky"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Radošina",
+          "NATIONALSI": "900",
+          "SITETITLE_": "PP Visiace skaly"
+        },
+        {
+          "parcel_label": "Radošina",
+          "NATIONALSI": "1154",
+          "SITETITLE_": "PP Čertova pec"
+        },
+        {
+          "parcel_label": "Nitrianska Blatnica",
+          "NATIONALSI": "900",
+          "SITETITLE_": "PP Visiace skaly"
+        },
+        {
+          "parcel_label": "Čermany",
+          "NATIONALSI": "25",
+          "SITETITLE_": "PP Čermiansky močiar"
+        },
+        {
+          "parcel_label": "Kovarce",
+          "NATIONALSI": "808",
+          "SITETITLE_": "PR Kovarská hôrka"
+        },
+        {
+          "parcel_label": "Kovarce",
+          "NATIONALSI": "51",
+          "SITETITLE_": "NPR Hrdovická"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Oponice",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "Súlovce",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "Kovarce",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "Čeľadince",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "Dvorany nad Nitrou",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "Kamanová",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "Preseľany",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "Hrušovany",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "Koniarovce",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        }
+      ]
+    }
   }
 }

@@ -35,80 +35,82 @@
     }
   ],
   "zhrnutie": "Žiadosť o udelenie súhlasu a povolenie výnimky zo zákazov ustanovených v zákone o ochrane prírody a krajiny na let lietajúcim športovým zariadením v katastrálnom území Súľov-Hradná, Žilinský kraj. Žiadateľom je Marek Chrz a lehota na potvrdenie záujmu byť zúčastnenou osobou je do 13.11.2025.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "Súľov-Hradná",
-        "registry_n": "SKUEV0256",
-        "site_name": "Strážovské vrchy",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Súľov-Hradná",
-        "registry_n": "SKUEV0256",
-        "site_name": "Strážovské vrchy",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Súľov-Hradná",
-        "registry_n": "SKUEV0256",
-        "site_name": "Strážovské vrchy",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Súľov-Hradná",
-        "registry_n": "SKUEV0256",
-        "site_name": "Strážovské vrchy",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Súľov-Hradná",
-        "registry_n": "SKUEV0256",
-        "site_name": "Strážovské vrchy",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Súľov-Hradná",
-        "registry_n": "437",
-        "site_name": "Súľovské skaly",
-        "category_i": 1.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Súľov-Hradná",
-        "NATIONALSI": "SKUEV0256",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Súľov-Hradná",
-        "NATIONALSI": "1178",
-        "SITETITLE_": "PP Šarkania diera"
-      },
-      {
-        "parcel_label": "Súľov-Hradná",
-        "NATIONALSI": "1106",
-        "SITETITLE_": "PP Súľovský hrádok"
-      },
-      {
-        "parcel_label": "Súľov-Hradná",
-        "NATIONALSI": "437",
-        "SITETITLE_": "NPR Súľovské skaly"
-      },
-      {
-        "parcel_label": "Súľov-Hradná",
-        "NATIONALSI": "437",
-        "SITETITLE_": "OP NPR Súľovské skaly"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Súľov-Hradná",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "Súľov-Hradná",
+          "registry_n": "SKUEV0256",
+          "site_name": "Strážovské vrchy",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Súľov-Hradná",
+          "registry_n": "SKUEV0256",
+          "site_name": "Strážovské vrchy",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Súľov-Hradná",
+          "registry_n": "SKUEV0256",
+          "site_name": "Strážovské vrchy",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Súľov-Hradná",
+          "registry_n": "SKUEV0256",
+          "site_name": "Strážovské vrchy",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Súľov-Hradná",
+          "registry_n": "SKUEV0256",
+          "site_name": "Strážovské vrchy",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Súľov-Hradná",
+          "registry_n": "437",
+          "site_name": "Súľovské skaly",
+          "category_i": 1
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Súľov-Hradná",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Súľov-Hradná",
+          "NATIONALSI": "1178",
+          "SITETITLE_": "PP Šarkania diera"
+        },
+        {
+          "parcel_label": "Súľov-Hradná",
+          "NATIONALSI": "1106",
+          "SITETITLE_": "PP Súľovský hrádok"
+        },
+        {
+          "parcel_label": "Súľov-Hradná",
+          "NATIONALSI": "437",
+          "SITETITLE_": "NPR Súľovské skaly"
+        },
+        {
+          "parcel_label": "Súľov-Hradná",
+          "NATIONALSI": "437",
+          "SITETITLE_": "OP NPR Súľovské skaly"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Súľov-Hradná",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    }
   }
 }

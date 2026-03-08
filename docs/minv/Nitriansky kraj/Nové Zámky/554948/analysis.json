@@ -74,25 +74,27 @@
     }
   ],
   "zhrnutie": "Tento dokument je informáciou o začatí konania o zmene súhlasu na výrub drevín v katastrálnom území obce Nána, okres Nové Zámky. Verejnosť má 5 pracovných dní od zverejnenia na potvrdenie záujmu byť zúčastnenou osobou v konaní.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Nána",
-        "NATIONALSI": "SKUEV0158",
-        "SITETITLE_": "Modrý vrch"
-      },
-      {
-        "parcel_label": "Nána",
-        "NATIONALSI": "SKUEV0820",
-        "SITETITLE_": "Dolný tok Hrona"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Nána",
-        "NATIONALSI": "190",
-        "SITETITLE_": "PR Vŕšok"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Nána",
+          "NATIONALSI": "SKUEV0158",
+          "SITETITLE_": "Modrý vrch"
+        },
+        {
+          "parcel_label": "Nána",
+          "NATIONALSI": "SKUEV0820",
+          "SITETITLE_": "Dolný tok Hrona"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nána",
+          "NATIONALSI": "190",
+          "SITETITLE_": "PR Vŕšok"
+        }
+      ]
+    }
   }
 }

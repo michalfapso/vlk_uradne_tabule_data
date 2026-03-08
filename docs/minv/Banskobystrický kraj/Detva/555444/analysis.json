@@ -190,23 +190,25 @@
     }
   ],
   "zhrnutie": "Okresný úrad Detva vydal dodatočné povolenie a kolaudačné rozhodnutie pre vodnú stavbu 'Dúbravy, Dvorce – rozšírenie vodovodu, II. etapa' pre žiadateľa Obec Dúbravy. Projekt rieši rozšírenie vodovodnej siete pre novú lokalitu výstavby rodinných domov v obci Dúbravy, v lokalite Dvorce, Banskobystrický kraj. V dokumente nie sú explicitne spomenuté žiadne chránené územia ani konkrétne druhy živočíchov či rastlín.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "7048",
-        "NATIONALSI": "SKCHVU022",
-        "SITETITLE_": "Poľana"
-      },
-      {
-        "parcel_label": "2560",
-        "NATIONALSI": "SKCHVU022",
-        "SITETITLE_": "Poľana"
-      },
-      {
-        "parcel_label": "2205",
-        "NATIONALSI": "SKCHVU022",
-        "SITETITLE_": "Poľana"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "7048",
+          "NATIONALSI": "SKCHVU022",
+          "SITETITLE_": "Poľana"
+        },
+        {
+          "parcel_label": "2560",
+          "NATIONALSI": "SKCHVU022",
+          "SITETITLE_": "Poľana"
+        },
+        {
+          "parcel_label": "2205",
+          "NATIONALSI": "SKCHVU022",
+          "SITETITLE_": "Poľana"
+        }
+      ]
+    }
   }
 }

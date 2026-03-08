@@ -41,18 +41,20 @@
     }
   ],
   "zhrnutie": "Oznamovateľ Slovenský vodohospodársky podnik podal oznámenie o výrube drevín na vodnom toku Perec v katastrálnom území Levice. Konanie sa riadi zákonom o ochrane prírody a krajiny a nevzťahujú sa naň všeobecné predpisy o správnom konaní týkajúce sa účasti verejnosti.",
-  "zasiahnute_chranene_uzemia": {
-    "MCHU": [
-      {
-        "parcel_label": "Levice",
-        "NATIONALSI": "89",
-        "SITETITLE_": "CHA Levické rybníky"
-      },
-      {
-        "parcel_label": "Levice",
-        "NATIONALSI": "950",
-        "SITETITLE_": "CHA Levický park"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Levice",
+          "NATIONALSI": "89",
+          "SITETITLE_": "CHA Levické rybníky"
+        },
+        {
+          "parcel_label": "Levice",
+          "NATIONALSI": "950",
+          "SITETITLE_": "CHA Levický park"
+        }
+      ]
+    }
   }
 }

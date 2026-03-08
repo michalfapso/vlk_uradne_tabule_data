@@ -62,45 +62,47 @@
     }
   ],
   "zhrnutie": "Okresný úrad Žilina oznamuje začatie konania o obmedzení alebo zákaze jazdy a státia motorových vozidiel v územiach s 3. a 4. stupňom ochrany v katastrálnom území Staré mesto v obci Žilina. Verejnosť sa môže vyjadriť v lehote 30 dní od doručenia oznámenia.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Staré Mesto",
-        "NATIONALSI": "SKUEV0064",
-        "SITETITLE_": "Bratislavské luhy"
-      },
-      {
-        "parcel_label": "Staré Mesto",
-        "NATIONALSI": "SKUEV0388",
-        "SITETITLE_": "Vydrica"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Staré Mesto",
-        "NATIONALSI": "904",
-        "SITETITLE_": "CHA Bôrik"
-      },
-      {
-        "parcel_label": "Staré Mesto",
-        "NATIONALSI": "994",
-        "SITETITLE_": "CHA Zeleň pri vodárni"
-      },
-      {
-        "parcel_label": "Staré Mesto",
-        "NATIONALSI": "903",
-        "SITETITLE_": "CHA Borovicový lesík"
-      },
-      {
-        "parcel_label": "Staré Mesto",
-        "NATIONALSI": "48",
-        "SITETITLE_": "CHA Horský park"
-      },
-      {
-        "parcel_label": "Staré Mesto",
-        "NATIONALSI": "1356",
-        "SITETITLE_": "PR Vydrica"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Staré Mesto",
+          "NATIONALSI": "SKUEV0064",
+          "SITETITLE_": "Bratislavské luhy"
+        },
+        {
+          "parcel_label": "Staré Mesto",
+          "NATIONALSI": "SKUEV0388",
+          "SITETITLE_": "Vydrica"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Staré Mesto",
+          "NATIONALSI": "904",
+          "SITETITLE_": "CHA Bôrik"
+        },
+        {
+          "parcel_label": "Staré Mesto",
+          "NATIONALSI": "994",
+          "SITETITLE_": "CHA Zeleň pri vodárni"
+        },
+        {
+          "parcel_label": "Staré Mesto",
+          "NATIONALSI": "903",
+          "SITETITLE_": "CHA Borovicový lesík"
+        },
+        {
+          "parcel_label": "Staré Mesto",
+          "NATIONALSI": "48",
+          "SITETITLE_": "CHA Horský park"
+        },
+        {
+          "parcel_label": "Staré Mesto",
+          "NATIONALSI": "1356",
+          "SITETITLE_": "PR Vydrica"
+        }
+      ]
+    }
   }
 }

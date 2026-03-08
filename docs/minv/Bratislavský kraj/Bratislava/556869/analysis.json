@@ -108,122 +108,124 @@
     }
   ],
   "zhrnutie": "Dokument je rozhodnutím Okresného úradu Bratislava zo zisťovacieho konania pre strategický dokument \"Územný plán zóny Devín I, zmeny a doplnky č. 01\" predložený Mestskou časťou Bratislava – Devín. Navrhované zmeny sa nebudú posudzovať podľa zákona o EIA, ale s podmienkami. Dotýkajú sa úprav komunikácií, rozvoja bývania, vodného hospodárstva a cyklotrás v katastrálnom území Devín a viacerých chránených území ako CHKO Malé Karpaty, Natura 2000 a rôznych ochranných pásiem.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "Devín",
-        "registry_n": "SKUEV0064",
-        "site_name": "Bratislavské luhy",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Devín",
-        "registry_n": "801",
-        "site_name": "Fialková dolina",
-        "category_i": 2.0
-      },
-      {
-        "parcel_label": "Devín",
-        "registry_n": "801",
-        "site_name": "Fialková dolina",
-        "category_i": 2.0
-      },
-      {
-        "parcel_label": "Devín",
-        "registry_n": "SKUEV0064",
-        "site_name": "Bratislavské luhy",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Devín",
-        "registry_n": "SKUEV0064",
-        "site_name": "Bratislavské luhy",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Devín",
-        "registry_n": "32",
-        "site_name": "Devínska Kobyla",
-        "category_i": 1.0
-      },
-      {
-        "parcel_label": "Devín",
-        "registry_n": "SKUEV0280",
-        "site_name": "Devínska Kobyla",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Devín",
-        "registry_n": "SKUEV0280",
-        "site_name": "Devínska Kobyla",
-        "category_i": 21.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Devín",
-        "NATIONALSI": "SKUEV0064",
-        "SITETITLE_": "Bratislavské luhy"
-      },
-      {
-        "parcel_label": "Devín",
-        "NATIONALSI": "SKUEV0800",
-        "SITETITLE_": "Devínska hradná skala"
-      },
-      {
-        "parcel_label": "Devín",
-        "NATIONALSI": "SKUEV0280",
-        "SITETITLE_": "Devínska Kobyla"
-      },
-      {
-        "parcel_label": "Devín",
-        "NATIONALSI": "SKUEV0314",
-        "SITETITLE_": "Morava"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Devín",
-        "NATIONALSI": "1209",
-        "SITETITLE_": "CHA Sihoť"
-      },
-      {
-        "parcel_label": "Devín",
-        "NATIONALSI": "801",
-        "SITETITLE_": "PR Fialková dolina"
-      },
-      {
-        "parcel_label": "Devín",
-        "NATIONALSI": "1185",
-        "SITETITLE_": "PR Slovanský ostrov"
-      },
-      {
-        "parcel_label": "Devín",
-        "NATIONALSI": "789",
-        "SITETITLE_": "PP Devínska lesostep"
-      },
-      {
-        "parcel_label": "Devín",
-        "NATIONALSI": "31",
-        "SITETITLE_": "NPP Devínska hradná skala"
-      },
-      {
-        "parcel_label": "Devín",
-        "NATIONALSI": "32",
-        "SITETITLE_": "NPR Devínska Kobyla"
-      },
-      {
-        "parcel_label": "Devín",
-        "NATIONALSI": "1072",
-        "SITETITLE_": "CHA Devínske alúvium Moravy"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Devín",
-        "NATIONALSI": "SKCHVU007",
-        "SITETITLE_": "Dunajské luhy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "Devín",
+          "registry_n": "SKUEV0064",
+          "site_name": "Bratislavské luhy",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Devín",
+          "registry_n": "801",
+          "site_name": "Fialková dolina",
+          "category_i": 2
+        },
+        {
+          "parcel_label": "Devín",
+          "registry_n": "801",
+          "site_name": "Fialková dolina",
+          "category_i": 2
+        },
+        {
+          "parcel_label": "Devín",
+          "registry_n": "SKUEV0064",
+          "site_name": "Bratislavské luhy",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Devín",
+          "registry_n": "SKUEV0064",
+          "site_name": "Bratislavské luhy",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Devín",
+          "registry_n": "32",
+          "site_name": "Devínska Kobyla",
+          "category_i": 1
+        },
+        {
+          "parcel_label": "Devín",
+          "registry_n": "SKUEV0280",
+          "site_name": "Devínska Kobyla",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Devín",
+          "registry_n": "SKUEV0280",
+          "site_name": "Devínska Kobyla",
+          "category_i": 21
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Devín",
+          "NATIONALSI": "SKUEV0064",
+          "SITETITLE_": "Bratislavské luhy"
+        },
+        {
+          "parcel_label": "Devín",
+          "NATIONALSI": "SKUEV0800",
+          "SITETITLE_": "Devínska hradná skala"
+        },
+        {
+          "parcel_label": "Devín",
+          "NATIONALSI": "SKUEV0280",
+          "SITETITLE_": "Devínska Kobyla"
+        },
+        {
+          "parcel_label": "Devín",
+          "NATIONALSI": "SKUEV0314",
+          "SITETITLE_": "Morava"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Devín",
+          "NATIONALSI": "1209",
+          "SITETITLE_": "CHA Sihoť"
+        },
+        {
+          "parcel_label": "Devín",
+          "NATIONALSI": "801",
+          "SITETITLE_": "PR Fialková dolina"
+        },
+        {
+          "parcel_label": "Devín",
+          "NATIONALSI": "1185",
+          "SITETITLE_": "PR Slovanský ostrov"
+        },
+        {
+          "parcel_label": "Devín",
+          "NATIONALSI": "789",
+          "SITETITLE_": "PP Devínska lesostep"
+        },
+        {
+          "parcel_label": "Devín",
+          "NATIONALSI": "31",
+          "SITETITLE_": "NPP Devínska hradná skala"
+        },
+        {
+          "parcel_label": "Devín",
+          "NATIONALSI": "32",
+          "SITETITLE_": "NPR Devínska Kobyla"
+        },
+        {
+          "parcel_label": "Devín",
+          "NATIONALSI": "1072",
+          "SITETITLE_": "CHA Devínske alúvium Moravy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Devín",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    }
   }
 }

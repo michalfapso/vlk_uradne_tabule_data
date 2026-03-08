@@ -60,27 +60,29 @@
     }
   ],
   "zhrnutie": "Dokument je oznámením o začatí správneho konania na Okresnom úrade Brezno na žiadosť Obce Telgárt o udelenie súhlasu na umiestnenie informačnej konštrukcie. Činnosť sa má realizovať za hranicami zastavaného územia obce Telgárt na parcele C-KN 4074/3 v k.ú. Telgárt a spadá pod zákon o ochrane prírody a krajiny. Verejnosť má 5 pracovných dní od zverejnenia dňa 27.10.2025 na potvrdenie záujmu byť zúčastnenou osobou.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "4074/3",
-        "NATIONALSI": "SKUEV0310",
-        "SITETITLE_": "Kráľovohoľské Tatry"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "4074/3",
-        "NATIONALSI": "257",
-        "SITETITLE_": "NPR Hnilecká jelšina"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "4074/3",
-        "NATIONALSI": "SKCHVU018",
-        "SITETITLE_": "Nízke Tatry"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "4074/3",
+          "NATIONALSI": "SKUEV0310",
+          "SITETITLE_": "Kráľovohoľské Tatry"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "4074/3",
+          "NATIONALSI": "257",
+          "SITETITLE_": "NPR Hnilecká jelšina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "4074/3",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    }
   }
 }

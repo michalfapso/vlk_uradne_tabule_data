@@ -45,18 +45,20 @@
     }
   ],
   "zhrnutie": "Okresný úrad Levice oznamuje začatie správneho konania týkajúceho sa žiadosti o vydanie súhlasu na výrub drevín, ktoré rastú za hranicami zastavaného územia obce v katastrálnom území Čajkov. Združenia s právnou subjektivitou sa môžu stať zúčastnenými osobami v konaní v lehote 5 pracovných dní od zverejnenia informácie.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Čajkov",
-        "NATIONALSI": "SKUEV0262",
-        "SITETITLE_": "Čajkovské bralie"
-      },
-      {
-        "parcel_label": "Čajkov",
-        "NATIONALSI": "SKUEV0263",
-        "SITETITLE_": "Hodrušská hornatina"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Čajkov",
+          "NATIONALSI": "SKUEV0262",
+          "SITETITLE_": "Čajkovské bralie"
+        },
+        {
+          "parcel_label": "Čajkov",
+          "NATIONALSI": "SKUEV0263",
+          "SITETITLE_": "Hodrušská hornatina"
+        }
+      ]
+    }
   }
 }

@@ -147,38 +147,40 @@
     }
   ],
   "zhrnutie": "Okresný úrad Banská Štiavnica zverejnil informáciu o začatí konania týkajúceho sa výrubu a okliesnenia stromov a porastov. Žiadosť podala Stredoslovenská distribučná, a.s., za účelom zabezpečenia bezpečnosti a spoľahlivosti prevádzky energetických zariadení v ochrannom pásme elektrického vedenia VN č. 365_k10. Činnosť sa má uskutočniť v novembri - decembri 2025 v katastrálnych územiach Banská Štiavnica, Počúvadlo, Štiavnické Bane, Vysoká a Dekýš.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "6801",
-        "NATIONALSI": "SKUEV0216",
-        "SITETITLE_": "Sitno"
-      },
-      {
-        "parcel_label": "452/1",
-        "NATIONALSI": "SKUEV0216",
-        "SITETITLE_": "Sitno"
-      },
-      {
-        "parcel_label": "450",
-        "NATIONALSI": "SKUEV0216",
-        "SITETITLE_": "Sitno"
-      },
-      {
-        "parcel_label": "449/1",
-        "NATIONALSI": "SKUEV0216",
-        "SITETITLE_": "Sitno"
-      },
-      {
-        "parcel_label": "437",
-        "NATIONALSI": "SKUEV0263",
-        "SITETITLE_": "Hodrušská hornatina"
-      },
-      {
-        "parcel_label": "426",
-        "NATIONALSI": "SKUEV0263",
-        "SITETITLE_": "Hodrušská hornatina"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "6801",
+          "NATIONALSI": "SKUEV0216",
+          "SITETITLE_": "Sitno"
+        },
+        {
+          "parcel_label": "452/1",
+          "NATIONALSI": "SKUEV0216",
+          "SITETITLE_": "Sitno"
+        },
+        {
+          "parcel_label": "450",
+          "NATIONALSI": "SKUEV0216",
+          "SITETITLE_": "Sitno"
+        },
+        {
+          "parcel_label": "449/1",
+          "NATIONALSI": "SKUEV0216",
+          "SITETITLE_": "Sitno"
+        },
+        {
+          "parcel_label": "437",
+          "NATIONALSI": "SKUEV0263",
+          "SITETITLE_": "Hodrušská hornatina"
+        },
+        {
+          "parcel_label": "426",
+          "NATIONALSI": "SKUEV0263",
+          "SITETITLE_": "Hodrušská hornatina"
+        }
+      ]
+    }
   }
 }

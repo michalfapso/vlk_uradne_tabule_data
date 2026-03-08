@@ -49,27 +49,29 @@
     }
   ],
   "zhrnutie": "Informácia o začatí konania o vydanie súhlasu na výrub dreviny v katastrálnom území Nové Zámky, okres Nové Zámky. Konanie sa týka záujmov ochrany prírody a krajiny, pričom lehota na potvrdenie účasti pre združenia je do 5 pracovných dní od zverejnenia informácie.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "SKUEV0084",
-        "SITETITLE_": "Zátoň"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "137",
-        "SITETITLE_": "PP Potok Chrenovka"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "SKCHVU005",
-        "SITETITLE_": "Dolné Považie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKUEV0084",
+          "SITETITLE_": "Zátoň"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "137",
+          "SITETITLE_": "PP Potok Chrenovka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKCHVU005",
+          "SITETITLE_": "Dolné Považie"
+        }
+      ]
+    }
   }
 }

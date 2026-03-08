@@ -95,20 +95,22 @@
     }
   ],
   "zhrnutie": "Okresný úrad Rimavská Sobota zverejňuje informáciu o začatí konania o výrube drevín a krovia v katastrálnom území obcí Teplý vrch a Drienčany. Žiadateľom je Banskobystrická regionálna správa ciest, a.s., ktorá plánuje odstrániť porasty v ochrannom pásme vedenia a na cestných pozemkoch. V tomto konaní nie je možné uplatniť všeobecné predpisy o správnom konaní, a teda nie je možná účasť verejnosti.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "725",
-        "NATIONALSI": "SKUEV0366",
-        "SITETITLE_": "Drienčanský kras"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "677",
-        "NATIONALSI": "344",
-        "SITETITLE_": "CHA Hikóriový porast"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "725",
+          "NATIONALSI": "SKUEV0366",
+          "SITETITLE_": "Drienčanský kras"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "677",
+          "NATIONALSI": "344",
+          "SITETITLE_": "CHA Hikóriový porast"
+        }
+      ]
+    }
   }
 }

@@ -85,72 +85,74 @@
     }
   ],
   "zhrnutie": "Dokument je oznámením o výrube drevín od spoločnosti LUMAREZ s.r.o. na trasách plynovodov SPP-D v katastrálnych územiach viacerých obcí v okrese Levice. Ide o konanie podľa § 47 ods. 7 zákona č. 543/2002 Z.z., na ktoré sa nevzťahujú všeobecné predpisy o správnom konaní.",
-  "zasiahnute_chranene_uzemia": {
-    "5st_konsUEV": [
-      {
-        "parcel_label": "Rybník",
-        "NAZOV_UEV": "Hodrušská hornatina",
-        "KOD_UEV": "SKUEV0263"
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Dolné Brhlovce",
-        "NATIONALSI": "SKUEV0876",
-        "SITETITLE_": "Horná hora"
-      },
-      {
-        "parcel_label": "Veľké Krškany",
-        "NATIONALSI": "SKUEV0876",
-        "SITETITLE_": "Horná hora"
-      },
-      {
-        "parcel_label": "Veľké Krškany",
-        "NATIONALSI": "SKUEV0870",
-        "SITETITLE_": "Horšianska dolina"
-      },
-      {
-        "parcel_label": "Malé Krškany",
-        "NATIONALSI": "SKUEV0870",
-        "SITETITLE_": "Horšianska dolina"
-      },
-      {
-        "parcel_label": "Rybník",
-        "NATIONALSI": "SKUEV0262",
-        "SITETITLE_": "Čajkovské bralie"
-      },
-      {
-        "parcel_label": "Rybník",
-        "NATIONALSI": "SKUEV0263",
-        "SITETITLE_": "Hodrušská hornatina"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Hokovce",
-        "NATIONALSI": "1076",
-        "SITETITLE_": "CHA Kráľovičova slatina"
-      },
-      {
-        "parcel_label": "Veľké Krškany",
-        "NATIONALSI": "49",
-        "SITETITLE_": "NPR Horšianska dolina"
-      },
-      {
-        "parcel_label": "Malé Krškany",
-        "NATIONALSI": "49",
-        "SITETITLE_": "NPR Horšianska dolina"
-      },
-      {
-        "parcel_label": "Rybník",
-        "NATIONALSI": "809",
-        "SITETITLE_": "PR Krivín"
-      },
-      {
-        "parcel_label": "Rybník",
-        "NATIONALSI": "1371",
-        "SITETITLE_": "Beňadické alúvium Hrona"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Rybník",
+          "NAZOV_UEV": "Hodrušská hornatina",
+          "KOD_UEV": "SKUEV0263"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Dolné Brhlovce",
+          "NATIONALSI": "SKUEV0876",
+          "SITETITLE_": "Horná hora"
+        },
+        {
+          "parcel_label": "Veľké Krškany",
+          "NATIONALSI": "SKUEV0876",
+          "SITETITLE_": "Horná hora"
+        },
+        {
+          "parcel_label": "Veľké Krškany",
+          "NATIONALSI": "SKUEV0870",
+          "SITETITLE_": "Horšianska dolina"
+        },
+        {
+          "parcel_label": "Malé Krškany",
+          "NATIONALSI": "SKUEV0870",
+          "SITETITLE_": "Horšianska dolina"
+        },
+        {
+          "parcel_label": "Rybník",
+          "NATIONALSI": "SKUEV0262",
+          "SITETITLE_": "Čajkovské bralie"
+        },
+        {
+          "parcel_label": "Rybník",
+          "NATIONALSI": "SKUEV0263",
+          "SITETITLE_": "Hodrušská hornatina"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Hokovce",
+          "NATIONALSI": "1076",
+          "SITETITLE_": "CHA Kráľovičova slatina"
+        },
+        {
+          "parcel_label": "Veľké Krškany",
+          "NATIONALSI": "49",
+          "SITETITLE_": "NPR Horšianska dolina"
+        },
+        {
+          "parcel_label": "Malé Krškany",
+          "NATIONALSI": "49",
+          "SITETITLE_": "NPR Horšianska dolina"
+        },
+        {
+          "parcel_label": "Rybník",
+          "NATIONALSI": "809",
+          "SITETITLE_": "PR Krivín"
+        },
+        {
+          "parcel_label": "Rybník",
+          "NATIONALSI": "1371",
+          "SITETITLE_": "Beňadické alúvium Hrona"
+        }
+      ]
+    }
   }
 }

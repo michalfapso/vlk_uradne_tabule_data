@@ -53,50 +53,52 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí správneho konania na základe žiadosti spoločnosti FilmCraft s.r.o. o povolenie výnimiek a súhlasov pre plánovanú výrobu filmových záberov v k. ú. Devínska Nová Ves na parcelách registra C.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "3466/5",
-        "NATIONALSI": "SKUEV0280",
-        "SITETITLE_": "Devínska Kobyla"
-      },
-      {
-        "parcel_label": "3466/6",
-        "NATIONALSI": "SKUEV0280",
-        "SITETITLE_": "Devínska Kobyla"
-      },
-      {
-        "parcel_label": "3466/11",
-        "NATIONALSI": "SKUEV0280",
-        "SITETITLE_": "Devínska Kobyla"
-      },
-      {
-        "parcel_label": "3466/10",
-        "NATIONALSI": "SKUEV0280",
-        "SITETITLE_": "Devínska Kobyla"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "3466/5",
-        "NATIONALSI": "32",
-        "SITETITLE_": "NPR Devínska Kobyla"
-      },
-      {
-        "parcel_label": "3466/6",
-        "NATIONALSI": "32",
-        "SITETITLE_": "NPR Devínska Kobyla"
-      },
-      {
-        "parcel_label": "3466/11",
-        "NATIONALSI": "32",
-        "SITETITLE_": "NPR Devínska Kobyla"
-      },
-      {
-        "parcel_label": "3466/10",
-        "NATIONALSI": "32",
-        "SITETITLE_": "NPR Devínska Kobyla"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "3466/5",
+          "NATIONALSI": "SKUEV0280",
+          "SITETITLE_": "Devínska Kobyla"
+        },
+        {
+          "parcel_label": "3466/6",
+          "NATIONALSI": "SKUEV0280",
+          "SITETITLE_": "Devínska Kobyla"
+        },
+        {
+          "parcel_label": "3466/11",
+          "NATIONALSI": "SKUEV0280",
+          "SITETITLE_": "Devínska Kobyla"
+        },
+        {
+          "parcel_label": "3466/10",
+          "NATIONALSI": "SKUEV0280",
+          "SITETITLE_": "Devínska Kobyla"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "3466/5",
+          "NATIONALSI": "32",
+          "SITETITLE_": "NPR Devínska Kobyla"
+        },
+        {
+          "parcel_label": "3466/6",
+          "NATIONALSI": "32",
+          "SITETITLE_": "NPR Devínska Kobyla"
+        },
+        {
+          "parcel_label": "3466/11",
+          "NATIONALSI": "32",
+          "SITETITLE_": "NPR Devínska Kobyla"
+        },
+        {
+          "parcel_label": "3466/10",
+          "NATIONALSI": "32",
+          "SITETITLE_": "NPR Devínska Kobyla"
+        }
+      ]
+    }
   }
 }

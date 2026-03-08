@@ -49,35 +49,37 @@
     }
   ],
   "zhrnutie": "Okresný úrad Pezinok oznamuje začatie správneho konania vo veci vydania súhlasu pre Obec Častá na organizovanie „Turistického silvestrovského výstupu na vrchy Geldek a Jelenec“ dňa 31.12.2025. Podujatie sa má konať v území CHKO Malé Karpaty s 2. stupňom územnej ochrany. Lehota na doručenie potvrdenia záujmu byť zúčastnenou osobou je 5 pracovných dní odo dňa zverejnenia oznamu.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "Častá",
-        "registry_n": "41",
-        "site_name": "Hajdúchy",
-        "category_i": 1.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Častá",
-        "NATIONALSI": "SKUEV0267",
-        "SITETITLE_": "Biele hory"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Častá",
-        "NATIONALSI": "41",
-        "SITETITLE_": "NPR Hajdúchy"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Častá",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "Častá",
+          "registry_n": "41",
+          "site_name": "Hajdúchy",
+          "category_i": 1
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Častá",
+          "NATIONALSI": "SKUEV0267",
+          "SITETITLE_": "Biele hory"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Častá",
+          "NATIONALSI": "41",
+          "SITETITLE_": "NPR Hajdúchy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Častá",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    }
   }
 }

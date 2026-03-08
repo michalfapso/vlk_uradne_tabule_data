@@ -55,53 +55,55 @@
   "odkaz_enviroportal": null,
   "zakony": [],
   "zhrnutie": "Dokument poskytuje analýzu obsahu mapy z okresu Banská Štiavnica v Banskobystrickom kraji. Mapa zobrazuje zastavané územia s budovami na parcelách ako 207, 215/1, 221/3 a veľkú, purpurovo zatienenú oblasť s parcelami ako 789 a 791, označenú štyrmi červenými 'X' symbolmi. Dokument neopisuje žiadne navrhované zásahy do životného prostredia ani neuvádza, či sa oblasť nachádza v chránenom území.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "791",
-        "NATIONALSI": "SKUEV0265",
-        "SITETITLE_": "Suť"
-      },
-      {
-        "parcel_label": "789",
-        "NATIONALSI": "SKUEV0265",
-        "SITETITLE_": "Suť"
-      },
-      {
-        "parcel_label": "786",
-        "NATIONALSI": "SKUEV0265",
-        "SITETITLE_": "Suť"
-      },
-      {
-        "parcel_label": "221/2",
-        "NATIONALSI": "SKUEV0265",
-        "SITETITLE_": "Suť"
-      },
-      {
-        "parcel_label": "213",
-        "NATIONALSI": "SKUEV0265",
-        "SITETITLE_": "Suť"
-      },
-      {
-        "parcel_label": "216",
-        "NATIONALSI": "SKUEV0265",
-        "SITETITLE_": "Suť"
-      },
-      {
-        "parcel_label": "215/1",
-        "NATIONALSI": "SKUEV0265",
-        "SITETITLE_": "Suť"
-      },
-      {
-        "parcel_label": "214",
-        "NATIONALSI": "SKUEV0265",
-        "SITETITLE_": "Suť"
-      },
-      {
-        "parcel_label": "219/1",
-        "NATIONALSI": "SKUEV0265",
-        "SITETITLE_": "Suť"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "791",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        },
+        {
+          "parcel_label": "789",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        },
+        {
+          "parcel_label": "786",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        },
+        {
+          "parcel_label": "221/2",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        },
+        {
+          "parcel_label": "213",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        },
+        {
+          "parcel_label": "216",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        },
+        {
+          "parcel_label": "215/1",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        },
+        {
+          "parcel_label": "214",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        },
+        {
+          "parcel_label": "219/1",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        }
+      ]
+    }
   }
 }

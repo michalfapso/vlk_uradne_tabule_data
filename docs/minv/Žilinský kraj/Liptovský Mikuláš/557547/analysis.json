@@ -68,34 +68,36 @@
     }
   ],
   "zhrnutie": "Okresný úrad Liptovský Mikuláš oznamuje začatie konania pre žiadosť spoločnosti Stredoslovenská distribučná, a. s. o súhlas na výrub drevín z dôvodu rozšírenia VN vedenia v katastrálnych územiach Pavčina Lehota a Demänovská Dolina. Verejnosť má 5 pracovných dní od zverejnenia na potvrdenie záujmu byť účastníkom konania.",
-  "zasiahnute_chranene_uzemia": {
-    "5st_konsUEV": [
-      {
-        "parcel_label": "2905/1",
-        "NAZOV_UEV": "Ďumbierske Tatry",
-        "KOD_UEV": "SKUEV0302"
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "2905/1",
-        "NATIONALSI": "SKUEV0302",
-        "SITETITLE_": "Ďumbierske Tatry"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "2905/1",
-        "NATIONALSI": "239",
-        "SITETITLE_": "NPR Demänovská dolina"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "2905/1",
-        "NATIONALSI": "SKCHVU018",
-        "SITETITLE_": "Nízke Tatry"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "2905/1",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "2905/1",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "2905/1",
+          "NATIONALSI": "239",
+          "SITETITLE_": "NPR Demänovská dolina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "2905/1",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    }
   }
 }

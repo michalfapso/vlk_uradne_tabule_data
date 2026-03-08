@@ -75,13 +75,15 @@
     }
   ],
   "zhrnutie": "Dokument je oznámením o strategickom dokumente 'Územný plán obce Píla', ktorý definuje budúce využitie územia a regulatívy pre stavebné aktivity. Obec Píla sa nachádza v Chránenej krajinnej oblasti Ponitrie a zasahuje do územia európskeho významu SKUEV0273 Vtáčnik (Natura 2000) s 2. stupňom ochrany. V území sú evidované biotopy európskeho významu a chránené rastliny ako vstvačovec májový a vstavač obyčajný.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Píla",
-        "NATIONALSI": "SKUEV0273",
-        "SITETITLE_": "Vtáčnik"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Píla",
+          "NATIONALSI": "SKUEV0273",
+          "SITETITLE_": "Vtáčnik"
+        }
+      ]
+    }
   }
 }

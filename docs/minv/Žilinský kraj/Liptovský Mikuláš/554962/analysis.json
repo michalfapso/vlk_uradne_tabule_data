@@ -81,30 +81,32 @@
   "odkaz_enviroportal": null,
   "paragrafy": [],
   "zhrnutie": "Žiadosť o súhlas na výrub drevín a krovitých porastov podaná Slovenským vodohospodárskym podnikom, š.p., v katastrálnych územiach Liptovský Peter, Vavrišovo a Pribylina. Dôvodom je prečistenie vodných tokov (Mlynsky potok, Rakytínsky potok, Suchý hrádok, Suchý jarok) a uvoľnenie prietočného profilu, ako aj zlepšenie podmienok pre výlov a zarybnenie pôvodnými druhmi rýb. Dotknuté sú Vŕba krehká a Jelša sivá.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "2396",
-        "NATIONALSI": "SKUEV0141",
-        "SITETITLE_": "Belá"
-      },
-      {
-        "parcel_label": "4436/6",
-        "NATIONALSI": "SKUEV0141",
-        "SITETITLE_": "Belá"
-      },
-      {
-        "parcel_label": "11141/503",
-        "NATIONALSI": "SKUEV0306",
-        "SITETITLE_": "Pod Suchým hrádkom"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "11141/503",
-        "NATIONALSI": "SKCHVU030",
-        "SITETITLE_": "Tatry"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "2396",
+          "NATIONALSI": "SKUEV0141",
+          "SITETITLE_": "Belá"
+        },
+        {
+          "parcel_label": "4436/6",
+          "NATIONALSI": "SKUEV0141",
+          "SITETITLE_": "Belá"
+        },
+        {
+          "parcel_label": "11141/503",
+          "NATIONALSI": "SKUEV0306",
+          "SITETITLE_": "Pod Suchým hrádkom"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "11141/503",
+          "NATIONALSI": "SKCHVU030",
+          "SITETITLE_": "Tatry"
+        }
+      ]
+    }
   }
 }

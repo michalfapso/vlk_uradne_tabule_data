@@ -49,30 +49,32 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí vodoprávneho konania vo veci predĺženia platnosti stavebného povolenia pre stavbu 'Výstavba vodovodu v obci Radvanovce'. Konanie sa týka katastrálnych území Radvanovce a Medzianky, pričom námietky je možné uplatniť do 27.03.2026.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Radvanovce",
-        "NATIONALSI": "SKUEV0324",
-        "SITETITLE_": "Radvanovské skalky"
-      },
-      {
-        "parcel_label": "Medzianky",
-        "NATIONALSI": "SKUEV0325",
-        "SITETITLE_": "Medzianske skalky"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Radvanovce",
-        "NATIONALSI": "656",
-        "SITETITLE_": "CHA Radvanovské skalky"
-      },
-      {
-        "parcel_label": "Medzianky",
-        "NATIONALSI": "611",
-        "SITETITLE_": "CHA Medzianske skalky"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Radvanovce",
+          "NATIONALSI": "SKUEV0324",
+          "SITETITLE_": "Radvanovské skalky"
+        },
+        {
+          "parcel_label": "Medzianky",
+          "NATIONALSI": "SKUEV0325",
+          "SITETITLE_": "Medzianske skalky"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Radvanovce",
+          "NATIONALSI": "656",
+          "SITETITLE_": "CHA Radvanovské skalky"
+        },
+        {
+          "parcel_label": "Medzianky",
+          "NATIONALSI": "611",
+          "SITETITLE_": "CHA Medzianske skalky"
+        }
+      ]
+    }
   }
 }

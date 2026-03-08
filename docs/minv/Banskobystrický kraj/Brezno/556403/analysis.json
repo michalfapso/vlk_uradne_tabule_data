@@ -38,18 +38,20 @@
     }
   ],
   "zhrnutie": "Okresný úrad Brezno upovedomuje o plánovaných výruboch a okliesnení drevín spoločnosťou SVP BB, š.p. v katastrálnom území Podbrezová na rieke Hron. Cieľom zásahu je realizácia protipovodňových opatrení a líniovej ochrannej stavby, čo je v súlade s výnimkou podľa zákona o ochrane prírody a krajiny.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Podbrezová",
-        "NATIONALSI": "SKUEV0303",
-        "SITETITLE_": "Alúvium Hrona"
-      },
-      {
-        "parcel_label": "Podbrezová",
-        "NATIONALSI": "SKUEV0862",
-        "SITETITLE_": "Predajnianska slatina"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Podbrezová",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Podbrezová",
+          "NATIONALSI": "SKUEV0862",
+          "SITETITLE_": "Predajnianska slatina"
+        }
+      ]
+    }
   }
 }

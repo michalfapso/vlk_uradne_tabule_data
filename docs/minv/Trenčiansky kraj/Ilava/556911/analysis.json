@@ -132,40 +132,42 @@
     }
   ],
   "zhrnutie": "Dokument je rozhodnutím o prerušení konania a výzvou pre stavebníkov, Františka a Boženu Polákovcov, aby v lehote 3 mesiacov doplnili žiadosť o predĺženie termínu na dokončenie vodnej stavby \"Malá vodná elektráreň – Košecké Podhradie\" a predložili doklady o práve k stavebným pozemkom. Konanie sa týka pozemkov v katastrálnom území Veľké Košecké Podhradie a je prerušené z dôvodu nevyriešených vlastníckych práv k pozemkom, o ktorých prebieha súdne konanie.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "1009/1",
-        "NATIONALSI": "SKUEV0256",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "7196/502",
-        "NATIONALSI": "SKUEV0256",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "7196/509",
-        "NATIONALSI": "SKUEV0256",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "1009/1",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "7196/502",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "7196/509",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "1009/1",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "7196/502",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "7196/509",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "1009/1",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "7196/502",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "7196/509",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    }
   }
 }

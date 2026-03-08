@@ -64,18 +64,20 @@
     }
   ],
   "zhrnutie": "Spoločnosť SPP – distribúcia, a.s. oznamuje plánovaný výrub drevín, vrátane vŕb a krovín, ktoré sa nachádzajú v priamej línii a ochrannom pásme plynovodov v katastrálnych územiach Havaj a Breznica (okres Stropkov, Prešovský kraj). Výrub je odôvodnený potrebou zabezpečiť bezpečnú a spoľahlivú prevádzku plynovodov v súlade so zákonom o energetike.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "351/1",
-        "NATIONALSI": "SKCHVU011",
-        "SITETITLE_": "Laborecká vrchovina"
-      },
-      {
-        "parcel_label": "351/1",
-        "NATIONALSI": "SKCHVU011",
-        "SITETITLE_": "Laborecká vrchovina"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "351/1",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        },
+        {
+          "parcel_label": "351/1",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        }
+      ]
+    }
   }
 }

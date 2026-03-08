@@ -90,90 +90,92 @@
     }
   ],
   "zhrnutie": "Okresný úrad Košice – okolie vydal rozhodnutie o určení ochranných pásiem I. a II. stupňa vodárenského zdroja „Malá Lodina – Prameň I. starý a Prameň II. nový“ v obci Malá Lodina. Dokument stanovuje rozsiahle zákazy a režimy hospodárenia v týchto pásmach, zamerané na ochranu kvality a výdatnosti podzemných vôd, ktoré sa týkajú najmä lesohospodárskej, poľnohospodárskej činnosti, výstavby a zemných prác. Dotknuté sú viaceré parcely v k. ú. Malá Lodina, vrátane oblastí s ochrannými lesmi.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "134/1",
-        "registry_n": "SKUEV0328",
-        "site_name": "Stredné Pohornádie",
-        "category_i": 21.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "134/2",
-        "NATIONALSI": "SKUEV0328",
-        "SITETITLE_": "Stredné Pohornádie"
-      },
-      {
-        "parcel_label": "133/2",
-        "NATIONALSI": "SKUEV0328",
-        "SITETITLE_": "Stredné Pohornádie"
-      },
-      {
-        "parcel_label": "133/1",
-        "NATIONALSI": "SKUEV0328",
-        "SITETITLE_": "Stredné Pohornádie"
-      },
-      {
-        "parcel_label": "134/1",
-        "NATIONALSI": "SKUEV0328",
-        "SITETITLE_": "Stredné Pohornádie"
-      },
-      {
-        "parcel_label": "132/1",
-        "NATIONALSI": "SKUEV0328",
-        "SITETITLE_": "Stredné Pohornádie"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "134/1",
-        "NATIONALSI": "506",
-        "SITETITLE_": "NPR Bokšov"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "134/2",
-        "NATIONALSI": "SKCHVU036",
-        "SITETITLE_": "Volovské vrchy"
-      },
-      {
-        "parcel_label": "133/3",
-        "NATIONALSI": "SKCHVU036",
-        "SITETITLE_": "Volovské vrchy"
-      },
-      {
-        "parcel_label": "133/2",
-        "NATIONALSI": "SKCHVU036",
-        "SITETITLE_": "Volovské vrchy"
-      },
-      {
-        "parcel_label": "133/1",
-        "NATIONALSI": "SKCHVU036",
-        "SITETITLE_": "Volovské vrchy"
-      },
-      {
-        "parcel_label": "134/1",
-        "NATIONALSI": "SKCHVU036",
-        "SITETITLE_": "Volovské vrchy"
-      },
-      {
-        "parcel_label": "132/1",
-        "NATIONALSI": "SKCHVU036",
-        "SITETITLE_": "Volovské vrchy"
-      },
-      {
-        "parcel_label": "88/2",
-        "NATIONALSI": "SKCHVU036",
-        "SITETITLE_": "Volovské vrchy"
-      },
-      {
-        "parcel_label": "88/4",
-        "NATIONALSI": "SKCHVU036",
-        "SITETITLE_": "Volovské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "134/1",
+          "registry_n": "SKUEV0328",
+          "site_name": "Stredné Pohornádie",
+          "category_i": 21
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "134/2",
+          "NATIONALSI": "SKUEV0328",
+          "SITETITLE_": "Stredné Pohornádie"
+        },
+        {
+          "parcel_label": "133/2",
+          "NATIONALSI": "SKUEV0328",
+          "SITETITLE_": "Stredné Pohornádie"
+        },
+        {
+          "parcel_label": "133/1",
+          "NATIONALSI": "SKUEV0328",
+          "SITETITLE_": "Stredné Pohornádie"
+        },
+        {
+          "parcel_label": "134/1",
+          "NATIONALSI": "SKUEV0328",
+          "SITETITLE_": "Stredné Pohornádie"
+        },
+        {
+          "parcel_label": "132/1",
+          "NATIONALSI": "SKUEV0328",
+          "SITETITLE_": "Stredné Pohornádie"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "134/1",
+          "NATIONALSI": "506",
+          "SITETITLE_": "NPR Bokšov"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "134/2",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "133/3",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "133/2",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "133/1",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "134/1",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "132/1",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "88/2",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "88/4",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        }
+      ]
+    }
   }
 }

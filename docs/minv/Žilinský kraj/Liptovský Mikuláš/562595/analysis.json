@@ -98,20 +98,22 @@
     }
   ],
   "zhrnutie": "Rozhodnutie o vydaní stavebného a vodoprávneho povolenia pre Tatry mountain resorts, a. s. na realizáciu rozvodov zasnežovania na zjazdovej trati č. 15 (Luková - Otupné) v Demänovskej Doline. Projekt zasahuje do ochranných pásiem vodárenských zdrojov a ukladá podmienky pre ochranu pôdy pred eróziou a zachovanie okolitej drevinovej vegetácie (borovica horská, jarabina, smrek).",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "2921/401",
-        "NATIONALSI": "SKUEV0302",
-        "SITETITLE_": "Ďumbierske Tatry"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "2921/401",
-        "NATIONALSI": "SKCHVU018",
-        "SITETITLE_": "Nízke Tatry"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "2921/401",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "2921/401",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    }
   }
 }

@@ -40,32 +40,34 @@
     }
   ],
   "zhrnutie": "Dokument informuje o začatom správnom konaní týkajúcom sa žiadosti spoločnosti e-c-o- s.r.o. o vydanie súhlasu pre realizáciu Národného centra rýchlostnej kanoistiky a veslovania v katastrálnom území Jarovce, v Bratislave. Predmetom konania je výstavba budov a vodných stavieb. Verejnosť má 5 pracovných dní na potvrdenie záujmu byť účastníkom konania.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Jarovce",
-        "NATIONALSI": "SKUEV0064",
-        "SITETITLE_": "Bratislavské luhy"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Jarovce",
-        "NATIONALSI": "1097",
-        "SITETITLE_": "CHA Jarovská bažantnica"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Jarovce",
-        "NATIONALSI": "SKCHVU007",
-        "SITETITLE_": "Dunajské luhy"
-      },
-      {
-        "parcel_label": "Jarovce",
-        "NATIONALSI": "SKCHVU029",
-        "SITETITLE_": "Sysľovské polia"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Jarovce",
+          "NATIONALSI": "SKUEV0064",
+          "SITETITLE_": "Bratislavské luhy"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Jarovce",
+          "NATIONALSI": "1097",
+          "SITETITLE_": "CHA Jarovská bažantnica"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Jarovce",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "Jarovce",
+          "NATIONALSI": "SKCHVU029",
+          "SITETITLE_": "Sysľovské polia"
+        }
+      ]
+    }
   }
 }

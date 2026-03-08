@@ -108,95 +108,97 @@
     }
   ],
   "zhrnutie": "Okresný úrad Trebišov zverejňuje oznámenie od SVP, š.p. Povodie Bodrogu o plánovanom výrube drevín (topoľ, vŕba, jeseň a krovitý porast) na ľavobrežných ochranných hrádzach Latorice a Západnom Leleskom kanáli. Výrub sa má realizovať v katastrálnych územiach Bačka, Boťany a Boľ z dôvodu odstránenia prekážok pre plynulý odtok vody. Konanie sa riadi zákonom o ochrane prírody a krajiny a neumožňuje účasť verejnosti.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "2043",
-        "registry_n": "SKUEV0006",
-        "site_name": "Latorica",
-        "category_i": 21.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "771",
-        "NATIONALSI": "SKUEV0006",
-        "SITETITLE_": "Latorica"
-      },
-      {
-        "parcel_label": "3113",
-        "NATIONALSI": "SKUEV0006",
-        "SITETITLE_": "Latorica"
-      },
-      {
-        "parcel_label": "1199",
-        "NATIONALSI": "SKUEV0006",
-        "SITETITLE_": "Latorica"
-      },
-      {
-        "parcel_label": "1200",
-        "NATIONALSI": "SKUEV0006",
-        "SITETITLE_": "Latorica"
-      },
-      {
-        "parcel_label": "1201",
-        "NATIONALSI": "SKUEV0006",
-        "SITETITLE_": "Latorica"
-      },
-      {
-        "parcel_label": "2043",
-        "NATIONALSI": "SKUEV0006",
-        "SITETITLE_": "Latorica"
-      },
-      {
-        "parcel_label": "802/1",
-        "NATIONALSI": "SKUEV0006",
-        "SITETITLE_": "Latorica"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "2043",
-        "NATIONALSI": "595",
-        "SITETITLE_": "NPR Latorický luh"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "771",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "3113",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "1199",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "1200",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "1201",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "2043",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "802/1",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "2043",
+          "registry_n": "SKUEV0006",
+          "site_name": "Latorica",
+          "category_i": 21
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "771",
+          "NATIONALSI": "SKUEV0006",
+          "SITETITLE_": "Latorica"
+        },
+        {
+          "parcel_label": "3113",
+          "NATIONALSI": "SKUEV0006",
+          "SITETITLE_": "Latorica"
+        },
+        {
+          "parcel_label": "1199",
+          "NATIONALSI": "SKUEV0006",
+          "SITETITLE_": "Latorica"
+        },
+        {
+          "parcel_label": "1200",
+          "NATIONALSI": "SKUEV0006",
+          "SITETITLE_": "Latorica"
+        },
+        {
+          "parcel_label": "1201",
+          "NATIONALSI": "SKUEV0006",
+          "SITETITLE_": "Latorica"
+        },
+        {
+          "parcel_label": "2043",
+          "NATIONALSI": "SKUEV0006",
+          "SITETITLE_": "Latorica"
+        },
+        {
+          "parcel_label": "802/1",
+          "NATIONALSI": "SKUEV0006",
+          "SITETITLE_": "Latorica"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "2043",
+          "NATIONALSI": "595",
+          "SITETITLE_": "NPR Latorický luh"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "771",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "3113",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "1199",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "1200",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "1201",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2043",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "802/1",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        }
+      ]
+    }
   }
 }

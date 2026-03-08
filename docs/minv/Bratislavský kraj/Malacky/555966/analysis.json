@@ -55,20 +55,22 @@
     }
   ],
   "zhrnutie": "Okresný úrad Malacky, odbor starostlivosti o životné prostredie, rozhodol o predĺžení lehoty na dokončenie výstavby vodnej stavby \"Kanalizácia a spoločná ČOV – SO 10 Splášková kanalizácia, SO 11 Domové prípojky\" pre žiadateľa Obec Studienka, katastrálne územie Studienka, do 31.12.2027. Ide o líniovú stavbu. Dokument nespomína žiadne chránené územia ani druhy živočíchov či rastlín.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Studienka",
-        "NATIONALSI": "SKUEV0163",
-        "SITETITLE_": "Rudava"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Studienka",
-        "NATIONALSI": "1193",
-        "SITETITLE_": "CHA Rudava"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Studienka",
+          "NATIONALSI": "SKUEV0163",
+          "SITETITLE_": "Rudava"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Studienka",
+          "NATIONALSI": "1193",
+          "SITETITLE_": "CHA Rudava"
+        }
+      ]
+    }
   }
 }

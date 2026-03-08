@@ -49,27 +49,29 @@
     }
   ],
   "zhrnutie": "Dokument je informáciou o začatí správneho konania, ktorého predmetom je žiadosť o vydanie súhlasu na výrub drevín v katastrálnom území Nové Zámky v Nitrianskom kraji. Záujem byť zúčastnenou osobou v konaní je potrebné potvrdiť do 5 pracovných dní od zverejnenia informácie.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "SKUEV0084",
-        "SITETITLE_": "Zátoň"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "137",
-        "SITETITLE_": "PP Potok Chrenovka"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "SKCHVU005",
-        "SITETITLE_": "Dolné Považie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKUEV0084",
+          "SITETITLE_": "Zátoň"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "137",
+          "SITETITLE_": "PP Potok Chrenovka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKCHVU005",
+          "SITETITLE_": "Dolné Považie"
+        }
+      ]
+    }
   }
 }

@@ -40,45 +40,47 @@
     }
   ],
   "zhrnutie": "Okresný úrad Trnava zverejňuje oznámenie od Železníc Slovenskej republiky o výrube drevín v traťovom úseku Trnava – Cífer. Na toto oznámenie sa nevzťahujú všeobecné predpisy o správnom konaní a nie je možné voči nemu podať odvolanie. V dokumente nie sú špecifikované dotknuté chránené územia ani druhy živočíchov a rastlín.",
-  "zasiahnute_chranene_uzemia": {
-    "MCHU": [
-      {
-        "parcel_label": "Trnava",
-        "NATIONALSI": "175",
-        "SITETITLE_": "CHA Trnavské rybníky"
-      },
-      {
-        "parcel_label": "Trnava",
-        "NATIONALSI": "175",
-        "SITETITLE_": "OP CHA Trnavské rybníky"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Modranka",
-        "NATIONALSI": "SKCHVU023",
-        "SITETITLE_": "Úľanská mokraď"
-      },
-      {
-        "parcel_label": "Trnava",
-        "NATIONALSI": "SKCHVU023",
-        "SITETITLE_": "Úľanská mokraď"
-      },
-      {
-        "parcel_label": "Trnava",
-        "NATIONALSI": "SKCHVU054",
-        "SITETITLE_": "Špačinsko-nižnianske polia"
-      },
-      {
-        "parcel_label": "Cífer",
-        "NATIONALSI": "SKCHVU023",
-        "SITETITLE_": "Úľanská mokraď"
-      },
-      {
-        "parcel_label": "Pác",
-        "NATIONALSI": "SKCHVU023",
-        "SITETITLE_": "Úľanská mokraď"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "175",
+          "SITETITLE_": "CHA Trnavské rybníky"
+        },
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "175",
+          "SITETITLE_": "OP CHA Trnavské rybníky"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Modranka",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        },
+        {
+          "parcel_label": "Cífer",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Pác",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        }
+      ]
+    }
   }
 }

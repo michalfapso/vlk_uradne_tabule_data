@@ -105,18 +105,20 @@
     }
   ],
   "zhrnutie": "Dokument je záväzným stanoviskom k navrhovanej stavbe „Zásobovanie vodou Beniakovce“, ktorá spočíva v dobudovaní vodovodného systému pre nové rozvojové lokality obcí Beniakovce, Budimír a Vajkovce v Košickom kraji. Stanovisko konštatuje, že stavba nevyžaduje výnimku z environmentálnych cieľov podľa vodného zákona a nezasahuje do chránených území prírody a krajiny ani do chránených vodohospodárskych oblastí.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "1232/141",
-        "NATIONALSI": "SKUEV4007",
-        "SITETITLE_": "Dolný tok Torysy"
-      },
-      {
-        "parcel_label": "1235/1",
-        "NATIONALSI": "SKUEV4007",
-        "SITETITLE_": "Dolný tok Torysy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "1232/141",
+          "NATIONALSI": "SKUEV4007",
+          "SITETITLE_": "Dolný tok Torysy"
+        },
+        {
+          "parcel_label": "1235/1",
+          "NATIONALSI": "SKUEV4007",
+          "SITETITLE_": "Dolný tok Torysy"
+        }
+      ]
+    }
   }
 }

@@ -47,45 +47,47 @@
     }
   ],
   "zhrnutie": "Dokument je verejnou vyhláškou o oboznámení účastníkov konania o žiadosti Združenia obcí o predĺženie platnosti vodoprávneho povolenia na stavbu \"Prívod vody z areálu VDJ Sečovce – Habeš do VDJ Malé Ozorovce\" v okrese Trebišov, Košický kraj. Účastníci konania môžu podať vyjadrenie k podkladom do 3 pracovných dní od doručenia oboznámenia. V dokumente nie sú spomenuté žiadne chránené územia ani druhy živočíchov či rastlín.",
-  "zasiahnute_chranene_uzemia": {
-    "MCHU": [
-      {
-        "parcel_label": "Zemplínska Teplica",
-        "NATIONALSI": "591",
-        "SITETITLE_": "OP PR Krčmárka"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Sečovce",
-        "NATIONALSI": "SKCHVU037",
-        "SITETITLE_": "Ondavská rovina"
-      },
-      {
-        "parcel_label": "Malé Ozorovce",
-        "NATIONALSI": "SKCHVU025",
-        "SITETITLE_": "Slanské vrchy"
-      },
-      {
-        "parcel_label": "Veľké Ozorovce",
-        "NATIONALSI": "SKCHVU037",
-        "SITETITLE_": "Ondavská rovina"
-      },
-      {
-        "parcel_label": "Veľké Ozorovce",
-        "NATIONALSI": "SKCHVU025",
-        "SITETITLE_": "Slanské vrchy"
-      },
-      {
-        "parcel_label": "Zbehňov",
-        "NATIONALSI": "SKCHVU025",
-        "SITETITLE_": "Slanské vrchy"
-      },
-      {
-        "parcel_label": "Zemplínska Teplica",
-        "NATIONALSI": "SKCHVU025",
-        "SITETITLE_": "Slanské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Zemplínska Teplica",
+          "NATIONALSI": "591",
+          "SITETITLE_": "OP PR Krčmárka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Sečovce",
+          "NATIONALSI": "SKCHVU037",
+          "SITETITLE_": "Ondavská rovina"
+        },
+        {
+          "parcel_label": "Malé Ozorovce",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        },
+        {
+          "parcel_label": "Veľké Ozorovce",
+          "NATIONALSI": "SKCHVU037",
+          "SITETITLE_": "Ondavská rovina"
+        },
+        {
+          "parcel_label": "Veľké Ozorovce",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        },
+        {
+          "parcel_label": "Zbehňov",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        },
+        {
+          "parcel_label": "Zemplínska Teplica",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        }
+      ]
+    }
   }
 }

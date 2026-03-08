@@ -37,20 +37,22 @@
     }
   ],
   "zhrnutie": "Okresný úrad Medzilaborce upovedomuje o začatom správnom konaní o vydaní súhlasu na výrub drevín rastúcich mimo les, ktorého žiadateľom je Mgr. Ivan Chvostek, SHR. Činnosť sa má realizovať v katastrálnom území Oľšinkov. Lehota na potvrdenie záujmu byť účastníkom konania je 5 pracovných dní od zverejnenia.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Oľšinkov",
-        "NATIONALSI": "SKUEV0387",
-        "SITETITLE_": "Beskyd"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Oľšinkov",
-        "NATIONALSI": "SKCHVU011",
-        "SITETITLE_": "Laborecká vrchovina"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Oľšinkov",
+          "NATIONALSI": "SKUEV0387",
+          "SITETITLE_": "Beskyd"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Oľšinkov",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        }
+      ]
+    }
   }
 }

@@ -69,20 +69,22 @@
     }
   ],
   "zhrnutie": "Dokument je oznámením od spoločnosti ENZA s.r.o. o nevyhnutnom výrube náletových drevín a iných porastov v ochrannom pásme elektrického vedenia TR: 421/77774 Ladoi-Pabistrica. Výrub sa uskutoční v katastrálnych územiach Púchov, Beluša a Visolaje v Trenčianskom kraji, okrese Púchov, v období od 14.11.2021 do 30.11.2021. Činnosť je odôvodnená zabezpečením plynulej a bezporuchovej prevádzky energetických zariadení v zmysle Zákona o energetike a Zákona o ochrane prírody a krajiny.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Beluša",
-        "NATIONALSI": "SKUEV0256",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Beluša",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Beluša",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Beluša",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    }
   }
 }

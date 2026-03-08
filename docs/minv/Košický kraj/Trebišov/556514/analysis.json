@@ -46,20 +46,22 @@
     }
   ],
   "zhrnutie": "Okresný úrad Trebišov zverejňuje oznámenie od NAFTA a.s. o plánovanom výrube drevín a krovitých porastov v katastrálnom území Kapoňa, okres Trebišov. Výrub je odôvodnený zabezpečením bezpečnosti energetických zariadení v ochrannom pásme sondy Ptruksá 58. Konanie nepodlieha všeobecným predpisom o správnom konaní.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Kapoňa",
-        "NATIONALSI": "SKUEV0006",
-        "SITETITLE_": "Latorica"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Kapoňa",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Kapoňa",
+          "NATIONALSI": "SKUEV0006",
+          "SITETITLE_": "Latorica"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Kapoňa",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        }
+      ]
+    }
   }
 }

@@ -45,35 +45,37 @@
     }
   ],
   "zhrnutie": "Tento dokument je verejnou vyhláškou Okresného úradu Nové Mesto nad Váhom o začatí konania vo veci odstránenia a určenia vlastníctva k starému vozidlu (FIAT PUNTO) z ulice Jánošíkovej v Novom Meste nad Váhom, ktoré ohrozovalo životné prostredie. Konanie sa týka vozidla, ktorého vlastníčka si ho neprevzala z parkoviska. Účastníci majú 20 dní na uplatnenie námietok.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Nové Mesto nad Váhom",
-        "NATIONALSI": "SKUEV0379",
-        "SITETITLE_": "Kobela"
-      },
-      {
-        "parcel_label": "Nové Mesto nad Váhom",
-        "NATIONALSI": "SKUEV0567",
-        "SITETITLE_": "Turecký vrch"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Nové Mesto nad Váhom",
-        "NATIONALSI": "19",
-        "SITETITLE_": "OP NPP Čachtická jaskyňa"
-      },
-      {
-        "parcel_label": "Nové Mesto nad Váhom",
-        "NATIONALSI": "76",
-        "SITETITLE_": "PR Kobela"
-      },
-      {
-        "parcel_label": "Nové Mesto nad Váhom",
-        "NATIONALSI": "179",
-        "SITETITLE_": "PR Turecký vrch"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "SKUEV0379",
+          "SITETITLE_": "Kobela"
+        },
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "SKUEV0567",
+          "SITETITLE_": "Turecký vrch"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "19",
+          "SITETITLE_": "OP NPP Čachtická jaskyňa"
+        },
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "76",
+          "SITETITLE_": "PR Kobela"
+        },
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "179",
+          "SITETITLE_": "PR Turecký vrch"
+        }
+      ]
+    }
   }
 }

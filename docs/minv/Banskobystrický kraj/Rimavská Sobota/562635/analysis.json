@@ -45,25 +45,27 @@
     }
   ],
   "zhrnutie": "Informácia o začatí konania vo veci oznámenia o výrube drevín a brehového porastu v k. ú. Drienčany pri vodnom toku Blh. Výrub podal Slovenský vodohospodársky podnik z dôvodu údržby koryta a plánuje ho realizovať v mimovegetačnom období roku 2026.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Drienčany",
-        "NATIONALSI": "SKUEV0366",
-        "SITETITLE_": "Drienčanský kras"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Drienčany",
-        "NATIONALSI": "1136",
-        "SITETITLE_": "PP Malá Drienčanská jaskyňa"
-      },
-      {
-        "parcel_label": "Drienčany",
-        "NATIONALSI": "1136",
-        "SITETITLE_": "OP PP Malá Drienčanská jaskyňa"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Drienčany",
+          "NATIONALSI": "SKUEV0366",
+          "SITETITLE_": "Drienčanský kras"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Drienčany",
+          "NATIONALSI": "1136",
+          "SITETITLE_": "PP Malá Drienčanská jaskyňa"
+        },
+        {
+          "parcel_label": "Drienčany",
+          "NATIONALSI": "1136",
+          "SITETITLE_": "OP PP Malá Drienčanská jaskyňa"
+        }
+      ]
+    }
   }
 }

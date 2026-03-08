@@ -49,40 +49,42 @@
     }
   ],
   "zhrnutie": "Okresný úrad Trebišov zverejňuje oznámenie od spoločnosti NAFTA a.s. o plánovanom výrube drevín rastúcich mimo lesa v katastrálnych územiach Kravany a Parchovany, okres Trebišov. Výrub je odôvodnený z dôvodu zabezpečenia bezpečnosti energetických zariadení v ochrannom pásme vrtov. Všeobecné predpisy o správnom konaní sa na toto konanie nevzťahujú.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Parchovany",
-        "NATIONALSI": "SKUEV0841",
-        "SITETITLE_": "Dolný tok Tople"
-      },
-      {
-        "parcel_label": "Parchovany",
-        "NATIONALSI": "SKUEV0841",
-        "SITETITLE_": "Dolný tok Tople"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Kravany",
-        "NATIONALSI": "SKCHVU025",
-        "SITETITLE_": "Slanské vrchy"
-      },
-      {
-        "parcel_label": "Kravany",
-        "NATIONALSI": "SKCHVU025",
-        "SITETITLE_": "Slanské vrchy"
-      },
-      {
-        "parcel_label": "Parchovany",
-        "NATIONALSI": "SKCHVU037",
-        "SITETITLE_": "Ondavská rovina"
-      },
-      {
-        "parcel_label": "Parchovany",
-        "NATIONALSI": "SKCHVU037",
-        "SITETITLE_": "Ondavská rovina"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Parchovany",
+          "NATIONALSI": "SKUEV0841",
+          "SITETITLE_": "Dolný tok Tople"
+        },
+        {
+          "parcel_label": "Parchovany",
+          "NATIONALSI": "SKUEV0841",
+          "SITETITLE_": "Dolný tok Tople"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Kravany",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        },
+        {
+          "parcel_label": "Kravany",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        },
+        {
+          "parcel_label": "Parchovany",
+          "NATIONALSI": "SKCHVU037",
+          "SITETITLE_": "Ondavská rovina"
+        },
+        {
+          "parcel_label": "Parchovany",
+          "NATIONALSI": "SKCHVU037",
+          "SITETITLE_": "Ondavská rovina"
+        }
+      ]
+    }
   }
 }

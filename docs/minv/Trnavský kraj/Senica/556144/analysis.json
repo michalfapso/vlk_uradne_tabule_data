@@ -45,18 +45,20 @@
     }
   ],
   "zhrnutie": "Okresný úrad Senica zverejňuje informáciu o oznámení plánovaného výrubu jedného kusu agátu v katastrálnom území Sobotište. Žiadateľom je Obec Sobotište a dôvodom je zabezpečenie prejazdnosti vozidiel nákladnej dopravy k stavebným pozemkom. Na toto konanie sa nevzťahujú všeobecné predpisy o správnom konaní, čím je vylúčená štandardná účasť verejnosti.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Sobotište",
-        "NATIONALSI": "SKUEV0804",
-        "SITETITLE_": "Javorec"
-      },
-      {
-        "parcel_label": "Sobotište",
-        "NATIONALSI": "SKUEV0900",
-        "SITETITLE_": "Uchánok"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Sobotište",
+          "NATIONALSI": "SKUEV0804",
+          "SITETITLE_": "Javorec"
+        },
+        {
+          "parcel_label": "Sobotište",
+          "NATIONALSI": "SKUEV0900",
+          "SITETITLE_": "Uchánok"
+        }
+      ]
+    }
   }
 }

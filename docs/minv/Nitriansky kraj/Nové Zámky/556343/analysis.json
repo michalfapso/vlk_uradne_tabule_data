@@ -40,27 +40,29 @@
     }
   ],
   "zhrnutie": "Dokument je rozhodnutím Okresného úradu Nové Zámky, odboru starostlivosti o životné prostredie, ktorým sa vozidlo značky ALFA ROMEO s evidenčným číslom NZ245CT vyhlasuje za staré vozidlo. Dôvodom je nesplnenie povinnosti vlastníka podľa zákona o odpadoch, pričom vozidlo bolo odstránené z ulice Cyrilometódska v Nových Zámkoch. Rozhodnutie neuvádza žiadne informácie relevantné pre Lesoochranárske zoskupenie VLK.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "SKUEV0084",
-        "SITETITLE_": "Zátoň"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "137",
-        "SITETITLE_": "PP Potok Chrenovka"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "SKCHVU005",
-        "SITETITLE_": "Dolné Považie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKUEV0084",
+          "SITETITLE_": "Zátoň"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "137",
+          "SITETITLE_": "PP Potok Chrenovka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKCHVU005",
+          "SITETITLE_": "Dolné Považie"
+        }
+      ]
+    }
   }
 }

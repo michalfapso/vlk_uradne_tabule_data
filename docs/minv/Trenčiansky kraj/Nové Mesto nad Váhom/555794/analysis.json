@@ -46,35 +46,37 @@
     }
   ],
   "zhrnutie": "Okresný úrad Nové Mesto nad Váhom prerušil zisťovacie konanie k navrhovanej činnosti „Mestská plaváreň a letné kúpalisko, Nové Mesto nad Váhom“, žiadateľa Mesto Nové Mesto nad Váhom, na dobu 90 dní. Prerušenie konania bolo iniciované kvôli potrebe dopracovania hodnotenia vplyvov na verejné zdravie (HIA), najmä s dôrazom na hluk a imisné zaťaženie z dopravy a prevádzky areálu.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Nové Mesto nad Váhom",
-        "NATIONALSI": "SKUEV0379",
-        "SITETITLE_": "Kobela"
-      },
-      {
-        "parcel_label": "Nové Mesto nad Váhom",
-        "NATIONALSI": "SKUEV0567",
-        "SITETITLE_": "Turecký vrch"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Nové Mesto nad Váhom",
-        "NATIONALSI": "19",
-        "SITETITLE_": "OP NPP Čachtická jaskyňa"
-      },
-      {
-        "parcel_label": "Nové Mesto nad Váhom",
-        "NATIONALSI": "76",
-        "SITETITLE_": "PR Kobela"
-      },
-      {
-        "parcel_label": "Nové Mesto nad Váhom",
-        "NATIONALSI": "179",
-        "SITETITLE_": "PR Turecký vrch"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "SKUEV0379",
+          "SITETITLE_": "Kobela"
+        },
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "SKUEV0567",
+          "SITETITLE_": "Turecký vrch"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "19",
+          "SITETITLE_": "OP NPP Čachtická jaskyňa"
+        },
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "76",
+          "SITETITLE_": "PR Kobela"
+        },
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "179",
+          "SITETITLE_": "PR Turecký vrch"
+        }
+      ]
+    }
   }
 }

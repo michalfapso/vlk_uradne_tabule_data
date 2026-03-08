@@ -50,28 +50,30 @@
     }
   ],
   "zhrnutie": "Okresný úrad Trebišov zverejňuje oznámenie o plánovanom výrube drevín a krovitých porastov spoločnosťou SPP-distribúcia, a.s. v katastrálnych územiach Trebišov a Zemplínske Hradište. Dôvodom je zabezpečenie bezpečnosti a spoľahlivosti prevádzky plynovodu. Na konanie sa nevzťahujú všeobecné predpisy o správnom konaní.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "Trebišov",
-        "NATIONALSI": "SKCHVU037",
-        "SITETITLE_": "Ondavská rovina"
-      },
-      {
-        "parcel_label": "Trebišov",
-        "NATIONALSI": "SKCHVU037",
-        "SITETITLE_": "Ondavská rovina"
-      },
-      {
-        "parcel_label": "Zemplínske Hradište",
-        "NATIONALSI": "SKCHVU037",
-        "SITETITLE_": "Ondavská rovina"
-      },
-      {
-        "parcel_label": "Zemplínske Hradište",
-        "NATIONALSI": "SKCHVU037",
-        "SITETITLE_": "Ondavská rovina"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "Trebišov",
+          "NATIONALSI": "SKCHVU037",
+          "SITETITLE_": "Ondavská rovina"
+        },
+        {
+          "parcel_label": "Trebišov",
+          "NATIONALSI": "SKCHVU037",
+          "SITETITLE_": "Ondavská rovina"
+        },
+        {
+          "parcel_label": "Zemplínske Hradište",
+          "NATIONALSI": "SKCHVU037",
+          "SITETITLE_": "Ondavská rovina"
+        },
+        {
+          "parcel_label": "Zemplínske Hradište",
+          "NATIONALSI": "SKCHVU037",
+          "SITETITLE_": "Ondavská rovina"
+        }
+      ]
+    }
   }
 }

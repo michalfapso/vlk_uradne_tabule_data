@@ -64,28 +64,30 @@
     }
   ],
   "zhrnutie": "Okresný úrad Pezinok vydal rozhodnutie o predĺžení platnosti povolenia pre Obec Dubová na rekonštrukciu vodnej stavby \"Rekonštrukcia prehrádzky Novosady\" v katastrálnom území Dubová, okres Pezinok. Platnosť povolenia sa predlžuje do 31.10.2027. Dokument je doručený verejnou vyhláškou, no lehota na podanie námietok už uplynula.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "1469/45",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      },
-      {
-        "parcel_label": "1506/1",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      },
-      {
-        "parcel_label": "1506/2",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      },
-      {
-        "parcel_label": "1363",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "1469/45",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "1506/1",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "1506/2",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "1363",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    }
   }
 }

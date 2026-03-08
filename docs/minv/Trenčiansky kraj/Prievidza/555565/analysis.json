@@ -51,92 +51,94 @@
     }
   ],
   "zhrnutie": "Oznámenie o plánovanom odstránení a okliesnení stromov a iných porastov v ochrannom pásme VN vedenia I.č.259 v katastrálnych územiach Čavoj a Valaská Belá (okres Prievidza) z dôvodu zaistenia bezpečnej a spoľahlivej prevádzky. Činnosť sa vykonáva v zmysle zákona o ochrane prírody a krajiny a zákona o energetike.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "Čavoj",
-        "registry_n": "SKUEV0127",
-        "site_name": "Temešská skala",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Valaská Belá",
-        "registry_n": "SKUEV0275",
-        "site_name": "Kňaží stôl",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Valaská Belá",
-        "registry_n": "SKUEV0275",
-        "site_name": "Kňaží stôl",
-        "category_i": 21.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Čavoj",
-        "NATIONALSI": "SKUEV0127",
-        "SITETITLE_": "Temešská skala"
-      },
-      {
-        "parcel_label": "Čavoj",
-        "NATIONALSI": "SKUEV4032",
-        "SITETITLE_": "Lúky pod Čičermanom"
-      },
-      {
-        "parcel_label": "Čavoj",
-        "NATIONALSI": "SKUEV0256",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "Valaská Belá",
-        "NATIONALSI": "SKUEV0275",
-        "SITETITLE_": "Kňaží stôl"
-      },
-      {
-        "parcel_label": "Valaská Belá",
-        "NATIONALSI": "SKUEV4032",
-        "SITETITLE_": "Lúky pod Čičermanom"
-      },
-      {
-        "parcel_label": "Valaská Belá",
-        "NATIONALSI": "SKUEV0256",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "Valaská Belá",
-        "NATIONALSI": "SKUEV0274",
-        "SITETITLE_": "Baské"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Valaská Belá",
-        "NATIONALSI": "1133",
-        "SITETITLE_": "PR Rysia"
-      },
-      {
-        "parcel_label": "Valaská Belá",
-        "NATIONALSI": "390",
-        "SITETITLE_": "PP Prielom Nitrice"
-      },
-      {
-        "parcel_label": "Valaská Belá",
-        "NATIONALSI": "133",
-        "SITETITLE_": "PR Pod Homôľkou"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Čavoj",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "Valaská Belá",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "Čavoj",
+          "registry_n": "SKUEV0127",
+          "site_name": "Temešská skala",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "registry_n": "SKUEV0275",
+          "site_name": "Kňaží stôl",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "registry_n": "SKUEV0275",
+          "site_name": "Kňaží stôl",
+          "category_i": 21
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Čavoj",
+          "NATIONALSI": "SKUEV0127",
+          "SITETITLE_": "Temešská skala"
+        },
+        {
+          "parcel_label": "Čavoj",
+          "NATIONALSI": "SKUEV4032",
+          "SITETITLE_": "Lúky pod Čičermanom"
+        },
+        {
+          "parcel_label": "Čavoj",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "SKUEV0275",
+          "SITETITLE_": "Kňaží stôl"
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "SKUEV4032",
+          "SITETITLE_": "Lúky pod Čičermanom"
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "SKUEV0274",
+          "SITETITLE_": "Baské"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "1133",
+          "SITETITLE_": "PR Rysia"
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "390",
+          "SITETITLE_": "PP Prielom Nitrice"
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "133",
+          "SITETITLE_": "PR Pod Homôľkou"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Čavoj",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    }
   }
 }

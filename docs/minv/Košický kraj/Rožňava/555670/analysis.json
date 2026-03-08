@@ -67,64 +67,66 @@
     }
   ],
   "zhrnutie": "Okresný úrad Rožňava oznamuje začatie správneho konania vo veci vydania súhlasu na výrub drevín, ktorý žiada TOPPRO s. r. o. Výrub je plánovaný v katastrálnom území Hrhov, okres Rožňava, z dôvodu zasahovania drevín do trasy plynovodov. Do tohto konania sa nie je možné prihlásiť.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "Hrhov",
-        "registry_n": "SKUEV0341",
-        "site_name": "Dolný vrch",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Hrhov",
-        "registry_n": "P/28",
-        "site_name": "NP Slovenský kras",
-        "category_i": 8.0
-      },
-      {
-        "parcel_label": "Hrhov",
-        "registry_n": "SKUEV0356",
-        "site_name": "Horný vrch",
-        "category_i": 21.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Hrhov",
-        "NATIONALSI": "SKUEV0341",
-        "SITETITLE_": "Dolný vrch"
-      },
-      {
-        "parcel_label": "Hrhov",
-        "NATIONALSI": "SKUEV0356",
-        "SITETITLE_": "Horný vrch"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Hrhov",
-        "NATIONALSI": "871",
-        "SITETITLE_": "PR Zemné hradisko"
-      },
-      {
-        "parcel_label": "Hrhov",
-        "NATIONALSI": "0",
-        "SITETITLE_": "PP Oltár"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Hrhov",
-        "NATIONALSI": "SKCHVU027",
-        "SITETITLE_": "Slovenský kras"
-      }
-    ],
-    "UNESCO": [
-      {
-        "parcel_label": "Hrhov",
-        "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
-        "Kod_chrane": "UN01"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "Hrhov",
+          "registry_n": "SKUEV0341",
+          "site_name": "Dolný vrch",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Hrhov",
+          "registry_n": "P/28",
+          "site_name": "NP Slovenský kras",
+          "category_i": 8
+        },
+        {
+          "parcel_label": "Hrhov",
+          "registry_n": "SKUEV0356",
+          "site_name": "Horný vrch",
+          "category_i": 21
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Hrhov",
+          "NATIONALSI": "SKUEV0341",
+          "SITETITLE_": "Dolný vrch"
+        },
+        {
+          "parcel_label": "Hrhov",
+          "NATIONALSI": "SKUEV0356",
+          "SITETITLE_": "Horný vrch"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Hrhov",
+          "NATIONALSI": "871",
+          "SITETITLE_": "PR Zemné hradisko"
+        },
+        {
+          "parcel_label": "Hrhov",
+          "NATIONALSI": "0",
+          "SITETITLE_": "PP Oltár"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Hrhov",
+          "NATIONALSI": "SKCHVU027",
+          "SITETITLE_": "Slovenský kras"
+        }
+      ],
+      "UNESCO": [
+        {
+          "parcel_label": "Hrhov",
+          "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
+          "Kod_chrane": "UN01"
+        }
+      ]
+    }
   }
 }

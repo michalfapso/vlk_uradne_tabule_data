@@ -50,20 +50,22 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub 5 ks drevín na parcele registra C č. 7022/1 v k. ú. Moravský Svätý Ján. Dôvodom výrubu v extraviláne obce je zlý zdravotný stav drevín.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "7022/1",
-        "NATIONALSI": "SKUEV0125",
-        "SITETITLE_": "Gajarské alúvium Moravy"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "7022/1",
-        "NATIONALSI": "SKCHVU016",
-        "SITETITLE_": "Záhorské Pomoravie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "7022/1",
+          "NATIONALSI": "SKUEV0125",
+          "SITETITLE_": "Gajarské alúvium Moravy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "7022/1",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        }
+      ]
+    }
   }
 }

@@ -72,21 +72,23 @@
     }
   ],
   "zhrnutie": "Dokument je oznámením o začatí správneho konania k žiadosti JUDr. Jozefa Kánoša o udelenie súhlasu na umiestnenie informačnej konštrukcie za hranicami zastavaného územia obce Pohorelá na uvedených parcelách. Lehota na potvrdenie záujmu byť zúčastnenou osobou je do 5 pracovných dní od zverejnenia.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "2476/1",
-        "registry_n": "348",
-        "site_name": "Mašianske skalky",
-        "category_i": 2.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "2476/1",
-        "NATIONALSI": "SKUEV0303",
-        "SITETITLE_": "Alúvium Hrona"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "2476/1",
+          "registry_n": "348",
+          "site_name": "Mašianske skalky",
+          "category_i": 2
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "2476/1",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        }
+      ]
+    }
   }
 }

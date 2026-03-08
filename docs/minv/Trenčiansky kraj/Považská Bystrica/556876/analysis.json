@@ -50,40 +50,42 @@
     }
   ],
   "zhrnutie": "Oznámenie o nevyhnutnom výrube a okliesňovaní náletových drevín v ochrannom pásme elektrického vedenia 22 kV č. VN V_195_k10 TR: PB_pri moste - Udiča_Podvažie, ktoré prechádza katastrálnymi územiami Považská Bystrica, Orlové a Udiča. Činnosť je plánovaná od decembra 2025 do marca 2026.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "Udiča",
-        "registry_n": "SKUEV0581",
-        "site_name": "Klapy",
-        "category_i": 21.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Považská Bystrica",
-        "NATIONALSI": "SKUEV0256",
-        "SITETITLE_": "Strážovské vrchy"
-      },
-      {
-        "parcel_label": "Udiča",
-        "NATIONALSI": "SKUEV0581",
-        "SITETITLE_": "Klapy"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Udiča",
-        "NATIONALSI": "833",
-        "SITETITLE_": "PR Klapy"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Považská Bystrica",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "Udiča",
+          "registry_n": "SKUEV0581",
+          "site_name": "Klapy",
+          "category_i": 21
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Považská Bystrica",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Udiča",
+          "NATIONALSI": "SKUEV0581",
+          "SITETITLE_": "Klapy"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Udiča",
+          "NATIONALSI": "833",
+          "SITETITLE_": "PR Klapy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Považská Bystrica",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    }
   }
 }

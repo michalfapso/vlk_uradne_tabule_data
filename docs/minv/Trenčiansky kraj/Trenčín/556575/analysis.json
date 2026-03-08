@@ -59,44 +59,46 @@
     }
   ],
   "zhrnutie": "Okresný úrad Trenčín oznamuje začatie správneho konania k žiadosti Obce Krivoklát o výnimku zo zákazu pohybu mimo vyznačených turistických a náučných chodníkov v Prírodnej rezervácii Drieňová. Žiadosť sa týka jednorazového Silvestrovského výstupu skupiny občanov na vrch Drieňová, ktorá je v území s piatym stupňom ochrany prírody a v jej ochrannom pásme s tretím stupňom ochrany.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "536/502",
-        "registry_n": "SKUEV0373",
-        "site_name": "Krivoklátske bradlá",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "396/1",
-        "registry_n": "SKUEV0373",
-        "site_name": "Krivoklátske bradlá",
-        "category_i": 21.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "536/502",
-        "NATIONALSI": "SKUEV0373",
-        "SITETITLE_": "Krivoklátske bradlá"
-      },
-      {
-        "parcel_label": "396/1",
-        "NATIONALSI": "SKUEV0373",
-        "SITETITLE_": "Krivoklátske bradlá"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "536/502",
-        "NATIONALSI": "1033",
-        "SITETITLE_": "PR Drieňová"
-      },
-      {
-        "parcel_label": "396/1",
-        "NATIONALSI": "1033",
-        "SITETITLE_": "PR Drieňová"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "536/502",
+          "registry_n": "SKUEV0373",
+          "site_name": "Krivoklátske bradlá",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "396/1",
+          "registry_n": "SKUEV0373",
+          "site_name": "Krivoklátske bradlá",
+          "category_i": 21
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "536/502",
+          "NATIONALSI": "SKUEV0373",
+          "SITETITLE_": "Krivoklátske bradlá"
+        },
+        {
+          "parcel_label": "396/1",
+          "NATIONALSI": "SKUEV0373",
+          "SITETITLE_": "Krivoklátske bradlá"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "536/502",
+          "NATIONALSI": "1033",
+          "SITETITLE_": "PR Drieňová"
+        },
+        {
+          "parcel_label": "396/1",
+          "NATIONALSI": "1033",
+          "SITETITLE_": "PR Drieňová"
+        }
+      ]
+    }
   }
 }

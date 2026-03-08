@@ -49,23 +49,25 @@
     }
   ],
   "zhrnutie": "Oznámenie o výrube porastov v ochrannom pásme 22 kV vedenia na VN linke č. 1339 v katastrálnych územiach Zemianske Kostoľany, Vieska a Chalmová v Trenčianskom kraji, okres Prievidza.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Zemianske Kostoľany",
-        "NATIONALSI": "SKUEV0883",
-        "SITETITLE_": "Nitrické vrchy"
-      },
-      {
-        "parcel_label": "Vieska",
-        "NATIONALSI": "SKUEV0883",
-        "SITETITLE_": "Nitrické vrchy"
-      },
-      {
-        "parcel_label": "Chalmová",
-        "NATIONALSI": "SKUEV0883",
-        "SITETITLE_": "Nitrické vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Zemianske Kostoľany",
+          "NATIONALSI": "SKUEV0883",
+          "SITETITLE_": "Nitrické vrchy"
+        },
+        {
+          "parcel_label": "Vieska",
+          "NATIONALSI": "SKUEV0883",
+          "SITETITLE_": "Nitrické vrchy"
+        },
+        {
+          "parcel_label": "Chalmová",
+          "NATIONALSI": "SKUEV0883",
+          "SITETITLE_": "Nitrické vrchy"
+        }
+      ]
+    }
   }
 }

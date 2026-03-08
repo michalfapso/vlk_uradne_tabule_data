@@ -56,20 +56,22 @@
     }
   ],
   "zhrnutie": "Okresný úrad Dolný Kubín oznamuje začatie konania o vydanie súhlasu na výrub 2 ks smrekov a 1 ks borovice na parcele E-KN č. 11618/3 v katastrálnom území Zázrivá, mimo lesa za hranicami zastavaného územia obce. Dôvodom výrubu je ohrozenie rodinného domu, elektrického vedenia a áut pádom drevín. Verejnosť a združenia môžu prejaviť záujem o účasť v konaní písomne do 5 pracovných dní od zverejnenia informácie.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "11618/3",
-        "NATIONALSI": "SKUEV0251",
-        "SITETITLE_": "Zázrivské lazy"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "11618/3",
-        "NATIONALSI": "SKCHVU013",
-        "SITETITLE_": "Malá Fatra"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "11618/3",
+          "NATIONALSI": "SKUEV0251",
+          "SITETITLE_": "Zázrivské lazy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "11618/3",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    }
   }
 }

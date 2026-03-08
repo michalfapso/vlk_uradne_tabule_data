@@ -39,27 +39,29 @@
     }
   ],
   "zhrnutie": "Okresný úrad Nové Zámky vydal rozhodnutie o starom vozidle RENAULT LAGUNA na ulici Jánošíkova v Nových Zámkoch. Rozhodnutie určuje, že vlastníctvo vozidla nenadobúda štát a vozidlo sa stáva starým vozidlom (odpadom), pričom prevádzkovateľ určeného parkoviska preberá zodpovednosť za nakladanie s ním v zmysle zákona o odpadoch. Dokument sa primárne týka administratívneho riešenia nakladania s odpadom a nemá priamy dopad na záujmy LZ VLK.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "SKUEV0084",
-        "SITETITLE_": "Zátoň"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "137",
-        "SITETITLE_": "PP Potok Chrenovka"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Nové Zámky",
-        "NATIONALSI": "SKCHVU005",
-        "SITETITLE_": "Dolné Považie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKUEV0084",
+          "SITETITLE_": "Zátoň"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "137",
+          "SITETITLE_": "PP Potok Chrenovka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKCHVU005",
+          "SITETITLE_": "Dolné Považie"
+        }
+      ]
+    }
   }
 }

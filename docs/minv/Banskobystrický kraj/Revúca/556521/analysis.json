@@ -44,20 +44,22 @@
     }
   ],
   "zhrnutie": "Dokument informuje o začatí správneho konania pre vydanie súhlasu na umiestnenie prenosného prístrešku na parcele KNE č. 1052/5 v katastrálnom území Muráň, Okres Revúca, Banskobystrický kraj. Konanie sa týka územia, na ktorom platí tretí stupeň ochrany podľa zákona o ochrane prírody a krajiny.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "1052/5",
-        "NATIONALSI": "SKUEV0225",
-        "SITETITLE_": "Muránska planina"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "1052/5",
-        "NATIONALSI": "SKCHVU017",
-        "SITETITLE_": "Muránska planina - Stolica"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "1052/5",
+          "NATIONALSI": "SKUEV0225",
+          "SITETITLE_": "Muránska planina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "1052/5",
+          "NATIONALSI": "SKCHVU017",
+          "SITETITLE_": "Muránska planina - Stolica"
+        }
+      ]
+    }
   }
 }

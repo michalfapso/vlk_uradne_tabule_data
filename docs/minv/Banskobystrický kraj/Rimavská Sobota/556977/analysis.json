@@ -45,72 +45,74 @@
     }
   ],
   "zhrnutie": "Dokument informuje o začatí správneho konania na vydanie súhlasu na výrub 135 drevín v katastrálnom území Tisovec, okres Rimavská Sobota. Žiadateľ, Lesné združenie Poľana s.r.o., žiada o súhlas za účelom spracovania kalamity. Verejnosť má 5 pracovných dní od zverejnenia na potvrdenie záujmu byť účastníkom konania.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "6514",
-        "NATIONALSI": "SKUEV0225",
-        "SITETITLE_": "Muránska planina"
-      },
-      {
-        "parcel_label": "6515",
-        "NATIONALSI": "SKUEV0225",
-        "SITETITLE_": "Muránska planina"
-      },
-      {
-        "parcel_label": "6516",
-        "NATIONALSI": "SKUEV0225",
-        "SITETITLE_": "Muránska planina"
-      },
-      {
-        "parcel_label": "6517",
-        "NATIONALSI": "SKUEV0225",
-        "SITETITLE_": "Muránska planina"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "6514",
-        "NATIONALSI": "1374",
-        "SITETITLE_": "CHA Pramenná oblasť Rimavy"
-      },
-      {
-        "parcel_label": "6515",
-        "NATIONALSI": "1374",
-        "SITETITLE_": "CHA Pramenná oblasť Rimavy"
-      },
-      {
-        "parcel_label": "6516",
-        "NATIONALSI": "1374",
-        "SITETITLE_": "CHA Pramenná oblasť Rimavy"
-      },
-      {
-        "parcel_label": "6517",
-        "NATIONALSI": "1374",
-        "SITETITLE_": "CHA Pramenná oblasť Rimavy"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "6514",
-        "NATIONALSI": "SKCHVU017",
-        "SITETITLE_": "Muránska planina - Stolica"
-      },
-      {
-        "parcel_label": "6515",
-        "NATIONALSI": "SKCHVU017",
-        "SITETITLE_": "Muránska planina - Stolica"
-      },
-      {
-        "parcel_label": "6516",
-        "NATIONALSI": "SKCHVU017",
-        "SITETITLE_": "Muránska planina - Stolica"
-      },
-      {
-        "parcel_label": "6517",
-        "NATIONALSI": "SKCHVU017",
-        "SITETITLE_": "Muránska planina - Stolica"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "6514",
+          "NATIONALSI": "SKUEV0225",
+          "SITETITLE_": "Muránska planina"
+        },
+        {
+          "parcel_label": "6515",
+          "NATIONALSI": "SKUEV0225",
+          "SITETITLE_": "Muránska planina"
+        },
+        {
+          "parcel_label": "6516",
+          "NATIONALSI": "SKUEV0225",
+          "SITETITLE_": "Muránska planina"
+        },
+        {
+          "parcel_label": "6517",
+          "NATIONALSI": "SKUEV0225",
+          "SITETITLE_": "Muránska planina"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "6514",
+          "NATIONALSI": "1374",
+          "SITETITLE_": "CHA Pramenná oblasť Rimavy"
+        },
+        {
+          "parcel_label": "6515",
+          "NATIONALSI": "1374",
+          "SITETITLE_": "CHA Pramenná oblasť Rimavy"
+        },
+        {
+          "parcel_label": "6516",
+          "NATIONALSI": "1374",
+          "SITETITLE_": "CHA Pramenná oblasť Rimavy"
+        },
+        {
+          "parcel_label": "6517",
+          "NATIONALSI": "1374",
+          "SITETITLE_": "CHA Pramenná oblasť Rimavy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "6514",
+          "NATIONALSI": "SKCHVU017",
+          "SITETITLE_": "Muránska planina - Stolica"
+        },
+        {
+          "parcel_label": "6515",
+          "NATIONALSI": "SKCHVU017",
+          "SITETITLE_": "Muránska planina - Stolica"
+        },
+        {
+          "parcel_label": "6516",
+          "NATIONALSI": "SKCHVU017",
+          "SITETITLE_": "Muránska planina - Stolica"
+        },
+        {
+          "parcel_label": "6517",
+          "NATIONALSI": "SKCHVU017",
+          "SITETITLE_": "Muránska planina - Stolica"
+        }
+      ]
+    }
   }
 }

@@ -140,35 +140,37 @@
     }
   ],
   "zhrnutie": "Dokument je Informáciou pre verejnosť o začatí zisťovacieho konania pre zámer „Sihly – Obytný súbor s občianskou vybavenosťou“ navrhovaný spoločnosťou COOP Jednota Čadca. Cieľom je rozšírenie bývania a občianskej vybavenosti v okrese Čadca, konkrétne v katastrálnom území Čadca. V dokumente nie sú špecifikované dotknuté chránené územia ani živočíchy a rastliny.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Čadca",
-        "NATIONALSI": "SKUEV0838",
-        "SITETITLE_": "Rakovsko- milošovské rašeliniská"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Čadca",
-        "NATIONALSI": "477",
-        "SITETITLE_": "PP Vojtovský prameň"
-      },
-      {
-        "parcel_label": "Čadca",
-        "NATIONALSI": "477",
-        "SITETITLE_": "OP PP Vojtovský prameň"
-      },
-      {
-        "parcel_label": "Čadca",
-        "NATIONALSI": "231",
-        "SITETITLE_": "PP Bukovský prameň"
-      },
-      {
-        "parcel_label": "Čadca",
-        "NATIONALSI": "1127",
-        "SITETITLE_": "PP Megonky"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Čadca",
+          "NATIONALSI": "SKUEV0838",
+          "SITETITLE_": "Rakovsko- milošovské rašeliniská"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Čadca",
+          "NATIONALSI": "477",
+          "SITETITLE_": "PP Vojtovský prameň"
+        },
+        {
+          "parcel_label": "Čadca",
+          "NATIONALSI": "477",
+          "SITETITLE_": "OP PP Vojtovský prameň"
+        },
+        {
+          "parcel_label": "Čadca",
+          "NATIONALSI": "231",
+          "SITETITLE_": "PP Bukovský prameň"
+        },
+        {
+          "parcel_label": "Čadca",
+          "NATIONALSI": "1127",
+          "SITETITLE_": "PP Megonky"
+        }
+      ]
+    }
   }
 }

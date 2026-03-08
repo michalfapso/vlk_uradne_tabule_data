@@ -135,35 +135,37 @@
     }
   ],
   "zhrnutie": "Okresný úrad Nové Mesto nad Váhom rozhodol, že štát nenadobúda vlastníctvo k starému vozidlu ŠKODA FAVORIT (EČV: MY460AB), ktoré bolo odstránené z ulice Štefánikovej v Starej Turej. Vozidlo bolo klasifikované ako staré vozidlo a držiteľom sa stáva prevádzkovateľ určeného parkoviska. Proti rozhodnutiu je možné podať odvolanie do 15 dní.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Stará Turá",
-        "NATIONALSI": "SKUEV0369",
-        "SITETITLE_": "Pavúkov jarok"
-      },
-      {
-        "parcel_label": "Stará Turá",
-        "NATIONALSI": "SKUEV0568",
-        "SITETITLE_": "Borotová"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Stará Turá",
-        "NATIONALSI": "164",
-        "SITETITLE_": "PP Šašnatá"
-      },
-      {
-        "parcel_label": "Stará Turá",
-        "NATIONALSI": "128",
-        "SITETITLE_": "CHA Pavúkov jarok"
-      },
-      {
-        "parcel_label": "Stará Turá",
-        "NATIONALSI": "14",
-        "SITETITLE_": "PP Borotová"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Stará Turá",
+          "NATIONALSI": "SKUEV0369",
+          "SITETITLE_": "Pavúkov jarok"
+        },
+        {
+          "parcel_label": "Stará Turá",
+          "NATIONALSI": "SKUEV0568",
+          "SITETITLE_": "Borotová"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Stará Turá",
+          "NATIONALSI": "164",
+          "SITETITLE_": "PP Šašnatá"
+        },
+        {
+          "parcel_label": "Stará Turá",
+          "NATIONALSI": "128",
+          "SITETITLE_": "CHA Pavúkov jarok"
+        },
+        {
+          "parcel_label": "Stará Turá",
+          "NATIONALSI": "14",
+          "SITETITLE_": "PP Borotová"
+        }
+      ]
+    }
   }
 }

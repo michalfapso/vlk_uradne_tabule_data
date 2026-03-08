@@ -41,42 +41,44 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí správneho konania vo veci vydania súhlasu na pasenie, napájanie a ustajnenie hospodárskych zvierat pre PD - Habura, a.s. v obci Habura. Činnosť má prebiehať na území CHKO Východné Karpaty v 2. stupni ochrany.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Habura",
-        "NATIONALSI": "SKUEV0043",
-        "SITETITLE_": "Kamenná"
-      },
-      {
-        "parcel_label": "Habura",
-        "NATIONALSI": "SKUEV0232",
-        "SITETITLE_": "Laborec"
-      },
-      {
-        "parcel_label": "Habura",
-        "NATIONALSI": "SKUEV0048",
-        "SITETITLE_": "Dukla"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Habura",
-        "NATIONALSI": "1274",
-        "SITETITLE_": "Laborec"
-      },
-      {
-        "parcel_label": "Habura",
-        "NATIONALSI": "537",
-        "SITETITLE_": "PR Haburské rašelinisko"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Habura",
-        "NATIONALSI": "SKCHVU011",
-        "SITETITLE_": "Laborecká vrchovina"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Habura",
+          "NATIONALSI": "SKUEV0043",
+          "SITETITLE_": "Kamenná"
+        },
+        {
+          "parcel_label": "Habura",
+          "NATIONALSI": "SKUEV0232",
+          "SITETITLE_": "Laborec"
+        },
+        {
+          "parcel_label": "Habura",
+          "NATIONALSI": "SKUEV0048",
+          "SITETITLE_": "Dukla"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Habura",
+          "NATIONALSI": "1274",
+          "SITETITLE_": "Laborec"
+        },
+        {
+          "parcel_label": "Habura",
+          "NATIONALSI": "537",
+          "SITETITLE_": "PR Haburské rašelinisko"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Habura",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        }
+      ]
+    }
   }
 }

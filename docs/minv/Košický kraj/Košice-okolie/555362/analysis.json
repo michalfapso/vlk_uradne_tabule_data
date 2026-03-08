@@ -375,28 +375,30 @@
     }
   ],
   "zhrnutie": "Dokument predstavuje oznámenie Železníc Slovenskej republiky o plánovanom výrube stromov a krovitých porastov v rôznych traťových úsekoch v okrese Košice-okolie, vrátane KÚ Nižná Myšľa, Vyšná Myšľa, Slanec, Haniska a mnoho ďalších. Výrub je odôvodnený zaistením bezpečnosti a plynulosti železničnej dopravy, ako aj zlým zdravotným stavom drevín. Oznámenie je podané podľa § 47 ods. 7 zákona č. 543/2002 Z. z. o ochrane prírody a krajiny.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "3538",
-        "NATIONALSI": "SKCHVU009",
-        "SITETITLE_": "Košická kotlina"
-      },
-      {
-        "parcel_label": "253/3",
-        "NATIONALSI": "SKCHVU009",
-        "SITETITLE_": "Košická kotlina"
-      },
-      {
-        "parcel_label": "253/1",
-        "NATIONALSI": "SKCHVU009",
-        "SITETITLE_": "Košická kotlina"
-      },
-      {
-        "parcel_label": "613/5",
-        "NATIONALSI": "SKCHVU009",
-        "SITETITLE_": "Košická kotlina"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "3538",
+          "NATIONALSI": "SKCHVU009",
+          "SITETITLE_": "Košická kotlina"
+        },
+        {
+          "parcel_label": "253/3",
+          "NATIONALSI": "SKCHVU009",
+          "SITETITLE_": "Košická kotlina"
+        },
+        {
+          "parcel_label": "253/1",
+          "NATIONALSI": "SKCHVU009",
+          "SITETITLE_": "Košická kotlina"
+        },
+        {
+          "parcel_label": "613/5",
+          "NATIONALSI": "SKCHVU009",
+          "SITETITLE_": "Košická kotlina"
+        }
+      ]
+    }
   }
 }

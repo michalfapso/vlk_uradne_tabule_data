@@ -86,57 +86,59 @@
     }
   ],
   "zhrnutie": "Dokument je informáciou pre verejnosť o začatí zisťovacieho konania k zámeru výstavby 110 kV vedení pre rozšírenie distribučnej sústavy a pripojenie Nového jadrového zdroja v lokalite Jaslovské Bohunice. Navrhovateľom je Jadrová energetická spoločnosť Slovenska, a. s. Činnosť zasahuje katastrálne územia viacerých obcí v Trnavskom kraji.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Madunice",
-        "NATIONALSI": "SKUEV0852",
-        "SITETITLE_": "Váh pri Hlohovci"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Trnava",
-        "NATIONALSI": "175",
-        "SITETITLE_": "CHA Trnavské rybníky"
-      },
-      {
-        "parcel_label": "Trnava",
-        "NATIONALSI": "175",
-        "SITETITLE_": "OP CHA Trnavské rybníky"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Veľké Kostoľany",
-        "NATIONALSI": "SKCHVU054",
-        "SITETITLE_": "Špačinsko-nižnianske polia"
-      },
-      {
-        "parcel_label": "Radošovce",
-        "NATIONALSI": "SKCHVU054",
-        "SITETITLE_": "Špačinsko-nižnianske polia"
-      },
-      {
-        "parcel_label": "Jaslovce",
-        "NATIONALSI": "SKCHVU054",
-        "SITETITLE_": "Špačinsko-nižnianske polia"
-      },
-      {
-        "parcel_label": "Bohunice",
-        "NATIONALSI": "SKCHVU054",
-        "SITETITLE_": "Špačinsko-nižnianske polia"
-      },
-      {
-        "parcel_label": "Trnava",
-        "NATIONALSI": "SKCHVU023",
-        "SITETITLE_": "Úľanská mokraď"
-      },
-      {
-        "parcel_label": "Trnava",
-        "NATIONALSI": "SKCHVU054",
-        "SITETITLE_": "Špačinsko-nižnianske polia"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Madunice",
+          "NATIONALSI": "SKUEV0852",
+          "SITETITLE_": "Váh pri Hlohovci"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "175",
+          "SITETITLE_": "CHA Trnavské rybníky"
+        },
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "175",
+          "SITETITLE_": "OP CHA Trnavské rybníky"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Veľké Kostoľany",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        },
+        {
+          "parcel_label": "Radošovce",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        },
+        {
+          "parcel_label": "Jaslovce",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        },
+        {
+          "parcel_label": "Bohunice",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        },
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        }
+      ]
+    }
   }
 }

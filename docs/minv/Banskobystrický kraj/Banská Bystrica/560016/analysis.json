@@ -41,50 +41,52 @@
     }
   ],
   "zhrnutie": "Oznámenie o plánovanom výrube drevín v ochrannom pásme elektrického vedenia v k. ú. Horná Mičiná a Dolná Mičiná, ktoré podala spoločnosť JMM s. r. o. Na tento typ výrubu sa nevzťahujú všeobecné predpisy o správnom konaní a účasť verejnosti nie je možná.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Dolná Mičiná",
-        "NATIONALSI": "SKUEV0857",
-        "SITETITLE_": "Mičinské travertíny"
-      },
-      {
-        "parcel_label": "Horná Mičiná",
-        "NATIONALSI": "SKUEV0860",
-        "SITETITLE_": "Iliašská dolina"
-      },
-      {
-        "parcel_label": "Dolná Mičiná",
-        "NATIONALSI": "SKUEV0857",
-        "SITETITLE_": "Mičinské travertíny"
-      },
-      {
-        "parcel_label": "Horná Mičiná",
-        "NATIONALSI": "SKUEV0860",
-        "SITETITLE_": "Iliašská dolina"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Dolná Mičiná",
-        "NATIONALSI": "355",
-        "SITETITLE_": "NPP Mičinské travertíny"
-      },
-      {
-        "parcel_label": "Horná Mičiná",
-        "NATIONALSI": "319",
-        "SITETITLE_": "PR Kozlinec"
-      },
-      {
-        "parcel_label": "Dolná Mičiná",
-        "NATIONALSI": "355",
-        "SITETITLE_": "NPP Mičinské travertíny"
-      },
-      {
-        "parcel_label": "Horná Mičiná",
-        "NATIONALSI": "319",
-        "SITETITLE_": "PR Kozlinec"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Dolná Mičiná",
+          "NATIONALSI": "SKUEV0857",
+          "SITETITLE_": "Mičinské travertíny"
+        },
+        {
+          "parcel_label": "Horná Mičiná",
+          "NATIONALSI": "SKUEV0860",
+          "SITETITLE_": "Iliašská dolina"
+        },
+        {
+          "parcel_label": "Dolná Mičiná",
+          "NATIONALSI": "SKUEV0857",
+          "SITETITLE_": "Mičinské travertíny"
+        },
+        {
+          "parcel_label": "Horná Mičiná",
+          "NATIONALSI": "SKUEV0860",
+          "SITETITLE_": "Iliašská dolina"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Dolná Mičiná",
+          "NATIONALSI": "355",
+          "SITETITLE_": "NPP Mičinské travertíny"
+        },
+        {
+          "parcel_label": "Horná Mičiná",
+          "NATIONALSI": "319",
+          "SITETITLE_": "PR Kozlinec"
+        },
+        {
+          "parcel_label": "Dolná Mičiná",
+          "NATIONALSI": "355",
+          "SITETITLE_": "NPP Mičinské travertíny"
+        },
+        {
+          "parcel_label": "Horná Mičiná",
+          "NATIONALSI": "319",
+          "SITETITLE_": "PR Kozlinec"
+        }
+      ]
+    }
   }
 }

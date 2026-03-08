@@ -171,35 +171,37 @@
     }
   ],
   "zhrnutie": "Dokument je kolaudačné rozhodnutie Okresného úradu Dolný Kubín pre vodnú stavbu „Rozšírenie infraštruktúry pre prestavbu a dostavbu polyfunkčného objektu, MTS – Krivá“ v obci Krivá. Povolenie sa týka rozšírenia splaškovej kanalizácie a vodovodu, vrátane križovania vodného toku Orava. Úrad konštatuje, že stavba je spôsobilá na užívanie a neohrozuje životné prostredie.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "5560",
-        "NATIONALSI": "SKUEV0243",
-        "SITETITLE_": "Orava"
-      },
-      {
-        "parcel_label": "5324",
-        "NATIONALSI": "SKUEV0243",
-        "SITETITLE_": "Orava"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "5560",
-        "NATIONALSI": "1034",
-        "SITETITLE_": "CHA Rieka Orava"
-      },
-      {
-        "parcel_label": "3646",
-        "NATIONALSI": "1034",
-        "SITETITLE_": "CHA Rieka Orava"
-      },
-      {
-        "parcel_label": "5294",
-        "NATIONALSI": "1034",
-        "SITETITLE_": "CHA Rieka Orava"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "5560",
+          "NATIONALSI": "SKUEV0243",
+          "SITETITLE_": "Orava"
+        },
+        {
+          "parcel_label": "5324",
+          "NATIONALSI": "SKUEV0243",
+          "SITETITLE_": "Orava"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "5560",
+          "NATIONALSI": "1034",
+          "SITETITLE_": "CHA Rieka Orava"
+        },
+        {
+          "parcel_label": "3646",
+          "NATIONALSI": "1034",
+          "SITETITLE_": "CHA Rieka Orava"
+        },
+        {
+          "parcel_label": "5294",
+          "NATIONALSI": "1034",
+          "SITETITLE_": "CHA Rieka Orava"
+        }
+      ]
+    }
   }
 }

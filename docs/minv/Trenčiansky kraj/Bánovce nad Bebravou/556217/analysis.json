@@ -107,43 +107,45 @@
     }
   ],
   "zhrnutie": "Záverečné stanovisko Okresného úradu Bánovce nad Bebravou schvaľuje realizáciu projektu LESY SR, š.p., na zlepšenie vodného hospodárstva v lesoch Lesnej správy Duchonka v obci Zlatníky výstavbou Hornej vodnej nádrže (Variant 2). Činnosť sa dotýka územia európskeho významu Kulháň (SKUEV0134) a viacerých chránených druhov živočíchov (napr. pásikavec veľký, fuzáč alpský) a biotopov, s podmienkami na minimalizáciu vplyvov a monitoring biodiverzity.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "4089",
-        "NATIONALSI": "SKUEV0134",
-        "SITETITLE_": "Kulháň"
-      },
-      {
-        "parcel_label": "4088",
-        "NATIONALSI": "SKUEV0134",
-        "SITETITLE_": "Kulháň"
-      },
-      {
-        "parcel_label": "4106/4",
-        "NATIONALSI": "SKUEV0134",
-        "SITETITLE_": "Kulháň"
-      },
-      {
-        "parcel_label": "4106/3",
-        "NATIONALSI": "SKUEV0134",
-        "SITETITLE_": "Kulháň"
-      },
-      {
-        "parcel_label": "4106/5",
-        "NATIONALSI": "SKUEV0134",
-        "SITETITLE_": "Kulháň"
-      },
-      {
-        "parcel_label": "4090/5",
-        "NATIONALSI": "SKUEV0134",
-        "SITETITLE_": "Kulháň"
-      },
-      {
-        "parcel_label": "4087/2",
-        "NATIONALSI": "SKUEV0134",
-        "SITETITLE_": "Kulháň"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "4089",
+          "NATIONALSI": "SKUEV0134",
+          "SITETITLE_": "Kulháň"
+        },
+        {
+          "parcel_label": "4088",
+          "NATIONALSI": "SKUEV0134",
+          "SITETITLE_": "Kulháň"
+        },
+        {
+          "parcel_label": "4106/4",
+          "NATIONALSI": "SKUEV0134",
+          "SITETITLE_": "Kulháň"
+        },
+        {
+          "parcel_label": "4106/3",
+          "NATIONALSI": "SKUEV0134",
+          "SITETITLE_": "Kulháň"
+        },
+        {
+          "parcel_label": "4106/5",
+          "NATIONALSI": "SKUEV0134",
+          "SITETITLE_": "Kulháň"
+        },
+        {
+          "parcel_label": "4090/5",
+          "NATIONALSI": "SKUEV0134",
+          "SITETITLE_": "Kulháň"
+        },
+        {
+          "parcel_label": "4087/2",
+          "NATIONALSI": "SKUEV0134",
+          "SITETITLE_": "Kulháň"
+        }
+      ]
+    }
   }
 }

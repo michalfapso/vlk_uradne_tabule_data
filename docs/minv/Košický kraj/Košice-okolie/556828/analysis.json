@@ -74,28 +74,30 @@
     }
   ],
   "zhrnutie": "Okresný úrad Košice-okolie oznamuje začatie vodoprávneho konania na žiadosť Východoslovenskej vodárenskej spoločnosti, a.s., pre rekonštrukciu verejného vodovodu a výstavbu vodovodných prípojok v obci Vyšný Klátov, Košický kraj. Navrhovaná činnosť spočíva v obnove rozvodných potrubí a bude prebiehať na parcelách v k. ú. Vyšný Klátov. Ústne pojednávanie je stanovené na 14. 01. 2026.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "216",
-        "NATIONALSI": "SKCHVU036",
-        "SITETITLE_": "Volovské vrchy"
-      },
-      {
-        "parcel_label": "365/1",
-        "NATIONALSI": "SKCHVU036",
-        "SITETITLE_": "Volovské vrchy"
-      },
-      {
-        "parcel_label": "364",
-        "NATIONALSI": "SKCHVU036",
-        "SITETITLE_": "Volovské vrchy"
-      },
-      {
-        "parcel_label": "362",
-        "NATIONALSI": "SKCHVU036",
-        "SITETITLE_": "Volovské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "216",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "365/1",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "364",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "362",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        }
+      ]
+    }
   }
 }

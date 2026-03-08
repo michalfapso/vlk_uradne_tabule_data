@@ -52,28 +52,30 @@
     }
   ],
   "zhrnutie": "Tento dokument je verejná vyhláška a oznámenie o začatí konania o predĺženie platnosti stavebného povolenia pre stavbu „Rekonštrukcia prehrádzky Novosady“ v katastrálnom území Dubová. Stavebníkom je Obec Dubová. Účastníci konania a dotknuté orgány môžu svoje námietky a pripomienky uplatniť do 8 dní odo dňa doručenia oznámenia.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "1469/45",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      },
-      {
-        "parcel_label": "1506/1",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      },
-      {
-        "parcel_label": "1363",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      },
-      {
-        "parcel_label": "1506/2",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "1469/45",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "1506/1",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "1363",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "1506/2",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    }
   }
 }

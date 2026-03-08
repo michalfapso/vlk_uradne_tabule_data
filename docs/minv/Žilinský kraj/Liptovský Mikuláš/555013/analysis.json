@@ -45,52 +45,54 @@
     }
   ],
   "zhrnutie": "Tento dokument je informáciou o oznámení strategického dokumentu Územný plán obce Lazisko - Zmeny a doplnky č. 2 v okrese Liptovský Mikuláš. Návrh zahŕňa rozšírenie obytných a rekreačných území, ako aj zmeny zmiešaných území pre šport, rekreáciu a občiansku vybavenosť. Verejnosť má 15 dní na podanie písomných stanovísk, pričom v dokumente nie sú spomenuté žiadne chránené územia ani špecifické druhy.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "Lazisko",
-        "registry_n": "SKUEV0302",
-        "site_name": "Ďumbierske Tatry",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Lazisko",
-        "registry_n": "SKUEV0302",
-        "site_name": "Ďumbierske Tatry",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Lazisko",
-        "registry_n": "SKUEV0302",
-        "site_name": "Ďumbierske Tatry",
-        "category_i": 21.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Lazisko",
-        "NATIONALSI": "SKUEV0302",
-        "SITETITLE_": "Ďumbierske Tatry"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Lazisko",
-        "NATIONALSI": "1024",
-        "SITETITLE_": "NPR Skalka"
-      },
-      {
-        "parcel_label": "Lazisko",
-        "NATIONALSI": "239",
-        "SITETITLE_": "NPR Demänovská dolina"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Lazisko",
-        "NATIONALSI": "SKCHVU018",
-        "SITETITLE_": "Nízke Tatry"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "Lazisko",
+          "registry_n": "SKUEV0302",
+          "site_name": "Ďumbierske Tatry",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Lazisko",
+          "registry_n": "SKUEV0302",
+          "site_name": "Ďumbierske Tatry",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Lazisko",
+          "registry_n": "SKUEV0302",
+          "site_name": "Ďumbierske Tatry",
+          "category_i": 21
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Lazisko",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Lazisko",
+          "NATIONALSI": "1024",
+          "SITETITLE_": "NPR Skalka"
+        },
+        {
+          "parcel_label": "Lazisko",
+          "NATIONALSI": "239",
+          "SITETITLE_": "NPR Demänovská dolina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Lazisko",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    }
   }
 }

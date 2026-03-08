@@ -28,25 +28,27 @@
   "odkaz_enviroportal": null,
   "zakony": [],
   "zhrnutie": "Oznámenie o začatí konania vo veci určenia podmienok na vykonávanie činností v lokalite LC Brusno, ktoré môžu byť v rozpore s podmienkami ochrany Národného parku Nízke Tatry v súvislosti s jeho novou zonáciou a programom starostlivosti.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Brusno, okres Banská Bystrica, Banskobystrický kraj, Stredné Slovensko, 976 62, Slovensko",
-        "NATIONALSI": "SKUEV0303",
-        "SITETITLE_": "Alúvium Hrona"
-      },
-      {
-        "parcel_label": "Brusno, okres Banská Bystrica, Banskobystrický kraj, Stredné Slovensko, 976 62, Slovensko",
-        "NATIONALSI": "SKUEV0302",
-        "SITETITLE_": "Ďumbierske Tatry"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Brusno, okres Banská Bystrica, Banskobystrický kraj, Stredné Slovensko, 976 62, Slovensko",
-        "NATIONALSI": "SKCHVU018",
-        "SITETITLE_": "Nízke Tatry"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Brusno, okres Banská Bystrica, Banskobystrický kraj, Stredné Slovensko, 976 62, Slovensko",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Brusno, okres Banská Bystrica, Banskobystrický kraj, Stredné Slovensko, 976 62, Slovensko",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Brusno, okres Banská Bystrica, Banskobystrický kraj, Stredné Slovensko, 976 62, Slovensko",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    }
   }
 }

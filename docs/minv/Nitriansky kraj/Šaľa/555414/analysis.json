@@ -23,18 +23,20 @@
   "odkaz_enviroportal": null,
   "paragrafy": [],
   "zhrnutie": "Dokument informuje o zámere výrubu a orezania 34 stromov v lokalite Cintorín Vlčany. Obsahuje zoznam stromov s číslami a pravdepodobnými rozmermi konárov.",
-  "zasiahnute_chranene_uzemia": {
-    "MCHU": [
-      {
-        "parcel_label": "Vlčany",
-        "NATIONALSI": "188",
-        "SITETITLE_": "PP Vlčianske mŕtve rameno"
-      },
-      {
-        "parcel_label": "Vlčany",
-        "NATIONALSI": "5",
-        "SITETITLE_": "PP Bábske jazierko"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Vlčany",
+          "NATIONALSI": "188",
+          "SITETITLE_": "PP Vlčianske mŕtve rameno"
+        },
+        {
+          "parcel_label": "Vlčany",
+          "NATIONALSI": "5",
+          "SITETITLE_": "PP Bábske jazierko"
+        }
+      ]
+    }
   }
 }

@@ -45,47 +45,49 @@
     }
   ],
   "zhrnutie": "Dokument oznamuje začatie konania vo veci žiadosti Poľovníckeho združenia Podhoran Podlužany – Timoradza o predĺženie platnosti výnimky zo zákazu chytať, usmrtiť alebo loviť živočíchy. Dôvodom je šírenie nákazy afrického moru ošípaných (AMO) a slintačky a krívačky (SLAK). Činnosť sa má realizovať v prírodnej rezervácii Ľútovský Drieňovec a Udrina, ktoré sú súčasťou územia európskeho významu SKUEV0275 Kňaží stôl a chráneného vtáčieho územia Strážovské vrchy, s platným piatym stupňom ochrany.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "Podlužany",
-        "registry_n": "812",
-        "site_name": "Ľutovský Drieňovec",
-        "category_i": 2.0
-      },
-      {
-        "parcel_label": "Podlužany",
-        "registry_n": "SKUEV0275",
-        "site_name": "Kňaží stôl",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Podlužany",
-        "registry_n": "SKUEV0275",
-        "site_name": "Kňaží stôl",
-        "category_i": 21.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Podlužany",
-        "NATIONALSI": "SKUEV0275",
-        "SITETITLE_": "Kňaží stôl"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Podlužany",
-        "NATIONALSI": "812",
-        "SITETITLE_": "PR Ľutovský Drieňovec"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Podlužany",
-        "NATIONALSI": "SKCHVU028",
-        "SITETITLE_": "Strážovské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "Podlužany",
+          "registry_n": "812",
+          "site_name": "Ľutovský Drieňovec",
+          "category_i": 2
+        },
+        {
+          "parcel_label": "Podlužany",
+          "registry_n": "SKUEV0275",
+          "site_name": "Kňaží stôl",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Podlužany",
+          "registry_n": "SKUEV0275",
+          "site_name": "Kňaží stôl",
+          "category_i": 21
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Podlužany",
+          "NATIONALSI": "SKUEV0275",
+          "SITETITLE_": "Kňaží stôl"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Podlužany",
+          "NATIONALSI": "812",
+          "SITETITLE_": "PR Ľutovský Drieňovec"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Podlužany",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    }
   }
 }

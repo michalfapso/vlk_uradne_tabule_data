@@ -42,30 +42,32 @@
     }
   ],
   "zhrnutie": "Dokument je oznámením o výrube a orezávaní drevín pre zabezpečenie bezpečnej prevádzky 4220kV vedenia V271 Považská Bystrica - Sučany v katastrálnom území Kaľamenová, okres Turčianske Teplice. Do konania sa nedá prihlásiť a nie sú spomenuté žiadne konkrétne chránené územia ani druhy.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Kaľamenová",
-        "NATIONALSI": "SKUEV0960",
-        "SITETITLE_": "Niva Turca"
-      },
-      {
-        "parcel_label": "Kaľamenová",
-        "NATIONALSI": "SKUEV0382",
-        "SITETITLE_": "Turiec a Blatnický potok"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Kaľamenová",
-        "NATIONALSI": "458",
-        "SITETITLE_": "OP NPR Turiec"
-      },
-      {
-        "parcel_label": "Kaľamenová",
-        "NATIONALSI": "458",
-        "SITETITLE_": "NPR Turiec"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Kaľamenová",
+          "NATIONALSI": "SKUEV0960",
+          "SITETITLE_": "Niva Turca"
+        },
+        {
+          "parcel_label": "Kaľamenová",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Kaľamenová",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Kaľamenová",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        }
+      ]
+    }
   }
 }

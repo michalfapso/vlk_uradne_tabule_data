@@ -57,18 +57,20 @@
     }
   ],
   "zhrnutie": "Dokument informuje o začatí správneho konania vo veci vydania súhlasu na výrub 9 kusov stromov na parcelách č. 3026/1 a 3026/13 v katastrálnom území Častá. Žiadateľom je Kancelária Národnej rady SR. Lehota na doručenie potvrdenia záujmu byť zúčastnenou osobou je 5 pracovných dní od zverejnenia oznamu.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "3026/1",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      },
-      {
-        "parcel_label": "3026/13",
-        "NATIONALSI": "SKCHVU014",
-        "SITETITLE_": "Malé Karpaty"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "3026/1",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "3026/13",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    }
   }
 }

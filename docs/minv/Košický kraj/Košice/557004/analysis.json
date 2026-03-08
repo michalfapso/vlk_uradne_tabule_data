@@ -39,62 +39,64 @@
     }
   ],
   "zhrnutie": "Okresný úrad Košice oznamuje začatie správneho konania vo veci žiadosti Mestských lesov Košice a.s. o vydanie súhlasu na prestavbu lesnej cesty Sopotnica v k. ú. Veľká Lodina. Činnosť sa týka územia UEV Stredné Pohornádie, ktoré spadá pod 2. stupeň ochrany. Verejnosť má lehotu 5 pracovných dní na potvrdenie záujmu byť zúčastnenou osobou.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "Veľká Lodina",
-        "registry_n": "SKUEV0328",
-        "site_name": "Stredné Pohornádie",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Veľká Lodina",
-        "registry_n": "SKUEV0328",
-        "site_name": "Stredné Pohornádie",
-        "category_i": 21.0
-      },
-      {
-        "parcel_label": "Veľká Lodina",
-        "registry_n": "SKUEV0328",
-        "site_name": "Stredné Pohornádie",
-        "category_i": 21.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Veľká Lodina",
-        "NATIONALSI": "SKUEV0328",
-        "SITETITLE_": "Stredné Pohornádie"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Veľká Lodina",
-        "NATIONALSI": "712",
-        "SITETITLE_": "NPR Vozárska"
-      },
-      {
-        "parcel_label": "Veľká Lodina",
-        "NATIONALSI": "712",
-        "SITETITLE_": "OP NPR Vozárska"
-      },
-      {
-        "parcel_label": "Veľká Lodina",
-        "NATIONALSI": "559",
-        "SITETITLE_": "NPR Humenec"
-      },
-      {
-        "parcel_label": "Veľká Lodina",
-        "NATIONALSI": "506",
-        "SITETITLE_": "NPR Bokšov"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Veľká Lodina",
-        "NATIONALSI": "SKCHVU036",
-        "SITETITLE_": "Volovské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "Veľká Lodina",
+          "registry_n": "SKUEV0328",
+          "site_name": "Stredné Pohornádie",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Veľká Lodina",
+          "registry_n": "SKUEV0328",
+          "site_name": "Stredné Pohornádie",
+          "category_i": 21
+        },
+        {
+          "parcel_label": "Veľká Lodina",
+          "registry_n": "SKUEV0328",
+          "site_name": "Stredné Pohornádie",
+          "category_i": 21
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Veľká Lodina",
+          "NATIONALSI": "SKUEV0328",
+          "SITETITLE_": "Stredné Pohornádie"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Veľká Lodina",
+          "NATIONALSI": "712",
+          "SITETITLE_": "NPR Vozárska"
+        },
+        {
+          "parcel_label": "Veľká Lodina",
+          "NATIONALSI": "712",
+          "SITETITLE_": "OP NPR Vozárska"
+        },
+        {
+          "parcel_label": "Veľká Lodina",
+          "NATIONALSI": "559",
+          "SITETITLE_": "NPR Humenec"
+        },
+        {
+          "parcel_label": "Veľká Lodina",
+          "NATIONALSI": "506",
+          "SITETITLE_": "NPR Bokšov"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Veľká Lodina",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        }
+      ]
+    }
   }
 }

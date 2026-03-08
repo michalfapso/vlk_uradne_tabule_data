@@ -179,85 +179,87 @@
     }
   ],
   "zhrnutie": "Okresný úrad Trebišov vydal Slovenskému vodohospodárskemu podniku stavebné povolenie na revitalizáciu mŕtvych ramien Tice v k.ú. Boľ, Košický kraj, vrátane výstavby potrubia a stavidiel, a povolenie na odber povrchovej vody z Latorice. Projekt zasahuje do Národnej prírodnej rezervácie Tice, Veľkoplošného chráneného územia Latorica a Chráneného vtáčieho územia Medzibodrožie, pričom lokalita je známa výskytom korytnačky močiarnej. Konanie zahŕňa aj nevyhnutný výrub drevín a je možné podať odvolanie do 15 dní.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "802/1",
-        "NATIONALSI": "SKUEV0006",
-        "SITETITLE_": "Latorica"
-      },
-      {
-        "parcel_label": "651/4",
-        "NATIONALSI": "SKUEV0006",
-        "SITETITLE_": "Latorica"
-      },
-      {
-        "parcel_label": "849",
-        "NATIONALSI": "SKUEV0006",
-        "SITETITLE_": "Latorica"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "802/1",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "651/4",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "1494",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "673",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "1494",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "849",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "1495/2",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "631",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "1631",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "632",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "629",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "1539",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "802/1",
+          "NATIONALSI": "SKUEV0006",
+          "SITETITLE_": "Latorica"
+        },
+        {
+          "parcel_label": "651/4",
+          "NATIONALSI": "SKUEV0006",
+          "SITETITLE_": "Latorica"
+        },
+        {
+          "parcel_label": "849",
+          "NATIONALSI": "SKUEV0006",
+          "SITETITLE_": "Latorica"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "802/1",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "651/4",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "1494",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "673",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "1494",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "849",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "1495/2",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "631",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "1631",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "632",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "629",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "1539",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        }
+      ]
+    }
   }
 }

@@ -86,23 +86,25 @@
     }
   ],
   "zhrnutie": "Dokument je rozhodnutím Okresného úradu Žilina o súhlase na výrub 3 drevín (2 smreky obyčajné, 1 borovica lesná) v katastrálnom území Fačkov, ktoré ohrozujú majetok. Nariadená je náhradná výsadba 6 borovíc lesných. Lokalita sa nachádza v 1. stupni ochrany prírody a je súčasťou Chráneného vtáčieho územia SKCHVU013 Malá Fatra.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "1326/19",
-        "NATIONALSI": "SKCHVU013",
-        "SITETITLE_": "Malá Fatra"
-      },
-      {
-        "parcel_label": "4569/3",
-        "NATIONALSI": "SKCHVU013",
-        "SITETITLE_": "Malá Fatra"
-      },
-      {
-        "parcel_label": "1327/9",
-        "NATIONALSI": "SKCHVU013",
-        "SITETITLE_": "Malá Fatra"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "1326/19",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "4569/3",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "1327/9",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    }
   }
 }

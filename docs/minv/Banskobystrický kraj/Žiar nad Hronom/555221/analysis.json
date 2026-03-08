@@ -437,38 +437,40 @@
     }
   ],
   "zhrnutie": "Rozhodnutie zo zisťovacieho konania pre strategický dokument \"Zmeny a doplnky č. 9 územného plánu mesta Žiar nad Hronom\" potvrdzuje, že dokument nebude posudzovaný v rámci celého procesu EIA. Dokument však musí rešpektovať viaceré podmienky, týkajúce sa najmä ochrany lesných a poľnohospodárskych pozemkov, vodného hospodárstva, riadenia odpadov, a obmedzení v územiach s 1. stupňom ochrany, ochranných pásmach lesa a vodných tokov, ako aj v záplavových a ložiskových územiach.",
-  "zasiahnute_chranene_uzemia": {
-    "rezervacie": [
-      {
-        "parcel_label": "Šášovské Podhradie",
-        "registry_n": "SKUEV0265",
-        "site_name": "Suť",
-        "category_i": 21.0
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Horné Opatovce",
-        "NATIONALSI": "SKUEV0947",
-        "SITETITLE_": "Stredný tok Hrona"
-      },
-      {
-        "parcel_label": "Horné Opatovce",
-        "NATIONALSI": "SKUEV0265",
-        "SITETITLE_": "Suť"
-      },
-      {
-        "parcel_label": "Šášovské Podhradie",
-        "NATIONALSI": "SKUEV0265",
-        "SITETITLE_": "Suť"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Šášovské Podhradie",
-        "NATIONALSI": "1340",
-        "SITETITLE_": "PR Pralesy Slovenska-Suť"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "rezervacie": [
+        {
+          "parcel_label": "Šášovské Podhradie",
+          "registry_n": "SKUEV0265",
+          "site_name": "Suť",
+          "category_i": 21
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Horné Opatovce",
+          "NATIONALSI": "SKUEV0947",
+          "SITETITLE_": "Stredný tok Hrona"
+        },
+        {
+          "parcel_label": "Horné Opatovce",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        },
+        {
+          "parcel_label": "Šášovské Podhradie",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Šášovské Podhradie",
+          "NATIONALSI": "1340",
+          "SITETITLE_": "PR Pralesy Slovenska-Suť"
+        }
+      ]
+    }
   }
 }

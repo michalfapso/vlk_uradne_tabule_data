@@ -44,27 +44,29 @@
     }
   ],
   "zhrnutie": "Okresný úrad Rimavská Sobota oznamuje začatie správneho konania vo veci vydania súhlasu na výrub 44 ks drevín v katastrálnom území Tisovec, okres Rimavská Sobota. Dreviny sú napadnuté lykožrútom, hnilobou a prestárnuté. Lehota na doručenie potvrdenia záujmu byť zúčastnenou osobou je 5 pracovných dní od zverejnenia informácie.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "6936",
-        "NATIONALSI": "SKUEV0225",
-        "SITETITLE_": "Muránska planina"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "6936",
-        "NATIONALSI": "1374",
-        "SITETITLE_": "CHA Pramenná oblasť Rimavy"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "6936",
-        "NATIONALSI": "SKCHVU017",
-        "SITETITLE_": "Muránska planina - Stolica"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "6936",
+          "NATIONALSI": "SKUEV0225",
+          "SITETITLE_": "Muránska planina"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "6936",
+          "NATIONALSI": "1374",
+          "SITETITLE_": "CHA Pramenná oblasť Rimavy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "6936",
+          "NATIONALSI": "SKCHVU017",
+          "SITETITLE_": "Muránska planina - Stolica"
+        }
+      ]
+    }
   }
 }

@@ -98,33 +98,35 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí konania o povolení zmeny stavby „Jasenová – Vyšný Kubín – Dolný Kubín – kanalizácia“ pred jej dokončením. Zmeny zahŕňajú úpravu trasy, materiálu potrubia a predĺženie termínu dokončenia stavby v obci Jasenová do roku 2036.",
-  "zasiahnute_chranene_uzemia": {
-    "CHVU": [
-      {
-        "parcel_label": "709/1",
-        "NATIONALSI": "SKCHVU050",
-        "SITETITLE_": "Chočské vrchy"
-      },
-      {
-        "parcel_label": "436/1",
-        "NATIONALSI": "SKCHVU050",
-        "SITETITLE_": "Chočské vrchy"
-      },
-      {
-        "parcel_label": "430",
-        "NATIONALSI": "SKCHVU050",
-        "SITETITLE_": "Chočské vrchy"
-      },
-      {
-        "parcel_label": "2971/2",
-        "NATIONALSI": "SKCHVU050",
-        "SITETITLE_": "Chočské vrchy"
-      },
-      {
-        "parcel_label": "2940/1",
-        "NATIONALSI": "SKCHVU050",
-        "SITETITLE_": "Chočské vrchy"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "709/1",
+          "NATIONALSI": "SKCHVU050",
+          "SITETITLE_": "Chočské vrchy"
+        },
+        {
+          "parcel_label": "436/1",
+          "NATIONALSI": "SKCHVU050",
+          "SITETITLE_": "Chočské vrchy"
+        },
+        {
+          "parcel_label": "430",
+          "NATIONALSI": "SKCHVU050",
+          "SITETITLE_": "Chočské vrchy"
+        },
+        {
+          "parcel_label": "2971/2",
+          "NATIONALSI": "SKCHVU050",
+          "SITETITLE_": "Chočské vrchy"
+        },
+        {
+          "parcel_label": "2940/1",
+          "NATIONALSI": "SKCHVU050",
+          "SITETITLE_": "Chočské vrchy"
+        }
+      ]
+    }
   }
 }

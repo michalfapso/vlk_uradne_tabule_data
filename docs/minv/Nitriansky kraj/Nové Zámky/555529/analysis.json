@@ -53,27 +53,29 @@
     }
   ],
   "zhrnutie": "Oznámenie o výrube drevín spoločnosťou SPP – distribúcia, a. s. v katastrálnom území Tvrdošovce (Nitriansky kraj, okres Nové Zámky), konkrétne v ochrannom pásme plynovodu. Konanie sa riadi zákonom o ochrane prírody a krajiny a neumožňuje účasť verejnosti.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Tvrdošovce",
-        "NATIONALSI": "SKUEV0095",
-        "SITETITLE_": "Panské lúky"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Tvrdošovce",
-        "NATIONALSI": "1258",
-        "SITETITLE_": "CHA Panské lúky"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Tvrdošovce",
-        "NATIONALSI": "SKCHVU005",
-        "SITETITLE_": "Dolné Považie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Tvrdošovce",
+          "NATIONALSI": "SKUEV0095",
+          "SITETITLE_": "Panské lúky"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Tvrdošovce",
+          "NATIONALSI": "1258",
+          "SITETITLE_": "CHA Panské lúky"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Tvrdošovce",
+          "NATIONALSI": "SKCHVU005",
+          "SITETITLE_": "Dolné Považie"
+        }
+      ]
+    }
   }
 }

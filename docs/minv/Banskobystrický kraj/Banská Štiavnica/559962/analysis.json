@@ -59,28 +59,30 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti o výrub 1 ks vŕby a 1 ks duba v k. ú. Banský Studenec na parcelách EKN 867 a 869. Výrub je odôvodnený vyčistením pozemkov mimo zastavaného územia obce.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "867",
-        "NATIONALSI": "SKUEV0266",
-        "SITETITLE_": "Skalka"
-      },
-      {
-        "parcel_label": "869",
-        "NATIONALSI": "SKUEV0266",
-        "SITETITLE_": "Skalka"
-      },
-      {
-        "parcel_label": "1272",
-        "NATIONALSI": "SKUEV0266",
-        "SITETITLE_": "Skalka"
-      },
-      {
-        "parcel_label": "1273",
-        "NATIONALSI": "SKUEV0266",
-        "SITETITLE_": "Skalka"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "867",
+          "NATIONALSI": "SKUEV0266",
+          "SITETITLE_": "Skalka"
+        },
+        {
+          "parcel_label": "869",
+          "NATIONALSI": "SKUEV0266",
+          "SITETITLE_": "Skalka"
+        },
+        {
+          "parcel_label": "1272",
+          "NATIONALSI": "SKUEV0266",
+          "SITETITLE_": "Skalka"
+        },
+        {
+          "parcel_label": "1273",
+          "NATIONALSI": "SKUEV0266",
+          "SITETITLE_": "Skalka"
+        }
+      ]
+    }
   }
 }

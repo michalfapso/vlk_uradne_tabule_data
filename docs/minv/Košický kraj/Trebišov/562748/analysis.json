@@ -92,77 +92,79 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí vodoprávneho konania vo veci stavby gravitačného zavodňovacieho potrubia na dopĺňanie vody do NPR Tajba v obci Streda nad Bodrogom. Projekt LIFE IP NATURA 2000 má zabezpečiť stabilnú hladinu vody pre záchranu kriticky ohrozenej populácie korytnačky močiarnej v chránenom území Natura 2000.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "2056/2",
-        "NATIONALSI": "SKUEV0019",
-        "SITETITLE_": "Tarbucka"
-      },
-      {
-        "parcel_label": "2048",
-        "NATIONALSI": "SKUEV0019",
-        "SITETITLE_": "Tarbucka"
-      },
-      {
-        "parcel_label": "720/2",
-        "NATIONALSI": "SKUEV0019",
-        "SITETITLE_": "Tarbucka"
-      },
-      {
-        "parcel_label": "721/2",
-        "NATIONALSI": "SKUEV0019",
-        "SITETITLE_": "Tarbucka"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "2056/2",
-        "NATIONALSI": "691",
-        "SITETITLE_": "NPR Tajba"
-      },
-      {
-        "parcel_label": "2048",
-        "NATIONALSI": "691",
-        "SITETITLE_": "NPR Tajba"
-      },
-      {
-        "parcel_label": "720/2",
-        "NATIONALSI": "691",
-        "SITETITLE_": "NPR Tajba"
-      },
-      {
-        "parcel_label": "721/2",
-        "NATIONALSI": "691",
-        "SITETITLE_": "NPR Tajba"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "2056/2",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "2048",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "2067/2",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "720/2",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "721/2",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "2056/2",
+          "NATIONALSI": "SKUEV0019",
+          "SITETITLE_": "Tarbucka"
+        },
+        {
+          "parcel_label": "2048",
+          "NATIONALSI": "SKUEV0019",
+          "SITETITLE_": "Tarbucka"
+        },
+        {
+          "parcel_label": "720/2",
+          "NATIONALSI": "SKUEV0019",
+          "SITETITLE_": "Tarbucka"
+        },
+        {
+          "parcel_label": "721/2",
+          "NATIONALSI": "SKUEV0019",
+          "SITETITLE_": "Tarbucka"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "2056/2",
+          "NATIONALSI": "691",
+          "SITETITLE_": "NPR Tajba"
+        },
+        {
+          "parcel_label": "2048",
+          "NATIONALSI": "691",
+          "SITETITLE_": "NPR Tajba"
+        },
+        {
+          "parcel_label": "720/2",
+          "NATIONALSI": "691",
+          "SITETITLE_": "NPR Tajba"
+        },
+        {
+          "parcel_label": "721/2",
+          "NATIONALSI": "691",
+          "SITETITLE_": "NPR Tajba"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "2056/2",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2048",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2067/2",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "720/2",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "721/2",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        }
+      ]
+    }
   }
 }

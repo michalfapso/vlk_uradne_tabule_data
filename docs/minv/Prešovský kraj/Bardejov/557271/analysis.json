@@ -52,97 +52,99 @@
   "odkaz_enviroportal": null,
   "zakony": [],
   "zhrnutie": "Dokument predstavuje návrh Regionálneho územného systému ekologickej stability (RÚSES) pre okres Bardejov, ktorý bol spracovaný v roku 2019 pre potreby budovania zelenej infraštruktúry. Zahŕňa návrhy ekostabilizačných, hydroekologických, protieróznych a protipovodňových opatrení, ako aj manažmentové opatrenia pre biocentrá a biokoridory regionálneho a nadregionálneho významu. Cieľom je zlepšenie kvality životného prostredia v okrese Bardejov, vrátane monitoringu vôd, sanácie záťaží a regulácie hospodárskych činností.",
-  "zasiahnute_chranene_uzemia": {
-    "5st_konsUEV": [
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NAZOV_UEV": "Stebnícka Magura",
-        "KOD_UEV": "SKUEV0754"
-      },
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NAZOV_UEV": "Stebnícka Magura",
-        "KOD_UEV": "SKUEV0754"
-      },
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NAZOV_UEV": "Stebnícka Magura",
-        "KOD_UEV": "SKUEV0754"
-      },
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NAZOV_UEV": "Stebnícka Magura",
-        "KOD_UEV": "SKUEV0754"
-      },
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NAZOV_UEV": "Stebnícka Magura",
-        "KOD_UEV": "SKUEV0754"
-      },
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NAZOV_UEV": "Stebnícka Magura",
-        "KOD_UEV": "SKUEV0754"
-      },
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NAZOV_UEV": "Stebnícka Magura",
-        "KOD_UEV": "SKUEV0754"
-      },
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NAZOV_UEV": "Stebnícka Magura",
-        "KOD_UEV": "SKUEV0754"
-      }
-    ],
-    "UEV": [
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NATIONALSI": "SKUEV0936",
-        "SITETITLE_": "Horný tok Tople"
-      },
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NATIONALSI": "SKUEV0754",
-        "SITETITLE_": "Stebnícka Magura"
-      },
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NATIONALSI": "SKUEV0936",
-        "SITETITLE_": "Horný tok Tople"
-      },
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NATIONALSI": "SKUEV0754",
-        "SITETITLE_": "Stebnícka Magura"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NATIONALSI": "676",
-        "SITETITLE_": "PR Slatina pod Lieskovcom"
-      },
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NATIONALSI": "1338",
-        "SITETITLE_": "PR Pralesy Slovenska-Stebnícka Magura"
-      },
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NATIONALSI": "600",
-        "SITETITLE_": "NPR Stebnícka Magura"
-      },
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NATIONALSI": "1338",
-        "SITETITLE_": "PR Pralesy Slovenska-Stebnícka Magura"
-      },
-      {
-        "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
-        "NATIONALSI": "600",
-        "SITETITLE_": "NPR Stebnícka Magura"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NAZOV_UEV": "Stebnícka Magura",
+          "KOD_UEV": "SKUEV0754"
+        },
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NAZOV_UEV": "Stebnícka Magura",
+          "KOD_UEV": "SKUEV0754"
+        },
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NAZOV_UEV": "Stebnícka Magura",
+          "KOD_UEV": "SKUEV0754"
+        },
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NAZOV_UEV": "Stebnícka Magura",
+          "KOD_UEV": "SKUEV0754"
+        },
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NAZOV_UEV": "Stebnícka Magura",
+          "KOD_UEV": "SKUEV0754"
+        },
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NAZOV_UEV": "Stebnícka Magura",
+          "KOD_UEV": "SKUEV0754"
+        },
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NAZOV_UEV": "Stebnícka Magura",
+          "KOD_UEV": "SKUEV0754"
+        },
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NAZOV_UEV": "Stebnícka Magura",
+          "KOD_UEV": "SKUEV0754"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NATIONALSI": "SKUEV0936",
+          "SITETITLE_": "Horný tok Tople"
+        },
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NATIONALSI": "SKUEV0754",
+          "SITETITLE_": "Stebnícka Magura"
+        },
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NATIONALSI": "SKUEV0936",
+          "SITETITLE_": "Horný tok Tople"
+        },
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NATIONALSI": "SKUEV0754",
+          "SITETITLE_": "Stebnícka Magura"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NATIONALSI": "676",
+          "SITETITLE_": "PR Slatina pod Lieskovcom"
+        },
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NATIONALSI": "1338",
+          "SITETITLE_": "PR Pralesy Slovenska-Stebnícka Magura"
+        },
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NATIONALSI": "600",
+          "SITETITLE_": "NPR Stebnícka Magura"
+        },
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NATIONALSI": "1338",
+          "SITETITLE_": "PR Pralesy Slovenska-Stebnícka Magura"
+        },
+        {
+          "parcel_label": "Bardejov, okres Bardejov, Prešovský kraj, Východné Slovensko, Slovensko",
+          "NATIONALSI": "600",
+          "SITETITLE_": "NPR Stebnícka Magura"
+        }
+      ]
+    }
   }
 }

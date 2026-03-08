@@ -39,47 +39,49 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti spoločnosti TOWERCOM, a. s. o povolenie výnimky na vjazd a státie motorových vozidiel v Prírodnej rezervácii Tarbucka v katastrálnom území Streda nad Bodrogom.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Streda nad Bodrogom",
-        "NATIONALSI": "SKUEV0019",
-        "SITETITLE_": "Tarbucka"
-      },
-      {
-        "parcel_label": "Streda nad Bodrogom",
-        "NATIONALSI": "SKUEV0019",
-        "SITETITLE_": "Tarbucka"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Streda nad Bodrogom",
-        "NATIONALSI": "692",
-        "SITETITLE_": "PR Tarbucka"
-      },
-      {
-        "parcel_label": "Streda nad Bodrogom",
-        "NATIONALSI": "692",
-        "SITETITLE_": "PR Tarbucka"
-      },
-      {
-        "parcel_label": "Streda nad Bodrogom",
-        "NATIONALSI": "691",
-        "SITETITLE_": "NPR Tajba"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Streda nad Bodrogom",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      },
-      {
-        "parcel_label": "Streda nad Bodrogom",
-        "NATIONALSI": "SKCHVU015",
-        "SITETITLE_": "Medzibodrožie"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Streda nad Bodrogom",
+          "NATIONALSI": "SKUEV0019",
+          "SITETITLE_": "Tarbucka"
+        },
+        {
+          "parcel_label": "Streda nad Bodrogom",
+          "NATIONALSI": "SKUEV0019",
+          "SITETITLE_": "Tarbucka"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Streda nad Bodrogom",
+          "NATIONALSI": "692",
+          "SITETITLE_": "PR Tarbucka"
+        },
+        {
+          "parcel_label": "Streda nad Bodrogom",
+          "NATIONALSI": "692",
+          "SITETITLE_": "PR Tarbucka"
+        },
+        {
+          "parcel_label": "Streda nad Bodrogom",
+          "NATIONALSI": "691",
+          "SITETITLE_": "NPR Tajba"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Streda nad Bodrogom",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "Streda nad Bodrogom",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        }
+      ]
+    }
   }
 }

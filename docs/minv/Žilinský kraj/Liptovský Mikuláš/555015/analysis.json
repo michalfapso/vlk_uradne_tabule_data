@@ -40,20 +40,22 @@
     }
   ],
   "zhrnutie": "Dokument informuje o oznámení zmien a doplnkov č. 2 územného plánu obce Smrečany, ktorých cieľom je stanovenie podmienok pre funkčné a priestorové usporiadanie plôch pre rozvoj obce. Verejnosť môže doručiť písomné stanovisko do 15 dní od zverejnenia oznámenia na Okresný úrad Liptovský Mikuláš.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Smrečany",
-        "NATIONALSI": "SKUEV0307",
-        "SITETITLE_": "Tatry"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Smrečany",
-        "NATIONALSI": "SKCHVU030",
-        "SITETITLE_": "Tatry"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Smrečany",
+          "NATIONALSI": "SKUEV0307",
+          "SITETITLE_": "Tatry"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Smrečany",
+          "NATIONALSI": "SKCHVU030",
+          "SITETITLE_": "Tatry"
+        }
+      ]
+    }
   }
 }

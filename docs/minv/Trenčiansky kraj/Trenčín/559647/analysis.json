@@ -62,20 +62,22 @@
     }
   ],
   "zhrnutie": "Oznámenie o začatí konania na predĺženie platnosti súhlasu a výnimky pre obec Čachtice na organizovanie spoločenských podujatí a vjazd vozidiel v areáli Čachtického hradu. Lokalita sa nachádza v chránenom areáli Čachtické Karpaty a NPR Čachtický hradný vrch s výskytom chránených druhov vtáctva.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "3241",
-        "NATIONALSI": "SKUEV0103",
-        "SITETITLE_": "Čachtické Karpaty"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "3241",
-        "NATIONALSI": "1265",
-        "SITETITLE_": "CHA Čachtické Karpaty"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "3241",
+          "NATIONALSI": "SKUEV0103",
+          "SITETITLE_": "Čachtické Karpaty"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "3241",
+          "NATIONALSI": "1265",
+          "SITETITLE_": "CHA Čachtické Karpaty"
+        }
+      ]
+    }
   }
 }

@@ -46,32 +46,34 @@
     }
   ],
   "zhrnutie": "Dokument predstavuje Informáciu pre verejnosť o oznámení strategického dokumentu „Územný plán obce Ľubotín – Zmeny a doplnky č. 01“, predloženého Obcou Ľubotín. Verejnosť má možnosť predkladať stanoviská k tomuto územnému plánu najneskôr do 15 dní od zverejnenia oznámenia dotknutou obcou.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Ľubotín",
-        "NATIONALSI": "SKUEV0338",
-        "SITETITLE_": "Plavečské štrkoviská"
-      },
-      {
-        "parcel_label": "Ľubotín",
-        "NATIONALSI": "SKUEV0951",
-        "SITETITLE_": "Stredný tok Popradu"
-      }
-    ],
-    "MCHU": [
-      {
-        "parcel_label": "Ľubotín",
-        "NATIONALSI": "638",
-        "SITETITLE_": "CHA Plavečské štrkoviská"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Ľubotín",
-        "NATIONALSI": "SKCHVU052",
-        "SITETITLE_": "Čergov"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Ľubotín",
+          "NATIONALSI": "SKUEV0338",
+          "SITETITLE_": "Plavečské štrkoviská"
+        },
+        {
+          "parcel_label": "Ľubotín",
+          "NATIONALSI": "SKUEV0951",
+          "SITETITLE_": "Stredný tok Popradu"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Ľubotín",
+          "NATIONALSI": "638",
+          "SITETITLE_": "CHA Plavečské štrkoviská"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Ľubotín",
+          "NATIONALSI": "SKCHVU052",
+          "SITETITLE_": "Čergov"
+        }
+      ]
+    }
   }
 }

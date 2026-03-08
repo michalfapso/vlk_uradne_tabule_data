@@ -149,20 +149,22 @@
     }
   ],
   "zhrnutie": "Dokument je rozhodnutím Okresného úradu Piešťany o zisťovacom konaní pre strategický dokument \"Aktualizácia Programu hospodárskeho rozvoja a sociálneho rozvoja mesta Piešťany na roky 2026 - 2032\". Konštatuje, že strategický dokument sa nebude ďalej posudzovať podľa zákona o posudzovaní vplyvov na životné prostredie, ale stanovuje podmienky a požiadavky pre budúce aktivity vyplývajúce z programu, najmä s ohľadom na ochranu vôd, životného prostredia a dodržiavanie ochranných pásiem. Dotknuté územie Piešťan zasahuje do CHVÚ Sĺňava a CHA Sĺňava (4. stupeň ochrany), ako aj do 1. stupňa územnej ochrany.",
-  "zasiahnute_chranene_uzemia": {
-    "MCHU": [
-      {
-        "parcel_label": "Piešťany",
-        "NATIONALSI": "155",
-        "SITETITLE_": "CHA Sĺňava"
-      }
-    ],
-    "CHVU": [
-      {
-        "parcel_label": "Piešťany",
-        "NATIONALSI": "SKCHVU026",
-        "SITETITLE_": "Sĺňava"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Piešťany",
+          "NATIONALSI": "155",
+          "SITETITLE_": "CHA Sĺňava"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Piešťany",
+          "NATIONALSI": "SKCHVU026",
+          "SITETITLE_": "Sĺňava"
+        }
+      ]
+    }
   }
 }

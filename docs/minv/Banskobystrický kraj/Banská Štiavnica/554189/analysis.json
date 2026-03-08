@@ -178,18 +178,20 @@
     }
   ],
   "zhrnutie": "Tento dokument je upovedomením o začatí konania vo veci vydania stavebného povolenia pre Obec Banská Belá na rozšírenie a rekonštrukciu čistiarne odpadových vôd (ČOV) v katastrálnom území Banská Belá, čím sa zvýši jej kapacita na 1 200 EO a vybuduje nová odľahčovacia komora. Orgán štátnej vodnej správy upustil od ústneho pojednávania; účastníci konania môžu podať vyjadrenia do 15 dní od doručenia písomnosti.",
-  "zasiahnute_chranene_uzemia": {
-    "UEV": [
-      {
-        "parcel_label": "Banská Belá",
-        "NATIONALSI": "SKUEV0266",
-        "SITETITLE_": "Skalka"
-      },
-      {
-        "parcel_label": "Banská Belá",
-        "NATIONALSI": "SKUEV0265",
-        "SITETITLE_": "Suť"
-      }
-    ]
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Banská Belá",
+          "NATIONALSI": "SKUEV0266",
+          "SITETITLE_": "Skalka"
+        },
+        {
+          "parcel_label": "Banská Belá",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        }
+      ]
+    }
   }
 }
