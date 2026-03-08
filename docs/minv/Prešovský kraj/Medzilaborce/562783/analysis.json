@@ -3,57 +3,55 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-03-03",
   "datum_zverejnenia": "2026-03-03",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
-    "lehota_na_vyjadrenie": "5 pracovných dní"
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
   },
   "ziadatel_navrhovatel": "PD - Habura, a.s.",
   "miesto_realizacie": {
     "kraj": "Prešovský kraj",
     "okres": "Medzilaborce",
     "obec": "Habura",
-    "katastralne_uzemia": [
-      {
-        "nazov": "Habura",
-        "parcely": []
-      }
-    ],
-    "nazov_lokality": null
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "CHKO Východné Karpaty",
+    "nazov_lokality_norm": "Východné Karpaty"
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
-  "typ_zasahu": [
-    "pasenie",
-    "napájanie",
-    "preháňanie a nocovanie hospodárskych zvierat",
-    "ustajnenie mimo stavieb"
+  "typ_dokumentu": "Upovedomenie o začatom správnom konaní",
+  "kategorie_vlk": [
+    "POLNOHOSPODARSTVO"
   ],
+  "typ_zasahu": [
+    "pasenie hospodárskych zvierat",
+    "napájanie hospodárskych zvierat",
+    "preháňanie hospodárskych zvierat",
+    "nocovanie hospodárskych zvierat",
+    "ustajnenie hospodárskych zvierat mimo stavieb"
+  ],
+  "rozsah_zasahu": "stádo nad 30 dobytčích jednotiek",
   "typ_uzemia": [
-    "Chránená krajinná oblasť Východné Karpaty",
-    "2. stupeň ochrany"
+    "Chránená krajinná oblasť",
+    "Východné Karpaty",
+    "2. stupeň"
   ],
   "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "zákon o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82",
+        "13"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci vydania súhlasu na pasenie, napájanie a ustajnenie hospodárskych zvierat pre PD - Habura, a.s. v obci Habura. Činnosť má prebiehať na území CHKO Východné Karpaty v 2. stupni ochrany.",
+  "zhrnutie": "Oznámenie o začatí konania vo veci vydania súhlasu pre PD - Habura, a.s. na pasenie a ustajnenie stáda nad 30 dobytčích jednotiek vo voľnej krajine. Činnosť sa má realizovať na území CHKO Východné Karpaty v 2. stupni ochrany prírody. Verejnosť môže potvrdiť záujem o účasť v konaní do 5 pracovných dní.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "UEV": [
-        {
-          "parcel_label": "Habura",
-          "NATIONALSI": "SKUEV0043",
-          "SITETITLE_": "Kamenná"
-        },
-        {
-          "parcel_label": "Habura",
-          "NATIONALSI": "SKUEV0232",
-          "SITETITLE_": "Laborec"
-        },
         {
           "parcel_label": "Habura",
           "NATIONALSI": "SKUEV0048",
@@ -61,11 +59,6 @@
         }
       ],
       "MCHU": [
-        {
-          "parcel_label": "Habura",
-          "NATIONALSI": "1274",
-          "SITETITLE_": "Laborec"
-        },
         {
           "parcel_label": "Habura",
           "NATIONALSI": "537",
@@ -79,6 +72,7 @@
           "SITETITLE_": "Laborecká vrchovina"
         }
       ]
-    }
+    },
+    "source_type": "OBEC"
   }
 }

@@ -1,8 +1,9 @@
 {
   "cislo_konania_spisu": "OU-SK-OSZP-2026/003030",
-  "cislo_rozhodnutia": null,
+  "cislo_rozhodnutia": "OU-SK-OSZP-2026/003030-002",
   "datum_dokumentu": "2026-02-27",
   "datum_zverejnenia": "2026-02-27",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
@@ -26,25 +27,44 @@
         ]
       }
     ],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
   },
-  "typ_dokumentu": "Informácia o začatí správneho konania",
-  "typ_zasahu": [
-    "výrub drevín"
+  "typ_dokumentu": "Upovedomenie o začatom správnom konaní",
+  "kategorie_vlk": [
+    "LES_VYRUB"
   ],
+  "typ_zasahu": [
+    "výrub náletových drevín"
+  ],
+  "rozsah_zasahu": "náletové dreviny na parcelách KN-C 1721/58, 1279/3",
   "typ_uzemia": [
     "neviem"
   ],
   "je_v_chranenom_uzemi": null,
-  "dotknute_zivocichy_rastliny": [
-    "náletové dreviny"
-  ],
+  "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub náletových drevín v k.ú. Giraltovce na parcelách registra C č. 1721/58 a 1279/3."
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu náletových drevín v katastrálnom území Giraltovce na parcelách 1721/58 a 1279/3. Žiadosť podali Mgr. Igor Čajka a MUDr. Katarína Koberová. Lehota na potvrdenie záujmu o účasť v konaní je 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Giraltovce",
+          "NATIONALSI": "655",
+          "SITETITLE_": "PR Radomka"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
 }

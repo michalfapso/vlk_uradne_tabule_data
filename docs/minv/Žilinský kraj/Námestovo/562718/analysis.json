@@ -1,8 +1,9 @@
 {
   "cislo_konania_spisu": "OU-NO-OSZP-2026/007644",
   "cislo_rozhodnutia": null,
-  "datum_dokumentu": "2026-03-02",
+  "datum_dokumentu": "2026-03-03",
   "datum_zverejnenia": "2026-03-03",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia oznámenia"
@@ -26,12 +27,18 @@
         ]
       }
     ],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
   "typ_zasahu": [
     "výrub drevín"
   ],
+  "rozsah_zasahu": null,
   "typ_uzemia": [
     "neviem"
   ],
@@ -40,11 +47,15 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "zákon o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "82 ods. 3"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub drevín na parcelách C-KN 20626 a 20621 v katastrálnom území Lomná. Záujem o účasť v konaní je potrebné potvrdiť do 5 pracovných dní od zverejnenia.",
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub drevín na parcelách C-KN 20626 a 20621 v katastrálnom území Lomná. Žiadosť bola doručená 02. 03. 2026 a verejnosť sa môže prihlásiť do konania do 5 pracovných dní od zverejnenia. Dokument nešpecifikuje počet ani druh drevín, ani či sa lokalita nachádza v chránenom území.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "CHVU": [
@@ -59,6 +70,7 @@
           "SITETITLE_": "Horná Orava"
         }
       ]
-    }
+    },
+    "source_type": "PARCELA"
   }
 }

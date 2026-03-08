@@ -102,3 +102,45 @@ Intersections with protected areas already computed. Skipping...
   CELKOVÝ ČAS         :   0.04 s
 ------------------------------------------
 Dokument 562971 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/562971/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/562971/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0133855}
+LLM_tokens: {"input": 11393, "output": 2563, "total": 13956, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/562971/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/562971/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Štiavnica', 'obec': 'Svätý Anton', 'katastralne_uzemia': [{'nazov': 'Svätý Anton', 'parcely': [{'typ': 'C', 'cisla': ['4929/2', '4929/4', '1209/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'areál základnej školy v obci Svätý Anton', 'nazov_lokality_norm': 'Svätý Anton'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Štiavnica', 'obec': 'Svätý Anton', 'katastralne_uzemia': [{'nazov': 'Svätý Anton', 'parcely': [{'typ': 'C', 'cisla': ['4929/2', '4929/4', '1209/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'areál základnej školy v obci Svätý Anton', 'nazov_lokality_norm': 'Svätý Anton'}
+ku_name:Svätý Anton obec:Svätý Anton okres:Banská Štiavnica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska stiavnica norm_obec: svaty anton norm_ku: svaty anton
+_get_nationalCadastralZoningReferences() found_ids: {'800210'}
+nationalCadastralZoningReferences: ['800210']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27800210_4929%2F2.C%27%2C%27800210_4929%2F4.C%27%2C%27800210_1209%2F1.C%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.47 s
+nazov_lokality: Svätý Anton
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1428'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1428'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1428'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/562971/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/562971/analysis.json...
+
+--- Časy spracovania dokumentu 562971 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.03 s
+  llm_analysis        :  17.45 s
+  gis_processing      :   4.20 s
+  CELKOVÝ ČAS         :  21.68 s
+------------------------------------------
+Dokument 562971 bol úspešne spracovaný.

@@ -1,0 +1,358 @@
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nové Zámky/562526/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ': Do 5 pracovných dní od zverejnenia informácie, písomne na vyššie uvedenú adresu  alebo  elektronicky cez  www.slovensko.sk.    S poukazom na ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona 'združenie s právnou subjektivitou, ktorého predmetom  činnosti je najmenej jeden rok ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 1' zákona 'a ktoré písomne oznámi  svoju účasť v konaní v lehote určenej orgánom ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'sa považuje za  zúčastnenú osobu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona 'združenie podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'uvedie v písomnom  oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno a  priezvisko osoby oprávnenej konať v jeh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 20h' zákona 'Občianskeho zákonníka, ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 2 písm. c)' zákona '83/1990 Zb.), ktoré preukazujú, že  jeho predmetom činnosti je ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona ''.
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nové Zámky/562526/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+
+[1;31mGive Feedback / Get Help: https://github.com/BerriAI/litellm/issues/new[0m
+LiteLLM.Info: If you need to debug this error, use `litellm._turn_on_debug()'.
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2239, in completion
+    response = client.post(url=url, headers=headers, json=data, logging_obj=logging_obj)  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 836, in post
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 818, in post
+    response.raise_for_status()
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=None'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 2868, in completion
+    response = vertex_chat_completion.completion(  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2243, in completion
+    raise VertexAIError(
+litellm.llms.vertex_ai.common_utils.VertexAIError: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/llm_analyzer.py", line 23, in analyze_text_document
+    response = litellm.completion(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1371, in wrapper
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1244, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 3767, in completion
+    raise exception_type(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2273, in exception_type
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 1219, in exception_type
+    raise AuthenticationError(
+litellm.exceptions.AuthenticationError: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+Zlyhalo spracovanie dokumentu 562526 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=24&odbor=10&sekcia=uradna-tabula&subor=562526): Chyba počas LLM analýzy: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2239, in completion
+    response = client.post(url=url, headers=headers, json=data, logging_obj=logging_obj)  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 836, in post
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 818, in post
+    response.raise_for_status()
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=None'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 2868, in completion
+    response = vertex_chat_completion.completion(  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2243, in completion
+    raise VertexAIError(
+litellm.llms.vertex_ai.common_utils.VertexAIError: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/llm_analyzer.py", line 23, in analyze_text_document
+    response = litellm.completion(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1371, in wrapper
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1244, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 3767, in completion
+    raise exception_type(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2273, in exception_type
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 1219, in exception_type
+    raise AuthenticationError(
+litellm.exceptions.AuthenticationError: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/document_processor.py", line 400, in process_document
+    analysis_result_str = analyze_text_document(analysis_input_text)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/llm_analyzer.py", line 54, in analyze_text_document
+    raise RuntimeError(f"Chyba počas LLM analýzy: {e}")
+RuntimeError: Chyba počas LLM analýzy: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[ERROR]: Zlyhalo spracovanie dokumentu 562526 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=24&odbor=10&sekcia=uradna-tabula&subor=562526): Chyba počas LLM analýzy: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nové Zámky/562526/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ': Do 5 pracovných dní od zverejnenia informácie, písomne na vyššie uvedenú adresu  alebo  elektronicky cez  www.slovensko.sk.    S poukazom na ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona 'združenie s právnou subjektivitou, ktorého predmetom  činnosti je najmenej jeden rok ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 1' zákona 'a ktoré písomne oznámi  svoju účasť v konaní v lehote určenej orgánom ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'sa považuje za  zúčastnenú osobu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona 'združenie podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'uvedie v písomnom  oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno a  priezvisko osoby oprávnenej konať v jeh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 20h' zákona 'Občianskeho zákonníka, ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 2 písm. c)' zákona '83/1990 Zb.), ktoré preukazujú, že  jeho predmetom činnosti je ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona ''.
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nové Zámky/562526/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0112885}
+LLM_tokens: {"input": 4676, "output": 3285, "total": 7961, "cached": 2010}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nové Zámky/562526/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nové Zámky/562526/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Dvory nad Žitavou', 'katastralne_uzemia': [{'nazov': 'Dvory nad Žitavou', 'parcely': []}], 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Dvory nad Žitavou', 'katastralne_uzemia': [{'nazov': 'Dvory nad Žitavou', 'parcely': []}], 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Dvory nad Žitavou obec:Dvory nad Žitavou okres:Nové Zámky kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: dvory nad zitavou norm_ku: dvory nad zitavou
+_get_nationalCadastralZoningReferences() found_ids: {'814148'}
+nationalCadastralZoningReferences: ['814148']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27814148%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.12 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.24187 48.03367, 18.24372 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nové Zámky/562526/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Dvory nad Žitavou', 'NATIONALSI': 'SKCHVU005', 'SITETITLE_': 'Dolné Považie'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nové Zámky/562526/analysis.json...
+
+--- Časy spracovania dokumentu 562526 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.03 s
+  llm_analysis        :  16.91 s
+  gis_processing      :   0.85 s
+  CELKOVÝ ČAS         :  17.79 s
+------------------------------------------
+Dokument 562526 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nové Zámky/562526/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ': Do 5 pracovných dní od zverejnenia informácie, písomne na vyššie uvedenú adresu  alebo  elektronicky cez  www.slovensko.sk.    S poukazom na ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona 'združenie s právnou subjektivitou, ktorého predmetom  činnosti je najmenej jeden rok ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 1' zákona 'a ktoré písomne oznámi  svoju účasť v konaní v lehote určenej orgánom ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'sa považuje za  zúčastnenú osobu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona 'združenie podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'uvedie v písomnom  oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno a  priezvisko osoby oprávnenej konať v jeh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 20h' zákona 'Občianskeho zákonníka, ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 2 písm. c)' zákona '83/1990 Zb.), ktoré preukazujú, že  jeho predmetom činnosti je ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona ''.
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nové Zámky/562526/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008248700000000001}
+LLM_tokens: {"input": 5254, "output": 2176, "total": 7430, "cached": 2014}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nové Zámky/562526/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nové Zámky/562526/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Dvory nad Žitavou', 'katastralne_uzemia': [{'nazov': 'Dvory nad Žitavou', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Dvory nad Žitavou', 'katastralne_uzemia': [{'nazov': 'Dvory nad Žitavou', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Dvory nad Žitavou obec:Dvory nad Žitavou okres:Nové Zámky kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: dvory nad zitavou norm_ku: dvory nad zitavou
+_get_nationalCadastralZoningReferences() found_ids: {'814148'}
+nationalCadastralZoningReferences: ['814148']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27814148%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.14 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.24187 48.03367, 18.24372 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nové Zámky/562526/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Dvory nad Žitavou', 'NATIONALSI': 'SKCHVU005', 'SITETITLE_': 'Dolné Považie'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Nitriansky kraj/Nové Zámky/562526/analysis.json...
+
+--- Časy spracovania dokumentu 562526 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  11.55 s
+  gis_processing      :   0.72 s
+  CELKOVÝ ČAS         :  12.29 s
+------------------------------------------
+Dokument 562526 bol úspešne spracovaný.

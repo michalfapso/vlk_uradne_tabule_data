@@ -2,7 +2,8 @@
   "cislo_konania_spisu": "OU-MY-OSZP-2026/000432-2",
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-03-05",
-  "datum_zverejnenia": null,
+  "datum_zverejnenia": "2026-03-05",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
@@ -25,15 +26,23 @@
         ]
       }
     ],
-    "nazov_lokality": "Bučkova jama"
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "časť Bučkova jama",
+    "nazov_lokality_norm": "Bučkova jama"
   },
   "typ_dokumentu": "Upovedomenie o začatí správneho konania",
-  "typ_zasahu": [
-    "výrub drevín"
+  "kategorie_vlk": [
+    "LES_VYRUB"
   ],
+  "typ_zasahu": [
+    "výrub drevín rastúcich mimo lesa",
+    "výrub 2 ks stromov rodu jaseň štíhly"
+  ],
+  "rozsah_zasahu": "2 ks stromov (jaseň štíhly) s obvodom kmeňa 107 a 110 cm",
   "typ_uzemia": [
     "2. stupeň ochrany",
-    "Chránená krajinná oblasť Biele Karpaty"
+    "Chránená krajinná oblasť Biele Karpaty",
+    "CHKO"
   ],
   "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [
@@ -42,36 +51,47 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47",
+        "68",
+        "82"
+      ]
     },
     {
-      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
-      "zakon_cislo": "525/2003 Z. z."
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
     },
     {
-      "zakon_nazov": "o správnom konaní",
-      "zakon_cislo": "71/1967 Zb."
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "18"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu 2 jaseňov štíhlych v obci Vrbovce (lokalita Bučkova jama). Stromy sa nachádzajú v 2. stupni ochrany v CHKO Biele Karpaty a ich výrub je odôvodnený zlým zdravotným stavom a ohrozením priľahlej chalupy.",
+  "zhrnutie": "Oznámenie o začatí konania vo veci výrubu 2 jaseňov štíhlych v katastri Vrbovce (časť Bučkova jama) z dôvodu ohrozenia chalupy a návštevníkov. Výrub sa plánuje mimo zastavaného územia v 2. stupni ochrany v rámci CHKO Biele Karpaty. Verejnosť môže potvrdiť záujem o účasť do 5 pracovných dní.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "UEV": [
         {
-          "parcel_label": "Bučkova jama, Vrbovce, okres Myjava, Trenčiansky kraj, Západné Slovensko, Slovensko",
+          "parcel_label": "Vrbovce",
           "NATIONALSI": "SKUEV0371",
           "SITETITLE_": "Žalostiná"
         }
       ],
       "MCHU": [
         {
-          "parcel_label": "Bučkova jama, Vrbovce, okres Myjava, Trenčiansky kraj, Západné Slovensko, Slovensko",
+          "parcel_label": "Vrbovce",
           "NATIONALSI": "793",
           "SITETITLE_": "PP Bučkova jama"
         }
       ]
     },
-    "source_type": null
+    "source_type": "OBEC"
   }
 }

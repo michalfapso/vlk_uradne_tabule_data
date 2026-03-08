@@ -3,6 +3,7 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-02-26",
   "datum_zverejnenia": "2026-02-26",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
@@ -13,30 +14,43 @@
     "okres": "Medzilaborce",
     "obec": null,
     "katastralne_uzemia": [],
-    "nazov_lokality": "Chránená krajinná oblasť Východné Karpaty"
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Chránená krajinná oblasť Východné Karpaty",
+    "nazov_lokality_norm": "Východné Karpaty"
   },
-  "typ_dokumentu": "Oznámenie o začatí správneho konania",
-  "typ_zasahu": [
-    "pasenie hospodárskych zvierat",
-    "napájanie hospodárskych zvierat",
-    "preháňanie hospodárskych zvierat",
-    "nocovanie hospodárskych zvierat",
-    "ustajnenie hospodárskych zvierat"
+  "typ_dokumentu": "Upovedomenie o začatom správnom konaní",
+  "kategorie_vlk": [
+    "POLNOHOSPODARSTVO"
   ],
+  "typ_zasahu": [
+    "vydanie súhlasu na pasenie",
+    "napájanie",
+    "preháňanie",
+    "nocovanie hospodárskych zvierat na voľných ležoviskách",
+    "ustajnenie mimo stavieb alebo zariadení"
+  ],
+  "rozsah_zasahu": "veľkosť stáda nad tridsať dobytčích jednotiek",
   "typ_uzemia": [
-    "Chránená krajinná oblasť Východné Karpaty",
+    "Chránená krajinná oblasť",
+    "Východné Karpaty",
     "2. stupeň ochrany"
   ],
   "je_v_chranenom_uzemi": true,
-  "dotknute_zivocichy_rastliny": [],
+  "dotknute_zivocichy_rastliny": [
+    "hospodárske zvieratá"
+  ],
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "zákon o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "13 ods. 2 písm. e/"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania pre vydanie súhlasu na pasenie a ustajnenie stáda hospodárskych zvierat nad 30 dobytčích jednotiek. Činnosť sa má realizovať na území CHKO Východné Karpaty v 2. stupni ochrany.",
+  "zhrnutie": "Oznámenie o začatí správneho konania pre spoločnosť NOTAX CONSULTING spol. s r.o. vo veci vydania súhlasu na pasenie a ustajnenie stáda nad 30 dobytčích jednotiek. Činnosť sa má realizovať v CHKO Východné Karpaty v druhom stupni ochrany. Verejnosť môže potvrdiť záujem o účasť v konaní v lehote 5 pracovných dní.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "5st_konsUEV": [
@@ -299,6 +313,7 @@
           "Kod_chrane": "UN02"
         }
       ]
-    }
+    },
+    "source_type": "GEONAME"
   }
 }

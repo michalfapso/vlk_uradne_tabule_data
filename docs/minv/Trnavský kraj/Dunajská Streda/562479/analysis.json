@@ -3,9 +3,10 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-02-26",
   "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
-    "lehota_na_vyjadrenie": "5 pracovných dní t.j. do: 9.3.2026"
+    "lehota_na_vyjadrenie": "do: 9.3.2026"
   },
   "ziadatel_navrhovatel": "Pivodová Karolína",
   "miesto_realizacie": {
@@ -17,7 +18,7 @@
         "nazov": "Gabčíkovo",
         "parcely": [
           {
-            "typ": "C",
+            "typ": null,
             "cisla": [
               "6142/46"
             ]
@@ -25,12 +26,18 @@
         ]
       }
     ],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
   },
   "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
   "typ_zasahu": [
     "výrub drevín"
   ],
+  "rozsah_zasahu": "dreviny",
   "typ_uzemia": [
     "neviem"
   ],
@@ -39,11 +46,15 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z.z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47",
+        "82"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci udelenia súhlasu na výrub drevín v katastrálnom území Gabčíkovo na parcele č. 6142/46 pre žiadateľku Karolínu Pivodovú.",
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu drevín na parcele 6142/46 v k. ú. Gabčíkovo na základe žiadosti Karolíny Pivodovej. Verejnosť môže potvrdiť záujem byť účastníkom konania v lehote do 9.3.2026.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "CHVU": [
@@ -53,6 +64,7 @@
           "SITETITLE_": "Dunajské luhy"
         }
       ]
-    }
+    },
+    "source_type": "PARCELA"
   }
 }

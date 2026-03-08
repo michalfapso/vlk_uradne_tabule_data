@@ -1,0 +1,349 @@
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562493/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13 ods. 2 písm. e' zákona ''.
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562493/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+
+[1;31mGive Feedback / Get Help: https://github.com/BerriAI/litellm/issues/new[0m
+LiteLLM.Info: If you need to debug this error, use `litellm._turn_on_debug()'.
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2239, in completion
+    response = client.post(url=url, headers=headers, json=data, logging_obj=logging_obj)  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 836, in post
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 818, in post
+    response.raise_for_status()
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=None'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 2868, in completion
+    response = vertex_chat_completion.completion(  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2243, in completion
+    raise VertexAIError(
+litellm.llms.vertex_ai.common_utils.VertexAIError: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/llm_analyzer.py", line 23, in analyze_text_document
+    response = litellm.completion(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1371, in wrapper
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1244, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 3767, in completion
+    raise exception_type(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2273, in exception_type
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 1219, in exception_type
+    raise AuthenticationError(
+litellm.exceptions.AuthenticationError: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+Zlyhalo spracovanie dokumentu 562493 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=62&odbor=10&sekcia=uradna-tabula&subor=562493): Chyba počas LLM analýzy: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2239, in completion
+    response = client.post(url=url, headers=headers, json=data, logging_obj=logging_obj)  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 836, in post
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 818, in post
+    response.raise_for_status()
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=None'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 2868, in completion
+    response = vertex_chat_completion.completion(  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2243, in completion
+    raise VertexAIError(
+litellm.llms.vertex_ai.common_utils.VertexAIError: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/llm_analyzer.py", line 23, in analyze_text_document
+    response = litellm.completion(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1371, in wrapper
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1244, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 3767, in completion
+    raise exception_type(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2273, in exception_type
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 1219, in exception_type
+    raise AuthenticationError(
+litellm.exceptions.AuthenticationError: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/document_processor.py", line 400, in process_document
+    analysis_result_str = analyze_text_document(analysis_input_text)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/llm_analyzer.py", line 54, in analyze_text_document
+    raise RuntimeError(f"Chyba počas LLM analýzy: {e}")
+RuntimeError: Chyba počas LLM analýzy: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[ERROR]: Zlyhalo spracovanie dokumentu 562493 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=62&odbor=10&sekcia=uradna-tabula&subor=562493): Chyba počas LLM analýzy: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562493/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13 ods. 2 písm. e' zákona ''.
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562493/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.007288449999999999}
+LLM_tokens: {"input": 4601, "output": 1964, "total": 6565, "cached": 2009}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562493/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562493/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Medzilaborce', 'obec': None, 'katastralne_uzemia': [], 'nazov_lokality': 'Chránená krajinná oblasť Východné Karpaty', 'nazov_lokality_norm': 'Východné Karpaty'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Medzilaborce', 'obec': None, 'katastralne_uzemia': [], 'nazov_lokality': 'Chránená krajinná oblasť Východné Karpaty', 'nazov_lokality_norm': 'Východné Karpaty'}
+No geometries were found.
+nazov_lokality: Východné Karpaty
+get_geometry_of_a_geoname nazov_lokality: Východné Karpaty
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Východné Karpaty, Medzilaborce, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.4846 49.42426, 21.4862 49.42325, ...  ...  Chránená krajinná oblasť Východné Karpaty, okr...
+
+[1 rows x 11 columns]
+geoname_query: Východné Karpaty, Medzilaborce, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.4846 49.42426, 21.4862 49.42325, ...  ...  Chránená krajinná oblasť Východné Karpaty, okr...
+
+[1 rows x 11 columns]
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562493/gis.geojson...
+Intersections with protected areas...
+Found 26 intersecting parcels with '5st_konsUEV'.
+Found 13 intersecting parcels with 'UEV'.
+Found 8 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+Found 1 intersecting parcels with 'UNESCO'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Bukovské vrchy', 'KOD_UEV': 'SKUEV0229'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}], 'UEV': [{'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0229', 'SITETITLE_': 'Bukovské vrchy'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0386', 'SITETITLE_': 'Hostovické lúky'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0385', 'SITETITLE_': 'Pliškov'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0896', 'SITETITLE_': 'Pod Čierťažou'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0014', 'SITETITLE_': 'Lázky'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0011', 'SITETITLE_': 'Svetlica'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0387', 'SITETITLE_': 'Beskyd'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0016', 'SITETITLE_': 'Košariská'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV4056', 'SITETITLE_': 'Vápenické lúky'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV4054', 'SITETITLE_': 'Palotské lúky'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0761', 'SITETITLE_': 'Vydranka'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0211', 'SITETITLE_': 'Daňová'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0048', 'SITETITLE_': 'Dukla'}], 'MCHU': [{'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '549', 'SITETITLE_': 'PR Hostovické lúky'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '1253', 'SITETITLE_': 'PR Rydošová'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '502', 'SITETITLE_': 'PR Beskyd'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '633', 'SITETITLE_': 'NPR Palotská jedlina'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '618', 'SITETITLE_': 'PR Čertižnianské lúky'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '537', 'SITETITLE_': 'PR Haburské rašelinisko'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '587', 'SITETITLE_': 'NPR Komárnická jedlina'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '522', 'SITETITLE_': 'PR Dranec'}], 'CHVU': [{'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKCHVU002', 'SITETITLE_': 'Bukovské vrchy'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}], 'UNESCO': [{'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'Nazov_chra': 'Karpatske bukove pralesy a stare bukove lesy Nemecka', 'Kod_chrane': 'UN02'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562493/analysis.json...
+
+--- Časy spracovania dokumentu 562493 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  10.32 s
+  gis_processing      :   0.90 s
+  CELKOVÝ ČAS         :  11.25 s
+------------------------------------------
+Dokument 562493 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562493/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13 ods. 2 písm. e' zákona ''.
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562493/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00840635}
+LLM_tokens: {"input": 5179, "output": 2543, "total": 7722, "cached": 4027}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 52 column 1 (char 1703)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00678635}
+LLM_tokens: {"input": 5179, "output": 2003, "total": 7182, "cached": 4027}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562493/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562493/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Medzilaborce', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Chránená krajinná oblasť Východné Karpaty', 'nazov_lokality_norm': 'Východné Karpaty'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Medzilaborce', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Chránená krajinná oblasť Východné Karpaty', 'nazov_lokality_norm': 'Východné Karpaty'}
+No geometries were found.
+nazov_lokality: Východné Karpaty
+get_geometry_of_a_geoname nazov_lokality: Východné Karpaty
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Východné Karpaty, Medzilaborce, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.4846 49.42426, 21.4862 49.42325, ...  ...  Chránená krajinná oblasť Východné Karpaty, okr...
+
+[1 rows x 11 columns]
+geoname_query: Východné Karpaty, Medzilaborce, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.4846 49.42426, 21.4862 49.42325, ...  ...  Chránená krajinná oblasť Východné Karpaty, okr...
+
+[1 rows x 11 columns]
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562493/gis.geojson...
+Intersections with protected areas...
+Found 26 intersecting parcels with '5st_konsUEV'.
+Found 13 intersecting parcels with 'UEV'.
+Found 8 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+Found 1 intersecting parcels with 'UNESCO'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Bukovské vrchy', 'KOD_UEV': 'SKUEV0229'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Beskyd', 'KOD_UEV': 'SKUEV0387'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NAZOV_UEV': 'Dukla', 'KOD_UEV': 'SKUEV0048'}], 'UEV': [{'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0229', 'SITETITLE_': 'Bukovské vrchy'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0386', 'SITETITLE_': 'Hostovické lúky'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0385', 'SITETITLE_': 'Pliškov'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0896', 'SITETITLE_': 'Pod Čierťažou'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0014', 'SITETITLE_': 'Lázky'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0011', 'SITETITLE_': 'Svetlica'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0387', 'SITETITLE_': 'Beskyd'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0016', 'SITETITLE_': 'Košariská'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV4056', 'SITETITLE_': 'Vápenické lúky'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV4054', 'SITETITLE_': 'Palotské lúky'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0761', 'SITETITLE_': 'Vydranka'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0211', 'SITETITLE_': 'Daňová'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0048', 'SITETITLE_': 'Dukla'}], 'MCHU': [{'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '549', 'SITETITLE_': 'PR Hostovické lúky'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '1253', 'SITETITLE_': 'PR Rydošová'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '502', 'SITETITLE_': 'PR Beskyd'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '633', 'SITETITLE_': 'NPR Palotská jedlina'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '618', 'SITETITLE_': 'PR Čertižnianské lúky'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '537', 'SITETITLE_': 'PR Haburské rašelinisko'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '587', 'SITETITLE_': 'NPR Komárnická jedlina'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': '522', 'SITETITLE_': 'PR Dranec'}], 'CHVU': [{'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKCHVU002', 'SITETITLE_': 'Bukovské vrchy'}, {'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}], 'UNESCO': [{'parcel_label': 'Chránená krajinná oblasť Východné Karpaty, okres Medzilaborce, Prešovský kraj, Východné Slovensko, Slovensko', 'Nazov_chra': 'Karpatske bukove pralesy a stare bukove lesy Nemecka', 'Kod_chrane': 'UN02'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562493/analysis.json...
+
+--- Časy spracovania dokumentu 562493 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  23.36 s
+  gis_processing      :   0.75 s
+  CELKOVÝ ČAS         :  24.13 s
+------------------------------------------
+Dokument 562493 bol úspešne spracovaný.

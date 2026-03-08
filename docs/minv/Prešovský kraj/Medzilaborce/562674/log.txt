@@ -1,0 +1,375 @@
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562674/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13  ods. 2 písm. e' zákona ''.
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562674/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+
+[1;31mGive Feedback / Get Help: https://github.com/BerriAI/litellm/issues/new[0m
+LiteLLM.Info: If you need to debug this error, use `litellm._turn_on_debug()'.
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2239, in completion
+    response = client.post(url=url, headers=headers, json=data, logging_obj=logging_obj)  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 836, in post
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 818, in post
+    response.raise_for_status()
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=None'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 2868, in completion
+    response = vertex_chat_completion.completion(  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2243, in completion
+    raise VertexAIError(
+litellm.llms.vertex_ai.common_utils.VertexAIError: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/llm_analyzer.py", line 23, in analyze_text_document
+    response = litellm.completion(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1371, in wrapper
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1244, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 3767, in completion
+    raise exception_type(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2273, in exception_type
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 1219, in exception_type
+    raise AuthenticationError(
+litellm.exceptions.AuthenticationError: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+Zlyhalo spracovanie dokumentu 562674 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=62&odbor=10&sekcia=uradna-tabula&subor=562674): Chyba počas LLM analýzy: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2239, in completion
+    response = client.post(url=url, headers=headers, json=data, logging_obj=logging_obj)  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 836, in post
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 818, in post
+    response.raise_for_status()
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=None'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 2868, in completion
+    response = vertex_chat_completion.completion(  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2243, in completion
+    raise VertexAIError(
+litellm.llms.vertex_ai.common_utils.VertexAIError: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/llm_analyzer.py", line 23, in analyze_text_document
+    response = litellm.completion(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1371, in wrapper
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1244, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 3767, in completion
+    raise exception_type(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2273, in exception_type
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 1219, in exception_type
+    raise AuthenticationError(
+litellm.exceptions.AuthenticationError: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/document_processor.py", line 400, in process_document
+    analysis_result_str = analyze_text_document(analysis_input_text)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/llm_analyzer.py", line 54, in analyze_text_document
+    raise RuntimeError(f"Chyba počas LLM analýzy: {e}")
+RuntimeError: Chyba počas LLM analýzy: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[ERROR]: Zlyhalo spracovanie dokumentu 562674 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=62&odbor=10&sekcia=uradna-tabula&subor=562674): Chyba počas LLM analýzy: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562674/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13  ods. 2 písm. e' zákona ''.
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562674/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01630645}
+LLM_tokens: {"input": 4589, "output": 4972, "total": 9561, "cached": 2009}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562674/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562674/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Medzilaborce', 'obec': 'Čabalovce', 'katastralne_uzemia': [{'nazov': 'Čabalovce', 'parcely': []}], 'nazov_lokality': 'Chránená krajinná oblasť Východné Karpaty', 'nazov_lokality_norm': 'Východné Karpaty'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Medzilaborce', 'obec': 'Čabalovce', 'katastralne_uzemia': [{'nazov': 'Čabalovce', 'parcely': []}], 'nazov_lokality': 'Chránená krajinná oblasť Východné Karpaty', 'nazov_lokality_norm': 'Východné Karpaty'}
+ku_name:Čabalovce obec:Čabalovce okres:Medzilaborce kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: medzilaborce norm_obec: cabalovce norm_ku: cabalovce
+_get_nationalCadastralZoningReferences() found_ids: {'808288'}
+nationalCadastralZoningReferences: ['808288']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27808288%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.16 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Východné Karpaty
+get_geometry_of_a_geoname nazov_lokality: Východné Karpaty
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Východné Karpaty, Čabalovce, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Východné Karpaty, Medzilaborce, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.4846 49.42426, 21.4862 49.42325, ...  ...  Chránená krajinná oblasť Východné Karpaty, okr...
+
+[1 rows x 11 columns]
+geoname_query: Východné Karpaty, Medzilaborce, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.98 49.25892, 21.98 49.25841...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.4846 49.42426, 21.4862 49.42325, ...  ...  Chránená krajinná oblasť Východné Karpaty, okr...
+
+[1 rows x 11 columns]
+/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562674/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Čabalovce', 'NATIONALSI': 'SKUEV0387', 'SITETITLE_': 'Beskyd'}, {'parcel_label': 'Čabalovce', 'NATIONALSI': 'SKUEV0016', 'SITETITLE_': 'Košariská'}], 'CHVU': [{'parcel_label': 'Čabalovce', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562674/analysis.json...
+
+--- Časy spracovania dokumentu 562674 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.03 s
+  llm_analysis        :  25.54 s
+  gis_processing      :   1.42 s
+  CELKOVÝ ČAS         :  26.99 s
+------------------------------------------
+Dokument 562674 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562674/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13  ods. 2 písm. e' zákona ''.
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562674/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00663935}
+LLM_tokens: {"input": 5167, "output": 1956, "total": 7123, "cached": 4027}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562674/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562674/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Medzilaborce', 'obec': 'Čabalovce', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'CHKO Východné Karpaty', 'nazov_lokality_norm': 'Východné Karpaty'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Medzilaborce', 'obec': 'Čabalovce', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'CHKO Východné Karpaty', 'nazov_lokality_norm': 'Východné Karpaty'}
+Fallback to OBEC: Čabalovce
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: medzilaborce norm_obec: cabalovce norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'808288'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27808288%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.14 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Východné Karpaty
+get_geometry_of_a_geoname nazov_lokality: Východné Karpaty
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Východné Karpaty, Čabalovce, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Východné Karpaty, Medzilaborce, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.4846 49.42426, 21.4862 49.42325, ...  ...  Chránená krajinná oblasť Východné Karpaty, okr...
+
+[1 rows x 11 columns]
+geoname_query: Východné Karpaty, Medzilaborce, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.98 49.25892, 21.98 49.25841...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.4846 49.42426, 21.4862 49.42325, ...  ...  Chránená krajinná oblasť Východné Karpaty, okr...
+
+[1 rows x 11 columns]
+/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562674/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Čabalovce', 'NATIONALSI': 'SKUEV0387', 'SITETITLE_': 'Beskyd'}, {'parcel_label': 'Čabalovce', 'NATIONALSI': 'SKUEV0016', 'SITETITLE_': 'Košariská'}], 'CHVU': [{'parcel_label': 'Čabalovce', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Medzilaborce/562674/analysis.json...
+
+--- Časy spracovania dokumentu 562674 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :   9.96 s
+  gis_processing      :   0.94 s
+  CELKOVÝ ČAS         :  10.92 s
+------------------------------------------
+Dokument 562674 bol úspešne spracovaný.

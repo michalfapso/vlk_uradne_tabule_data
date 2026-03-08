@@ -49,3 +49,61 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  13.08 s
 ------------------------------------------
 Dokument 562736 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Rožňava/562736/text.txt...
+Getting law excerpts...
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Rožňava/562736/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0100725}
+LLM_tokens: {"input": 5301, "output": 2474, "total": 7775, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Rožňava/562736/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Rožňava/562736/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Kováčová', 'katastralne_uzemia': [{'nazov': 'Kováčová', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'k. ú. Kováčová', 'nazov_lokality_norm': 'Kováčová'}
+data: {'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Kováčová', 'katastralne_uzemia': [{'nazov': 'Kováčová', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'k. ú. Kováčová', 'nazov_lokality_norm': 'Kováčová'}
+ku_name:Kováčová obec:Kováčová okres:Rožňava kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: roznava norm_obec: kovacova norm_ku: kovacova
+_get_nationalCadastralZoningReferences() found_ids: {'827797'}
+nationalCadastralZoningReferences: ['827797']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27827797%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.16 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Kováčová
+get_geometry_of_a_geoname nazov_lokality: Kováčová
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Kováčová, Kováčová, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.05746 48.61522, 19.05762 48.61518...  ...  Kováčová, okres Zvolen, Banskobystrický kraj, ...
+
+[1 rows x 11 columns]
+geoname_query: Kováčová, Kováčová, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.69878 48.68078, 20.6993 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.05746 48.61522, 19.05762 48.61518...  ...  Kováčová, okres Zvolen, Banskobystrický kraj, ...
+
+[1 rows x 11 columns]
+/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Rožňava/562736/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Rožňava/562736/analysis.json...
+
+--- Časy spracovania dokumentu 562736 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  13.10 s
+  gis_processing      :   0.58 s
+  CELKOVÝ ČAS         :  13.70 s
+------------------------------------------
+Dokument 562736 bol úspešne spracovaný.

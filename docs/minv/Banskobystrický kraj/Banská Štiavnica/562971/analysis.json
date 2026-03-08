@@ -3,6 +3,7 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-03-05",
   "datum_zverejnenia": "2026-03-05",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
@@ -27,31 +28,46 @@
         ]
       }
     ],
-    "nazov_lokality": "areál základnej školy v obci Svätý Anton"
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "areál základnej školy v obci Svätý Anton",
+    "nazov_lokality_norm": "Svätý Anton"
   },
-  "typ_dokumentu": "Informácia o začatí konania",
-  "typ_zasahu": [
-    "výstavba oplotenia"
+  "typ_dokumentu": "Zverejnenie informácie o začatí konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
   ],
+  "typ_zasahu": [
+    "oplotenie pozemku"
+  ],
+  "rozsah_zasahu": "oplotenie troch pozemkov (4929/2, 4929/4, 1209/1) pletivom výšky 1,8 m na hliníkových stĺpikoch",
   "typ_uzemia": [
-    "2. stupeň ochrany"
+    "2. stupeň",
+    "extravilán"
   ],
   "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "13 ods. 2 písm. d)",
+        "82 ods. 3"
+      ]
     },
     {
-      "zakon_nazov": "o správnom konaní (správny poriadok)",
-      "zakon_cislo": "71/1967 Zb."
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti obce Svätý Anton o súhlas na oplotenie pozemku v areáli základnej školy za hranicami zastavaného územia obce. Činnosť sa týka 2. stupňa ochrany na vybraných parcelách registra C v katastrálnom území Svätý Anton.",
+  "zhrnutie": "Oznámenie o začatí konania vo veci vydania súhlasu na oplotenie pozemkov v katastrálnom území Svätý Anton za účelom zabezpečenia areálu základnej školy. Časť dotknutého územia sa nachádza v extraviláne, čo si vyžaduje súhlas podľa druhého stupňa ochrany prírody.",
   "gis": {
     "zasiahnute_chranene_uzemia": {},
-    "source_type": null
+    "source_type": "PARCELA"
   }
 }

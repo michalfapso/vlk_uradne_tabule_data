@@ -3,9 +3,10 @@
   "cislo_rozhodnutia": "OU-DS-OSZP-2026/006333-004",
   "datum_dokumentu": "2026-02-25",
   "datum_zverejnenia": "2026-02-25",
+  "faza_konania": "ROZHODNUTIE",
   "ucast_v_konani": {
     "povolena": true,
-    "lehota_na_vyjadrenie": "do 15 dní odo dňa oznámenia rozhodnutia"
+    "lehota_na_vyjadrenie": "v lehote do 15 dní odo dňa oznámenia rozhodnutia"
   },
   "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, štátny podnik",
   "miesto_realizacie": {
@@ -35,64 +36,80 @@
         ]
       }
     ],
-    "nazov_lokality": "Kanál Trstená na Ostrove - Baka"
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "kanál Trstená na Ostrove - Baka",
+    "nazov_lokality_norm": "Trstená na Ostrove - Baka"
   },
   "typ_dokumentu": "Rozhodnutie",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "LES_VYRUB"
+  ],
   "typ_zasahu": [
-    "výstavba vodnej stavby",
+    "uskutočnenie vodnej stavby",
     "vtokový objekt",
     "výtokový objekt",
     "prepojovacie potrubie DN 600",
     "dočasné zníženie kamennej prehrádzky",
-    "výrub drevín",
-    "odstránenie krovitého porastu"
+    "výrub drevín"
   ],
+  "rozsah_zasahu": "prepojovacie potrubie DN 600 dĺžky cca 115 m, vtokový a výtokový objekt",
   "typ_uzemia": [
     "chránená vodohospodárska oblasť",
-    "CHKO Dunajské luhy"
+    "CHKO"
   ],
   "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [
-    "dreviny",
-    "krovitý porast"
+    "zver"
   ],
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
-      "zakon_cislo": "525/2003 Z. z."
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "26",
+        "61",
+        "73"
+      ]
     },
     {
-      "zakon_nazov": "o vodách (vodný zákon)",
-      "zakon_cislo": "364/2004 Z. z."
+      "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "48",
+        "61",
+        "66",
+        "117"
+      ]
     },
     {
-      "zakon_nazov": "o správnom konaní (správny poriadok)",
-      "zakon_cislo": "71/1967 Zb."
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "46",
+        "53",
+        "54"
+      ]
     },
     {
-      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
-      "zakon_cislo": "50/1976 Zb."
+      "nazov": "o chránených oblastiach prirodzenej akumulácie vôd",
+      "cislo": "305/2018",
+      "paragrafy": [
+        "3"
+      ]
     },
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
-    },
-    {
-      "zakon_nazov": "o chránených oblastiach prirodzenej akumulácie vôd",
-      "zakon_cislo": "305/2018 Z. z."
-    },
-    {
-      "zakon_nazov": "o pamiatkovom fonde",
-      "zakon_cislo": "49/2002 Z. z."
-    },
-    {
-      "zakon_nazov": "o elektronických komunikáciách",
-      "zakon_cislo": "452/2021 Z. z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
     }
   ],
-  "zhrnutie": "Stavebné povolenie pre Slovenský vodohospodársky podnik na vodnú stavbu „Sprietočnenie kanála Trstená na Ostrove - Baka“. Projekt v chránenej vodohospodárskej oblasti a CHKO Dunajské luhy zahŕňa výstavbu objektov a potrubia, pričom si vyžaduje aj povolenie na výrub drevín.",
+  "zhrnutie": "Vydanie stavebného povolenia pre SVP, š.p. na realizáciu vodnej stavby 'Sprietočnenie kanála Trstená na Ostrove - Baka' v k.ú. Trstená na Ostrove. Projekt zahŕňa výstavbu vtokových objektov a 115m prepojovacieho potrubia v chránenej vodohospodárskej oblasti, pričom dokument upozorňuje na potrebu vybavenia samostatného povolenia na výrub drevín.",
   "gis": {
-    "zasiahnute_chranene_uzemia": {}
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
   }
 }

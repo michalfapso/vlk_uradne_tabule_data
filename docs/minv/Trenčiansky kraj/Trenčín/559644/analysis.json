@@ -1,8 +1,9 @@
 {
-  "cislo_konania_spisu": "00761/2026/OR ŽA/SŽTS-1",
+  "cislo_konania_spisu": "0004717/2026",
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-01-13",
   "datum_zverejnenia": "2026-01-14",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": null,
     "lehota_na_vyjadrenie": null
@@ -25,12 +26,19 @@
         ]
       }
     ],
-    "nazov_lokality": "Ochranné pásmo dráhy"
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "ochranné pásmo dráhy, v blízkosti budovy stavadla, Trať Trenč. Teplá-Vl.Priesmyk",
+    "nazov_lokality_norm": "Nemšová"
   },
-  "typ_dokumentu": "Oznámenie o výrube",
-  "typ_zasahu": [
-    "výrub drevín"
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
   ],
+  "typ_zasahu": [
+    "výrub 6 ks drevín",
+    "asanačný výrub"
+  ],
+  "rozsah_zasahu": "6 ks drevín (Agát)",
   "typ_uzemia": [
     "ochranné pásmo dráhy"
   ],
@@ -41,20 +49,26 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o Železniciach Slovenskej republiky",
-      "zakon_cislo": "258/1993 Z. z."
+      "nazov": "o Železniciach Slovenskej republiky",
+      "cislo": "258/1993 Z. z.",
+      "paragrafy": []
     },
     {
-      "zakon_nazov": "o dráhach",
-      "zakon_cislo": "513/2009 Z. z."
+      "nazov": "o dráhach a o zmene a doplnení niektorých zákonov",
+      "cislo": "513/2009 Z. z.",
+      "paragrafy": []
     },
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47"
+      ]
     }
   ],
-  "zhrnutie": "Železnice Slovenskej republiky oznamujú plánovaný výrub 6 ks agátov v k. ú. Nemšová na parcele E-KN 2524/3. Dreviny rastú v ochrannom pásme dráhy, vykazujú známky vysychania a ohrozujú bezpečnosť železničnej dopravy.",
+  "zhrnutie": "Železnice Slovenskej republiky oznamujú výrub 6 kusov agátov v ochrannom pásme dráhy v katastrálnom území Nemšová. Dreviny sú v zlom stave a ohrozujú bezpečnosť železničnej dopravy. Výrub sa plánuje uskutočniť počas vegetačného pokoja do konca roka 2026.",
   "gis": {
-    "zasiahnute_chranene_uzemia": {}
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
   }
 }

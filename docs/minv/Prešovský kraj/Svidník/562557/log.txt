@@ -1,0 +1,357 @@
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562557/text.txt...
+Getting law excerpts...
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562557/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+
+[1;31mGive Feedback / Get Help: https://github.com/BerriAI/litellm/issues/new[0m
+LiteLLM.Info: If you need to debug this error, use `litellm._turn_on_debug()'.
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2239, in completion
+    response = client.post(url=url, headers=headers, json=data, logging_obj=logging_obj)  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 836, in post
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 818, in post
+    response.raise_for_status()
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=None'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 2868, in completion
+    response = vertex_chat_completion.completion(  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2243, in completion
+    raise VertexAIError(
+litellm.llms.vertex_ai.common_utils.VertexAIError: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/llm_analyzer.py", line 23, in analyze_text_document
+    response = litellm.completion(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1371, in wrapper
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1244, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 3767, in completion
+    raise exception_type(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2273, in exception_type
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 1219, in exception_type
+    raise AuthenticationError(
+litellm.exceptions.AuthenticationError: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+Zlyhalo spracovanie dokumentu 562557 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=59&odbor=10&sekcia=uradna-tabula&subor=562557): Chyba počas LLM analýzy: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2239, in completion
+    response = client.post(url=url, headers=headers, json=data, logging_obj=logging_obj)  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 836, in post
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 818, in post
+    response.raise_for_status()
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=None'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 2868, in completion
+    response = vertex_chat_completion.completion(  # type: ignore
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/llms/vertex_ai/gemini/vertex_and_google_ai_studio_gemini.py", line 2243, in completion
+    raise VertexAIError(
+litellm.llms.vertex_ai.common_utils.VertexAIError: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/llm_analyzer.py", line 23, in analyze_text_document
+    response = litellm.completion(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1371, in wrapper
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/utils.py", line 1244, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/main.py", line 3767, in completion
+    raise exception_type(
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2273, in exception_type
+    raise e
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/.venv/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 1219, in exception_type
+    raise AuthenticationError(
+litellm.exceptions.AuthenticationError: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/document_processor.py", line 400, in process_document
+    analysis_result_str = analyze_text_document(analysis_input_text)
+  File "/home/miso/projects/VLK/uradne_nastenky/analyzer/shared/llm_analyzer.py", line 54, in analyze_text_document
+    raise RuntimeError(f"Chyba počas LLM analýzy: {e}")
+RuntimeError: Chyba počas LLM analýzy: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[ERROR]: Zlyhalo spracovanie dokumentu 562557 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=59&odbor=10&sekcia=uradna-tabula&subor=562557): Chyba počas LLM analýzy: litellm.AuthenticationError: GeminiException - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562557/text.txt...
+Getting law excerpts...
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562557/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00767695}
+LLM_tokens: {"input": 4586, "output": 2096, "total": 6682, "cached": 2009}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562557/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562557/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Giraltovce', 'katastralne_uzemia': [{'nazov': 'Giraltovce', 'parcely': [{'typ': 'C', 'cisla': ['1721/58', '1279/3']}]}], 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Giraltovce', 'katastralne_uzemia': [{'nazov': 'Giraltovce', 'parcely': [{'typ': 'C', 'cisla': ['1721/58', '1279/3']}]}], 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Giraltovce obec:Giraltovce okres:Svidník kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: svidnik norm_obec: giraltovce norm_ku: giraltovce
+_get_nationalCadastralZoningReferences() found_ids: {'815136'}
+nationalCadastralZoningReferences: ['815136']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27815136_1721%2F58.C%27%2C%27815136_1279%2F3.C%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.42 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['1721/58', '1279/3']}' v KU 'Giraltovce' sa nenašli dáta.
+Fallback to OBEC: Giraltovce
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: svidnik norm_obec: giraltovce norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'815136', '950033'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27815136%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.13 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27950033%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.13 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.53695 49.13374, 21.53722 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((21.52097 49.14808, 21.52121 49...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562557/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'MCHU': [{'parcel_label': 'Giraltovce', 'NATIONALSI': '655', 'SITETITLE_': 'PR Radomka'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562557/analysis.json...
+
+--- Časy spracovania dokumentu 562557 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.03 s
+  llm_analysis        :  10.67 s
+  gis_processing      :   4.30 s
+  CELKOVÝ ČAS         :  14.99 s
+------------------------------------------
+Dokument 562557 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562557/text.txt...
+Getting law excerpts...
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562557/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00893315}
+LLM_tokens: {"input": 5164, "output": 2419, "total": 7583, "cached": 2013}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562557/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562557/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Giraltovce', 'katastralne_uzemia': [{'nazov': 'Giraltovce', 'parcely': [{'typ': 'C', 'cisla': ['1721/58', '1279/3']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Giraltovce', 'katastralne_uzemia': [{'nazov': 'Giraltovce', 'parcely': [{'typ': 'C', 'cisla': ['1721/58', '1279/3']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Giraltovce obec:Giraltovce okres:Svidník kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: svidnik norm_obec: giraltovce norm_ku: giraltovce
+_get_nationalCadastralZoningReferences() found_ids: {'815136'}
+nationalCadastralZoningReferences: ['815136']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27815136_1721%2F58.C%27%2C%27815136_1279%2F3.C%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.30 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['1721/58', '1279/3']}' v KU 'Giraltovce' sa nenašli dáta.
+Fallback to OBEC: Giraltovce
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: svidnik norm_obec: giraltovce norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'950033', '815136'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27950033%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.11 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27815136%27%29&f=application%2Fgeo%2Bjson 
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.11 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.52097 49.14808, 21.52121 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((21.53695 49.13374, 21.53722 49...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562557/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'MCHU': [{'parcel_label': 'Giraltovce', 'NATIONALSI': '655', 'SITETITLE_': 'PR Radomka'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Prešovský kraj/Svidník/562557/analysis.json...
+
+--- Časy spracovania dokumentu 562557 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  12.36 s
+  gis_processing      :   4.10 s
+  CELKOVÝ ČAS         :  16.48 s
+------------------------------------------
+Dokument 562557 bol úspešne spracovaný.

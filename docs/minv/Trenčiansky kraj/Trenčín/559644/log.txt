@@ -1,0 +1,39 @@
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Trenčín/559644/text.txt...
+Getting law excerpts...
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Trenčín/559644/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0125235}
+LLM_tokens: {"input": 6543, "output": 3387, "total": 9930, "cached": 2020}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Trenčín/559644/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Trenčín/559644/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Nemšová', 'katastralne_uzemia': [{'nazov': 'Nemšová', 'parcely': [{'typ': 'E', 'cisla': ['2524/3']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ochranné pásmo dráhy, v blízkosti budovy stavadla, Trať Trenč. Teplá-Vl.Priesmyk', 'nazov_lokality_norm': 'Nemšová'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Nemšová', 'katastralne_uzemia': [{'nazov': 'Nemšová', 'parcely': [{'typ': 'E', 'cisla': ['2524/3']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ochranné pásmo dráhy, v blízkosti budovy stavadla, Trať Trenč. Teplá-Vl.Priesmyk', 'nazov_lokality_norm': 'Nemšová'}
+ku_name:Nemšová obec:Nemšová okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: nemsova norm_ku: nemsova
+_get_nationalCadastralZoningReferences() found_ids: {'839639'}
+nationalCadastralZoningReferences: ['839639']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27839639_2524%2F3.E%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.71 s
+nazov_lokality: Nemšová
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2242'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Trenčín/559644/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Trenčín/559644/analysis.json...
+
+--- Časy spracovania dokumentu 559644 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  18.31 s
+  gis_processing      :   3.15 s
+  CELKOVÝ ČAS         :  21.46 s
+------------------------------------------
+Dokument 559644 bol úspešne spracovaný.

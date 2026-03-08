@@ -3,6 +3,7 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-02-27",
   "datum_zverejnenia": "2026-03-03",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "do 8 dní od doručenia podkladov"
@@ -53,19 +54,28 @@
         ]
       }
     ],
-    "nazov_lokality": "NPR Tajba"
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "mŕtve rameno Tajba",
+    "nazov_lokality_norm": "Tajba"
   },
   "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania",
-  "typ_zasahu": [
-    "výstavba vodnej stavby",
-    "dopĺňanie vody",
-    "odber povrchových vôd"
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
   ],
+  "typ_zasahu": [
+    "vodná stavba",
+    "dopĺňanie vody do mŕtveho ramena",
+    "odber povrchových vôd",
+    "gravitačné zavodňovacie potrubie"
+  ],
+  "rozsah_zasahu": "100 000 m3 ročne; potrubie DN 400 dl. 850,17 m",
   "typ_uzemia": [
     "Národná prírodná rezervácia Tajba",
+    "5. stupeň",
     "Natura 2000",
-    "CHKO Latorica",
-    "Chránené vtáčie územie Medzibodrožie",
+    "Veľkoplošné chránené územie Latorica",
+    "Chránené vtačie územie Medzibodrožie",
     "SKCHVU015"
   ],
   "je_v_chranenom_uzemi": true,
@@ -75,23 +85,41 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "Zákon o vodách",
-      "zakon_cislo": "364/2004 Z.z."
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "21",
+        "26",
+        "61",
+        "73"
+      ]
     },
     {
-      "zakon_nazov": "Stavebný zákon",
-      "zakon_cislo": "50/1976 Zb."
+      "nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "61",
+        "120"
+      ]
     },
     {
-      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy",
-      "zakon_cislo": "180/2013 Z.z."
+      "nazov": "Zákon o organizácii miestnej štátnej správy",
+      "cislo": "180/2013",
+      "paragrafy": [
+        "2",
+        "3",
+        "4"
+      ]
     },
     {
-      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
-      "zakon_cislo": "525/2003 Z.z."
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí vodoprávneho konania vo veci stavby gravitačného zavodňovacieho potrubia na dopĺňanie vody do NPR Tajba v obci Streda nad Bodrogom. Projekt LIFE IP NATURA 2000 má zabezpečiť stabilnú hladinu vody pre záchranu kriticky ohrozenej populácie korytnačky močiarnej v chránenom území Natura 2000.",
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania pre stavbu zavodňovacieho potrubia určeného na dopĺňanie vody do mŕtveho ramena Tajba. Cieľom projektu je záchrana kriticky ohrozenej populácie korytnačky močiarnej v NPR Tajba. Zásah sa realizuje v 5. stupni ochrany a na územiach Natura 2000.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "UEV": [
@@ -104,6 +132,31 @@
           "parcel_label": "2048",
           "NATIONALSI": "SKUEV0019",
           "SITETITLE_": "Tarbucka"
+        },
+        {
+          "parcel_label": "2067/2",
+          "NATIONALSI": "SKUEV0019",
+          "SITETITLE_": "Tarbucka"
+        },
+        {
+          "parcel_label": "2025/3",
+          "NATIONALSI": "SKUEV0236",
+          "SITETITLE_": "Bodrog"
+        },
+        {
+          "parcel_label": "2025/1",
+          "NATIONALSI": "SKUEV0236",
+          "SITETITLE_": "Bodrog"
+        },
+        {
+          "parcel_label": "1996/1",
+          "NATIONALSI": "SKUEV0236",
+          "SITETITLE_": "Bodrog"
+        },
+        {
+          "parcel_label": "607",
+          "NATIONALSI": "SKUEV0236",
+          "SITETITLE_": "Bodrog"
         },
         {
           "parcel_label": "720/2",
@@ -124,6 +177,11 @@
         },
         {
           "parcel_label": "2048",
+          "NATIONALSI": "691",
+          "SITETITLE_": "NPR Tajba"
+        },
+        {
+          "parcel_label": "2067/2",
           "NATIONALSI": "691",
           "SITETITLE_": "NPR Tajba"
         },
@@ -150,7 +208,87 @@
           "SITETITLE_": "Medzibodrožie"
         },
         {
+          "parcel_label": "2041",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2051/1",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2051/2",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
           "parcel_label": "2067/2",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2025/3",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2025/1",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2025/2",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2033",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "1996/1",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2017/1",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2049/1",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2056/1",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "607",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "711/1",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "729",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "705",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "704",
           "NATIONALSI": "SKCHVU015",
           "SITETITLE_": "Medzibodrožie"
         },
@@ -163,8 +301,24 @@
           "parcel_label": "721/2",
           "NATIONALSI": "SKCHVU015",
           "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "722/1",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "722/2",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "725/2",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
         }
       ]
-    }
+    },
+    "source_type": "PARCELA"
   }
 }

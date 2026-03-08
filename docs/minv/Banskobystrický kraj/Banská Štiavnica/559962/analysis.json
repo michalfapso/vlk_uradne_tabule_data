@@ -3,6 +3,7 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-01-20",
   "datum_zverejnenia": "2026-01-20",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
@@ -33,12 +34,18 @@
         ]
       }
     ],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_dokumentu": "Zverejnenie informácie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
   "typ_zasahu": [
     "výrub drevín"
   ],
+  "rozsah_zasahu": "2 ks drevín (1 ks vŕba - obvod 110 cm, 1 ks dub - obvod 163 cm)",
   "typ_uzemia": [
     "neviem"
   ],
@@ -50,15 +57,23 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 82 ods. 7",
+        "§ 47 ods. 3",
+        "§ 82 ods. 3"
+      ]
     },
     {
-      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
-      "zakon_cislo": "71/1967 Zb."
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "§ 19"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti o výrub 1 ks vŕby a 1 ks duba v k. ú. Banský Studenec na parcelách EKN 867 a 869. Výrub je odôvodnený vyčistením pozemkov mimo zastavaného územia obce.",
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu 1 kusa vŕby a 1 kusa duba v katastrálnom území Banský Studenec. Výrub sa má realizovať v extraviláne na parcelách registra EKN 867 a 869 z dôvodu vyčistenia pozemkov. Verejnosť a združenia môžu potvrdiť záujem byť účastníkom konania do 5 pracovných dní.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "UEV": [
@@ -83,6 +98,7 @@
           "SITETITLE_": "Skalka"
         }
       ]
-    }
+    },
+    "source_type": "PARCELA"
   }
 }

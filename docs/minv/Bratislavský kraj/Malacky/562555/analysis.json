@@ -2,10 +2,11 @@
   "cislo_konania_spisu": "OU-MA-OSZP-2026/007549-006",
   "cislo_rozhodnutia": "OU-MA-OSZP-2026/007549-0010210/2026",
   "datum_dokumentu": "2026-02-27",
-  "datum_zverejnenia": null,
+  "datum_zverejnenia": "2026-04-04",
+  "faza_konania": "ROZHODNUTIE",
   "ucast_v_konani": {
-    "povolena": true,
-    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa jeho doručenia"
+    "povolena": null,
+    "lehota_na_vyjadrenie": "odvolanie v lehote 15 dní odo dňa jeho doručenia"
   },
   "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
   "miesto_realizacie": {
@@ -26,74 +27,102 @@
         ]
       }
     ],
-    "nazov_lokality": "Rekonštrukcia priepustu na poľnej ceste"
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "rekonštrukcia priepustu na poľnej ceste v km 0,012",
+    "nazov_lokality_norm": "Lozorno"
   },
   "typ_dokumentu": "Stavebné povolenie",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
   "typ_zasahu": [
     "rekonštrukcia priepustu",
-    "výstavba vodnej stavby",
-    "výkopové práce",
-    "odstránenie vegetácie",
-    "výrub drevín",
-    "úprava vodného toku"
+    "odkop nánosov bahna",
+    "sanácia betónových plôch",
+    "úprava dna a brehov",
+    "odstránenie vegetácie"
   ],
+  "rozsah_zasahu": "rekonštrukcia priepustu na poľnej ceste v km 0,012",
   "typ_uzemia": [
-    "chránené územie",
-    "ochranné pásmo vodného zdroja",
-    "chránené ložiskové územie"
+    "ochranné pásmo vodných zdrojov",
+    "ochranné pásmo dráhy",
+    "ochranné pásmo VN vedenia",
+    "ochranné pásmo NN vedenia",
+    "ochranné pásmo káblových vedení"
   ],
   "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [
-    "vtáctvo",
     "dreviny",
     "kroviny",
-    "vegetácia"
+    "vtáctvo"
   ],
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
-      "zakon_cislo": "525/2003 Z.z."
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
     },
     {
-      "zakon_nazov": "o vodách (vodný zákon)",
-      "zakon_cislo": "364/2004 Z.z."
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "26",
+        "61",
+        "73"
+      ]
     },
     {
-      "zakon_nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
-      "zakon_cislo": "50/1976 Zb."
+      "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "62",
+        "66",
+        "67",
+        "76",
+        "120"
+      ]
     },
     {
-      "zakon_nazov": "o správnom konaní (správny poriadok)",
-      "zakon_cislo": "71/1967 Zb."
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "46",
+        "47",
+        "53",
+        "54",
+        "55"
+      ]
     },
     {
-      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
-      "zakon_cislo": "24/2006 Z.z."
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "38"
+      ]
     },
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z.z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
     },
     {
-      "zakon_nazov": "o odpadoch",
-      "zakon_cislo": "79/2015 Z.z."
-    },
-    {
-      "zakon_nazov": "o ochrane pamiatkového fondu",
-      "zakon_cislo": "49/2002 Z.z."
-    },
-    {
-      "zakon_nazov": "o verejných vodovodoch a verejných kanalizáciách",
-      "zakon_cislo": "442/2002 Z.z."
-    },
-    {
-      "zakon_nazov": "o energetike",
-      "zakon_cislo": "251/2012 Z.z."
+      "nazov": "o odpadoch",
+      "cislo": "79/2015",
+      "paragrafy": [
+        "14",
+        "77"
+      ]
     }
   ],
-  "zhrnutie": "Stavebné povolenie na rekonštrukciu priepustu v k.ú. Lozorno v rámci modernizácie železničnej trate Devínska Nová Ves – štátna hranica SR/ČR. Dokument stanovuje prísne environmentálne podmienky vrátane ochrany drevín, vodných tokov a realizácie prác mimo vegetačného obdobia resp. po ornitologickom prieskume.",
+  "zhrnutie": "Stavebné povolenie na rekonštrukciu priepustu na poľnej ceste v katastrálnom území Lozorno pre ŽSR. Zásah zahŕňa výkopové práce v koryte toku, sanáciu betónových konštrukcií a možný výrub drevín. Činnosť sa realizuje v ochrannom pásme vodných zdrojov a vyžaduje dodržanie prísnych environmentálnych opatrení vrátane ornitologického prieskumu.",
   "gis": {
-    "zasiahnute_chranene_uzemia": {}
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
   }
 }

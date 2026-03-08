@@ -3,6 +3,7 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-03-04",
   "datum_zverejnenia": "2026-03-04",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
@@ -12,33 +13,47 @@
     "kraj": "Prešovský kraj",
     "okres": "Medzilaborce",
     "obec": "Čabalovce",
-    "katastralne_uzemia": [],
-    "nazov_lokality": null
+    "katastralne_uzemia": [
+      {
+        "nazov": "Čabalovce",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Chránená krajinná oblasť Východné Karpaty",
+    "nazov_lokality_norm": "Východné Karpaty"
   },
   "typ_dokumentu": "Upovedomenie o začatom správnom konaní",
+  "kategorie_vlk": [
+    "POLNOHOSPODARSTVO"
+  ],
   "typ_zasahu": [
     "pasenie hospodárskych zvierat",
     "napájanie hospodárskych zvierat",
     "preháňanie hospodárskych zvierat",
-    "nocovanie hospodárskych zvierat",
-    "ustajnenie hospodárskych zvierat mimo stavieb"
+    "nocovanie hospodárskych zvierat na voľných ležoviskách",
+    "ustajnenie mimo stavieb"
   ],
+  "rozsah_zasahu": "stádo nad tridsať dobytčích jednotiek",
   "typ_uzemia": [
-    "Chránená krajinná oblasť Východné Karpaty",
-    "2. stupeň ochrany"
+    "Chránená krajinná oblasť",
+    "Východné Karpaty",
+    "2. stupeň"
   ],
   "je_v_chranenom_uzemi": true,
-  "dotknute_zivocichy_rastliny": [
-    "hospodárske zvieratá"
-  ],
+  "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82",
+        "13"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí konania vo veci vydania súhlasu na pasenie, napájanie a nocovanie hospodárskych zvierat (stádo nad 30 DJ) na voľných ležoviskách v obci Čabalovce, na území CHKO Východné Karpaty v 2. stupni ochrany.",
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci vydania súhlasu na pasenie a ustajnenie hospodárskych zvierat (nad 30 dobytčích jednotiek) mimo stavieb. Činnosť sa má realizovať v území CHKO Východné Karpaty s 2. stupňom ochrany v katastrálnom území obce Čabalovce.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "UEV": [
@@ -61,6 +76,6 @@
         }
       ]
     },
-    "source_type": "OBEC"
+    "source_type": "KATASTRALNE_UZEMIE"
   }
 }

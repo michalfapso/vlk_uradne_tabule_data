@@ -2,7 +2,8 @@
   "cislo_konania_spisu": "10061/2026-6.1",
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-03-03",
-  "datum_zverejnenia": "2026-03-03",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
@@ -13,17 +14,21 @@
     "okres": null,
     "obec": null,
     "katastralne_uzemia": [],
-    "nazov_lokality": "Tatranský národný park"
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Tatranský národný park",
+    "nazov_lokality_norm": "Tatranský národný park"
   },
-  "typ_dokumentu": "Informácia pre verejnosť",
-  "typ_zasahu": [
-    "vedecký výskum",
-    "výnimka z druhovej ochrany",
-    "výnimka z územnej ochrany"
+  "typ_dokumentu": "Informácia o začatom správnom konaní",
+  "kategorie_vlk": [
+    "VEDA_A_VYSKUM"
   ],
+  "typ_zasahu": [
+    "výnimka zo zákazov z druhovej a územnej ochrany",
+    "vedecký výskum"
+  ],
+  "rozsah_zasahu": "vedecký výskum chráneného živočícha druhu bobor vodný (Castor fiber)",
   "typ_uzemia": [
-    "Tatranský národný park",
-    "Národný park"
+    "Tatranský národný park"
   ],
   "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [
@@ -32,11 +37,12 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "zákon o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": []
     }
   ],
-  "zhrnutie": "Žiadosť o povolenie výnimky na vedecký výskum bobra vodného (Castor fiber) v Tatranskom národnom parku. Záujem o účasť v konaní je potrebné potvrdiť do piatich pracovných dní od zverejnenia informácie.",
+  "zhrnutie": "Žiadosť Fakulty životního prostředí ČZU v Prahe o povolenie výnimky na vedecký výskum bobra vodného v Tatranskom národnom parku. Konanie sa týka druhovej aj územnej ochrany a verejnosť sa môže prihlásiť do 5 pracovných dní od zverejnenia.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "5st_konsUEV": [
@@ -8512,6 +8518,7 @@
           "SITETITLE_": "Chočské vrchy"
         }
       ]
-    }
+    },
+    "source_type": "GEONAME"
   }
 }

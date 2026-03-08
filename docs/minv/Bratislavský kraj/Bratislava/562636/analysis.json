@@ -2,7 +2,8 @@
   "cislo_konania_spisu": "OU-BA-OSZP3-2025/501731-015",
   "cislo_rozhodnutia": "OU-BA-OSZP3-2025/501731-015",
   "datum_dokumentu": "2025-12-18",
-  "datum_zverejnenia": "2025-12-19",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa zverejnenia záväzného stanoviska v centrálnom informačnom systéme"
@@ -11,7 +12,7 @@
   "miesto_realizacie": {
     "kraj": "Bratislavský kraj",
     "okres": "Bratislava",
-    "obec": "Bratislava-Ružinov",
+    "obec": "Bratislava",
     "katastralne_uzemia": [
       {
         "nazov": "Ružinov",
@@ -39,65 +40,86 @@
         ]
       }
     ],
-    "nazov_lokality": "Areál Inprokom"
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "areál Inprokom, ulice Prešovská – Na paši – Teslova – Brestová",
+    "nazov_lokality_norm": "Teslova, Bratislava"
   },
   "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
-  "typ_zasahu": [
-    "výstavba bytových domov",
-    "búracie práce",
-    "sanácia environmentálnej záťaže",
-    "výrub drevín",
-    "výstavba podzemnej garáže",
-    "vrt studne",
-    "odber podzemných vôd"
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "CHEMIA"
   ],
+  "typ_zasahu": [
+    "výstavba polyfunkčného súboru",
+    "výrub 36 ks stromov",
+    "výrub 73 m2 kríkov",
+    "sanácia environmentálnej záťaže",
+    "búracie práce objektov"
+  ],
+  "rozsah_zasahu": "254 bytov a apartmánov, 14 prevádzok, výrub 36 ks stromov a 73 m2 kríkov, plocha nad 10 000 m2",
   "typ_uzemia": [
-    "1. stupeň územnej ochrany",
-    "ochranné pásmo letiska",
-    "ochranné pásmo radaru"
+    "1. stupeň ochrany"
   ],
   "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [
-    "Ailanthus altissima (pahýľ voňavý)",
-    "Negundo aceroides (javorovec jaseňolistý)"
+    "Ailanthus altissima",
+    "Negundo aceroides"
   ],
   "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/obytny-subor-teslova",
   "zakony": [
     {
-      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
-      "zakon_cislo": "24/2006 Z. z."
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "3",
+        "18",
+        "24",
+        "25",
+        "29",
+        "30",
+        "38",
+        "56"
+      ]
     },
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "17",
+        "28",
+        "28b",
+        "47",
+        "49"
+      ]
     },
     {
-      "zakon_nazov": "o správnom konaní (správny poriadok)",
-      "zakon_cislo": "71/1967 Zb."
+      "nazov": "o geologických prácach (geologický zákon)",
+      "cislo": "569/2007 Z. z.",
+      "paragrafy": [
+        "3",
+        "18",
+        "19",
+        "36"
+      ]
     },
     {
-      "zakon_nazov": "o odpadoch",
-      "zakon_cislo": "79/2015 Z. z."
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "1"
+      ]
     },
     {
-      "zakon_nazov": "o ochrane, podpore a rozvoji verejného zdravia",
-      "zakon_cislo": "355/2007 Z. z."
-    },
-    {
-      "zakon_nazov": "o geologických prácach (geologický zákon)",
-      "zakon_cislo": "569/2007 Z. z."
-    },
-    {
-      "zakon_nazov": "o územnom plánovaní",
-      "zakon_cislo": "200/2022 Z. z."
-    },
-    {
-      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
-      "zakon_cislo": "525/2003 Z. z."
+      "nazov": "o odpadoch",
+      "cislo": "79/2015 Z. z.",
+      "paragrafy": [
+        "77"
+      ]
     }
   ],
-  "zhrnutie": "Záväzné stanovisko určuje, že projekt obytného súboru Teslova v Bratislave-Ružinove sa nebude posudzovať podľa zákona EIA. Zámer zahŕňa búracie práce, sanáciu environmentálnej záťaže bývalých čistiarní a výstavbu 12 bytových domov, pričom dôjde k výrubu 36 stromov v území s prvým stupňom ochrany.",
+  "zhrnutie": "Projekt Obytný súbor Teslova v Bratislave-Ružinove zahŕňa výstavbu 12 bytových domov a sanáciu environmentálnej záťaže (tetrachlóretylén) v bývalom areáli Inprokom. Súčasťou je výrub 36 stromov a 73 m2 kríkov v 1. stupni ochrany v zastavanom území. Úrad v zisťovacom konaní rozhodol, že zámer sa nebude ďalej posudzovať podľa zákona EIA za predpokladu dodržania určených opatrení.",
   "gis": {
-    "zasiahnute_chranene_uzemia": {}
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
   }
 }

@@ -2,10 +2,11 @@
   "cislo_konania_spisu": "OU-LM-OSZP-2026/001256-016",
   "cislo_rozhodnutia": "OU-LM-OSZP-2026/001256-0007889/2026",
   "datum_dokumentu": "2026-02-25",
-  "datum_zverejnenia": "2026-02-25",
+  "datum_zverejnenia": "2026-02-26",
+  "faza_konania": "ROZHODNUTIE",
   "ucast_v_konani": {
     "povolena": true,
-    "lehota_na_vyjadrenie": "do 15 dní od dňa jeho doručenia"
+    "lehota_na_vyjadrenie": "do 15 dní od dňa jeho doručenia (pre verejnosť je dňom doručenia prvý deň zverejnenia v centrálnom informačnom systéme)"
   },
   "ziadatel_navrhovatel": "Tatra Forest, s. r. o.",
   "miesto_realizacie": {
@@ -27,47 +28,77 @@
         ]
       }
     ],
-    "nazov_lokality": "Víkendové domky Andice"
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Víkendové domky Andice",
+    "nazov_lokality_norm": "Andice, Liptovský Mikuláš"
   },
   "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
-  "typ_zasahu": [
-    "výstavba budovy",
-    "výstavba cesty",
-    "výstavba energetického diela",
-    "odber podzemných vôd",
-    "vsakovanie vôd"
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INZINIERSKE_SIETE"
   ],
+  "typ_zasahu": [
+    "výstavba rekreačného areálu",
+    "32 rekreačných objektov",
+    "dopravná infraštruktúra",
+    "technická infraštruktúra",
+    "VN prípojka",
+    "kiosková trafostanica",
+    "studne",
+    "žumpy"
+  ],
+  "rozsah_zasahu": "32 objektov, zastavaná plocha 2 178 m2, celková plocha územia 23 941,8 m2",
   "typ_uzemia": [
     "ochranné pásmo Národného parku Nízke Tatry",
     "2. stupeň ochrany"
   ],
   "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [
-    "sprievodná vegetácia vodného toku Andický jarok",
+    "Andický jarok (vodný tok)",
     "trávne porasty",
+    "dreviny",
     "mokraďová vegetácia"
   ],
   "odkaz_enviroportal": "https://www.enviroportal.sk",
   "zakony": [
     {
-      "zakon_nazov": "o posudzovaní vplyvov na životné prostredie",
-      "zakon_cislo": "24/2006 Z. z."
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "2",
+        "3",
+        "18",
+        "24",
+        "29",
+        "29a",
+        "56",
+        "64"
+      ]
     },
     {
-      "zakon_nazov": "o organizácii miestnej štátnej správy",
-      "zakon_cislo": "180/2013 Z. z."
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": [
+        "4"
+      ]
     },
     {
-      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
-      "zakon_cislo": "525/2003 Z. z."
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "5"
+      ]
     },
     {
-      "zakon_nazov": "Správny súdny poriadok",
-      "zakon_cislo": "162/2015 Z. z."
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015 Z. z.",
+      "paragrafy": []
     }
   ],
-  "zhrnutie": "Výstavba areálu s 32 rekreačnými objektmi a súvisiacou infraštruktúrou v k. ú. Benice (lokalita Andice) v ochrannom pásme NP Nízke Tatry. Okresný úrad rozhodol, že činnosť sa nebude ďalej posudzovať podľa zákona EIA, napriek upozorneniu Správy NAPANT na možný vplyv na blízku mokraď.",
+  "zhrnutie": "Výstavba rekreačného areálu 'Víkendové domky Andice' s 32 objektmi a infraštruktúrou na ploche 2,4 ha v k.ú. Benice. Lokalita sa nachádza v 2. stupni ochrany (ochranné pásmo NP Nízke Tatry) v blízkosti vodného toku a mokradí. Úrad rozhodol, že činnosť sa nebude ďalej posudzovať podľa zákona EIA.",
   "gis": {
-    "zasiahnute_chranene_uzemia": {}
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
   }
 }

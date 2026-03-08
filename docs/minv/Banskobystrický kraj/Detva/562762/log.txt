@@ -65,3 +65,50 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  25.48 s
 ------------------------------------------
 Dokument 562762 bol úspešne spracovaný.
+[2026-03-08 10:32:29] processing document '/home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Detva/562762'
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Detva/562762/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 3' zákona ''.
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Detva/562762/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009204}
+LLM_tokens: {"input": 4770, "output": 2273, "total": 7043, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Detva/562762/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Detva/562762/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Detva', 'obec': 'Detva', 'katastralne_uzemia': [{'nazov': 'Detva', 'parcely': [{'typ': 'C', 'cisla': ['10466/6']}, {'typ': 'E', 'cisla': ['14027', '14030']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Detva', 'obec': 'Detva', 'katastralne_uzemia': [{'nazov': 'Detva', 'parcely': [{'typ': 'C', 'cisla': ['10466/6']}, {'typ': 'E', 'cisla': ['14027', '14030']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Detva obec:Detva okres:Detva kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: detva norm_obec: detva norm_ku: detva
+_get_nationalCadastralZoningReferences() found_ids: {'810363'}
+nationalCadastralZoningReferences: ['810363']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27810363_10466%2F6.C%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.11 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27810363_14027.E%27%2C%27810363_14030.E%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.95 s
+nazov_lokality: None
+gdf_parcelset:       @featureType                      areaValue  ...                                            validTo             administrativeUnit
+0  CadastralParcel  {'value': 8913, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1827'}
+1  CadastralParcel   {'value': 442, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1827'}
+2  CadastralParcel  {'value': 1440, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1827'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Detva/562762/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '10466/6', 'NATIONALSI': 'SKCHVU022', 'SITETITLE_': 'Poľana'}, {'parcel_label': '14027', 'NATIONALSI': 'SKCHVU022', 'SITETITLE_': 'Poľana'}, {'parcel_label': '14030', 'NATIONALSI': 'SKCHVU022', 'SITETITLE_': 'Poľana'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Detva/562762/analysis.json...
+
+--- Časy spracovania dokumentu 562762 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.04 s
+  llm_analysis        :  13.42 s
+  gis_processing      :   6.70 s
+  CELKOVÝ ČAS         :  20.16 s
+------------------------------------------
+Dokument 562762 bol úspešne spracovaný.

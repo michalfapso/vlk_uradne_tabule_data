@@ -3,6 +3,7 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-02-27",
   "datum_zverejnenia": "2026-02-27",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
@@ -26,12 +27,18 @@
         ]
       }
     ],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
   "typ_zasahu": [
     "výrub náletových drevín"
   ],
+  "rozsah_zasahu": "náletové dreviny",
   "typ_uzemia": [
     "neviem"
   ],
@@ -40,9 +47,24 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub náletových drevín v k.ú. Giraltovce na parcelách registra C č. 1721/59 a 1549/5. Žiadosť podali fyzické osoby a lehota na prihlásenie sa do konania je 5 pracovných dní."
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub náletových drevín v k.ú. Giraltovce na parcelách registra C. Žiadosť podali štyri fyzické osoby (rodina Mihokovcov), pričom verejnosť môže v lehote 5 pracovných dní potvrdiť svoj záujem byť účastníkom v konaní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Giraltovce",
+          "NATIONALSI": "655",
+          "SITETITLE_": "PR Radomka"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
 }

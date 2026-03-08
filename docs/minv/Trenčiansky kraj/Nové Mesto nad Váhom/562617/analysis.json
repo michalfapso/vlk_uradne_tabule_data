@@ -2,7 +2,8 @@
   "cislo_konania_spisu": "OU-NM-OSZP-2026/005301-2",
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-03-02",
-  "datum_zverejnenia": null,
+  "datum_zverejnenia": "2026-03-02",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
@@ -25,14 +26,21 @@
         ]
       }
     ],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
   },
   "typ_dokumentu": "Oznámenie o začatí správneho konania",
-  "typ_zasahu": [
-    "výrub drevín"
+  "kategorie_vlk": [
+    "LES_VYRUB"
   ],
+  "typ_zasahu": [
+    "výrub drevín rastúcich mimo lesa",
+    "výrub 2 ks drevín"
+  ],
+  "rozsah_zasahu": "2 ks orech kráľovský (obvody 185 cm a 240 cm)",
   "typ_uzemia": [
-    "druhý stupeň ochrany"
+    "2. stupeň ochrany"
   ],
   "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [
@@ -41,20 +49,37 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
-      "zakon_cislo": "71/1967 Zb."
+      "nazov": "Zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "18 ods. 3",
+        "19 ods. 1"
+      ]
     },
     {
-      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
-      "zakon_cislo": "525/2003 Z.z."
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z.z.",
+      "paragrafy": [
+        "5 ods. 1"
+      ]
     },
     {
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z.z."
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "13",
+        "47 ods. 3",
+        "64 ods. 1 písm. d)",
+        "68 písm. c)",
+        "82 ods. 3",
+        "82 ods. 6",
+        "82 ods. 7"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu 2 ks orecha kráľovského v katastrálnom území Zemianske Podhradie na parcele registra C č. 1601/6. Lokalita sa nachádza mimo zastavaného územia obce v území s druhým stupňom ochrany.",
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu 2 kusov orecha kráľovského rastúcich na ornej pôde mimo zastavaného územia obce Zemianske Podhradie. Lokalita sa nachádza v 2. stupni ochrany prírody a dôvodom výrubu je bezpečnosť osôb a ochrana oplotenia.",
   "gis": {
-    "zasiahnute_chranene_uzemia": {}
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
   }
 }

@@ -1,8 +1,9 @@
 {
   "cislo_konania_spisu": "OU-IL-OSZP-2026/000659-002 CIE",
   "cislo_rozhodnutia": null,
-  "datum_dokumentu": null,
+  "datum_dokumentu": "2026-02-16",
   "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
@@ -25,13 +26,18 @@
         ]
       }
     ],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "parc. č. KN-C 1384/3 v k. ú. Pruské",
+    "nazov_lokality_norm": null
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
-  "typ_zasahu": [
-    "výrub drevín",
-    "výstavba oplotenia"
+  "typ_dokumentu": "Oznámenie o začatí konania na úseku ochrany prírody a krajiny",
+  "kategorie_vlk": [
+    "LES_VYRUB"
   ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "1 ks Lipa veľkolistá (obvod kmeňa 100 cm)",
   "typ_uzemia": [
     "prvý stupeň ochrany"
   ],
@@ -42,25 +48,38 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
-      "zakon_cislo": "525/2003 Z. z."
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "§ 1 ods. 1 písm. c)",
+        "§ 5 ods. 1"
+      ]
     },
     {
-      "zakon_nazov": "Zákon o organizácii miestnej štátnej správy",
-      "zakon_cislo": "180/2013 Z. z."
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": []
     },
     {
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 47 ods. 3",
+        "§ 82 ods. 7",
+        "§ 82 ods. 3"
+      ]
     },
     {
-      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
-      "zakon_cislo": "71/1967 Zb."
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "§ 19 ods. 1"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí konania vo veci výrubu jednej lipy veľkolistej v k. ú. Pruské na parcele č. 1384/3. Dôvodom výrubu je zásah do elektrického vedenia a plánovaná výstavba oplotenia v území s prvým stupňom ochrany.",
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu 1 ks lipy veľkolistej s obvodom kmeňa 100 cm v katastrálnom území Pruské. Zásah sa plánuje v extraviláne v prvom stupni ochrany z dôvodu kolízie s elektrickým vedením a plánovaným oplotením. Združenia môžu potvrdiť svoj záujem byť účastníkom konania do 5 pracovných dní od zverejnenia.",
   "gis": {
     "zasiahnute_chranene_uzemia": {},
-    "source_type": null
+    "source_type": "PARCELA"
   }
 }

@@ -1,0 +1,43 @@
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/562617/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých  zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'citovaného zákona, sa považuje za zúčastnenú osobu.    Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'uvedie v písomnom  oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno  a priezvisko osoby oprávnenej konať v jeh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona ''.
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/562617/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.016892}
+LLM_tokens: {"input": 9094, "output": 4115, "total": 13209, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/562617/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/562617/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Zemianske Podhradie', 'katastralne_uzemia': [{'nazov': 'Zemianske Podhradie', 'parcely': [{'typ': 'C', 'cisla': ['1601/6']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Zemianske Podhradie', 'katastralne_uzemia': [{'nazov': 'Zemianske Podhradie', 'parcely': [{'typ': 'C', 'cisla': ['1601/6']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Zemianske Podhradie obec:Zemianske Podhradie okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: zemianske podhradie norm_ku: zemianske podhradie
+_get_nationalCadastralZoningReferences() found_ids: {'873080'}
+nationalCadastralZoningReferences: ['873080']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27873080_1601%2F6.C%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.06 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1183'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/562617/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/562617/analysis.json...
+
+--- Časy spracovania dokumentu 562617 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  25.10 s
+  gis_processing      :   3.50 s
+  CELKOVÝ ČAS         :  28.62 s
+------------------------------------------
+Dokument 562617 bol úspešne spracovaný.

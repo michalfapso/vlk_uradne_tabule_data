@@ -2,7 +2,8 @@
   "cislo_konania_spisu": "OU-TT-OSZP3-2026/063536-002",
   "cislo_rozhodnutia": "OU-TT-OSZP3-2021/010204-008",
   "datum_dokumentu": "2026-03-03",
-  "datum_zverejnenia": "2026-03-03",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "do: 10. 03. 2026"
@@ -13,13 +14,19 @@
     "okres": "Trnava",
     "obec": null,
     "katastralne_uzemia": [],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
   },
   "typ_dokumentu": "Upovedomenie o začatí správneho konania",
-  "typ_zasahu": [
-    "používanie chemických látok",
-    "aplikácia hnojív"
+  "kategorie_vlk": [
+    "CHEMIA"
   ],
+  "typ_zasahu": [
+    "predĺženie platnosti rozhodnutia",
+    "súhlas na pozemnú aplikáciu chemických látok a hnojív pri poľnohospodárskej činnosti"
+  ],
+  "rozsah_zasahu": null,
   "typ_uzemia": [
     "neviem"
   ],
@@ -28,9 +35,14 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "89 ods. 2",
+        "82 ods. 3"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci predĺženia súhlasu na pozemnú aplikáciu chemických látok a hnojív v okrese Trnava pre žiadateľa SHR Marián Novák. Lehota na potvrdenie záujmu o účasť v konaní je do 10. 03. 2026."
+  "zhrnutie": "Začalo sa správne konanie vo veci predĺženia platnosti súhlasu na pozemnú aplikáciu chemických látok a hnojív pri poľnohospodárskej činnosti pre žiadateľa SHR Marián Novák v okrese Trnava. Verejnosť môže potvrdiť svoj záujem byť zúčastnenou osobou v konaní do 10. marca 2026."
 }

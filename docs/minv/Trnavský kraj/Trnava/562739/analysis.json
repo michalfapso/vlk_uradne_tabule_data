@@ -1,8 +1,9 @@
 {
   "cislo_konania_spisu": "OU-TT-OSZP3-2026/063542-002",
-  "cislo_rozhodnutia": "OU-TT-OSZP3-2022/013670-008",
+  "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-03-03",
   "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "do: 10. 03. 2026"
@@ -13,24 +14,32 @@
     "okres": "Trnava",
     "obec": null,
     "katastralne_uzemia": [],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
   },
   "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "POLNOHOSPODARSTVO"
+  ],
   "typ_zasahu": [
-    "umiestnenie krátkodobých prenosných zariadení",
-    "elektrické ohradníky"
+    "umiestnenie krátkodobých prenosných zariadení – elektrických ohradníkov"
   ],
-  "typ_uzemia": [
-    "neviem"
-  ],
+  "rozsah_zasahu": "krátkodobé prenosné zariadenia – elektrické ohradníky",
+  "typ_uzemia": [],
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "zákon o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82 ods. 7",
+        "89 ods. 2",
+        "82 ods. 3"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci predĺženia platnosti rozhodnutia o súhlase na umiestnenie elektrických ohradníkov pre žiadateľa SHR Marián Novák. Verejnosť môže doručiť potvrdenie záujmu byť zúčastnenou osobou v lehote do 10. marca 2026."
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci predĺženia súhlasu na umiestnenie elektrických ohradníkov v okrese Trnava pre žiadateľa SHR Marián Novák. Verejnosť môže potvrdiť záujem byť účastníkom konania do 10. marca 2026. Dokument nešpecifikuje presnú obec ani katastrálne územie."
 }

@@ -1,8 +1,9 @@
 {
-  "cislo_konania_spisu": "OU-RV-OSZP-2026/004465-002",
+  "cislo_konania_spisu": "OU-RV -OSZP-2026/004465-002",
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-03-03",
-  "datum_zverejnenia": null,
+  "datum_zverejnenia": "2026-03-03",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
@@ -18,109 +19,38 @@
         "parcely": []
       }
     ],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "k. ú. Kováčová",
+    "nazov_lokality_norm": "Kováčová"
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
-  "typ_zasahu": [
-    "výrub drevín",
-    "rekonštrukcia mostného objektu",
-    "výstavba dočasnej obchádzkovej trasy"
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
   ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
   "typ_uzemia": [
     "neviem"
   ],
   "je_v_chranenom_uzemi": null,
-  "dotknute_zivocichy_rastliny": [
-    "dreviny"
-  ],
+  "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "zákon o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
-    }
-  ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci udelenia súhlasu na výrub drevín v k. ú. Kováčová. Výrub je plánovaný z dôvodu rekonštrukcie mostného objektu a vybudovania dočasnej obchádzkovej trasy žiadateľom CiDeCo.",
-  "gis": {
-    "zasiahnute_chranene_uzemia": {
-      "5st_konsUEV": [
-        {
-          "parcel_label": "Kováčová",
-          "NAZOV_UEV": "Drieňovec",
-          "KOD_UEV": "SKUEV0342"
-        },
-        {
-          "parcel_label": "Kováčová",
-          "NAZOV_UEV": "Drieňovec",
-          "KOD_UEV": "SKUEV0342"
-        },
-        {
-          "parcel_label": "Kováčová",
-          "NAZOV_UEV": "Drieňovec",
-          "KOD_UEV": "SKUEV0342"
-        },
-        {
-          "parcel_label": "Kováčová",
-          "NAZOV_UEV": "Drieňovec",
-          "KOD_UEV": "SKUEV0342"
-        },
-        {
-          "parcel_label": "Kováčová",
-          "NAZOV_UEV": "Drieňovec",
-          "KOD_UEV": "SKUEV0342"
-        },
-        {
-          "parcel_label": "Kováčová",
-          "NAZOV_UEV": "Drieňovec",
-          "KOD_UEV": "SKUEV0342"
-        },
-        {
-          "parcel_label": "Kováčová",
-          "NAZOV_UEV": "Drieňovec",
-          "KOD_UEV": "SKUEV0342"
-        },
-        {
-          "parcel_label": "Kováčová",
-          "NAZOV_UEV": "Drieňovec",
-          "KOD_UEV": "SKUEV0342"
-        }
-      ],
-      "UEV": [
-        {
-          "parcel_label": "Kováčová",
-          "NATIONALSI": "SKUEV4001",
-          "SITETITLE_": "Lúky Horného vrchu"
-        },
-        {
-          "parcel_label": "Kováčová",
-          "NATIONALSI": "SKUEV0342",
-          "SITETITLE_": "Drieňovec"
-        },
-        {
-          "parcel_label": "Kováčová",
-          "NATIONALSI": "SKUEV0356",
-          "SITETITLE_": "Horný vrch"
-        }
-      ],
-      "CHVU": [
-        {
-          "parcel_label": "Kováčová",
-          "NATIONALSI": "SKCHVU027",
-          "SITETITLE_": "Slovenský kras"
-        },
-        {
-          "parcel_label": "Kováčová",
-          "NATIONALSI": "SKCHVU036",
-          "SITETITLE_": "Volovské vrchy"
-        }
-      ],
-      "UNESCO": [
-        {
-          "parcel_label": "Kováčová",
-          "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
-          "Kod_chrane": "UN01"
-        }
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 3",
+        "82 ods. 3",
+        "82 ods. 7"
       ]
     }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci súhlasu na výrub drevín v k. ú. Kováčová. Výrub je požadovaný z dôvodu rekonštrukcie mostného objektu a výstavby dočasnej obchádzkovej trasy spoločnosťou CiDeCo.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
   }
 }

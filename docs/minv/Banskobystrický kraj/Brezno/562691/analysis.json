@@ -1,13 +1,14 @@
 {
   "cislo_konania_spisu": null,
   "cislo_rozhodnutia": null,
-  "datum_dokumentu": null,
+  "datum_dokumentu": "2026-03-03",
   "datum_zverejnenia": "2026-03-03",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "v lehote do 5 pracovných dní od zverejnenia informácie"
   },
-  "ziadatel_navrhovatel": "Samuel Cerovský, Pavla Cerovská",
+  "ziadatel_navrhovatel": "Samuel Cerovský a Pavla Cerovská",
   "miesto_realizacie": {
     "kraj": "Banskobystrický kraj",
     "okres": "Brezno",
@@ -25,31 +26,44 @@
         ]
       }
     ],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
   "typ_zasahu": [
     "zásah do biotopu"
   ],
+  "rozsah_zasahu": null,
   "typ_uzemia": [
-    "biotop európskeho významu",
-    "biotop národného významu"
+    "biotop"
   ],
-  "je_v_chranenom_uzemi": true,
+  "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z.z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "6",
+        "82"
+      ]
     },
     {
-      "zakon_nazov": "o správnom konaní (správny poriadok)",
-      "zakon_cislo": "71/1967 Zb."
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "19"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o súhlas na zásah do biotopu v obci Michalová na parcele KN C 1733/15. Žiadosť podali Samuel Cerovský a Pavla Cerovská a konanie sa týka ochrany prírodných biotopov podľa zákona č. 543/2002 Z.z.",
+  "zhrnutie": "Oznámenie o začatí správneho konania na základe žiadosti Samuela Cerovského a Pavly Cerovskej o vydanie súhlasu na zásah do biotopu. Činnosť sa má realizovať v k.ú. Michalová na parcele C-KN 1733/15. Verejnosť môže potvrdiť svoj záujem byť účastníkom konania do 5 pracovných dní od zverejnenia.",
   "gis": {
-    "zasiahnute_chranene_uzemia": {}
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
   }
 }

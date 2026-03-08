@@ -3,6 +3,7 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-02-26",
   "datum_zverejnenia": "2026-02-26",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
@@ -12,36 +13,42 @@
     "kraj": "Prešovský kraj",
     "okres": "Medzilaborce",
     "obec": "Palota",
-    "katastralne_uzemia": [
-      {
-        "nazov": "Palota",
-        "parcely": []
-      }
-    ],
-    "nazov_lokality": null
+    "katastralne_uzemia": [],
+    "parcely": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Chránená krajinná oblasť Východné Karpaty",
+    "nazov_lokality_norm": "Východné Karpaty"
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
-  "typ_zasahu": [
-    "pasenie hospodárskych zvierat",
-    "napájanie hospodárskych zvierat",
-    "preháňanie hospodárskych zvierat",
-    "nocovanie hospodárskych zvierat na voľných ležoviskách",
-    "ustajnenie hospodárskych zvierat mimo stavieb"
+  "typ_dokumentu": "Upovedomenie o začatom správnom konaní",
+  "kategorie_vlk": [
+    "POLNOHOSPODARSTVO"
   ],
+  "typ_zasahu": [
+    "vydanie súhlasu na pasenie, napájanie, preháňanie a nocovanie hospodárskych zvierat na voľných ležoviskách",
+    "ustajnenie mimo stavieb alebo zariadení"
+  ],
+  "rozsah_zasahu": "stádo nad tridsať dobytčích jednotiek",
   "typ_uzemia": [
     "Chránená krajinná oblasť Východné Karpaty",
-    "2. stupeň ochrany"
+    "2. st. ochrany",
+    "2. stupeň"
   ],
   "je_v_chranenom_uzemi": true,
-  "dotknute_zivocichy_rastliny": [],
+  "dotknute_zivocichy_rastliny": [
+    "hospodárske zvieratá"
+  ],
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "zákon o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "13 ods. 2 písm. e/"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí konania vo veci vydania súhlasu na pasenie, napájanie a ustajnenie hospodárskych zvierat (nad 30 DJ) pre AGROMECH, s.r.o. v obci Palota. Činnosť má prebiehať v CHKO Východné Karpaty v 2. stupni ochrany.",
+  "zhrnutie": "Začatie správneho konania o vydanie súhlasu na pasenie, napájanie a ustajnenie stáda nad 30 dobytčích jednotiek na voľných ležoviskách mimo stavieb. Zásah sa nachádza v Chránenej krajinnej oblasti Východné Karpaty v 2. stupni ochrany prírody.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "UEV": [
@@ -75,6 +82,7 @@
           "SITETITLE_": "Laborecká vrchovina"
         }
       ]
-    }
+    },
+    "source_type": "OBEC"
   }
 }

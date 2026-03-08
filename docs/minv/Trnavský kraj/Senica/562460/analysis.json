@@ -2,10 +2,11 @@
   "cislo_konania_spisu": "OU-SE-OSZP-2026/008473-002",
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-02-26",
-  "datum_zverejnenia": null,
+  "datum_zverejnenia": "2026-02-26",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
-    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+    "lehota_na_vyjadrenie": "piatich pracovných dní od zverejnenia informácie"
   },
   "ziadatel_navrhovatel": "Domov sociálnych služieb pre dospelých v Moravskom Svätom Jáne",
   "miesto_realizacie": {
@@ -25,31 +26,41 @@
         ]
       }
     ],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
   },
   "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
   "typ_zasahu": [
     "výrub drevín"
   ],
+  "rozsah_zasahu": "5 ks drevín",
   "typ_uzemia": [
     "neviem"
   ],
   "je_v_chranenom_uzemi": null,
-  "dotknute_zivocichy_rastliny": [
-    "dreviny"
-  ],
+  "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z.z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82"
+      ]
     },
     {
-      "zakon_nazov": "o správnom konaní",
-      "zakon_cislo": "71/1967 Zb."
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub 5 ks drevín na parcele registra C č. 7022/1 v k. ú. Moravský Svätý Ján. Dôvodom výrubu v extraviláne obce je zlý zdravotný stav drevín.",
+  "zhrnutie": "Začatie správneho konania vo veci výrubu 5 ks drevín v katastrálnom území Moravský Svätý Ján. Výrub je plánovaný mimo zastavaného územia obce na parcele C-KN 7022/1 z dôvodu zlého zdravotného stavu stromov. Verejnosť má 5 pracovných dní od zverejnenia informácie na prihlásenie sa do konania.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "UEV": [
@@ -66,6 +77,7 @@
           "SITETITLE_": "Záhorské Pomoravie"
         }
       ]
-    }
+    },
+    "source_type": "PARCELA"
   }
 }

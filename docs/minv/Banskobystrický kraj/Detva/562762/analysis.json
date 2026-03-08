@@ -1,11 +1,12 @@
 {
   "cislo_konania_spisu": "OU-DT-OSZP-2026/000548",
   "cislo_rozhodnutia": null,
-  "datum_dokumentu": null,
+  "datum_dokumentu": "2026-03-03",
   "datum_zverejnenia": "2026-03-03",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
-    "povolena": null,
-    "lehota_na_vyjadrenie": null
+    "povolena": true,
+    "lehota_na_vyjadrenie": "päť pracovných dní od zverejnenia informácie"
   },
   "ziadatel_navrhovatel": "vlastník predmetného pozemku (fyzická osoba)",
   "miesto_realizacie": {
@@ -32,12 +33,18 @@
         ]
       }
     ],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
   },
   "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
   "typ_zasahu": [
     "výrub drevín"
   ],
+  "rozsah_zasahu": null,
   "typ_uzemia": [
     "neviem"
   ],
@@ -46,11 +53,15 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z.z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "47 ods. 3"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o súhlas na výrub drevín rastúcich na parcelách KN-C 10466/6 a KN-E 14027, 14030 v katastrálnom území Detva.",
+  "zhrnutie": "Začiatok správneho konania vo veci výrubu drevín na parcelách v k.ú. Detva pre súkromnú osobu. Dokument nešpecifikuje presný počet ani druh drevín určených na výrub. Verejnosť a združenia majú lehotu 5 pracovných dní na potvrdenie záujmu byť účastníkom konania.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "CHVU": [
@@ -70,6 +81,7 @@
           "SITETITLE_": "Poľana"
         }
       ]
-    }
+    },
+    "source_type": "PARCELA"
   }
 }

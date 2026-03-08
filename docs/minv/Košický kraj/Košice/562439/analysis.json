@@ -2,7 +2,8 @@
   "cislo_konania_spisu": "OU-KE-OSZPI-2026/023",
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-02-24",
-  "datum_zverejnenia": null,
+  "datum_zverejnenia": "2026-02-24",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tohto oznámenia"
@@ -18,27 +19,38 @@
         "parcely": []
       }
     ],
-    "nazov_lokality": "PR Tarbucka"
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "PR Tarbucka",
+    "nazov_lokality_norm": "Tarbucka"
   },
   "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "VJAZD_VOZIDLA"
+  ],
   "typ_zasahu": [
     "vjazd a státie s motorovými vozidlami"
   ],
+  "rozsah_zasahu": null,
   "typ_uzemia": [
     "PR Tarbucka",
-    "Prírodná rezervácia",
-    "5. stupeň ochrany"
+    "4. stupeň"
   ],
   "je_v_chranenom_uzemi": true,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "15 ods. 1 písm. a)",
+        "13 ods. 1 písm. a)",
+        "82 ods. 6"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti spoločnosti TOWERCOM, a. s. o povolenie výnimky na vjazd a státie motorových vozidiel v Prírodnej rezervácii Tarbucka v katastrálnom území Streda nad Bodrogom.",
+  "zhrnutie": "Začatie správneho konania o povolenie výnimky na vjazd a státie s motorovými vozidlami v Prírodnej rezervácii Tarbucka (4. stupeň ochrany). Lokalita sa nachádza v extraviláne obce Streda nad Bodrogom a žiadateľom je spoločnosť TOWERCOM, a. s.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "UEV": [
@@ -82,6 +94,7 @@
           "SITETITLE_": "Medzibodrožie"
         }
       ]
-    }
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
   }
 }

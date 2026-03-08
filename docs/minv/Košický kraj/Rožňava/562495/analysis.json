@@ -2,7 +2,8 @@
   "cislo_konania_spisu": "OU-RV-OSZP-2026/004355-002",
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-02-26",
-  "datum_zverejnenia": null,
+  "datum_zverejnenia": "2026-02-26",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
@@ -18,12 +19,19 @@
         "parcely": []
       }
     ],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Pača",
+    "nazov_lokality_norm": "Pača"
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
-  "typ_zasahu": [
-    "výrub drevín"
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
   ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "očistenie od náletových drevín"
+  ],
+  "rozsah_zasahu": "náletové dreviny",
   "typ_uzemia": [
     "neviem"
   ],
@@ -32,11 +40,16 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "zákon o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 82 ods. 7",
+        "§ 47 ods. 3",
+        "§ 82 ods. 3"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci udelenia súhlasu na výrub náletových drevín v katastrálnom území Pača na žiadosť Adriany Berceliovej. Záujemcovia o účasť v konaní sa musia prihlásiť do 5 pracovných dní od zverejnenia oznámenia.",
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu náletových drevín v katastrálnom území obce Pača na žiadosť Adriany Berceliovej. Verejnosť môže potvrdiť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "CHVU": [
@@ -46,6 +59,7 @@
           "SITETITLE_": "Volovské vrchy"
         }
       ]
-    }
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
   }
 }

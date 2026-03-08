@@ -3,9 +3,10 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-03-02",
   "datum_zverejnenia": "2026-03-02",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
-    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+    "lehota_na_vyjadrenie": "v lehote do 5 pracovných dní od zverejnenia tohto oznámenia"
   },
   "ziadatel_navrhovatel": "fyzická osoba",
   "miesto_realizacie": {
@@ -25,12 +26,18 @@
         ]
       }
     ],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "parcela reg. „C“ č. 5238/108 v k.ú. Nové Mesto nad Váhom",
+    "nazov_lokality_norm": null
   },
-  "typ_dokumentu": "Oznámenie o začatí správneho konania",
-  "typ_zasahu": [
-    "výrub drevín"
+  "typ_dokumentu": "Oznámenie o začatí správneho konania – zverejnenie",
+  "kategorie_vlk": [
+    "LES_VYRUB"
   ],
+  "typ_zasahu": [
+    "výrub dreviny rastúcej mimo lesa"
+  ],
+  "rozsah_zasahu": "1 ks orech kráľovský s obvodom kmeňa 120 cm",
   "typ_uzemia": [
     "1. stupeň"
   ],
@@ -41,20 +48,38 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o správnom konaní (správny poriadok)",
-      "zakon_cislo": "71/1967 Zb."
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "18 ods. 3",
+        "19 ods. 1"
+      ]
     },
     {
-      "zakon_nazov": "o štátnej správe starostlivosti o životné prostredie",
-      "zakon_cislo": "525/2003 Z.z."
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z.z.",
+      "paragrafy": [
+        "5 ods. 1"
+      ]
     },
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z.z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "64 ods. 1 písm. d)",
+        "68 písm. c)",
+        "47 ods. 3",
+        "12",
+        "82 ods. 7",
+        "82 ods. 3",
+        "2 ods. 1",
+        "82 ods. 6"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub 1 ks orecha kráľovského v k.ú. Nové Mesto nad Váhom na parcele registra C č. 5238/108. Lokalita sa nachádza mimo zastavaného územia obce v prvom stupni ochrany.",
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu 1 ks orecha kráľovského s obvodom 120 cm v katastrálnom území Nové Mesto nad Váhom. Drevina rastie mimo zastavaného územia v prvom stupni ochrany a dôvodom výrubu je riziko pádu na nehnuteľnosť. Verejnosť môže potvrdiť záujem o účasť v konaní do 5 pracovných dní od zverejnenia.",
   "gis": {
-    "zasiahnute_chranene_uzemia": {}
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
   }
 }

@@ -3,6 +3,7 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-02-26",
   "datum_zverejnenia": "2026-02-26",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia oznámenia"
@@ -26,12 +27,18 @@
         ]
       }
     ],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "k. ú. Breza",
+    "nazov_lokality_norm": "Breza"
   },
-  "typ_dokumentu": "Oznámenie o začatí konania",
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
   "typ_zasahu": [
     "výrub drevín"
   ],
+  "rozsah_zasahu": "dreviny na parc. č. E-KN 16094/2, 16092/1",
   "typ_uzemia": [
     "neviem"
   ],
@@ -40,11 +47,15 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "82 ods. 3"
+      ]
     }
   ],
-  "zhrnutie": "Začatie správneho konania vo veci výrubu drevín v katastrálnom území Breza na parcelách registra E. Verejnosť a združenia môžu potvrdiť svoj záujem byť účastníkom konania v lehote 5 pracovných dní od zverejnenia.",
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub drevín na dvoch parcelách registra E v katastrálnom území obce Breza. Verejnosť a združenia môžu potvrdiť svoj záujem byť účastníkom konania do 5 pracovných dní od zverejnenia. Dokument nešpecifikuje presný počet stromov ani či sa územie nachádza v chránenej oblasti.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "CHVU": [
@@ -59,6 +70,7 @@
           "SITETITLE_": "Horná Orava"
         }
       ]
-    }
+    },
+    "source_type": "PARCELA"
   }
 }

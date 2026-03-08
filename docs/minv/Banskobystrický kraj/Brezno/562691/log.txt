@@ -43,3 +43,43 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  16.25 s
 ------------------------------------------
 Dokument 562691 bol úspešne spracovaný.
+[2026-03-08 12:23:54] processing document '/home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Brezno/562691'
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Brezno/562691/text.txt...
+Getting law excerpts...
+Saving laws to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Brezno/562691/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0104583}
+LLM_tokens: {"input": 5583, "output": 2858, "total": 8441, "cached": 2016}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Brezno/562691/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Brezno/562691/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Michalová', 'katastralne_uzemia': [{'nazov': 'Michalová', 'parcely': [{'typ': 'C', 'cisla': ['1733/15']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Michalová', 'katastralne_uzemia': [{'nazov': 'Michalová', 'parcely': [{'typ': 'C', 'cisla': ['1733/15']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Michalová obec:Michalová okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: michalova norm_ku: michalova
+_get_nationalCadastralZoningReferences() found_ids: {'836907'}
+nationalCadastralZoningReferences: ['836907']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27836907_1733%2F15.C%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.08 s
+nazov_lokality: None
+gdf_parcelset:       @featureType                      areaValue  ...                                            validTo             administrativeUnit
+0  CadastralParcel  {'value': 1010, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1548'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Brezno/562691/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Banskobystrický kraj/Brezno/562691/analysis.json...
+
+--- Časy spracovania dokumentu 562691 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.03 s
+  llm_analysis        :  17.41 s
+  gis_processing      :   3.69 s
+  CELKOVÝ ČAS         :  21.13 s
+------------------------------------------
+Dokument 562691 bol úspešne spracovaný.

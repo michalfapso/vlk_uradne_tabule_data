@@ -3,9 +3,10 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-02-26",
   "datum_zverejnenia": "2026-03-02",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
-    "lehota_na_vyjadrenie": "v lehote určenej orgánom ochrany prírody podľa § 82 ods. 7, ktorá nesmie byť kratšia ako päť pracovných dní od zverejnenia informácie"
+    "lehota_na_vyjadrenie": null
   },
   "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, štátny podnik, Povodie Hrona, odštepný závod",
   "miesto_realizacie": {
@@ -18,54 +19,46 @@
         "parcely": []
       }
     ],
-    "nazov_lokality": "vodný tok Blh"
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "koryto vodného toku Blh",
+    "nazov_lokality_norm": "Blh"
   },
-  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
   "typ_zasahu": [
     "výrub drevín",
     "výrub brehového porastu"
   ],
+  "rozsah_zasahu": "brehový porast",
   "typ_uzemia": [
     "neviem"
   ],
-  "je_v_chranenom_uzemi": false,
+  "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [
-    "brehové porasty",
-    "dreviny"
+    "brehové porasty"
   ],
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z. z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "81",
+        "82"
+      ]
     },
     {
-      "zakon_nazov": "Zákon o správnom konaní",
-      "zakon_cislo": "71/1967 Zb."
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967",
+      "paragrafy": []
     }
   ],
-  "zhrnutie": "Informácia o začatí konania vo veci oznámenia o výrube drevín a brehového porastu v k. ú. Drienčany pri vodnom toku Blh. Výrub podal Slovenský vodohospodársky podnik z dôvodu údržby koryta a plánuje ho realizovať v mimovegetačnom období roku 2026.",
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje výrub brehového porastu v koryte vodného toku Blh v k. ú. Drienčany. Cieľom je údržba toku a zabezpečenie plynulého odtoku vody počas mimovegetačného obdobia v roku 2026. Dokument nešpecifikuje presný počet drevín ani stupeň ochrany dotknutého územia.",
   "gis": {
-    "zasiahnute_chranene_uzemia": {
-      "UEV": [
-        {
-          "parcel_label": "Drienčany",
-          "NATIONALSI": "SKUEV0366",
-          "SITETITLE_": "Drienčanský kras"
-        }
-      ],
-      "MCHU": [
-        {
-          "parcel_label": "Drienčany",
-          "NATIONALSI": "1136",
-          "SITETITLE_": "PP Malá Drienčanská jaskyňa"
-        },
-        {
-          "parcel_label": "Drienčany",
-          "NATIONALSI": "1136",
-          "SITETITLE_": "OP PP Malá Drienčanská jaskyňa"
-        }
-      ]
-    }
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
   }
 }

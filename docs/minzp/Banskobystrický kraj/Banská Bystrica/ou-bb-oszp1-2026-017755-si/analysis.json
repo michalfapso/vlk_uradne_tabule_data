@@ -3,9 +3,10 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-03-05",
   "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
-    "lehota_na_vyjadrenie": "v lehote do piatich pracovných dní od zverejnenia tejto informácie"
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
   },
   "ziadatel_navrhovatel": null,
   "miesto_realizacie": {
@@ -34,15 +35,21 @@
         "parcely": []
       }
     ],
-    "nazov_lokality": "cesta II/527"
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "cesta II/527 Veľký Krtíš - Sucháň, mokraď",
+    "nazov_lokality_norm": "II/527"
   },
-  "typ_dokumentu": "Informácia o začatom správnom konaní",
+  "typ_dokumentu": "Žiadosť o vydanie súhlasu na zmenu stavu mokrade",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
   "typ_zasahu": [
     "zmena stavu mokrade",
-    "úprava mokrade",
     "rekonštrukcia cesty",
     "rekonštrukcia mostov"
   ],
+  "rozsah_zasahu": "rekonštrukcia cesty a mostov II/527 spojená s úpravou mokrade",
   "typ_uzemia": [
     "mokraď"
   ],
@@ -51,25 +58,26 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "Zákon o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z.z."
-    },
-    {
-      "zakon_nazov": "Zákon o správnom konaní (správny poriadok)",
-      "zakon_cislo": "71/1967 Zb."
-    }
-  ],
-  "zhrnutie": "Oznámenie o začatí konania vo veci vydania súhlasu na zmenu stavu mokrade kvôli rekonštrukcii cesty II/527 a mostov v úseku Veľký Krtíš - Sucháň. Dotknuté subjekty môžu ohlásiť svoju účasť v konaní do 5 pracovných dní od zverejnenia.",
-  "gis": {
-    "zasiahnute_chranene_uzemia": {
-      "MCHU": [
-        {
-          "parcel_label": "Modrý Kameň",
-          "NATIONALSI": "361",
-          "SITETITLE_": "PR Modrokamenská lesostep"
-        }
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "2",
+        "82 ods. 3",
+        "82 ods. 6"
       ]
     },
-    "source_type": null
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "15a",
+        "19"
+      ]
+    }
+  ],
+  "zhrnutie": "Ide o začatie konania vo veci vydania súhlasu na zmenu stavu mokrade v súvislosti s rekonštrukciou cesty II/527 a mostov. Zásah sa dotýka viacerých katastrálnych území medzi Veľkým Krtíšom a Sucháňom. Verejnosť a združenia môžu oznámiť svoju účasť v lehote 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
   }
 }

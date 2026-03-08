@@ -3,6 +3,7 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": null,
   "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "najneskôr do 15 dní od zverejnenia"
@@ -13,25 +14,33 @@
     "okres": "Brezno",
     "obec": "Čierny Balog",
     "katastralne_uzemia": [],
-    "nazov_lokality": null
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "obec Čierny Balog",
+    "nazov_lokality_norm": "Čierny Balog"
   },
   "typ_dokumentu": "Informácia pre verejnosť",
+  "kategorie_vlk": [
+    "INE"
+  ],
   "typ_zasahu": [
-    "strategický dokument"
+    "strategický dokument",
+    "Program hospodárskeho rozvoja a sociálneho rozvoja"
   ],
-  "typ_uzemia": [
-    "neviem"
-  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [],
   "je_v_chranenom_uzemi": null,
   "dotknute_zivocichy_rastliny": [],
   "odkaz_enviroportal": "http://enviroportal.sk/sk/eia",
   "zakony": [
     {
-      "zakon_nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
-      "zakon_cislo": "24/2006 Z.z."
+      "nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006 Z.z.",
+      "paragrafy": [
+        "6"
+      ]
     }
   ],
-  "zhrnutie": "Oznámenie o strategickom dokumente Program hospodárskeho rozvoja a sociálneho rozvoja obce Čierny Balog s možnosťou pre verejnosť predkladať stanoviská do 15 dní od zverejnenia. Dokument je prístupný na Enviroportáli a konzultácie sú možné na Okresnom úrade v Brezne.",
+  "zhrnutie": "Oznámenie o strategickom dokumente Program hospodárskeho rozvoja a sociálneho rozvoja obce Čierny Balog. Verejnosť môže predkladať stanoviská do 15 dní od zverejnenia na Okresný úrad Brezno. Dokument je v štádiu posudzovania vplyvov na životné prostredie (SEA).",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "5st_konsUEV": [

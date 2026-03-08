@@ -3,9 +3,10 @@
   "cislo_rozhodnutia": "OU-TT-OSZP3-2026/016194-0030724/2026",
   "datum_dokumentu": "2026-03-02",
   "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
   "ucast_v_konani": {
-    "povolena": null,
-    "lehota_na_vyjadrenie": "odvolanie do 15 dní od jeho doručenia"
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 15 dní od jeho doručenia"
   },
   "ziadatel_navrhovatel": "Tate & Lyle Boleraz s.r.o.",
   "miesto_realizacie": {
@@ -35,16 +36,21 @@
         ]
       }
     ],
-    "nazov_lokality": "VN Boleráz"
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "VN Boleráz, vodný tok Trnávka",
+    "nazov_lokality_norm": "Boleráz, Trnávka"
   },
   "typ_dokumentu": "Kolaudačné rozhodnutie",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE",
+    "INE"
+  ],
   "typ_zasahu": [
     "preloženie prívodného potrubia úžitkovej vody",
-    "výstavba vodnej stavby",
-    "opevnenie pravého brehu",
-    "úprava dna vodného toku Trnávka",
-    "úprava vodného toku"
+    "opevnenie pravého brehu vodného toku",
+    "úprava dna vodného toku"
   ],
+  "rozsah_zasahu": "potrubie dĺžky 462,59 m, úprava brehu a dna toku po dĺžke cca 466 m",
   "typ_uzemia": [
     "inundačné územie",
     "ochranné pásmo vodného toku"
@@ -54,36 +60,46 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
-      "zakon_cislo": "525/2003 Z. z."
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5 ods. 1"
+      ]
     },
     {
-      "zakon_nazov": "Vodný zákon",
-      "zakon_cislo": "364/2004 Z. z."
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "61 písm. a)",
+        "26 ods. 3",
+        "47 ods. 3",
+        "49 ods. 5"
+      ]
     },
     {
-      "zakon_nazov": "Zákon o priestupkoch",
-      "zakon_cislo": "372/1990 Zb."
+      "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "120",
+        "76",
+        "82",
+        "103",
+        "61 ods. 4"
+      ]
     },
     {
-      "zakon_nazov": "Stavebný zákon",
-      "zakon_cislo": "50/1976 Zb."
-    },
-    {
-      "zakon_nazov": "Správny poriadok",
-      "zakon_cislo": "71/1967 Zb."
-    },
-    {
-      "zakon_nazov": null,
-      "zakon_cislo": "25/2025 Z. z."
-    },
-    {
-      "zakon_nazov": "Zákon o správnych poplatkoch",
-      "zakon_cislo": "145/1995 Z. z."
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "53",
+        "54 ods. 1",
+        "54 ods. 2"
+      ]
     }
   ],
-  "zhrnutie": "Kolaudačné rozhodnutie na užívanie vodnej stavby 'Preloženie prívodného potrubia úžitkovej vody z VN Boleráz' v obci Boleráz. Projekt zahŕňa preložku potrubia a technické opevnenie brehu a dna vodného toku Trnávka v inundačnom území.",
+  "zhrnutie": "Kolaudačné rozhodnutie povoľuje užívanie preloženého potrubia úžitkovej vody v dĺžke 462 m a úpravu brehov toku Trnávka v dĺžke 466 m v obci Boleráz. Zásah sa nachádza v inundačnom území a ochrannom pásme vodného toku. Proti rozhodnutiu je možné podať odvolanie do 15 dní.",
   "gis": {
-    "zasiahnute_chranene_uzemia": {}
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
   }
 }

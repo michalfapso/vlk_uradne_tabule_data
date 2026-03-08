@@ -3,6 +3,7 @@
   "cislo_rozhodnutia": null,
   "datum_dokumentu": "2026-03-06",
   "datum_zverejnenia": "2026-03-06",
+  "faza_konania": "ZACIATOK",
   "ucast_v_konani": {
     "povolena": true,
     "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie (t. j. do 13.03.2026, vrátane)"
@@ -13,12 +14,18 @@
     "okres": "Žilina",
     "obec": "Novoť",
     "katastralne_uzemia": [],
-    "nazov_lokality": "tok rieky Mútňanka"
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "tok rieky Mútňanka",
+    "nazov_lokality_norm": "Mútňanka"
   },
-  "typ_dokumentu": "Informácia pre verejnosť",
+  "typ_dokumentu": "Informácia o začatom správnom konaní",
+  "kategorie_vlk": [
+    "INE"
+  ],
   "typ_zasahu": [
     "ťažba riečneho štrku"
   ],
+  "rozsah_zasahu": null,
   "typ_uzemia": [
     "neviem"
   ],
@@ -27,11 +34,12 @@
   "odkaz_enviroportal": null,
   "zakony": [
     {
-      "zakon_nazov": "o ochrane prírody a krajiny",
-      "zakon_cislo": "543/2002 Z.z."
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": []
     }
   ],
-  "zhrnutie": "Žiadosť obce Novoť o vydanie súhlasu na ťažbu riečneho štrku v toku rieky Mútňanka v okrese Žilina. Dokument informuje o možnosti potvrdiť záujem byť zúčastnenou osobou v konaní v lehote do 13.03.2026.",
+  "zhrnutie": "Žiadosť obce Novoť o vydanie súhlasu na ťažbu riečneho štrku v toku rieky Mútňanka. Konanie je v počiatočnej fáze a verejnosť môže prejaviť záujem o účasť do 13.03.2026. Dokument nešpecifikuje presný rozsah ťažby ani prítomnosť chránených území.",
   "gis": {
     "zasiahnute_chranene_uzemia": {
       "CHVU": [

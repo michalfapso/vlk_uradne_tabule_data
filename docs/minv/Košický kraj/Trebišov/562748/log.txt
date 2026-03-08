@@ -130,3 +130,168 @@ Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/
   CELKOVÝ ČAS         :  25.02 s
 ------------------------------------------
 Dokument 562748 bol úspešne spracovaný.
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/562748/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§21' zákona 'vodného zákona k predmetnej stavbe. Uvedeným dňom bolo začaté vodoprávne konanie. Okresný úrad Trebišov, odbor starostlivosti o životné prostredie, ak'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods.3' zákona '180/2013 o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods.1' zákona '180/2013 o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods.1' zákona '180/2013 o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, ako príslušný orgán štátnej vodnej správy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'zák. NR SR č.364/2004 Z.z. o vodách a o zmene zákona SNR č.372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21' zákona 'vodného zákona a ako špeciálny stavebný úrad podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'zák.č.50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods.1' zákona 'stavebného zákona, v súlade'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods.5' zákona 'vodného zákona oznamuje začatie vodoprávneho konania : I. vo veci vydania povolenia na uskutočnenie stavby: „LIFE IP NATURA 2000 SVK – Dopĺňanie vody'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods.1 písm.a)' zákona 'vodného zákona odber povrchových vôd účastníkom konania, zúčastneným osobám, dotknutým organizáciám a orgánom štátnej správy. I. Rozhodnutie o umiestn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 odst.2' zákona 'stavebného zákona od ústneho pojednávania a miestneho zisťovania. Do dokladov konania možno nahliadnuť na Okresnom úrade Trebišov, odbor starostlivost'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.017869500000000003}
+LLM_tokens: {"input": 10425, "output": 4219, "total": 14644, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/562748/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/562748/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Trebišov', 'obec': 'Streda nad Bodrogom', 'katastralne_uzemia': [{'nazov': 'Streda nad Bodrogom', 'parcely': [{'typ': 'C', 'cisla': ['2025/1', '2025/2', '2033', '2048', '2056/2', '2056/1', '2049/1', '2017/1', '2067/2', '2051/2', '2051/1', '1996/1', '2025/3', '2041']}, {'typ': 'E', 'cisla': ['720/2', '721/2', '722/1', '722/2', '725/2', '704', '729', '705', '607', '711/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Tajba', 'nazov_lokality_norm': 'Tajba'}
+data: {'kraj': 'Košický kraj', 'okres': 'Trebišov', 'obec': 'Streda nad Bodrogom', 'katastralne_uzemia': [{'nazov': 'Streda nad Bodrogom', 'parcely': [{'typ': 'C', 'cisla': ['2025/1', '2025/2', '2033', '2048', '2056/2', '2056/1', '2049/1', '2017/1', '2067/2', '2051/2', '2051/1', '1996/1', '2025/3', '2041']}, {'typ': 'E', 'cisla': ['720/2', '721/2', '722/1', '722/2', '725/2', '704', '729', '705', '607', '711/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Tajba', 'nazov_lokality_norm': 'Tajba'}
+ku_name:Streda nad Bodrogom obec:Streda nad Bodrogom okres:Trebišov kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: trebisov norm_obec: streda nad bodrogom norm_ku: streda nad bodrogom
+_get_nationalCadastralZoningReferences() found_ids: {'858978'}
+nationalCadastralZoningReferences: ['858978']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27858978_2025%2F1.C%27%2C%27858978_2025%2F2.C%27%2C%27858978_2033.C%27%2C%27858978_2048.C%27%2C%27858978_2056%2F2.C%27%2C%27858978_2056%2F1.C%27%2C%27858978_2049%2F1.C%27%2C%27858978_2017%2F1.C%27%2C%27858978_2067%2F2.C%27%2C%27858978_2051%2F2.C%27%2C%27858978_2051%2F1.C%27%2C%27858978_1996%2F1.C%27%2C%27858978_2025%2F3.C%27%2C%27858978_2041.C%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.60 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27858978_720%2F2.E%27%2C%27858978_721%2F2.E%27%2C%27858978_722%2F1.E%27%2C%27858978_722%2F2.E%27%2C%27858978_725%2F2.E%27%2C%27858978_704.E%27%2C%27858978_729.E%27%2C%27858978_705.E%27%2C%27858978_607.E%27%2C%27858978_711%2F1.E%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.14 s
+nazov_lokality: Tajba
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.1151'}
+
+[24 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/562748/gis.geojson...
+Intersections with protected areas...
+Found 9 intersecting parcels with 'UEV'.
+Found 5 intersecting parcels with 'MCHU'.
+Found 24 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': '2056/2', 'NATIONALSI': 'SKUEV0019', 'SITETITLE_': 'Tarbucka'}, {'parcel_label': '2048', 'NATIONALSI': 'SKUEV0019', 'SITETITLE_': 'Tarbucka'}, {'parcel_label': '2067/2', 'NATIONALSI': 'SKUEV0019', 'SITETITLE_': 'Tarbucka'}, {'parcel_label': '2025/3', 'NATIONALSI': 'SKUEV0236', 'SITETITLE_': 'Bodrog'}, {'parcel_label': '2025/1', 'NATIONALSI': 'SKUEV0236', 'SITETITLE_': 'Bodrog'}, {'parcel_label': '1996/1', 'NATIONALSI': 'SKUEV0236', 'SITETITLE_': 'Bodrog'}, {'parcel_label': '607', 'NATIONALSI': 'SKUEV0236', 'SITETITLE_': 'Bodrog'}, {'parcel_label': '720/2', 'NATIONALSI': 'SKUEV0019', 'SITETITLE_': 'Tarbucka'}, {'parcel_label': '721/2', 'NATIONALSI': 'SKUEV0019', 'SITETITLE_': 'Tarbucka'}], 'MCHU': [{'parcel_label': '2056/2', 'NATIONALSI': '691', 'SITETITLE_': 'NPR Tajba'}, {'parcel_label': '2048', 'NATIONALSI': '691', 'SITETITLE_': 'NPR Tajba'}, {'parcel_label': '2067/2', 'NATIONALSI': '691', 'SITETITLE_': 'NPR Tajba'}, {'parcel_label': '720/2', 'NATIONALSI': '691', 'SITETITLE_': 'NPR Tajba'}, {'parcel_label': '721/2', 'NATIONALSI': '691', 'SITETITLE_': 'NPR Tajba'}], 'CHVU': [{'parcel_label': '2056/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2048', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2041', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2051/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2051/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2067/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2025/3', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2025/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2025/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2033', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '1996/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2017/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2049/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2056/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '607', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '711/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '729', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '705', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '704', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '720/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '721/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '722/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '722/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '725/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/562748/analysis.json...
+
+--- Časy spracovania dokumentu 562748 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  23.24 s
+  gis_processing      :   7.37 s
+  CELKOVÝ ČAS         :  30.61 s
+------------------------------------------
+Dokument 562748 bol úspešne spracovaný.
+[2026-03-08 12:24:54] processing document '/home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/562748'
+Loading text doc from /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/562748/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§21' zákona 'vodného zákona k predmetnej stavbe. Uvedeným dňom bolo začaté vodoprávne konanie. Okresný úrad Trebišov, odbor starostlivosti o životné prostredie, ak'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods.3' zákona '180/2013 o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods.1' zákona '180/2013 o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods.1' zákona '180/2013 o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, ako príslušný orgán štátnej vodnej správy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'zák. NR SR č.364/2004 Z.z. o vodách a o zmene zákona SNR č.372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21' zákona 'vodného zákona a ako špeciálny stavebný úrad podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'zák.č.50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods.1' zákona 'stavebného zákona, v súlade'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods.5' zákona 'vodného zákona oznamuje začatie vodoprávneho konania : I. vo veci vydania povolenia na uskutočnenie stavby: „LIFE IP NATURA 2000 SVK – Dopĺňanie vody'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods.1 písm.a)' zákona 'vodného zákona odber povrchových vôd účastníkom konania, zúčastneným osobám, dotknutým organizáciám a orgánom štátnej správy. I. Rozhodnutie o umiestn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 odst.2' zákona 'stavebného zákona od ústneho pojednávania a miestneho zisťovania. Do dokladov konania možno nahliadnuť na Okresnom úrade Trebišov, odbor starostlivost'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0206115}
+LLM_tokens: {"input": 10425, "output": 5133, "total": 15558, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/562748/analysis.txt...
+Saving analysis to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/562748/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Trebišov', 'obec': 'Streda nad Bodrogom', 'katastralne_uzemia': [{'nazov': 'Streda nad Bodrogom', 'parcely': [{'typ': 'C', 'cisla': ['2025/1', '2025/2', '2033', '2048', '2056/2', '2056/1', '2049/1', '2017/1', '2067/2', '2051/2', '2051/1', '1996/1', '2025/3', '2041']}, {'typ': 'E', 'cisla': ['720/2', '721/2', '722/1', '722/2', '725/2', '704', '729', '705', '607', '711/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'mŕtve rameno Tajba', 'nazov_lokality_norm': 'Tajba'}
+data: {'kraj': 'Košický kraj', 'okres': 'Trebišov', 'obec': 'Streda nad Bodrogom', 'katastralne_uzemia': [{'nazov': 'Streda nad Bodrogom', 'parcely': [{'typ': 'C', 'cisla': ['2025/1', '2025/2', '2033', '2048', '2056/2', '2056/1', '2049/1', '2017/1', '2067/2', '2051/2', '2051/1', '1996/1', '2025/3', '2041']}, {'typ': 'E', 'cisla': ['720/2', '721/2', '722/1', '722/2', '725/2', '704', '729', '705', '607', '711/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'mŕtve rameno Tajba', 'nazov_lokality_norm': 'Tajba'}
+ku_name:Streda nad Bodrogom obec:Streda nad Bodrogom okres:Trebišov kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: trebisov norm_obec: streda nad bodrogom norm_ku: streda nad bodrogom
+_get_nationalCadastralZoningReferences() found_ids: {'858978'}
+nationalCadastralZoningReferences: ['858978']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27858978_2025%2F1.C%27%2C%27858978_2025%2F2.C%27%2C%27858978_2033.C%27%2C%27858978_2048.C%27%2C%27858978_2056%2F2.C%27%2C%27858978_2056%2F1.C%27%2C%27858978_2049%2F1.C%27%2C%27858978_2017%2F1.C%27%2C%27858978_2067%2F2.C%27%2C%27858978_2051%2F2.C%27%2C%27858978_2051%2F1.C%27%2C%27858978_1996%2F1.C%27%2C%27858978_2025%2F3.C%27%2C%27858978_2041.C%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.59 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27858978_720%2F2.E%27%2C%27858978_721%2F2.E%27%2C%27858978_722%2F1.E%27%2C%27858978_722%2F2.E%27%2C%27858978_725%2F2.E%27%2C%27858978_704.E%27%2C%27858978_729.E%27%2C%27858978_705.E%27%2C%27858978_607.E%27%2C%27858978_711%2F1.E%27%29 
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.14 s
+nazov_lokality: Tajba
+gdf_parcelset:        @featureType                        areaValue  ...                                            validTo             administrativeUnit
+0   CadastralParcel   {'value': 26482, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+1   CadastralParcel   {'value': 22223, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+2   CadastralParcel   {'value': 16241, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+3   CadastralParcel    {'value': 1558, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+4   CadastralParcel     {'value': 192, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+5   CadastralParcel   {'value': 85587, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+6   CadastralParcel      {'value': 86, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+7   CadastralParcel     {'value': 349, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+8   CadastralParcel    {'value': 1841, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+9   CadastralParcel    {'value': 2475, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+10  CadastralParcel   {'value': 62911, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+11  CadastralParcel  {'value': 237582, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+12  CadastralParcel   {'value': 29337, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+13  CadastralParcel  {'value': 535929, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+14  CadastralParcel   {'value': 53521, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+15  CadastralParcel   {'value': 16241, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+16  CadastralParcel    {'value': 1503, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+17  CadastralParcel   {'value': 21517, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+18  CadastralParcel   {'value': 26306, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+19  CadastralParcel   {'value': 22472, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+20  CadastralParcel    {'value': 2942, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+21  CadastralParcel    {'value': 7295, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+22  CadastralParcel   {'value': 26755, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+23  CadastralParcel   {'value': 29457, '@uom': 'm2'}  ...  {'@nilReason': 'http://inspire.ec.europa.eu/co...  {'@href': '#auAdmUnitS.1151'}
+
+[24 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/562748/gis.geojson...
+Intersections with protected areas...
+Found 9 intersecting parcels with 'UEV'.
+Found 5 intersecting parcels with 'MCHU'.
+Found 24 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': '2056/2', 'NATIONALSI': 'SKUEV0019', 'SITETITLE_': 'Tarbucka'}, {'parcel_label': '2048', 'NATIONALSI': 'SKUEV0019', 'SITETITLE_': 'Tarbucka'}, {'parcel_label': '2067/2', 'NATIONALSI': 'SKUEV0019', 'SITETITLE_': 'Tarbucka'}, {'parcel_label': '2025/3', 'NATIONALSI': 'SKUEV0236', 'SITETITLE_': 'Bodrog'}, {'parcel_label': '2025/1', 'NATIONALSI': 'SKUEV0236', 'SITETITLE_': 'Bodrog'}, {'parcel_label': '1996/1', 'NATIONALSI': 'SKUEV0236', 'SITETITLE_': 'Bodrog'}, {'parcel_label': '607', 'NATIONALSI': 'SKUEV0236', 'SITETITLE_': 'Bodrog'}, {'parcel_label': '720/2', 'NATIONALSI': 'SKUEV0019', 'SITETITLE_': 'Tarbucka'}, {'parcel_label': '721/2', 'NATIONALSI': 'SKUEV0019', 'SITETITLE_': 'Tarbucka'}], 'MCHU': [{'parcel_label': '2056/2', 'NATIONALSI': '691', 'SITETITLE_': 'NPR Tajba'}, {'parcel_label': '2048', 'NATIONALSI': '691', 'SITETITLE_': 'NPR Tajba'}, {'parcel_label': '2067/2', 'NATIONALSI': '691', 'SITETITLE_': 'NPR Tajba'}, {'parcel_label': '720/2', 'NATIONALSI': '691', 'SITETITLE_': 'NPR Tajba'}, {'parcel_label': '721/2', 'NATIONALSI': '691', 'SITETITLE_': 'NPR Tajba'}], 'CHVU': [{'parcel_label': '2056/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2048', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2041', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2051/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2051/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2067/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2025/3', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2025/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2025/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2033', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '1996/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2017/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2049/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '2056/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '607', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '711/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '729', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '705', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '704', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '720/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '721/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '722/1', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '722/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}, {'parcel_label': '725/2', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}]}
+Updating analysis JSON at /home/miso/projects/VLK/uradne_nastenky/data/docs/minv/Košický kraj/Trebišov/562748/analysis.json...
+
+--- Časy spracovania dokumentu 562748 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  28.35 s
+  gis_processing      :   7.27 s
+  CELKOVÝ ČAS         :  35.63 s
+------------------------------------------
+Dokument 562748 bol úspešne spracovaný.
