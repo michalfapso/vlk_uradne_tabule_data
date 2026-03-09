@@ -1,0 +1,75 @@
+[2026-03-09 20:31:25] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/563118'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=53&odbor=10&sekcia=uradna-tabula&subor=563118
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/563118/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-3-flash-preview for OCR.
+LLM_cost: {"cost": 0.030764}
+LLM_tokens: {"input": 5536, "output": 10242, "total": 15778, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/563118/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58 písm. c)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, a ako špeciálny stavebný úr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písm. e)' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, a ako špeciálny stavebný úr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. 1' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v nadväznosti na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v nadväznosti na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 8' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v nadväznosti na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'citovaného vodného zákona, v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 3' zákona 'citovaného vodného zákona, v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 1' zákona 'stavebného zákona v nadväznosti na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 1' zákona 'vodného zákona a v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 5' zákona 'vodného zákona a v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 6' zákona 'vodného zákona a v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona v nadväznosti na ustanovenie'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/563118/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012209149999999998}
+LLM_tokens: {"input": 7195, "output": 3174, "total": 10369, "cached": 2023}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/563118/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/563118/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Kľušov', 'katastralne_uzemia': [{'nazov': 'Kľušov', 'parcely': [{'typ': 'C', 'cisla': ['4147', '4146', '4140', '4269', '3287/4', '3045/11']}, {'typ': 'E', 'cisla': ['3071', '3070', '3064']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'časť Homolské', 'nazov_lokality_norm': 'Homolské'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Kľušov', 'katastralne_uzemia': [{'nazov': 'Kľušov', 'parcely': [{'typ': 'C', 'cisla': ['4147', '4146', '4140', '4269', '3287/4', '3045/11']}, {'typ': 'E', 'cisla': ['3071', '3070', '3064']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'časť Homolské', 'nazov_lokality_norm': 'Homolské'}
+ku_name:Kľušov obec:Kľušov okres:Bardejov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: klusov norm_ku: klusov
+_get_nationalCadastralZoningReferences() found_ids: {'824925'}
+nationalCadastralZoningReferences: ['824925']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27824925_4147.C%27%2C%27824925_4146.C%27%2C%27824925_4140.C%27%2C%27824925_4269.C%27%2C%27824925_3287%2F4.C%27%2C%27824925_3045%2F11.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.32 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27824925_3071.E%27%2C%27824925_3070.E%27%2C%27824925_3064.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.33 s
+nazov_lokality: Homolské
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.546'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.546'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.546'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.546'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.546'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.546'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.546'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.546'}
+
+[8 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/563118/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/563118/analysis.json...
+
+--- Časy spracovania dokumentu 563118 ---
+  download_and_text   :  51.36 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.84 s
+  gis_processing      :   7.87 s
+  CELKOVÝ ČAS         :  76.07 s
+------------------------------------------
+Dokument 563118 bol úspešne spracovaný.

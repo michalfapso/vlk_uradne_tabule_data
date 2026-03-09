@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2026/007575",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-03-03",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní odo dňa zverejnenia tohto oznamu"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Doľany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Doľany",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "2661",
+              "2983"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 4 ks drevín – slivky domácej",
+    "výrub 1 ks jaseňa štíhleho"
+  ],
+  "rozsah_zasahu": "5 ks drevín (4 ks slivka domáca, 1 ks jaseň štíhly)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "slivka domáca",
+    "jaseň štíhly"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "82"
+      ]
+    }
+  ],
+  "zhrnutie": "Správne konanie vo veci výrubu 4 ks sliviek a 1 ks jaseňa v katastrálnom území Doľany. Žiadosť podala fyzická osoba a dotknuté sú parcely č. 2661 a 2983. Verejnosť môže potvrdiť záujem o účasť v konaní do 5 pracovných dní od zverejnenia oznamu.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "2983",
+          "NATIONALSI": "SKUEV0267",
+          "SITETITLE_": "Biele hory"
+        },
+        {
+          "parcel_label": "2983",
+          "NATIONALSI": "SKUEV0267",
+          "SITETITLE_": "Biele hory"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "2983",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "2983",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

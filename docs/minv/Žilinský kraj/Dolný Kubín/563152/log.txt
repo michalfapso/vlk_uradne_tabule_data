@@ -1,0 +1,67 @@
+[2026-03-09 20:34:25] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563152'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=563152
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563152/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563152/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona '364/2004 Z. z. o vodách a o zmene zákona č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti pre životné prostredie a o zmene a doplnení niektorých OU-DK-OSZP-2026/000737-0005807/2026 2 / 3 zákono'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'vodného zákona a ako špeciálny stavebný úrad podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'stavebného zákona, v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona 'vodného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'stavebného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov a v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '8' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov a v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona 'stavebného zákona upúšťa od ústneho pojednávania a miestneho zisťovania. Účastníci stavebného konania môžu svoje námietky a pripomienky k návrhu uplat'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 5' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '6' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona a musí byť vyvesené po dobu 15 dní na úradnej tabuli Okresného úradu Dolný Kubín. Posledný deň tejto lehoty je dňom doručenia. Oznám'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563152/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0110232}
+LLM_tokens: {"input": 7710, "output": 2693, "total": 10403, "cached": 2024}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563152/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563152/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Dolný Kubín', 'obec': 'Veličná', 'katastralne_uzemia': [{'nazov': 'Revišné', 'parcely': [{'typ': 'C', 'cisla': ['918/1', '918/2', '920/3', '173/36', '173/2']}, {'typ': 'E', 'cisla': ['918/1', '179/2']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'IBV Veličná, poľná cesta', 'nazov_lokality_norm': 'Veličná'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Dolný Kubín', 'obec': 'Veličná', 'katastralne_uzemia': [{'nazov': 'Revišné', 'parcely': [{'typ': 'C', 'cisla': ['918/1', '918/2', '920/3', '173/36', '173/2']}, {'typ': 'E', 'cisla': ['918/1', '179/2']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'IBV Veličná, poľná cesta', 'nazov_lokality_norm': 'Veličná'}
+ku_name:Revišné obec:Veličná okres:Dolný Kubín kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: dolny kubin norm_obec: velicna norm_ku: revisne
+_get_nationalCadastralZoningReferences() found_ids: {'867608'}
+nationalCadastralZoningReferences: ['867608']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27867608_918%2F1.C%27%2C%27867608_918%2F2.C%27%2C%27867608_920%2F3.C%27%2C%27867608_173%2F36.C%27%2C%27867608_173%2F2.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.14 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27867608_918%2F1.E%27%2C%27867608_179%2F2.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.28 s
+nazov_lokality: Veličná
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.682'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.682'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.682'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.682'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.682'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.682'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.682'}
+
+[7 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563152/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563152/analysis.json...
+
+--- Časy spracovania dokumentu 563152 ---
+  download_and_text   :   1.40 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.63 s
+  gis_processing      :   7.63 s
+  CELKOVÝ ČAS         :  23.66 s
+------------------------------------------
+Dokument 563152 bol úspešne spracovaný.

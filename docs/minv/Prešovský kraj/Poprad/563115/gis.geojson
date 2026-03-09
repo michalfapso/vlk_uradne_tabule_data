@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "place_id": 175356711, "osm_type": "way", "osm_id": 657597060, "place_rank": 30, "category": "tourism", "type": "guest_house", "importance": 5.4144350347097235e-05, "addresstype": "tourism", "name": "Tatranský dom", "display_name": "Tatranský dom, 31, Veľký Slavkov, okres Poprad, Prešovský kraj, Východné Slovensko, 059 91, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 20.2802908, 49.0968626 ], [ 20.2803672, 49.0968126 ], [ 20.2804608, 49.0968753 ], [ 20.2804724, 49.0968679 ], [ 20.2807397, 49.0970444 ], [ 20.2806522, 49.0971019 ], [ 20.2802908, 49.0968626 ] ] ] } }
+]
+}

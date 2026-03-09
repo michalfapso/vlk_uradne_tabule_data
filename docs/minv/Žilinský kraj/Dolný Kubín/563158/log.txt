@@ -1,0 +1,45 @@
+[2026-03-09 20:34:06] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563158'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=563158
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563158/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563158/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z.z.  o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov  v znení neskorších predpisov a podľa'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563158/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0100779}
+LLM_tokens: {"input": 6114, "output": 2643, "total": 8757, "cached": 2018}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563158/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563158/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Dolný Kubín', 'obec': 'Dolný Kubín', 'katastralne_uzemia': [{'nazov': 'Mokraď', 'parcely': [{'typ': 'C', 'cisla': ['220/128', '220/11', '220/140']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k.ú. Mokraď', 'nazov_lokality_norm': 'Mokraď'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Dolný Kubín', 'obec': 'Dolný Kubín', 'katastralne_uzemia': [{'nazov': 'Mokraď', 'parcely': [{'typ': 'C', 'cisla': ['220/128', '220/11', '220/140']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k.ú. Mokraď', 'nazov_lokality_norm': 'Mokraď'}
+ku_name:Mokraď obec:Dolný Kubín okres:Dolný Kubín kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: dolny kubin norm_obec: dolny kubin norm_ku: mokrad
+_get_nationalCadastralZoningReferences() found_ids: {'838241'}
+nationalCadastralZoningReferences: ['838241']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27838241_220%2F128.C%27%2C%27838241_220%2F11.C%27%2C%27838241_220%2F140.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.70 s
+nazov_lokality: Mokraď
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1358'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563158/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/563158/analysis.json...
+
+--- Časy spracovania dokumentu 563158 ---
+  download_and_text   :   0.84 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  13.68 s
+  gis_processing      :   3.90 s
+  CELKOVÝ ČAS         :  18.44 s
+------------------------------------------
+Dokument 563158 bol úspešne spracovaný.

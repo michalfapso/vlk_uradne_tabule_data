@@ -1,0 +1,76 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2026/008038",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-03-09",
+  "datum_zverejnenia": "2026-03-09",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia oznámenia"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "vodná cesta Oravská Priehrada",
+    "nazov_lokality_norm": "Oravská Priehrada"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "organizovanie verejných podujatí"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "13 ods. 2 písm. k)",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o súhlas na organizovanie verejných podujatí na vodnej ceste Oravská Priehrada. Konanie sa vedie v zmysle 2. stupňa ochrany prírody. Verejnosť má možnosť potvrdiť záujem byť účastníkom v lehote 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Oravská priehrada, Námestovo, okres Námestovo, Žilinský kraj, Stredné Slovensko, Slovensko",
+          "NATIONALSI": "SKUEV0222",
+          "SITETITLE_": "Jelešňa"
+        },
+        {
+          "parcel_label": "Oravská priehrada, Námestovo, okres Námestovo, Žilinský kraj, Stredné Slovensko, Slovensko",
+          "NATIONALSI": "SKUEV0658",
+          "SITETITLE_": "Ústie Bielej Oravy"
+        },
+        {
+          "parcel_label": "Oravská priehrada, Námestovo, okres Námestovo, Žilinský kraj, Stredné Slovensko, Slovensko",
+          "NATIONALSI": "SKUEV0304",
+          "SITETITLE_": "Oravská vodná nádrž"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Oravská priehrada, Námestovo, okres Námestovo, Žilinský kraj, Stredné Slovensko, Slovensko",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        }
+      ]
+    },
+    "source_type": "GEONAME"
+  }
+}

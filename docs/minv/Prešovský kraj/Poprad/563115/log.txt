@@ -1,0 +1,47 @@
+[2026-03-09 20:32:41] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/563115'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=56&odbor=10&sekcia=uradna-tabula&subor=563115
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/563115/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/563115/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 2 písm. a)' zákona 'v znení'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/563115/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00896325}
+LLM_tokens: {"input": 5502, "output": 2373, "total": 7875, "cached": 2015}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/563115/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/563115/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Poprad', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Tatranský národný park', 'nazov_lokality_norm': 'Tatranský'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Poprad', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Tatranský národný park', 'nazov_lokality_norm': 'Tatranský'}
+No geometries were found.
+nazov_lokality: Tatranský
+get_geometry_of_a_geoname nazov_lokality: Tatranský
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Tatranský, Poprad, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.28029 49.09686, 20.28037 49.09681...  ...  Tatranský dom, 31, Veľký Slavkov, okres Poprad...
+
+[1 rows x 11 columns]
+geoname_query: Tatranský, Poprad, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.28029 49.09686, 20.28037 49.09681...  ...  Tatranský dom, 31, Veľký Slavkov, okres Poprad...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/563115/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/563115/analysis.json...
+
+--- Časy spracovania dokumentu 563115 ---
+  download_and_text   :   1.07 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  13.10 s
+  gis_processing      :   0.70 s
+  CELKOVÝ ČAS         :  14.88 s
+------------------------------------------
+Dokument 563115 bol úspešne spracovaný.

@@ -1,0 +1,60 @@
+[2026-03-09 20:29:33] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563131'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=3&odbor=10&sekcia=uradna-tabula&subor=563131
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563131/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563131/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 3' zákona 'na výrub 4 ks drevín – slivky domácej a 1 ks jaseňa štíhleho,  rastúca na pozemku s par. č. 2661, 2983 v k. ú. Doľany, žiadateľovi  - fyzická osoba'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie potvrdenia záujmu byť účastníkom konania podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona 'v začatom správnom konaní je 5 pracovných dní odo dňa zverejnenia tohto oznamu.  Účastníkom konania je podľa zákona združenie s právnou subjektivitou'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563131/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011690099999999998}
+LLM_tokens: {"input": 5019, "output": 3362, "total": 8381, "cached": 2012}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563131/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563131/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Doľany', 'katastralne_uzemia': [{'nazov': 'Doľany', 'parcely': [{'typ': None, 'cisla': ['2661', '2983']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Doľany', 'katastralne_uzemia': [{'nazov': 'Doľany', 'parcely': [{'typ': None, 'cisla': ['2661', '2983']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Doľany obec:Doľany okres:Pezinok kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: dolany norm_ku: dolany
+_get_nationalCadastralZoningReferences() found_ids: {'811483'}
+nationalCadastralZoningReferences: ['811483']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27811483_2661.C%27%2C%27811483_2983.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.64 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27811483_2661.E%27%2C%27811483_2983.E%27%29 (via proxy)
+get_geometry_of_cadastral_zone_parcels() request duration: 1.20 s
+Server vrátil chybu 500. Opakujem pokus o 5 sekúnd... (Pokus 1/5)
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27811483_2661.E%27%2C%27811483_2983.E%27%29 (via proxy)
+get_geometry_of_cadastral_zone_parcels() request duration: 1.21 s
+Server vrátil chybu 500. Opakujem pokus o 10 sekúnd... (Pokus 2/5)
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27811483_2661.E%27%2C%27811483_2983.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.38 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2008'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2008'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2008'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563131/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': '2983', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}, {'parcel_label': '2983', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}], 'CHVU': [{'parcel_label': '2983', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': '2983', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563131/analysis.json...
+
+--- Časy spracovania dokumentu 563131 ---
+  download_and_text   :   0.93 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  17.64 s
+  gis_processing      :  24.64 s
+  CELKOVÝ ČAS         :  43.22 s
+------------------------------------------
+Dokument 563131 bol úspešne spracovaný.

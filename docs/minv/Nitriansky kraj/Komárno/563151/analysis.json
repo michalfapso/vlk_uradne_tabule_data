@@ -1,0 +1,105 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do 15 dní odo dňa doručenia záväzného stanoviska zo zisťovacie konania (pre odvolanie)"
+  },
+  "ziadatel_navrhovatel": "Ladislav Juhász – TATRASPOL",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Komárno",
+    "obec": "Komárno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Komárno",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "8000/2",
+              "8000/12",
+              "8000/14",
+              "8000/15",
+              "8000/19",
+              "8000/20",
+              "8000/30",
+              "8000/31",
+              "8000/32",
+              "8000/33",
+              "8000/37",
+              "8000/38",
+              "8000/39",
+              "8000/42",
+              "8001/1",
+              "8001/2",
+              "8004",
+              "8005/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Mesto Komárno",
+    "nazov_lokality_norm": "Komárno"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť k zámeru navrhovanej činnosti",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "prevádzkovanie zariadenia na zber odpadov",
+    "rozšírenie kapacity",
+    "doplnenie nových druhov zberaných odpadov"
+  ],
+  "rozsah_zasahu": "navýšenie kapacity a doplnenie odpadov (plasty, papier, stavebný odpad, kovy, batérie, elektroodpad)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/zariadenie-na-zber-odpadov-%3E-tatraspol-rozsirenie-kapacity-doplnenie-v",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "18",
+        "24",
+        "29",
+        "38",
+        "56",
+        "64"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "nazov": "o odpadoch",
+      "cislo": "79/2015 Z. z.",
+      "paragrafy": [
+        "97"
+      ]
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí zisťovacieho konania (EIA) pre projekt rozšírenia kapacity a druhov zberaných odpadov v existujúcom areáli firmy TATRASPOL v Komárne. Zásah zahŕňa nové kategórie odpadov vrátane batérií a elektroodpadu. Činnosť je situovaná v zastavanom území mesta na početných parcelách v k.ú. Komárno.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

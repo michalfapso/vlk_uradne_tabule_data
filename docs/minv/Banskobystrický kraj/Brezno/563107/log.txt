@@ -1,0 +1,67 @@
+[2026-03-09 20:27:08] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/563107'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=563107
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/563107/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/563107/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/563107/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011857}
+LLM_tokens: {"input": 5528, "output": 3031, "total": 8559, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/563107/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/563107/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Horná Lehota', 'katastralne_uzemia': [{'nazov': 'Horná Lehota', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'k. ú. Horná Lehota', 'nazov_lokality_norm': 'Horná Lehota'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Horná Lehota', 'katastralne_uzemia': [{'nazov': 'Horná Lehota', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'k. ú. Horná Lehota', 'nazov_lokality_norm': 'Horná Lehota'}
+ku_name:Horná Lehota obec:Horná Lehota okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: horna lehota norm_ku: horna lehota
+_get_nationalCadastralZoningReferences() found_ids: {'817201'}
+nationalCadastralZoningReferences: ['817201']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27817201%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 1.02 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Horná Lehota
+get_geometry_of_a_geoname nazov_lokality: Horná Lehota
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Horná Lehota, Horná Lehota, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.52365 48.84658, 19.52517 48.84587...  ...  Horná Lehota, okres Brezno, Banskobystrický kr...
+
+[1 rows x 11 columns]
+geoname_query: Horná Lehota, Horná Lehota, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.59101 48.94361, 19.59173 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.52365 48.84658, 19.52517 48.84587...  ...  Horná Lehota, okres Brezno, Banskobystrický kr...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/563107/gis.geojson...
+Intersections with protected areas...
+Found 41 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}], 'UEV': [{'parcel_label': 'Horná Lehota', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}], 'MCHU': [{'parcel_label': 'Horná Lehota', 'NATIONALSI': '1287', 'SITETITLE_': 'PR Pralesy Slovenska-Bystrá dolina'}, {'parcel_label': 'Horná Lehota', 'NATIONALSI': '246', 'SITETITLE_': 'NPR Ďumbier'}], 'CHVU': [{'parcel_label': 'Horná Lehota', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/563107/analysis.json...
+
+--- Časy spracovania dokumentu 563107 ---
+  download_and_text   :   0.92 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  15.76 s
+  gis_processing      :   1.85 s
+  CELKOVÝ ČAS         :  18.54 s
+------------------------------------------
+Dokument 563107 bol úspešne spracovaný.
