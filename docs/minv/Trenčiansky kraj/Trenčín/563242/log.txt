@@ -1,0 +1,44 @@
+[2026-03-10 23:26:50] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/563242'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=12&odbor=10&sekcia=uradna-tabula&subor=563242
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/563242/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/563242/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1 písm. b)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení  niektorých zákonov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení  niektorých zákonov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona 'uvedeného zákona do piatich pracovných dní od zverejnenia  tohto oznámenia na internetovej stránke https://www.minv.sk/'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/563242/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009826000000000001}
+LLM_tokens: {"input": 6350, "output": 2520, "total": 8870, "cached": 2020}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/563242/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/563242/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj, Banskobystrický kraj, Žilinský kraj, Prešovský kraj, Košický kraj', 'okres': 'Trenčín', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'trasa z východu na západ Slovenska', 'nazov_lokality_norm': None}
+data: {'kraj': 'Trenčiansky kraj, Banskobystrický kraj, Žilinský kraj, Prešovský kraj, Košický kraj', 'okres': 'Trenčín', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'trasa z východu na západ Slovenska', 'nazov_lokality_norm': None}
+No geometries were found.
+nazov_lokality: trasa z východu na západ Slovenska
+get_geometry_of_a_geoname nazov_lokality: trasa z východu na západ Slovenska
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=trasa z východu na západ Slovenska, Trenčín, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=trasa z východu na západ Slovenska, Trenčiansky kraj, Banskobystrický kraj, Žilinský kraj, Prešovský kraj, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=trasa z východu na západ Slovenska, Slovensko
+response: <Response [200]>
+normalized: None
+Zlyhalo spracovanie dokumentu 563242 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=12&odbor=10&sekcia=uradna-tabula&subor=563242): 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 497, in process_document
+    analysis_data = process_analysis_data(analysis_data, status_filepath, invalidate_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 447, in process_analysis_data
+    gdf_geoname, geoname_query = get_geometry_of_a_geoname(nazov_lokality, place_info.get('obec', ''), place_info.get('okres', ''), place_info.get('kraj', ''), status_filepath)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/gis_geocoding.py", line 86, in get_geometry_of_a_geoname
+    normalized_geoname = normalized['formatted_address']
+                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+[ERROR]: Zlyhalo spracovanie dokumentu 563242 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=12&odbor=10&sekcia=uradna-tabula&subor=563242): 'NoneType' object is not subscriptable

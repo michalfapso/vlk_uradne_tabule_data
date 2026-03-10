@@ -1,0 +1,48 @@
+[2026-03-10 23:32:10] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-037049-kuc'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-037049-kuc/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-037049-kuc/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0110772}
+LLM_tokens: {"input": 4062, "output": 3316, "total": 7378, "cached": 2004}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-037049-kuc/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-037049-kuc/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Beňadovské rašelinisko', 'nazov_lokality_norm': 'Beňadovské rašelinisko'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Beňadovské rašelinisko', 'nazov_lokality_norm': 'Beňadovské rašelinisko'}
+No geometries were found.
+nazov_lokality: Beňadovské rašelinisko
+get_geometry_of_a_geoname nazov_lokality: Beňadovské rašelinisko
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Beňadovské rašelinisko, Žilina, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.3283 49.41986, 19.32852 49.41945,...  ...  Beňadovské rašelinisko, Breza, okres Námestovo...
+1  POLYGON ((19.32775 49.4206, 19.3287 49.41887, ...  ...  Rašeliniská Bielej Oravy - Beňadovské rašelini...
+
+[2 rows x 11 columns]
+geoname_query: Beňadovské rašelinisko, Žilina, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.3283 49.41986, 19.32852 49.41945,...  ...  Beňadovské rašelinisko, Breza, okres Námestovo...
+1  POLYGON ((19.32775 49.4206, 19.3287 49.41887, ...  ...  Rašeliniská Bielej Oravy - Beňadovské rašelini...
+
+[2 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-037049-kuc/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Beňadovské rašelinisko, Breza, okres Námestovo, Žilinský kraj, Stredné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0191', 'SITETITLE_': 'Rašeliniská Bielej Oravy'}, {'parcel_label': 'Rašeliniská Bielej Oravy - Beňadovské rašelinisko, Breza, okres Námestovo, Žilinský kraj, Stredné Slovensko, Slovensko', 'NATIONALSI': 'SKUEV0191', 'SITETITLE_': 'Rašeliniská Bielej Oravy'}], 'CHVU': [{'parcel_label': 'Beňadovské rašelinisko, Breza, okres Námestovo, Žilinský kraj, Stredné Slovensko, Slovensko', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': 'Rašeliniská Bielej Oravy - Beňadovské rašelinisko, Breza, okres Námestovo, Žilinský kraj, Stredné Slovensko, Slovensko', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-037049-kuc/analysis.json...
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-037049-kuc ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.86 s
+  gis_processing      :   0.63 s
+  CELKOVÝ ČAS         :  17.10 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-037049-kuc bol úspešne spracovaný.

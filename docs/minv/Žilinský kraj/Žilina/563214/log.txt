@@ -1,0 +1,56 @@
+[2026-03-10 23:30:28] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/563214'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=28&odbor=10&sekcia=uradna-tabula&subor=563214
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/563214/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 4 page images to gemini/gemini-3-flash-preview for OCR.
+LLM_cost: {"cost": 0.017240000000000002}
+LLM_tokens: {"input": 4444, "output": 5734, "total": 10178, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/563214/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2' zákona '180/2013 Z.z. o organizácií miestnej štátnej správy a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej starostlivosti o životné prost'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4' zákona '180/2013 Z.z. o organizácií miestnej štátnej správy a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej starostlivosti o životné prost'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a ako príslušný orgán štátnej správy ochran'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 64 ods. 1 písm. d)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 5' zákona ', osvedčený podľa osobitných predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. | | Zastúpená osoba: | Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 | | Spôsob autorizácie: | kvalifikovaný elektronický po'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/563214/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01630765}
+LLM_tokens: {"input": 7340, "output": 4516, "total": 11856, "cached": 2023}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/563214/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/563214/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Belá', 'katastralne_uzemia': [{'nazov': 'Belá', 'parcely': [{'typ': 'C', 'cisla': ['13111']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo Národného parku Malá Fatra, SKCHVÚ013 Malá Fatra', 'nazov_lokality_norm': 'Malá Fatra'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Belá', 'katastralne_uzemia': [{'nazov': 'Belá', 'parcely': [{'typ': 'C', 'cisla': ['13111']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo Národného parku Malá Fatra, SKCHVÚ013 Malá Fatra', 'nazov_lokality_norm': 'Malá Fatra'}
+ku_name:Belá obec:Belá okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: bela norm_ku: bela
+_get_nationalCadastralZoningReferences() found_ids: {'802336'}
+nationalCadastralZoningReferences: ['802336']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27802336_13111.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.27 s
+nazov_lokality: Malá Fatra
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1178'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/563214/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '13111', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/563214/analysis.json...
+
+--- Časy spracovania dokumentu 563214 ---
+  download_and_text   :  29.89 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  21.04 s
+  gis_processing      :   3.50 s
+  CELKOVÝ ČAS         :  54.43 s
+------------------------------------------
+Dokument 563214 bol úspešne spracovaný.

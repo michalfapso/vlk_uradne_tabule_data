@@ -1,0 +1,70 @@
+[2026-03-10 23:23:15] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/563196'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=21&odbor=10&sekcia=uradna-tabula&subor=563196
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/563196/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/563196/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona '364/2004 Z. z. o vodách a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 39' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 39a' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 117 ods. 1' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. 1 písm. d)' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, ako príslušný orgán štátnej vodnej správy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84' zákona '25/2025 Z. z. Stavebného zákona a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 1' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov a v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona 'upúšťa od miestneho zisťovania a ústneho pojednávania. Toto oznámenie má povahu verejnej vyhlášky podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona – líniová stavba, stavba s veľkým počtom účastníkom konania -Stavebníkovi Nové Mlynárce, s.r.o., popradská 34, 821 06 Bratislava, IČ'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 24' zákona '– 27 zákona č. 24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v zmysle'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/563196/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0174875}
+LLM_tokens: {"input": 10105, "output": 4145, "total": 14250, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/563196/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/563196/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Nitra', 'katastralne_uzemia': [{'nazov': 'Mlynárce', 'parcely': [{'typ': 'C', 'cisla': ['298/3', '306/8', '306/17', '306/22', '306/26', '306/27', '306/21']}, {'typ': 'E', 'cisla': ['299/1', '322/3']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Nové Mlynárce', 'nazov_lokality_norm': 'Mlynárce, Nitra'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Nitra', 'katastralne_uzemia': [{'nazov': 'Mlynárce', 'parcely': [{'typ': 'C', 'cisla': ['298/3', '306/8', '306/17', '306/22', '306/26', '306/27', '306/21']}, {'typ': 'E', 'cisla': ['299/1', '322/3']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Nové Mlynárce', 'nazov_lokality_norm': 'Mlynárce, Nitra'}
+ku_name:Mlynárce obec:Nitra okres:Nitra kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nitra norm_obec: nitra norm_ku: mlynarce
+_get_nationalCadastralZoningReferences() found_ids: {'840254'}
+nationalCadastralZoningReferences: ['840254']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27840254_298%2F3.C%27%2C%27840254_306%2F8.C%27%2C%27840254_306%2F17.C%27%2C%27840254_306%2F22.C%27%2C%27840254_306%2F26.C%27%2C%27840254_306%2F27.C%27%2C%27840254_306%2F21.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.10 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27840254_299%2F1.E%27%2C%27840254_322%2F3.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.04 s
+nazov_lokality: Mlynárce, Nitra
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+8  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+
+[9 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/563196/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/563196/analysis.json...
+
+--- Časy spracovania dokumentu 563196 ---
+  download_and_text   :   1.28 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  29.05 s
+  gis_processing      :   7.37 s
+  CELKOVÝ ČAS         :  37.70 s
+------------------------------------------
+Dokument 563196 bol úspešne spracovaný.

@@ -1,0 +1,75 @@
+[2026-03-10 23:21:11] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563177'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=42&odbor=10&sekcia=uradna-tabula&subor=563177
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563177/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563177/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68 ods. 1' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona '364/2004 Z.z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona 'NR SR č. 180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písmeno e)' zákona 'NR SR č. 180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov oznamuje začat'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'stavebného zákona. OU-RS-OSZP-2026/008031-0015619/2026 2 / 3 Vzhľadom na skutočnosť, že na predmetnú stavbu bolo vydané územné rozhodnutie pred dňom 3'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69 ods. 1' zákona 'stavebného zákona. OU-RS-OSZP-2026/008031-0015619/2026 2 / 3 Vzhľadom na skutočnosť, že na predmetnú stavbu bolo vydané územné rozhodnutie pred dňom 3'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona 'NR SR č. 25/2025 Z. z. stavebný zákon a o zmene a doplnení niektorých zákonov použijú právne predpisy platné do 31.3.2025. Stavebný úrad v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona 'stavebného zákona upúšťa od ústneho konania a miestneho zisťovania, nakoľko sú mu dobre známe pomery staveniska a žiadosť poskytuje dostatočný podklad'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '3' zákona 'stavebného zákona upúšťa od ústneho konania a miestneho zisťovania, nakoľko sú mu dobre známe pomery staveniska a žiadosť poskytuje dostatočný podklad'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 5' zákona 'stavebného zákona má sa za to, že s predĺžením platnosti stavebného povolenia a zmenou termínu na dokončenie stavby súhlasíte. Do podkladov rozhodnuti'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68 ods. 1' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.015031}
+LLM_tokens: {"input": 7262, "output": 3800, "total": 11062, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563177/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563177/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Tisovec', 'katastralne_uzemia': [{'nazov': 'Tisovec', 'parcely': [{'typ': 'C', 'cisla': ['8309', '3751/1', '3750/1', '3751/3', '3751/4', '8205/1', '3766/7', '3766/2', '3773', '3910/19']}, {'typ': 'E', 'cisla': ['8309', '3751/1', '3751/2']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Tisovec – Losinec', 'nazov_lokality_norm': 'Losinec'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Tisovec', 'katastralne_uzemia': [{'nazov': 'Tisovec', 'parcely': [{'typ': 'C', 'cisla': ['8309', '3751/1', '3750/1', '3751/3', '3751/4', '8205/1', '3766/7', '3766/2', '3773', '3910/19']}, {'typ': 'E', 'cisla': ['8309', '3751/1', '3751/2']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Tisovec – Losinec', 'nazov_lokality_norm': 'Losinec'}
+ku_name:Tisovec obec:Tisovec okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: tisovec norm_ku: tisovec
+_get_nationalCadastralZoningReferences() found_ids: {'863220'}
+nationalCadastralZoningReferences: ['863220']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27863220_8309.C%27%2C%27863220_3751%2F1.C%27%2C%27863220_3750%2F1.C%27%2C%27863220_3751%2F3.C%27%2C%27863220_3751%2F4.C%27%2C%27863220_8205%2F1.C%27%2C%27863220_3766%2F7.C%27%2C%27863220_3766%2F2.C%27%2C%27863220_3773.C%27%2C%27863220_3910%2F19.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.68 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27863220_8309.E%27%2C%27863220_3751%2F1.E%27%2C%27863220_3751%2F2.E%27%29 (via proxy)
+get_geometry_of_cadastral_zone_parcels() request duration: 1.26 s
+Server vrátil chybu 500. Opakujem pokus o 5 sekúnd... (Pokus 1/5)
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27863220_8309.E%27%2C%27863220_3751%2F1.E%27%2C%27863220_3751%2F2.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.21 s
+nazov_lokality: Losinec
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1337'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1337'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1337'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1337'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1337'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1337'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1337'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1337'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1337'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1337'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1337'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1337'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1337'}
+
+[13 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563177/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563177/analysis.json...
+
+--- Časy spracovania dokumentu 563177 ---
+  download_and_text   :   1.33 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  18.55 s
+  gis_processing      :  13.46 s
+  CELKOVÝ ČAS         :  33.35 s
+------------------------------------------
+Dokument 563177 bol úspešne spracovaný.

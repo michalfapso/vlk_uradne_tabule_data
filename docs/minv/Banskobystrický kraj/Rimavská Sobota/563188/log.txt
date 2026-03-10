@@ -1,0 +1,81 @@
+[2026-03-10 23:20:54] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563188'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=42&odbor=10&sekcia=uradna-tabula&subor=563188
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563188/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563188/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68 ods. 1' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 12 písm. d)' zákona 'NR SR č. 25/2025 Z. z. stavebný zákon a o zmene a doplnení niektorých zákonov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. 1' zákona 'NR SR č. 25/2025 Z. z. stavebný zákon a o zmene a doplnení niektorých zákonov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'NR SR č. 364/2004 Z. z. Zákon o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov /vodný zá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona 'NR SR č. 180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písm. e)' zákona 'NR SR č. 180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov ozna'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'č. 50/ 1976 Zb. o územnom plánovaní a stavebnom poriadku /stavebný zákon/ v znení neskorších predpisov. Vzhľadom na skutočnosť, že na predmetnú stavbu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69' zákona 'č. 50/ 1976 Zb. o územnom plánovaní a stavebnom poriadku /stavebný zákon/ v znení neskorších predpisov. Vzhľadom na skutočnosť, že na predmetnú stavbu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona 'NR SR č. 25/2025 Z. z. stavebný zákon a o zmene a doplnení niektorých zákonov použijú právne predpisy platné do 31.3.2025. Stavebný úrad v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona 'stavebného zákona upúšťa od ústneho konania a miestneho zisťovania, nakoľko sú mu dobre známe pomery staveniska a žiadosť poskytuje dostatočný podklad'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '3' zákona 'stavebného zákona upúšťa od ústneho konania a miestneho zisťovania, nakoľko sú mu dobre známe pomery staveniska a žiadosť poskytuje dostatočný podklad'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 5' zákona 'stavebného zákona má sa za to, že so zmenou termínu na dokončenie stavby súhlasíte. Do podkladov rozhodnutia je možné nahliadnuť v stránkové dni na šp'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68 ods. 1' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011108}
+LLM_tokens: {"input": 8722, "output": 2249, "total": 10971, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563188/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563188/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Tornaľa', 'katastralne_uzemia': [{'nazov': 'Behynce', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Behynce', 'nazov_lokality_norm': 'Behynce'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Tornaľa', 'katastralne_uzemia': [{'nazov': 'Behynce', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Behynce', 'nazov_lokality_norm': 'Behynce'}
+ku_name:Behynce obec:Tornaľa okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: tornala norm_ku: behynce
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: behynce
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: behynce
+_get_nationalCadastralZoningReferences() found_ids: {'802280'}
+nationalCadastralZoningReferences: ['802280']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27802280%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 1.06 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Behynce
+get_geometry_of_a_geoname nazov_lokality: Behynce
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Behynce, Tornaľa, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.2742 48.44033, 20.27422 48.44022,...  ...  Behynce, Tornaľa, okres Revúca, Banskobystrick...
+
+[1 rows x 11 columns]
+geoname_query: Behynce, Tornaľa, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.29631 48.44812, 20.29694 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.2742 48.44033, 20.27422 48.44022,...  ...  Behynce, Tornaľa, okres Revúca, Banskobystrick...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563188/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': 'Behynce', 'NATIONALSI': 'SKUEV4012', 'SITETITLE_': 'Alúvium Západného Turca'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563188/analysis.json...
+
+--- Časy spracovania dokumentu 563188 ---
+  download_and_text   :   1.22 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  13.37 s
+  gis_processing      :   1.93 s
+  CELKOVÝ ČAS         :  16.53 s
+------------------------------------------
+Dokument 563188 bol úspešne spracovaný.

@@ -1,0 +1,100 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP3-2026/031573-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-03-10",
+  "datum_zverejnenia": "2026-03-10",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr v lehote do 3 dní od uskutočnenia ústneho pojednávania"
+  },
+  "ziadatel_navrhovatel": "Obec Belá",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": "Belá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Belá",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "13111"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "ochranné pásmo Národného parku Malá Fatra, SKCHVÚ013 Malá Fatra",
+    "nazov_lokality_norm": "Malá Fatra"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 1 ks dreviny druh lipa (Tilia sp.)"
+  ],
+  "rozsah_zasahu": "1 ks dreviny (lipa)",
+  "typ_uzemia": [
+    "ochranné pásmo Národného parku Malá Fatra",
+    "2. stupeň",
+    "SKCHVÚ013 Malá Fatra"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "lipa (Tilia sp.)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o organizácií miestnej štátnej správy",
+      "cislo": "180/2013 Z.z.",
+      "paragrafy": [
+        "§ 2",
+        "§ 4"
+      ]
+    },
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z.z.",
+      "paragrafy": [
+        "§ 5"
+      ]
+    },
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "§ 64 ods. 1 písm. d)",
+        "§ 68 písm.",
+        "§ 47 ods. 3",
+        "§ 82 ods. 5"
+      ]
+    },
+    {
+      "nazov": "Zákon o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "§ 18",
+        "§ 21",
+        "§ 33 ods. 2"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti Obce Belá o výrub 1 ks lipy s poškodeným zdravotným stavom po zásahu bleskom. Strom rastie v k. ú. Belá v ochrannom pásme NP Malá Fatra s 2. stupňom ochrany a v susedstve s CHVÚ Malá Fatra. Ústne pojednávanie je určené na 30.03.2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "13111",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

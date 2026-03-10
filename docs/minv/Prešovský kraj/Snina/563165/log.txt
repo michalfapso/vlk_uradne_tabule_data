@@ -1,0 +1,78 @@
+[2026-03-10 23:24:40] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Snina/563165'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=64&odbor=10&sekcia=uradna-tabula&subor=563165
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Snina/563165/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-3-flash-preview for OCR.
+LLM_cost: {"cost": 0.020681}
+LLM_tokens: {"input": 2260, "output": 6881, "total": 9141, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Snina/563165/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona '364/2004 Z.z. o vodách a o zmene a doplnení niektorých zákonov na uskutočnenie vodnej stavby „Rozšírenie verejného vodovodu a verejnej kanalizácie, ul'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z.z. o vodách a o zmene zákona SNR č 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71 ods. 1' zákona '364/2004 Z.z. o vodách a o zmene zákona SNR č 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'vodného zákona, v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120 ods. 1' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '6' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 1' zákona 'stavebného zákona  **o z n a m u j e**  začatie stavebného konania, termín a predmet ústneho pojednávania verejnou vyhláškou dotknutým orgánom a známy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '4' zákona 'stavebného zákona  **o z n a m u j e**  začatie stavebného konania, termín a predmet ústneho pojednávania verejnou vyhláškou dotknutým orgánom a známy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 1' zákona 'stavebného zákona, stavebný úrad upozorňuje, že účastníci konania a dotknuté orgány môžu svoje námietky uplatniť najneskôr pri ústnom pojednávaní, ina'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 6' zákona 'stavebného zákona dotknuté orgány sú povinné oznámiť svoje stanovisko v rovnakej lehote, v ktorej môžu uplatniť svoje námietky účastníci konania. Ak n'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona a 73'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 4' zákona 'vodného zákona. Táto verejná vyhláška - oznámenie o začatí kolaudačného konania sa vyvesí na úradnej tabuli Obce Belá nad Cirochou, Osloboditeľov 535/'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '6' zákona 'vodného zákona. Táto verejná vyhláška - oznámenie o začatí kolaudačného konania sa vyvesí na úradnej tabuli Obce Belá nad Cirochou, Osloboditeľov 535/'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012758949999999998}
+LLM_tokens: {"input": 6245, "output": 3515, "total": 9760, "cached": 2019}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Snina/563165/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Snina/563165/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Snina', 'obec': 'Belá nad Cirochou', 'katastralne_uzemia': [{'nazov': 'Snina', 'parcely': [{'typ': 'C', 'cisla': ['3312/56', '744/22', '744/11']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. Vihorlatská, Belá n/Cirochou', 'nazov_lokality_norm': 'Vihorlatská, Belá nad Cirochou'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Snina', 'obec': 'Belá nad Cirochou', 'katastralne_uzemia': [{'nazov': 'Snina', 'parcely': [{'typ': 'C', 'cisla': ['3312/56', '744/22', '744/11']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. Vihorlatská, Belá n/Cirochou', 'nazov_lokality_norm': 'Vihorlatská, Belá nad Cirochou'}
+ku_name:Snina obec:Belá nad Cirochou okres:Snina kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: snina norm_obec: bela nad cirochou norm_ku: snina
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: snina norm_obec: None norm_ku: snina
+_get_nationalCadastralZoningReferences() found_ids: {'856941'}
+nationalCadastralZoningReferences: ['856941']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27856941_3312%2F56.C%27%2C%27856941_744%2F22.C%27%2C%27856941_744%2F11.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.59 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['3312/56', '744/22', '744/11']}' v KU 'Snina' sa nenašli dáta.
+Fallback to OBEC: Belá nad Cirochou
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: snina norm_obec: bela nad cirochou norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'802395'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27802395%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Vihorlatská, Belá nad Cirochou
+get_geometry_of_a_geoname nazov_lokality: Vihorlatská, Belá nad Cirochou
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Vihorlatská, Belá nad Cirochou, Belá nad Cirochou, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Vihorlatská, Belá nad Cirochou, Snina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Vihorlatská, Belá nad Cirochou, Prešovský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Vihorlatská, Belá nad Cirochou, Slovensko
+response: <Response [200]>
+normalized: None
+Zlyhalo spracovanie dokumentu 563165 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=64&odbor=10&sekcia=uradna-tabula&subor=563165): 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 497, in process_document
+    analysis_data = process_analysis_data(analysis_data, status_filepath, invalidate_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 447, in process_analysis_data
+    gdf_geoname, geoname_query = get_geometry_of_a_geoname(nazov_lokality, place_info.get('obec', ''), place_info.get('okres', ''), place_info.get('kraj', ''), status_filepath)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/gis_geocoding.py", line 86, in get_geometry_of_a_geoname
+    normalized_geoname = normalized['formatted_address']
+                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+[ERROR]: Zlyhalo spracovanie dokumentu 563165 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=64&odbor=10&sekcia=uradna-tabula&subor=563165): 'NoneType' object is not subscriptable

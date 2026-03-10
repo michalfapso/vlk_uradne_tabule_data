@@ -1,0 +1,40 @@
+[2026-03-10 23:31:42] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/10307-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/10307-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/10307-2026-6-1/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/10307-2026-6-1/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008341850000000001}
+LLM_tokens: {"input": 4348, "output": 2357, "total": 6705, "cached": 2007}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 50 column 1 (char 1536)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0100937}
+LLM_tokens: {"input": 4348, "output": 3242, "total": 7590, "cached": 4014}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/10307-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/10307-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': None, 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'VN Nová Bystrica a VN Rozgrund', 'nazov_lokality_norm': 'Nová Bystrica, Rozgrund'}
+data: {'kraj': None, 'okres': None, 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'VN Nová Bystrica a VN Rozgrund', 'nazov_lokality_norm': 'Nová Bystrica, Rozgrund'}
+No geometries were found.
+nazov_lokality: Nová Bystrica, Rozgrund
+get_geometry_of_a_geoname nazov_lokality: Nová Bystrica, Rozgrund
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Nová Bystrica, Rozgrund, Slovensko
+response: <Response [200]>
+normalized: None
+Zlyhalo spracovanie dokumentu 10307-2026-6-1 (https://www.minzp.sk/uradna-tabula/priroda/ministerstvo/10307-2026-6-1.html): 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 497, in process_document
+    analysis_data = process_analysis_data(analysis_data, status_filepath, invalidate_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 447, in process_analysis_data
+    gdf_geoname, geoname_query = get_geometry_of_a_geoname(nazov_lokality, place_info.get('obec', ''), place_info.get('okres', ''), place_info.get('kraj', ''), status_filepath)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/gis_geocoding.py", line 86, in get_geometry_of_a_geoname
+    normalized_geoname = normalized['formatted_address']
+                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+[ERROR]: Zlyhalo spracovanie dokumentu 10307-2026-6-1 (https://www.minzp.sk/uradna-tabula/priroda/ministerstvo/10307-2026-6-1.html): 'NoneType' object is not subscriptable

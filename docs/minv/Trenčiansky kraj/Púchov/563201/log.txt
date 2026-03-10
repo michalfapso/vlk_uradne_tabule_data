@@ -1,0 +1,48 @@
+[2026-03-10 23:26:01] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563201'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=563201
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563201/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563201/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563201/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01233035}
+LLM_tokens: {"input": 5782, "output": 3449, "total": 9231, "cached": 2017}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563201/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563201/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lysá pod Makytou', 'katastralne_uzemia': [{'nazov': 'Lysá pod Makytou', 'parcely': [{'typ': 'E', 'cisla': ['3531/1']}, {'typ': 'C', 'cisla': ['3532/2']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Dešná', 'nazov_lokality_norm': 'Dešná'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lysá pod Makytou', 'katastralne_uzemia': [{'nazov': 'Lysá pod Makytou', 'parcely': [{'typ': 'E', 'cisla': ['3531/1']}, {'typ': 'C', 'cisla': ['3532/2']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Dešná', 'nazov_lokality_norm': 'Dešná'}
+ku_name:Lysá pod Makytou obec:Lysá pod Makytou okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: lysa pod makytou norm_ku: lysa pod makytou
+_get_nationalCadastralZoningReferences() found_ids: {'834483'}
+nationalCadastralZoningReferences: ['834483']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27834483_3531%2F1.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.82 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27834483_3532%2F2.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.13 s
+nazov_lokality: Dešná
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.721'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.721'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563201/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563201/analysis.json...
+
+--- Časy spracovania dokumentu 563201 ---
+  download_and_text   :   1.43 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  17.70 s
+  gis_processing      :   6.17 s
+  CELKOVÝ ČAS         :  25.32 s
+------------------------------------------
+Dokument 563201 bol úspešne spracovaný.

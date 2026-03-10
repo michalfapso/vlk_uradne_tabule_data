@@ -1,0 +1,72 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP1-2026/037049/Kuc",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-03-10",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Samuel Kňažko",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Beňadovské rašelinisko",
+    "nazov_lokality_norm": "Beňadovské rašelinisko"
+  },
+  "typ_dokumentu": "Žiadosť o udelenie súhlasu",
+  "kategorie_vlk": [
+    "VEDA_A_VYSKUM"
+  ],
+  "typ_zasahu": [
+    "realizácia vedeckého výskumu"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "CHKO Horná Orava"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Samuel Kňažko požiadal o udelenie súhlasu na realizáciu vedeckého výskumu v lokalite Beňadovské rašelinisko. Činnosť má prebiehať v chránenom území CHKO Horná Orava. Ide o oznámenie o začatí konania.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Beňadovské rašelinisko, Breza, okres Námestovo, Žilinský kraj, Stredné Slovensko, Slovensko",
+          "NATIONALSI": "SKUEV0191",
+          "SITETITLE_": "Rašeliniská Bielej Oravy"
+        },
+        {
+          "parcel_label": "Rašeliniská Bielej Oravy - Beňadovské rašelinisko, Breza, okres Námestovo, Žilinský kraj, Stredné Slovensko, Slovensko",
+          "NATIONALSI": "SKUEV0191",
+          "SITETITLE_": "Rašeliniská Bielej Oravy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Beňadovské rašelinisko, Breza, okres Námestovo, Žilinský kraj, Stredné Slovensko, Slovensko",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        },
+        {
+          "parcel_label": "Rašeliniská Bielej Oravy - Beňadovské rašelinisko, Breza, okres Námestovo, Žilinský kraj, Stredné Slovensko, Slovensko",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        }
+      ]
+    },
+    "source_type": "GEONAME"
+  }
+}
