@@ -1,0 +1,86 @@
+[2026-03-11 20:29:27] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/563243'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=8&odbor=10&sekcia=uradna-tabula&subor=563243
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/563243/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/563243/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako prísluš'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'c)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 1' zákona 'stavebného zákona oznamuje začatie vodoprávneho konania o predĺžení platnosti vodoprávneho povolenia všetkým známym účastníkom konania, dotknutým orgá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '4' zákona 'stavebného zákona oznamuje začatie vodoprávneho konania o predĺžení platnosti vodoprávneho povolenia všetkým známym účastníkom konania, dotknutým orgá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona 'stavebného zákona od miestneho zisťovania a ústneho pojednávania. Účastníci konania, dotknuté orgány a organizácie môžu svoje námietky k žiadosti o pr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69 ods. 2' zákona 'stavebného zákona musí byť vyvesené po dobu 15 dní na úradnej tabuli Obce Sokolovce, pričom posledný 15. deň sa považuje za deň doručenia. Dátum vyves'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013746149999999999}
+LLM_tokens: {"input": 7257, "output": 3676, "total": 10933, "cached": 2023}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/563243/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/563243/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Piešťany', 'obec': 'Sokolovce', 'katastralne_uzemia': [{'nazov': 'Sokolovce', 'parcely': [{'typ': 'C', 'cisla': ['3/1', '3/2', '3/9', '5/3', '7/2', '7/6', '7/8', '8/8', '92', '108/19', '112/1', '113/1', '115/2', '115/6', '132/2', '133/2', '133/3', '136/65', '136/71', '137/1', '137/2', '138/7', '138/16', '140/4', '140/11', '141/1', '141/58', '141/84', '141/85', '141/86', '141/87', '141/88', '141/89', '141/92', '141/93', '141/94', '141/95', '141/96', '141/97', '141/98', '141/99', '141/101', '141/102', '141/103', '141/104', '141/105', '141/106', '141/194', '142/43', '142/125', '143/16', '144/1', '144/62', '144/77', '144/84', '145', '146/1', '147/2', '151/1', '151/2', '151/3', '184/20', '184/30', '185', '186/1', '186/4', '186/32', '186/33', '186/34', '186/63', '186/65', '189/1', '278/1', '279', '280/18', '284/8', '284/75']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Obec Sokolovce', 'nazov_lokality_norm': 'Sokolovce'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Piešťany', 'obec': 'Sokolovce', 'katastralne_uzemia': [{'nazov': 'Sokolovce', 'parcely': [{'typ': 'C', 'cisla': ['3/1', '3/2', '3/9', '5/3', '7/2', '7/6', '7/8', '8/8', '92', '108/19', '112/1', '113/1', '115/2', '115/6', '132/2', '133/2', '133/3', '136/65', '136/71', '137/1', '137/2', '138/7', '138/16', '140/4', '140/11', '141/1', '141/58', '141/84', '141/85', '141/86', '141/87', '141/88', '141/89', '141/92', '141/93', '141/94', '141/95', '141/96', '141/97', '141/98', '141/99', '141/101', '141/102', '141/103', '141/104', '141/105', '141/106', '141/194', '142/43', '142/125', '143/16', '144/1', '144/62', '144/77', '144/84', '145', '146/1', '147/2', '151/1', '151/2', '151/3', '184/20', '184/30', '185', '186/1', '186/4', '186/32', '186/33', '186/34', '186/63', '186/65', '189/1', '278/1', '279', '280/18', '284/8', '284/75']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Obec Sokolovce', 'nazov_lokality_norm': 'Sokolovce'}
+ku_name:Sokolovce obec:Sokolovce okres:Piešťany kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: piestany norm_obec: sokolovce norm_ku: sokolovce
+_get_nationalCadastralZoningReferences() found_ids: {'857262'}
+nationalCadastralZoningReferences: ['857262']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27857262_3%2F1.C%27%2C%27857262_3%2F2.C%27%2C%27857262_3%2F9.C%27%2C%27857262_5%2F3.C%27%2C%27857262_7%2F2.C%27%2C%27857262_7%2F6.C%27%2C%27857262_7%2F8.C%27%2C%27857262_8%2F8.C%27%2C%27857262_92.C%27%2C%27857262_108%2F19.C%27%2C%27857262_112%2F1.C%27%2C%27857262_113%2F1.C%27%2C%27857262_115%2F2.C%27%2C%27857262_115%2F6.C%27%2C%27857262_132%2F2.C%27%2C%27857262_133%2F2.C%27%2C%27857262_133%2F3.C%27%2C%27857262_136%2F65.C%27%2C%27857262_136%2F71.C%27%2C%27857262_137%2F1.C%27%2C%27857262_137%2F2.C%27%2C%27857262_138%2F7.C%27%2C%27857262_138%2F16.C%27%2C%27857262_140%2F4.C%27%2C%27857262_140%2F11.C%27%2C%27857262_141%2F1.C%27%2C%27857262_141%2F58.C%27%2C%27857262_141%2F84.C%27%2C%27857262_141%2F85.C%27%2C%27857262_141%2F86.C%27%2C%27857262_141%2F87.C%27%2C%27857262_141%2F88.C%27%2C%27857262_141%2F89.C%27%2C%27857262_141%2F92.C%27%2C%27857262_141%2F93.C%27%2C%27857262_141%2F94.C%27%2C%27857262_141%2F95.C%27%2C%27857262_141%2F96.C%27%2C%27857262_141%2F97.C%27%2C%27857262_141%2F98.C%27%2C%27857262_141%2F99.C%27%2C%27857262_141%2F101.C%27%2C%27857262_141%2F102.C%27%2C%27857262_141%2F103.C%27%2C%27857262_141%2F104.C%27%2C%27857262_141%2F105.C%27%2C%27857262_141%2F106.C%27%2C%27857262_141%2F194.C%27%2C%27857262_142%2F43.C%27%2C%27857262_142%2F125.C%27%2C%27857262_143%2F16.C%27%2C%27857262_144%2F1.C%27%2C%27857262_144%2F62.C%27%2C%27857262_144%2F77.C%27%2C%27857262_144%2F84.C%27%2C%27857262_145.C%27%2C%27857262_146%2F1.C%27%2C%27857262_147%2F2.C%27%2C%27857262_151%2F1.C%27%2C%27857262_151%2F2.C%27%2C%27857262_151%2F3.C%27%2C%27857262_184%2F20.C%27%2C%27857262_184%2F30.C%27%2C%27857262_185.C%27%2C%27857262_186%2F1.C%27%2C%27857262_186%2F4.C%27%2C%27857262_186%2F32.C%27%2C%27857262_186%2F33.C%27%2C%27857262_186%2F34.C%27%2C%27857262_186%2F63.C%27%2C%27857262_186%2F65.C%27%2C%27857262_189%2F1.C%27%2C%27857262_278%2F1.C%27%2C%27857262_279.C%27%2C%27857262_280%2F18.C%27%2C%27857262_284%2F8.C%27%2C%27857262_284%2F75.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 0.40 s
+get_geometry_of_cadastral_zone_parcels() request duration: 0.40 s
+get_geometry_of_cadastral_zone_parcels() Neočakávaná chyba pri sťahovaní dát: Expecting value: line 1 column 1 (char 0)
+get_geometry_of_cadastral_zone_parcels() data is None
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['3/1', '3/2', '3/9', '5/3', '7/2', '7/6', '7/8', '8/8', '92', '108/19', '112/1', '113/1', '115/2', '115/6', '132/2', '133/2', '133/3', '136/65', '136/71', '137/1', '137/2', '138/7', '138/16', '140/4', '140/11', '141/1', '141/58', '141/84', '141/85', '141/86', '141/87', '141/88', '141/89', '141/92', '141/93', '141/94', '141/95', '141/96', '141/97', '141/98', '141/99', '141/101', '141/102', '141/103', '141/104', '141/105', '141/106', '141/194', '142/43', '142/125', '143/16', '144/1', '144/62', '144/77', '144/84', '145', '146/1', '147/2', '151/1', '151/2', '151/3', '184/20', '184/30', '185', '186/1', '186/4', '186/32', '186/33', '186/34', '186/63', '186/65', '189/1', '278/1', '279', '280/18', '284/8', '284/75']}' v KU 'Sokolovce' sa nenašli dáta.
+Fallback to OBEC: Sokolovce
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: piestany norm_obec: sokolovce norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'857262'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27857262%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Sokolovce
+get_geometry_of_a_geoname nazov_lokality: Sokolovce
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Sokolovce, Sokolovce, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Sokolovce, Piešťany, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.82027 48.52732, 17.82094 48.52625...  ...  Sokolovce, okres Piešťany, Trnavský kraj, Zápa...
+
+[1 rows x 11 columns]
+geoname_query: Sokolovce, Piešťany, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.84413 48.54778, 17.84417 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.82027 48.52732, 17.82094 48.52625...  ...  Sokolovce, okres Piešťany, Trnavský kraj, Zápa...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/563243/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Sokolovce', 'NATIONALSI': 'SKUEV0852', 'SITETITLE_': 'Váh pri Hlohovci'}], 'MCHU': [{'parcel_label': 'Sokolovce', 'NATIONALSI': '155', 'SITETITLE_': 'OP CHA Sĺňava'}], 'CHVU': [{'parcel_label': 'Sokolovce', 'NATIONALSI': 'SKCHVU026', 'SITETITLE_': 'Sĺňava'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/563243/analysis.json...
+
+--- Časy spracovania dokumentu 563243 ---
+  download_and_text   :   0.81 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  19.25 s
+  gis_processing      :   1.54 s
+  CELKOVÝ ČAS         :  21.59 s
+------------------------------------------
+Dokument 563243 bol úspešne spracovaný.

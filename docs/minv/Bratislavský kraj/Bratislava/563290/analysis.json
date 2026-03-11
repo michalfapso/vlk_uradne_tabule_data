@@ -1,0 +1,77 @@
+{
+  "cislo_konania_spisu": "OÚBA/OSZP3/2026/407862/MAA/IV",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-03-10",
+  "datum_zverejnenia": "2026-03-10",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "JK",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Devín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1448/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "ulici Uvozna",
+    "nazov_lokality_norm": "Uvozna, Bratislava"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub stromu javor mliečny"
+  ],
+  "rozsah_zasahu": "1 ks (javor mliečny)",
+  "typ_uzemia": [
+    "ochranné pásmo elektrizačnej prenosovej sústavy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "javor mliečny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "68 písm. g)",
+        "68 písm. h)",
+        "47 ods. 7",
+        "47 ods. 8",
+        "82 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správe",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o zámere výrubu 1 kusa javora mliečneho v k. ú. Devín na ulici Uvozna z dôvodu bezpečnosti elektrizačnej siete. Výrub sa nachádza v ochrannom pásme elektrizačnej sústavy. Dokument výslovne uvádza, že nejde o informáciu o začatom správnom konaní podľa § 82 ods. 7.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

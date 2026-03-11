@@ -1,0 +1,48 @@
+[2026-03-11 20:32:01] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/563244'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=34&odbor=10&sekcia=uradna-tabula&subor=563244
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/563244/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/563244/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona '„zákona“ je orgán ochrany prírody  povinný zverejniť na svojej internetovej stránke  informáciu o začatí každého správneho konania, v ktorom môžu byť'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 8' zákona 'to najneskôr do troch pracovných  dní od začatia konania; súčasťou uvedenej informácie je údaj o lehote, ktorú určil na doručenie  potvrdenia záujmu b'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'ktorá nesmie  byť kratšia ako päť pracovných dní od zverejnenia informácie.         Združenie s právnou subjektivitou, ktorého predmetom činnosti je n'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'sa považuje za zúčastnenú osobu.         Potvrdenie záujmu byť zúčastnenou osobou v konkrétnom správnom konaní je potrebné doručiť v  lehote 5 pracovn'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0113145}
+LLM_tokens: {"input": 4746, "output": 3282, "total": 8028, "cached": 2010}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/563244/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/563244/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Liptovské Sliače', 'katastralne_uzemia': [{'nazov': 'Liptovské Sliače', 'parcely': [{'typ': 'C', 'cisla': ['4349/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'cintorín', 'nazov_lokality_norm': 'cintorín, Liptovské Sliače'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Liptovské Sliače', 'katastralne_uzemia': [{'nazov': 'Liptovské Sliače', 'parcely': [{'typ': 'C', 'cisla': ['4349/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'cintorín', 'nazov_lokality_norm': 'cintorín, Liptovské Sliače'}
+ku_name:Liptovské Sliače obec:Liptovské Sliače okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: liptovske sliace norm_ku: liptovske sliace
+_get_nationalCadastralZoningReferences() found_ids: {'856410'}
+nationalCadastralZoningReferences: ['856410']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27856410_4349%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.24 s
+nazov_lokality: cintorín, Liptovské Sliače
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2194'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/563244/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/563244/analysis.json...
+
+--- Časy spracovania dokumentu 563244 ---
+  download_and_text   :   1.22 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  17.40 s
+  gis_processing      :   3.44 s
+  CELKOVÝ ČAS         :  22.06 s
+------------------------------------------
+Dokument 563244 bol úspešne spracovaný.

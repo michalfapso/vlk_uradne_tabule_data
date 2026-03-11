@@ -1,0 +1,76 @@
+[2026-03-11 20:29:48] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/563268'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=563268
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/563268/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/563268/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§14 ods. 2 písm. h)' zákona 'na  vykonanie terénnych úprav, najmä výkopov a násypov, ktorými dochádza k narušeniu  pôdneho krytu alebo materskej horniny v lesnom poraste 240a1 LC'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie písomného alebo elektronického  potvrdenia záujmu byť zúčastnenou osobou, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ', v začatom správnom  konaní je do: 18.03.2026.                      Ing. Rudolf Kormúth                         vedúci odboru'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/563268/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01055565}
+LLM_tokens: {"input": 5199, "output": 2954, "total": 8153, "cached": 2013}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/563268/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/563268/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Moravský Svätý Ján', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'lesný porast 240a1 LC Moravský Ján', 'nazov_lokality_norm': 'Moravský Ján'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Moravský Svätý Ján', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'lesný porast 240a1 LC Moravský Ján', 'nazov_lokality_norm': 'Moravský Ján'}
+Fallback to OBEC: Moravský Svätý Ján
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: moravsky svaty jan norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: None norm_obec: moravsky svaty jan norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'838489'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27838489%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Moravský Ján
+get_geometry_of_a_geoname nazov_lokality: Moravský Ján
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Moravský Ján, Moravský Svätý Ján, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.01159 48.5657, 17.01214 48.56562,...  ...  Ekodukt Moravský Svätý Ján, Moravský Svätý Ján...
+1  POLYGON ((16.96652 48.54858, 16.96742 48.54859...  ...  Stredisko chovu služobných psov Odboru kynológ...
+2  POLYGON ((16.9922 48.59006, 16.99324 48.58988,...  ...  Tenisový klub Moravský Svätý Ján, 2, Moravský ...
+3  POLYGON ((17.00341 48.59215, 17.00355 48.59212...  ...  Kaštieľ Moravský Svätý Ján, Ihrisková, Moravsk...
+4  POLYGON ((17.00711 48.5903, 17.00744 48.59025,...  ...  DHZO Moravský Svätý Ján, 87, Moravský Svätý Já...
+
+[5 rows x 11 columns]
+geoname_query: Moravský Ján, Moravský Svätý Ján, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((16.93857 48.60282, 16.94112 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.01159 48.5657, 17.01214 48.56562,...  ...  Ekodukt Moravský Svätý Ján, Moravský Svätý Ján...
+1  POLYGON ((16.96652 48.54858, 16.96742 48.54859...  ...  Stredisko chovu služobných psov Odboru kynológ...
+2  POLYGON ((16.9922 48.59006, 16.99324 48.58988,...  ...  Tenisový klub Moravský Svätý Ján, 2, Moravský ...
+3  POLYGON ((17.00341 48.59215, 17.00355 48.59212...  ...  Kaštieľ Moravský Svätý Ján, Ihrisková, Moravsk...
+4  POLYGON ((17.00711 48.5903, 17.00744 48.59025,...  ...  DHZO Moravský Svätý Ján, 87, Moravský Svätý Já...
+
+[5 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/563268/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Moravský Svätý Ján', 'NATIONALSI': 'SKUEV0125', 'SITETITLE_': 'Gajarské alúvium Moravy'}], 'CHVU': [{'parcel_label': 'Moravský Svätý Ján', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}, {'parcel_label': 'Moravský Svätý Ján', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/563268/analysis.json...
+
+--- Časy spracovania dokumentu 563268 ---
+  download_and_text   :   1.04 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  15.16 s
+  gis_processing      :   0.92 s
+  CELKOVÝ ČAS         :  17.13 s
+------------------------------------------
+Dokument 563268 bol úspešne spracovaný.

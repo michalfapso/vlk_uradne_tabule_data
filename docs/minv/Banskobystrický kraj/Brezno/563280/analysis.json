@@ -1,0 +1,107 @@
+{
+  "cislo_konania_spisu": "NAPANT/283/2026;828/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-03-11",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Lesy Slovenskej republiky, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Predajná",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Predajná",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "lesný porast č. 148_0, lesný celok Predajná, NAPANT",
+    "nazov_lokality_norm": "Predajná"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "náhodná ťažba",
+    "lykožrútová kalamita"
+  ],
+  "rozsah_zasahu": "drevina SM o celkovom objeme 200 m3",
+  "typ_uzemia": [
+    "Národný park",
+    "NAPANT"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "SM"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19 ods. 1"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci náhodnej ťažby smreka v objeme 200 m3 z dôvodu lykožrútovej kalamity. Zásah sa má realizovať v lesnom celku Predajná na území Národného parku Nízke Tatry. Žiadateľom je štátny podnik Lesy Slovenskej republiky.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Predajná",
+          "NAZOV_UEV": "Predajnianska slatina",
+          "KOD_UEV": "SKUEV0862"
+        },
+        {
+          "parcel_label": "Predajná",
+          "NAZOV_UEV": "Predajnianska slatina",
+          "KOD_UEV": "SKUEV0862"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "SKUEV0862",
+          "SITETITLE_": "Predajnianska slatina"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "772",
+          "SITETITLE_": "PP Predajnianske vodopády"
+        },
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "1050",
+          "SITETITLE_": "PP Jajkovská sutina"
+        },
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "386",
+          "SITETITLE_": "PR Predajnianska slatina"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

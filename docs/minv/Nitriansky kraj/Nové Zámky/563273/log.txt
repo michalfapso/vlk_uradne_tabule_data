@@ -1,0 +1,57 @@
+[2026-03-11 20:25:45] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/563273'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=24&odbor=10&sekcia=uradna-tabula&subor=563273
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/563273/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/563273/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1 písm. c)' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov /vodný zákon/ v znení úč'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84' zákona '25/2025 z.z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 1 písm. a)' zákona 'NR SR č. 145/1995 Z. z. o správnych poplatkoch v znení neskorších predpisov. Poučenie Proti tomuto rozhodnutiu je podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 59' zákona 'stavebného zákona verejnou vyhláškou na úradných tabuliach Mestského úradu v Nových Zámkoch a Okresného úradu Nové Zámky a na webovom sídle tunajšieho'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/563273/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013451}
+LLM_tokens: {"input": 8464, "output": 3073, "total": 11537, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/563273/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/563273/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Nové Zámky', 'katastralne_uzemia': [{'nazov': 'Nové Zámky', 'parcely': [{'typ': 'C', 'cisla': ['3989', '3990', '3991/1', '3991/9']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'autobusová stanica', 'nazov_lokality_norm': 'autobusová stanica, Nové Zámky'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Nové Zámky', 'katastralne_uzemia': [{'nazov': 'Nové Zámky', 'parcely': [{'typ': 'C', 'cisla': ['3989', '3990', '3991/1', '3991/9']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'autobusová stanica', 'nazov_lokality_norm': 'autobusová stanica, Nové Zámky'}
+ku_name:Nové Zámky obec:Nové Zámky okres:Nové Zámky kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: nove zamky norm_ku: nove zamky
+_get_nationalCadastralZoningReferences() found_ids: {'842320'}
+nationalCadastralZoningReferences: ['842320']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27842320_3989.C%27%2C%27842320_3990.C%27%2C%27842320_3991%2F1.C%27%2C%27842320_3991%2F9.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.68 s
+nazov_lokality: autobusová stanica, Nové Zámky
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.657'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.657'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.657'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.657'}
+
+[4 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/563273/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/563273/analysis.json...
+
+--- Časy spracovania dokumentu 563273 ---
+  download_and_text   :   1.24 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  18.23 s
+  gis_processing      :   3.88 s
+  CELKOVÝ ČAS         :  23.35 s
+------------------------------------------
+Dokument 563273 bol úspešne spracovaný.

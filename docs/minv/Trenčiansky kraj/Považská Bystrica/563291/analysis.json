@@ -1,0 +1,130 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2026/000626",
+  "cislo_rozhodnutia": "OU-PB-OSZP-2026/000626-007",
+  "datum_dokumentu": "2026-03-11",
+  "datum_zverejnenia": "2026-03-11",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "odvolanie v lehote 15 dní odo dňa oznámenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Obec Prečín",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Prečín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prečín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1017/4",
+              "1017/5",
+              "662/3",
+              "662/1",
+              "662/2",
+              "642",
+              "649",
+              "687/1",
+              "675/1",
+              "676",
+              "678",
+              "679",
+              "683",
+              "684"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "544/4",
+              "10534/7",
+              "543/1",
+              "500/2",
+              "534/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Kanalizačný zberač K8 – Vlčí kruh",
+    "nazov_lokality_norm": "Vlčí kruh"
+  },
+  "typ_dokumentu": "Oznámenie kolaudačného rozhodnutia verejnou vyhláškou",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "užívanie vodnej stavby",
+    "kanalizačný zberač",
+    "kanalizačné prípojky"
+  ],
+  "rozsah_zasahu": "kanalizačné potrubie celkovej dĺžky 372,08 m, 11 ks šácht, 23 ks prípojok",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "§ 26",
+        "§ 53",
+        "§ 54"
+      ]
+    },
+    {
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "§ 26",
+        "§ 61",
+        "§ 71"
+      ]
+    },
+    {
+      "nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "§ 82",
+        "§ 120"
+      ]
+    },
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "§ 5"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o povolení užívania (kolaudácia) verejnej kanalizácie 'Kanalizačný zberač K8 – Vlčí kruh' v obci Prečín. Stavba pozostáva z 372 metrov PVC potrubia, 11 šácht a 23 prípojok, pričom počas konania sa riešilo aj umiestnenie šácht v blízkosti vodného toku. Dokument je doručovaný verejnou vyhláškou s lehotou na odvolanie 15 dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "678",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "649",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "534/1",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

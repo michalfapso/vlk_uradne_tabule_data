@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP1-2026/062558-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-03-11",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 18.03.2026"
+  },
+  "ziadatel_navrhovatel": "LESY Slovenskej republiky, štátny podnik, organizačná zložka OZ Karpaty",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Moravský Svätý Ján",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "lesný porast 240a1 LC Moravský Ján",
+    "nazov_lokality_norm": "Moravský Ján"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "vykonanie terénnych úprav",
+    "výkopy a násypy",
+    "narušenie pôdneho krytu",
+    "celoplošná príprava pôdy"
+  ],
+  "rozsah_zasahu": "lesný porast 240a1",
+  "typ_uzemia": [
+    "3. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82",
+        "14"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť štátneho podniku LESY SR o súhlas na terénne úpravy (výkopy a násypy) a narušenie pôdy v lesnom poraste 240a1 LC Moravský Ján. Zásah je plánovaný za účelom celoplošnej prípravy pôdy pre umelú obnovu lesa. Lokalita sa nachádza v chránenom území s 3. stupňom ochrany.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Moravský Svätý Ján",
+          "NATIONALSI": "SKUEV0125",
+          "SITETITLE_": "Gajarské alúvium Moravy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Moravský Svätý Ján",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        },
+        {
+          "parcel_label": "Moravský Svätý Ján",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}
