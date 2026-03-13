@@ -1,0 +1,131 @@
+{
+  "cislo_konania_spisu": "NAPANT/84/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-03-11",
+  "datum_zverejnenia": "2026-03-13",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "LESY Slovenskej republiky, štátny podnik, organizačná zložka OZ Horehronie",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Pohorelá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pohorelá",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "lesný celok Pohorelá, JPRL 134A1, 154A0, 199_1, 243A1, 243A2, 119_1",
+    "nazov_lokality_norm": "Pohorelá"
+  },
+  "typ_dokumentu": "Upovedomenie o začatých správnych konaniach",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "asanačná ťažba"
+  ],
+  "rozsah_zasahu": "lesné porasty JPRL 134A1, 154A0, 199_1, 243A1, 243A2, 119_1",
+  "typ_uzemia": [
+    "Národný park Nízke Tatry",
+    "NAPANT"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82 ods. 7"
+      ]
+    },
+    {
+      "nazov": "zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19 ods. 1"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci asanačnej ťažby v lesnom celku Pohorelá na podnet Správy NAPANT. Ťažba sa týka viacerých lesných porastov (JPRL) spravovaných podnikom LESY SR. Konanie sa realizuje v území s predpokladaným dotknutím záujmov ochrany prírody v rámci národného parku.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Pohorelá",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohorelá",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohorelá",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohorelá",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohorelá",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Pohorelá",
+          "NATIONALSI": "SKUEV4069",
+          "SITETITLE_": "Lúky pod Gindurou"
+        },
+        {
+          "parcel_label": "Pohorelá",
+          "NATIONALSI": "SKUEV0225",
+          "SITETITLE_": "Muránska planina"
+        },
+        {
+          "parcel_label": "Pohorelá",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Pohorelá",
+          "NATIONALSI": "SKUEV0151",
+          "SITETITLE_": "Pohorelské vrchovisko"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Pohorelá",
+          "NATIONALSI": "479",
+          "SITETITLE_": "PR Pohorelské vrchovisko"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Pohorelá",
+          "NATIONALSI": "SKCHVU017",
+          "SITETITLE_": "Muránska planina - Stolica"
+        },
+        {
+          "parcel_label": "Pohorelá",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

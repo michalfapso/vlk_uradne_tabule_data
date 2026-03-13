@@ -1,0 +1,51 @@
+[2026-03-13 23:06:50] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-018538-sm'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-018538-sm/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-018538-sm/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-018538-sm/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01012845}
+LLM_tokens: {"input": 6168, "output": 2651, "total": 8819, "cached": 2019}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-018538-sm/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-018538-sm/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Ľubietová', 'katastralne_uzemia': [{'nazov': 'Ľubietová', 'parcely': [{'typ': 'E', 'cisla': ['2466', '2791/2']}, {'typ': 'C', 'cisla': ['1273/5', '1416', '1985/1', '1413/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k.ú. Ľubietová', 'nazov_lokality_norm': 'Ľubietová'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Ľubietová', 'katastralne_uzemia': [{'nazov': 'Ľubietová', 'parcely': [{'typ': 'E', 'cisla': ['2466', '2791/2']}, {'typ': 'C', 'cisla': ['1273/5', '1416', '1985/1', '1413/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k.ú. Ľubietová', 'nazov_lokality_norm': 'Ľubietová'}
+ku_name:Ľubietová obec:Ľubietová okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: lubietova norm_ku: lubietova
+_get_nationalCadastralZoningReferences() found_ids: {'833339'}
+nationalCadastralZoningReferences: ['833339']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27833339_2466.E%27%2C%27833339_2791%2F2.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.15 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27833339_1273%2F5.C%27%2C%27833339_1416.C%27%2C%27833339_1985%2F1.C%27%2C%27833339_1413%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.81 s
+nazov_lokality: Ľubietová
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.382'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.382'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.382'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.382'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.382'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.382'}
+
+[6 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-018538-sm/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': '1413/1', 'NATIONALSI': 'SKUEV0863', 'SITETITLE_': 'Nad Kostolnicou'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-018538-sm/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp3-2026-018538-sm ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  14.03 s
+  gis_processing      :   7.17 s
+  CELKOVÝ ČAS         :  21.91 s
+------------------------------------------
+Dokument ou-bb-oszp3-2026-018538-sm bol úspešne spracovaný.

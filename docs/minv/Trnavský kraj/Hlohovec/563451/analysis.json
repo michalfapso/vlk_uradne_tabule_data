@@ -1,0 +1,138 @@
+{
+  "cislo_konania_spisu": "OÚ-HC-OSŽP-2026/000434",
+  "cislo_rozhodnutia": "OÚ-HC-OSŽP-2026/000434",
+  "datum_dokumentu": "2026-03-13",
+  "datum_zverejnenia": "2026-02-12",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Mesto Hlohovec",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Hlohovec",
+    "obec": "Hlohovec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hlohovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Šulekovo",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2694/27",
+              "1747/5",
+              "1747/7"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "mesto Hlohovec, k. ú. Hlohovec a k. ú. Šulekovo",
+    "nazov_lokality_norm": "Hlohovec"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "VYSTAVBA_V_PRIRODE",
+    "INZINIERSKE_SIETE",
+    "POLNOHOSPODARSTVO"
+  ],
+  "typ_zasahu": [
+    "Zmeny a doplnky územného plánu",
+    "výstavba rodinných domov",
+    "logistika a skladové hospodárstvo",
+    "nové uličné koridory",
+    "záber poľnohospodárskej pôdy",
+    "výstavba bytových domov"
+  ],
+  "rozsah_zasahu": "záber 13,9815 ha poľnohospodárskej pôdy",
+  "typ_uzemia": [
+    "1. stupeň",
+    "4. stupeň",
+    "Prírodná rezervácia Sedliská",
+    "Územie európskeho významu Sedliská",
+    "ÚEV Váh pri Hlohovci",
+    "NATURA 2000",
+    "chránené stromy",
+    "biocentrum",
+    "biokoridor"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "hubár jednorohý",
+    "plocháč červený",
+    "poniklec veľkokvetý",
+    "roháč obyčajný",
+    "boleň dravý",
+    "hrúz bieloplutvý",
+    "borovica",
+    "platan"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "7 ods. 5",
+        "56 písm. b)"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "12"
+      ]
+    },
+    {
+      "nazov": "banský zákon",
+      "cislo": "44/1988 Zb.",
+      "paragrafy": [
+        "15",
+        "17",
+        "18",
+        "19",
+        "26"
+      ]
+    },
+    {
+      "nazov": "o pozemných komunikáciách (cestný zákon)",
+      "cislo": "135/1961 Zb.",
+      "paragrafy": [
+        "11"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie zo zisťovacieho konania určuje, že strategický dokument 'Zmeny a doplnky č. 3 Územného plánu mesta Hlohovec' sa nebude ďalej posudzovať podľa zákona EIA. Dokument navrhuje 28 zmien funkčného využitia územia vrátane bytovej výstavby a logistiky, ktoré si vyžadujú záber takmer 14 ha poľnohospodárskej pôdy. Hoci zmeny priamo nezasahujú do PR Sedliská alebo ÚEV Váh, nachádzajú sa v blízkosti významných biocientier a biokoridorov.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Hlohovec",
+          "NATIONALSI": "SKUEV0175",
+          "SITETITLE_": "Sedliská"
+        },
+        {
+          "parcel_label": "Hlohovec",
+          "NATIONALSI": "SKUEV0852",
+          "SITETITLE_": "Váh pri Hlohovci"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Hlohovec",
+          "NATIONALSI": "149",
+          "SITETITLE_": "PR Sedliská"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

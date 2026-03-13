@@ -1,0 +1,128 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2026/008293",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "Firma GULIK s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hrušovo",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "2811/1",
+              "4401/1",
+              "4406/1",
+              "2602/1",
+              "2609/1",
+              "2704/1",
+              "3602/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Striežovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Ostrany",
+        "parcely": []
+      },
+      {
+        "nazov": "Drienčany",
+        "parcely": []
+      },
+      {
+        "nazov": "Slizké",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "SKUEV 0366 a SKUEV 2366 Drienčansky kras",
+    "nazov_lokality_norm": "Drienčansky kras"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "kategorie_vlk": [
+    "POLNOHOSPODARSTVO"
+  ],
+  "typ_zasahu": [
+    "pasenie",
+    "košarovanie",
+    "napájanie",
+    "preháňanie hospodárskych zvierat"
+  ],
+  "rozsah_zasahu": "pasenie, košarovanie, napájanie a preháňanie oviec a HD na parcelách LPIS: 2811/1, 4401/1, 4406/1, 2602/1, 2609/1, 2704/1, 3602/1",
+  "typ_uzemia": [
+    "2. stupeň",
+    "4. stupeň",
+    "SKUEV 0366",
+    "SKUEV 2366",
+    "Drienčansky kras"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "6210 Suchomilné travinno-bylinné a krovinové porasty na vápnitom substráte",
+    "6240 Subpanónske travinno-bylinné porasty",
+    "6430 Vysoko bylinné spoločenstvá na vlhkých lúkach",
+    "6510 Nížinné a podhorské kosné lúky"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "13 ods. 2 písm. e)",
+        "15 ods. 2 písm. b)",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Začatie konania o vydanie súhlasu na pasenie a preháňanie hospodárskych zvierat (ovce, HD) v k. ú. Hrušovo, Striežovce, Ostrany, Drienčany a Slizké. Zásah sa týka území v 2. a 4. stupni ochrany v rámci ÚEV Drienčansky kras a zasahuje prioritné biotopy európskeho významu. Lehota na potvrdenie záujmu byť účastníkom konania je 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Striežovce",
+          "NATIONALSI": "SKUEV0366",
+          "SITETITLE_": "Drienčanský kras"
+        },
+        {
+          "parcel_label": "Ostrany",
+          "NATIONALSI": "SKUEV0366",
+          "SITETITLE_": "Drienčanský kras"
+        },
+        {
+          "parcel_label": "Slizké",
+          "NATIONALSI": "SKUEV0366",
+          "SITETITLE_": "Drienčanský kras"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Slizké",
+          "NATIONALSI": "1357",
+          "SITETITLE_": "OP NPP Podbanište"
+        },
+        {
+          "parcel_label": "Slizké",
+          "NATIONALSI": "1357",
+          "SITETITLE_": "NPP Podbanište"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

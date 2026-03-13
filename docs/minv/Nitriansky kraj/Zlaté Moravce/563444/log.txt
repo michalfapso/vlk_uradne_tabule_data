@@ -1,0 +1,46 @@
+[2026-03-13 22:53:45] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/563444'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=27&odbor=10&sekcia=uradna-tabula&subor=563444
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/563444/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/563444/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/563444/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01391975}
+LLM_tokens: {"input": 8050, "output": 3602, "total": 11652, "cached": 2025}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/563444/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/563444/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Zlaté Moravce', 'obec': 'Martin nad Žitavou', 'katastralne_uzemia': [{'nazov': 'Martin nad Žitavou', 'parcely': [{'typ': 'C', 'cisla': ['641/3', '522', '641/61']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Zlaté Moravce', 'obec': 'Martin nad Žitavou', 'katastralne_uzemia': [{'nazov': 'Martin nad Žitavou', 'parcely': [{'typ': 'C', 'cisla': ['641/3', '522', '641/61']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Martin nad Žitavou obec:Martin nad Žitavou okres:Zlaté Moravce kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: martin nad zitavou norm_ku: martin nad zitavou
+_get_nationalCadastralZoningReferences() found_ids: {'836320'}
+nationalCadastralZoningReferences: ['836320']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27836320_641%2F3.C%27%2C%27836320_522.C%27%2C%27836320_641%2F61.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.72 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.710'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.710'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.710'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/563444/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/563444/analysis.json...
+
+--- Časy spracovania dokumentu 563444 ---
+  download_and_text   :   1.59 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  18.02 s
+  gis_processing      :   3.93 s
+  CELKOVÝ ČAS         :  23.55 s
+------------------------------------------
+Dokument 563444 bol úspešne spracovaný.

@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2026/005043 ZJ50",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-03-05",
+  "datum_zverejnenia": "2026-03-05",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Andrea Tulcová",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Vrchteplá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vrchteplá",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "275/45"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "k. ú. Vrchteplá",
+    "nazov_lokality_norm": "Vrchteplá"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "umiestnenie výsadby drevín",
+    "oplotenie pozemku"
+  ],
+  "rozsah_zasahu": "výsadba: smrek obyčajný alebo smrek omoríkový, ovocné dreviny; oplotenie pozemku",
+  "typ_uzemia": [
+    "2. stupeň",
+    "druhý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný",
+    "smrek omoríkový"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82",
+        "13"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci výsadby nepôvodných drevín (smrek) a oplotenia pozemku v obci Vrchteplá. Činnosť sa realizuje v extraviláne na území s 2. stupňom ochrany. Verejnosť má 5 pracovných dní na prihlásenie sa do konania.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "275/45",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "275/45",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

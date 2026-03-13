@@ -1,0 +1,74 @@
+[2026-03-13 22:56:53] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563381'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=14&odbor=10&sekcia=uradna-tabula&subor=563381
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563381/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-3-flash-preview for OCR.
+LLM_cost: {"cost": 0.045893}
+LLM_tokens: {"input": 5536, "output": 15285, "total": 20821, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563381/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona 'vodného zákona v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'stavebného zákona pod č. j. OU-NM-OSZP-2016/010154-3/HD1 zo dňa 12.12.2016, ktoré nadobudlo právoplatnosť dňa 20.01.2017 a následnej oprave chyby v pí'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'vodného zákona a špeciálny stavebný úrad v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. stavebného zákona, v súlade so zákonom č. 71/1967 Zb. o správnom konaní v znení neskorších predpisov  **p o v o ľ u j e** podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona 'vodného zákona v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68 ods. 1' zákona 'stavebného zákona  stavebníkovi Obec Horná Streda, Horná Streda 407, 916 24 Horná Streda, IČO: 00311553 v rámci stavby: „Horná Streda – vodovodná sieť'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 4' zákona 'vodného zákona.  12. Pred začatím zemných prác je stavebník povinný vytýčiť všetky existujúce podzemné inžinierske siete a zemné práce v ich blízkosti'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona 'o energetike.  Slovak Telekom, a.s., Bajkalská 28, 817 62 Bratislava, vyjadrenie č. 6612532996 zo dňa 16.12.2025: Na základe Vašej žiadosti o vyjadren'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§23' zákona '452/2021 Z. z.) a zároveň je potrebné dodržať ustanovenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 108' zákona '452/2021 Z. z. o ochrane proti rušeniu. 2. Vyjadrenie stráca platnosť uplynutím doby platnosti uvedenej vyššie vo vyjadrení, v prípade zmeny vyznačené'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. 12' zákona '452/2021 Z. z. o elektronických komunikáciách sa do projektu stavby musí zakresliť priebeh všetkých zariadení v mieste stavby. Za splnenie tejto povin'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 24' zákona '452/2021 Z. z. je potrebné uzavrieť dohodu o podmienkach prekládky telekomunikačných vedení s vlastníkom dotknutých SEK. Bez uzavretia dohody nie je m'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23' zákona '452/2021 Z. z. o elektronických komunikáciách v platnom znení. 9. V prípade, že žiadateľ bude so zemnými prácami alebo činnosťou z akýchkoľvek dôvodov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563381/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.017289000000000002}
+LLM_tokens: {"input": 11082, "output": 3916, "total": 14998, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563381/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563381/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Horná Streda', 'katastralne_uzemia': [{'nazov': 'Horná Streda', 'parcely': [{'typ': 'C', 'cisla': ['1323/34', '1323/88', '1323/50', '1324/797', '1324/798', '1324/704']}, {'typ': 'E', 'cisla': ['1344/1', '1357']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Horná Streda – vodovodná sieť', 'nazov_lokality_norm': 'Horná Streda'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Horná Streda', 'katastralne_uzemia': [{'nazov': 'Horná Streda', 'parcely': [{'typ': 'C', 'cisla': ['1323/34', '1323/88', '1323/50', '1324/797', '1324/798', '1324/704']}, {'typ': 'E', 'cisla': ['1344/1', '1357']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Horná Streda – vodovodná sieť', 'nazov_lokality_norm': 'Horná Streda'}
+ku_name:Horná Streda obec:Horná Streda okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: horna streda norm_ku: horna streda
+_get_nationalCadastralZoningReferences() found_ids: {'817589'}
+nationalCadastralZoningReferences: ['817589']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27817589_1323%2F34.C%27%2C%27817589_1323%2F88.C%27%2C%27817589_1323%2F50.C%27%2C%27817589_1324%2F797.C%27%2C%27817589_1324%2F798.C%27%2C%27817589_1324%2F704.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.06 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27817589_1344%2F1.E%27%2C%27817589_1357.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.18 s
+nazov_lokality: Horná Streda
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.406'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.406'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.406'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.406'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.406'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.406'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.406'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.406'}
+
+[8 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563381/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/563381/analysis.json...
+
+--- Časy spracovania dokumentu 563381 ---
+  download_and_text   :  74.34 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  23.03 s
+  gis_processing      :   7.46 s
+  CELKOVÝ ČAS         : 104.83 s
+------------------------------------------
+Dokument 563381 bol úspešne spracovaný.

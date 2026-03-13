@@ -1,0 +1,72 @@
+[2026-03-13 22:51:39] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563342'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=3&odbor=10&sekcia=uradna-tabula&subor=563342
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563342/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563342/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6' zákona '24/2006  Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v  znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 5' zákona 'o posudzovaní na adresu:      Okresný úrad Pezinok, odbor starostlivosti o životné prostredie  ul. M. R. Štefánika 10  902 01 Pezinok  tel. č.:  033/'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 63' zákona 'o posudzovaní k oznámeniu o strategickom dokumente je  možné vykonať na Okresnom úrade v Pezinku, odbore starostlivosti o životné prostredie, ul.  M'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0065114}
+LLM_tokens: {"input": 4468, "output": 1727, "total": 6195, "cached": 2008}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563342/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563342/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Šenkvice', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'obec Šenkvice', 'nazov_lokality_norm': 'Šenkvice'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Šenkvice', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'obec Šenkvice', 'nazov_lokality_norm': 'Šenkvice'}
+Fallback to OBEC: Šenkvice
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: senkvice norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'860778', '860760'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27860778%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.43 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27860760%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Šenkvice
+get_geometry_of_a_geoname nazov_lokality: Šenkvice
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Šenkvice, Šenkvice, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.34459 48.30252, 17.34506 48.30232...  ...  Šenkvice, Krátka, Veľké Šenkvice, Šenkvice, ok...
+1  POLYGON ((17.34615 48.30192, 17.34633 48.30184...  ...  Šenkvice, 1012/6, Nádražná, Veľké Šenkvice, Še...
+
+[2 rows x 11 columns]
+geoname_query: Šenkvice, Šenkvice, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.37355 48.31708, 17.37431 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((17.35449 48.29681, 17.35469 48...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.34459 48.30252, 17.34506 48.30232...  ...  Šenkvice, Krátka, Veľké Šenkvice, Šenkvice, ok...
+1  POLYGON ((17.34615 48.30192, 17.34633 48.30184...  ...  Šenkvice, 1012/6, Nádražná, Veľké Šenkvice, Še...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563342/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/563342/analysis.json...
+
+--- Časy spracovania dokumentu 563342 ---
+  download_and_text   :   1.53 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   8.86 s
+  gis_processing      :   1.38 s
+  CELKOVÝ ČAS         :  11.77 s
+------------------------------------------
+Dokument 563342 bol úspešne spracovaný.

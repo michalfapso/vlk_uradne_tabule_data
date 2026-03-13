@@ -1,0 +1,87 @@
+[2026-03-13 22:47:44] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563428'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=42&odbor=10&sekcia=uradna-tabula&subor=563428
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563428/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563428/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 1 písm. a)' zákona 'vodného zákona. Výrub bude realizovaný na parcelách: k.ú. Jesenské, CKN 2807, druh pozemku vodná plocha k.ú. Pavlovce, EKN 1748/2, druh pozemku vodná'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z.z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona 'NR SR č. 180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písmeno e)' zákona 'NR SR č. 180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov oznamuje začat'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona 'vodného zákona v znení jeho noviel a súčasne nariaďuje ústne pojednávanie spojené s miestnou obhliadkou, ktoré sa uskutoční dňa 09.04.2026 o 8.30 hodi'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013628999999999999}
+LLM_tokens: {"input": 6396, "output": 3780, "total": 10176, "cached": 2020}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563428/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563428/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Jesenské', 'katastralne_uzemia': [{'nazov': 'Jesenské', 'parcely': [{'typ': 'C', 'cisla': ['2807']}]}, {'nazov': 'Pavlovce', 'parcely': [{'typ': 'E', 'cisla': ['1748/2']}, {'typ': 'C', 'cisla': ['1747/1']}]}, {'nazov': 'Rimavské Janovce', 'parcely': [{'typ': 'C', 'cisla': ['7152', '7153', '7166', '7169', '7173', '7174']}]}, {'nazov': 'Rimavská Sobota', 'parcely': [{'typ': 'C', 'cisla': ['4153/2', '4153/45']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodohospodársky významný vodný tok Rimava', 'nazov_lokality_norm': 'Rimava'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Jesenské', 'katastralne_uzemia': [{'nazov': 'Jesenské', 'parcely': [{'typ': 'C', 'cisla': ['2807']}]}, {'nazov': 'Pavlovce', 'parcely': [{'typ': 'E', 'cisla': ['1748/2']}, {'typ': 'C', 'cisla': ['1747/1']}]}, {'nazov': 'Rimavské Janovce', 'parcely': [{'typ': 'C', 'cisla': ['7152', '7153', '7166', '7169', '7173', '7174']}]}, {'nazov': 'Rimavská Sobota', 'parcely': [{'typ': 'C', 'cisla': ['4153/2', '4153/45']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodohospodársky významný vodný tok Rimava', 'nazov_lokality_norm': 'Rimava'}
+ku_name:Jesenské obec:Jesenské okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: jesenske norm_ku: jesenske
+_get_nationalCadastralZoningReferences() found_ids: {'822795'}
+nationalCadastralZoningReferences: ['822795']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27822795_2807.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.35 s
+ku_name:Pavlovce obec:Jesenské okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: jesenske norm_ku: pavlovce
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: pavlovce
+_get_nationalCadastralZoningReferences() found_ids: {'845736'}
+nationalCadastralZoningReferences: ['845736']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27845736_1748%2F2.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.89 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27845736_1747%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.39 s
+ku_name:Rimavské Janovce obec:Jesenské okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: jesenske norm_ku: rimavske janovce
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: rimavske janovce
+_get_nationalCadastralZoningReferences() found_ids: {'852635'}
+nationalCadastralZoningReferences: ['852635']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27852635_7152.C%27%2C%27852635_7153.C%27%2C%27852635_7166.C%27%2C%27852635_7169.C%27%2C%27852635_7173.C%27%2C%27852635_7174.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.18 s
+ku_name:Rimavská Sobota obec:Jesenské okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: jesenske norm_ku: rimavska sobota
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: rimavska sobota
+_get_nationalCadastralZoningReferences() found_ids: {'852422'}
+nationalCadastralZoningReferences: ['852422']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27852422_4153%2F2.C%27%2C%27852422_4153%2F45.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.56 s
+nazov_lokality: Rimava
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...   {'@href': '#auAdmUnitS.940'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2721'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2721'}
+3   CadastralParcel  ...   {'@href': '#auAdmUnitS.418'}
+4   CadastralParcel  ...   {'@href': '#auAdmUnitS.418'}
+5   CadastralParcel  ...   {'@href': '#auAdmUnitS.418'}
+6   CadastralParcel  ...   {'@href': '#auAdmUnitS.418'}
+7   CadastralParcel  ...   {'@href': '#auAdmUnitS.418'}
+8   CadastralParcel  ...   {'@href': '#auAdmUnitS.418'}
+9   CadastralParcel  ...   {'@href': '#auAdmUnitS.932'}
+10  CadastralParcel  ...   {'@href': '#auAdmUnitS.932'}
+
+[11 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563428/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563428/analysis.json...
+
+--- Časy spracovania dokumentu 563428 ---
+  download_and_text   :   1.47 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  19.97 s
+  gis_processing      :  17.68 s
+  CELKOVÝ ČAS         :  39.12 s
+------------------------------------------
+Dokument 563428 bol úspešne spracovaný.

@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2026/018538/ŠM",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-03-12",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "právnická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Ľubietová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ľubietová",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "2466",
+              "2791/2"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "1273/5",
+              "1416",
+              "1985/1",
+              "1413/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "k.ú. Ľubietová",
+    "nazov_lokality_norm": "Ľubietová"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie súhlasu na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub smrekov"
+  ],
+  "rozsah_zasahu": "55 ks stromov druhu smrek",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "smrek"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47",
+        "2",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19",
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o výrub 55 kusov smrekov v katastrálnom území Ľubietová z dôvodu napadnutia podkôrnym hmyzom. Konanie je v štádiu začiatku, pričom verejnosť/združenia môžu oznámiť svoju účasť do 5 pracovných dní. Zásah sa týka hospodárskych drevín na parcelách registra E a C.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "1413/1",
+          "NATIONALSI": "SKUEV0863",
+          "SITETITLE_": "Nad Kostolnicou"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

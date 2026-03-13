@@ -1,0 +1,99 @@
+[2026-03-13 22:49:39] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/563352'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=2&odbor=10&sekcia=uradna-tabula&subor=563352
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/563352/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-3-flash-preview for OCR.
+LLM_cost: {"cost": 0.05153}
+LLM_tokens: {"input": 5508, "output": 17164, "total": 22672, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/563352/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 1' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z.z. o vodách a o zmene zákona č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona 'vodného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'stavebného zákona, stavebné objekty: „SO 401 Areálový vodovod: SO 401.1 Prípojka vodovodu „prepoj Corvus, SO 401.2 Prípojka vodovodu pre SO 101, SO 40'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 62 ods. 1 písm. d)' zákona 'stavebného zákona ohlásiť stavebnému úradu zhotoviteľa stavby do 15 dní odo dňa jeho výberu. Zhotoviteľ zabezpečí vedenie stavby oprávnenou osobou. 4'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66 ods. 2 písm. h)' zákona 'stavebného zákona oznámiť tunajšiemu úradu začatie stavby a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66 ods. 2 písm. g)' zákona 'stavebného zákona použiť na povolenú stavbu vhodné stavebné výrobky. 5. Pred zahájením výkopových prác sa musí previesť presné vytýčenie všetkých exis'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona 'Ochranné pásma Zákona o energetike tak, aby nedošlo poškodeniu alebo ohrozeniu prevádzky elektroenergetických zariadení spoločnosti Západoslovenská di'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 284' zákona 'prípadne trestného činu poškodzovania a ohrozovania prevádzky všeobecne prospešného zariadenia podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 285' zákona 'prípadne trestného činu poškodzovania a ohrozovania prevádzky všeobecne prospešného zariadenia podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 286' zákona 'alebo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 288' zákona '300/2005 Z.z. Trestný zákon. 20. V zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 79' zákona 'o energetike stavebník nesmie bez súhlasu prevádzkovateľa distribučnej siete v ochrannom pásme plynárenských zariadení vykonávať činnosti ako ani umie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80' zákona 'o energetike stavebník nesmie bez súhlasu prevádzkovateľa distribučnej siete v bezpečnostnom pásme plynárenských zariadení umiestňovať stavby. 22. Slo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§23' zákona '452/2021 Z.z.) a zároveň je potrebné dodržať ustanovenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 108' zákona '452/2021 Z.z. o ochrane proti rušeniu. 24. Vyjadrenie stráca platnosť uplynutím doby platnosti uvedenej vo vyjadrení, v prípade zmeny vyznačeného poly'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona '351/2011 Z.z. elektronických komunikáciách v platnom znení. 28. Žiadateľ môže vyjadrenie použiť iba pre účel, pre ktorý mu bolo vystavené. Žiadateľ ni'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 19' zákona '442/2002 Z.z. „O verejných vodovodoch a verejných kanalizáciách“. Existujúce zariadenia BVS žiadame pred zahájením stavby vytýčiť pracovníkmi BVS. Obj'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/563352/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0204}
+LLM_tokens: {"input": 12558, "output": 4707, "total": 17265, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/563352/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/563352/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Malacky', 'katastralne_uzemia': [{'nazov': 'Malacky', 'parcely': [{'typ': 'C', 'cisla': ['30008/13', '30008/17', '30008/19', '30008/20', '30008/33', '30008/64', '30008/65', '30005/18', '30005/19', '30005/207', '30006/1', '30006/5', '30006/6', '30006/7', '30008/1', '30008/5', '30008/34', '30008/35', '30008/36', '30008/42', '30008/43', '30008/44']}]}, {'nazov': 'Riadok', 'parcely': [{'typ': 'C', 'cisla': ['85/1', '94/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'CORVUS ÁTRIUM SO 101, MALACKY', 'nazov_lokality_norm': 'CORVUS ÁTRIUM, Malacky'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Malacky', 'katastralne_uzemia': [{'nazov': 'Malacky', 'parcely': [{'typ': 'C', 'cisla': ['30008/13', '30008/17', '30008/19', '30008/20', '30008/33', '30008/64', '30008/65', '30005/18', '30005/19', '30005/207', '30006/1', '30006/5', '30006/6', '30006/7', '30008/1', '30008/5', '30008/34', '30008/35', '30008/36', '30008/42', '30008/43', '30008/44']}]}, {'nazov': 'Riadok', 'parcely': [{'typ': 'C', 'cisla': ['85/1', '94/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'CORVUS ÁTRIUM SO 101, MALACKY', 'nazov_lokality_norm': 'CORVUS ÁTRIUM, Malacky'}
+ku_name:Malacky obec:Malacky okres:Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: malacky norm_ku: malacky
+_get_nationalCadastralZoningReferences() found_ids: {'835196'}
+nationalCadastralZoningReferences: ['835196']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27835196_30008%2F13.C%27%2C%27835196_30008%2F17.C%27%2C%27835196_30008%2F19.C%27%2C%27835196_30008%2F20.C%27%2C%27835196_30008%2F33.C%27%2C%27835196_30008%2F64.C%27%2C%27835196_30008%2F65.C%27%2C%27835196_30005%2F18.C%27%2C%27835196_30005%2F19.C%27%2C%27835196_30005%2F207.C%27%2C%27835196_30006%2F1.C%27%2C%27835196_30006%2F5.C%27%2C%27835196_30006%2F6.C%27%2C%27835196_30006%2F7.C%27%2C%27835196_30008%2F1.C%27%2C%27835196_30008%2F5.C%27%2C%27835196_30008%2F34.C%27%2C%27835196_30008%2F35.C%27%2C%27835196_30008%2F36.C%27%2C%27835196_30008%2F42.C%27%2C%27835196_30008%2F43.C%27%2C%27835196_30008%2F44.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.90 s
+ku_name:Riadok obec:Malacky okres:Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: malacky norm_ku: riadok
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: None norm_ku: riadok
+_get_nationalCadastralZoningReferences() found_ids: {'991996'}
+nationalCadastralZoningReferences: ['991996']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27991996_85%2F1.C%27%2C%27991996_94%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.48 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['85/1', '94/1']}' v KU 'Riadok' sa nenašli dáta.
+nazov_lokality: CORVUS ÁTRIUM, Malacky
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2181'}
+
+[22 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/563352/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/563352/analysis.json...
+
+--- Časy spracovania dokumentu 563352 ---
+  download_and_text   :  85.65 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  26.61 s
+  gis_processing      :   7.64 s
+  CELKOVÝ ČAS         : 119.90 s
+------------------------------------------
+Dokument 563352 bol úspešne spracovaný.

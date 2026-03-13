@@ -1,0 +1,39 @@
+[2026-03-13 23:07:12] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-037814-kuc'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-037814-kuc/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-037814-kuc/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0085797}
+LLM_tokens: {"input": 4065, "output": 2483, "total": 6548, "cached": 2004}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-037814-kuc/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-037814-kuc/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Od Tatier k Dunaju 2026', 'nazov_lokality_norm': 'Od Tatier k Dunaju 2026'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Od Tatier k Dunaju 2026', 'nazov_lokality_norm': 'Od Tatier k Dunaju 2026'}
+No geometries were found.
+nazov_lokality: Od Tatier k Dunaju 2026
+get_geometry_of_a_geoname nazov_lokality: Od Tatier k Dunaju 2026
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Od Tatier k Dunaju 2026, Žilina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Od Tatier k Dunaju 2026, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Od Tatier k Dunaju 2026, Slovensko
+response: <Response [200]>
+normalized: None
+Zlyhalo spracovanie dokumentu ou-za-oszp1-2026-037814-kuc (https://www.minzp.sk/ou-zilina/ou-za-oszp1-2026-037814-kuc.html): 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 497, in process_document
+    analysis_data = process_analysis_data(analysis_data, status_filepath, invalidate_files)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 447, in process_analysis_data
+    gdf_geoname, geoname_query = get_geometry_of_a_geoname(nazov_lokality, place_info.get('obec', ''), place_info.get('okres', ''), place_info.get('kraj', ''), status_filepath)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/gis_geocoding.py", line 86, in get_geometry_of_a_geoname
+    normalized_geoname = normalized['formatted_address']
+                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+[ERROR]: Zlyhalo spracovanie dokumentu ou-za-oszp1-2026-037814-kuc (https://www.minzp.sk/ou-zilina/ou-za-oszp1-2026-037814-kuc.html): 'NoneType' object is not subscriptable

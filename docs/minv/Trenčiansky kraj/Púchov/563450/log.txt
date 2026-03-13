@@ -1,0 +1,68 @@
+[2026-03-13 23:03:56] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563450'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=563450
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563450/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563450/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. (1)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej vodnej správy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o OU-PU-OSZP-2026/000616-0002599/2026 2 / 5 zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov v p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71 ods. (1)' zákona '364/2004 Z. z. o vodách a o OU-PU-OSZP-2026/000616-0002599/2026 2 / 5 zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov v p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. (1) písm. a)' zákona 'vodného zákona a v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23' zákona 'vodného zákona Povolenie na niektoré činnosti'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. (1) písm. a)' zákona 'povolenie orgánu štátnej vodnej správy je potrebné na vysádzanie, stínanie a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '(Vodné toky) vodného zákona je vodným tokom vodný útvar trvalo alebo občasne tečúcich povrchových vôd po zemskom povrchu v prirodzenom koryte alebo v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '54' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. (1)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563450/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0173245}
+LLM_tokens: {"input": 10907, "output": 3957, "total": 14864, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563450/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563450/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Beluša', 'katastralne_uzemia': [{'nazov': 'Beluša', 'parcely': [{'typ': 'C', 'cisla': ['1243', '2185/2', '945/2', '74/1', '712/1', '3853/1', '3161/1']}, {'typ': 'E', 'cisla': ['8017', '7000', '7038', '8030']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'koryto vodného toku Konopný potok, bezmenný prítok vodného toku Pružinka a Slatinský potok', 'nazov_lokality_norm': 'Konopný, Pružinka, Slatinský'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Beluša', 'katastralne_uzemia': [{'nazov': 'Beluša', 'parcely': [{'typ': 'C', 'cisla': ['1243', '2185/2', '945/2', '74/1', '712/1', '3853/1', '3161/1']}, {'typ': 'E', 'cisla': ['8017', '7000', '7038', '8030']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'koryto vodného toku Konopný potok, bezmenný prítok vodného toku Pružinka a Slatinský potok', 'nazov_lokality_norm': 'Konopný, Pružinka, Slatinský'}
+ku_name:Beluša obec:Beluša okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: belusa norm_ku: belusa
+_get_nationalCadastralZoningReferences() found_ids: {'802506'}
+nationalCadastralZoningReferences: ['802506']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27802506_1243.C%27%2C%27802506_2185%2F2.C%27%2C%27802506_945%2F2.C%27%2C%27802506_74%2F1.C%27%2C%27802506_712%2F1.C%27%2C%27802506_3853%2F1.C%27%2C%27802506_3161%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.36 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27802506_8017.E%27%2C%27802506_7000.E%27%2C%27802506_7038.E%27%2C%27802506_8030.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.40 s
+nazov_lokality: Konopný, Pružinka, Slatinský
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.206'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.206'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.206'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.206'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.206'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.206'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.206'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.206'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.206'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.206'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.206'}
+
+[11 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563450/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/563450/analysis.json...
+
+--- Časy spracovania dokumentu 563450 ---
+  download_and_text   :   1.52 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  22.82 s
+  gis_processing      :   8.00 s
+  CELKOVÝ ČAS         :  32.35 s
+------------------------------------------
+Dokument 563450 bol úspešne spracovaný.

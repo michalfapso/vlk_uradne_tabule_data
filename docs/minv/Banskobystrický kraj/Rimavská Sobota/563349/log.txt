@@ -1,0 +1,108 @@
+[2026-03-13 22:48:24] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563349'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=42&odbor=10&sekcia=uradna-tabula&subor=563349
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563349/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563349/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563349/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013706300000000001}
+LLM_tokens: {"input": 5671, "output": 3926, "total": 9597, "cached": 2016}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563349/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563349/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Hrušovo', 'parcely': [{'typ': None, 'cisla': ['2811/1', '4401/1', '4406/1', '2602/1', '2609/1', '2704/1', '3602/1']}]}, {'nazov': 'Striežovce', 'parcely': []}, {'nazov': 'Ostrany', 'parcely': []}, {'nazov': 'Drienčany', 'parcely': []}, {'nazov': 'Slizké', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'SKUEV 0366 a SKUEV 2366 Drienčansky kras', 'nazov_lokality_norm': 'Drienčansky kras'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Hrušovo', 'parcely': [{'typ': None, 'cisla': ['2811/1', '4401/1', '4406/1', '2602/1', '2609/1', '2704/1', '3602/1']}]}, {'nazov': 'Striežovce', 'parcely': []}, {'nazov': 'Ostrany', 'parcely': []}, {'nazov': 'Drienčany', 'parcely': []}, {'nazov': 'Slizké', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'SKUEV 0366 a SKUEV 2366 Drienčansky kras', 'nazov_lokality_norm': 'Drienčansky kras'}
+ku_name:Hrušovo obec:None okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: hrusovo
+_get_nationalCadastralZoningReferences() found_ids: {'819999'}
+nationalCadastralZoningReferences: ['819999']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27819999_2811%2F1.C%27%2C%27819999_4401%2F1.C%27%2C%27819999_4406%2F1.C%27%2C%27819999_2602%2F1.C%27%2C%27819999_2609%2F1.C%27%2C%27819999_2704%2F1.C%27%2C%27819999_3602%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.20 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27819999_2811%2F1.E%27%2C%27819999_4401%2F1.E%27%2C%27819999_4406%2F1.E%27%2C%27819999_2602%2F1.E%27%2C%27819999_2609%2F1.E%27%2C%27819999_2704%2F1.E%27%2C%27819999_3602%2F1.E%27%29 (via proxy)
+get_geometry_of_cadastral_zone_parcels() request duration: 1.34 s
+Server vrátil chybu 500. Opakujem pokus o 5 sekúnd... (Pokus 1/5)
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27819999_2811%2F1.E%27%2C%27819999_4401%2F1.E%27%2C%27819999_4406%2F1.E%27%2C%27819999_2602%2F1.E%27%2C%27819999_2609%2F1.E%27%2C%27819999_2704%2F1.E%27%2C%27819999_3602%2F1.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.69 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': None, 'cisla': ['2811/1', '4401/1', '4406/1', '2602/1', '2609/1', '2704/1', '3602/1']}' v KU 'Hrušovo' sa nenašli dáta.
+ku_name:Striežovce obec:None okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: striezovce
+_get_nationalCadastralZoningReferences() found_ids: {'820016'}
+nationalCadastralZoningReferences: ['820016']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27820016%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.39 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Ostrany obec:None okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: ostrany
+_get_nationalCadastralZoningReferences() found_ids: {'820008'}
+nationalCadastralZoningReferences: ['820008']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27820008%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Drienčany obec:None okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: driencany
+_get_nationalCadastralZoningReferences() found_ids: {'812889'}
+nationalCadastralZoningReferences: ['812889']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27812889%27%29&f=application%2Fgeo%2Bjson (via proxy)
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() Chyba pri sťahovaní dát (HTTP): 502 Server Error: Bad Gateway for url: https://vlk-gis-proxy.vercel.app/?url=https%3A%2F%2Finspirews.skgeodesy.sk%2Fgeoserver%2Fcp%2Fogc%2Ffeatures%2Fv1%2Fcollections%2FCP.CadastralZoning%2Fitems%3Flimit%3D100%26filter-lang%3Dcql2-text%26filter%3DnationalCadastalZoningReference%2BIN%2B%2528%2527812889%2527%2529%26f%3Dapplication%252Fgeo%252Bjson
+get_cadastral_zone() response is None
+Pre zadané referencie neboli nájdené žiadne parcely.
+ku_name:Slizké obec:None okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: slizke
+_get_nationalCadastralZoningReferences() found_ids: {'856461'}
+nationalCadastralZoningReferences: ['856461']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27856461%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.39 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Drienčansky kras
+get_geometry_of_a_geoname nazov_lokality: Drienčansky kras
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Drienčansky kras, Rimavská Sobota, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((20.00457 48.5467, 20.00462 48....  ...  Drienčanský kras, Slizké, okres Rimavská Sobot...
+
+[1 rows x 11 columns]
+geoname_query: Drienčansky kras, Rimavská Sobota, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.0311 48.54756, 20.03117 48....
+1  CadastralZoning  ...  MULTIPOLYGON (((20.03951 48.50808, 20.03982 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((20.05806 48.54134, 20.0582 48....
+
+[3 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((20.00457 48.5467, 20.00462 48....  ...  Drienčanský kras, Slizké, okres Rimavská Sobot...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563349/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Striežovce', 'NATIONALSI': 'SKUEV0366', 'SITETITLE_': 'Drienčanský kras'}, {'parcel_label': 'Ostrany', 'NATIONALSI': 'SKUEV0366', 'SITETITLE_': 'Drienčanský kras'}, {'parcel_label': 'Slizké', 'NATIONALSI': 'SKUEV0366', 'SITETITLE_': 'Drienčanský kras'}], 'MCHU': [{'parcel_label': 'Slizké', 'NATIONALSI': '1357', 'SITETITLE_': 'OP NPP Podbanište'}, {'parcel_label': 'Slizké', 'NATIONALSI': '1357', 'SITETITLE_': 'NPP Podbanište'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/563349/analysis.json...
+
+--- Časy spracovania dokumentu 563349 ---
+  download_and_text   :   0.99 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  19.32 s
+  gis_processing      :  16.60 s
+  CELKOVÝ ČAS         :  36.92 s
+------------------------------------------
+Dokument 563349 bol úspešne spracovaný.
