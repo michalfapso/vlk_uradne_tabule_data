@@ -27,3 +27,47 @@ gdf_geoname: None
   CELKOVÝ ČAS         :  11.45 s
 ------------------------------------------
 Dokument nova-web-stranka bol úspešne spracovaný.
+[2026-03-14 22:11:48] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Prešovský kraj/Levoča/nova-web-stranka'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Prešovský kraj/Levoča/nova-web-stranka/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Prešovský kraj/Levoča/nova-web-stranka/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Levoča', 'obec': None, 'katastralne_uzemia': [], 'nazov_lokality': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Levoča', 'obec': None, 'katastralne_uzemia': [], 'nazov_lokality': None}
+No geometries were found.
+nazov_lokality: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu nova-web-stranka ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.00 s
+  CELKOVÝ ČAS         :   0.71 s
+------------------------------------------
+Dokument nova-web-stranka bol úspešne spracovaný.
+[2026-03-14 22:11:50] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Prešovský kraj/Levoča/nova-web-stranka'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Prešovský kraj/Levoča/nova-web-stranka/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Prešovský kraj/Levoča/nova-web-stranka/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Levoča', 'obec': None, 'katastralne_uzemia': [], 'nazov_lokality': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Levoča', 'obec': None, 'katastralne_uzemia': [], 'nazov_lokality': None}
+No geometries were found.
+nazov_lokality: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu nova-web-stranka ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.00 s
+  CELKOVÝ ČAS         :   0.50 s
+------------------------------------------
+Dokument nova-web-stranka bol úspešne spracovaný.
