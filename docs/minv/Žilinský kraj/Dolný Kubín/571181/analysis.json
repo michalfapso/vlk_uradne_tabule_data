@@ -1,0 +1,96 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2026/000820",
+  "cislo_rozhodnutia": "OU-DK-OSZP-2026/000820-029",
+  "datum_dokumentu": "2026-07-01",
+  "datum_zverejnenia": "2026-07-01",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do desiatich dní od jeho zverejnenia"
+  },
+  "ziadatel_navrhovatel": "Obec Sedliacka Dubová",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Sedliacka Dubová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sedliacka Dubová",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "obec Sedliacka Dubová",
+    "nazov_lokality_norm": "Sedliacka Dubová"
+  },
+  "typ_dokumentu": "Rozsah hodnotenia strategického dokumentu",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "VYSTAVBA_V_PRIRODE",
+    "INZINIERSKE_SIETE",
+    "POLNOHOSPODARSTVO"
+  ],
+  "typ_zasahu": [
+    "určenie zásad priestorového usporiadania",
+    "záber poľnohospodárskej pôdy",
+    "vplyv na chránené územia",
+    "narušenie migračných trás",
+    "zásahy do prvkov územného systému ekologickej stability",
+    "šírenie inváznych druhov"
+  ],
+  "rozsah_zasahu": "celé územie obce Sedliacka Dubová",
+  "typ_uzemia": [
+    "CHA Rieka Orava",
+    "SKUEV0243 Orava",
+    "RL Rieka Orava a jej prítoky",
+    "NATURA 2000",
+    "ÚEV Orava",
+    "RÚSES"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "živočíchy",
+    "invázne druhy"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/uzemny-plan-obce-sedliacka-dubova",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "4",
+        "5",
+        "6",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "28a"
+      ]
+    }
+  ],
+  "zhrnutie": "Dokument určuje rozsah hodnotenia pre územný plán obce Sedliacka Dubová so zameraním na vplyvy na poľnohospodársku pôdu a stabilitu územia. Posudzovať sa bude vplyv na chránené územia Natura 2000 (ÚEV Orava, CHA Rieka Orava), migračné trasy živočíchov a riziko šírenia inváznych druhov. Verejnosť môže podávať pripomienky do 10 dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Sedliacka Dubová",
+          "NATIONALSI": "SKUEV0243",
+          "SITETITLE_": "Orava"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Sedliacka Dubová",
+          "NATIONALSI": "1034",
+          "SITETITLE_": "CHA Rieka Orava"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

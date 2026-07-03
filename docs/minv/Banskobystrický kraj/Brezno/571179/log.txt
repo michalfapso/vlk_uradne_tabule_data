@@ -1,0 +1,290 @@
+[2026-07-03 22:19:37] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571179'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=571179
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571179/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571179/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 4 písm. d)' zákona ':     Na základe doručeného písomného oznámenia zo dňa 30.06.2026 na orgán ochrany  prírody vo veci uskutočnenia plánovaného výrubu drevín podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 4  písm. d)' zákona 'a splnenia si oznamovacej povinnosti podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'uvádzame nasledovne:     • Subjekt: ŽSR, OR Zvolen, SMSÚ ŽST TO Banská Bystrica, 29. august 49, 974 01  Banská Bystrica      • Predmet oznámenia:'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571179/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014014500000000001}
+LLM_tokens: {"input": 5409, "output": 3770, "total": 9179, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571179/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571179/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Brezno', 'katastralne_uzemia': [{'nazov': 'Medzibrod', 'parcely': []}, {'nazov': 'Dubová', 'parcely': []}, {'nazov': 'Podbrezová', 'parcely': []}, {'nazov': 'Brezno', 'parcely': []}, {'nazov': 'Pohronská Polhora', 'parcely': []}, {'nazov': 'Gašparovo', 'parcely': []}, {'nazov': 'Polomka', 'parcely': []}, {'nazov': 'Závadka nad Hronom', 'parcely': []}, {'nazov': 'Heľpa', 'parcely': []}, {'nazov': 'Červená Skala', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo železničných dráh v úsekoch Medzibrod - Červená Skala', 'nazov_lokality_norm': 'železničná trať, okres Brezno'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Brezno', 'katastralne_uzemia': [{'nazov': 'Medzibrod', 'parcely': []}, {'nazov': 'Dubová', 'parcely': []}, {'nazov': 'Podbrezová', 'parcely': []}, {'nazov': 'Brezno', 'parcely': []}, {'nazov': 'Pohronská Polhora', 'parcely': []}, {'nazov': 'Gašparovo', 'parcely': []}, {'nazov': 'Polomka', 'parcely': []}, {'nazov': 'Závadka nad Hronom', 'parcely': []}, {'nazov': 'Heľpa', 'parcely': []}, {'nazov': 'Červená Skala', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo železničných dráh v úsekoch Medzibrod - Červená Skala', 'nazov_lokality_norm': 'železničná trať, okres Brezno'}
+ku_name:Medzibrod obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: medzibrod
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: medzibrod
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: medzibrod
+_get_nationalCadastralZoningReferences() found_ids: {'836605'}
+nationalCadastralZoningReferences: ['836605']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27836605%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.43 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dubová obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: dubova
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: dubova
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: dubova
+Fuzzy match found: 'Dubová' -> 'Dubové' (ID: 813371)
+nationalCadastralZoningReferences: ['813371']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27813371%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Podbrezová obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: podbrezova
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: podbrezova
+_get_nationalCadastralZoningReferences() found_ids: {'847216'}
+nationalCadastralZoningReferences: ['847216']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27847216%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Brezno obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: brezno
+_get_nationalCadastralZoningReferences() found_ids: {'806528'}
+nationalCadastralZoningReferences: ['806528']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27806528%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.58 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Pohronská Polhora obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: pohronska polhora
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: pohronska polhora
+_get_nationalCadastralZoningReferences() found_ids: {'847828'}
+nationalCadastralZoningReferences: ['847828']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27847828%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Gašparovo obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: gasparovo
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: gasparovo
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: gasparovo
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: gasparovo
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+ku_name:Polomka obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: polomka
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: polomka
+_get_nationalCadastralZoningReferences() found_ids: {'848051'}
+nationalCadastralZoningReferences: ['848051']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27848051%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Závadka nad Hronom obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: zavadka nad hronom
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: zavadka nad hronom
+_get_nationalCadastralZoningReferences() found_ids: {'872563'}
+nationalCadastralZoningReferences: ['872563']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27872563%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Heľpa obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: helpa
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: helpa
+_get_nationalCadastralZoningReferences() found_ids: {'816019'}
+nationalCadastralZoningReferences: ['816019']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27816019%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Červená Skala obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: cervena skala
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: cervena skala
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: cervena skala
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: cervena skala
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+nazov_lokality: železničná trať, okres Brezno
+get_geometry_of_a_geoname nazov_lokality: železničná trať, okres Brezno
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=železničná trať, okres Brezno, Brezno, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=železničná trať, okres Brezno, Brezno, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=železničná trať, okres Brezno, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=železničná trať, okres Brezno, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.8033198, 'lon': 19.6264154, 'formatted_address': 'Železničná, 977 01 Brezno, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Železničná, 977 01 Brezno, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.32915 48.84569, 19.33033 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.01103 48.5182, 19.01167 48....
+2  CadastralZoning  ...  MULTIPOLYGON (((19.48796 48.83346, 19.48813 48...
+3  CadastralZoning  ...  MULTIPOLYGON (((19.64071 48.9362, 19.64434 48....
+4  CadastralZoning  ...  MULTIPOLYGON (((19.83846 48.79086, 19.8402 48....
+5  CadastralZoning  ...  MULTIPOLYGON (((19.8179 48.91611, 19.81813 48....
+6  CadastralZoning  ...  MULTIPOLYGON (((19.9227 48.90841, 19.92387 48....
+7  CadastralZoning  ...  MULTIPOLYGON (((19.97712 48.91581, 19.98067 48...
+
+[8 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571179/gis.geojson...
+Intersections with protected areas...
+Found 123 intersecting parcels with '5st_konsUEV'.
+Found 26 intersecting parcels with 'UEV'.
+Found 10 intersecting parcels with 'MCHU'.
+Found 9 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Medzibrod', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Medzibrod', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Medzibrod', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Rohoznianska jelšina', 'KOD_UEV': 'SKUEV0695'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Kráľovohoľské Tatry', 'KOD_UEV': 'SKUEV0310'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}], 'UEV': [{'parcel_label': 'Medzibrod', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Medzibrod', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': 'Dubové', 'NATIONALSI': 'SKUEV0266', 'SITETITLE_': 'Skalka'}, {'parcel_label': 'Podbrezová', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Podbrezová', 'NATIONALSI': 'SKUEV0862', 'SITETITLE_': 'Predajnianska slatina'}, {'parcel_label': 'Brezno', 'NATIONALSI': 'SKUEV0695', 'SITETITLE_': 'Rohoznianska jelšina'}, {'parcel_label': 'Brezno', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Brezno', 'NATIONALSI': 'SKUEV0153', 'SITETITLE_': 'Horné lazy'}, {'parcel_label': 'Brezno', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': 'Pohronská Polhora', 'NATIONALSI': 'SKUEV0729', 'SITETITLE_': 'Rosiarka'}, {'parcel_label': 'Pohronská Polhora', 'NATIONALSI': 'SKUEV0225', 'SITETITLE_': 'Muránska planina'}, {'parcel_label': 'Pohronská Polhora', 'NATIONALSI': 'SKUEV0728', 'SITETITLE_': 'Podpoľana'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV0225', 'SITETITLE_': 'Muránska planina'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV4077', 'SITETITLE_': 'Lúky pod Volchovom'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV0310', 'SITETITLE_': 'Kráľovohoľské Tatry'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKUEV0225', 'SITETITLE_': 'Muránska planina'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKUEV4074', 'SITETITLE_': 'Lúky pod Pribylinkou'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKUEV4083', 'SITETITLE_': 'Pod úbočou'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKUEV4077', 'SITETITLE_': 'Lúky pod Volchovom'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKUEV0310', 'SITETITLE_': 'Kráľovohoľské Tatry'}, {'parcel_label': 'Heľpa', 'NATIONALSI': 'SKUEV0225', 'SITETITLE_': 'Muránska planina'}, {'parcel_label': 'Heľpa', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Heľpa', 'NATIONALSI': 'SKUEV4074', 'SITETITLE_': 'Lúky pod Pribylinkou'}, {'parcel_label': 'Heľpa', 'NATIONALSI': 'SKUEV0310', 'SITETITLE_': 'Kráľovohoľské Tatry'}], 'MCHU': [{'parcel_label': 'Medzibrod', 'NATIONALSI': '838', 'SITETITLE_': 'PR Mačková'}, {'parcel_label': 'Brezno', 'NATIONALSI': '403', 'SITETITLE_': 'PR Rohoznianska jelšina'}, {'parcel_label': 'Brezno', 'NATIONALSI': '260', 'SITETITLE_': 'PR Horné lazy'}, {'parcel_label': 'Brezno', 'NATIONALSI': '225', 'SITETITLE_': 'PR Breznianska skalka'}, {'parcel_label': 'Brezno', 'NATIONALSI': '232', 'SITETITLE_': 'OP NPP Bystrianska jaskyňa'}, {'parcel_label': 'Brezno', 'NATIONALSI': '1359', 'SITETITLE_': 'NPP Jaskyňa mŕtvych netopierov'}, {'parcel_label': 'Brezno', 'NATIONALSI': '246', 'SITETITLE_': 'NPR Ďumbier'}, {'parcel_label': 'Pohronská Polhora', 'NATIONALSI': '1020', 'SITETITLE_': 'PR Rosiarka'}, {'parcel_label': 'Pohronská Polhora', 'NATIONALSI': '1374', 'SITETITLE_': 'CHA Pramenná oblasť Rimavy'}, {'parcel_label': 'Polomka', 'NATIONALSI': '1351', 'SITETITLE_': 'PR Pralesy Slovenska-Zadná hoľa'}], 'CHVU': [{'parcel_label': 'Medzibrod', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Brezno', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Pohronská Polhora', 'NATIONALSI': 'SKCHVU017', 'SITETITLE_': 'Muránska planina - Stolica'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKCHVU017', 'SITETITLE_': 'Muránska planina - Stolica'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKCHVU017', 'SITETITLE_': 'Muránska planina - Stolica'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Heľpa', 'NATIONALSI': 'SKCHVU017', 'SITETITLE_': 'Muránska planina - Stolica'}, {'parcel_label': 'Heľpa', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571179/analysis.json...
+
+--- Časy spracovania dokumentu 571179 ---
+  download_and_text   :   1.78 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  17.21 s
+  gis_processing      :   5.78 s
+  CELKOVÝ ČAS         :  24.78 s
+------------------------------------------
+Dokument 571179 bol úspešne spracovaný.
+[2026-07-03 22:45:02] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571179'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571179/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571179/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571179/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Brezno', 'katastralne_uzemia': [{'nazov': 'Medzibrod', 'parcely': []}, {'nazov': 'Dubová', 'parcely': []}, {'nazov': 'Podbrezová', 'parcely': []}, {'nazov': 'Brezno', 'parcely': []}, {'nazov': 'Pohronská Polhora', 'parcely': []}, {'nazov': 'Gašparovo', 'parcely': []}, {'nazov': 'Polomka', 'parcely': []}, {'nazov': 'Závadka nad Hronom', 'parcely': []}, {'nazov': 'Heľpa', 'parcely': []}, {'nazov': 'Červená Skala', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo železničných dráh v úsekoch Medzibrod - Červená Skala', 'nazov_lokality_norm': 'železničná trať, okres Brezno'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Brezno', 'katastralne_uzemia': [{'nazov': 'Medzibrod', 'parcely': []}, {'nazov': 'Dubová', 'parcely': []}, {'nazov': 'Podbrezová', 'parcely': []}, {'nazov': 'Brezno', 'parcely': []}, {'nazov': 'Pohronská Polhora', 'parcely': []}, {'nazov': 'Gašparovo', 'parcely': []}, {'nazov': 'Polomka', 'parcely': []}, {'nazov': 'Závadka nad Hronom', 'parcely': []}, {'nazov': 'Heľpa', 'parcely': []}, {'nazov': 'Červená Skala', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo železničných dráh v úsekoch Medzibrod - Červená Skala', 'nazov_lokality_norm': 'železničná trať, okres Brezno'}
+ku_name:Medzibrod obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: medzibrod
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: medzibrod
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: medzibrod
+_get_nationalCadastralZoningReferences() found_ids: {'836605'}
+nationalCadastralZoningReferences: ['836605']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27836605%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dubová obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: dubova
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: dubova
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: dubova
+Fuzzy match found: 'Dubová' -> 'Dubové' (ID: 813371)
+nationalCadastralZoningReferences: ['813371']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27813371%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Podbrezová obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: podbrezova
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: podbrezova
+_get_nationalCadastralZoningReferences() found_ids: {'847216'}
+nationalCadastralZoningReferences: ['847216']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27847216%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.37 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Brezno obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: brezno
+_get_nationalCadastralZoningReferences() found_ids: {'806528'}
+nationalCadastralZoningReferences: ['806528']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27806528%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.57 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Pohronská Polhora obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: pohronska polhora
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: pohronska polhora
+_get_nationalCadastralZoningReferences() found_ids: {'847828'}
+nationalCadastralZoningReferences: ['847828']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27847828%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.41 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Gašparovo obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: gasparovo
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: gasparovo
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: gasparovo
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: gasparovo
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+ku_name:Polomka obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: polomka
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: polomka
+_get_nationalCadastralZoningReferences() found_ids: {'848051'}
+nationalCadastralZoningReferences: ['848051']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27848051%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Závadka nad Hronom obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: zavadka nad hronom
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: zavadka nad hronom
+_get_nationalCadastralZoningReferences() found_ids: {'872563'}
+nationalCadastralZoningReferences: ['872563']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27872563%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Heľpa obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: helpa
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: helpa
+_get_nationalCadastralZoningReferences() found_ids: {'816019'}
+nationalCadastralZoningReferences: ['816019']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27816019%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Červená Skala obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: cervena skala
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: cervena skala
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: cervena skala
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: cervena skala
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+nazov_lokality: železničná trať, okres Brezno
+get_geometry_of_a_geoname nazov_lokality: železničná trať, okres Brezno
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=železničná trať, okres Brezno, Brezno, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=železničná trať, okres Brezno, Brezno, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=železničná trať, okres Brezno, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=železničná trať, okres Brezno, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.8033198, 'lon': 19.6264154, 'formatted_address': 'Železničná, 977 01 Brezno, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Železničná, 977 01 Brezno, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.32915 48.84569, 19.33033 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.01103 48.5182, 19.01167 48....
+2  CadastralZoning  ...  MULTIPOLYGON (((19.48796 48.83346, 19.48813 48...
+3  CadastralZoning  ...  MULTIPOLYGON (((19.64071 48.9362, 19.64434 48....
+4  CadastralZoning  ...  MULTIPOLYGON (((19.83846 48.79086, 19.8402 48....
+5  CadastralZoning  ...  MULTIPOLYGON (((19.8179 48.91611, 19.81813 48....
+6  CadastralZoning  ...  MULTIPOLYGON (((19.9227 48.90841, 19.92387 48....
+7  CadastralZoning  ...  MULTIPOLYGON (((19.97712 48.91581, 19.98067 48...
+
+[8 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571179/gis.geojson...
+Intersections with protected areas...
+Found 123 intersecting parcels with '5st_konsUEV'.
+Found 26 intersecting parcels with 'UEV'.
+Found 10 intersecting parcels with 'MCHU'.
+Found 9 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Medzibrod', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Medzibrod', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Medzibrod', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Rohoznianska jelšina', 'KOD_UEV': 'SKUEV0695'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Pohronská Polhora', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Kráľovohoľské Tatry', 'KOD_UEV': 'SKUEV0310'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Heľpa', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}], 'UEV': [{'parcel_label': 'Medzibrod', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Medzibrod', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': 'Dubové', 'NATIONALSI': 'SKUEV0266', 'SITETITLE_': 'Skalka'}, {'parcel_label': 'Podbrezová', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Podbrezová', 'NATIONALSI': 'SKUEV0862', 'SITETITLE_': 'Predajnianska slatina'}, {'parcel_label': 'Brezno', 'NATIONALSI': 'SKUEV0695', 'SITETITLE_': 'Rohoznianska jelšina'}, {'parcel_label': 'Brezno', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Brezno', 'NATIONALSI': 'SKUEV0153', 'SITETITLE_': 'Horné lazy'}, {'parcel_label': 'Brezno', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': 'Pohronská Polhora', 'NATIONALSI': 'SKUEV0729', 'SITETITLE_': 'Rosiarka'}, {'parcel_label': 'Pohronská Polhora', 'NATIONALSI': 'SKUEV0225', 'SITETITLE_': 'Muránska planina'}, {'parcel_label': 'Pohronská Polhora', 'NATIONALSI': 'SKUEV0728', 'SITETITLE_': 'Podpoľana'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV0225', 'SITETITLE_': 'Muránska planina'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV4077', 'SITETITLE_': 'Lúky pod Volchovom'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV0310', 'SITETITLE_': 'Kráľovohoľské Tatry'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKUEV0225', 'SITETITLE_': 'Muránska planina'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKUEV4074', 'SITETITLE_': 'Lúky pod Pribylinkou'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKUEV4083', 'SITETITLE_': 'Pod úbočou'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKUEV4077', 'SITETITLE_': 'Lúky pod Volchovom'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKUEV0310', 'SITETITLE_': 'Kráľovohoľské Tatry'}, {'parcel_label': 'Heľpa', 'NATIONALSI': 'SKUEV0225', 'SITETITLE_': 'Muránska planina'}, {'parcel_label': 'Heľpa', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Heľpa', 'NATIONALSI': 'SKUEV4074', 'SITETITLE_': 'Lúky pod Pribylinkou'}, {'parcel_label': 'Heľpa', 'NATIONALSI': 'SKUEV0310', 'SITETITLE_': 'Kráľovohoľské Tatry'}], 'MCHU': [{'parcel_label': 'Medzibrod', 'NATIONALSI': '838', 'SITETITLE_': 'PR Mačková'}, {'parcel_label': 'Brezno', 'NATIONALSI': '403', 'SITETITLE_': 'PR Rohoznianska jelšina'}, {'parcel_label': 'Brezno', 'NATIONALSI': '260', 'SITETITLE_': 'PR Horné lazy'}, {'parcel_label': 'Brezno', 'NATIONALSI': '225', 'SITETITLE_': 'PR Breznianska skalka'}, {'parcel_label': 'Brezno', 'NATIONALSI': '232', 'SITETITLE_': 'OP NPP Bystrianska jaskyňa'}, {'parcel_label': 'Brezno', 'NATIONALSI': '1359', 'SITETITLE_': 'NPP Jaskyňa mŕtvych netopierov'}, {'parcel_label': 'Brezno', 'NATIONALSI': '246', 'SITETITLE_': 'NPR Ďumbier'}, {'parcel_label': 'Pohronská Polhora', 'NATIONALSI': '1020', 'SITETITLE_': 'PR Rosiarka'}, {'parcel_label': 'Pohronská Polhora', 'NATIONALSI': '1374', 'SITETITLE_': 'CHA Pramenná oblasť Rimavy'}, {'parcel_label': 'Polomka', 'NATIONALSI': '1351', 'SITETITLE_': 'PR Pralesy Slovenska-Zadná hoľa'}], 'CHVU': [{'parcel_label': 'Medzibrod', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Brezno', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Pohronská Polhora', 'NATIONALSI': 'SKCHVU017', 'SITETITLE_': 'Muránska planina - Stolica'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKCHVU017', 'SITETITLE_': 'Muránska planina - Stolica'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKCHVU017', 'SITETITLE_': 'Muránska planina - Stolica'}, {'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Heľpa', 'NATIONALSI': 'SKCHVU017', 'SITETITLE_': 'Muránska planina - Stolica'}, {'parcel_label': 'Heľpa', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571179/analysis.json...
+
+--- Časy spracovania dokumentu 571179 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   6.12 s
+  CELKOVÝ ČAS         :   6.13 s
+------------------------------------------
+Dokument 571179 bol úspešne spracovaný.

@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP1-2026/089408-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-03",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 10.07.2026"
+  },
+  "ziadatel_navrhovatel": "Západoslovenská distribučná a. s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Hradište pod Vrátnom",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Chránená krajinná oblasť Malé Karpaty, Chránené vtáčie územie",
+    "nazov_lokality_norm": "Malé Karpaty"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "VJAZD_VOZIDLA",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "vjazd a státie s motorovými vozidlami",
+    "výnimka zo zákazov v chránenom vtáčom území",
+    "stavba SA_Hradište pod Vrátnom, VNV,TS,NNV"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Malé Karpaty",
+    "2. stupeň",
+    "Chránené vtáčie územie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 82 ods. 7",
+        "§ 13 ods. 1 písm. a)",
+        "§ 82 ods. 3"
+      ]
+    },
+    {
+      "nazov": "vyhláška MŽP SR",
+      "cislo": "216/2005 Z. z.",
+      "paragrafy": [
+        "§ 2"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti o výnimku na vjazd a státie motorových vozidiel v CHKO Malé Karpaty a v chránenom vtáčom území. Účelom je výstavba elektrických vedení a trafostanice v lokalite Hradište pod Vrátnom. Lehota na doručenie potvrdenia záujmu o účasť v konaní je do 10.07.2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Hradište pod Vrátnom",
+          "NATIONALSI": "SKUEV0278",
+          "SITETITLE_": "Brezovské Karpaty"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Hradište pod Vrátnom",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

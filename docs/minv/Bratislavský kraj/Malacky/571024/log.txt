@@ -1,0 +1,102 @@
+[2026-07-03 22:23:24] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571024'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=2&odbor=10&sekcia=uradna-tabula&subor=571024
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571024/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571024/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§5' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z.z. o vodách a o zmene zákona č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53 ods. 2' zákona 'stavebného zákona od miestneho zisťovania a ústneho pojednávania. Do dokladov pre rozhodnutie možno nahliadnuť na Okresnom úrade Malacky, odbor staros'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods. 3' zákona 'stavebného zákona povahu verejnej vyhlášky a musí byť vyvesené po dobu 15 dn! na úradnej tabuli obce Rohožník a na Okresnom úrade Malacky, odbore star'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0144555}
+LLM_tokens: {"input": 7101, "output": 3635, "total": 10736, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571024/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571024/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Rohožník', 'katastralne_uzemia': [{'nazov': 'Rohožník', 'parcely': [{'typ': 'C', 'cisla': ['3030/170', '3029/2', '2907/2', '2899/49', '2899/42', '3030/166', '3030/172', '3030/107']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Rohožník, Infraštruktúra časti územia rodinných domov', 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Rohožník', 'katastralne_uzemia': [{'nazov': 'Rohožník', 'parcely': [{'typ': 'C', 'cisla': ['3030/170', '3029/2', '2907/2', '2899/49', '2899/42', '3030/166', '3030/172', '3030/107']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Rohožník, Infraštruktúra časti územia rodinných domov', 'nazov_lokality_norm': None}
+ku_name:Rohožník obec:Rohožník okres:Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: rohoznik norm_ku: rohoznik
+_get_nationalCadastralZoningReferences() found_ids: {'852716'}
+nationalCadastralZoningReferences: ['852716']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27852716_3030%2F170.C%27%2C%27852716_3029%2F2.C%27%2C%27852716_2907%2F2.C%27%2C%27852716_2899%2F49.C%27%2C%27852716_2899%2F42.C%27%2C%27852716_3030%2F166.C%27%2C%27852716_3030%2F172.C%27%2C%27852716_3030%2F107.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.31 s
+nazov_lokality: Rohožník, Infraštruktúra časti územia rodinných domov
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2713'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2713'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2713'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2713'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.2713'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.2713'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.2713'}
+
+[7 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571024/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571024/analysis.json...
+
+--- Časy spracovania dokumentu 571024 ---
+  download_and_text   :   3.20 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.03 s
+  gis_processing      :   4.53 s
+  CELKOVÝ ČAS         :  22.76 s
+------------------------------------------
+Dokument 571024 bol úspešne spracovaný.
+[2026-07-03 22:45:31] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571024'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571024/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§5' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z.z. o vodách a o zmene zákona č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53 ods. 2' zákona 'stavebného zákona od miestneho zisťovania a ústneho pojednávania. Do dokladov pre rozhodnutie možno nahliadnuť na Okresnom úrade Malacky, odbor staros'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods. 3' zákona 'stavebného zákona povahu verejnej vyhlášky a musí byť vyvesené po dobu 15 dn! na úradnej tabuli obce Rohožník a na Okresnom úrade Malacky, odbore star'.
+No law excerpts found.
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571024/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Rohožník', 'katastralne_uzemia': [{'nazov': 'Rohožník', 'parcely': [{'typ': 'C', 'cisla': ['3030/170', '3029/2', '2907/2', '2899/49', '2899/42', '3030/166', '3030/172', '3030/107']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Rohožník, Infraštruktúra časti územia rodinných domov', 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Rohožník', 'katastralne_uzemia': [{'nazov': 'Rohožník', 'parcely': [{'typ': 'C', 'cisla': ['3030/170', '3029/2', '2907/2', '2899/49', '2899/42', '3030/166', '3030/172', '3030/107']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Rohožník, Infraštruktúra časti územia rodinných domov', 'nazov_lokality_norm': None}
+ku_name:Rohožník obec:Rohožník okres:Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: rohoznik norm_ku: rohoznik
+_get_nationalCadastralZoningReferences() found_ids: {'852716'}
+nationalCadastralZoningReferences: ['852716']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27852716_3030%2F170.C%27%2C%27852716_3029%2F2.C%27%2C%27852716_2907%2F2.C%27%2C%27852716_2899%2F49.C%27%2C%27852716_2899%2F42.C%27%2C%27852716_3030%2F166.C%27%2C%27852716_3030%2F172.C%27%2C%27852716_3030%2F107.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.36 s
+nazov_lokality: Rohožník, Infraštruktúra časti územia rodinných domov
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2713'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2713'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2713'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2713'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.2713'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.2713'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.2713'}
+
+[7 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571024/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571024/analysis.json...
+
+--- Časy spracovania dokumentu 571024 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   4.57 s
+  CELKOVÝ ČAS         :   4.58 s
+------------------------------------------
+Dokument 571024 bol úspešne spracovaný.

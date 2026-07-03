@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP1-2026/089427-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-03",
+  "datum_zverejnenia": "2026-07-03",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 10. 07. 2026"
+  },
+  "ziadatel_navrhovatel": "LiV-EPI, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Hradište pod Vrátnom",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "SA_Hradište pod Vrátnom",
+    "nazov_lokality_norm": "Hradište pod Vrátnom"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "VJAZD_VOZIDLA",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "jazda alebo státie s motorovým vozidlom za hranicami zastavaného územia obce",
+    "stavba SA_Hradište pod Vrátnom, TS0016-009, VNV, TS, NNV"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "13",
+        "82"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci povolenia výnimky na vjazd a státie motorových vozidiel v 2. stupni ochrany pre spoločnosť LiV-EPI, s.r.o. Účelom je realizácia energetickej stavby v obci Hradište pod Vrátnom mimo zastavaného územia. Verejnosť môže potvrdiť záujem o účasť v konaní do 10. 07. 2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Hradište pod Vrátnom",
+          "NATIONALSI": "SKUEV0278",
+          "SITETITLE_": "Brezovské Karpaty"
+        },
+        {
+          "parcel_label": "Hradište pod Vrátnom",
+          "NATIONALSI": "SKUEV0903",
+          "SITETITLE_": "Kyseľová a Mníchova úboč"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Hradište pod Vrátnom",
+          "NATIONALSI": "87",
+          "SITETITLE_": "PP Kyseľová"
+        },
+        {
+          "parcel_label": "Hradište pod Vrátnom",
+          "NATIONALSI": "107",
+          "SITETITLE_": "PP Mníchova úboč"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Hradište pod Vrátnom",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

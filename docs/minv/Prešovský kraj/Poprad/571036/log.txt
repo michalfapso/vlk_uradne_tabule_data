@@ -1,0 +1,123 @@
+[2026-07-03 22:33:30] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571036'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=56&odbor=10&sekcia=uradna-tabula&subor=571036
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571036/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0015535999999999998}
+LLM_tokens: {"input": 1366, "output": 3865, "total": 5231, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571036/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18 ods. 2' zákona '71/1067 Zb. o správnom konaní'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 117' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 140 ods. 1' zákona '50/1976 Zb. a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2010 ods. 2' zákona '50/1976 Zb. a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120 ods. 1' zákona '372/1990 Zb. o priestupkoch v znení neskorších predpisov, odovzdáva na tunajší úrad dokumentáciu k vodným stavbám v rámci hlavnej stavby „BYTOVÉ DOMY'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 117' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 140' zákona 'b stavebného zákona záväzné stanovisko pod sp. zn. 32/5257/2026-MLD zo dňa 20.04.2026 k vydaniu stavebného povolenia špeciálnym stavebným úradom na pr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120 ods. 3' zákona 'stavebného zákona súhlasí s vydaním stavebného povolenia na predmetné vodné stavby špeciálnym stavebným úradom.  V súlade s ustanoveniami'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'pôvodného stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'pôvodného stavebného zákona a'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571036/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0160725}
+LLM_tokens: {"input": 8277, "output": 3978, "total": 12255, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571036/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571036/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Poprad', 'obec': 'Štrba', 'katastralne_uzemia': [{'nazov': 'Štrba', 'parcely': [{'typ': 'C', 'cisla': ['5561/4', '5561/5', '2553/10', '2430/10', '2537/16', '2430/12', '2430/13', '2430/3', '2430/14', '2430/15', '2430/18', '2431/4']}, {'typ': 'E', 'cisla': ['692/4', '692/11', '692/20', '693/7']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Tatranská Štrba', 'nazov_lokality_norm': 'Tatranská Štrba'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Poprad', 'obec': 'Štrba', 'katastralne_uzemia': [{'nazov': 'Štrba', 'parcely': [{'typ': 'C', 'cisla': ['5561/4', '5561/5', '2553/10', '2430/10', '2537/16', '2430/12', '2430/13', '2430/3', '2430/14', '2430/15', '2430/18', '2431/4']}, {'typ': 'E', 'cisla': ['692/4', '692/11', '692/20', '693/7']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Tatranská Štrba', 'nazov_lokality_norm': 'Tatranská Štrba'}
+ku_name:Štrba obec:Štrba okres:Poprad kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: poprad norm_obec: strba norm_ku: strba
+_get_nationalCadastralZoningReferences() found_ids: {'861375'}
+nationalCadastralZoningReferences: ['861375']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27861375_5561%2F4.C%27%2C%27861375_5561%2F5.C%27%2C%27861375_2553%2F10.C%27%2C%27861375_2430%2F10.C%27%2C%27861375_2537%2F16.C%27%2C%27861375_2430%2F12.C%27%2C%27861375_2430%2F13.C%27%2C%27861375_2430%2F3.C%27%2C%27861375_2430%2F14.C%27%2C%27861375_2430%2F15.C%27%2C%27861375_2430%2F18.C%27%2C%27861375_2431%2F4.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.78 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27861375_692%2F4.E%27%2C%27861375_692%2F11.E%27%2C%27861375_692%2F20.E%27%2C%27861375_693%2F7.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.32 s
+nazov_lokality: Tatranská Štrba
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+
+[13 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571036/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571036/analysis.json...
+
+--- Časy spracovania dokumentu 571036 ---
+  download_and_text   :  23.23 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  19.81 s
+  gis_processing      :   7.32 s
+  CELKOVÝ ČAS         :  50.37 s
+------------------------------------------
+Dokument 571036 bol úspešne spracovaný.
+[2026-07-03 22:46:40] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571036'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571036/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571036/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571036/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Poprad', 'obec': 'Štrba', 'katastralne_uzemia': [{'nazov': 'Štrba', 'parcely': [{'typ': 'C', 'cisla': ['5561/4', '5561/5', '2553/10', '2430/10', '2537/16', '2430/12', '2430/13', '2430/3', '2430/14', '2430/15', '2430/18', '2431/4']}, {'typ': 'E', 'cisla': ['692/4', '692/11', '692/20', '693/7']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Tatranská Štrba', 'nazov_lokality_norm': 'Tatranská Štrba'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Poprad', 'obec': 'Štrba', 'katastralne_uzemia': [{'nazov': 'Štrba', 'parcely': [{'typ': 'C', 'cisla': ['5561/4', '5561/5', '2553/10', '2430/10', '2537/16', '2430/12', '2430/13', '2430/3', '2430/14', '2430/15', '2430/18', '2431/4']}, {'typ': 'E', 'cisla': ['692/4', '692/11', '692/20', '693/7']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Tatranská Štrba', 'nazov_lokality_norm': 'Tatranská Štrba'}
+ku_name:Štrba obec:Štrba okres:Poprad kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: poprad norm_obec: strba norm_ku: strba
+_get_nationalCadastralZoningReferences() found_ids: {'861375'}
+nationalCadastralZoningReferences: ['861375']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27861375_5561%2F4.C%27%2C%27861375_5561%2F5.C%27%2C%27861375_2553%2F10.C%27%2C%27861375_2430%2F10.C%27%2C%27861375_2537%2F16.C%27%2C%27861375_2430%2F12.C%27%2C%27861375_2430%2F13.C%27%2C%27861375_2430%2F3.C%27%2C%27861375_2430%2F14.C%27%2C%27861375_2430%2F15.C%27%2C%27861375_2430%2F18.C%27%2C%27861375_2431%2F4.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.75 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27861375_692%2F4.E%27%2C%27861375_692%2F11.E%27%2C%27861375_692%2F20.E%27%2C%27861375_693%2F7.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.29 s
+nazov_lokality: Tatranská Štrba
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+
+[13 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571036/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571036/analysis.json...
+
+--- Časy spracovania dokumentu 571036 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   7.34 s
+  CELKOVÝ ČAS         :   7.34 s
+------------------------------------------
+Dokument 571036 bol úspešne spracovaný.

@@ -1,0 +1,125 @@
+[2026-07-03 22:26:27] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571176'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=65&odbor=10&sekcia=uradna-tabula&subor=571176
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571176/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571176/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'okresný úrad v sídle kraja určuje na potvrdenie záujmu byť zúčastnenou osobou v uvedenom správnom konaní lehotu 5 pracovných dní od zverejnenia tohto'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona 'združenie s právnou subjektivitou uvedie v písomnom oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno a priezvi'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571176/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0098395}
+LLM_tokens: {"input": 5363, "output": 2386, "total": 7749, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571176/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571176/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Spišské Vlachy', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ÚEV Galmus, LC Mestské lesy Spišské Vlachy, JPRL č. 38, 44, 45, 46, 53, 54, 56, 57, 58, 59, 80, 82, 97, 98, 99, 100, 134, 135, 157, 169, 170, 171', 'nazov_lokality_norm': 'Galmus'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Spišské Vlachy', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ÚEV Galmus, LC Mestské lesy Spišské Vlachy, JPRL č. 38, 44, 45, 46, 53, 54, 56, 57, 58, 59, 80, 82, 97, 98, 99, 100, 134, 135, 157, 169, 170, 171', 'nazov_lokality_norm': 'Galmus'}
+Fallback to OBEC: Spišské Vlachy
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: spisske vlachy norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: spisske vlachy norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'857696'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27857696%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Galmus
+get_geometry_of_a_geoname nazov_lokality: Galmus
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Galmus, Spišské Vlachy, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.66574 48.89678, 20.66992 48.89435...  ...  Galmus, Spišské Vlachy, okres Spišská Nová Ves...
+
+[1 rows x 11 columns]
+geoname_query: Galmus, Spišské Vlachy, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.77961 48.9713, 20.77998 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.66574 48.89678, 20.66992 48.89435...  ...  Galmus, Spišské Vlachy, okres Spišská Nová Ves...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571176/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Spišské Vlachy', 'NAZOV_UEV': 'Galmus', 'KOD_UEV': 'SKUEV0287'}], 'UEV': [{'parcel_label': 'Spišské Vlachy', 'NATIONALSI': 'SKUEV0287', 'SITETITLE_': 'Galmus'}, {'parcel_label': 'Spišské Vlachy', 'NATIONALSI': 'SKUEV0291', 'SITETITLE_': 'Svätojánsky potok'}], 'MCHU': [{'parcel_label': 'Spišské Vlachy', 'NATIONALSI': '514', 'SITETITLE_': 'NPR Červené skaly'}, {'parcel_label': 'Spišské Vlachy', 'NATIONALSI': '531', 'SITETITLE_': 'NPR Galmuská tisina'}], 'CHVU': [{'parcel_label': 'Spišské Vlachy', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571176/analysis.json...
+
+--- Časy spracovania dokumentu 571176 ---
+  download_and_text   :   1.52 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   9.74 s
+  gis_processing      :   1.13 s
+  CELKOVÝ ČAS         :  12.40 s
+------------------------------------------
+Dokument 571176 bol úspešne spracovaný.
+[2026-07-03 22:46:01] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571176'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571176/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571176/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571176/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Spišské Vlachy', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ÚEV Galmus, LC Mestské lesy Spišské Vlachy, JPRL č. 38, 44, 45, 46, 53, 54, 56, 57, 58, 59, 80, 82, 97, 98, 99, 100, 134, 135, 157, 169, 170, 171', 'nazov_lokality_norm': 'Galmus'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Spišské Vlachy', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ÚEV Galmus, LC Mestské lesy Spišské Vlachy, JPRL č. 38, 44, 45, 46, 53, 54, 56, 57, 58, 59, 80, 82, 97, 98, 99, 100, 134, 135, 157, 169, 170, 171', 'nazov_lokality_norm': 'Galmus'}
+Fallback to OBEC: Spišské Vlachy
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: spisske vlachy norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: spisske vlachy norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'857696'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27857696%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Galmus
+get_geometry_of_a_geoname nazov_lokality: Galmus
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Galmus, Spišské Vlachy, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.66574 48.89678, 20.66992 48.89435...  ...  Galmus, Spišské Vlachy, okres Spišská Nová Ves...
+
+[1 rows x 11 columns]
+geoname_query: Galmus, Spišské Vlachy, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.77961 48.9713, 20.77998 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.66574 48.89678, 20.66992 48.89435...  ...  Galmus, Spišské Vlachy, okres Spišská Nová Ves...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571176/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Spišské Vlachy', 'NAZOV_UEV': 'Galmus', 'KOD_UEV': 'SKUEV0287'}], 'UEV': [{'parcel_label': 'Spišské Vlachy', 'NATIONALSI': 'SKUEV0287', 'SITETITLE_': 'Galmus'}, {'parcel_label': 'Spišské Vlachy', 'NATIONALSI': 'SKUEV0291', 'SITETITLE_': 'Svätojánsky potok'}], 'MCHU': [{'parcel_label': 'Spišské Vlachy', 'NATIONALSI': '514', 'SITETITLE_': 'NPR Červené skaly'}, {'parcel_label': 'Spišské Vlachy', 'NATIONALSI': '531', 'SITETITLE_': 'NPR Galmuská tisina'}], 'CHVU': [{'parcel_label': 'Spišské Vlachy', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571176/analysis.json...
+
+--- Časy spracovania dokumentu 571176 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   1.32 s
+  CELKOVÝ ČAS         :   1.32 s
+------------------------------------------
+Dokument 571176 bol úspešne spracovaný.

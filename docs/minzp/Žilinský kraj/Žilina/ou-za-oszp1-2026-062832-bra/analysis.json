@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP1-2026/062832/Bra",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-01",
+  "datum_zverejnenia": "2026-07-01",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie (t. j. do 08. 07. 2026, vrátane)"
+  },
+  "ziadatel_navrhovatel": "Roman Janas (ČR)",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": "Strečno",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Strečno, Starhrad a Strečnianska úžina",
+    "nazov_lokality_norm": "Strečno"
+  },
+  "typ_dokumentu": "Žiadosť o udelenie výnimky a vydanie súhlasu",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "lietanie bezpilotného lietadla DJI Mini 5 Pro"
+  ],
+  "rozsah_zasahu": "lietaním bezbpilotného lietadla DJI Mini 5 Pro",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Žiadosť o udelenie výnimky na lietanie s bezpilotným lietadlom (dronom) DJI Mini 5 Pro v lokalitách Strečno, Starhrad a Strečnianska úžina. Konanie je v počiatočnej fáze a verejnosť má možnosť prihlásiť sa za účastníka konania do 8. júla 2026. Dokument neuvádza konkrétny stupeň ochrany územia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Strečno",
+          "NATIONALSI": "SKUEV0930",
+          "SITETITLE_": "Lúčanská Fatra"
+        },
+        {
+          "parcel_label": "Strečno",
+          "NATIONALSI": "SKUEV0665",
+          "SITETITLE_": "Strečnianske meandre Váhu"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Strečno",
+          "NATIONALSI": "243",
+          "SITETITLE_": "PP Domašínsky meander"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Strečno",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

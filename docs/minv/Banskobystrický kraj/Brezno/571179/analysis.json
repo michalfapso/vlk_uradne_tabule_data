@@ -1,0 +1,953 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-06-30",
+  "datum_zverejnenia": "2026-07-01",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ŽSR, OR Zvolen, SMSÚ ŽST TO Banská Bystrica",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Medzibrod",
+        "parcely": []
+      },
+      {
+        "nazov": "Dubová",
+        "parcely": []
+      },
+      {
+        "nazov": "Podbrezová",
+        "parcely": []
+      },
+      {
+        "nazov": "Brezno",
+        "parcely": []
+      },
+      {
+        "nazov": "Pohronská Polhora",
+        "parcely": []
+      },
+      {
+        "nazov": "Gašparovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Polomka",
+        "parcely": []
+      },
+      {
+        "nazov": "Závadka nad Hronom",
+        "parcely": []
+      },
+      {
+        "nazov": "Heľpa",
+        "parcely": []
+      },
+      {
+        "nazov": "Červená Skala",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo železničných dráh v úsekoch Medzibrod - Červená Skala",
+    "nazov_lokality_norm": "železničná trať, okres Brezno"
+  },
+  "typ_dokumentu": "Upovedomenie o plánovaných výruboch",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "odstránenie a okliesnenie krovitého porastu",
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "krovitý porast a iné porasty po celej dĺžke trate v traťových úsekoch od žkm 43,100 (Medzibrod) po žkm 39,328 (Červená Skala)",
+  "typ_uzemia": [
+    "ochranné pásmo železničných dráh"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "agát",
+    "trnka",
+    "lieska",
+    "vŕba",
+    "jelša"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47 ods. 7",
+        "47 ods. 4 písm. d)"
+      ]
+    },
+    {
+      "nazov": "o energetike (uvedené v texte, pravdepodobne o dráhach)",
+      "cislo": "513/2009",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "ŽSR plánujú odstránenie a okliesnenie krovitých porastov pozdĺž železničných tratí v úsekoch od Medzibrodu až po Červenú Skalu v okrese Brezno. Zásah sa realizuje v ochrannom pásme dráh z dôvodu bezpečnosti prevádzky a týka sa drevín ako agát, vŕba či jelša. Ide o oznámenie o výrube podľa zákona o ochrane prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Medzibrod",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Medzibrod",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Medzibrod",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NAZOV_UEV": "Rohoznianska jelšina",
+          "KOD_UEV": "SKUEV0695"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NAZOV_UEV": "Kráľovohoľské Tatry",
+          "KOD_UEV": "SKUEV0310"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NAZOV_UEV": "Muránska planina",
+          "KOD_UEV": "SKUEV0225"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Medzibrod",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Medzibrod",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        },
+        {
+          "parcel_label": "Dubové",
+          "NATIONALSI": "SKUEV0266",
+          "SITETITLE_": "Skalka"
+        },
+        {
+          "parcel_label": "Podbrezová",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Podbrezová",
+          "NATIONALSI": "SKUEV0862",
+          "SITETITLE_": "Predajnianska slatina"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "SKUEV0695",
+          "SITETITLE_": "Rohoznianska jelšina"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "SKUEV0153",
+          "SITETITLE_": "Horné lazy"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NATIONALSI": "SKUEV0729",
+          "SITETITLE_": "Rosiarka"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NATIONALSI": "SKUEV0225",
+          "SITETITLE_": "Muránska planina"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NATIONALSI": "SKUEV0728",
+          "SITETITLE_": "Podpoľana"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NATIONALSI": "SKUEV0225",
+          "SITETITLE_": "Muránska planina"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NATIONALSI": "SKUEV4077",
+          "SITETITLE_": "Lúky pod Volchovom"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NATIONALSI": "SKUEV0310",
+          "SITETITLE_": "Kráľovohoľské Tatry"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NATIONALSI": "SKUEV0225",
+          "SITETITLE_": "Muránska planina"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NATIONALSI": "SKUEV4074",
+          "SITETITLE_": "Lúky pod Pribylinkou"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NATIONALSI": "SKUEV4083",
+          "SITETITLE_": "Pod úbočou"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NATIONALSI": "SKUEV4077",
+          "SITETITLE_": "Lúky pod Volchovom"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NATIONALSI": "SKUEV0310",
+          "SITETITLE_": "Kráľovohoľské Tatry"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NATIONALSI": "SKUEV0225",
+          "SITETITLE_": "Muránska planina"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NATIONALSI": "SKUEV4074",
+          "SITETITLE_": "Lúky pod Pribylinkou"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NATIONALSI": "SKUEV0310",
+          "SITETITLE_": "Kráľovohoľské Tatry"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Medzibrod",
+          "NATIONALSI": "838",
+          "SITETITLE_": "PR Mačková"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "403",
+          "SITETITLE_": "PR Rohoznianska jelšina"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "260",
+          "SITETITLE_": "PR Horné lazy"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "225",
+          "SITETITLE_": "PR Breznianska skalka"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "232",
+          "SITETITLE_": "OP NPP Bystrianska jaskyňa"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "1359",
+          "SITETITLE_": "NPP Jaskyňa mŕtvych netopierov"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "246",
+          "SITETITLE_": "NPR Ďumbier"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NATIONALSI": "1020",
+          "SITETITLE_": "PR Rosiarka"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NATIONALSI": "1374",
+          "SITETITLE_": "CHA Pramenná oblasť Rimavy"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NATIONALSI": "1351",
+          "SITETITLE_": "PR Pralesy Slovenska-Zadná hoľa"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Medzibrod",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        },
+        {
+          "parcel_label": "Pohronská Polhora",
+          "NATIONALSI": "SKCHVU017",
+          "SITETITLE_": "Muránska planina - Stolica"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NATIONALSI": "SKCHVU017",
+          "SITETITLE_": "Muránska planina - Stolica"
+        },
+        {
+          "parcel_label": "Polomka",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NATIONALSI": "SKCHVU017",
+          "SITETITLE_": "Muránska planina - Stolica"
+        },
+        {
+          "parcel_label": "Závadka nad Hronom",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NATIONALSI": "SKCHVU017",
+          "SITETITLE_": "Muránska planina - Stolica"
+        },
+        {
+          "parcel_label": "Heľpa",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

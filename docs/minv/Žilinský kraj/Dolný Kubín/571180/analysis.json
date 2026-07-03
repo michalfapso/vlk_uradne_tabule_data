@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2026/000820-029",
+  "cislo_rozhodnutia": "OU-DK-OSZP-2026/000820-029",
+  "datum_dokumentu": "2026-07-01",
+  "datum_zverejnenia": "2026-07-01",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do desiatich dní od jeho zverejnenia"
+  },
+  "ziadatel_navrhovatel": "Obec Sedliacka Dubová",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Sedliacka Dubová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sedliacka Dubová",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Obec Sedliacka Dubová",
+    "nazov_lokality_norm": "Sedliacka Dubová"
+  },
+  "typ_dokumentu": "Informácia o určení rozsahu hodnotenia strategického dokumentu",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "Územný plán obce"
+  ],
+  "rozsah_zasahu": "územie obce Sedliacka Dubová",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/uzemny-plan-obce-sedliacka-dubova",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "8",
+        "5",
+        "6",
+        "63"
+      ]
+    }
+  ],
+  "zhrnutie": "Okresný úrad Dolný Kubín určil rozsah hodnotenia pre strategický dokument „Územný plán obce Sedliacka Dubová“. Verejnosť a dotknuté subjekty môžu predložiť pripomienky k rozsahu hodnotenia do 10 dní od zverejnenia. Dokumentácia je dostupná na portáli Enviroportal.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Sedliacka Dubová",
+          "NATIONALSI": "SKUEV0243",
+          "SITETITLE_": "Orava"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Sedliacka Dubová",
+          "NATIONALSI": "1034",
+          "SITETITLE_": "CHA Rieka Orava"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

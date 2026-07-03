@@ -1,0 +1,82 @@
+[2026-07-03 22:21:46] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/571042'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=42&odbor=10&sekcia=uradna-tabula&subor=571042
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/571042/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/571042/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/571042/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0107165}
+LLM_tokens: {"input": 6235, "output": 2533, "total": 8768, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 59 column 1 (char 1680)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0090584}
+LLM_tokens: {"input": 6235, "output": 2586, "total": 8821, "cached": 4038}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/571042/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/571042/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Hajnáčka', 'katastralne_uzemia': [{'nazov': 'Hajnáčka', 'parcely': [{'typ': 'C', 'cisla': ['1364/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Regionálna ČOV a kanalizácia v Hajnáčke – časť kanalizácia Hajnáčka', 'nazov_lokality_norm': 'ČOV a kanalizácia, Hajnáčka'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Hajnáčka', 'katastralne_uzemia': [{'nazov': 'Hajnáčka', 'parcely': [{'typ': 'C', 'cisla': ['1364/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Regionálna ČOV a kanalizácia v Hajnáčke – časť kanalizácia Hajnáčka', 'nazov_lokality_norm': 'ČOV a kanalizácia, Hajnáčka'}
+ku_name:Hajnáčka obec:Hajnáčka okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: hajnacka norm_ku: hajnacka
+_get_nationalCadastralZoningReferences() found_ids: {'815411'}
+nationalCadastralZoningReferences: ['815411']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27815411_1364%2F2.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.35 s
+nazov_lokality: ČOV a kanalizácia, Hajnáčka
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.904'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/571042/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/571042/analysis.json...
+
+--- Časy spracovania dokumentu 571042 ---
+  download_and_text   :   1.12 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  22.36 s
+  gis_processing      :   3.56 s
+  CELKOVÝ ČAS         :  27.05 s
+------------------------------------------
+Dokument 571042 bol úspešne spracovaný.
+[2026-07-03 22:45:18] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/571042'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/571042/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/571042/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/571042/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Hajnáčka', 'katastralne_uzemia': [{'nazov': 'Hajnáčka', 'parcely': [{'typ': 'C', 'cisla': ['1364/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Regionálna ČOV a kanalizácia v Hajnáčke – časť kanalizácia Hajnáčka', 'nazov_lokality_norm': 'ČOV a kanalizácia, Hajnáčka'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Hajnáčka', 'katastralne_uzemia': [{'nazov': 'Hajnáčka', 'parcely': [{'typ': 'C', 'cisla': ['1364/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Regionálna ČOV a kanalizácia v Hajnáčke – časť kanalizácia Hajnáčka', 'nazov_lokality_norm': 'ČOV a kanalizácia, Hajnáčka'}
+ku_name:Hajnáčka obec:Hajnáčka okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: hajnacka norm_ku: hajnacka
+_get_nationalCadastralZoningReferences() found_ids: {'815411'}
+nationalCadastralZoningReferences: ['815411']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27815411_1364%2F2.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.22 s
+nazov_lokality: ČOV a kanalizácia, Hajnáčka
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.904'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/571042/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/571042/analysis.json...
+
+--- Časy spracovania dokumentu 571042 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   3.43 s
+  CELKOVÝ ČAS         :   3.43 s
+------------------------------------------
+Dokument 571042 bol úspešne spracovaný.

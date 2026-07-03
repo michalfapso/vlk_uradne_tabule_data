@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "48/23/2026-VPB/22277",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-06-17",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Západoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nové Zámky",
+    "obec": "Nové Zámky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nové Zámky",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "ČOV Nové Zámky",
+    "nazov_lokality_norm": "ČOV, Nové Zámky"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie rozhodnutia o stavebnom zámere",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "obnova technologického zariadenia",
+    "intenzifikácia ČOV"
+  ],
+  "rozsah_zasahu": "obnova a intenzifikácia technologického zariadenia čistiarne odpadových vôd",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": null,
+      "paragrafy": [
+        "50",
+        "68 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o vydanie rozhodnutia o stavebnom zámere pre projekt obnovy a intenzifikácie technologického zariadenia ČOV Nové Zámky. Projekt predložila Západoslovenská vodárenská spoločnosť, a.s. a realizácia je plánovaná v katastrálnom území Nové Zámky.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKUEV0084",
+          "SITETITLE_": "Zátoň"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "137",
+          "SITETITLE_": "PP Potok Chrenovka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKCHVU005",
+          "SITETITLE_": "Dolné Považie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

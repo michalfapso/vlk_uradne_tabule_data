@@ -1,0 +1,67 @@
+[2026-07-03 22:41:19] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/571318'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=30&odbor=10&sekcia=uradna-tabula&subor=571318
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/571318/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/571318/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/571318/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008284}
+LLM_tokens: {"input": 4910, "output": 1943, "total": 6853, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/571318/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/571318/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Dolný Kubín', 'obec': 'Párnica', 'katastralne_uzemia': [{'nazov': 'Párnica', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'lesný celok Párnica, JPRL č. 119A1', 'nazov_lokality_norm': 'Párnica'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Dolný Kubín', 'obec': 'Párnica', 'katastralne_uzemia': [{'nazov': 'Párnica', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'lesný celok Párnica, JPRL č. 119A1', 'nazov_lokality_norm': 'Párnica'}
+ku_name:Párnica obec:Párnica okres:Dolný Kubín kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: dolny kubin norm_obec: parnica norm_ku: parnica
+_get_nationalCadastralZoningReferences() found_ids: {'845388'}
+nationalCadastralZoningReferences: ['845388']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27845388%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.43 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Párnica
+get_geometry_of_a_geoname nazov_lokality: Párnica
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Párnica, Párnica, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.07756 49.20617, 19.07759 49.20598...  ...  Párnica, okres Dolný Kubín, Žilinský kraj, Slo...
+
+[1 rows x 11 columns]
+geoname_query: Párnica, Párnica, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.16983 49.25143, 19.16988 49...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.07756 49.20617, 19.07759 49.20598...  ...  Párnica, okres Dolný Kubín, Žilinský kraj, Slo...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/571318/gis.geojson...
+Intersections with protected areas...
+Found 21 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 8 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Párnica', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}], 'UEV': [{'parcel_label': 'Párnica', 'NATIONALSI': 'SKUEV0252', 'SITETITLE_': 'Malá Fatra'}, {'parcel_label': 'Párnica', 'NATIONALSI': 'SKUEV0243', 'SITETITLE_': 'Orava'}], 'MCHU': [{'parcel_label': 'Párnica', 'NATIONALSI': '1344', 'SITETITLE_': 'PR Pralesy Slovenska-Šútovská dolina'}, {'parcel_label': 'Párnica', 'NATIONALSI': '446', 'SITETITLE_': 'NPR Šútovská dolina'}, {'parcel_label': 'Párnica', 'NATIONALSI': '443', 'SITETITLE_': 'NPR Šrámková'}, {'parcel_label': 'Párnica', 'NATIONALSI': '1317', 'SITETITLE_': 'PR Pralesy Slovenska-Magura'}, {'parcel_label': 'Párnica', 'NATIONALSI': '466', 'SITETITLE_': 'PR Veľká Lučivná'}, {'parcel_label': 'Párnica', 'NATIONALSI': '1034', 'SITETITLE_': 'CHA Rieka Orava'}, {'parcel_label': 'Párnica', 'NATIONALSI': '423', 'SITETITLE_': 'NPR Sokolec'}, {'parcel_label': 'Párnica', 'NATIONALSI': '408', 'SITETITLE_': 'NPR Rozsutec'}], 'CHVU': [{'parcel_label': 'Párnica', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/571318/analysis.json...
+
+--- Časy spracovania dokumentu 571318 ---
+  download_and_text   :   1.02 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   8.58 s
+  gis_processing      :   1.40 s
+  CELKOVÝ ČAS         :  11.01 s
+------------------------------------------
+Dokument 571318 bol úspešne spracovaný.

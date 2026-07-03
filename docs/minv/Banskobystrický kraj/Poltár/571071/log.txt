@@ -1,0 +1,77 @@
+[2026-07-03 22:21:29] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Poltár/571071'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=49&odbor=10&sekcia=uradna-tabula&subor=571071
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Poltár/571071/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Poltár/571071/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Poltár/571071/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010756000000000002}
+LLM_tokens: {"input": 5594, "output": 2653, "total": 8247, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Poltár/571071/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Poltár/571071/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Poltár', 'obec': 'Ďubákovo', 'katastralne_uzemia': [{'nazov': 'Ďubákovo', 'parcely': [{'typ': 'C', 'cisla': ['93']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'cintorín alebo urnový háj', 'nazov_lokality_norm': 'cintorín, Ďubákovo'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Poltár', 'obec': 'Ďubákovo', 'katastralne_uzemia': [{'nazov': 'Ďubákovo', 'parcely': [{'typ': 'C', 'cisla': ['93']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'cintorín alebo urnový háj', 'nazov_lokality_norm': 'cintorín, Ďubákovo'}
+ku_name:Ďubákovo obec:Ďubákovo okres:Poltár kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: poltar norm_obec: dubakovo norm_ku: dubakovo
+_get_nationalCadastralZoningReferences() found_ids: {'813125'}
+nationalCadastralZoningReferences: ['813125']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27813125_93.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.19 s
+nazov_lokality: cintorín, Ďubákovo
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1887'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Poltár/571071/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Poltár/571071/analysis.json...
+
+--- Časy spracovania dokumentu 571071 ---
+  download_and_text   :   1.40 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.33 s
+  gis_processing      :   3.40 s
+  CELKOVÝ ČAS         :  17.14 s
+------------------------------------------
+Dokument 571071 bol úspešne spracovaný.
+[2026-07-03 22:45:15] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Poltár/571071'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Poltár/571071/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Poltár/571071/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Poltár/571071/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Poltár', 'obec': 'Ďubákovo', 'katastralne_uzemia': [{'nazov': 'Ďubákovo', 'parcely': [{'typ': 'C', 'cisla': ['93']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'cintorín alebo urnový háj', 'nazov_lokality_norm': 'cintorín, Ďubákovo'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Poltár', 'obec': 'Ďubákovo', 'katastralne_uzemia': [{'nazov': 'Ďubákovo', 'parcely': [{'typ': 'C', 'cisla': ['93']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'cintorín alebo urnový háj', 'nazov_lokality_norm': 'cintorín, Ďubákovo'}
+ku_name:Ďubákovo obec:Ďubákovo okres:Poltár kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: poltar norm_obec: dubakovo norm_ku: dubakovo
+_get_nationalCadastralZoningReferences() found_ids: {'813125'}
+nationalCadastralZoningReferences: ['813125']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27813125_93.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.13 s
+nazov_lokality: cintorín, Ďubákovo
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1887'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Poltár/571071/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Poltár/571071/analysis.json...
+
+--- Časy spracovania dokumentu 571071 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   3.33 s
+  CELKOVÝ ČAS         :   3.33 s
+------------------------------------------
+Dokument 571071 bol úspešne spracovaný.

@@ -1,0 +1,89 @@
+{
+  "cislo_konania_spisu": "2026/02/2700",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-06-17",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Západoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nové Zámky",
+    "obec": "Nové Zámky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nové Zámky",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "ČOV Nové Zámky",
+    "nazov_lokality_norm": "ČOV, Nové Zámky"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie rozhodnutia o stavebnom zámere",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "stavebné úpravy odľahčovacej komory",
+    "výstavba objektov mechanického predčistenia",
+    "čerpacia stanica splaškových vôd",
+    "výstavba trafostanice",
+    "prípojky a rozvody inžinierskych sietí"
+  ],
+  "rozsah_zasahu": "13 stavebných objektov a 4 prevádzkové súbory v rámci modernizácie ČOV",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": null,
+      "paragrafy": [
+        "50",
+        "68 ods. 3",
+        "2 ods. 6",
+        "2 ods. 8"
+      ]
+    },
+    {
+      "nazov": "vyhláška o členení stavieb",
+      "cislo": "59/2025",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Západoslovenská vodárenská spoločnosť podala žiadosť o stavebný zámer na modernizáciu mechanického čistenia a čerpacej stanice v areáli ČOV Nové Zámky. Projekt zahŕňa výstavbu 13 nových alebo upravených objektov vrátane technologických celkov a inžinierskych sietí. Dokument neuvádza zásah do chráneného územia ani výrub drevín v tejto fáze.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKUEV0084",
+          "SITETITLE_": "Zátoň"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "137",
+          "SITETITLE_": "PP Potok Chrenovka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKCHVU005",
+          "SITETITLE_": "Dolné Považie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

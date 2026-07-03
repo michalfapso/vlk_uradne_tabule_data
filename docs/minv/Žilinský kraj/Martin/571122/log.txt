@@ -1,0 +1,242 @@
+[2026-07-03 22:42:58] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571122'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=32&odbor=10&sekcia=uradna-tabula&subor=571122
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571122/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0009264}
+LLM_tokens: {"input": 1366, "output": 2297, "total": 3663, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571122/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1' zákona 'držiteľ tohto poverenia môže vo verejnom záujme:  a) Pri dodržaní podmienok ochrany životného prostredia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 2' zákona '251/2012 Z.z. o energetike chceme predísť stavu núdze. Prikladáme aj podkladové mapy, kde je zeleným zvýraznené NN vedenie, ktorého sa týka výrub. Výr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm. b)' zákona 'o energetike.  - Splnomocnený zástupca zodpovedá vlastníkovi, nehnuteľnosti za majetkovú újmu, ktorú spôsobil vlastníkovi pri uplatňovaní práv držiteľ'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 3' zákona 'o energetike.  - Splnomocnený zástupca zodpovedá vlastníkovi, nehnuteľnosti za majetkovú újmu, ktorú spôsobil vlastníkovi pri uplatňovaní práv držiteľ'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571122/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012074000000000001}
+LLM_tokens: {"input": 6544, "output": 2934, "total": 9478, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571122/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571122/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Turany', 'parcely': []}, {'nazov': 'Turčianska Štiavnica', 'parcely': []}, {'nazov': 'Podhradie', 'parcely': []}, {'nazov': 'Sklabinský Podzámok', 'parcely': []}, {'nazov': 'Sklabiňa', 'parcely': []}, {'nazov': 'Belá-Dulice', 'parcely': []}, {'nazov': 'Necpaly', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod vedením a pri ochrannom pásme NN vedenia', 'nazov_lokality_norm': None}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Turany', 'parcely': []}, {'nazov': 'Turčianska Štiavnica', 'parcely': []}, {'nazov': 'Podhradie', 'parcely': []}, {'nazov': 'Sklabinský Podzámok', 'parcely': []}, {'nazov': 'Sklabiňa', 'parcely': []}, {'nazov': 'Belá-Dulice', 'parcely': []}, {'nazov': 'Necpaly', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod vedením a pri ochrannom pásme NN vedenia', 'nazov_lokality_norm': None}
+ku_name:Turany obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: turany
+_get_nationalCadastralZoningReferences() found_ids: {'865788'}
+nationalCadastralZoningReferences: ['865788']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27865788%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.46 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Turčianska Štiavnica obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: turcianska stiavnica
+Fuzzy match found: 'Turčianska Štiavnica' -> 'Turčianska Štiavnička' (ID: 865851)
+nationalCadastralZoningReferences: ['865851']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27865851%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Podhradie obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: podhradie
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: podhradie
+Fuzzy match found: 'Podhradie' -> 'Podhorie' (ID: 847356)
+nationalCadastralZoningReferences: ['847356']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27847356%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Sklabinský Podzámok obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: sklabinsky podzamok
+_get_nationalCadastralZoningReferences() found_ids: {'855847'}
+nationalCadastralZoningReferences: ['855847']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27855847%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.41 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Sklabiňa obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: sklabina
+_get_nationalCadastralZoningReferences() found_ids: {'855812'}
+nationalCadastralZoningReferences: ['855812']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27855812%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Belá-Dulice obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: bela-dulice
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: bela-dulice
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: bela-dulice
+Fuzzy match found: 'Belá-Dulice' -> 'Beladice' (ID: 802409)
+nationalCadastralZoningReferences: ['802409']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27802409%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Necpaly obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: necpaly
+_get_nationalCadastralZoningReferences() found_ids: {'839400'}
+nationalCadastralZoningReferences: ['839400']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27839400%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: pod vedením a pri ochrannom pásme NN vedenia
+get_geometry_of_a_geoname nazov_lokality: pod vedením a pri ochrannom pásme NN vedenia
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=pod vedením a pri ochrannom pásme NN vedenia, Martin, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=pod vedením a pri ochrannom pásme NN vedenia, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=pod vedením a pri ochrannom pásme NN vedenia, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0652289, 'lon': 18.9189315, 'formatted_address': 'Andreja Kmeťa 13, Martin, 036 01 Martin, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Andreja Kmeťa 13, Martin, 036 01 Martin, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.91879 49.06514, 18.91899 49.06513...  ...  Business centrum Slovan, 576/13, A. Kmeťa, Pod...
+
+[1 rows x 11 columns]
+geoname_query: Andreja Kmeťa 13, Martin, 036 01 Martin, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.01369 49.19318, 19.01526 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.02083 49.10597, 19.02152 49...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.61494 49.18608, 18.61555 49...
+3  CadastralZoning  ...  MULTIPOLYGON (((18.98962 49.0761, 18.98975 49....
+4  CadastralZoning  ...  MULTIPOLYGON (((18.98634 49.06141, 18.98716 49...
+5  CadastralZoning  ...  MULTIPOLYGON (((18.30566 48.35639, 18.30586 48...
+6  CadastralZoning  ...  MULTIPOLYGON (((18.93352 49.02036, 18.93369 49...
+
+[7 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.91879 49.06514, 18.91899 49.06513...  ...  Business centrum Slovan, 576/13, A. Kmeťa, Pod...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571122/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571122/analysis.json...
+
+--- Časy spracovania dokumentu 571122 ---
+  download_and_text   :  15.89 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.63 s
+  gis_processing      :   4.12 s
+  CELKOVÝ ČAS         :  32.65 s
+------------------------------------------
+Dokument 571122 bol úspešne spracovaný.
+[2026-07-03 22:48:09] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571122'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571122/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571122/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571122/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Turany', 'parcely': []}, {'nazov': 'Turčianska Štiavnica', 'parcely': []}, {'nazov': 'Podhradie', 'parcely': []}, {'nazov': 'Sklabinský Podzámok', 'parcely': []}, {'nazov': 'Sklabiňa', 'parcely': []}, {'nazov': 'Belá-Dulice', 'parcely': []}, {'nazov': 'Necpaly', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod vedením a pri ochrannom pásme NN vedenia', 'nazov_lokality_norm': None}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Turany', 'parcely': []}, {'nazov': 'Turčianska Štiavnica', 'parcely': []}, {'nazov': 'Podhradie', 'parcely': []}, {'nazov': 'Sklabinský Podzámok', 'parcely': []}, {'nazov': 'Sklabiňa', 'parcely': []}, {'nazov': 'Belá-Dulice', 'parcely': []}, {'nazov': 'Necpaly', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod vedením a pri ochrannom pásme NN vedenia', 'nazov_lokality_norm': None}
+ku_name:Turany obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: turany
+_get_nationalCadastralZoningReferences() found_ids: {'865788'}
+nationalCadastralZoningReferences: ['865788']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27865788%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Turčianska Štiavnica obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: turcianska stiavnica
+Fuzzy match found: 'Turčianska Štiavnica' -> 'Turčianska Štiavnička' (ID: 865851)
+nationalCadastralZoningReferences: ['865851']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27865851%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Podhradie obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: podhradie
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: podhradie
+Fuzzy match found: 'Podhradie' -> 'Podhorie' (ID: 847356)
+nationalCadastralZoningReferences: ['847356']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27847356%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Sklabinský Podzámok obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: sklabinsky podzamok
+_get_nationalCadastralZoningReferences() found_ids: {'855847'}
+nationalCadastralZoningReferences: ['855847']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27855847%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Sklabiňa obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: sklabina
+_get_nationalCadastralZoningReferences() found_ids: {'855812'}
+nationalCadastralZoningReferences: ['855812']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27855812%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Belá-Dulice obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: bela-dulice
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: bela-dulice
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: bela-dulice
+Fuzzy match found: 'Belá-Dulice' -> 'Beladice' (ID: 802409)
+nationalCadastralZoningReferences: ['802409']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27802409%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Necpaly obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: necpaly
+_get_nationalCadastralZoningReferences() found_ids: {'839400'}
+nationalCadastralZoningReferences: ['839400']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27839400%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: pod vedením a pri ochrannom pásme NN vedenia
+get_geometry_of_a_geoname nazov_lokality: pod vedením a pri ochrannom pásme NN vedenia
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=pod vedením a pri ochrannom pásme NN vedenia, Martin, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=pod vedením a pri ochrannom pásme NN vedenia, Žilinský kraj, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=pod vedením a pri ochrannom pásme NN vedenia, Slovensko
+response: <Response [429]>
+normalized: {'lat': 49.0652289, 'lon': 18.9189315, 'formatted_address': 'Andreja Kmeťa 13, Martin, 036 01 Martin, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Andreja Kmeťa 13, Martin, 036 01 Martin, Slovakia
+response: <Response [429]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.01369 49.19318, 19.01526 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.02083 49.10597, 19.02152 49...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.61494 49.18608, 18.61555 49...
+3  CadastralZoning  ...  MULTIPOLYGON (((18.98962 49.0761, 18.98975 49....
+4  CadastralZoning  ...  MULTIPOLYGON (((18.98634 49.06141, 18.98716 49...
+5  CadastralZoning  ...  MULTIPOLYGON (((18.30566 48.35639, 18.30586 48...
+6  CadastralZoning  ...  MULTIPOLYGON (((18.93352 49.02036, 18.93369 49...
+
+[7 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571122/gis.geojson...
+Intersections with protected areas...
+Found 36 intersecting parcels with '5st_konsUEV'.
+Found 7 intersecting parcels with 'UEV'.
+Found 6 intersecting parcels with 'MCHU'.
+Found 4 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Turany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turčianska Štiavnička', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Podhorie', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Podhorie', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Podhorie', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Sklabinský Podzámok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Sklabinský Podzámok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Sklabinský Podzámok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Sklabinský Podzámok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Sklabinský Podzámok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Sklabinský Podzámok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Necpaly', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Necpaly', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Necpaly', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Necpaly', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Necpaly', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Necpaly', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Necpaly', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Necpaly', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Necpaly', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Necpaly', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Necpaly', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Necpaly', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Necpaly', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Necpaly', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}], 'UEV': [{'parcel_label': 'Turany', 'NATIONALSI': 'SKUEV0664', 'SITETITLE_': 'Uholníky'}, {'parcel_label': 'Turany', 'NATIONALSI': 'SKUEV0252', 'SITETITLE_': 'Malá Fatra'}, {'parcel_label': 'Turčianska Štiavnička', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': 'Podhorie', 'NATIONALSI': 'SKUEV0256', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': 'Sklabinský Podzámok', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': 'Sklabiňa', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': 'Necpaly', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}], 'MCHU': [{'parcel_label': 'Turany', 'NATIONALSI': '274', 'SITETITLE_': 'NPR Chleb'}, {'parcel_label': 'Turany', 'NATIONALSI': '261', 'SITETITLE_': 'PR Hrabinka'}, {'parcel_label': 'Turany', 'NATIONALSI': '249', 'SITETITLE_': 'PR Goľove mláky'}, {'parcel_label': 'Turčianska Štiavnička', 'NATIONALSI': '300', 'SITETITLE_': 'PR Katova skala'}, {'parcel_label': 'Podhorie', 'NATIONALSI': '437', 'SITETITLE_': 'NPR Súľovské skaly'}, {'parcel_label': 'Sklabinský Podzámok', 'NATIONALSI': '300', 'SITETITLE_': 'PR Katova skala'}], 'CHVU': [{'parcel_label': 'Turany', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}, {'parcel_label': 'Podhorie', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': 'Sklabinský Podzámok', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': 'Necpaly', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571122/analysis.json...
+
+--- Časy spracovania dokumentu 571122 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   8.70 s
+  CELKOVÝ ČAS         :   8.70 s
+------------------------------------------
+Dokument 571122 bol úspešne spracovaný.

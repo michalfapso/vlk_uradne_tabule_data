@@ -1,0 +1,82 @@
+[2026-07-03 22:20:21] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/571314'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=41&odbor=10&sekcia=uradna-tabula&subor=571314
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/571314/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/571314/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písm. e)' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 1' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a príslušný o'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'vodného zákona v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 3' zákona 'vodného zákona na líniovú vodnú stavbu „Mašková – zásobné a rozvodné vodovodné potrubie“, v katastrálnom území Mašková a Lehôtka, ktorá bola povolená'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '4' zákona 'vodného zákona na líniovú vodnú stavbu „Mašková – zásobné a rozvodné vodovodné potrubie“, v katastrálnom území Mašková a Lehôtka, ktorá bola povolená'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona povahu verejnej vyhlášky, ktorej doručenie v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/571314/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.019378}
+LLM_tokens: {"input": 9338, "output": 4903, "total": 14241, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/571314/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/571314/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Lučenec', 'obec': 'Mašková', 'katastralne_uzemia': [{'nazov': 'Mašková', 'parcely': [{'typ': 'E', 'cisla': ['351/1-2', '352', '353', '354', '355', '356', '357', '358', '359/1-2', '360', '361', '362', '363', '364', '365', '366', '367', '368', '369', '370', '371', '372', '373', '374/1-2', '375/1-2', '376/11', '376/2', '377/1', '377/22', '378', '379', '380/1-2', '381', '382', '383', '384', '385/1-2', '386', '603', '616']}, {'typ': 'C', 'cisla': ['334', '335', '340', '341/1', '342/1', '343', '344', '345', '346/1', '347/1', '31/2', '39', '345/1', '147/1', '147/2-3', '492', '415']}]}, {'nazov': 'Lehôtka', 'parcely': [{'typ': 'E', 'cisla': ['427', '428', '429', '430', '432/1-2', '433', '434', '435', '436', '437', '438', '439', '440', '441', '442', '443', '444', '445', '446/1-2', '447', '448', '449', '450', '451', '452/1', '548/1-2', '1320', '1407']}, {'typ': 'C', 'cisla': ['232/1', '453/1', '453/3', '1283/2', '452/4']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Mašková – zásobné a rozvodné vodovodné potrubie', 'nazov_lokality_norm': 'Mašková, Lehôtka'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Lučenec', 'obec': 'Mašková', 'katastralne_uzemia': [{'nazov': 'Mašková', 'parcely': [{'typ': 'E', 'cisla': ['351/1-2', '352', '353', '354', '355', '356', '357', '358', '359/1-2', '360', '361', '362', '363', '364', '365', '366', '367', '368', '369', '370', '371', '372', '373', '374/1-2', '375/1-2', '376/11', '376/2', '377/1', '377/22', '378', '379', '380/1-2', '381', '382', '383', '384', '385/1-2', '386', '603', '616']}, {'typ': 'C', 'cisla': ['334', '335', '340', '341/1', '342/1', '343', '344', '345', '346/1', '347/1', '31/2', '39', '345/1', '147/1', '147/2-3', '492', '415']}]}, {'nazov': 'Lehôtka', 'parcely': [{'typ': 'E', 'cisla': ['427', '428', '429', '430', '432/1-2', '433', '434', '435', '436', '437', '438', '439', '440', '441', '442', '443', '444', '445', '446/1-2', '447', '448', '449', '450', '451', '452/1', '548/1-2', '1320', '1407']}, {'typ': 'C', 'cisla': ['232/1', '453/1', '453/3', '1283/2', '452/4']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Mašková – zásobné a rozvodné vodovodné potrubie', 'nazov_lokality_norm': 'Mašková, Lehôtka'}
+ku_name:Mašková obec:Mašková okres:Lučenec kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: lucenec norm_obec: maskova norm_ku: maskova
+_get_nationalCadastralZoningReferences() found_ids: {'836362'}
+nationalCadastralZoningReferences: ['836362']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27836362_351%2F1-2.E%27%2C%27836362_352.E%27%2C%27836362_353.E%27%2C%27836362_354.E%27%2C%27836362_355.E%27%2C%27836362_356.E%27%2C%27836362_357.E%27%2C%27836362_358.E%27%2C%27836362_359%2F1-2.E%27%2C%27836362_360.E%27%2C%27836362_361.E%27%2C%27836362_362.E%27%2C%27836362_363.E%27%2C%27836362_364.E%27%2C%27836362_365.E%27%2C%27836362_366.E%27%2C%27836362_367.E%27%2C%27836362_368.E%27%2C%27836362_369.E%27%2C%27836362_370.E%27%2C%27836362_371.E%27%2C%27836362_372.E%27%2C%27836362_373.E%27%2C%27836362_374%2F1-2.E%27%2C%27836362_375%2F1-2.E%27%2C%27836362_376%2F11.E%27%2C%27836362_376%2F2.E%27%2C%27836362_377%2F1.E%27%2C%27836362_377%2F22.E%27%2C%27836362_378.E%27%2C%27836362_379.E%27%2C%27836362_380%2F1-2.E%27%2C%27836362_381.E%27%2C%27836362_382.E%27%2C%27836362_383.E%27%2C%27836362_384.E%27%2C%27836362_385%2F1-2.E%27%2C%27836362_386.E%27%2C%27836362_603.E%27%2C%27836362_616.E%27%29 (via proxy)
+get_geometry_of_cadastral_zone_parcels() request duration: 1.27 s
+Server vrátil chybu 500. Opakujem pokus o 5 sekúnd... (Pokus 1/5)
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27836362_351%2F1-2.E%27%2C%27836362_352.E%27%2C%27836362_353.E%27%2C%27836362_354.E%27%2C%27836362_355.E%27%2C%27836362_356.E%27%2C%27836362_357.E%27%2C%27836362_358.E%27%2C%27836362_359%2F1-2.E%27%2C%27836362_360.E%27%2C%27836362_361.E%27%2C%27836362_362.E%27%2C%27836362_363.E%27%2C%27836362_364.E%27%2C%27836362_365.E%27%2C%27836362_366.E%27%2C%27836362_367.E%27%2C%27836362_368.E%27%2C%27836362_369.E%27%2C%27836362_370.E%27%2C%27836362_371.E%27%2C%27836362_372.E%27%2C%27836362_373.E%27%2C%27836362_374%2F1-2.E%27%2C%27836362_375%2F1-2.E%27%2C%27836362_376%2F11.E%27%2C%27836362_376%2F2.E%27%2C%27836362_377%2F1.E%27%2C%27836362_377%2F22.E%27%2C%27836362_378.E%27%2C%27836362_379.E%27%2C%27836362_380%2F1-2.E%27%2C%27836362_381.E%27%2C%27836362_382.E%27%2C%27836362_383.E%27%2C%27836362_384.E%27%2C%27836362_385%2F1-2.E%27%2C%27836362_386.E%27%2C%27836362_603.E%27%2C%27836362_616.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.34 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27836362_334.C%27%2C%27836362_335.C%27%2C%27836362_340.C%27%2C%27836362_341%2F1.C%27%2C%27836362_342%2F1.C%27%2C%27836362_343.C%27%2C%27836362_344.C%27%2C%27836362_345.C%27%2C%27836362_346%2F1.C%27%2C%27836362_347%2F1.C%27%2C%27836362_31%2F2.C%27%2C%27836362_39.C%27%2C%27836362_345%2F1.C%27%2C%27836362_147%2F1.C%27%2C%27836362_147%2F2-3.C%27%2C%27836362_492.C%27%2C%27836362_415.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.81 s
+ku_name:Lehôtka obec:Mašková okres:Lučenec kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: lucenec norm_obec: maskova norm_ku: lehotka
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: lucenec norm_obec: None norm_ku: lehotka
+_get_nationalCadastralZoningReferences() found_ids: {'831204'}
+nationalCadastralZoningReferences: ['831204']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27831204_427.E%27%2C%27831204_428.E%27%2C%27831204_429.E%27%2C%27831204_430.E%27%2C%27831204_432%2F1-2.E%27%2C%27831204_433.E%27%2C%27831204_434.E%27%2C%27831204_435.E%27%2C%27831204_436.E%27%2C%27831204_437.E%27%2C%27831204_438.E%27%2C%27831204_439.E%27%2C%27831204_440.E%27%2C%27831204_441.E%27%2C%27831204_442.E%27%2C%27831204_443.E%27%2C%27831204_444.E%27%2C%27831204_445.E%27%2C%27831204_446%2F1-2.E%27%2C%27831204_447.E%27%2C%27831204_448.E%27%2C%27831204_449.E%27%2C%27831204_450.E%27%2C%27831204_451.E%27%2C%27831204_452%2F1.E%27%2C%27831204_548%2F1-2.E%27%2C%27831204_1320.E%27%2C%27831204_1407.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.47 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27831204_232%2F1.C%27%2C%27831204_453%2F1.C%27%2C%27831204_453%2F3.C%27%2C%27831204_1283%2F2.C%27%2C%27831204_452%2F4.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.04 s
+nazov_lokality: Mašková, Lehôtka
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...   {'@href': '#auAdmUnitS.677'}
+1   CadastralParcel  ...   {'@href': '#auAdmUnitS.677'}
+2   CadastralParcel  ...   {'@href': '#auAdmUnitS.677'}
+3   CadastralParcel  ...   {'@href': '#auAdmUnitS.677'}
+4   CadastralParcel  ...   {'@href': '#auAdmUnitS.677'}
+..              ...  ...                            ...
+74  CadastralParcel  ...  {'@href': '#auAdmUnitS.2532'}
+75  CadastralParcel  ...  {'@href': '#auAdmUnitS.2532'}
+76  CadastralParcel  ...  {'@href': '#auAdmUnitS.2532'}
+77  CadastralParcel  ...  {'@href': '#auAdmUnitS.2532'}
+78  CadastralParcel  ...  {'@href': '#auAdmUnitS.2532'}
+
+[79 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/571314/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': '1320', 'NATIONALSI': 'SKUEV0956', 'SITETITLE_': 'Ľuborečské dubiny'}, {'parcel_label': '1283/2', 'NATIONALSI': 'SKUEV0956', 'SITETITLE_': 'Ľuborečské dubiny'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/571314/analysis.json...
+
+--- Časy spracovania dokumentu 571314 ---
+  download_and_text   :   2.38 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  44.54 s
+  gis_processing      :  21.21 s
+  CELKOVÝ ČAS         :  68.14 s
+------------------------------------------
+Dokument 571314 bol úspešne spracovaný.

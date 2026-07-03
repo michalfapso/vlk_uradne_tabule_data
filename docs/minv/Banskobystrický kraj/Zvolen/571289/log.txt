@@ -1,0 +1,49 @@
+[2026-07-03 22:22:13] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/571289'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=44&odbor=10&sekcia=uradna-tabula&subor=571289
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/571289/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/571289/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/571289/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0096415}
+LLM_tokens: {"input": 5375, "output": 2318, "total": 7693, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Expecting ',' delimiter: line 60 column 1 (char 1507)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009075999999999999}
+LLM_tokens: {"input": 5375, "output": 2734, "total": 8109, "cached": 4030}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/571289/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/571289/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Zvolen', 'obec': 'Očová', 'katastralne_uzemia': [{'nazov': 'Očová', 'parcely': [{'typ': 'C', 'cisla': ['4797/11']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'parcela KNC 4797/11, k. ú. Očová', 'nazov_lokality_norm': 'Očová'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Zvolen', 'obec': 'Očová', 'katastralne_uzemia': [{'nazov': 'Očová', 'parcely': [{'typ': 'C', 'cisla': ['4797/11']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'parcela KNC 4797/11, k. ú. Očová', 'nazov_lokality_norm': 'Očová'}
+ku_name:Očová obec:Očová okres:Zvolen kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: zvolen norm_obec: ocova norm_ku: ocova
+_get_nationalCadastralZoningReferences() found_ids: {'843156'}
+nationalCadastralZoningReferences: ['843156']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27843156_4797%2F11.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.35 s
+nazov_lokality: Očová
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1601'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/571289/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/571289/analysis.json...
+
+--- Časy spracovania dokumentu 571289 ---
+  download_and_text   :   1.30 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  22.30 s
+  gis_processing      :   3.56 s
+  CELKOVÝ ČAS         :  27.18 s
+------------------------------------------
+Dokument 571289 bol úspešne spracovaný.

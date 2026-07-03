@@ -1,0 +1,170 @@
+[2026-07-03 22:34:20] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571037'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=56&odbor=10&sekcia=uradna-tabula&subor=571037
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571037/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571037/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013604999999999999}
+LLM_tokens: {"input": 11538, "output": 2612, "total": 14150, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571037/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571037/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Poprad', 'obec': 'Štrba', 'katastralne_uzemia': [{'nazov': 'Štrba', 'parcely': [{'typ': None, 'cisla': ['2414/11', '2416/2', '2414/1', '2424', '2423/2', '2540/13', '2422/1', '2423/1', '2430/4', '2540/12', '2416/3', '2426', '2422/2', '2430/5', '2430/6', '2420/5', '2422/3', '2540/11', '2420/8', '2431/5', '2420/6', '2420/7', '2455', '2432', '2454/1', '2540/3', '2454/5', '2454/4', '2420/1', '2420/22', '2420/13', '2420/2', '2433/36', '2433/23', '2433/35', '2433/30', '2433/24', '2433/18', '2433/13', '2433/31', '2433/25', '2433/19', '2433/14', '2433/1', '2433/3', '2433/2', '2431/3', '2540/32', '2430/14', '2431/4', '2431/1', '2420/9']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulica Partizánska', 'nazov_lokality_norm': 'Partizánska, Štrba'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Poprad', 'obec': 'Štrba', 'katastralne_uzemia': [{'nazov': 'Štrba', 'parcely': [{'typ': None, 'cisla': ['2414/11', '2416/2', '2414/1', '2424', '2423/2', '2540/13', '2422/1', '2423/1', '2430/4', '2540/12', '2416/3', '2426', '2422/2', '2430/5', '2430/6', '2420/5', '2422/3', '2540/11', '2420/8', '2431/5', '2420/6', '2420/7', '2455', '2432', '2454/1', '2540/3', '2454/5', '2454/4', '2420/1', '2420/22', '2420/13', '2420/2', '2433/36', '2433/23', '2433/35', '2433/30', '2433/24', '2433/18', '2433/13', '2433/31', '2433/25', '2433/19', '2433/14', '2433/1', '2433/3', '2433/2', '2431/3', '2540/32', '2430/14', '2431/4', '2431/1', '2420/9']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulica Partizánska', 'nazov_lokality_norm': 'Partizánska, Štrba'}
+ku_name:Štrba obec:Štrba okres:Poprad kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: poprad norm_obec: strba norm_ku: strba
+_get_nationalCadastralZoningReferences() found_ids: {'861375'}
+nationalCadastralZoningReferences: ['861375']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27861375_2414%2F11.C%27%2C%27861375_2416%2F2.C%27%2C%27861375_2414%2F1.C%27%2C%27861375_2424.C%27%2C%27861375_2423%2F2.C%27%2C%27861375_2540%2F13.C%27%2C%27861375_2422%2F1.C%27%2C%27861375_2423%2F1.C%27%2C%27861375_2430%2F4.C%27%2C%27861375_2540%2F12.C%27%2C%27861375_2416%2F3.C%27%2C%27861375_2426.C%27%2C%27861375_2422%2F2.C%27%2C%27861375_2430%2F5.C%27%2C%27861375_2430%2F6.C%27%2C%27861375_2420%2F5.C%27%2C%27861375_2422%2F3.C%27%2C%27861375_2540%2F11.C%27%2C%27861375_2420%2F8.C%27%2C%27861375_2431%2F5.C%27%2C%27861375_2420%2F6.C%27%2C%27861375_2420%2F7.C%27%2C%27861375_2455.C%27%2C%27861375_2432.C%27%2C%27861375_2454%2F1.C%27%2C%27861375_2540%2F3.C%27%2C%27861375_2454%2F5.C%27%2C%27861375_2454%2F4.C%27%2C%27861375_2420%2F1.C%27%2C%27861375_2420%2F22.C%27%2C%27861375_2420%2F13.C%27%2C%27861375_2420%2F2.C%27%2C%27861375_2433%2F36.C%27%2C%27861375_2433%2F23.C%27%2C%27861375_2433%2F35.C%27%2C%27861375_2433%2F30.C%27%2C%27861375_2433%2F24.C%27%2C%27861375_2433%2F18.C%27%2C%27861375_2433%2F13.C%27%2C%27861375_2433%2F31.C%27%2C%27861375_2433%2F25.C%27%2C%27861375_2433%2F19.C%27%2C%27861375_2433%2F14.C%27%2C%27861375_2433%2F1.C%27%2C%27861375_2433%2F3.C%27%2C%27861375_2433%2F2.C%27%2C%27861375_2431%2F3.C%27%2C%27861375_2540%2F32.C%27%2C%27861375_2430%2F14.C%27%2C%27861375_2431%2F4.C%27%2C%27861375_2431%2F1.C%27%2C%27861375_2420%2F9.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.80 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27861375_2414%2F11.E%27%2C%27861375_2416%2F2.E%27%2C%27861375_2414%2F1.E%27%2C%27861375_2424.E%27%2C%27861375_2423%2F2.E%27%2C%27861375_2540%2F13.E%27%2C%27861375_2422%2F1.E%27%2C%27861375_2423%2F1.E%27%2C%27861375_2430%2F4.E%27%2C%27861375_2540%2F12.E%27%2C%27861375_2416%2F3.E%27%2C%27861375_2426.E%27%2C%27861375_2422%2F2.E%27%2C%27861375_2430%2F5.E%27%2C%27861375_2430%2F6.E%27%2C%27861375_2420%2F5.E%27%2C%27861375_2422%2F3.E%27%2C%27861375_2540%2F11.E%27%2C%27861375_2420%2F8.E%27%2C%27861375_2431%2F5.E%27%2C%27861375_2420%2F6.E%27%2C%27861375_2420%2F7.E%27%2C%27861375_2455.E%27%2C%27861375_2432.E%27%2C%27861375_2454%2F1.E%27%2C%27861375_2540%2F3.E%27%2C%27861375_2454%2F5.E%27%2C%27861375_2454%2F4.E%27%2C%27861375_2420%2F1.E%27%2C%27861375_2420%2F22.E%27%2C%27861375_2420%2F13.E%27%2C%27861375_2420%2F2.E%27%2C%27861375_2433%2F36.E%27%2C%27861375_2433%2F23.E%27%2C%27861375_2433%2F35.E%27%2C%27861375_2433%2F30.E%27%2C%27861375_2433%2F24.E%27%2C%27861375_2433%2F18.E%27%2C%27861375_2433%2F13.E%27%2C%27861375_2433%2F31.E%27%2C%27861375_2433%2F25.E%27%2C%27861375_2433%2F19.E%27%2C%27861375_2433%2F14.E%27%2C%27861375_2433%2F1.E%27%2C%27861375_2433%2F3.E%27%2C%27861375_2433%2F2.E%27%2C%27861375_2431%2F3.E%27%2C%27861375_2540%2F32.E%27%2C%27861375_2430%2F14.E%27%2C%27861375_2431%2F4.E%27%2C%27861375_2431%2F1.E%27%2C%27861375_2420%2F9.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.29 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+nazov_lokality: Partizánska, Štrba
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+39  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+40  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+41  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+42  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+
+[43 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571037/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571037/analysis.json...
+
+--- Časy spracovania dokumentu 571037 ---
+  download_and_text   :   2.83 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.05 s
+  gis_processing      :   7.34 s
+  CELKOVÝ ČAS         :  23.21 s
+------------------------------------------
+Dokument 571037 bol úspešne spracovaný.
+[2026-07-03 22:46:47] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571037'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571037/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571037/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Poprad', 'obec': 'Štrba', 'katastralne_uzemia': [{'nazov': 'Štrba', 'parcely': [{'typ': None, 'cisla': ['2414/11', '2416/2', '2414/1', '2424', '2423/2', '2540/13', '2422/1', '2423/1', '2430/4', '2540/12', '2416/3', '2426', '2422/2', '2430/5', '2430/6', '2420/5', '2422/3', '2540/11', '2420/8', '2431/5', '2420/6', '2420/7', '2455', '2432', '2454/1', '2540/3', '2454/5', '2454/4', '2420/1', '2420/22', '2420/13', '2420/2', '2433/36', '2433/23', '2433/35', '2433/30', '2433/24', '2433/18', '2433/13', '2433/31', '2433/25', '2433/19', '2433/14', '2433/1', '2433/3', '2433/2', '2431/3', '2540/32', '2430/14', '2431/4', '2431/1', '2420/9']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulica Partizánska', 'nazov_lokality_norm': 'Partizánska, Štrba'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Poprad', 'obec': 'Štrba', 'katastralne_uzemia': [{'nazov': 'Štrba', 'parcely': [{'typ': None, 'cisla': ['2414/11', '2416/2', '2414/1', '2424', '2423/2', '2540/13', '2422/1', '2423/1', '2430/4', '2540/12', '2416/3', '2426', '2422/2', '2430/5', '2430/6', '2420/5', '2422/3', '2540/11', '2420/8', '2431/5', '2420/6', '2420/7', '2455', '2432', '2454/1', '2540/3', '2454/5', '2454/4', '2420/1', '2420/22', '2420/13', '2420/2', '2433/36', '2433/23', '2433/35', '2433/30', '2433/24', '2433/18', '2433/13', '2433/31', '2433/25', '2433/19', '2433/14', '2433/1', '2433/3', '2433/2', '2431/3', '2540/32', '2430/14', '2431/4', '2431/1', '2420/9']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulica Partizánska', 'nazov_lokality_norm': 'Partizánska, Štrba'}
+ku_name:Štrba obec:Štrba okres:Poprad kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: poprad norm_obec: strba norm_ku: strba
+_get_nationalCadastralZoningReferences() found_ids: {'861375'}
+nationalCadastralZoningReferences: ['861375']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27861375_2414%2F11.C%27%2C%27861375_2416%2F2.C%27%2C%27861375_2414%2F1.C%27%2C%27861375_2424.C%27%2C%27861375_2423%2F2.C%27%2C%27861375_2540%2F13.C%27%2C%27861375_2422%2F1.C%27%2C%27861375_2423%2F1.C%27%2C%27861375_2430%2F4.C%27%2C%27861375_2540%2F12.C%27%2C%27861375_2416%2F3.C%27%2C%27861375_2426.C%27%2C%27861375_2422%2F2.C%27%2C%27861375_2430%2F5.C%27%2C%27861375_2430%2F6.C%27%2C%27861375_2420%2F5.C%27%2C%27861375_2422%2F3.C%27%2C%27861375_2540%2F11.C%27%2C%27861375_2420%2F8.C%27%2C%27861375_2431%2F5.C%27%2C%27861375_2420%2F6.C%27%2C%27861375_2420%2F7.C%27%2C%27861375_2455.C%27%2C%27861375_2432.C%27%2C%27861375_2454%2F1.C%27%2C%27861375_2540%2F3.C%27%2C%27861375_2454%2F5.C%27%2C%27861375_2454%2F4.C%27%2C%27861375_2420%2F1.C%27%2C%27861375_2420%2F22.C%27%2C%27861375_2420%2F13.C%27%2C%27861375_2420%2F2.C%27%2C%27861375_2433%2F36.C%27%2C%27861375_2433%2F23.C%27%2C%27861375_2433%2F35.C%27%2C%27861375_2433%2F30.C%27%2C%27861375_2433%2F24.C%27%2C%27861375_2433%2F18.C%27%2C%27861375_2433%2F13.C%27%2C%27861375_2433%2F31.C%27%2C%27861375_2433%2F25.C%27%2C%27861375_2433%2F19.C%27%2C%27861375_2433%2F14.C%27%2C%27861375_2433%2F1.C%27%2C%27861375_2433%2F3.C%27%2C%27861375_2433%2F2.C%27%2C%27861375_2431%2F3.C%27%2C%27861375_2540%2F32.C%27%2C%27861375_2430%2F14.C%27%2C%27861375_2431%2F4.C%27%2C%27861375_2431%2F1.C%27%2C%27861375_2420%2F9.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.95 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27861375_2414%2F11.E%27%2C%27861375_2416%2F2.E%27%2C%27861375_2414%2F1.E%27%2C%27861375_2424.E%27%2C%27861375_2423%2F2.E%27%2C%27861375_2540%2F13.E%27%2C%27861375_2422%2F1.E%27%2C%27861375_2423%2F1.E%27%2C%27861375_2430%2F4.E%27%2C%27861375_2540%2F12.E%27%2C%27861375_2416%2F3.E%27%2C%27861375_2426.E%27%2C%27861375_2422%2F2.E%27%2C%27861375_2430%2F5.E%27%2C%27861375_2430%2F6.E%27%2C%27861375_2420%2F5.E%27%2C%27861375_2422%2F3.E%27%2C%27861375_2540%2F11.E%27%2C%27861375_2420%2F8.E%27%2C%27861375_2431%2F5.E%27%2C%27861375_2420%2F6.E%27%2C%27861375_2420%2F7.E%27%2C%27861375_2455.E%27%2C%27861375_2432.E%27%2C%27861375_2454%2F1.E%27%2C%27861375_2540%2F3.E%27%2C%27861375_2454%2F5.E%27%2C%27861375_2454%2F4.E%27%2C%27861375_2420%2F1.E%27%2C%27861375_2420%2F22.E%27%2C%27861375_2420%2F13.E%27%2C%27861375_2420%2F2.E%27%2C%27861375_2433%2F36.E%27%2C%27861375_2433%2F23.E%27%2C%27861375_2433%2F35.E%27%2C%27861375_2433%2F30.E%27%2C%27861375_2433%2F24.E%27%2C%27861375_2433%2F18.E%27%2C%27861375_2433%2F13.E%27%2C%27861375_2433%2F31.E%27%2C%27861375_2433%2F25.E%27%2C%27861375_2433%2F19.E%27%2C%27861375_2433%2F14.E%27%2C%27861375_2433%2F1.E%27%2C%27861375_2433%2F3.E%27%2C%27861375_2433%2F2.E%27%2C%27861375_2431%2F3.E%27%2C%27861375_2540%2F32.E%27%2C%27861375_2430%2F14.E%27%2C%27861375_2431%2F4.E%27%2C%27861375_2431%2F1.E%27%2C%27861375_2420%2F9.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.30 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+nazov_lokality: Partizánska, Štrba
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+39  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+40  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+41  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+42  CadastralParcel  ...  {'@href': '#auAdmUnitS.1169'}
+
+[43 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571037/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/571037/analysis.json...
+
+--- Časy spracovania dokumentu 571037 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   7.50 s
+  CELKOVÝ ČAS         :   7.51 s
+------------------------------------------
+Dokument 571037 bol úspešne spracovaný.

@@ -1,0 +1,108 @@
+[2026-07-03 22:36:14] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571115'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=571115
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571115/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571115/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18 ods. (1)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18 ODS. (4)' zákona 'VODNÉHO ZÁKONA JEDNODUCHÝM VODNÝM ZARIADENÍM NA ODBERY POVRCHOVÝCH VÔD JE PRENOSNÁ NÁDOBA. Okresný úrad Púchov, odbor starostlivosti o životné prostre'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. (1) písm. a)' zákona 'vodného zákona na ich odber, ich vzdúvanie a na iný spôsob akumulácie, využívanie hydroenergetického potenciálu vodného toku, využívanie ich tepelného'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18 ods. (3)' zákona 'vodného zákona povolenie na odber povrchových vôd nie je potrebný pri jednorazovom odbere povrchových vôd počas vykonávania záchranných prác pri požia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18' zákona '569/2007 Z. z. v znení neskorších predpisov). Upozorňujeme, že akýkoľvek iný odber povrchových vôd je nepovolených odberom, patrí tu napr.: - Odber po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. (1)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 74 ods. 1' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. (1)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 77 ods. (1)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18 ods. (6)' zákona 'vodného zákona obec môže všeobecne záväzným nariadením upraviť, obmedziť alebo zakázať všeobecné užívanie povrchových vôd na drobných vodných tokoch a'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0103895}
+LLM_tokens: {"input": 6397, "output": 2397, "total": 8794, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571115/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571115/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Púchov', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'povodia potokov Biela voda, Zubák, Lednica a Pružinka', 'nazov_lokality_norm': 'Biela voda, Zubák, Lednica, Pružinka'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Púchov', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'povodia potokov Biela voda, Zubák, Lednica a Pružinka', 'nazov_lokality_norm': 'Biela voda, Zubák, Lednica, Pružinka'}
+Fallback to OBEC: Púchov
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: puchov norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (6), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Biela voda, Zubák, Lednica, Pružinka
+get_geometry_of_a_geoname nazov_lokality: Biela voda, Zubák, Lednica, Pružinka
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Biela voda, Zubák, Lednica, Pružinka, Púchov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Biela voda, Zubák, Lednica, Pružinka, Púchov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Biela voda, Zubák, Lednica, Pružinka, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Biela voda, Zubák, Lednica, Pružinka, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.12198437807587, 'lon': 18.30548913599883, 'formatted_address': 'Biela voda, 020 01 Púchov, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Biela voda, 020 01 Púchov, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 571115 ---
+  download_and_text   :   1.30 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.20 s
+  gis_processing      :   1.92 s
+  CELKOVÝ ČAS         :  14.41 s
+------------------------------------------
+Dokument 571115 bol úspešne spracovaný.
+[2026-07-03 22:47:08] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571115'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571115/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18 ods. (1)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18 ODS. (4)' zákona 'VODNÉHO ZÁKONA JEDNODUCHÝM VODNÝM ZARIADENÍM NA ODBERY POVRCHOVÝCH VÔD JE PRENOSNÁ NÁDOBA. Okresný úrad Púchov, odbor starostlivosti o životné prostre'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. (1) písm. a)' zákona 'vodného zákona na ich odber, ich vzdúvanie a na iný spôsob akumulácie, využívanie hydroenergetického potenciálu vodného toku, využívanie ich tepelného'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18 ods. (3)' zákona 'vodného zákona povolenie na odber povrchových vôd nie je potrebný pri jednorazovom odbere povrchových vôd počas vykonávania záchranných prác pri požia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18' zákona '569/2007 Z. z. v znení neskorších predpisov). Upozorňujeme, že akýkoľvek iný odber povrchových vôd je nepovolených odberom, patrí tu napr.: - Odber po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. (1)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 74 ods. 1' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. (1)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 77 ods. (1)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18 ods. (6)' zákona 'vodného zákona obec môže všeobecne záväzným nariadením upraviť, obmedziť alebo zakázať všeobecné užívanie povrchových vôd na drobných vodných tokoch a'.
+No law excerpts found.
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571115/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Púchov', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'povodia potokov Biela voda, Zubák, Lednica a Pružinka', 'nazov_lokality_norm': 'Biela voda, Zubák, Lednica, Pružinka'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Púchov', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'povodia potokov Biela voda, Zubák, Lednica a Pružinka', 'nazov_lokality_norm': 'Biela voda, Zubák, Lednica, Pružinka'}
+Fallback to OBEC: Púchov
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: puchov norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (6), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Biela voda, Zubák, Lednica, Pružinka
+get_geometry_of_a_geoname nazov_lokality: Biela voda, Zubák, Lednica, Pružinka
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Biela voda, Zubák, Lednica, Pružinka, Púchov, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Biela voda, Zubák, Lednica, Pružinka, Púchov, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Biela voda, Zubák, Lednica, Pružinka, Trenčiansky kraj, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Biela voda, Zubák, Lednica, Pružinka, Slovensko
+response: <Response [429]>
+normalized: {'lat': 49.12198437807587, 'lon': 18.30548913599883, 'formatted_address': 'Biela voda, 020 01 Púchov, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Biela voda, 020 01 Púchov, Slovakia
+response: <Response [429]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 571115 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   7.17 s
+  CELKOVÝ ČAS         :   7.17 s
+------------------------------------------
+Dokument 571115 bol úspešne spracovaný.

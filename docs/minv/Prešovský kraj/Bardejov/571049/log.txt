@@ -1,0 +1,154 @@
+[2026-07-03 22:32:49] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571049'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=53&odbor=10&sekcia=uradna-tabula&subor=571049
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571049/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571049/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona na pozemkoch podľa registra CKN parc. č. 289/1, CKN parc. č. 289/2, EKN parc. č. 291'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58 písm. c)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov a ako špeciálny stavebný úrad podľa ustanovenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písm. e)' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov a ako špeciálny stavebný úrad podľa ustanovenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. 1' zákona '25/2025 Z.z. Stavebný zákon a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona '25/2025 Z.z. Stavebný zákon a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'citovaného vodného zákona, v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 3' zákona 'citovaného vodného zákona, v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 1' zákona 'stavebného zákona v nadväznosti na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 1' zákona 'vodného zákona oznamuje začatie vodoprávneho – stavebného konania všetkým známym účastníkom konania a dotknutým orgánom a súčasne nariaďuje na preroko'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 5' zákona 'vodného zákona oznamuje začatie vodoprávneho – stavebného konania všetkým známym účastníkom konania a dotknutým orgánom a súčasne nariaďuje na preroko'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '6' zákona 'vodného zákona oznamuje začatie vodoprávneho – stavebného konania všetkým známym účastníkom konania a dotknutým orgánom a súčasne nariaďuje na preroko'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona v nadväznosti na ustanovenie'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571049/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0199015}
+LLM_tokens: {"input": 10331, "output": 4912, "total": 15243, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571049/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571049/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Tarnov, Rokytov', 'katastralne_uzemia': [{'nazov': 'Tarnov', 'parcely': [{'typ': 'C', 'cisla': ['289/1', '289/2', '381/8', '381/9', '381/10', '381/6']}, {'typ': 'E', 'cisla': ['291', '292', '293', '294', '295', '296', '297', '298', '299', '300', '301', '302', '303', '304', '305', '306', '307', '308', '309', '310', '311', '312', '313', '314', '315', '316', '317', '318', '319', '322', '323', '324', '325']}]}, {'nazov': 'Rokytov', 'parcely': [{'typ': 'C', 'cisla': ['1081/6', '1081/7', '1769']}, {'typ': 'E', 'cisla': ['1081', '1082/1', '1082/2', '1083', '1084', '1085', '1086', '1087/1', '1087/2', '1088', '1089', '1090', '1091', '1092', '1093', '1094', '1095', '1096', '1097', '1098', '1099', '1100', '1101/1', '1101/2', '1102', '1103', '1104', '1105', '1106', '1107', '1108', '1109', '1110/1', '1110/2', '1110/3', '1110/4', '1111', '1112', '1113', '1114', '1115', '1116', '1117', '1118', '1119/1', '1119/2', '1120', '1121', '1122', '1123', '1124', '1125', '1126', '1127', '1128', '1129', '1130', '1131', '1132', '1133', '1134', '1135', '1136', '1137', '1138', '1139', '1140', '1141', '1142', '1143', '1144', '1769/2']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Rokytov - Tarnov', 'nazov_lokality_norm': 'Rokytov, Tarnov'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Tarnov, Rokytov', 'katastralne_uzemia': [{'nazov': 'Tarnov', 'parcely': [{'typ': 'C', 'cisla': ['289/1', '289/2', '381/8', '381/9', '381/10', '381/6']}, {'typ': 'E', 'cisla': ['291', '292', '293', '294', '295', '296', '297', '298', '299', '300', '301', '302', '303', '304', '305', '306', '307', '308', '309', '310', '311', '312', '313', '314', '315', '316', '317', '318', '319', '322', '323', '324', '325']}]}, {'nazov': 'Rokytov', 'parcely': [{'typ': 'C', 'cisla': ['1081/6', '1081/7', '1769']}, {'typ': 'E', 'cisla': ['1081', '1082/1', '1082/2', '1083', '1084', '1085', '1086', '1087/1', '1087/2', '1088', '1089', '1090', '1091', '1092', '1093', '1094', '1095', '1096', '1097', '1098', '1099', '1100', '1101/1', '1101/2', '1102', '1103', '1104', '1105', '1106', '1107', '1108', '1109', '1110/1', '1110/2', '1110/3', '1110/4', '1111', '1112', '1113', '1114', '1115', '1116', '1117', '1118', '1119/1', '1119/2', '1120', '1121', '1122', '1123', '1124', '1125', '1126', '1127', '1128', '1129', '1130', '1131', '1132', '1133', '1134', '1135', '1136', '1137', '1138', '1139', '1140', '1141', '1142', '1143', '1144', '1769/2']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Rokytov - Tarnov', 'nazov_lokality_norm': 'Rokytov, Tarnov'}
+ku_name:Tarnov obec:Tarnov, Rokytov okres:Bardejov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: tarnov norm_ku: tarnov
+_get_nationalCadastralZoningReferences() found_ids: {'862517'}
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: rokytov norm_ku: tarnov
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: None norm_ku: tarnov
+_get_nationalCadastralZoningReferences() found_ids: {'862517'}
+nationalCadastralZoningReferences: ['862517']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27862517_289%2F1.C%27%2C%27862517_289%2F2.C%27%2C%27862517_381%2F8.C%27%2C%27862517_381%2F9.C%27%2C%27862517_381%2F10.C%27%2C%27862517_381%2F6.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.09 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27862517_291.E%27%2C%27862517_292.E%27%2C%27862517_293.E%27%2C%27862517_294.E%27%2C%27862517_295.E%27%2C%27862517_296.E%27%2C%27862517_297.E%27%2C%27862517_298.E%27%2C%27862517_299.E%27%2C%27862517_300.E%27%2C%27862517_301.E%27%2C%27862517_302.E%27%2C%27862517_303.E%27%2C%27862517_304.E%27%2C%27862517_305.E%27%2C%27862517_306.E%27%2C%27862517_307.E%27%2C%27862517_308.E%27%2C%27862517_309.E%27%2C%27862517_310.E%27%2C%27862517_311.E%27%2C%27862517_312.E%27%2C%27862517_313.E%27%2C%27862517_314.E%27%2C%27862517_315.E%27%2C%27862517_316.E%27%2C%27862517_317.E%27%2C%27862517_318.E%27%2C%27862517_319.E%27%2C%27862517_322.E%27%2C%27862517_323.E%27%2C%27862517_324.E%27%2C%27862517_325.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.25 s
+ku_name:Rokytov obec:Tarnov, Rokytov okres:Bardejov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: tarnov norm_ku: rokytov
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: None norm_ku: rokytov
+_get_nationalCadastralZoningReferences() found_ids: {'852759'}
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: rokytov norm_ku: rokytov
+_get_nationalCadastralZoningReferences() found_ids: {'852759'}
+nationalCadastralZoningReferences: ['852759']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27852759_1081%2F6.C%27%2C%27852759_1081%2F7.C%27%2C%27852759_1769.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.73 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27852759_1081.E%27%2C%27852759_1082%2F1.E%27%2C%27852759_1082%2F2.E%27%2C%27852759_1083.E%27%2C%27852759_1084.E%27%2C%27852759_1085.E%27%2C%27852759_1086.E%27%2C%27852759_1087%2F1.E%27%2C%27852759_1087%2F2.E%27%2C%27852759_1088.E%27%2C%27852759_1089.E%27%2C%27852759_1090.E%27%2C%27852759_1091.E%27%2C%27852759_1092.E%27%2C%27852759_1093.E%27%2C%27852759_1094.E%27%2C%27852759_1095.E%27%2C%27852759_1096.E%27%2C%27852759_1097.E%27%2C%27852759_1098.E%27%2C%27852759_1099.E%27%2C%27852759_1100.E%27%2C%27852759_1101%2F1.E%27%2C%27852759_1101%2F2.E%27%2C%27852759_1102.E%27%2C%27852759_1103.E%27%2C%27852759_1104.E%27%2C%27852759_1105.E%27%2C%27852759_1106.E%27%2C%27852759_1107.E%27%2C%27852759_1108.E%27%2C%27852759_1109.E%27%2C%27852759_1110%2F1.E%27%2C%27852759_1110%2F2.E%27%2C%27852759_1110%2F3.E%27%2C%27852759_1110%2F4.E%27%2C%27852759_1111.E%27%2C%27852759_1112.E%27%2C%27852759_1113.E%27%2C%27852759_1114.E%27%2C%27852759_1115.E%27%2C%27852759_1116.E%27%2C%27852759_1117.E%27%2C%27852759_1118.E%27%2C%27852759_1119%2F1.E%27%2C%27852759_1119%2F2.E%27%2C%27852759_1120.E%27%2C%27852759_1121.E%27%2C%27852759_1122.E%27%2C%27852759_1123.E%27%2C%27852759_1124.E%27%2C%27852759_1125.E%27%2C%27852759_1126.E%27%2C%27852759_1127.E%27%2C%27852759_1128.E%27%2C%27852759_1129.E%27%2C%27852759_1130.E%27%2C%27852759_1131.E%27%2C%27852759_1132.E%27%2C%27852759_1133.E%27%2C%27852759_1134.E%27%2C%27852759_1135.E%27%2C%27852759_1136.E%27%2C%27852759_1137.E%27%2C%27852759_1138.E%27%2C%27852759_1139.E%27%2C%27852759_1140.E%27%2C%27852759_1141.E%27%2C%27852759_1142.E%27%2C%27852759_1143.E%27%2C%27852759_1144.E%27%2C%27852759_1769%2F2.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.56 s
+nazov_lokality: Rokytov, Tarnov
+gdf_parcelset:         @featureType  ...             administrativeUnit
+0    CadastralParcel  ...  {'@href': '#auAdmUnitS.2766'}
+1    CadastralParcel  ...  {'@href': '#auAdmUnitS.2766'}
+2    CadastralParcel  ...  {'@href': '#auAdmUnitS.2766'}
+3    CadastralParcel  ...  {'@href': '#auAdmUnitS.2766'}
+4    CadastralParcel  ...  {'@href': '#auAdmUnitS.2766'}
+..               ...  ...                            ...
+109  CadastralParcel  ...  {'@href': '#auAdmUnitS.2778'}
+110  CadastralParcel  ...  {'@href': '#auAdmUnitS.2778'}
+111  CadastralParcel  ...  {'@href': '#auAdmUnitS.2778'}
+112  CadastralParcel  ...  {'@href': '#auAdmUnitS.2778'}
+113  CadastralParcel  ...  {'@href': '#auAdmUnitS.2778'}
+
+[114 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571049/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': '1081/6', 'NATIONALSI': 'SKUEV0936', 'SITETITLE_': 'Horný tok Tople'}, {'parcel_label': '1092', 'NATIONALSI': 'SKUEV0936', 'SITETITLE_': 'Horný tok Tople'}, {'parcel_label': '1086', 'NATIONALSI': 'SKUEV0936', 'SITETITLE_': 'Horný tok Tople'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571049/analysis.json...
+
+--- Časy spracovania dokumentu 571049 ---
+  download_and_text   :   3.53 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  22.06 s
+  gis_processing      :  14.94 s
+  CELKOVÝ ČAS         :  40.53 s
+------------------------------------------
+Dokument 571049 bol úspešne spracovaný.
+[2026-07-03 22:46:25] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571049'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571049/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571049/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571049/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Tarnov, Rokytov', 'katastralne_uzemia': [{'nazov': 'Tarnov', 'parcely': [{'typ': 'C', 'cisla': ['289/1', '289/2', '381/8', '381/9', '381/10', '381/6']}, {'typ': 'E', 'cisla': ['291', '292', '293', '294', '295', '296', '297', '298', '299', '300', '301', '302', '303', '304', '305', '306', '307', '308', '309', '310', '311', '312', '313', '314', '315', '316', '317', '318', '319', '322', '323', '324', '325']}]}, {'nazov': 'Rokytov', 'parcely': [{'typ': 'C', 'cisla': ['1081/6', '1081/7', '1769']}, {'typ': 'E', 'cisla': ['1081', '1082/1', '1082/2', '1083', '1084', '1085', '1086', '1087/1', '1087/2', '1088', '1089', '1090', '1091', '1092', '1093', '1094', '1095', '1096', '1097', '1098', '1099', '1100', '1101/1', '1101/2', '1102', '1103', '1104', '1105', '1106', '1107', '1108', '1109', '1110/1', '1110/2', '1110/3', '1110/4', '1111', '1112', '1113', '1114', '1115', '1116', '1117', '1118', '1119/1', '1119/2', '1120', '1121', '1122', '1123', '1124', '1125', '1126', '1127', '1128', '1129', '1130', '1131', '1132', '1133', '1134', '1135', '1136', '1137', '1138', '1139', '1140', '1141', '1142', '1143', '1144', '1769/2']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Rokytov - Tarnov', 'nazov_lokality_norm': 'Rokytov, Tarnov'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Tarnov, Rokytov', 'katastralne_uzemia': [{'nazov': 'Tarnov', 'parcely': [{'typ': 'C', 'cisla': ['289/1', '289/2', '381/8', '381/9', '381/10', '381/6']}, {'typ': 'E', 'cisla': ['291', '292', '293', '294', '295', '296', '297', '298', '299', '300', '301', '302', '303', '304', '305', '306', '307', '308', '309', '310', '311', '312', '313', '314', '315', '316', '317', '318', '319', '322', '323', '324', '325']}]}, {'nazov': 'Rokytov', 'parcely': [{'typ': 'C', 'cisla': ['1081/6', '1081/7', '1769']}, {'typ': 'E', 'cisla': ['1081', '1082/1', '1082/2', '1083', '1084', '1085', '1086', '1087/1', '1087/2', '1088', '1089', '1090', '1091', '1092', '1093', '1094', '1095', '1096', '1097', '1098', '1099', '1100', '1101/1', '1101/2', '1102', '1103', '1104', '1105', '1106', '1107', '1108', '1109', '1110/1', '1110/2', '1110/3', '1110/4', '1111', '1112', '1113', '1114', '1115', '1116', '1117', '1118', '1119/1', '1119/2', '1120', '1121', '1122', '1123', '1124', '1125', '1126', '1127', '1128', '1129', '1130', '1131', '1132', '1133', '1134', '1135', '1136', '1137', '1138', '1139', '1140', '1141', '1142', '1143', '1144', '1769/2']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Rokytov - Tarnov', 'nazov_lokality_norm': 'Rokytov, Tarnov'}
+ku_name:Tarnov obec:Tarnov, Rokytov okres:Bardejov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: tarnov norm_ku: tarnov
+_get_nationalCadastralZoningReferences() found_ids: {'862517'}
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: rokytov norm_ku: tarnov
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: None norm_ku: tarnov
+_get_nationalCadastralZoningReferences() found_ids: {'862517'}
+nationalCadastralZoningReferences: ['862517']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27862517_289%2F1.C%27%2C%27862517_289%2F2.C%27%2C%27862517_381%2F8.C%27%2C%27862517_381%2F9.C%27%2C%27862517_381%2F10.C%27%2C%27862517_381%2F6.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.10 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27862517_291.E%27%2C%27862517_292.E%27%2C%27862517_293.E%27%2C%27862517_294.E%27%2C%27862517_295.E%27%2C%27862517_296.E%27%2C%27862517_297.E%27%2C%27862517_298.E%27%2C%27862517_299.E%27%2C%27862517_300.E%27%2C%27862517_301.E%27%2C%27862517_302.E%27%2C%27862517_303.E%27%2C%27862517_304.E%27%2C%27862517_305.E%27%2C%27862517_306.E%27%2C%27862517_307.E%27%2C%27862517_308.E%27%2C%27862517_309.E%27%2C%27862517_310.E%27%2C%27862517_311.E%27%2C%27862517_312.E%27%2C%27862517_313.E%27%2C%27862517_314.E%27%2C%27862517_315.E%27%2C%27862517_316.E%27%2C%27862517_317.E%27%2C%27862517_318.E%27%2C%27862517_319.E%27%2C%27862517_322.E%27%2C%27862517_323.E%27%2C%27862517_324.E%27%2C%27862517_325.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.30 s
+ku_name:Rokytov obec:Tarnov, Rokytov okres:Bardejov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: tarnov norm_ku: rokytov
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: None norm_ku: rokytov
+_get_nationalCadastralZoningReferences() found_ids: {'852759'}
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: rokytov norm_ku: rokytov
+_get_nationalCadastralZoningReferences() found_ids: {'852759'}
+nationalCadastralZoningReferences: ['852759']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27852759_1081%2F6.C%27%2C%27852759_1081%2F7.C%27%2C%27852759_1769.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.72 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27852759_1081.E%27%2C%27852759_1082%2F1.E%27%2C%27852759_1082%2F2.E%27%2C%27852759_1083.E%27%2C%27852759_1084.E%27%2C%27852759_1085.E%27%2C%27852759_1086.E%27%2C%27852759_1087%2F1.E%27%2C%27852759_1087%2F2.E%27%2C%27852759_1088.E%27%2C%27852759_1089.E%27%2C%27852759_1090.E%27%2C%27852759_1091.E%27%2C%27852759_1092.E%27%2C%27852759_1093.E%27%2C%27852759_1094.E%27%2C%27852759_1095.E%27%2C%27852759_1096.E%27%2C%27852759_1097.E%27%2C%27852759_1098.E%27%2C%27852759_1099.E%27%2C%27852759_1100.E%27%2C%27852759_1101%2F1.E%27%2C%27852759_1101%2F2.E%27%2C%27852759_1102.E%27%2C%27852759_1103.E%27%2C%27852759_1104.E%27%2C%27852759_1105.E%27%2C%27852759_1106.E%27%2C%27852759_1107.E%27%2C%27852759_1108.E%27%2C%27852759_1109.E%27%2C%27852759_1110%2F1.E%27%2C%27852759_1110%2F2.E%27%2C%27852759_1110%2F3.E%27%2C%27852759_1110%2F4.E%27%2C%27852759_1111.E%27%2C%27852759_1112.E%27%2C%27852759_1113.E%27%2C%27852759_1114.E%27%2C%27852759_1115.E%27%2C%27852759_1116.E%27%2C%27852759_1117.E%27%2C%27852759_1118.E%27%2C%27852759_1119%2F1.E%27%2C%27852759_1119%2F2.E%27%2C%27852759_1120.E%27%2C%27852759_1121.E%27%2C%27852759_1122.E%27%2C%27852759_1123.E%27%2C%27852759_1124.E%27%2C%27852759_1125.E%27%2C%27852759_1126.E%27%2C%27852759_1127.E%27%2C%27852759_1128.E%27%2C%27852759_1129.E%27%2C%27852759_1130.E%27%2C%27852759_1131.E%27%2C%27852759_1132.E%27%2C%27852759_1133.E%27%2C%27852759_1134.E%27%2C%27852759_1135.E%27%2C%27852759_1136.E%27%2C%27852759_1137.E%27%2C%27852759_1138.E%27%2C%27852759_1139.E%27%2C%27852759_1140.E%27%2C%27852759_1141.E%27%2C%27852759_1142.E%27%2C%27852759_1143.E%27%2C%27852759_1144.E%27%2C%27852759_1769%2F2.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.56 s
+nazov_lokality: Rokytov, Tarnov
+gdf_parcelset:         @featureType  ...             administrativeUnit
+0    CadastralParcel  ...  {'@href': '#auAdmUnitS.2766'}
+1    CadastralParcel  ...  {'@href': '#auAdmUnitS.2766'}
+2    CadastralParcel  ...  {'@href': '#auAdmUnitS.2766'}
+3    CadastralParcel  ...  {'@href': '#auAdmUnitS.2766'}
+4    CadastralParcel  ...  {'@href': '#auAdmUnitS.2766'}
+..               ...  ...                            ...
+109  CadastralParcel  ...  {'@href': '#auAdmUnitS.2778'}
+110  CadastralParcel  ...  {'@href': '#auAdmUnitS.2778'}
+111  CadastralParcel  ...  {'@href': '#auAdmUnitS.2778'}
+112  CadastralParcel  ...  {'@href': '#auAdmUnitS.2778'}
+113  CadastralParcel  ...  {'@href': '#auAdmUnitS.2778'}
+
+[114 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571049/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': '1081/6', 'NATIONALSI': 'SKUEV0936', 'SITETITLE_': 'Horný tok Tople'}, {'parcel_label': '1092', 'NATIONALSI': 'SKUEV0936', 'SITETITLE_': 'Horný tok Tople'}, {'parcel_label': '1086', 'NATIONALSI': 'SKUEV0936', 'SITETITLE_': 'Horný tok Tople'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571049/analysis.json...
+
+--- Časy spracovania dokumentu 571049 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :  14.98 s
+  CELKOVÝ ČAS         :  14.98 s
+------------------------------------------
+Dokument 571049 bol úspešne spracovaný.

@@ -1,0 +1,104 @@
+[2026-07-03 22:39:18] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571304'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=6&odbor=10&sekcia=uradna-tabula&subor=571304
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571304/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571304/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571304/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013588}
+LLM_tokens: {"input": 7232, "output": 3324, "total": 10556, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571304/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571304/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Dunajská Streda', 'obec': 'Hviezdoslavov', 'katastralne_uzemia': [{'nazov': 'Hviezdoslavov', 'parcely': [{'typ': 'C', 'cisla': ['240/131', '329/12', '329/11', '366/9', '366/1', '322/235', '240/2', '173/4', '322/759', '322/388']}, {'typ': 'E', 'cisla': ['290', '1132/3', '1196/1', '1199', '1200/1', '1200/2', '1201/1', '1201/2', '1201/3', '1203', '1135/1']}]}, {'nazov': 'Kvetoslavov', 'parcely': [{'typ': 'E', 'cisla': ['308/24']}, {'typ': 'C', 'cisla': ['420/11']}, {'typ': None, 'cisla': ['431/3']}]}, {'nazov': 'Mierovo', 'parcely': [{'typ': None, 'cisla': ['312/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Dunajská Streda', 'obec': 'Hviezdoslavov', 'katastralne_uzemia': [{'nazov': 'Hviezdoslavov', 'parcely': [{'typ': 'C', 'cisla': ['240/131', '329/12', '329/11', '366/9', '366/1', '322/235', '240/2', '173/4', '322/759', '322/388']}, {'typ': 'E', 'cisla': ['290', '1132/3', '1196/1', '1199', '1200/1', '1200/2', '1201/1', '1201/2', '1201/3', '1203', '1135/1']}]}, {'nazov': 'Kvetoslavov', 'parcely': [{'typ': 'E', 'cisla': ['308/24']}, {'typ': 'C', 'cisla': ['420/11']}, {'typ': None, 'cisla': ['431/3']}]}, {'nazov': 'Mierovo', 'parcely': [{'typ': None, 'cisla': ['312/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Hviezdoslavov obec:Hviezdoslavov okres:Dunajská Streda kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: dunajska streda norm_obec: hviezdoslavov norm_ku: hviezdoslavov
+_get_nationalCadastralZoningReferences() found_ids: {'820571'}
+nationalCadastralZoningReferences: ['820571']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27820571_240%2F131.C%27%2C%27820571_329%2F12.C%27%2C%27820571_329%2F11.C%27%2C%27820571_366%2F9.C%27%2C%27820571_366%2F1.C%27%2C%27820571_322%2F235.C%27%2C%27820571_240%2F2.C%27%2C%27820571_173%2F4.C%27%2C%27820571_322%2F759.C%27%2C%27820571_322%2F388.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.69 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27820571_290.E%27%2C%27820571_1132%2F3.E%27%2C%27820571_1196%2F1.E%27%2C%27820571_1199.E%27%2C%27820571_1200%2F1.E%27%2C%27820571_1200%2F2.E%27%2C%27820571_1201%2F1.E%27%2C%27820571_1201%2F2.E%27%2C%27820571_1201%2F3.E%27%2C%27820571_1203.E%27%2C%27820571_1135%2F1.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.33 s
+ku_name:Kvetoslavov obec:Hviezdoslavov okres:Dunajská Streda kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: dunajska streda norm_obec: hviezdoslavov norm_ku: kvetoslavov
+Fuzzy match found: 'Kvetoslavov' -> 'Hviezdoslavov' (ID: 820571)
+nationalCadastralZoningReferences: ['820571']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27820571_308%2F24.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.80 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'E', 'cisla': ['308/24']}' v KU 'Kvetoslavov' sa nenašli dáta.
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27820571_420%2F11.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.24 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['420/11']}' v KU 'Kvetoslavov' sa nenašli dáta.
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27820571_431%2F3.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.21 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27820571_431%2F3.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.92 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': None, 'cisla': ['431/3']}' v KU 'Kvetoslavov' sa nenašli dáta.
+ku_name:Mierovo obec:Hviezdoslavov okres:Dunajská Streda kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: dunajska streda norm_obec: hviezdoslavov norm_ku: mierovo
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: dunajska streda norm_obec: None norm_ku: mierovo
+_get_nationalCadastralZoningReferences() found_ids: {'836788'}
+nationalCadastralZoningReferences: ['836788']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27836788_312%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.18 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27836788_312%2F1.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.86 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+nazov_lokality: None
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.1866'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.1204'}
+
+[22 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571304/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571304/analysis.json...
+
+--- Časy spracovania dokumentu 571304 ---
+  download_and_text   :   1.45 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.44 s
+  gis_processing      :  25.52 s
+  CELKOVÝ ČAS         :  40.41 s
+------------------------------------------
+Dokument 571304 bol úspešne spracovaný.

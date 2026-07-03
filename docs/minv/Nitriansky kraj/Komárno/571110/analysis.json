@@ -1,0 +1,95 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-06-15",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Donau develop, s.r.o. a HORMI, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Komárno",
+    "obec": "Komárno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Komárno",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "10033/4",
+              "10033/64",
+              "10033/65",
+              "10033/66",
+              "10033/67"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Park Tehelná",
+    "nazov_lokality_norm": "Tehelná, Komárno"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť k zámeru navrhovanej činnosti",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "výstavba priemyselného areálu",
+    "priemyselné haly na skladovacie účely",
+    "napojenie na technickú a dopravnú infraštruktúru"
+  ],
+  "rozsah_zasahu": "9 typizovaných priemyselných hál, orná pôda",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "24 ods. 1",
+        "18 ods. 2 písm. b)",
+        "3 písm. l)",
+        "56 písm. b)",
+        "64 ods. 1 písm. f)",
+        "29",
+        "29 ods. 16",
+        "3 písm. t)",
+        "29 ods. 15",
+        "29 ods. 2",
+        "38 ods. 4"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1 ods. 1 písm. c)",
+        "5"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí zisťovacieho konania (EIA) pre výstavbu priemyselného areálu 'Park Tehelná' v Komárne. Projekt zahŕňa 9 skladovacích hál a technickú infraštruktúru na ornej pôde v zastavanom území obce. V súčasnosti nie je špecifikovaný presný obsah skladovania.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

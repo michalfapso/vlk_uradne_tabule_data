@@ -1,0 +1,78 @@
+[2026-07-03 22:35:56] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/570979'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=13&odbor=10&sekcia=uradna-tabula&subor=570979
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/570979/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/570979/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej  správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov, podľa'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/570979/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0126665}
+LLM_tokens: {"input": 6097, "output": 3206, "total": 9303, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/570979/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/570979/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Bánovce nad Bebravou', 'obec': 'Rybany', 'katastralne_uzemia': [{'nazov': 'Rybany', 'parcely': [{'typ': 'C', 'cisla': ['1698/17']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Bánovce nad Bebravou', 'obec': 'Rybany', 'katastralne_uzemia': [{'nazov': 'Rybany', 'parcely': [{'typ': 'C', 'cisla': ['1698/17']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Rybany obec:Rybany okres:Bánovce nad Bebravou kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: banovce nad bebravou norm_obec: rybany norm_ku: rybany
+_get_nationalCadastralZoningReferences() found_ids: {'854140'}
+nationalCadastralZoningReferences: ['854140']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27854140_1698%2F17.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.20 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2474'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/570979/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/570979/analysis.json...
+
+--- Časy spracovania dokumentu 570979 ---
+  download_and_text   :   1.79 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  13.24 s
+  gis_processing      :   3.40 s
+  CELKOVÝ ČAS         :  18.44 s
+------------------------------------------
+Dokument 570979 bol úspešne spracovaný.
+[2026-07-03 22:47:05] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/570979'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/570979/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/570979/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/570979/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Bánovce nad Bebravou', 'obec': 'Rybany', 'katastralne_uzemia': [{'nazov': 'Rybany', 'parcely': [{'typ': 'C', 'cisla': ['1698/17']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Bánovce nad Bebravou', 'obec': 'Rybany', 'katastralne_uzemia': [{'nazov': 'Rybany', 'parcely': [{'typ': 'C', 'cisla': ['1698/17']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Rybany obec:Rybany okres:Bánovce nad Bebravou kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: banovce nad bebravou norm_obec: rybany norm_ku: rybany
+_get_nationalCadastralZoningReferences() found_ids: {'854140'}
+nationalCadastralZoningReferences: ['854140']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27854140_1698%2F17.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.16 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2474'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/570979/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/570979/analysis.json...
+
+--- Časy spracovania dokumentu 570979 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   3.36 s
+  CELKOVÝ ČAS         :   3.36 s
+------------------------------------------
+Dokument 570979 bol úspešne spracovaný.

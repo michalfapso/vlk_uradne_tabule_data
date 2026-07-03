@@ -1,0 +1,72 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nové Zámky",
+    "obec": "Nové Zámky",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "ČOV Nové Zámky",
+    "nazov_lokality_norm": "ČOV, Nové Zámky"
+  },
+  "typ_dokumentu": "Zverejnenie kópie žiadosti o vydanie rozhodnutia o stavebnom zámere",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "obnova technologického zariadenia",
+    "intenzifikácia ČOV"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "§ 38 ods. 2 písm. a)"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o zverejnení žiadosti o stavebný zámer týkajúci sa obnovy a intenzifikácie čističky odpadových vôd (ČOV) v Nových Zámkoch. Dokument neobsahuje konkrétne informácie o dotknutých parcelách ani o vplyve na chránené územia. Ide o počiatočnú fázu procesu podľa zákona o EIA.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKUEV0084",
+          "SITETITLE_": "Zátoň"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "137",
+          "SITETITLE_": "PP Potok Chrenovka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Nové Zámky",
+          "NATIONALSI": "SKCHVU005",
+          "SITETITLE_": "Dolné Považie"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

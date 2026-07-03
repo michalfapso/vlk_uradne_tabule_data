@@ -1,0 +1,150 @@
+[2026-07-03 22:22:40] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571045'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=571045
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571045/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571045/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6' zákona '24/2006 Z. z. o posudzovaní  vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších  predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 5' zákona 'o posudzovaní do troch  pracovných dní od doručenia oznámenia informuje verejnosť spôsobom v mieste obvyklým  a zároveň oznámi, kde a kedy možno do oz'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 3' zákona 'o posudzovaní k oznámeniu o strategickom dokumente je  možné uskutočniť na Okresnom úrade Bratislava, odbore starostlivosti o životné prostredie,  odd'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0091245}
+LLM_tokens: {"input": 4629, "output": 2270, "total": 6899, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571045/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571045/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'Záhorská Bystrica', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Záhorská Bystrica-Krče', 'nazov_lokality_norm': 'Krče, Bratislava'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'Záhorská Bystrica', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Záhorská Bystrica-Krče', 'nazov_lokality_norm': 'Krče, Bratislava'}
+ku_name:Záhorská Bystrica obec:Bratislava okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: None norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() found_ids: {'871796'}
+nationalCadastralZoningReferences: ['871796']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27871796%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.75 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Krče, Bratislava
+get_geometry_of_a_geoname nazov_lokality: Krče, Bratislava
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krče, Bratislava, Bratislava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krče, Bratislava, Bratislava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krče, Bratislava, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krče, Bratislava, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.2374687, 'lon': 17.035511, 'formatted_address': 'Bratislava, Krče, 841 06 Bratislava-Záhorská Bystrica, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bratislava, Krče, 841 06 Bratislava-Záhorská Bystrica, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.04052 48.23886, 17.04061 48.23886...  ...  Materská škola Hargašova 5, Bratislava, 7405/7...
+1  POLYGON ((17.03752 48.24073, 17.03755 48.24073...  ...  DHZO Bratislava-Záhorská Bystrica, 7448/23, Gb...
+2  POLYGON ((17.03757 48.24102, 17.03757 48.24099...  ...  Bratislava 48, 7449/25, Gbelská, Krče, Záhorsk...
+
+[3 rows x 11 columns]
+geoname_query: Bratislava, Krče, 841 06 Bratislava-Záhorská Bystrica, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((16.95861 48.26505, 16.95881 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.04052 48.23886, 17.04061 48.23886...  ...  Materská škola Hargašova 5, Bratislava, 7405/7...
+1  POLYGON ((17.03752 48.24073, 17.03755 48.24073...  ...  DHZO Bratislava-Záhorská Bystrica, 7448/23, Gb...
+2  POLYGON ((17.03757 48.24102, 17.03757 48.24099...  ...  Bratislava 48, 7449/25, Gbelská, Krče, Záhorsk...
+
+[3 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571045/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571045/analysis.json...
+
+--- Časy spracovania dokumentu 571045 ---
+  download_and_text   :   1.27 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.05 s
+  gis_processing      :   2.70 s
+  CELKOVÝ ČAS         :  14.02 s
+------------------------------------------
+Dokument 571045 bol úspešne spracovaný.
+[2026-07-03 22:45:22] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571045'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571045/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6' zákona '24/2006 Z. z. o posudzovaní  vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších  predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 5' zákona 'o posudzovaní do troch  pracovných dní od doručenia oznámenia informuje verejnosť spôsobom v mieste obvyklým  a zároveň oznámi, kde a kedy možno do oz'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 3' zákona 'o posudzovaní k oznámeniu o strategickom dokumente je  možné uskutočniť na Okresnom úrade Bratislava, odbore starostlivosti o životné prostredie,  odd'.
+No law excerpts found.
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571045/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'Záhorská Bystrica', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Záhorská Bystrica-Krče', 'nazov_lokality_norm': 'Krče, Bratislava'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'Záhorská Bystrica', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Záhorská Bystrica-Krče', 'nazov_lokality_norm': 'Krče, Bratislava'}
+ku_name:Záhorská Bystrica obec:Bratislava okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: None norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() found_ids: {'871796'}
+nationalCadastralZoningReferences: ['871796']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27871796%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.57 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Krče, Bratislava
+get_geometry_of_a_geoname nazov_lokality: Krče, Bratislava
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krče, Bratislava, Bratislava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krče, Bratislava, Bratislava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krče, Bratislava, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Krče, Bratislava, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.2374687, 'lon': 17.035511, 'formatted_address': 'Bratislava, Krče, 841 06 Bratislava-Záhorská Bystrica, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Bratislava, Krče, 841 06 Bratislava-Záhorská Bystrica, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.04052 48.23886, 17.04061 48.23886...  ...  Materská škola Hargašova 5, Bratislava, 7405/7...
+1  POLYGON ((17.03752 48.24073, 17.03755 48.24073...  ...  DHZO Bratislava-Záhorská Bystrica, 7448/23, Gb...
+2  POLYGON ((17.03757 48.24102, 17.03757 48.24099...  ...  Bratislava 48, 7449/25, Gbelská, Krče, Záhorsk...
+
+[3 rows x 11 columns]
+geoname_query: Bratislava, Krče, 841 06 Bratislava-Záhorská Bystrica, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((16.95861 48.26505, 16.95881 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.04052 48.23886, 17.04061 48.23886...  ...  Materská škola Hargašova 5, Bratislava, 7405/7...
+1  POLYGON ((17.03752 48.24073, 17.03755 48.24073...  ...  DHZO Bratislava-Záhorská Bystrica, 7448/23, Gb...
+2  POLYGON ((17.03757 48.24102, 17.03757 48.24099...  ...  Bratislava 48, 7449/25, Gbelská, Krče, Záhorsk...
+
+[3 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571045/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571045/analysis.json...
+
+--- Časy spracovania dokumentu 571045 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   1.15 s
+  CELKOVÝ ČAS         :   1.15 s
+------------------------------------------
+Dokument 571045 bol úspešne spracovaný.

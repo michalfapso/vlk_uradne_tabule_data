@@ -1,0 +1,99 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/015264-001",
+  "cislo_rozhodnutia": "OU-MT-OSZP-2026/002283-Hš",
+  "datum_dokumentu": "2026-07-03",
+  "datum_zverejnenia": "2026-07-03",
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "vyvesené po dobu 15 dní"
+  },
+  "ziadatel_navrhovatel": "Obec Trnovo",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Trnovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trnovo",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Trnovo",
+    "nazov_lokality_norm": "Trnovo"
+  },
+  "typ_dokumentu": "Oznámenie o oprave písomnosti",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "kanalizácia",
+    "hlavný kanalizačný zberač",
+    "výtlačné potrubie",
+    "prekládka vodovodu"
+  ],
+  "rozsah_zasahu": "Zberač A z rúr PVC v dĺžke 335,60 m",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z.z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004 Z.z.",
+      "paragrafy": [
+        "61"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "47",
+        "26"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o oprave formálnej chyby v dĺžke kanalizačného zberača v už vydanom povolení pre vodnú stavbu 'Kanalizácia Trnovo'. Oprava upravuje dĺžku zberača A z pôvodne chybných 355,60 m na správnych 335,60 m. Dokument sa doručuje verejnou vyhláškou.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Trnovo",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Trnovo",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Trnovo",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Trnovo",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

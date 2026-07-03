@@ -1,0 +1,74 @@
+[2026-07-03 22:27:35] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571309'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=24&odbor=10&sekcia=uradna-tabula&subor=571309
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571309/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571309/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 písm. c)' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, v znení neskorších predpisov a príslušný o'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, v znení neskorších predpisov a príslušný o'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58 písm. c)' zákona 'v spojitosti s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z.z. o vodách a o zmene zákona č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov, v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'c)' zákona '364/2004 Z.z. o vodách a o zmene zákona č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov, v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. (1)' zákona '25/2025 Z.z. Stavebný zákon a o zmene a doplnení niektorých zákonov v znení neskorších právnych predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. (5)' zákona 'Stavebného zákona, upovedomuje všetkých známych účastníkov konania a dotknuté orgány štátnej správy o začatí konania podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69 ods. (1)' zákona 'stavebného zákona s tým, že vo veci uvedeného podania upúšťa od ústneho rokovania. Súčasne upozorňuje účastníkov konania, že námietky môžu byť uplatne'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014428}
+LLM_tokens: {"input": 6488, "output": 3728, "total": 10216, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571309/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571309/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Šurany', 'katastralne_uzemia': [{'nazov': 'Nitriansky Hrádok', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Nitriansky Hrádok – kanalizácia a výtlak', 'nazov_lokality_norm': 'Nitriansky Hrádok'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Šurany', 'katastralne_uzemia': [{'nazov': 'Nitriansky Hrádok', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Nitriansky Hrádok – kanalizácia a výtlak', 'nazov_lokality_norm': 'Nitriansky Hrádok'}
+ku_name:Nitriansky Hrádok obec:Šurany okres:Nové Zámky kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: surany norm_ku: nitriansky hradok
+_get_nationalCadastralZoningReferences() found_ids: {'840734'}
+nationalCadastralZoningReferences: ['840734']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27840734%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Nitriansky Hrádok
+get_geometry_of_a_geoname nazov_lokality: Nitriansky Hrádok
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Nitriansky Hrádok, Šurany, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.19171 48.06459, 18.19458 48.05789...  ...  Nitriansky Hrádok, Šurany, okres Nové Zámky, N...
+
+[1 rows x 11 columns]
+geoname_query: Nitriansky Hrádok, Šurany, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.21864 48.08837, 18.21865 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.19171 48.06459, 18.19458 48.05789...  ...  Nitriansky Hrádok, Šurany, okres Nové Zámky, N...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571309/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Nitriansky Hrádok', 'NATIONALSI': 'SKCHVU005', 'SITETITLE_': 'Dolné Považie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571309/analysis.json...
+
+--- Časy spracovania dokumentu 571309 ---
+  download_and_text   :   1.37 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.49 s
+  gis_processing      :   0.81 s
+  CELKOVÝ ČAS         :  17.68 s
+------------------------------------------
+Dokument 571309 bol úspešne spracovaný.

@@ -1,0 +1,111 @@
+[2026-07-03 22:35:23] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/571023'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=59&odbor=10&sekcia=uradna-tabula&subor=571023
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/571023/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 3 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0011539999999999999}
+LLM_tokens: {"input": 850, "output": 2866, "total": 3716, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/571023/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v nadväznosti'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona '180/2013 Z.z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný orgán štátnej'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písm. e)' zákona '180/2013 Z.z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný orgán štátnej'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Z.z. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71 ods. 1' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Z.z. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120 ods. 1' zákona '50/1976 Z.z. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona 'vodného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 10 ods. 1' zákona 'o správnych poplatkoch zaplatí správny poplatok vo výške 100 € za vydanie povolenia na vypúšťanie odpadových vôd, a 100 € za uvedenie stavby do prevád'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/571023/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013816}
+LLM_tokens: {"input": 7598, "output": 3339, "total": 10937, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/571023/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/571023/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Hunkovce', 'katastralne_uzemia': [{'nazov': 'Hunkovce', 'parcely': [{'typ': 'C', 'cisla': ['72/1', '72/2', '72/4', '72/5', '72/6', '72/7', '72/8', '72/9', '72/10', '443']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok rieky Ladomírka', 'nazov_lokality_norm': 'Ladomírka'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Hunkovce', 'katastralne_uzemia': [{'nazov': 'Hunkovce', 'parcely': [{'typ': 'C', 'cisla': ['72/1', '72/2', '72/4', '72/5', '72/6', '72/7', '72/8', '72/9', '72/10', '443']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok rieky Ladomírka', 'nazov_lokality_norm': 'Ladomírka'}
+ku_name:Hunkovce obec:Hunkovce okres:Svidník kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: svidnik norm_obec: hunkovce norm_ku: hunkovce
+_get_nationalCadastralZoningReferences() found_ids: {'820393'}
+nationalCadastralZoningReferences: ['820393']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27820393_72%2F1.C%27%2C%27820393_72%2F2.C%27%2C%27820393_72%2F4.C%27%2C%27820393_72%2F5.C%27%2C%27820393_72%2F6.C%27%2C%27820393_72%2F7.C%27%2C%27820393_72%2F8.C%27%2C%27820393_72%2F9.C%27%2C%27820393_72%2F10.C%27%2C%27820393_443.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.99 s
+nazov_lokality: Ladomírka
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+8  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+9  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+
+[10 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/571023/gis.geojson...
+Intersections with protected areas...
+Found 8 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '443', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': '72/1', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': '72/10', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': '72/9', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': '72/8', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': '72/7', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': '72/6', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': '72/2', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/571023/analysis.json...
+
+--- Časy spracovania dokumentu 571023 ---
+  download_and_text   :  15.12 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.93 s
+  gis_processing      :   4.21 s
+  CELKOVÝ ČAS         :  33.26 s
+------------------------------------------
+Dokument 571023 bol úspešne spracovaný.
+[2026-07-03 22:47:01] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/571023'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/571023/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/571023/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/571023/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Hunkovce', 'katastralne_uzemia': [{'nazov': 'Hunkovce', 'parcely': [{'typ': 'C', 'cisla': ['72/1', '72/2', '72/4', '72/5', '72/6', '72/7', '72/8', '72/9', '72/10', '443']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok rieky Ladomírka', 'nazov_lokality_norm': 'Ladomírka'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Hunkovce', 'katastralne_uzemia': [{'nazov': 'Hunkovce', 'parcely': [{'typ': 'C', 'cisla': ['72/1', '72/2', '72/4', '72/5', '72/6', '72/7', '72/8', '72/9', '72/10', '443']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok rieky Ladomírka', 'nazov_lokality_norm': 'Ladomírka'}
+ku_name:Hunkovce obec:Hunkovce okres:Svidník kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: svidnik norm_obec: hunkovce norm_ku: hunkovce
+_get_nationalCadastralZoningReferences() found_ids: {'820393'}
+nationalCadastralZoningReferences: ['820393']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27820393_72%2F1.C%27%2C%27820393_72%2F2.C%27%2C%27820393_72%2F4.C%27%2C%27820393_72%2F5.C%27%2C%27820393_72%2F6.C%27%2C%27820393_72%2F7.C%27%2C%27820393_72%2F8.C%27%2C%27820393_72%2F9.C%27%2C%27820393_72%2F10.C%27%2C%27820393_443.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.67 s
+nazov_lokality: Ladomírka
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+8  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+9  CadastralParcel  ...  {'@href': '#auAdmUnitS.362'}
+
+[10 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/571023/gis.geojson...
+Intersections with protected areas...
+Found 8 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '443', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': '72/1', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': '72/10', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': '72/9', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': '72/8', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': '72/7', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': '72/6', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': '72/2', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/571023/analysis.json...
+
+--- Časy spracovania dokumentu 571023 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   3.89 s
+  CELKOVÝ ČAS         :   3.89 s
+------------------------------------------
+Dokument 571023 bol úspešne spracovaný.

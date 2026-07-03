@@ -1,0 +1,163 @@
+[2026-07-03 22:22:54] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571025'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=2&odbor=10&sekcia=uradna-tabula&subor=571025
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571025/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571025/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 1' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z.z. o vodách a o zmene zákona Č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona 'stavebného zákona lehotu na dokončenie stavby určenú rozhodnutím č.j. OU-MA-OSZP-2023/0 11858-003 zo dňa 01.03.2023, ktoré nadobudlo právoplatnosť 03'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4' zákona '145/1995 Z.z. o správnych poplatkoch v znení neskorších predpisov od platenia poplatkov oslobodený. Poučenie Proti tomuto rozhodnutiu je možné podľa §'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku a musí byť vyvesené po dobu 15 dní na úradnej tabuli obce Plavecké Podhradie a Okresného úradu Ma'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571025/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0155245}
+LLM_tokens: {"input": 9107, "output": 3657, "total": 12764, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571025/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571025/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Plavecké Podhradie', 'katastralne_uzemia': [{'nazov': 'Plavecké Podhradie', 'parcely': [{'typ': 'C', 'cisla': ['1476/37', '1477', '1441', '1443/37', '1443/10', '1448/1', '1450/1', '1451/1', '1455/25', '1451/2', '1192', '2124', '2/1', '12/1', '14/3', '145', '117/2', '1187', '1188/1', '2/2', '18/1', '19/1', '332/1', '15/2', '15/3', '297']}, {'typ': 'E', 'cisla': ['1450/1', '1451/2', '1192', '2124', '145', '117/2', '1187', '1188/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'obec Plavecké Podhradie', 'nazov_lokality_norm': 'Plavecké Podhradie'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Plavecké Podhradie', 'katastralne_uzemia': [{'nazov': 'Plavecké Podhradie', 'parcely': [{'typ': 'C', 'cisla': ['1476/37', '1477', '1441', '1443/37', '1443/10', '1448/1', '1450/1', '1451/1', '1455/25', '1451/2', '1192', '2124', '2/1', '12/1', '14/3', '145', '117/2', '1187', '1188/1', '2/2', '18/1', '19/1', '332/1', '15/2', '15/3', '297']}, {'typ': 'E', 'cisla': ['1450/1', '1451/2', '1192', '2124', '145', '117/2', '1187', '1188/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'obec Plavecké Podhradie', 'nazov_lokality_norm': 'Plavecké Podhradie'}
+ku_name:Plavecké Podhradie obec:Plavecké Podhradie okres:Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: plavecke podhradie norm_ku: plavecke podhradie
+_get_nationalCadastralZoningReferences() found_ids: {'846775'}
+nationalCadastralZoningReferences: ['846775']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27846775_1476%2F37.C%27%2C%27846775_1477.C%27%2C%27846775_1441.C%27%2C%27846775_1443%2F37.C%27%2C%27846775_1443%2F10.C%27%2C%27846775_1448%2F1.C%27%2C%27846775_1450%2F1.C%27%2C%27846775_1451%2F1.C%27%2C%27846775_1455%2F25.C%27%2C%27846775_1451%2F2.C%27%2C%27846775_1192.C%27%2C%27846775_2124.C%27%2C%27846775_2%2F1.C%27%2C%27846775_12%2F1.C%27%2C%27846775_14%2F3.C%27%2C%27846775_145.C%27%2C%27846775_117%2F2.C%27%2C%27846775_1187.C%27%2C%27846775_1188%2F1.C%27%2C%27846775_2%2F2.C%27%2C%27846775_18%2F1.C%27%2C%27846775_19%2F1.C%27%2C%27846775_332%2F1.C%27%2C%27846775_15%2F2.C%27%2C%27846775_15%2F3.C%27%2C%27846775_297.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.94 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27846775_1450%2F1.E%27%2C%27846775_1451%2F2.E%27%2C%27846775_1192.E%27%2C%27846775_2124.E%27%2C%27846775_145.E%27%2C%27846775_117%2F2.E%27%2C%27846775_1187.E%27%2C%27846775_1188%2F1.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.89 s
+nazov_lokality: Plavecké Podhradie
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+
+[33 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571025/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with '5st_konsUEV'.
+Found 4 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 6 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': '2/1', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}], 'UEV': [{'parcel_label': '2124', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}, {'parcel_label': '297', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}, {'parcel_label': '2/1', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}, {'parcel_label': '2124', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}], 'MCHU': [{'parcel_label': '2/1', 'NATIONALSI': '136', 'SITETITLE_': 'NPR Pohanská'}], 'CHVU': [{'parcel_label': '2124', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': '1451/2', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': '297', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': '2/1', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': '2124', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': '1451/2', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571025/analysis.json...
+
+--- Časy spracovania dokumentu 571025 ---
+  download_and_text   :   3.66 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  18.35 s
+  gis_processing      :   8.10 s
+  CELKOVÝ ČAS         :  30.11 s
+------------------------------------------
+Dokument 571025 bol úspešne spracovaný.
+[2026-07-03 22:45:23] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571025'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571025/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571025/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571025/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Plavecké Podhradie', 'katastralne_uzemia': [{'nazov': 'Plavecké Podhradie', 'parcely': [{'typ': 'C', 'cisla': ['1476/37', '1477', '1441', '1443/37', '1443/10', '1448/1', '1450/1', '1451/1', '1455/25', '1451/2', '1192', '2124', '2/1', '12/1', '14/3', '145', '117/2', '1187', '1188/1', '2/2', '18/1', '19/1', '332/1', '15/2', '15/3', '297']}, {'typ': 'E', 'cisla': ['1450/1', '1451/2', '1192', '2124', '145', '117/2', '1187', '1188/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'obec Plavecké Podhradie', 'nazov_lokality_norm': 'Plavecké Podhradie'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Plavecké Podhradie', 'katastralne_uzemia': [{'nazov': 'Plavecké Podhradie', 'parcely': [{'typ': 'C', 'cisla': ['1476/37', '1477', '1441', '1443/37', '1443/10', '1448/1', '1450/1', '1451/1', '1455/25', '1451/2', '1192', '2124', '2/1', '12/1', '14/3', '145', '117/2', '1187', '1188/1', '2/2', '18/1', '19/1', '332/1', '15/2', '15/3', '297']}, {'typ': 'E', 'cisla': ['1450/1', '1451/2', '1192', '2124', '145', '117/2', '1187', '1188/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'obec Plavecké Podhradie', 'nazov_lokality_norm': 'Plavecké Podhradie'}
+ku_name:Plavecké Podhradie obec:Plavecké Podhradie okres:Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: plavecke podhradie norm_ku: plavecke podhradie
+_get_nationalCadastralZoningReferences() found_ids: {'846775'}
+nationalCadastralZoningReferences: ['846775']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27846775_1476%2F37.C%27%2C%27846775_1477.C%27%2C%27846775_1441.C%27%2C%27846775_1443%2F37.C%27%2C%27846775_1443%2F10.C%27%2C%27846775_1448%2F1.C%27%2C%27846775_1450%2F1.C%27%2C%27846775_1451%2F1.C%27%2C%27846775_1455%2F25.C%27%2C%27846775_1451%2F2.C%27%2C%27846775_1192.C%27%2C%27846775_2124.C%27%2C%27846775_2%2F1.C%27%2C%27846775_12%2F1.C%27%2C%27846775_14%2F3.C%27%2C%27846775_145.C%27%2C%27846775_117%2F2.C%27%2C%27846775_1187.C%27%2C%27846775_1188%2F1.C%27%2C%27846775_2%2F2.C%27%2C%27846775_18%2F1.C%27%2C%27846775_19%2F1.C%27%2C%27846775_332%2F1.C%27%2C%27846775_15%2F2.C%27%2C%27846775_15%2F3.C%27%2C%27846775_297.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.95 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27846775_1450%2F1.E%27%2C%27846775_1451%2F2.E%27%2C%27846775_1192.E%27%2C%27846775_2124.E%27%2C%27846775_145.E%27%2C%27846775_117%2F2.E%27%2C%27846775_1187.E%27%2C%27846775_1188%2F1.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.80 s
+nazov_lokality: Plavecké Podhradie
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.1549'}
+
+[33 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571025/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with '5st_konsUEV'.
+Found 4 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 6 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': '2/1', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}], 'UEV': [{'parcel_label': '2124', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}, {'parcel_label': '297', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}, {'parcel_label': '2/1', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}, {'parcel_label': '2124', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}], 'MCHU': [{'parcel_label': '2/1', 'NATIONALSI': '136', 'SITETITLE_': 'NPR Pohanská'}], 'CHVU': [{'parcel_label': '2124', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': '1451/2', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': '297', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': '2/1', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': '2124', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': '1451/2', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571025/analysis.json...
+
+--- Časy spracovania dokumentu 571025 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   8.01 s
+  CELKOVÝ ČAS         :   8.01 s
+------------------------------------------
+Dokument 571025 bol úspešne spracovaný.

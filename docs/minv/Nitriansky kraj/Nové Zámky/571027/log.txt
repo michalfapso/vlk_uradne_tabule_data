@@ -1,0 +1,88 @@
+[2026-07-03 22:27:52] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571027'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=24&odbor=10&sekcia=uradna-tabula&subor=571027
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571027/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571027/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1 písm. c)' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84' zákona '25/2025 Z. z. Stavebný zákona a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 88a' zákona 'stavebného zákona. Stavebník PROSPECT spol. s. r. o. v zastúpení spoločnosťou LAND MASTER s.r.o. predložil žiadosť o vydanie dodatočného povolenia na'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 88a' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 59' zákona 'stavebného zákona verejnou vyhláškou na úradných tabuliach tunajšieho úradu a Obce Zemné a na webovom sídle tunajšieho úradu V e r e j n á v y h l á š'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571027/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012192}
+LLM_tokens: {"input": 7428, "output": 2826, "total": 10254, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571027/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571027/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Zemné', 'katastralne_uzemia': [{'nazov': 'Zemné', 'parcely': [{'typ': 'E', 'cisla': ['8386']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Obytná skupina SLNOVRAT', 'nazov_lokality_norm': 'SLNOVRAT, Zemné'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Zemné', 'katastralne_uzemia': [{'nazov': 'Zemné', 'parcely': [{'typ': 'E', 'cisla': ['8386']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Obytná skupina SLNOVRAT', 'nazov_lokality_norm': 'SLNOVRAT, Zemné'}
+ku_name:Zemné obec:Zemné okres:Nové Zámky kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: zemne norm_ku: zemne
+_get_nationalCadastralZoningReferences() found_ids: {'873152'}
+nationalCadastralZoningReferences: ['873152']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27873152_8386.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.86 s
+nazov_lokality: SLNOVRAT, Zemné
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2544'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571027/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571027/analysis.json...
+
+--- Časy spracovania dokumentu 571027 ---
+  download_and_text   :   1.41 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.20 s
+  gis_processing      :   3.08 s
+  CELKOVÝ ČAS         :  15.68 s
+------------------------------------------
+Dokument 571027 bol úspešne spracovaný.
+[2026-07-03 22:46:08] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571027'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571027/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571027/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571027/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Zemné', 'katastralne_uzemia': [{'nazov': 'Zemné', 'parcely': [{'typ': 'E', 'cisla': ['8386']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Obytná skupina SLNOVRAT', 'nazov_lokality_norm': 'SLNOVRAT, Zemné'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Zemné', 'katastralne_uzemia': [{'nazov': 'Zemné', 'parcely': [{'typ': 'E', 'cisla': ['8386']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Obytná skupina SLNOVRAT', 'nazov_lokality_norm': 'SLNOVRAT, Zemné'}
+ku_name:Zemné obec:Zemné okres:Nové Zámky kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: zemne norm_ku: zemne
+_get_nationalCadastralZoningReferences() found_ids: {'873152'}
+nationalCadastralZoningReferences: ['873152']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27873152_8386.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.83 s
+nazov_lokality: SLNOVRAT, Zemné
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2544'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571027/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/571027/analysis.json...
+
+--- Časy spracovania dokumentu 571027 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   3.04 s
+  CELKOVÝ ČAS         :   3.04 s
+------------------------------------------
+Dokument 571027 bol úspešne spracovaný.

@@ -1,0 +1,117 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2026/013353",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-03-30",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní odo dňa zverejnenia tohto oznamu"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Pezinok",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "VJAZD_VOZIDLA",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "organizovanie verejných telovýchovných športových podujatí",
+    "preteky automobilov do vrchu"
+  ],
+  "rozsah_zasahu": "Medzinárodné Majstrovstvá Slovenskej republiky v pretekoch automobilov do vrchu (MMSR)",
+  "typ_uzemia": [
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 82 ods. 7",
+        "§ 13 ods. 2 písm. k)",
+        "§ 82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Začatie správneho konania vo veci vydania súhlasu na organizovanie automobilových pretekov MMSR v okrese Pezinok. Keďže sa žiada o súhlas podľa § 13 zákona, podujatie sa koná v území s 2. stupňom ochrany. Záujem o účasť v konaní je potrebné doručiť do 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Grinava",
+          "NAZOV_UEV": "Homoľské Karpaty",
+          "KOD_UEV": "SKUEV0104"
+        },
+        {
+          "parcel_label": "Grinava",
+          "NAZOV_UEV": "Homoľské Karpaty",
+          "KOD_UEV": "SKUEV0104"
+        },
+        {
+          "parcel_label": "Grinava",
+          "NAZOV_UEV": "Homoľské Karpaty",
+          "KOD_UEV": "SKUEV0104"
+        },
+        {
+          "parcel_label": "Grinava",
+          "NAZOV_UEV": "Homoľské Karpaty",
+          "KOD_UEV": "SKUEV0104"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Pezinok",
+          "NATIONALSI": "SKUEV0104",
+          "SITETITLE_": "Homoľské Karpaty"
+        },
+        {
+          "parcel_label": "Pezinok",
+          "NATIONALSI": "SKUEV0967",
+          "SITETITLE_": "Modransko- tŕňanské pustáky"
+        },
+        {
+          "parcel_label": "Pezinok",
+          "NATIONALSI": "SKUEV0276",
+          "SITETITLE_": "Kuchynská hornatina"
+        },
+        {
+          "parcel_label": "Grinava",
+          "NATIONALSI": "SKUEV0104",
+          "SITETITLE_": "Homoľské Karpaty"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Grinava",
+          "NATIONALSI": "824",
+          "SITETITLE_": "PR Zlatá studnička"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Pezinok",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "Grinava",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

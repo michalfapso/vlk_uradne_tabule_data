@@ -1,0 +1,111 @@
+[2026-07-03 22:37:06] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571113'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=571113
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571113/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571113/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. (6)' zákona 'prechodné ustanovenia zákona č. 25/2025 Z. z. Stavebný zákona a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. (1)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej vodnej správy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'c)' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71 ods. (1)' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. (1)' zákona '25/2025 Z. z. Stavebný zákona a o zmene a doplnení niektorých zákonov o z n a m u j e, že dňa 17. júna 2026 začalo stavebné vodoprávne konanie v súlad'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. (1)' zákona 'stavebného zákona účinného do 31. 03. 2025 a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. (5)' zákona 'vodného zákona na základe písomnej žiadosti žiadateľa Obec Lysá pod Makytou, zastúpená starostom obce Ing. Michalom Ondričkom, 020 54 Lysá pod Makytou'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69' zákona 'stavebného zákona účinného do 31. 03. 2025. Stavebné povolenie na vyššie uvedenú stavbu bolo vydané Okresným úradom Púchov, odborom starostlivosti o ž'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. (2)' zákona 'stavebného zákona účinného do 31. 03. 2025 u p ú š ť a od miestneho zisťovania spojeného s ústnym pojednávaním vzhľadom k tomu, že sú mu dobre známe p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. (4)' zákona 'stavebného zákona účinného do 31. 03. 2025 a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. (6)' zákona 'vodného zákona. Vyvesené dňa ................................................ Zvesené dňa ........................................................ '.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0143}
+LLM_tokens: {"input": 8950, "output": 3275, "total": 12225, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 91 column 1 (char 2457)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0091136}
+LLM_tokens: {"input": 8950, "output": 2763, "total": 11713, "cached": 8112}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571113/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571113/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lúky', 'katastralne_uzemia': [{'nazov': 'Lúky', 'parcely': [{'typ': 'C', 'cisla': ['568/2', '568/14', '568/15']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ČOV Lúky', 'nazov_lokality_norm': 'Lúky'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lúky', 'katastralne_uzemia': [{'nazov': 'Lúky', 'parcely': [{'typ': 'C', 'cisla': ['568/2', '568/14', '568/15']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ČOV Lúky', 'nazov_lokality_norm': 'Lúky'}
+ku_name:Lúky obec:Lúky okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: luky norm_ku: luky
+_get_nationalCadastralZoningReferences() found_ids: {'834211'}
+nationalCadastralZoningReferences: ['834211']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27834211_568%2F2.C%27%2C%27834211_568%2F14.C%27%2C%27834211_568%2F15.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.78 s
+nazov_lokality: Lúky
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.365'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.365'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.365'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571113/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571113/analysis.json...
+
+--- Časy spracovania dokumentu 571113 ---
+  download_and_text   :   1.61 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  31.10 s
+  gis_processing      :   3.98 s
+  CELKOVÝ ČAS         :  36.69 s
+------------------------------------------
+Dokument 571113 bol úspešne spracovaný.
+[2026-07-03 22:47:30] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571113'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571113/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. (6)' zákona 'prechodné ustanovenia zákona č. 25/2025 Z. z. Stavebný zákona a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. (1)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej vodnej správy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'c)' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71 ods. (1)' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. (1)' zákona '25/2025 Z. z. Stavebný zákona a o zmene a doplnení niektorých zákonov o z n a m u j e, že dňa 17. júna 2026 začalo stavebné vodoprávne konanie v súlad'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. (1)' zákona 'stavebného zákona účinného do 31. 03. 2025 a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. (5)' zákona 'vodného zákona na základe písomnej žiadosti žiadateľa Obec Lysá pod Makytou, zastúpená starostom obce Ing. Michalom Ondričkom, 020 54 Lysá pod Makytou'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69' zákona 'stavebného zákona účinného do 31. 03. 2025. Stavebné povolenie na vyššie uvedenú stavbu bolo vydané Okresným úradom Púchov, odborom starostlivosti o ž'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. (2)' zákona 'stavebného zákona účinného do 31. 03. 2025 u p ú š ť a od miestneho zisťovania spojeného s ústnym pojednávaním vzhľadom k tomu, že sú mu dobre známe p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. (4)' zákona 'stavebného zákona účinného do 31. 03. 2025 a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. (6)' zákona 'vodného zákona. Vyvesené dňa ................................................ Zvesené dňa ........................................................ '.
+No law excerpts found.
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571113/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lúky', 'katastralne_uzemia': [{'nazov': 'Lúky', 'parcely': [{'typ': 'C', 'cisla': ['568/2', '568/14', '568/15']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ČOV Lúky', 'nazov_lokality_norm': 'Lúky'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lúky', 'katastralne_uzemia': [{'nazov': 'Lúky', 'parcely': [{'typ': 'C', 'cisla': ['568/2', '568/14', '568/15']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ČOV Lúky', 'nazov_lokality_norm': 'Lúky'}
+ku_name:Lúky obec:Lúky okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: luky norm_ku: luky
+_get_nationalCadastralZoningReferences() found_ids: {'834211'}
+nationalCadastralZoningReferences: ['834211']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27834211_568%2F2.C%27%2C%27834211_568%2F14.C%27%2C%27834211_568%2F15.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.68 s
+nazov_lokality: Lúky
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.365'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.365'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.365'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571113/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571113/analysis.json...
+
+--- Časy spracovania dokumentu 571113 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   3.89 s
+  CELKOVÝ ČAS         :   3.90 s
+------------------------------------------
+Dokument 571113 bol úspešne spracovaný.
