@@ -1,0 +1,112 @@
+{
+  "cislo_konania_spisu": "OU-TR-OSZP-2026/000629",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-01",
+  "datum_zverejnenia": "2026-07-02",
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Turčianske Teplice",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Čremošné",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolná Štubňa",
+        "parcely": []
+      },
+      {
+        "nazov": "Kremnické Bane",
+        "parcely": []
+      },
+      {
+        "nazov": "Horná Štubňa",
+        "parcely": []
+      },
+      {
+        "nazov": "Sklené pri Handlovej",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo dráhy v úsekoch Čremošné, Dolná Štubňa, Kremnické Bane, Horná Štubňa, Sklené",
+    "nazov_lokality_norm": "Turčianske Teplice"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub krovín"
+  ],
+  "rozsah_zasahu": "kroviny v ochrannom pásme dráhy (viaceré traťové úseky)",
+  "typ_uzemia": [
+    "ochranné pásmo dráhy",
+    "1. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "12"
+      ]
+    },
+    {
+      "nazov": "o dráhach",
+      "cislo": "513/2009",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "ŽSR oznámili výrub krovín v ochrannom pásme dráhy na viacerých úsekoch v okrese Turčianske Teplice (Čremošné, Dolná Štubňa, Kremnické Bane, Horná Štubňa, Sklené). Ide o oznámenie podľa osobitného predpisu v 1. stupni ochrany, pričom verejnosť sa do tohto procesu nemôže prihlásiť ako účastník konania.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Dolná Štubňa",
+          "NATIONALSI": "SKUEV0147",
+          "SITETITLE_": "Žarnovica"
+        },
+        {
+          "parcel_label": "Dolná Štubňa",
+          "NATIONALSI": "SKUEV0147",
+          "SITETITLE_": "Žarnovica"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Dolná Štubňa",
+          "NATIONALSI": "902",
+          "SITETITLE_": "CHA Žarnovica"
+        },
+        {
+          "parcel_label": "Dolná Štubňa",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Dolná Štubňa",
+          "NATIONALSI": "902",
+          "SITETITLE_": "CHA Žarnovica"
+        },
+        {
+          "parcel_label": "Dolná Štubňa",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, oblastné riaditeľstvo Zvolen",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žiar nad Hronom",
+    "obec": "Bartošová Lehôtka, Dolná Ves, Kremnica, Kremnické Bane",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bartošová Lehôtka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "876/1",
+              "876/3",
+              "876/5"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dolná Ves",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "539/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Kremnica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2306/1",
+              "2439",
+              "2908/2",
+              "3335",
+              "3336"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Kremnické Bane",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "252",
+              "254/1",
+              "265/3",
+              "265/6",
+              "265/8",
+              "265/9",
+              "269",
+              "314/1",
+              "317",
+              "671/1",
+              "678"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo dráhy, žkm 241,349 Bartošova Lehôtka – žkm 262,800 Kremnické Bane",
+    "nazov_lokality_norm": "Bartošova Lehôtka, Kremnické Bane"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o plánovanom výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub krovín"
+  ],
+  "rozsah_zasahu": "výrub krovín v traťových úsekoch v rozsahu žkm 241,349 – 262,800",
+  "typ_uzemia": [
+    "ochranné pásmo dráhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "zákon o dráhach",
+      "cislo": "513/2009 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Železnice Slovenskej republiky oznamujú plánovaný výrub krovín v ochrannom pásme dráhy v úseku Bartošová Lehôtka – Kremnické Bane. Zásah sa dotýka viacerých katastrálnych území a bude prebiehať v etapách počas zimných období 2026 až 2028. Výrub sa realizuje prevažne mimo zastavaného územia obcí z dôvodu bezpečnosti železničnej prevádzky.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,80 @@
+[2026-07-03 05:32:05] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571242'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=12&odbor=10&sekcia=uradna-tabula&subor=571242
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571242/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571242/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 79 ods. 1' zákona 'číslo 50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1' zákona 'číslo 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'číslo 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'číslo 364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady číslo 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'stavebného zákona o z n a m u j e v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80' zákona 'stavebného zákona začatie kolaudačného konania všetkým účastníkom konania a dotknutým orgánom. KÓPIA Číslo spisu Por.č.záznamu Číslo záznamu Dátum odo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. 1' zákona 'číslo 71/1967 Zb. o správnom konaní'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona verejnou vyhláškou a musí byť vyvesené na úradnej tabuli Okresného úradu Trenčín, webovom sídle Okresného úradu Trenčín a obce Trenčian'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013332600000000002}
+LLM_tokens: {"input": 6897, "output": 3598, "total": 10495, "cached": 2022}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571242/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571242/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Trenčianske Jastrabie', 'katastralne_uzemia': [{'nazov': 'Trenčianske Jastrabie', 'parcely': [{'typ': 'C', 'cisla': ['1046/1', '3983/1', '1049/4']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'vetva F-2-3, Trenčianske Jastrabie', 'nazov_lokality_norm': 'Trenčianske Jastrabie'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Trenčianske Jastrabie', 'katastralne_uzemia': [{'nazov': 'Trenčianske Jastrabie', 'parcely': [{'typ': 'C', 'cisla': ['1046/1', '3983/1', '1049/4']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'vetva F-2-3, Trenčianske Jastrabie', 'nazov_lokality_norm': 'Trenčianske Jastrabie'}
+ku_name:Trenčianske Jastrabie obec:Trenčianske Jastrabie okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: trencianske jastrabie norm_ku: trencianske jastrabie
+_get_nationalCadastralZoningReferences() found_ids: {'864412'}
+nationalCadastralZoningReferences: ['864412']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27864412_1046%2F1.C%27%2C%27864412_3983%2F1.C%27%2C%27864412_1049%2F4.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.17 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['1046/1', '3983/1', '1049/4']}' v KU 'Trenčianske Jastrabie' sa nenašli dáta.
+Fallback to OBEC: Trenčianske Jastrabie
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: trencianske jastrabie norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'864412'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27864412%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.35 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Trenčianske Jastrabie
+get_geometry_of_a_geoname nazov_lokality: Trenčianske Jastrabie
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Trenčianske Jastrabie, Trenčianske Jastrabie, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.04048 48.77703, 18.04053 48.77649...  ...  Trenčianske Jastrabie, okres Trenčín, Trenčian...
+
+[1 rows x 11 columns]
+geoname_query: Trenčianske Jastrabie, Trenčianske Jastrabie, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.07935 48.80854, 18.07995 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.04048 48.77703, 18.04053 48.77649...  ...  Trenčianske Jastrabie, okres Trenčín, Trenčian...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571242/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'MCHU': [{'parcel_label': 'Trenčianske Jastrabie', 'NATIONALSI': '162', 'SITETITLE_': 'PP Svinica'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571242/analysis.json...
+
+--- Časy spracovania dokumentu 571242 ---
+  download_and_text   :   0.99 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.68 s
+  gis_processing      :   4.29 s
+  CELKOVÝ ČAS         :  20.96 s
+------------------------------------------
+Dokument 571242 bol úspešne spracovaný.

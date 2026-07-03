@@ -1,0 +1,152 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2026/001770-004",
+  "cislo_rozhodnutia": "OU-KS-OSZP-2026/001770-0037950/2026",
+  "datum_dokumentu": "2026-07-02",
+  "datum_zverejnenia": "2026-07-02",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa oznámenia tohto rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "NOVICOM, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Kechnec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kechnec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "413/40",
+              "413/56",
+              "413/77",
+              "413/78",
+              "549/1",
+              "536",
+              "466/2"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "468/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Small village Kechnec, Sokoliansky potok",
+    "nazov_lokality_norm": "Sokoliansky"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INZINIERSKE_SIETE",
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "uskutočnenie vodnej stavby",
+    "predĺženie verejného vodovodu",
+    "vodovodné prípojky",
+    "predĺženie verejnej kanalizácie splaškovej",
+    "kanalizačné prípojky splaškové",
+    "dažďová kanalizácia",
+    "výustný objekt",
+    "retenčná nádrž",
+    "odlučovač ropných látok"
+  ],
+  "rozsah_zasahu": "vodovod 200,05 m, kanalizácia 195,67 m, dažďová kanalizácia 112,85 m, 15 domových prípojok, retenčná nádrž 10 m3",
+  "typ_uzemia": [
+    "ochranné pásmo vonkajšieho nadzemného elektrického vedenia",
+    "ochranné pásmo SEK",
+    "Sokoliansky potok"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "5",
+        "26",
+        "36",
+        "47",
+        "61",
+        "73"
+      ]
+    },
+    {
+      "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "58",
+        "61",
+        "66",
+        "67",
+        "120",
+        "140b"
+      ]
+    },
+    {
+      "nazov": "o elektronických komunikáciách",
+      "cislo": "452/2021",
+      "paragrafy": [
+        "21",
+        "23",
+        "24",
+        "108"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "43"
+      ]
+    },
+    {
+      "nazov": "o odpadoch",
+      "cislo": "79/2015",
+      "paragrafy": [
+        "13",
+        "14",
+        "77",
+        "99"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "46",
+        "53"
+      ]
+    }
+  ],
+  "zhrnutie": "Povolenie na uskutočnenie vodnej stavby 'Small village Kechnec' v k. ú. Kechnec, ktorá zahŕňa predĺženie vodovodu a kanalizácie pre 15 rodinných domov. Súčasťou je vybudovanie výustného objektu do Sokolianskeho potoka, retenčnej nádrže a odlučovača ropných látok. Rozhodnutie stanovuje prísne podmienky pre monitoring vypúšťaných vôd a ochranu inžinierskych sietí.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Kechnec",
+          "NATIONALSI": "SKUEV0944",
+          "SITETITLE_": "Hornádske meandre"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Kechnec",
+          "NATIONALSI": "SKCHVU009",
+          "SITETITLE_": "Košická kotlina"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

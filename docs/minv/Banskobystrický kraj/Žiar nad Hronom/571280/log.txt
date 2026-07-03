@@ -1,0 +1,120 @@
+[2026-07-03 05:28:53] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/571280'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=45&odbor=10&sekcia=uradna-tabula&subor=571280
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/571280/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/571280/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/571280/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012708150000000001}
+LLM_tokens: {"input": 5208, "output": 3670, "total": 8878, "cached": 2013}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/571280/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/571280/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Žiar nad Hronom', 'obec': 'Bartošová Lehôtka, Dolná Ves, Kremnica, Kremnické Bane', 'katastralne_uzemia': [{'nazov': 'Bartošová Lehôtka', 'parcely': [{'typ': 'C', 'cisla': ['876/1', '876/3', '876/5']}]}, {'nazov': 'Dolná Ves', 'parcely': [{'typ': 'C', 'cisla': ['539/1']}]}, {'nazov': 'Kremnica', 'parcely': [{'typ': 'C', 'cisla': ['2306/1', '2439', '2908/2', '3335', '3336']}]}, {'nazov': 'Kremnické Bane', 'parcely': [{'typ': 'C', 'cisla': ['252', '254/1', '265/3', '265/6', '265/8', '265/9', '269', '314/1', '317', '671/1', '678']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo dráhy, žkm 241,349 Bartošova Lehôtka – žkm 262,800 Kremnické Bane', 'nazov_lokality_norm': 'Bartošova Lehôtka, Kremnické Bane'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Žiar nad Hronom', 'obec': 'Bartošová Lehôtka, Dolná Ves, Kremnica, Kremnické Bane', 'katastralne_uzemia': [{'nazov': 'Bartošová Lehôtka', 'parcely': [{'typ': 'C', 'cisla': ['876/1', '876/3', '876/5']}]}, {'nazov': 'Dolná Ves', 'parcely': [{'typ': 'C', 'cisla': ['539/1']}]}, {'nazov': 'Kremnica', 'parcely': [{'typ': 'C', 'cisla': ['2306/1', '2439', '2908/2', '3335', '3336']}]}, {'nazov': 'Kremnické Bane', 'parcely': [{'typ': 'C', 'cisla': ['252', '254/1', '265/3', '265/6', '265/8', '265/9', '269', '314/1', '317', '671/1', '678']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo dráhy, žkm 241,349 Bartošova Lehôtka – žkm 262,800 Kremnické Bane', 'nazov_lokality_norm': 'Bartošova Lehôtka, Kremnické Bane'}
+ku_name:Bartošová Lehôtka obec:Bartošová Lehôtka, Dolná Ves, Kremnica, Kremnické Bane okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: bartosova lehotka norm_ku: bartosova lehotka
+_get_nationalCadastralZoningReferences() found_ids: {'802107'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: dolna ves norm_ku: bartosova lehotka
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: bartosova lehotka
+_get_nationalCadastralZoningReferences() found_ids: {'802107'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: kremnica norm_ku: bartosova lehotka
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: bartosova lehotka
+_get_nationalCadastralZoningReferences() found_ids: {'802107'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: kremnicke bane norm_ku: bartosova lehotka
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: bartosova lehotka
+_get_nationalCadastralZoningReferences() found_ids: {'802107'}
+nationalCadastralZoningReferences: ['802107']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27802107_876%2F1.C%27%2C%27802107_876%2F3.C%27%2C%27802107_876%2F5.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.11 s
+ku_name:Dolná Ves obec:Bartošová Lehôtka, Dolná Ves, Kremnica, Kremnické Bane okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: bartosova lehotka norm_ku: dolna ves
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: dolna ves
+_get_nationalCadastralZoningReferences() found_ids: {'811939'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: dolna ves norm_ku: dolna ves
+_get_nationalCadastralZoningReferences() found_ids: {'811939'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: kremnica norm_ku: dolna ves
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: dolna ves
+_get_nationalCadastralZoningReferences() found_ids: {'811939'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: kremnicke bane norm_ku: dolna ves
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: dolna ves
+_get_nationalCadastralZoningReferences() found_ids: {'811939'}
+nationalCadastralZoningReferences: ['811939']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27811939_539%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.10 s
+ku_name:Kremnica obec:Bartošová Lehôtka, Dolná Ves, Kremnica, Kremnické Bane okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: bartosova lehotka norm_ku: kremnica
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: kremnica
+_get_nationalCadastralZoningReferences() found_ids: {'828882'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: dolna ves norm_ku: kremnica
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: kremnica
+_get_nationalCadastralZoningReferences() found_ids: {'828882'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: kremnica norm_ku: kremnica
+_get_nationalCadastralZoningReferences() found_ids: {'828882'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: kremnicke bane norm_ku: kremnica
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: kremnica
+_get_nationalCadastralZoningReferences() found_ids: {'828882'}
+nationalCadastralZoningReferences: ['828882']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27828882_2306%2F1.C%27%2C%27828882_2439.C%27%2C%27828882_2908%2F2.C%27%2C%27828882_3335.C%27%2C%27828882_3336.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.40 s
+ku_name:Kremnické Bane obec:Bartošová Lehôtka, Dolná Ves, Kremnica, Kremnické Bane okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: bartosova lehotka norm_ku: kremnicke bane
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: kremnicke bane
+_get_nationalCadastralZoningReferences() found_ids: {'829021'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: dolna ves norm_ku: kremnicke bane
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: kremnicke bane
+_get_nationalCadastralZoningReferences() found_ids: {'829021'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: kremnica norm_ku: kremnicke bane
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: kremnicke bane
+_get_nationalCadastralZoningReferences() found_ids: {'829021'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: kremnicke bane norm_ku: kremnicke bane
+_get_nationalCadastralZoningReferences() found_ids: {'829021'}
+nationalCadastralZoningReferences: ['829021']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27829021_252.C%27%2C%27829021_254%2F1.C%27%2C%27829021_265%2F3.C%27%2C%27829021_265%2F6.C%27%2C%27829021_265%2F8.C%27%2C%27829021_265%2F9.C%27%2C%27829021_269.C%27%2C%27829021_314%2F1.C%27%2C%27829021_317.C%27%2C%27829021_671%2F1.C%27%2C%27829021_678.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.03 s
+nazov_lokality: Bartošova Lehôtka, Kremnické Bane
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2816'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2816'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2816'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2914'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1014'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1014'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1014'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1014'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1014'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1525'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1525'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1525'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1525'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1525'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1525'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1525'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1525'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1525'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1525'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1525'}
+
+[20 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/571280/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/571280/analysis.json...
+
+--- Časy spracovania dokumentu 571280 ---
+  download_and_text   :   0.65 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.28 s
+  gis_processing      :  13.16 s
+  CELKOVÝ ČAS         :  30.09 s
+------------------------------------------
+Dokument 571280 bol úspešne spracovaný.

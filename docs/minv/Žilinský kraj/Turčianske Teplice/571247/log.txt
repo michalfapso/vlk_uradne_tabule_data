@@ -1,0 +1,102 @@
+[2026-07-03 05:32:40] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/571247'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=37&odbor=10&sekcia=uradna-tabula&subor=571247
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/571247/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/571247/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/571247/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0111146}
+LLM_tokens: {"input": 5050, "output": 3165, "total": 8215, "cached": 2012}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/571247/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/571247/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Turčianske Teplice', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Čremošné', 'parcely': []}, {'nazov': 'Dolná Štubňa', 'parcely': []}, {'nazov': 'Kremnické Bane', 'parcely': []}, {'nazov': 'Horná Štubňa', 'parcely': []}, {'nazov': 'Sklené pri Handlovej', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo dráhy v úsekoch Čremošné, Dolná Štubňa, Kremnické Bane, Horná Štubňa, Sklené', 'nazov_lokality_norm': 'Turčianske Teplice'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Turčianske Teplice', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Čremošné', 'parcely': []}, {'nazov': 'Dolná Štubňa', 'parcely': []}, {'nazov': 'Kremnické Bane', 'parcely': []}, {'nazov': 'Horná Štubňa', 'parcely': []}, {'nazov': 'Sklené pri Handlovej', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo dráhy v úsekoch Čremošné, Dolná Štubňa, Kremnické Bane, Horná Štubňa, Sklené', 'nazov_lokality_norm': 'Turčianske Teplice'}
+ku_name:Čremošné obec:None okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: cremosne
+_get_nationalCadastralZoningReferences() found_ids: {'809951'}
+nationalCadastralZoningReferences: ['809951']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27809951%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.20 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dolná Štubňa obec:None okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: dolna stubna
+_get_nationalCadastralZoningReferences() found_ids: {'811874'}
+nationalCadastralZoningReferences: ['811874']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27811874%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Kremnické Bane obec:None okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: kremnicke bane
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: kremnicke bane
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: kremnicke bane
+_get_nationalCadastralZoningReferences() found_ids: {'829021'}
+nationalCadastralZoningReferences: ['829021']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27829021%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.19 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Horná Štubňa obec:None okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: horna stubna
+_get_nationalCadastralZoningReferences() found_ids: {'817708'}
+nationalCadastralZoningReferences: ['817708']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27817708%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.19 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Sklené pri Handlovej obec:None okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: sklene pri handlovej
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: sklene pri handlovej
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: sklene pri handlovej
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+nazov_lokality: Turčianske Teplice
+get_geometry_of_a_geoname nazov_lokality: Turčianske Teplice
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Turčianske Teplice, Turčianske Teplice, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.80892 48.85468, 18.80895 48.85462...  ...  Turčianske Teplice, okres Turčianske Teplice, ...
+1  POLYGON ((18.80892 48.85468, 18.80895 48.85462...  ...  Turčianske Teplice, okres Turčianske Teplice, ...
+
+[2 rows x 11 columns]
+geoname_query: Turčianske Teplice, Turčianske Teplice, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.9109 48.85225, 18.91134 48....
+1  CadastralZoning  ...  MULTIPOLYGON (((18.83212 48.85425, 18.83223 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.8853 48.76049, 18.88637 48....
+3  CadastralZoning  ...  MULTIPOLYGON (((18.90553 48.83731, 18.90584 48...
+
+[4 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.80892 48.85468, 18.80895 48.85462...  ...  Turčianske Teplice, okres Turčianske Teplice, ...
+1  POLYGON ((18.80892 48.85468, 18.80895 48.85462...  ...  Turčianske Teplice, okres Turčianske Teplice, ...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/571247/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Dolná Štubňa', 'NATIONALSI': 'SKUEV0147', 'SITETITLE_': 'Žarnovica'}, {'parcel_label': 'Dolná Štubňa', 'NATIONALSI': 'SKUEV0147', 'SITETITLE_': 'Žarnovica'}], 'MCHU': [{'parcel_label': 'Dolná Štubňa', 'NATIONALSI': '902', 'SITETITLE_': 'CHA Žarnovica'}, {'parcel_label': 'Dolná Štubňa', 'NATIONALSI': '458', 'SITETITLE_': 'OP NPR Turiec'}, {'parcel_label': 'Dolná Štubňa', 'NATIONALSI': '902', 'SITETITLE_': 'CHA Žarnovica'}, {'parcel_label': 'Dolná Štubňa', 'NATIONALSI': '458', 'SITETITLE_': 'OP NPR Turiec'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/571247/analysis.json...
+
+--- Časy spracovania dokumentu 571247 ---
+  download_and_text   :   0.87 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.70 s
+  gis_processing      :   1.57 s
+  CELKOVÝ ČAS         :  16.14 s
+------------------------------------------
+Dokument 571247 bol úspešne spracovaný.

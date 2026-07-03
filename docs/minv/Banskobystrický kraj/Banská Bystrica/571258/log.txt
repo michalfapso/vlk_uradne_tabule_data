@@ -1,0 +1,61 @@
+[2026-07-03 05:26:52] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/571258'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=39&odbor=10&sekcia=uradna-tabula&subor=571258
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/571258/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-3-flash-preview for OCR.
+LLM_cost: {"cost": 0.026933000000000002}
+LLM_tokens: {"input": 5536, "output": 8965, "total": 14501, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/571258/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16a' zákona 'vodného zákona  Okresnému úradu Banská Bystrica, odboru starostlivosti o životné prostredie bola dňa 15.05.2026 doručená žiadosť SLOVENSKÝ VODOHOSPODÁ'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16a ods. 1' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 1' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 60 ods. 1 písm. i)' zákona 'vodného zákona na základe predloženého zámeru vydáva podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16a ods. 1' zákona 'vodného zákona k navrhovanej činnosti/stavbe „Sprietočnenie mŕtveho ramena Hrona“ toto  **záväzné stanovisko:**  Pred povolením navrhovanej činnosti/s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. 6 písm. b)' zákona 'vodného zákona.  **Odôvodnenie:** Účelom tohto záväzného stanoviska podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16a ods. 1' zákona 'vodného zákona je posúdenie významnosti vplyvu realizácie nového projektu „Sprietočnenie mŕtveho ramena Hrona“ na stav útvarov povrchovej vody a stav'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'vodného zákona a prijatie záveru, či je potrebné posúdenie tohto nového rozvojového projektu podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. 6 písm. b)' zákona 'vodného zákona, ktorý je transpozíciou článku 4.7 smernice Európskeho parlamentu a Rady 2000/60/ES z 23. októbra 2000, ktorou sa ustanovuje rámec pôso'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. 6 písm. b)' zákona 'vodného zákona.  Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16a ods. 6' zákona 'vodného zákona žiadateľ je oprávnený podať návrh na začatie konania o povolení činnosti, ak zo záväzného stanoviska vyplýva, že sa nevyžaduje výnimka'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 21' zákona 'vodného zákona je záväzné stanovisko podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16a ods. 1' zákona 'podkladom k vyjadreniu orgánu štátnej vodnej správy v územnom konaní k činnosti; ak sa územné konanie nevyžaduje, záväzné stanovisko je podkladom ku k'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16a ods. 5' zákona 'vodného zákona zverejní na webovom sídle okresného úradu v sídle kraja a na webovom sídle Ministerstva životného prostredia Slovenskej republiky po do'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.019984000000000002}
+LLM_tokens: {"input": 10862, "output": 4851, "total": 15713, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/571258/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/571258/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'mŕtve rameno Hrona v cca rkm 153,100 – 153,360', 'nazov_lokality_norm': 'Hron'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'mŕtve rameno Hrona v cca rkm 153,100 – 153,360', 'nazov_lokality_norm': 'Hron'}
+No geometries were found.
+nazov_lokality: Hron
+get_geometry_of_a_geoname nazov_lokality: Hron
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Hron, Banská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Hron, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Hron, Slovensko
+response: <Response [200]>
+Warning: GOOGLE_GEOCODING_API_KEY not set
+normalized: None
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 571258 ---
+  download_and_text   :  38.12 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  24.82 s
+  gis_processing      :   1.53 s
+  CELKOVÝ ČAS         :  64.48 s
+------------------------------------------
+Dokument 571258 bol úspešne spracovaný.

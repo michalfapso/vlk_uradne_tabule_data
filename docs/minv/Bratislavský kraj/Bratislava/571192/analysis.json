@@ -1,0 +1,111 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote určenej podľa § 29 ods. 5 prvej vety zákona č. 24/2006 Z. z."
+  },
+  "ziadatel_navrhovatel": "THERIMEX SLOVAKIA, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava III",
+    "obec": "Bratislava - Vajnory",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vajnory",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "2162/2",
+              "2166/1",
+              "2166/2",
+              "2166/20",
+              "2166/29",
+              "2165/1",
+              "2819/8",
+              "2819/9",
+              "2819/10",
+              "2758/20",
+              "2758/21",
+              "2166/3",
+              "2165/3",
+              "2167/5",
+              "2819/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "ulica Rybničná a Na Pántoch",
+    "nazov_lokality_norm": "Rybničná, Bratislava - Vajnory"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o začatí zisťovacieho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "umiestnenie 3 samostatných objektov ubytovacích zariadení",
+    "výstavba na spoločnej podnoži garáže"
+  ],
+  "rozsah_zasahu": "plocha 15 389,75 m2",
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "neudržiavaná zeleň"
+  ],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "24",
+        "18",
+        "3",
+        "56",
+        "29",
+        "64",
+        "30",
+        "38"
+      ]
+    },
+    {
+      "nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "nazov": "stavebný zákon",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "vodný zákon",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "21",
+        "26"
+      ]
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015 Z. z.",
+      "paragrafy": [
+        "178"
+      ]
+    }
+  ],
+  "zhrnutie": "Zisťovacie konanie k zámeru výstavby ubytovacieho zariadenia DIAMANT 2 v MČ Bratislava-Vajnory na ploche 15 389,75 m2. Projekt zahŕňa výstavbu troch objektov na aktuálne nezastavanom území pokrytom neudržiavanou zeleňou, ornou pôdou a trávnymi porastmi. Lokalita sa nachádza pri uliciach Rybničná a Na Pántoch.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

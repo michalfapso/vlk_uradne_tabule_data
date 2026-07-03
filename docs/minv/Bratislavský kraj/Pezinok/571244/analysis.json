@@ -1,0 +1,165 @@
+{
+  "cislo_konania_spisu": "OU-BA-OOP3-2026/512043-002",
+  "cislo_rozhodnutia": "OU-BA-OOP3-2026/512043-002",
+  "datum_dokumentu": "2026-06-26",
+  "datum_zverejnenia": "2026-06-26",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Halenárska 18 s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Budmerice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Budmerice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "649/125",
+              "649/126",
+              "649/131",
+              "649/132",
+              "649/141"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Obytný súbor Budmerice",
+    "nazov_lokality_norm": "Budmerice"
+  },
+  "typ_dokumentu": "Rozhodnutie o odvolaní voči záväznému stanovisku zo zisťovacieho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výstavba 31 rodinných domov",
+    "výstavba 3 bytových domov",
+    "vytvorenie 293 parkovacích stojísk",
+    "rozšírenie verejnej kanalizačnej siete",
+    "záber poľnohospodárskej pôdy"
+  ],
+  "rozsah_zasahu": "33 775 m2 (3,3 ha), 31 rodinných domov, 3 bytové domy, 293 parkovacích stojísk",
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/obytny-subor-budmerice",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "24",
+        "29",
+        "30",
+        "35",
+        "64"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": [
+        "4"
+      ]
+    },
+    {
+      "nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "cislo": "220/2004 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Odvolací orgán potvrdil rozhodnutie, že projekt 'Obytný súbor Budmerice' sa nebude ďalej posudzovať podľa zákona EIA. Ide o výstavbu 31 rodinných domov a 3 bytových domov na ploche viac ako 3,3 ha mimo zastavaného územia obce Budmerice. Lokalita nie je súčasťou žiadneho chráneného územia ani ochranného pásma ochrany prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Budmerice",
+          "NAZOV_UEV": "Lindava",
+          "KOD_UEV": "SKUEV0174"
+        },
+        {
+          "parcel_label": "Budmerice",
+          "NAZOV_UEV": "Lindava",
+          "KOD_UEV": "SKUEV0174"
+        },
+        {
+          "parcel_label": "Budmerice",
+          "NAZOV_UEV": "Lindava",
+          "KOD_UEV": "SKUEV0174"
+        },
+        {
+          "parcel_label": "Budmerice",
+          "NAZOV_UEV": "Lindava",
+          "KOD_UEV": "SKUEV0174"
+        },
+        {
+          "parcel_label": "Budmerice",
+          "NAZOV_UEV": "Lindava",
+          "KOD_UEV": "SKUEV0174"
+        },
+        {
+          "parcel_label": "Budmerice",
+          "NAZOV_UEV": "Lindava",
+          "KOD_UEV": "SKUEV0174"
+        },
+        {
+          "parcel_label": "Budmerice",
+          "NAZOV_UEV": "Lindava",
+          "KOD_UEV": "SKUEV0174"
+        },
+        {
+          "parcel_label": "Budmerice",
+          "NAZOV_UEV": "Lindava",
+          "KOD_UEV": "SKUEV0174"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Budmerice",
+          "NATIONALSI": "SKUEV0174",
+          "SITETITLE_": "Lindava"
+        },
+        {
+          "parcel_label": "Budmerice",
+          "NATIONALSI": "SKUEV0174",
+          "SITETITLE_": "Lindava"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Budmerice",
+          "NATIONALSI": "91",
+          "SITETITLE_": "PR Lindava"
+        },
+        {
+          "parcel_label": "Budmerice",
+          "NATIONALSI": "796",
+          "SITETITLE_": "PR Alúvium Gidry"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Budmerice",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "Budmerice",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

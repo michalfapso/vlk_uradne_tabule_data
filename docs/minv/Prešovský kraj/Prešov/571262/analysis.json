@@ -1,0 +1,82 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "PO CREMATION s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Prešov",
+    "obec": "Ľubotice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ľubotice",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Zvieracie krematórium - Ľubotice",
+    "nazov_lokality_norm": "Ľubotice"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť k zámeru navrhovanej činnosti",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "prevádzkovanie kremačnej pece",
+    "spaľovanie uhynutých malých spoločenských zvierat"
+  ],
+  "rozsah_zasahu": "spaľovanie uhynutých malých spoločenských zvierat",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "malé spoločenské zvieratá"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "24",
+        "18",
+        "3",
+        "56",
+        "64",
+        "30",
+        "29",
+        "38"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "nazov": "o ochrane ovzdušia",
+      "cislo": "146/2023 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o veterinárnej starostlivosti",
+      "cislo": "39/2007 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznam o začatí zisťovacieho konania pre zámer vybudovania zvieracieho krematória v katastrálnom území Ľubotice. Navrhovateľom je spoločnosť PO CREMATION s.r.o. a predmetom činnosti je spaľovanie uhynutých malých spoločenských zvierat v kremačnej peci.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,56 @@
+[2026-07-03 05:30:35] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/571249'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=66&odbor=10&sekcia=uradna-tabula&subor=571249
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/571249/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/571249/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov, v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov oznamuje začatie konania a súčasne nariaďuje k prerokovaniu návrhu ú'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov a musí byť vyvesené po dobu 15 dní na úradnej tabuli obce spolu so s'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0115593}
+LLM_tokens: {"input": 5661, "output": 3212, "total": 8873, "cached": 2016}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/571249/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/571249/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Hýľov', 'katastralne_uzemia': [{'nazov': 'Hýľov', 'parcely': [{'typ': 'C', 'cisla': ['192/2', '496/1', '496/2', '496/3']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Hýľov – ČOV', 'nazov_lokality_norm': 'Hýľov'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Hýľov', 'katastralne_uzemia': [{'nazov': 'Hýľov', 'parcely': [{'typ': 'C', 'cisla': ['192/2', '496/1', '496/2', '496/3']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Hýľov – ČOV', 'nazov_lokality_norm': 'Hýľov'}
+ku_name:Hýľov obec:Hýľov okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: hylov norm_ku: hylov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: hylov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: hylov
+_get_nationalCadastralZoningReferences() found_ids: {'820636'}
+nationalCadastralZoningReferences: ['820636']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27820636_192%2F2.C%27%2C%27820636_496%2F1.C%27%2C%27820636_496%2F2.C%27%2C%27820636_496%2F3.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.70 s
+nazov_lokality: Hýľov
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.912'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.912'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.912'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.912'}
+
+[4 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/571249/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/571249/analysis.json...
+
+--- Časy spracovania dokumentu 571249 ---
+  download_and_text   :   0.87 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.32 s
+  gis_processing      :   2.94 s
+  CELKOVÝ ČAS         :  17.14 s
+------------------------------------------
+Dokument 571249 bol úspešne spracovaný.

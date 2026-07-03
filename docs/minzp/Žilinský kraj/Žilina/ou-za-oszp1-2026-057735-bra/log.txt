@@ -1,0 +1,64 @@
+[2026-07-03 05:32:56] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-057735-bra'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-057735-bra/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-057735-bra/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0093539}
+LLM_tokens: {"input": 4495, "output": 2670, "total": 7165, "cached": 2008}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-057735-bra/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-057735-bra/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Lietavská Svinná', 'katastralne_uzemia': [{'nazov': 'Lietavská Svinná', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'mokraď', 'nazov_lokality_norm': None}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Lietavská Svinná', 'katastralne_uzemia': [{'nazov': 'Lietavská Svinná', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'mokraď', 'nazov_lokality_norm': None}
+ku_name:Lietavská Svinná obec:Lietavská Svinná okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: lietavska svinna norm_ku: lietavska svinna
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: lietavska svinna
+_get_nationalCadastralZoningReferences() found_ids: {'832162'}
+nationalCadastralZoningReferences: ['832162']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27832162%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.22 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: mokraď
+get_geometry_of_a_geoname nazov_lokality: mokraď
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=mokraď, Lietavská Svinná, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=mokraď, Žilina, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.29996 49.23151, 19.30011 49.23095...  ...  Mokraď, Dolný Kubín, okres Dolný Kubín, Žilins...
+
+[1 rows x 11 columns]
+geoname_query: mokraď, Žilina, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.67387 49.16056, 18.67473 49...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.29996 49.23151, 19.30011 49.23095...  ...  Mokraď, Dolný Kubín, okres Dolný Kubín, Žilins...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-057735-bra/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-057735-bra/analysis.json...
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-057735-bra ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.83 s
+  gis_processing      :   0.89 s
+  CELKOVÝ ČAS         :  13.23 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-057735-bra bol úspešne spracovaný.
