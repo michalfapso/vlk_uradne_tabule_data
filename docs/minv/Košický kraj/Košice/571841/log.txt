@@ -1,0 +1,52 @@
+[2026-07-20 19:41:13] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571841'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=65&odbor=10&sekcia=uradna-tabula&subor=571841
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571841/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.00034240000000000003}
+LLM_tokens: {"input": 334, "output": 837, "total": 1171, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571841/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 3' zákona 'na výrub 2 ks stromov javor'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'okresný úrad určuje na potvrdenie záujmu byť zúčastnenou osobou v uvedenom správnom konaní lehotu 5 pracovných dní od zverejnenia tohto oznámenia.  Po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona 'združenie s právnou subjektivitou uvedie v písomnom oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno a priezvi'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571841/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014286}
+LLM_tokens: {"input": 5292, "output": 3880, "total": 9172, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571841/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571841/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [{'nazov': 'Šaca', 'parcely': [{'typ': 'E', 'cisla': ['1865/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'lokalita Železiarenská ul. Košice', 'nazov_lokality_norm': 'Železiarenská, Košice'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [{'nazov': 'Šaca', 'parcely': [{'typ': 'E', 'cisla': ['1865/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'lokalita Železiarenská ul. Košice', 'nazov_lokality_norm': 'Železiarenská, Košice'}
+ku_name:Šaca obec:Košice okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: saca
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: saca
+_get_nationalCadastralZoningReferences() found_ids: {'827509'}
+nationalCadastralZoningReferences: ['827509']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27827509_1865%2F2.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.72 s
+nazov_lokality: Železiarenská, Košice
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.259'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571841/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571841/analysis.json...
+
+--- Časy spracovania dokumentu 571841 ---
+  download_and_text   :   5.69 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  15.11 s
+  gis_processing      :   2.93 s
+  CELKOVÝ ČAS         :  23.74 s
+------------------------------------------
+Dokument 571841 bol úspešne spracovaný.

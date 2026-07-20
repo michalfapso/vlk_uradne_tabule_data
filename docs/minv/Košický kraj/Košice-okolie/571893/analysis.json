@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2026/012259-013",
+  "cislo_rozhodnutia": "OU-KS-OSZP-2026/012259-013",
+  "datum_dokumentu": "2026-06-25",
+  "datum_zverejnenia": "2026-03-19",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa doručenia"
+  },
+  "ziadatel_navrhovatel": "SIBIN, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Žarnov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Haniska",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "904/94"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "k. ú. Haniska, mimo zastavaného územia obce, areál SIBIN s.r.o.",
+    "nazov_lokality_norm": "Haniska"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "výstavba skladovej haly",
+    "zhodnocovanie plastových odpadov činnosťou R3"
+  ],
+  "rozsah_zasahu": "skladová hala (výška 8,0 m), kapacita zhodnocovania 5 000 t/rok až 200 000 t/rok",
+  "typ_uzemia": [
+    "1. stupeň",
+    "ochranné pásmo letiska",
+    "ochranné pásmo leteckého pozemného zariadenia",
+    "ornitologické OP letiska"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/rozsirenie-zariadenia-na-zhodnocovanie-plastovych-odpadov-cinnostou-r3",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "2",
+        "18",
+        "24",
+        "29",
+        "30",
+        "38",
+        "56"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o odpadoch",
+      "cislo": "79/2015 Z. z.",
+      "paragrafy": [
+        "77"
+      ]
+    },
+    {
+      "nazov": "o ochrane ovzdušia",
+      "cislo": "146/2023 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Rozhodnutie zo zisťovacieho konania o výstavbe novej skladovej haly pre zhodnocovanie plastových odpadov v k. ú. Haniska v extraviláne. Projekt sa nachádza v 1. stupni ochrany a v ochranných pásmach Letiska Košice, pričom úrad určil, že sa činnosť nebude ďalej posudzovať podľa zákona EIA.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

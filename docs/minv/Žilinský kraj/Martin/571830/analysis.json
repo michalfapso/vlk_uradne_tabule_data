@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/015703",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-07-14",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Martin, Príbovce",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "traťový úsek od žkm 291,200 Príbovce – žkm 305,061 Martin",
+    "nazov_lokality_norm": "Príbovce - Martin"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "traťový úsek od žkm 291,200 do žkm 305,061",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47",
+        "47 ods. 8"
+      ]
+    }
+  ],
+  "zhrnutie": "Železnice Slovenskej republiky oznámili výrub drevín z dôvodu prevádzkovej bezpečnosti v traťovom úseku Príbovce – Martin v dĺžke takmer 14 km. Konanie sa týka vydania stanoviska podľa zákona o ochrane prírody, pričom účasť verejnosti je v tomto type konania vylúčená.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Príbovce",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Príbovce",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Príbovce",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

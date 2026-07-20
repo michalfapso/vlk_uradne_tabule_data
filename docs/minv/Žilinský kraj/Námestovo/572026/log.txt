@@ -1,0 +1,53 @@
+[2026-07-20 20:30:43] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/572026'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=33&odbor=10&sekcia=uradna-tabula&subor=572026
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/572026/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/572026/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona 'do          5 pracovných dní od zverejnenia oznámenia na Okresnom úrade Námestove, odbore  starostlivosti o životné prostredie, Miestneho priemyslu 57'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/572026/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0088065}
+LLM_tokens: {"input": 4785, "output": 2138, "total": 6923, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 60 column 1 (char 1549)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0057486}
+LLM_tokens: {"input": 4785, "output": 1722, "total": 6507, "cached": 4022}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/572026/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/572026/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Námestovo', 'obec': 'Lokca', 'katastralne_uzemia': [{'nazov': 'Lokca', 'parcely': [{'typ': 'E', 'cisla': ['6396', '6395', '6394']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'k. ú. Lokca', 'nazov_lokality_norm': 'Lokca'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Námestovo', 'obec': 'Lokca', 'katastralne_uzemia': [{'nazov': 'Lokca', 'parcely': [{'typ': 'E', 'cisla': ['6396', '6395', '6394']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'k. ú. Lokca', 'nazov_lokality_norm': 'Lokca'}
+ku_name:Lokca obec:Lokca okres:Námestovo kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: namestovo norm_obec: lokca norm_ku: lokca
+_get_nationalCadastralZoningReferences() found_ids: {'833011'}
+nationalCadastralZoningReferences: ['833011']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27833011_6396.E%27%2C%27833011_6395.E%27%2C%27833011_6394.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.28 s
+nazov_lokality: Lokca
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1544'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1544'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1544'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/572026/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '6394', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '6395', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '6396', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/572026/analysis.json...
+
+--- Časy spracovania dokumentu 572026 ---
+  download_and_text   :   1.03 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  17.98 s
+  gis_processing      :   3.48 s
+  CELKOVÝ ČAS         :  22.50 s
+------------------------------------------
+Dokument 572026 bol úspešne spracovaný.

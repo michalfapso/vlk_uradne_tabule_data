@@ -1,0 +1,84 @@
+[2026-07-20 20:24:03] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572200'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=5&odbor=10&sekcia=uradna-tabula&subor=572200
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572200/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572200/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 5' zákona 'v k. ú. Klčovany a v k. ú. Boleráz,  žiadateľ: Trnavský samosprávny kraj, Odbor riadenia projektov, Starohájska 10, P. O.  BOX 128, 917 01 Trnava'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie písomného alebo elektronického potvrdenia  záujmu byť zúčastnenou osobou podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ', v začatom správnom konaní je do:  27. 07. 2026.    Potvrdenie záujmu byť účastníkom v konkrétnom správnom konaní je potrebné doručiť  Okresnému úrad'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572200/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010994}
+LLM_tokens: {"input": 5434, "output": 2759, "total": 8193, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572200/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572200/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Boleráz', 'katastralne_uzemia': [{'nazov': 'Klčovany', 'parcely': []}, {'nazov': 'Boleráz', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'cyklotrasa Klčovany - Smolenice', 'nazov_lokality_norm': 'Klčovany - Smolenice'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Boleráz', 'katastralne_uzemia': [{'nazov': 'Klčovany', 'parcely': []}, {'nazov': 'Boleráz', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'cyklotrasa Klčovany - Smolenice', 'nazov_lokality_norm': 'Klčovany - Smolenice'}
+ku_name:Klčovany obec:Boleráz okres:Trnava kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: boleraz norm_ku: klcovany
+_get_nationalCadastralZoningReferences() found_ids: {'803596'}
+nationalCadastralZoningReferences: ['803596']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27803596%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Boleráz obec:Boleráz okres:Trnava kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: boleraz norm_ku: boleraz
+_get_nationalCadastralZoningReferences() found_ids: {'803588'}
+nationalCadastralZoningReferences: ['803588']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27803588%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Klčovany - Smolenice
+get_geometry_of_a_geoname nazov_lokality: Klčovany - Smolenice
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Klčovany - Smolenice, Boleráz, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Klčovany - Smolenice, Trnava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Klčovany - Smolenice, Trnavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Klčovany - Smolenice, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.4533429, 'lon': 17.5053071, 'formatted_address': 'Klčovany, 919 08 Boleráz, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Klčovany, 919 08 Boleráz, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.51148 48.45269, 17.51191 48.45182...  ...  Klčovany, Pri letisku, Klčovany, Boleráz, okre...
+
+[1 rows x 11 columns]
+geoname_query: Klčovany, 919 08 Boleráz, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.48449 48.44753, 17.48456 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((17.45129 48.49084, 17.45131 48...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.51148 48.45269, 17.51191 48.45182...  ...  Klčovany, Pri letisku, Klčovany, Boleráz, okre...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572200/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572200/analysis.json...
+
+--- Časy spracovania dokumentu 572200 ---
+  download_and_text   :   0.88 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  13.22 s
+  gis_processing      :   2.63 s
+  CELKOVÝ ČAS         :  16.74 s
+------------------------------------------
+Dokument 572200 bol úspešne spracovaný.

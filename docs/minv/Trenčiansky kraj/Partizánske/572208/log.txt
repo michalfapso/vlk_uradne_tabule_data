@@ -1,0 +1,60 @@
+[2026-07-20 20:05:46] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/572208'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=19&odbor=10&sekcia=uradna-tabula&subor=572208
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/572208/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 3 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0262224}
+LLM_tokens: {"input": 850, "output": 65537, "total": 66387, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/572208/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/572208/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.04441}
+LLM_tokens: {"input": 69812, "output": 3168, "total": 72980, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/572208/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/572208/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Partizánske', 'obec': 'Partizánske', 'katastralne_uzemia': [{'nazov': 'Brodzany', 'parcely': [{'typ': 'C', 'cisla': ['1583/1', '1350', '1349', '1371/1', '1385', '1386', '1387', '1388', '1389', '1390', '1391', '1392', '1394', '1397', '1168/1']}]}, {'nazov': 'Partizánske', 'parcely': [{'typ': 'C', 'cisla': ['4944/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 400 kV vedenia V483/484 Križovany Bystričany', 'nazov_lokality_norm': 'V483/484 Križovany Bystričany'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Partizánske', 'obec': 'Partizánske', 'katastralne_uzemia': [{'nazov': 'Brodzany', 'parcely': [{'typ': 'C', 'cisla': ['1583/1', '1350', '1349', '1371/1', '1385', '1386', '1387', '1388', '1389', '1390', '1391', '1392', '1394', '1397', '1168/1']}]}, {'nazov': 'Partizánske', 'parcely': [{'typ': 'C', 'cisla': ['4944/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 400 kV vedenia V483/484 Križovany Bystričany', 'nazov_lokality_norm': 'V483/484 Križovany Bystričany'}
+ku_name:Brodzany obec:Partizánske okres:Partizánske kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: partizanske norm_obec: partizanske norm_ku: brodzany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: partizanske norm_obec: None norm_ku: brodzany
+_get_nationalCadastralZoningReferences() found_ids: {'806978'}
+nationalCadastralZoningReferences: ['806978']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27806978_1583%2F1.C%27%2C%27806978_1350.C%27%2C%27806978_1349.C%27%2C%27806978_1371%2F1.C%27%2C%27806978_1385.C%27%2C%27806978_1386.C%27%2C%27806978_1387.C%27%2C%27806978_1388.C%27%2C%27806978_1389.C%27%2C%27806978_1390.C%27%2C%27806978_1391.C%27%2C%27806978_1392.C%27%2C%27806978_1394.C%27%2C%27806978_1397.C%27%2C%27806978_1168%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.54 s
+ku_name:Partizánske obec:Partizánske okres:Partizánske kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: partizanske norm_obec: partizanske norm_ku: partizanske
+_get_nationalCadastralZoningReferences() found_ids: {'845426'}
+nationalCadastralZoningReferences: ['845426']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27845426_4944%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.14 s
+nazov_lokality: V483/484 Križovany Bystričany
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2922'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2922'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2922'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2922'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.2700'}
+
+[5 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/572208/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/572208/analysis.json...
+
+--- Časy spracovania dokumentu 572208 ---
+  download_and_text   : 161.19 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  16.23 s
+  gis_processing      :   6.91 s
+  CELKOVÝ ČAS         : 184.34 s
+------------------------------------------
+Dokument 572208 bol úspešne spracovaný.

@@ -1,0 +1,56 @@
+[2026-07-20 19:35:15] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571872'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=1&odbor=10&sekcia=uradna-tabula&subor=571872
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571872/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571872/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. (3)' zákona ', združenie s právnou subjektivitou, ktorého predmetom činnosti je najmenej jeden rok ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. (1)' zákona ', a ktoré a ktoré písomne oznámi svoju účasť v konaní v lehote určenej orgánom ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'sa považuje za zúčastnenú osobu.           Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. (6)' zákona ', združenie podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'uvedie v písomnom oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo  organizácie, meno a priezvisko osoby oprávnenej konať v jeho'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571872/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009019}
+LLM_tokens: {"input": 5462, "output": 2096, "total": 7558, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571872/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571872/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Národná kultúrna pamiatka Pajštún', 'nazov_lokality_norm': 'Pajštún'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Národná kultúrna pamiatka Pajštún', 'nazov_lokality_norm': 'Pajštún'}
+No geometries were found.
+nazov_lokality: Pajštún
+get_geometry_of_a_geoname nazov_lokality: Pajštún
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Pajštún, Bratislava, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((16.94969 48.26849, 16.94971 48...  ...  Borinka, okres Malacky, Bratislavský kraj, 900...
+
+[1 rows x 11 columns]
+geoname_query: Pajštún, Bratislava, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((16.94969 48.26849, 16.94971 48...  ...  Borinka, okres Malacky, Bratislavský kraj, 900...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571872/gis.geojson...
+Intersections with protected areas...
+Found 32 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 8 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}], 'UEV': [{'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKUEV0104', 'SITETITLE_': 'Homoľské Karpaty'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKUEV0313', 'SITETITLE_': 'Devínske jazero'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKUEV0314', 'SITETITLE_': 'Morava'}], 'MCHU': [{'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': '1356', 'SITETITLE_': 'PR Vydrica'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': '1072', 'SITETITLE_': 'CHA Devínske alúvium Moravy'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': '68', 'SITETITLE_': 'PR Jurské jazero'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': '1384', 'SITETITLE_': 'PP Zbojnícka jaskyňa'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': '160', 'SITETITLE_': 'PR Strmina'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': '1385', 'SITETITLE_': 'PP Prielezná jaskyňa'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': '134', 'SITETITLE_': 'PR Pod Pajštúnom'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': '1262', 'SITETITLE_': 'CHA Devínske jazero'}], 'CHVU': [{'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': 'Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/571872/analysis.json...
+
+--- Časy spracovania dokumentu 571872 ---
+  download_and_text   :   1.11 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   8.60 s
+  gis_processing      :   0.46 s
+  CELKOVÝ ČAS         :  10.18 s
+------------------------------------------
+Dokument 571872 bol úspešne spracovaný.

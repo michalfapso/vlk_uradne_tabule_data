@@ -1,0 +1,88 @@
+[2026-07-20 20:28:12] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572209'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=32&odbor=10&sekcia=uradna-tabula&subor=572209
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572209/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572209/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm. b)' zákona '251/2012 Z. z. o energetike a o zmene  a doplnení niektorých zákonov v znení neskorších predpisov, doručeného tunajšiemu úradu dňa 15.  07. 2026 od oz'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572209/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009649}
+LLM_tokens: {"input": 4868, "output": 2405, "total": 7273, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 55 column 1 (char 1511)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00884065}
+LLM_tokens: {"input": 4868, "output": 2739, "total": 7607, "cached": 4023}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 54 column 1 (char 1501)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00880465}
+LLM_tokens: {"input": 4868, "output": 2727, "total": 7595, "cached": 4023}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572209/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572209/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': 'Martin', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo VN vedenia', 'nazov_lokality_norm': 'VN vedenie'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': 'Martin', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo VN vedenia', 'nazov_lokality_norm': 'VN vedenie'}
+Fallback to OBEC: Martin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: martin norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'872407', '849839', '836168', '836273'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27872407%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.43 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27849839%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27836168%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.38 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27836273%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.19 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VN vedenie
+get_geometry_of_a_geoname nazov_lokality: VN vedenie
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN vedenie, Martin, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN vedenie, Martin, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN vedenie, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN vedenie, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0616613, 'lon': 18.9190235, 'formatted_address': '036 01 Martin, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=036 01 Martin, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.84145 49.10051, 18.84209 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.83687 49.12703, 18.83794 49...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.82092 49.09836, 18.82094 49...
+3  CadastralZoning  ...  MULTIPOLYGON (((18.94319 49.06667, 18.94386 49...
+
+[4 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572209/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Priekopa', 'NAZOV_UEV': 'Lúčanská Fatra', 'KOD_UEV': 'SKUEV0930'}, {'parcel_label': 'Martin', 'NAZOV_UEV': 'Lúčanská Fatra', 'KOD_UEV': 'SKUEV0930'}], 'UEV': [{'parcel_label': 'Priekopa', 'NATIONALSI': 'SKUEV0930', 'SITETITLE_': 'Lúčanská Fatra'}, {'parcel_label': 'Martin', 'NATIONALSI': 'SKUEV0382', 'SITETITLE_': 'Turiec a Blatnický potok'}, {'parcel_label': 'Martin', 'NATIONALSI': 'SKUEV0930', 'SITETITLE_': 'Lúčanská Fatra'}], 'MCHU': [{'parcel_label': 'Martin', 'NATIONALSI': '458', 'SITETITLE_': 'OP NPR Turiec'}, {'parcel_label': 'Martin', 'NATIONALSI': '458', 'SITETITLE_': 'NPR Turiec'}], 'CHVU': [{'parcel_label': 'Záturčie', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}, {'parcel_label': 'Priekopa', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}, {'parcel_label': 'Martin', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572209/analysis.json...
+
+--- Časy spracovania dokumentu 572209 ---
+  download_and_text   :   1.61 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  36.08 s
+  gis_processing      :   3.28 s
+  CELKOVÝ ČAS         :  40.99 s
+------------------------------------------
+Dokument 572209 bol úspešne spracovaný.

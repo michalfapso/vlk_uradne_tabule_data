@@ -1,0 +1,49 @@
+[2026-07-20 19:31:52] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/572101'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=42&odbor=10&sekcia=uradna-tabula&subor=572101
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/572101/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/572101/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'tretia veta zákona č. 543/2002 Z. z. o ochrane  prírody a krajiny povinný zverejniť oznámenie o výrube na svojom webovom sídle a to  najneskôr do troc'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/572101/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0108565}
+LLM_tokens: {"input": 6509, "output": 2837, "total": 9346, "cached": 2020}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/572101/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/572101/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Husiná', 'katastralne_uzemia': [{'nazov': 'Husiná', 'parcely': [{'typ': 'E', 'cisla': ['943/1']}, {'typ': 'C', 'cisla': ['411/1']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'v ochrannom pásme/pod elektrickým vedením VN', 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Husiná', 'katastralne_uzemia': [{'nazov': 'Husiná', 'parcely': [{'typ': 'E', 'cisla': ['943/1']}, {'typ': 'C', 'cisla': ['411/1']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'v ochrannom pásme/pod elektrickým vedením VN', 'nazov_lokality_norm': None}
+ku_name:Husiná obec:Husiná okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: husina norm_ku: husina
+_get_nationalCadastralZoningReferences() found_ids: {'820491'}
+nationalCadastralZoningReferences: ['820491']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27820491_943%2F1.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.69 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27820491_411%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.10 s
+nazov_lokality: v ochrannom pásme/pod elektrickým vedením VN
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2984'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2984'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/572101/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/572101/analysis.json...
+
+--- Časy spracovania dokumentu 572101 ---
+  download_and_text   :   0.89 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.21 s
+  gis_processing      :   5.99 s
+  CELKOVÝ ČAS         :  18.10 s
+------------------------------------------
+Dokument 572101 bol úspešne spracovaný.

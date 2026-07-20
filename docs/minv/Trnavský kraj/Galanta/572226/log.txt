@@ -1,0 +1,74 @@
+[2026-07-20 20:16:35] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572226'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=7&odbor=10&sekcia=uradna-tabula&subor=572226
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572226/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572226/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572226/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010663}
+LLM_tokens: {"input": 5054, "output": 2712, "total": 7766, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572226/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572226/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Kajal', 'katastralne_uzemia': [{'nazov': 'Kajal', 'parcely': []}, {'nazov': 'Váhovce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'VS Kráľová', 'nazov_lokality_norm': 'Kráľová'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Kajal', 'katastralne_uzemia': [{'nazov': 'Kajal', 'parcely': []}, {'nazov': 'Váhovce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'VS Kráľová', 'nazov_lokality_norm': 'Kráľová'}
+ku_name:Kajal obec:Kajal okres:Galanta kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: kajal norm_ku: kajal
+_get_nationalCadastralZoningReferences() found_ids: {'822965'}
+nationalCadastralZoningReferences: ['822965']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27822965%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.22 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Váhovce obec:Kajal okres:Galanta kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: kajal norm_ku: vahovce
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: None norm_ku: vahovce
+_get_nationalCadastralZoningReferences() found_ids: {'866709'}
+nationalCadastralZoningReferences: ['866709']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27866709%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Kráľová
+get_geometry_of_a_geoname nazov_lokality: Kráľová
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Kráľová, Kajal, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.74186 48.28047, 17.74234 48.2789,...  ...  Vodné dielo Kráľová, Šoporňa, okres Galanta, T...
+
+[1 rows x 11 columns]
+geoname_query: Kráľová, Kajal, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.79958 48.22111, 17.7998 48....
+1  CadastralZoning  ...  MULTIPOLYGON (((17.80029 48.26201, 17.80175 48...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.74186 48.28047, 17.74234 48.2789,...  ...  Vodné dielo Kráľová, Šoporňa, okres Galanta, T...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572226/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Kajal', 'NATIONALSI': 'SKCHVU010', 'SITETITLE_': 'Kráľová'}, {'parcel_label': 'Váhovce', 'NATIONALSI': 'SKCHVU010', 'SITETITLE_': 'Kráľová'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572226/analysis.json...
+
+--- Časy spracovania dokumentu 572226 ---
+  download_and_text   :   1.10 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.46 s
+  gis_processing      :   1.00 s
+  CELKOVÝ ČAS         :  12.56 s
+------------------------------------------
+Dokument 572226 bol úspešne spracovaný.

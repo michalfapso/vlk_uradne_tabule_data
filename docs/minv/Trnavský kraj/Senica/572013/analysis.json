@@ -1,0 +1,80 @@
+{
+  "cislo_konania_spisu": "OU-SE-OSZP-2026/015657-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-16",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "HYDROTEAM s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Senica",
+    "obec": "Hlboké",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hlboké",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "VDJ Hlboké",
+    "nazov_lokality_norm": "Hlboké"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "VYSTAVBA_V_PRIRODE",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "vybudovanie prístupovej komunikácie",
+    "komplexná obnova VDJ"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "§ 82 ods. 7"
+      ]
+    },
+    {
+      "nazov": "Zákon o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "§ 19"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti o výrub drevín v k. ú. Hlboké mimo zastavaného územia. Výrub je potrebný pre výstavbu prístupovej cesty k vodovodu a obnovu vodojemu (VDJ Hlboké). Záujemcovia o účasť v konaní sa môžu prihlásiť do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Hlboké",
+          "NATIONALSI": "SKUEV0173",
+          "SITETITLE_": "Kotlina"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Hlboké",
+          "NATIONALSI": "1192",
+          "SITETITLE_": "CHA Kotlina"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

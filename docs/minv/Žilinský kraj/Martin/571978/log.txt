@@ -1,0 +1,87 @@
+[2026-07-20 20:28:53] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571978'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=32&odbor=10&sekcia=uradna-tabula&subor=571978
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571978/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571978/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571978/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010069999999999999}
+LLM_tokens: {"input": 5122, "output": 2503, "total": 7625, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571978/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571978/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Valča', 'parcely': []}, {'nazov': 'Trnovo', 'parcely': []}, {'nazov': 'Trebostovo', 'parcely': []}, {'nazov': 'Turčiansky Peter', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod el. vedením linky VN č. 269', 'nazov_lokality_norm': 'VN č. 269'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Valča', 'parcely': []}, {'nazov': 'Trnovo', 'parcely': []}, {'nazov': 'Trebostovo', 'parcely': []}, {'nazov': 'Turčiansky Peter', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod el. vedením linky VN č. 269', 'nazov_lokality_norm': 'VN č. 269'}
+ku_name:Valča obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: valca
+_get_nationalCadastralZoningReferences() found_ids: {'867250'}
+nationalCadastralZoningReferences: ['867250']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27867250%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Trnovo obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: trnovo
+_get_nationalCadastralZoningReferences() found_ids: {'865435'}
+nationalCadastralZoningReferences: ['865435']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27865435%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.19 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Trebostovo obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: trebostovo
+_get_nationalCadastralZoningReferences() found_ids: {'864315'}
+nationalCadastralZoningReferences: ['864315']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27864315%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.22 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Turčiansky Peter obec:None okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: turciansky peter
+_get_nationalCadastralZoningReferences() found_ids: {'865931'}
+nationalCadastralZoningReferences: ['865931']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27865931%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.19 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VN č. 269
+get_geometry_of_a_geoname nazov_lokality: VN č. 269
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN č. 269, Martin, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN č. 269, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN č. 269, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0616613, 'lon': 18.9190235, 'formatted_address': '036 01 Martin, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=036 01 Martin, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.76943 49.06153, 18.7702 49....
+1  CadastralZoning  ...  MULTIPOLYGON (((18.78105 49.05565, 18.78118 49...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.78488 49.06466, 18.78518 49...
+3  CadastralZoning  ...  MULTIPOLYGON (((18.82744 49.0455, 18.82797 49....
+
+[4 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571978/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+Found 6 intersecting parcels with 'MCHU'.
+Found 4 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Trnovo', 'NATIONALSI': 'SKUEV0382', 'SITETITLE_': 'Turiec a Blatnický potok'}, {'parcel_label': 'Trebostovo', 'NATIONALSI': 'SKUEV0382', 'SITETITLE_': 'Turiec a Blatnický potok'}, {'parcel_label': 'Turčiansky Peter', 'NATIONALSI': 'SKUEV0382', 'SITETITLE_': 'Turiec a Blatnický potok'}], 'MCHU': [{'parcel_label': 'Trnovo', 'NATIONALSI': '458', 'SITETITLE_': 'OP NPR Turiec'}, {'parcel_label': 'Trnovo', 'NATIONALSI': '458', 'SITETITLE_': 'NPR Turiec'}, {'parcel_label': 'Trebostovo', 'NATIONALSI': '458', 'SITETITLE_': 'OP NPR Turiec'}, {'parcel_label': 'Trebostovo', 'NATIONALSI': '458', 'SITETITLE_': 'NPR Turiec'}, {'parcel_label': 'Turčiansky Peter', 'NATIONALSI': '458', 'SITETITLE_': 'OP NPR Turiec'}, {'parcel_label': 'Turčiansky Peter', 'NATIONALSI': '458', 'SITETITLE_': 'NPR Turiec'}], 'CHVU': [{'parcel_label': 'Valča', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}, {'parcel_label': 'Trnovo', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}, {'parcel_label': 'Trebostovo', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}, {'parcel_label': 'Turčiansky Peter', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/571978/analysis.json...
+
+--- Časy spracovania dokumentu 571978 ---
+  download_and_text   :   0.94 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.99 s
+  gis_processing      :   3.50 s
+  CELKOVÝ ČAS         :  15.43 s
+------------------------------------------
+Dokument 571978 bol úspešne spracovaný.

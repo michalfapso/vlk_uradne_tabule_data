@@ -1,0 +1,117 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/016136",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-15",
+  "datum_zverejnenia": "2026-07-20",
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Pavol Čierny FUCHSFARM",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Martin",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "ochranné pásmo VN vedenia",
+    "nazov_lokality_norm": "VN vedenie"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub drevín rastúcich mimo les",
+    "výrub drevín v ochrannom pásme VN vedenia"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11 ods. 1 písm. b)"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube drevín rastúcich mimo les v ochrannom pásme VN vedenia v okrese Martin. Podnet podal Pavol Čierny FUCHSFARM dňa 15. 07. 2026. Dokument má len informačný charakter, nejde o správne konanie a verejnosť sa doň nemôže prihlásiť.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Priekopa",
+          "NAZOV_UEV": "Lúčanská Fatra",
+          "KOD_UEV": "SKUEV0930"
+        },
+        {
+          "parcel_label": "Martin",
+          "NAZOV_UEV": "Lúčanská Fatra",
+          "KOD_UEV": "SKUEV0930"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Priekopa",
+          "NATIONALSI": "SKUEV0930",
+          "SITETITLE_": "Lúčanská Fatra"
+        },
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        },
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "SKUEV0930",
+          "SITETITLE_": "Lúčanská Fatra"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Záturčie",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "Priekopa",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

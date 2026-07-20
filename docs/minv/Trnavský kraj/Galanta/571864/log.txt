@@ -1,0 +1,82 @@
+[2026-07-20 20:17:54] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571864'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=7&odbor=10&sekcia=uradna-tabula&subor=571864
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571864/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571864/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571864/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01701}
+LLM_tokens: {"input": 5250, "output": 4795, "total": 10045, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571864/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571864/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Abrahám, Pusté Úľany', 'katastralne_uzemia': [{'nazov': 'Pusté Úľany', 'parcely': [{'typ': 'C', 'cisla': ['509/32']}, {'typ': 'E', 'cisla': ['497/10', '497/6', '497/5', '497/4', '497/3', '514/2', '515', '542']}]}, {'nazov': 'Abrahám', 'parcely': [{'typ': 'C', 'cisla': ['692', '693']}, {'typ': 'E', 'cisla': ['886', '889', '683', '679', '676', '680', '675', '674']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo elektrického vedenia 400 kV č. 439 TR: Križovany – Podunajské Biskupice p. b. č. 34 - 35, 35 – 36, 46 - 47, 47 - 48', 'nazov_lokality_norm': 'Križovany – Podunajské Biskupice'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Abrahám, Pusté Úľany', 'katastralne_uzemia': [{'nazov': 'Pusté Úľany', 'parcely': [{'typ': 'C', 'cisla': ['509/32']}, {'typ': 'E', 'cisla': ['497/10', '497/6', '497/5', '497/4', '497/3', '514/2', '515', '542']}]}, {'nazov': 'Abrahám', 'parcely': [{'typ': 'C', 'cisla': ['692', '693']}, {'typ': 'E', 'cisla': ['886', '889', '683', '679', '676', '680', '675', '674']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo elektrického vedenia 400 kV č. 439 TR: Križovany – Podunajské Biskupice p. b. č. 34 - 35, 35 – 36, 46 - 47, 47 - 48', 'nazov_lokality_norm': 'Križovany – Podunajské Biskupice'}
+ku_name:Pusté Úľany obec:Abrahám, Pusté Úľany okres:Galanta kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: abraham norm_ku: puste ulany
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: None norm_ku: puste ulany
+_get_nationalCadastralZoningReferences() found_ids: {'850730'}
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: puste ulany norm_ku: puste ulany
+_get_nationalCadastralZoningReferences() found_ids: {'850730'}
+nationalCadastralZoningReferences: ['850730']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27850730_509%2F32.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.21 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27850730_497%2F10.E%27%2C%27850730_497%2F6.E%27%2C%27850730_497%2F5.E%27%2C%27850730_497%2F4.E%27%2C%27850730_497%2F3.E%27%2C%27850730_514%2F2.E%27%2C%27850730_515.E%27%2C%27850730_542.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.65 s
+ku_name:Abrahám obec:Abrahám, Pusté Úľany okres:Galanta kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: abraham norm_ku: abraham
+_get_nationalCadastralZoningReferences() found_ids: {'800058'}
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: puste ulany norm_ku: abraham
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: None norm_ku: abraham
+_get_nationalCadastralZoningReferences() found_ids: {'800058'}
+nationalCadastralZoningReferences: ['800058']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27800058_692.C%27%2C%27800058_693.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.34 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27800058_886.E%27%2C%27800058_889.E%27%2C%27800058_683.E%27%2C%27800058_679.E%27%2C%27800058_676.E%27%2C%27800058_680.E%27%2C%27800058_675.E%27%2C%27800058_674.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.69 s
+nazov_lokality: Križovany – Podunajské Biskupice
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...   {'@href': '#auAdmUnitS.972'}
+1   CadastralParcel  ...   {'@href': '#auAdmUnitS.972'}
+2   CadastralParcel  ...   {'@href': '#auAdmUnitS.972'}
+3   CadastralParcel  ...   {'@href': '#auAdmUnitS.972'}
+4   CadastralParcel  ...   {'@href': '#auAdmUnitS.972'}
+5   CadastralParcel  ...   {'@href': '#auAdmUnitS.972'}
+6   CadastralParcel  ...   {'@href': '#auAdmUnitS.972'}
+7   CadastralParcel  ...   {'@href': '#auAdmUnitS.972'}
+8   CadastralParcel  ...   {'@href': '#auAdmUnitS.972'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1289'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1289'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1289'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1289'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1289'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1289'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1289'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1289'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1289'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1289'}
+
+[19 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571864/gis.geojson...
+Intersections with protected areas...
+Found 19 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '509/32', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '497/10', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '497/5', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '497/4', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '497/3', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '514/2', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '515', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '542', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '497/6', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '692', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '693', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '675', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '683', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '679', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '674', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '886', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '680', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '676', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': '889', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571864/analysis.json...
+
+--- Časy spracovania dokumentu 571864 ---
+  download_and_text   :   0.84 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  18.65 s
+  gis_processing      :  14.17 s
+  CELKOVÝ ČAS         :  33.66 s
+------------------------------------------
+Dokument 571864 bol úspešne spracovaný.

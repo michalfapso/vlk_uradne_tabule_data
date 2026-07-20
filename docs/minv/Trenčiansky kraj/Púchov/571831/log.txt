@@ -1,0 +1,62 @@
+[2026-07-20 20:11:37] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571831'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=20&odbor=10&sekcia=uradna-tabula&subor=571831
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571831/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571831/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. (5)' zákona 'NR SR č. 25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov /ďalej len „stavebný zákon“/doterajšie predpisy v znení účinnom do 31. m'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. (1)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. (1)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej vodnej správy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. (1)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona 'súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'v' zákona 'súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69 ods. (1)' zákona '50/1976 zákon o územnom plánovaní a stavebnom poriadku a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 5' zákona 'vodného zákona a súčasne nariaďuje ústne pojednávanie spojené s miestnym zisťovaním na deň: 13. augusta'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69 ods. 2' zákona 'stavebného zákona a musí byť vyvesené po dobu 15 dní spôsobom v mieste obvyklým: na úradnej tabuli Mesta Púchov a na úradnej tabuli správneho orgánu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. a' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571831/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0142365}
+LLM_tokens: {"input": 8979, "output": 3249, "total": 12228, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571831/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571831/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Púchov', 'katastralne_uzemia': [{'nazov': 'Púchov', 'parcely': [{'typ': None, 'cisla': ['2443/11', '2484/2', '2484/3']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'lokality Potôčky a Samoty', 'nazov_lokality_norm': 'Samoty'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Púchov', 'katastralne_uzemia': [{'nazov': 'Púchov', 'parcely': [{'typ': None, 'cisla': ['2443/11', '2484/2', '2484/3']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'lokality Potôčky a Samoty', 'nazov_lokality_norm': 'Samoty'}
+ku_name:Púchov obec:Púchov okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: puchov norm_ku: puchov
+_get_nationalCadastralZoningReferences() found_ids: {'850462'}
+nationalCadastralZoningReferences: ['850462']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27850462_2443%2F11.C%27%2C%27850462_2484%2F2.C%27%2C%27850462_2484%2F3.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.53 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27850462_2443%2F11.E%27%2C%27850462_2484%2F2.E%27%2C%27850462_2484%2F3.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.03 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+nazov_lokality: Samoty
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1645'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1645'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1645'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571831/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/571831/analysis.json...
+
+--- Časy spracovania dokumentu 571831 ---
+  download_and_text   :   1.86 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.97 s
+  gis_processing      :   6.76 s
+  CELKOVÝ ČAS         :  25.60 s
+------------------------------------------
+Dokument 571831 bol úspešne spracovaný.

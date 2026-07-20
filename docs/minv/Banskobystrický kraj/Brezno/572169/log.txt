@@ -1,0 +1,57 @@
+[2026-07-20 19:29:52] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572169'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=572169
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572169/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572169/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 38 ods. 2' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov Názov Žiadosť o predíženie platnosti súhlasu zhromaž'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 97 ods. (17)' zákona 'NR SR č. 79/2015 Z.z. o odpadoch a o zmene a doplnení niektorých zákonov takto: V súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 28' zákona 'vyhlášky MŽP SR Č. 371/2015 Z.z., ktorou sa vykonávajú niektoré ustanovenia zákona o odpadoch, uvádzame nasledovné údaje: a) Identifikačné údaje žiada'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§97 ods. 1 písm. i)' zákona 'NR SR č. 79/2015 z.z.) Žiadate!' navrhuje zhromažďovať odpad bez predchádzajúceho triedenia v mieste nakladania: ŽP EKO QELET a.s" prevádzka Štiavničk'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§28' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§21 ods. (3) písm. c)' zákona 'vyhlášky č. 371/2015 Z.z.) Od vydania posledného súhlasu nenastali žiadne zmeny skutočností, ktoré sú rozhodujúce pre vydanie súhlasu. g) Údaje o výsl'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§21 ods. (3) písm. d)' zákona 'vyhlášky č. 371/2015 Z.z.) V zariadení nebola vykonaná žiadna kontrola orgánom štátnej správy odpadového hospodárstva. h) Dôležité skutočnosti, ktoré'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§21 ods. (3) písm. e)' zákona 'vyhlášky č. 371/2015 Z.z.) Nie sú nám známe nijaké dôležité skutočnosti, ktoré môžu ovplyvniť dot~jší spôsob nakladania s odpadmi. Prílohy: Platný súh'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0141085}
+LLM_tokens: {"input": 7925, "output": 3382, "total": 11307, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 84 column 1 (char 2361)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01123855}
+LLM_tokens: {"input": 7925, "output": 3033, "total": 10958, "cached": 4051}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572169/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572169/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Podbrezová', 'katastralne_uzemia': [{'nazov': 'Podbrezová', 'parcely': [{'typ': 'C', 'cisla': ['1510/3']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'časť Štiavnička, priemyselný areál', 'nazov_lokality_norm': 'Štiavnička, Podbrezová'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Podbrezová', 'katastralne_uzemia': [{'nazov': 'Podbrezová', 'parcely': [{'typ': 'C', 'cisla': ['1510/3']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'časť Štiavnička, priemyselný areál', 'nazov_lokality_norm': 'Štiavnička, Podbrezová'}
+ku_name:Podbrezová obec:Podbrezová okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: podbrezova norm_ku: podbrezova
+_get_nationalCadastralZoningReferences() found_ids: {'847216'}
+nationalCadastralZoningReferences: ['847216']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27847216_1510%2F3.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.12 s
+nazov_lokality: Štiavnička, Podbrezová
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2607'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572169/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572169/analysis.json...
+
+--- Časy spracovania dokumentu 572169 ---
+  download_and_text   :   1.41 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  27.45 s
+  gis_processing      :   3.32 s
+  CELKOVÝ ČAS         :  32.18 s
+------------------------------------------
+Dokument 572169 bol úspešne spracovaný.

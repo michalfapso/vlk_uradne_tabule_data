@@ -1,0 +1,180 @@
+{
+  "cislo_konania_spisu": "OU-KN-OSZP-2026/017699-002-ZF",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "HYDROMELIORÁCIE, š. p.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Komárno",
+    "obec": "Komárno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Komárno",
+        "parcely": []
+      },
+      {
+        "nazov": "Iža",
+        "parcely": []
+      },
+      {
+        "nazov": "Svätý Peter",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "kanál Madzagos 1, kanál Hajlás D4, kanál Komočín",
+    "nazov_lokality_norm": "Madzagos 1, Hajlás D4, Komočín"
+  },
+  "typ_dokumentu": "Oznámenie o výrube stromov mimo správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub stromov",
+    "údržba odvodňovacích kanálov",
+    "oprava stavidiel"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47",
+        "81"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "52",
+        "53"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube drevín z dôvodu údržby odvodňovacích kanálov a opravy stavidiel (Madzagos 1, Hajlás D4, Komočín) v okresoch Komárno, Iža a Svätý Peter. Konanie prebieha mimo správneho konania na základe oznámenia štátneho podniku Hydromeliorácie.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Komárno",
+          "NATIONALSI": "SKUEV0393",
+          "SITETITLE_": "Dunaj"
+        },
+        {
+          "parcel_label": "Komárno",
+          "NATIONALSI": "SKUEV0010",
+          "SITETITLE_": "Komárňanské slanisko"
+        },
+        {
+          "parcel_label": "Komárno",
+          "NATIONALSI": "SKUEV0017",
+          "SITETITLE_": "Pri Orechovom rade"
+        },
+        {
+          "parcel_label": "Komárno",
+          "NATIONALSI": "SKUEV0092",
+          "SITETITLE_": "Dolnovážske luhy"
+        },
+        {
+          "parcel_label": "Komárno",
+          "NATIONALSI": "SKUEV0155",
+          "SITETITLE_": "Alúvium Starej Nitry"
+        },
+        {
+          "parcel_label": "Komárno",
+          "NATIONALSI": "SKUEV0819",
+          "SITETITLE_": "Vážsky Dunaj"
+        },
+        {
+          "parcel_label": "Iža",
+          "NATIONALSI": "SKUEV0076",
+          "SITETITLE_": "Bokrošské slanisko"
+        },
+        {
+          "parcel_label": "Iža",
+          "NATIONALSI": "SKUEV0393",
+          "SITETITLE_": "Dunaj"
+        },
+        {
+          "parcel_label": "Svätý Peter",
+          "NATIONALSI": "SKUEV0155",
+          "SITETITLE_": "Alúvium Starej Nitry"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Komárno",
+          "NATIONALSI": "1215",
+          "SITETITLE_": "CHA Komárňanské slanisko"
+        },
+        {
+          "parcel_label": "Komárno",
+          "NATIONALSI": "1213",
+          "SITETITLE_": "CHA Pri Orechovom rade"
+        },
+        {
+          "parcel_label": "Komárno",
+          "NATIONALSI": "3",
+          "SITETITLE_": "NPR Apálsky ostrov"
+        },
+        {
+          "parcel_label": "Komárno",
+          "NATIONALSI": "823",
+          "SITETITLE_": "PR Vrbina"
+        },
+        {
+          "parcel_label": "Komárno",
+          "NATIONALSI": "1078",
+          "SITETITLE_": "PR Komočín"
+        },
+        {
+          "parcel_label": "Iža",
+          "NATIONALSI": "12",
+          "SITETITLE_": "PR Bokrošské slanisko"
+        },
+        {
+          "parcel_label": "Svätý Peter",
+          "NATIONALSI": "963",
+          "SITETITLE_": "CHA Svätopeterský park"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Komárno",
+          "NATIONALSI": "SKCHVU005",
+          "SITETITLE_": "Dolné Považie"
+        },
+        {
+          "parcel_label": "Komárno",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "Iža",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "Svätý Peter",
+          "NATIONALSI": "SKCHVU005",
+          "SITETITLE_": "Dolné Považie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

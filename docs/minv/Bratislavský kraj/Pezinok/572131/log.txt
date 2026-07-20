@@ -1,0 +1,62 @@
+[2026-07-20 19:37:39] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572131'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=3&odbor=10&sekcia=uradna-tabula&subor=572131
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572131/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572131/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. (3)' zákona 'Z.z. o vodách a o zmene zákona OU-PK-OSZP-2026/002039-0024431/2026 2 / 2 SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'stavebného zákona stavebníkovi: Steper, s.r.o., Developerská spoločnosť, Šancová 10/A902 01 Pezinok, IČO 53857631 Stavba: Zóna progresívneho bývania –'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572131/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0127135}
+LLM_tokens: {"input": 7175, "output": 3042, "total": 10217, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572131/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572131/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Pezinok', 'katastralne_uzemia': [{'nazov': 'Grinava', 'parcely': [{'typ': 'C', 'cisla': ['781/18', '781/22', '781/105', '781/111', '781/112', '781/113', '781/115', '781/120', '781/130', '786/3', '786/4']}, {'typ': 'E', 'cisla': ['825']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Za panskou záhradou II.', 'nazov_lokality_norm': 'Za panskou záhradou II., Pezinok'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Pezinok', 'katastralne_uzemia': [{'nazov': 'Grinava', 'parcely': [{'typ': 'C', 'cisla': ['781/18', '781/22', '781/105', '781/111', '781/112', '781/113', '781/115', '781/120', '781/130', '786/3', '786/4']}, {'typ': 'E', 'cisla': ['825']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Za panskou záhradou II.', 'nazov_lokality_norm': 'Za panskou záhradou II., Pezinok'}
+ku_name:Grinava obec:Pezinok okres:Pezinok kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: pezinok norm_ku: grinava
+_get_nationalCadastralZoningReferences() found_ids: {'839019'}
+nationalCadastralZoningReferences: ['839019']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27839019_781%2F18.C%27%2C%27839019_781%2F22.C%27%2C%27839019_781%2F105.C%27%2C%27839019_781%2F111.C%27%2C%27839019_781%2F112.C%27%2C%27839019_781%2F113.C%27%2C%27839019_781%2F115.C%27%2C%27839019_781%2F120.C%27%2C%27839019_781%2F130.C%27%2C%27839019_786%2F3.C%27%2C%27839019_786%2F4.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.64 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27839019_825.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.67 s
+nazov_lokality: Za panskou záhradou II., Pezinok
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2122'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2122'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2122'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2122'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2122'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2122'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2122'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2122'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2122'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2122'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2122'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2122'}
+
+[12 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572131/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572131/analysis.json...
+
+--- Časy spracovania dokumentu 572131 ---
+  download_and_text   :   1.22 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.98 s
+  gis_processing      :   6.62 s
+  CELKOVÝ ČAS         :  20.83 s
+------------------------------------------
+Dokument 572131 bol úspešne spracovaný.

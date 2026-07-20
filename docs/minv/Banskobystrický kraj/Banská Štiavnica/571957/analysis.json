@@ -1,0 +1,121 @@
+{
+  "cislo_konania_spisu": "OU-BS-OSZP-2026/001282-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-15",
+  "datum_zverejnenia": "2026-07-15",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Štiavnica",
+    "obec": "Banská Štiavnica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Banská Štiavnica",
+        "parcely": []
+      },
+      {
+        "nazov": "Svätý Anton",
+        "parcely": []
+      },
+      {
+        "nazov": "Žibritov",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo vedenia 22kV: č. VN 330_k10",
+    "nazov_lokality_norm": "VN 330_k10"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "odstránenie a okliesnenie drevín a iných porastov"
+  ],
+  "rozsah_zasahu": "ochranné pásmo vedenia 22kV (č. VN 330_k10)",
+  "typ_uzemia": [
+    "ochranné pásmo vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012 Z. z.",
+      "paragrafy": [
+        "11",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a okliesnení drevín v ochrannom pásme 22 kV elektrického vedenia (VN 330_k10) v katastrálnych územiach Banská Štiavnica, Svätý Anton a Žibritov. Práce realizuje spoločnosť JMM s.r.o. pre Stredoslovenskú distribučnú z dôvodu bezpečnosti prevádzky s termínom ukončenia do 20.12.2026. Zásah sa dotýka ochranného pásma energetického zariadenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Banská Štiavnica",
+          "NATIONALSI": "SKUEV0216",
+          "SITETITLE_": "Sitno"
+        },
+        {
+          "parcel_label": "Banská Štiavnica",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        },
+        {
+          "parcel_label": "Svätý Anton",
+          "NATIONALSI": "SKUEV0015",
+          "SITETITLE_": "Dolná Bukovina"
+        },
+        {
+          "parcel_label": "Svätý Anton",
+          "NATIONALSI": "SKUEV0266",
+          "SITETITLE_": "Skalka"
+        },
+        {
+          "parcel_label": "Žibritov",
+          "NATIONALSI": "SKUEV0015",
+          "SITETITLE_": "Dolná Bukovina"
+        },
+        {
+          "parcel_label": "Žibritov",
+          "NATIONALSI": "SKUEV0266",
+          "SITETITLE_": "Skalka"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Banská Štiavnica",
+          "NATIONALSI": "203",
+          "SITETITLE_": "CHA Arboretum Kysihýbeľ"
+        },
+        {
+          "parcel_label": "Banská Štiavnica",
+          "NATIONALSI": "221",
+          "SITETITLE_": "CHA Banskoštiavnická botanická záhrada"
+        },
+        {
+          "parcel_label": "Banská Štiavnica",
+          "NATIONALSI": "1041",
+          "SITETITLE_": "CHA Michalské rašelinisko"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

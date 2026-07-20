@@ -1,0 +1,54 @@
+[2026-07-20 19:39:28] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571843'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=4&odbor=10&sekcia=uradna-tabula&subor=571843
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571843/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571843/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. 1 písm. b)' zákona 'bod 1 vodného zákona na odber podzemných vôd zo studne. Uvedeným dňom bolo začaté stavebné konanie. Okresný úrad Senec, odbor starostlivosti o životné'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, zákona č.364/2004 Z.z. o vodách'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 odst.5' zákona 'stavebného zákona, má sa za to, že so stavbou súhlasia. OU-SC-OSZP-2026/024840-0047607/2026 2 / 3 Ak sa nechá niektorý z účastníkov konania zastupovať'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona účastníkom konania z dôvodu veľkého počtu účastníkov konania vyvesením po dobu 15 dní na úradnej tabuli Okresného úradu Senec, odboru s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 6' zákona 'vodného zákona, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 2' zákona 'správneho zákona, v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona, všetkým známym aj neznámym účastníkom konania, a účastníkom konania ktorých vlastnícke práva k susedným pozemkom a stavbám môžu byť'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010403}
+LLM_tokens: {"input": 6892, "output": 2319, "total": 9211, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571843/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571843/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Senec', 'katastralne_uzemia': [{'nazov': 'Senec', 'parcely': [{'typ': 'C', 'cisla': ['4080/6', '981/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Považská ulica Senec, Kollárová ulica Senec', 'nazov_lokality_norm': 'Považská, Senec; Kollárová, Senec'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Senec', 'katastralne_uzemia': [{'nazov': 'Senec', 'parcely': [{'typ': 'C', 'cisla': ['4080/6', '981/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Považská ulica Senec, Kollárová ulica Senec', 'nazov_lokality_norm': 'Považská, Senec; Kollárová, Senec'}
+ku_name:Senec obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: senec
+_get_nationalCadastralZoningReferences() found_ids: {'854964'}
+nationalCadastralZoningReferences: ['854964']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27854964_4080%2F6.C%27%2C%27854964_981%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.40 s
+nazov_lokality: Považská, Senec; Kollárová, Senec
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571843/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571843/analysis.json...
+
+--- Časy spracovania dokumentu 571843 ---
+  download_and_text   :   1.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   9.59 s
+  gis_processing      :   3.60 s
+  CELKOVÝ ČAS         :  14.19 s
+------------------------------------------
+Dokument 571843 bol úspešne spracovaný.

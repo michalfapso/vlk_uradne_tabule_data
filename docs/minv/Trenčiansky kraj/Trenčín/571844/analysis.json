@@ -1,0 +1,138 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP1-2026/034669-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-14",
+  "datum_zverejnenia": "2026-07-14",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia na internetovej stránke orgánu ochrany prírody"
+  },
+  "ziadatel_navrhovatel": "Správa ciest Trenčianskeho samosprávneho kraja",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Papradno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Papradno",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4750/1",
+              "4751",
+              "4752",
+              "4439/1",
+              "4439/2",
+              "4439/3",
+              "3757/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Most za obcou Majer, SKUEV0641 Papradnianka",
+    "nazov_lokality_norm": "Papradnianka"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zmena stavu mokrade",
+    "poškodenie alebo zničenie biotopov európskeho významu",
+    "rekonštrukcia mostného objektu"
+  ],
+  "rozsah_zasahu": "rekonštrukcia mostného objektu M5553, trvalý a dočasný záber parciel",
+  "typ_uzemia": [
+    "SKUEV0641 Papradnianka",
+    "3. stupeň",
+    "Chránená krajinná oblasť Kysuce",
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "biotopy európskeho významu",
+    "druhy európskeho významu"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "6",
+        "28",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnych poplatkoch",
+      "cislo": "145/1995 Z. z.",
+      "paragrafy": [
+        "8"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "33"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci rekonštrukcie mosta za obcou Majer v k.ú. Papradno. Zásah zahŕňa zmenu stavu mokrade a poškodenie biotopov v SKUEV0641 Papradnianka (3. stupeň) a v CHKO Kysuce (2. stupeň).",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "4439/1",
+          "NATIONALSI": "SKUEV0641",
+          "SITETITLE_": "Papradnianka"
+        },
+        {
+          "parcel_label": "4439/2",
+          "NATIONALSI": "SKUEV0641",
+          "SITETITLE_": "Papradnianka"
+        },
+        {
+          "parcel_label": "4439/3",
+          "NATIONALSI": "SKUEV0641",
+          "SITETITLE_": "Papradnianka"
+        },
+        {
+          "parcel_label": "4750/1",
+          "NATIONALSI": "SKUEV0641",
+          "SITETITLE_": "Papradnianka"
+        },
+        {
+          "parcel_label": "4751",
+          "NATIONALSI": "SKUEV0641",
+          "SITETITLE_": "Papradnianka"
+        },
+        {
+          "parcel_label": "4752",
+          "NATIONALSI": "SKUEV0641",
+          "SITETITLE_": "Papradnianka"
+        },
+        {
+          "parcel_label": "3757/1",
+          "NATIONALSI": "SKUEV0641",
+          "SITETITLE_": "Papradnianka"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

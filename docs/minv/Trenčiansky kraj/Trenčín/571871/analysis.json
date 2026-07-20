@@ -1,0 +1,110 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP1-2026/034737-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-14",
+  "datum_zverejnenia": "2026-07-14",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia na internetovej stránke orgánu ochrany prírody"
+  },
+  "ziadatel_navrhovatel": "PROGEO, spol. s r. o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Zemianska Závada",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zemianska Závada",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "213/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Zemianska Závada - Pod Malenicou",
+    "nazov_lokality_norm": "Pod Malenicou"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "vykonávanie technických geologických prác",
+    "vybudovanie vrtu"
+  ],
+  "rozsah_zasahu": "vybudovanie 1 vrtu na parcele KNC 213/2",
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Strážovské vrchy",
+    "2. stupeň",
+    "Územie európskeho významu",
+    "SKUEV0256 Strážovské vrchy",
+    "Chránené vtáčie územie",
+    "SKCHVÚ028 Strážovské vrchy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "biotopy a druhy európskeho významu"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "13",
+        "82",
+        "28",
+        "9"
+      ]
+    },
+    {
+      "nazov": "o správnych poplatkoch",
+      "cislo": "145/1995 Z. z.",
+      "paragrafy": [
+        "8"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "33"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti o súhlas na vykonávanie technických geologických prác za účelom vybudovania nového vodného vrtu. Činnosť sa má realizovať v CHKO Strážovské vrchy (2. stupeň ochrany), v území európskeho významu a chránenom vtáčom území v k. ú. Zemianska Závada. Verejnosť a združenia sa môžu prihlásiť do konania v lehote 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "213/2",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "213/2",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

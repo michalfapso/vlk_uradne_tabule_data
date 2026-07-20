@@ -1,0 +1,93 @@
+{
+  "cislo_konania_spisu": "20260715019",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-10",
+  "datum_zverejnenia": "2026-07-15",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenská elektrárenská prenosová sústava, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Partizánske",
+    "obec": "Partizánske",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brodzany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1583/1",
+              "1350",
+              "1349",
+              "1371/1",
+              "1385",
+              "1386",
+              "1387",
+              "1388",
+              "1389",
+              "1390",
+              "1391",
+              "1392",
+              "1394",
+              "1397",
+              "1168/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Partizánske",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4944/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo 400 kV vedenia V483/484 Križovany Bystričany",
+    "nazov_lokality_norm": "V483/484 Križovany Bystričany"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub",
+    "odstránenie a okliesnenie stromov a iných porastov"
+  ],
+  "rozsah_zasahu": "nešpecifikovaný počet stromov v ochrannom pásme 400 kV vedenia",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "4 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a okliesnení stromov v ochrannom pásme 400 kV elektrického vedenia pre spoločnosť SEPS. Zásah sa dotýka viacerých parciel v katastrálnych územiach Brodzany a Partizánske a bude realizovaný mimo vegetačného obdobia. Účelom je zabezpečenie prevádzkyschopnosti inžinierskych sietí.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

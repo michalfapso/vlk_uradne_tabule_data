@@ -1,0 +1,70 @@
+[2026-07-20 20:17:13] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571878'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=7&odbor=10&sekcia=uradna-tabula&subor=571878
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571878/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571878/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona 'zák. č. 525/2003 Z. z.  o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a  špeciálny stavebný úrad podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'zák. č. 50/1976 Zb. v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68 ods. 2' zákona 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona 'vodného zákona a v súlade s ustanovením  73'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 5' zákona 'vodného zákona, vzhľadom nato, že sú mu dobre známe pomery             upúšťa  od miestneho zisťovania a ústneho pojednávania.          Do   spisového'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0107895}
+LLM_tokens: {"input": 5247, "output": 2722, "total": 7969, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 86 column 1 (char 2266)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0169809}
+LLM_tokens: {"input": 5247, "output": 5390, "total": 10637, "cached": 4028}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571878/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571878/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Šalgočka', 'katastralne_uzemia': [{'nazov': 'Šalgočka', 'parcely': [{'typ': None, 'cisla': ['173/29', '190', '189/2', '317/69', '317/54', '317/1', '507/1', '291/3', '285/15', '330/2']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Šalgočka VDJ a ČS', 'nazov_lokality_norm': 'Šalgočka'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Šalgočka', 'katastralne_uzemia': [{'nazov': 'Šalgočka', 'parcely': [{'typ': None, 'cisla': ['173/29', '190', '189/2', '317/69', '317/54', '317/1', '507/1', '291/3', '285/15', '330/2']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Šalgočka VDJ a ČS', 'nazov_lokality_norm': 'Šalgočka'}
+ku_name:Šalgočka obec:Šalgočka okres:Galanta kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: salgocka norm_ku: salgocka
+_get_nationalCadastralZoningReferences() found_ids: {'860301'}
+nationalCadastralZoningReferences: ['860301']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27860301_173%2F29.C%27%2C%27860301_190.C%27%2C%27860301_189%2F2.C%27%2C%27860301_317%2F69.C%27%2C%27860301_317%2F54.C%27%2C%27860301_317%2F1.C%27%2C%27860301_507%2F1.C%27%2C%27860301_291%2F3.C%27%2C%27860301_285%2F15.C%27%2C%27860301_330%2F2.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.65 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27860301_173%2F29.E%27%2C%27860301_190.E%27%2C%27860301_189%2F2.E%27%2C%27860301_317%2F69.E%27%2C%27860301_317%2F54.E%27%2C%27860301_317%2F1.E%27%2C%27860301_507%2F1.E%27%2C%27860301_291%2F3.E%27%2C%27860301_285%2F15.E%27%2C%27860301_330%2F2.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.12 s
+nazov_lokality: Šalgočka
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.826'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.826'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.826'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.826'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.826'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.826'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.826'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.826'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.826'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.826'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.826'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.826'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.826'}
+
+[13 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571878/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/571878/analysis.json...
+
+--- Časy spracovania dokumentu 571878 ---
+  download_and_text   :   0.87 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  33.39 s
+  gis_processing      :   6.99 s
+  CELKOVÝ ČAS         :  41.25 s
+------------------------------------------
+Dokument 571878 bol úspešne spracovaný.

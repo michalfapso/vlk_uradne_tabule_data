@@ -1,0 +1,188 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Pavol Čierny",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Lehota pod Vtáčnikom, Kamenec pod Vtáčnikom, Zemianske Kostoľany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lehota pod Vtáčnikom",
+        "parcely": []
+      },
+      {
+        "nazov": "Kamenec pod Vtáčnikom",
+        "parcely": []
+      },
+      {
+        "nazov": "Zemianske Kostoľany",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "VN vedenie č. 261 v k.ú. Lehota pod Vtáčnikom, Kamenec pod Vtáčnikom a Zemianske Kostoľany",
+    "nazov_lokality_norm": "VN vedenie 261"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "odstránenie a okliesnenie stromov a iných porastov",
+    "vstup na cudzie pozemky"
+  ],
+  "rozsah_zasahu": "porast pod vedením VN č. 261 a v jeho ochrannom pásme (7m od krajného vodiča)",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "§ 47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "§ 11 ods. 1"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a orezávaní drevín v ochrannom pásme vysokého napätia (VN vedenie č. 261) v katastroch obcí Lehota pod Vtáčnikom, Kamenec pod Vtáčnikom a Zemianske Kostoľany. Práce sú odôvodnené bezpečnosťou prevádzky a plánované na mesiace august až október. Zásah sa realizuje v ochrannom pásme energetického zariadenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        },
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        },
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        },
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        },
+        {
+          "parcel_label": "Kamenec pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        },
+        {
+          "parcel_label": "Kamenec pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        },
+        {
+          "parcel_label": "Kamenec pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        },
+        {
+          "parcel_label": "Kamenec pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        },
+        {
+          "parcel_label": "Kamenec pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        },
+        {
+          "parcel_label": "Kamenec pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        },
+        {
+          "parcel_label": "Kamenec pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NATIONALSI": "SKUEV0273",
+          "SITETITLE_": "Vtáčnik"
+        },
+        {
+          "parcel_label": "Kamenec pod Vtáčnikom",
+          "NATIONALSI": "SKUEV0273",
+          "SITETITLE_": "Vtáčnik"
+        },
+        {
+          "parcel_label": "Zemianske Kostoľany",
+          "NATIONALSI": "SKUEV0883",
+          "SITETITLE_": "Nitrické vrchy"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NATIONALSI": "483",
+          "SITETITLE_": "NPR Vtáčnik"
+        },
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NATIONALSI": "1349",
+          "SITETITLE_": "PR Pralesy Slovenska-Vtáčnik"
+        },
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NATIONALSI": "213",
+          "SITETITLE_": "PR Biely kameň"
+        },
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NATIONALSI": "414",
+          "SITETITLE_": "PP Sivý kameň"
+        },
+        {
+          "parcel_label": "Kamenec pod Vtáčnikom",
+          "NATIONALSI": "483",
+          "SITETITLE_": "NPR Vtáčnik"
+        },
+        {
+          "parcel_label": "Kamenec pod Vtáčnikom",
+          "NATIONALSI": "311",
+          "SITETITLE_": "OP PP Končitá"
+        },
+        {
+          "parcel_label": "Kamenec pod Vtáčnikom",
+          "NATIONALSI": "311",
+          "SITETITLE_": "PP Končitá"
+        },
+        {
+          "parcel_label": "Kamenec pod Vtáčnikom",
+          "NATIONALSI": "342",
+          "SITETITLE_": "PR Makovište"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

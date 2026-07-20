@@ -1,0 +1,71 @@
+[2026-07-20 20:22:57] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/572163'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=8&odbor=10&sekcia=uradna-tabula&subor=572163
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/572163/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/572163/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 odst. 4' zákona 'Vás žiadame o vyjadrenie o nevyhnutnom výrube náletových drevín v existujúcom ochrannom pásme elektrického vedenia. Výrub bude prevedený pod el. veden'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. e)' zákona 'Vás žiadame o vyjadrenie o nevyhnutnom výrube náletových drevín v existujúcom ochrannom pásme elektrického vedenia. Výrub bude prevedený pod el. veden'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odst. 7' zákona 'Vás žiadame o vyjadrenie o nevyhnutnom výrube náletových drevín v existujúcom ochrannom pásme elektrického vedenia. Výrub bude prevedený pod el. veden'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11' zákona 'tohto zákona držiteľ povolenia na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odst. 1' zákona 'tohto zákona držiteľ povolenia na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '251/2012 Z.z. je definované u 400 kV vedení, ako kolmá vzdialenosť 25 m od krajného vodiča na obe strany. Predpokladané: - začatie výrubu: - ukončenie'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0130165}
+LLM_tokens: {"input": 5177, "output": 3476, "total": 8653, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/572163/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/572163/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Piešťany', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Šípkové', 'parcely': [{'typ': 'C', 'cisla': ['1422/1']}, {'typ': 'E', 'cisla': ['1422/3']}]}, {'nazov': 'Zakostolany', 'parcely': [{'typ': 'C', 'cisla': ['468/2', '465/2']}]}, {'nazov': 'Pečeňady', 'parcely': [{'typ': 'C', 'cisla': ['199/49', '465/5', '191/101', '190/02']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod el. vedením 400 kV Križovany - ESO - Sošaca', 'nazov_lokality_norm': 'Križovany - ESO - Sošaca'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Piešťany', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Šípkové', 'parcely': [{'typ': 'C', 'cisla': ['1422/1']}, {'typ': 'E', 'cisla': ['1422/3']}]}, {'nazov': 'Zakostolany', 'parcely': [{'typ': 'C', 'cisla': ['468/2', '465/2']}]}, {'nazov': 'Pečeňady', 'parcely': [{'typ': 'C', 'cisla': ['199/49', '465/5', '191/101', '190/02']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod el. vedením 400 kV Križovany - ESO - Sošaca', 'nazov_lokality_norm': 'Križovany - ESO - Sošaca'}
+ku_name:Šípkové obec:None okres:Piešťany kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: piestany norm_obec: None norm_ku: sipkove
+_get_nationalCadastralZoningReferences() found_ids: {'860905'}
+nationalCadastralZoningReferences: ['860905']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27860905_1422%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.08 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27860905_1422%2F3.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.87 s
+ku_name:Zakostolany obec:None okres:Piešťany kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: piestany norm_obec: None norm_ku: zakostolany
+_get_nationalCadastralZoningReferences() found_ids: {'868159'}
+nationalCadastralZoningReferences: ['868159']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27868159_468%2F2.C%27%2C%27868159_465%2F2.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.35 s
+ku_name:Pečeňady obec:None okres:Piešťany kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: piestany norm_obec: None norm_ku: pecenady
+_get_nationalCadastralZoningReferences() found_ids: {'845825'}
+nationalCadastralZoningReferences: ['845825']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27845825_199%2F49.C%27%2C%27845825_465%2F5.C%27%2C%27845825_191%2F101.C%27%2C%27845825_190%2F02.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.52 s
+nazov_lokality: Križovany - ESO - Sošaca
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...   {'@href': '#auAdmUnitS.245'}
+1  CadastralParcel  ...   {'@href': '#auAdmUnitS.245'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2838'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2838'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.2138'}
+
+[5 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/572163/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Piešťany/572163/analysis.json...
+
+--- Časy spracovania dokumentu 572163 ---
+  download_and_text   :   1.30 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.97 s
+  gis_processing      :  13.04 s
+  CELKOVÝ ČAS         :  29.32 s
+------------------------------------------
+Dokument 572163 bol úspešne spracovaný.

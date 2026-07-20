@@ -1,0 +1,71 @@
+[2026-07-20 20:13:51] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571930'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=12&odbor=10&sekcia=uradna-tabula&subor=571930
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571930/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571930/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18' zákona 'zák. č. 71/1967 Zb. o správnom konaní'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona '25/2025 Z. z. „Ak ide o stavbu, pre ktorú je vydané územné rozhodnutie podľa doterajších predpisov, použijú sa doterajšie predpisy v znení účinnom do'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a o doplnení niektorých zákonov v znení neskorších predpisov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a o doplnení niektorých zákonov v znení neskorších predpisov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 1' zákona 'stavebného zákona začatie vodoprávneho konania na povolenie vodnej stavby „Rozšírenie verejnej kanalizácie: SO 101 Rozšírenie verejnej kanalizácie“ za'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona 'stavebného zákona od ústneho pojednávania a miestneho zisťovania. Účastníci konania môžu v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods.5' zákona 'vodného zákona uplatniť svoje námietky ku konaniu o povolení stavby a ku konaniu o osobitnom užívaní vôd písomne doručením na Okresný úrad Trenčín, od'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona doručuje verejnou vyhláškou – líniová stavba. Oznámenie bude vyvesené na úradnej tabuli a webovom sídle Okresného úradu Trenčín. Pos'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. a' zákona ''.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014503}
+LLM_tokens: {"input": 7226, "output": 3630, "total": 10856, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571930/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571930/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Trenčín', 'katastralne_uzemia': [{'nazov': 'Hanzlíková', 'parcely': [{'typ': 'C', 'cisla': ['707/18', '707/3', '707/31', '707/20', '707/19', '707/17', '707/16']}]}, {'nazov': 'Záblatie', 'parcely': [{'typ': 'C', 'cisla': ['1126/8', '1072/3']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Rozšírenie verejnej kanalizácie: SO 101 Rozšírenie verejnej kanalizácie', 'nazov_lokality_norm': None}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Trenčín', 'katastralne_uzemia': [{'nazov': 'Hanzlíková', 'parcely': [{'typ': 'C', 'cisla': ['707/18', '707/3', '707/31', '707/20', '707/19', '707/17', '707/16']}]}, {'nazov': 'Záblatie', 'parcely': [{'typ': 'C', 'cisla': ['1126/8', '1072/3']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Rozšírenie verejnej kanalizácie: SO 101 Rozšírenie verejnej kanalizácie', 'nazov_lokality_norm': None}
+ku_name:Hanzlíková obec:Trenčín okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: trencin norm_ku: hanzlikova
+_get_nationalCadastralZoningReferences() found_ids: {'873527'}
+nationalCadastralZoningReferences: ['873527']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27873527_707%2F18.C%27%2C%27873527_707%2F3.C%27%2C%27873527_707%2F31.C%27%2C%27873527_707%2F20.C%27%2C%27873527_707%2F19.C%27%2C%27873527_707%2F17.C%27%2C%27873527_707%2F16.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.01 s
+ku_name:Záblatie obec:Trenčín okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: trencin norm_ku: zablatie
+_get_nationalCadastralZoningReferences() found_ids: {'871664'}
+nationalCadastralZoningReferences: ['871664']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27871664_1126%2F8.C%27%2C%27871664_1072%2F3.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.35 s
+nazov_lokality: Rozšírenie verejnej kanalizácie: SO 101 Rozšírenie verejnej kanalizácie
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+8  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+
+[9 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571930/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571930/analysis.json...
+
+--- Časy spracovania dokumentu 571930 ---
+  download_and_text   :   0.84 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.67 s
+  gis_processing      :   7.58 s
+  CELKOVÝ ČAS         :  22.10 s
+------------------------------------------
+Dokument 571930 bol úspešne spracovaný.

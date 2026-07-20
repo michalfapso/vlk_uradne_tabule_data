@@ -1,0 +1,98 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP1-2026/035310-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-16",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tohto oznámenia na internetovej stránke"
+  },
+  "ziadatel_navrhovatel": "obec Bystričany",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Bystričany",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "CHKO Ponitrie, SKUEV0273 Vtáčnik, národná prírodná rezervácia Vtáčnik, národná prírodná rezervácia Veľká skala",
+    "nazov_lokality_norm": "Vtáčnik"
+  },
+  "typ_dokumentu": "oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "organizovanie verejného športového podujatia",
+    "turisticko-spoločenské podujatie"
+  ],
+  "rozsah_zasahu": "31. ročník výstupu na Vtáčnik",
+  "typ_uzemia": [
+    "CHKO Ponitrie",
+    "druhý stupeň ochrany",
+    "SKUEV0273 Vtáčnik",
+    "tretí stupeň ochrany",
+    "piaty stupeň ochrany",
+    "národná prírodná rezervácia Vtáčnik",
+    "národná prírodná rezervácia Veľká skala",
+    "ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "67",
+        "68",
+        "83",
+        "13",
+        "14",
+        "16",
+        "82"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti obce Bystričany o súhlas a výnimku na organizovanie 31. ročníka výstupu na Vtáčnik. Podujatie sa má uskutočniť v extraviláne v chránených územiach s 2., 3. až 5. stupňom ochrany, vrátane NPR Vtáčnik a CHKO Ponitrie. Verejnosť sa môže do konania prihlásiť do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Bystričany",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Bystričany",
+          "NATIONALSI": "SKUEV0273",
+          "SITETITLE_": "Vtáčnik"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Bystričany",
+          "NATIONALSI": "483",
+          "SITETITLE_": "NPR Vtáčnik"
+        },
+        {
+          "parcel_label": "Bystričany",
+          "NATIONALSI": "1349",
+          "SITETITLE_": "PR Pralesy Slovenska-Vtáčnik"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

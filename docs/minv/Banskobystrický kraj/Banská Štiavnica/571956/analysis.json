@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": "OU-BS-OSZP-2026/001283-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-15",
+  "datum_zverejnenia": "2026-07-15",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Štiavnica",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prenčov",
+        "parcely": []
+      },
+      {
+        "nazov": "Beluj",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochrannom pásme vedenia 22kV: č. VN 330_k12",
+    "nazov_lokality_norm": "VN 330_k12"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "odstránenie a okliesnenie drevín a iných porastov"
+  ],
+  "rozsah_zasahu": "v ochrannom pásme vedenia 22kV: č. VN 330_k12",
+  "typ_uzemia": [
+    "ochranné pásmo vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012 Z. z.",
+      "paragrafy": [
+        "11",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci výrubu a okliesňovania drevín v ochrannom pásme 22kV elektrického vedenia v k.ú. Prenčov a Beluj. Zásah je odôvodnený bezpečnosťou prevádzky energetického zariadenia. Termín realizácie je naplánovaný do 20.12.2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Prenčov",
+          "NATIONALSI": "SKUEV0015",
+          "SITETITLE_": "Dolná Bukovina"
+        },
+        {
+          "parcel_label": "Prenčov",
+          "NATIONALSI": "SKUEV0216",
+          "SITETITLE_": "Sitno"
+        },
+        {
+          "parcel_label": "Beluj",
+          "NATIONALSI": "SKUEV0259",
+          "SITETITLE_": "Sitno"
+        },
+        {
+          "parcel_label": "Beluj",
+          "NATIONALSI": "SKUEV0216",
+          "SITETITLE_": "Sitno"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

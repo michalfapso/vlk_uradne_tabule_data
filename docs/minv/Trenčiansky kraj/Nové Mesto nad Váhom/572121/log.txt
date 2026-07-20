@@ -1,0 +1,78 @@
+[2026-07-20 20:00:06] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/572121'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=14&odbor=10&sekcia=uradna-tabula&subor=572121
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/572121/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 4 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.026222799999999998}
+LLM_tokens: {"input": 1108, "output": 65538, "total": 66646, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/572121/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'vodného zákona a špeciálnym stavebný úrad v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'stavebného zákona, v súlade so zákonom č. 71/1967 Zb. o správnom konaní a znení neskorších predpisov posúdil žiadosť a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona 'stavebného zákona  **povoľuje**  1.  Žiadosť Kataríny Diviše, Častkovce 428, 916 27 Častkovce v zastúpení stavebníka: Royaldom, s.r.o., Častkovce 428'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '69' zákona 'stavebného zákona  **povoľuje**  1.  Žiadosť Kataríny Diviše, Častkovce 428, 916 27 Častkovce v zastúpení stavebníka: Royaldom, s.r.o., Častkovce 428'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona 'vodného zákona a v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'stavebného zákona pod. č. OU-NM-OSZP-2024/006110-007 zo dňa 25.07.2024, ktoré nadobudlo právoplatnost dňa 19.11.2024, a to 3 roky odo dňa právoplatnos'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. C' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona 'vodného zákona a v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'stavebného zákona pod. č. OU-NM-OSZP-2024/006110-007 zo dňa 25.07.2024, ktoré nadobudlo právoplatnosť dňa 19.11.2024 zostávajú nezmenené.  3.  Stavebn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 70' zákona 'stavebného zákona záväzné aj pre právnych nástupcov účastníkov konania.  4.  Stavba nesmie byť začatá, kým rozhodnutie o predĺžení platnosti stavebnéh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona 'vodného zákona a v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'stavebného zákona pod. č. OU-NM-OSZP-2024/006110-007 zo dňa 25.07.2024, ktoré nadobudlo právoplatnosť dňa 19.11.2024, a to 3 roky odo dňa právoplatnos'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. C' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 2' zákona 'stavebného zákona stavebné povolenie stráca platnosť, ak sa so stavbou nezačalo do dvoch rokov odo dňa, ked nadobudlo právoplatnosť, pokiaľ stavebný ú'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '54' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/572121/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.044298000000000004}
+LLM_tokens: {"input": 69480, "output": 3186, "total": 72666, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/572121/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/572121/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Očkov', 'katastralne_uzemia': [{'nazov': 'Očkov', 'parcely': [{'typ': 'C', 'cisla': ['218/1', '218/2', '218/3', '216']}, {'typ': 'E', 'cisla': ['229/1', '94/2', '93']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'SO-06 Dažďová kanalizácia Hôrkovice', 'nazov_lokality_norm': 'Hôrkovice, Očkov'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Očkov', 'katastralne_uzemia': [{'nazov': 'Očkov', 'parcely': [{'typ': 'C', 'cisla': ['218/1', '218/2', '218/3', '216']}, {'typ': 'E', 'cisla': ['229/1', '94/2', '93']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'SO-06 Dažďová kanalizácia Hôrkovice', 'nazov_lokality_norm': 'Hôrkovice, Očkov'}
+ku_name:Očkov obec:Očkov okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: ockov norm_ku: ockov
+_get_nationalCadastralZoningReferences() found_ids: {'843105'}
+nationalCadastralZoningReferences: ['843105']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27843105_218%2F1.C%27%2C%27843105_218%2F2.C%27%2C%27843105_218%2F3.C%27%2C%27843105_216.C%27%29 (via proxy)
+get_geometry_of_cadastral_zone_parcels() request duration: 1.23 s
+Server vrátil chybu 500. Opakujem pokus o 5 sekúnd... (Pokus 1/5)
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27843105_218%2F1.C%27%2C%27843105_218%2F2.C%27%2C%27843105_218%2F3.C%27%2C%27843105_216.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.64 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27843105_229%2F1.E%27%2C%27843105_94%2F2.E%27%2C%27843105_93.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.27 s
+nazov_lokality: Hôrkovice, Očkov
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1984'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1984'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1984'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1984'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.1984'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.1984'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.1984'}
+
+[7 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/572121/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/572121/analysis.json...
+
+--- Časy spracovania dokumentu 572121 ---
+  download_and_text   : 182.36 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  26.12 s
+  gis_processing      :  13.36 s
+  CELKOVÝ ČAS         : 221.84 s
+------------------------------------------
+Dokument 572121 bol úspešne spracovaný.

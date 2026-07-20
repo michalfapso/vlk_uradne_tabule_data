@@ -1,0 +1,79 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2026/006912",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-16",
+  "datum_zverejnenia": "2026-07-16",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Bziny",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bziny",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo 220 kV vedenia, linka č. 281/282",
+    "nazov_lokality_norm": "Bziny"
+  },
+  "typ_dokumentu": "Oznámenie o výrube porastov",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub porastov v ochrannom pásme elektrického vedenia"
+  ],
+  "rozsah_zasahu": "porasty v ochrannom pásme linky č. 281/282",
+  "typ_uzemia": [
+    "ochranné pásmo 220 kV vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47 ods. 7",
+        "47 ods. 8",
+        "81 ods. 2 písm. m)"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012 Z.z.",
+      "paragrafy": [
+        "11 ods. 1 písm. b)"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube porastov v ochrannom pásme 220 kV elektrického vedenia (linka č. 281/282) v katastrálnom území Bziny. Výrub bude realizovaný spoločnosťou ENZA s.r.o. v období vegetačného pokoja z dôvodu údržby a bezpečnosti energetických zariadení.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Bziny",
+          "NATIONALSI": "SKUEV0243",
+          "SITETITLE_": "Orava"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Bziny",
+          "NATIONALSI": "1034",
+          "SITETITLE_": "CHA Rieka Orava"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

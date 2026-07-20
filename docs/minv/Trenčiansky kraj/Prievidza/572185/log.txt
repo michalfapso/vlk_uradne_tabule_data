@@ -1,0 +1,95 @@
+[2026-07-20 20:09:23] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/572185'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=16&odbor=10&sekcia=uradna-tabula&subor=572185
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/572185/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/572185/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'zakona c. 543/2002 Z.z. 0 ochrane prirody a krajiny v zneni neskorsich predpisov oznamujeme, ze planujeme previest''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1' zákona 'pismo b) zakona c.251 12012 0 energetike a 0 zmene a doplneni niektorYch zakonov v zneni neskorsich predpisov. Vyska porastov v ochrannom pasme vedeni'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona 'Zakona 0 energetike C. 25112012. Kontaktna osoba: Ing. Igor Salko, c.mob.: 0911 844 192. V Sebedine, diia: 13.07.2026 PRES GREEN, s.r.o. Sebedln 20 j'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.015799}
+LLM_tokens: {"input": 4580, "output": 4503, "total": 9083, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/572185/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/572185/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Lehota pod Vtáčnikom', 'katastralne_uzemia': [{'nazov': 'Lehota pod Vtáčnikom', 'parcely': []}, {'nazov': 'Cigeľ', 'parcely': []}, {'nazov': 'Koš', 'parcely': []}, {'nazov': 'Sebedražie', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo vedení 22 kV č. VN 295 k41', 'nazov_lokality_norm': 'VN 295 k41'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Lehota pod Vtáčnikom', 'katastralne_uzemia': [{'nazov': 'Lehota pod Vtáčnikom', 'parcely': []}, {'nazov': 'Cigeľ', 'parcely': []}, {'nazov': 'Koš', 'parcely': []}, {'nazov': 'Sebedražie', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo vedení 22 kV č. VN 295 k41', 'nazov_lokality_norm': 'VN 295 k41'}
+ku_name:Lehota pod Vtáčnikom obec:Lehota pod Vtáčnikom okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: lehota pod vtacnikom norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() found_ids: {'831191'}
+nationalCadastralZoningReferences: ['831191']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27831191%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.76 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Cigeľ obec:Lehota pod Vtáčnikom okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: lehota pod vtacnikom norm_ku: cigel
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: cigel
+_get_nationalCadastralZoningReferences() found_ids: {'808156'}
+nationalCadastralZoningReferences: ['808156']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27808156%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.22 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Koš obec:Lehota pod Vtáčnikom okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: lehota pod vtacnikom norm_ku: kos
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: kos
+_get_nationalCadastralZoningReferences() found_ids: {'826812'}
+nationalCadastralZoningReferences: ['826812']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27826812%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Sebedražie obec:Lehota pod Vtáčnikom okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: lehota pod vtacnikom norm_ku: sebedrazie
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: sebedrazie
+_get_nationalCadastralZoningReferences() found_ids: {'854492'}
+nationalCadastralZoningReferences: ['854492']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27854492%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VN 295 k41
+get_geometry_of_a_geoname nazov_lokality: VN 295 k41
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN 295 k41, Lehota pod Vtáčnikom, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN 295 k41, Prievidza, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN 295 k41, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN 295 k41, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.6938876, 'lon': 18.6012012, 'formatted_address': '972 42 Lehota pod Vtáčnikom, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=972 42 Lehota pod Vtáčnikom, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.569 48.72113, 18.56916 48.7...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.68648 48.72664, 18.68872 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.59588 48.76273, 18.59589 48...
+3  CadastralZoning  ...  MULTIPOLYGON (((18.60834 48.74742, 18.60928 48...
+
+[4 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/572185/gis.geojson...
+Intersections with protected areas...
+Found 6 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 6 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Lehota pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Lehota pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Lehota pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Lehota pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Cigeľ', 'NAZOV_UEV': 'Biely kameň', 'KOD_UEV': 'SKUEV0871'}, {'parcel_label': 'Cigeľ', 'NAZOV_UEV': 'Biely kameň', 'KOD_UEV': 'SKUEV0871'}], 'UEV': [{'parcel_label': 'Lehota pod Vtáčnikom', 'NATIONALSI': 'SKUEV0273', 'SITETITLE_': 'Vtáčnik'}, {'parcel_label': 'Cigeľ', 'NATIONALSI': 'SKUEV0871', 'SITETITLE_': 'Biely kameň'}], 'MCHU': [{'parcel_label': 'Lehota pod Vtáčnikom', 'NATIONALSI': '483', 'SITETITLE_': 'NPR Vtáčnik'}, {'parcel_label': 'Lehota pod Vtáčnikom', 'NATIONALSI': '1349', 'SITETITLE_': 'PR Pralesy Slovenska-Vtáčnik'}, {'parcel_label': 'Lehota pod Vtáčnikom', 'NATIONALSI': '213', 'SITETITLE_': 'PR Biely kameň'}, {'parcel_label': 'Lehota pod Vtáčnikom', 'NATIONALSI': '414', 'SITETITLE_': 'PP Sivý kameň'}, {'parcel_label': 'Cigeľ', 'NATIONALSI': '213', 'SITETITLE_': 'PR Biely kameň'}, {'parcel_label': 'Cigeľ', 'NATIONALSI': '1347', 'SITETITLE_': 'PR Pralesy Slovenska-Veľký Grič'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/572185/analysis.json...
+
+--- Časy spracovania dokumentu 572185 ---
+  download_and_text   :   1.52 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  17.32 s
+  gis_processing      :   4.21 s
+  CELKOVÝ ČAS         :  23.04 s
+------------------------------------------
+Dokument 572185 bol úspešne spracovaný.

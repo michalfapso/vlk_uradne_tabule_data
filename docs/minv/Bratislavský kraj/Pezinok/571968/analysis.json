@@ -1,0 +1,100 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2026/003568-006",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-15",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa jeho oznámenia"
+  },
+  "ziadatel_navrhovatel": "Bratislavská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Modra",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Modra",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2975/2",
+              "3049",
+              "3050/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "4484/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Kellenbergerová ul.",
+    "nazov_lokality_norm": "Kellenbergerová, Modra"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "dodatočné povolenie vodnej stavby",
+    "sanácia verejného vodovodu",
+    "výstavba nového verejného vodovodu"
+  ],
+  "rozsah_zasahu": "vodovodná vetva v dĺžke 104,85 m, profil DN 150, 5 vodovodných prípojok",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z.z.",
+      "paragrafy": [
+        "5 odst.1"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z.z.",
+      "paragrafy": [
+        "26",
+        "73 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "62 ods.1 a 2",
+        "66",
+        "88a",
+        "120"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "26 ods. 2",
+        "46",
+        "47",
+        "53",
+        "54"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o dodatočnom povolení vodnej stavby 'Sanácia verejného vodovodu' na Kellenbergerovej ulici v Modre. Jedná sa o inžiniersku sieť v dĺžke cca 105 metrov v zastavanom území obce. Dokument neuvádza, že by stavba zasahovala do chránených území prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

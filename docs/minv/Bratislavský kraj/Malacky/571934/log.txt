@@ -1,0 +1,67 @@
+[2026-07-20 19:37:05] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571934'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=2&odbor=10&sekcia=uradna-tabula&subor=571934
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571934/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571934/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571934/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011458500000000002}
+LLM_tokens: {"input": 5376, "output": 3528, "total": 8904, "cached": 4030}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571934/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571934/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Kostolište', 'katastralne_uzemia': [{'nazov': 'Kostolište', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'lesný celok Kostolište, lesné dielce č. 256B, 264, 278A a 278E', 'nazov_lokality_norm': 'Kostolište'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Kostolište', 'katastralne_uzemia': [{'nazov': 'Kostolište', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'lesný celok Kostolište, lesné dielce č. 256B, 264, 278A a 278E', 'nazov_lokality_norm': 'Kostolište'}
+ku_name:Kostolište obec:Kostolište okres:Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: kostoliste norm_ku: kostoliste
+_get_nationalCadastralZoningReferences() found_ids: {'826626'}
+nationalCadastralZoningReferences: ['826626']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27826626%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.86 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Kostolište
+get_geometry_of_a_geoname nazov_lokality: Kostolište
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Kostolište, Kostolište, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((16.97027 48.4413, 16.97044 48.4405, ...  ...  Kostolište, okres Malacky, Bratislavský kraj, ...
+1  POLYGON ((16.95353 48.43276, 16.95459 48.43259...  ...  Kostolište, okres Malacky, Bratislavský kraj, ...
+
+[2 rows x 11 columns]
+geoname_query: Kostolište, Kostolište, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((16.9903 48.4752, 16.99064 48.4...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((16.97027 48.4413, 16.97044 48.4405, ...  ...  Kostolište, okres Malacky, Bratislavský kraj, ...
+1  POLYGON ((16.95353 48.43276, 16.95459 48.43259...  ...  Kostolište, okres Malacky, Bratislavský kraj, ...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571934/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Kostolište', 'NATIONALSI': 'SKUEV0116', 'SITETITLE_': 'Jakubovské rybníky'}], 'CHVU': [{'parcel_label': 'Kostolište', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}, {'parcel_label': 'Kostolište', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571934/analysis.json...
+
+--- Časy spracovania dokumentu 571934 ---
+  download_and_text   :   1.06 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  14.50 s
+  gis_processing      :   1.29 s
+  CELKOVÝ ČAS         :  16.86 s
+------------------------------------------
+Dokument 571934 bol úspešne spracovaný.

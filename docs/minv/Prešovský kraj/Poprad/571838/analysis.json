@@ -1,0 +1,77 @@
+{
+  "cislo_konania_spisu": "OU-PP-OSZP-2026/022357",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-13",
+  "datum_zverejnenia": "2026-07-14",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Studničky Vernár s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Poprad",
+    "obec": "Vernár",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vernár",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1092/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatých správnych konaniach",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "47 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Okresný úrad Poprad informuje o začatí správneho konania vo veci žiadosti o výrub drevín od spoločnosti Studničky Vernár s.r.o. Výrub sa má uskutočniť v katastrálnom území Vernár na parcele KN-E 1092/1. Dokument neuvádza rozsah výrubu ani informáciu, či sa pozemok nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "1092/1",
+          "NATIONALSI": "SKCHVU053",
+          "SITETITLE_": "Slovenský raj"
+        }
+      ],
+      "UNESCO": [
+        {
+          "parcel_label": "1092/1",
+          "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
+          "Kod_chrane": "UN01"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,79 @@
+[2026-07-20 19:45:41] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/571942'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=23&odbor=10&sekcia=uradna-tabula&subor=571942
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/571942/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/571942/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona – líniová stavba, stavba s veľkým počtom účastníkom konania. - Stavebníkovi - Známym a neznámym právnickým osobám a fyzickým osobám'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 3' zákona 'stavebného zákona. Po uplynutí lehoty určenej na vyvesenie, žiadame túto vyhlášku zaslať späť na Okresný úrad Levice, odbor starostlivosti o životné p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1 písm. c)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších právnych predpisov a po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších právnych predpisov a po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58 písm. c)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších právnych predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších právnych predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. c)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších právnych predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších právnych predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67' zákona 'stavebného zákona v znení neskorších právnych predpisov platnosť stavebného povolenia na vodnú stavbu: „Tlmače – dobudovanie kanalizácie – prepojovaci'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69' zákona 'stavebného zákona v znení neskorších právnych predpisov platnosť stavebného povolenia na vodnú stavbu: „Tlmače – dobudovanie kanalizácie – prepojovaci'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 2' zákona 'stavebného zákona stráca platnosť, ak sa so stavbou nezačne do dvoch rokov odo dňa nadobudnutia právoplatnosti rozhodnutia ak stavebný úrad v odôvodne'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80' zákona 'stavebného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona 'stavebného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 177' zákona 'a nasl. zákona č. 162/2015 Z. z. Správny súdny poriadok preskúmateľné súdom po vyčerpaní všetkých riadnych opravných prostriedkov a po nadobudnutí prá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/571942/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014228}
+LLM_tokens: {"input": 10018, "output": 3073, "total": 13091, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/571942/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/571942/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Tlmače', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Tlmače - dobudovanie kanalizácie - prepojovacie potrubia', 'nazov_lokality_norm': 'Tlmače'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Tlmače', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Tlmače - dobudovanie kanalizácie - prepojovacie potrubia', 'nazov_lokality_norm': 'Tlmače'}
+Fallback to OBEC: Tlmače
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: levice norm_obec: tlmace norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'863416'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27863416%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Tlmače
+get_geometry_of_a_geoname nazov_lokality: Tlmače
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Tlmače, Tlmače, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Tlmače, Levice, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.50598 48.29685, 18.50606 48.29675...  ...  Tlmače, okres Levice, Nitriansky kraj, 935 21,...
+
+[1 rows x 11 columns]
+geoname_query: Tlmače, Levice, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.50875 48.30019, 18.5106 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.50598 48.29685, 18.50606 48.29675...  ...  Tlmače, okres Levice, Nitriansky kraj, 935 21,...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/571942/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/571942/analysis.json...
+
+--- Časy spracovania dokumentu 571942 ---
+  download_and_text   :   1.37 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.30 s
+  gis_processing      :   1.29 s
+  CELKOVÝ ČAS         :  18.97 s
+------------------------------------------
+Dokument 571942 bol úspešne spracovaný.

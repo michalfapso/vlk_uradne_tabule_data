@@ -1,0 +1,85 @@
+[2026-07-20 19:37:22] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571862'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=2&odbor=10&sekcia=uradna-tabula&subor=571862
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571862/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571862/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571862/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0130765}
+LLM_tokens: {"input": 4787, "output": 3561, "total": 8348, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571862/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571862/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Stupava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 400 kV elektrického vedenia, vedenie č. 497 TR: Sokolnice – Stupava', 'nazov_lokality_norm': 'Stupava'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Stupava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 400 kV elektrického vedenia, vedenie č. 497 TR: Sokolnice – Stupava', 'nazov_lokality_norm': 'Stupava'}
+Fallback to OBEC: Stupava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: stupava norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (6), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Stupava
+get_geometry_of_a_geoname nazov_lokality: Stupava
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Stupava, Stupava, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.01017 48.27326, 17.01024 48.26997...  ...  Stupava, Borinka, okres Malacky, Bratislavský ...
+1  POLYGON ((16.93307 48.30611, 16.93605 48.3032,...  ...  Stupava, Borinka, okres Malacky, Bratislavský ...
+
+[2 rows x 11 columns]
+geoname_query: Stupava, Stupava, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.01017 48.27326, 17.01024 48.26997...  ...  Stupava, Borinka, okres Malacky, Bratislavský ...
+1  POLYGON ((16.93307 48.30611, 16.93605 48.3032,...  ...  Stupava, Borinka, okres Malacky, Bratislavský ...
+
+[2 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571862/gis.geojson...
+Intersections with protected areas...
+Found 17 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}], 'UEV': [{'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKUEV0911', 'SITETITLE_': 'Vrchná hora'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKUEV0104', 'SITETITLE_': 'Homoľské Karpaty'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKUEV0313', 'SITETITLE_': 'Devínske jazero'}], 'MCHU': [{'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 31, Slovensko', 'NATIONALSI': '134', 'SITETITLE_': 'PR Pod Pajštúnom'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': '160', 'SITETITLE_': 'PR Strmina'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': '134', 'SITETITLE_': 'PR Pod Pajštúnom'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': '1262', 'SITETITLE_': 'CHA Devínske jazero'}], 'CHVU': [{'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 31, Slovensko', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}]}
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Stupava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 400 kV elektrického vedenia, vedenie č. 498 TR: Stupava – P.Biskupice', 'nazov_lokality_norm': 'Stupava'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Stupava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 400 kV elektrického vedenia, vedenie č. 498 TR: Stupava – P.Biskupice', 'nazov_lokality_norm': 'Stupava'}
+Fallback to OBEC: Stupava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: stupava norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (6), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Stupava
+get_geometry_of_a_geoname nazov_lokality: Stupava
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Stupava, Stupava, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.01017 48.27326, 17.01024 48.26997...  ...  Stupava, Borinka, okres Malacky, Bratislavský ...
+1  POLYGON ((16.93307 48.30611, 16.93605 48.3032,...  ...  Stupava, Borinka, okres Malacky, Bratislavský ...
+
+[2 rows x 11 columns]
+geoname_query: Stupava, Stupava, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.01017 48.27326, 17.01024 48.26997...  ...  Stupava, Borinka, okres Malacky, Bratislavský ...
+1  POLYGON ((16.93307 48.30611, 16.93605 48.3032,...  ...  Stupava, Borinka, okres Malacky, Bratislavský ...
+
+[2 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571862/gis.geojson...
+Intersections with protected areas...
+Found 17 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}], 'UEV': [{'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKUEV0911', 'SITETITLE_': 'Vrchná hora'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKUEV0104', 'SITETITLE_': 'Homoľské Karpaty'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKUEV0313', 'SITETITLE_': 'Devínske jazero'}], 'MCHU': [{'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 31, Slovensko', 'NATIONALSI': '134', 'SITETITLE_': 'PR Pod Pajštúnom'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': '160', 'SITETITLE_': 'PR Strmina'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': '134', 'SITETITLE_': 'PR Pod Pajštúnom'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': '1262', 'SITETITLE_': 'CHA Devínske jazero'}], 'CHVU': [{'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 31, Slovensko', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': 'Stupava, Borinka, okres Malacky, Bratislavský kraj, 900 32, Slovensko', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/571862/analysis.json...
+
+--- Časy spracovania dokumentu 571862 ---
+  download_and_text   :   1.11 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.80 s
+  gis_processing      :   0.97 s
+  CELKOVÝ ČAS         :  16.88 s
+------------------------------------------
+Dokument 571862 bol úspešne spracovaný.

@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP/2026/034987",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-15",
+  "datum_zverejnenia": "2026-07-15",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": "Kostolište",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kostolište",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "lesný celok Kostolište, lesné dielce č. 256B, 264, 278A a 278E",
+    "nazov_lokality_norm": "Kostolište"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "asanačná ťažba"
+  ],
+  "rozsah_zasahu": "lesné dielce č. 256B, 264, 278A a 278E",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82 ods. 7",
+        "82 ods. 6"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci asanačnej ťažby v lesnom celku Kostolište, konkrétne v lesných dielcoch č. 256B, 264, 278A a 278E. Verejnosť môže doručiť potvrdenie záujmu o účasť do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Kostolište",
+          "NATIONALSI": "SKUEV0116",
+          "SITETITLE_": "Jakubovské rybníky"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Kostolište",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        },
+        {
+          "parcel_label": "Kostolište",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

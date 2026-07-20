@@ -1,0 +1,120 @@
+[2026-07-20 20:03:53] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/571847'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=14&odbor=10&sekcia=uradna-tabula&subor=571847
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/571847/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0014115999999999998}
+LLM_tokens: {"input": 1366, "output": 3510, "total": 4876, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/571847/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 41' zákona 'vodného zákona a splošných stavebných predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'vodného zákona v súlade so zákonom č. 71/1967 Zb. o správnom konaní v znení neskorších predpisov posúdil žiadosť podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona 'a stavebného zákona  **Povoduje**  žiadateľovi Obec Brzince pod Javorinou, Dr. Rudolfa Macháča č. 348/1, 916 11 Brzince pod Javorinou, IČO: 00311456 p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona 'vodného zákona v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'stavebného zákona pod č. OU- NM-OSZP-2021/002776-008 zo dňa 12.07.2021, ktorého nadobudlo platnosť dňa 07.08.2021, ktoré platnosť je predĺžená rozhodn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. A' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona 'vodného zákona v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'stavebného zákona pod č. j.: OU-NM-OSZP-2021/002776-008 zo dňa 12.07.2021, ktoré nadobudlo právoplatnosť dňa 07.08.2021 zostávajú nezmenené.  2. Stave'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 70' zákona 'stavebného zákona záväzné aj pre právnych nástupcov účastníkov konania.  3. Stavba nesmie byť začatá, kým rozhodnutie o predĺžení platnosti stavebného'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'stavebného zákona, M.Rázusa 14, 915 01 Nové Mesto nad Váhom, Slovenská republika Andrea Štolcvanová, Ulice Martina Rázusa 918/14, 915 01 Nové Mesto na'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO: 00151866 Spôsob autorizácie: Kvalifikovaný elektronický podpis vyhoto'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/571847/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.022760000000000002}
+LLM_tokens: {"input": 7672, "output": 6308, "total": 13980, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/571847/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/571847/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Brzince pod Javorinou', 'katastralne_uzemia': [{'nazov': 'Dom Brzince', 'parcely': [{'typ': 'C', 'cisla': ['81/3', '43/1', '326/3', '81/1', '12/9', '197/1', '210/1', '326/7']}, {'typ': 'E', 'cisla': ['81/23', '197/1']}]}, {'nazov': 'Hrušové', 'parcely': [{'typ': 'C', 'cisla': ['26/2', '64/4', '64/3', '313/3', '314/1']}, {'typ': 'E', 'cisla': ['646/1', '647', '640/1', '641/1', '640/2', '644', '646/2', '647/5']}]}, {'nazov': 'Horné Brzince', 'parcely': [{'typ': 'C', 'cisla': ['566', '870', '997', '993/1', '322/1', '189/4', '225/1', '26', '306', '307/1', '25/2', '263/1', '313', '191/1']}, {'typ': 'E', 'cisla': ['1919/1', '225/1', '250', '225/2', '275', '276', '278', '188', '1032']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Brzince pod Javorinou – Kanalizácia', 'nazov_lokality_norm': None}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Brzince pod Javorinou', 'katastralne_uzemia': [{'nazov': 'Dom Brzince', 'parcely': [{'typ': 'C', 'cisla': ['81/3', '43/1', '326/3', '81/1', '12/9', '197/1', '210/1', '326/7']}, {'typ': 'E', 'cisla': ['81/23', '197/1']}]}, {'nazov': 'Hrušové', 'parcely': [{'typ': 'C', 'cisla': ['26/2', '64/4', '64/3', '313/3', '314/1']}, {'typ': 'E', 'cisla': ['646/1', '647', '640/1', '641/1', '640/2', '644', '646/2', '647/5']}]}, {'nazov': 'Horné Brzince', 'parcely': [{'typ': 'C', 'cisla': ['566', '870', '997', '993/1', '322/1', '189/4', '225/1', '26', '306', '307/1', '25/2', '263/1', '313', '191/1']}, {'typ': 'E', 'cisla': ['1919/1', '225/1', '250', '225/2', '275', '276', '278', '188', '1032']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Brzince pod Javorinou – Kanalizácia', 'nazov_lokality_norm': None}
+ku_name:Dom Brzince obec:Brzince pod Javorinou okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: brzince pod javorinou norm_ku: dom brzince
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: None norm_ku: dom brzince
+Fuzzy match found: 'Dom Brzince' -> 'Dolné Bzince' (ID: 807818)
+nationalCadastralZoningReferences: ['807818']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27807818_81%2F3.C%27%2C%27807818_43%2F1.C%27%2C%27807818_326%2F3.C%27%2C%27807818_81%2F1.C%27%2C%27807818_12%2F9.C%27%2C%27807818_197%2F1.C%27%2C%27807818_210%2F1.C%27%2C%27807818_326%2F7.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.23 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27807818_81%2F23.E%27%2C%27807818_197%2F1.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.91 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'E', 'cisla': ['81/23', '197/1']}' v KU 'Dom Brzince' sa nenašli dáta.
+ku_name:Hrušové obec:Brzince pod Javorinou okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: brzince pod javorinou norm_ku: hrusove
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: None norm_ku: hrusove
+_get_nationalCadastralZoningReferences() found_ids: {'807842'}
+nationalCadastralZoningReferences: ['807842']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27807842_26%2F2.C%27%2C%27807842_64%2F4.C%27%2C%27807842_64%2F3.C%27%2C%27807842_313%2F3.C%27%2C%27807842_314%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.73 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['26/2', '64/4', '64/3', '313/3', '314/1']}' v KU 'Hrušové' sa nenašli dáta.
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27807842_646%2F1.E%27%2C%27807842_647.E%27%2C%27807842_640%2F1.E%27%2C%27807842_641%2F1.E%27%2C%27807842_640%2F2.E%27%2C%27807842_644.E%27%2C%27807842_646%2F2.E%27%2C%27807842_647%2F5.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.60 s
+ku_name:Horné Brzince obec:Brzince pod Javorinou okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: brzince pod javorinou norm_ku: horne brzince
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: None norm_ku: horne brzince
+Fuzzy match found: 'Horné Brzince' -> 'Horné Bzince' (ID: 807826)
+nationalCadastralZoningReferences: ['807826']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27807826_566.C%27%2C%27807826_870.C%27%2C%27807826_997.C%27%2C%27807826_993%2F1.C%27%2C%27807826_322%2F1.C%27%2C%27807826_189%2F4.C%27%2C%27807826_225%2F1.C%27%2C%27807826_26.C%27%2C%27807826_306.C%27%2C%27807826_307%2F1.C%27%2C%27807826_25%2F2.C%27%2C%27807826_263%2F1.C%27%2C%27807826_313.C%27%2C%27807826_191%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.68 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27807826_1919%2F1.E%27%2C%27807826_225%2F1.E%27%2C%27807826_250.E%27%2C%27807826_225%2F2.E%27%2C%27807826_275.E%27%2C%27807826_276.E%27%2C%27807826_278.E%27%2C%27807826_188.E%27%2C%27807826_1032.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.33 s
+nazov_lokality: Brzince pod Javorinou – Kanalizácia
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.2529'}
+
+[30 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/571847/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/571847/analysis.json...
+
+--- Časy spracovania dokumentu 571847 ---
+  download_and_text   :  20.57 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  25.33 s
+  gis_processing      :  21.77 s
+  CELKOVÝ ČAS         :  67.68 s
+------------------------------------------
+Dokument 571847 bol úspešne spracovaný.

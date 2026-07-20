@@ -1,0 +1,80 @@
+[2026-07-20 19:29:30] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571956'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=46&odbor=10&sekcia=uradna-tabula&subor=571956
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571956/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571956/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm. b)' zákona '251/2012 Z. z. o energetike a o zmene a doplnení niektorých zákonov v znení neskorších predpisov. Práce žiadateľ plánuje vykonávať v rozsahu podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona 'o energetike č.251/2012 Z. z. Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'druhej vety zákona o ochrane prírody orgán ochrany prírody je povinný zverejniť oznámenie na svojom webovom sídle, a to najneskôr do troch pracovných'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'možno vykonať len na základe súhlasného stanoviska orgánu ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 8 písm. a)' zákona 'alebo v rozsahu obmedzenia alebo podmienok uskutočnenia výrubu určených podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 8 písm. b)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 8 písm. c)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm. b)' zákona '25l/2012 o energetike a o zmene a doplnení niektorých zákonov v znení neskorších predpisov. Výška porastov v ochrannom pásme vedenia prekročila bezpeč'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona 'o energetike č. 251/2012. Kontaktná osoba: Ján Miklóš, č.mob.: +421 918396279. . V Pincinej, dňa: 12.07.2026 Michaela Miklóšová konateľka spoločnosti'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm. b)' zákona 'o energetike, - Splnomocnený zástupca zodpovedá vlastníkovi nehnuternosti za majetkovú ujmu, ktorú spôsobil vlastníkovi pri uplatňovaní práv držiteľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 3' zákona 'o energetike, - Splnomocnený zástupca zodpovedá vlastníkovi nehnuternosti za majetkovú ujmu, ktorú spôsobil vlastníkovi pri uplatňovaní práv držiteľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571956/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0141765}
+LLM_tokens: {"input": 9501, "output": 3142, "total": 12643, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571956/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571956/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Štiavnica', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Prenčov', 'parcely': []}, {'nazov': 'Beluj', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochrannom pásme vedenia 22kV: č. VN 330_k12', 'nazov_lokality_norm': 'VN 330_k12'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Štiavnica', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Prenčov', 'parcely': []}, {'nazov': 'Beluj', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochrannom pásme vedenia 22kV: č. VN 330_k12', 'nazov_lokality_norm': 'VN 330_k12'}
+ku_name:Prenčov obec:None okres:Banská Štiavnica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska stiavnica norm_obec: None norm_ku: prencov
+_get_nationalCadastralZoningReferences() found_ids: {'849448'}
+nationalCadastralZoningReferences: ['849448']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27849448%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Beluj obec:None okres:Banská Štiavnica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska stiavnica norm_obec: None norm_ku: beluj
+_get_nationalCadastralZoningReferences() found_ids: {'802492'}
+nationalCadastralZoningReferences: ['802492']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27802492%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.22 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VN 330_k12
+get_geometry_of_a_geoname nazov_lokality: VN 330_k12
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN 330_k12, Banská Štiavnica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN 330_k12, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN 330_k12, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.44920159999999, 'lon': 18.9070093, 'formatted_address': '969 01 Banská Štiavnica, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=969 01 Banská Štiavnica, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.90481 48.40089, 18.90493 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.86618 48.3987, 18.8663 48.3...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571956/gis.geojson...
+Intersections with protected areas...
+Found 4 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': 'Prenčov', 'NATIONALSI': 'SKUEV0015', 'SITETITLE_': 'Dolná Bukovina'}, {'parcel_label': 'Prenčov', 'NATIONALSI': 'SKUEV0216', 'SITETITLE_': 'Sitno'}, {'parcel_label': 'Beluj', 'NATIONALSI': 'SKUEV0259', 'SITETITLE_': 'Sitno'}, {'parcel_label': 'Beluj', 'NATIONALSI': 'SKUEV0216', 'SITETITLE_': 'Sitno'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571956/analysis.json...
+
+--- Časy spracovania dokumentu 571956 ---
+  download_and_text   :   1.36 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  16.63 s
+  gis_processing      :   3.94 s
+  CELKOVÝ ČAS         :  21.93 s
+------------------------------------------
+Dokument 571956 bol úspešne spracovaný.

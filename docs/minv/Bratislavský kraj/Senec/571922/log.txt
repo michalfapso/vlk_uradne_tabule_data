@@ -1,0 +1,91 @@
+[2026-07-20 19:39:07] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571922'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=4&odbor=10&sekcia=uradna-tabula&subor=571922
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571922/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571922/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona 'pís. g) a h) zákona č.543/2002  Z. z. o ochrane prírody a krajiny v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '251/2012 Z.z. o energetike.    Okliesnenie a výruby drevín budú vykonané v zákonnom ochrannom pásme elektrických vedení 400kV  ako kolmá vzdialenosť 2'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'a)   vydá súhlasné stanovisko k oznámenému výrubu,   b)   výrub obmedzí, zakáže alebo určí podmienky jeho uskutočnenia, ak si to vyžadujú záujmy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571922/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.015373500000000002}
+LLM_tokens: {"input": 6339, "output": 4068, "total": 10407, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571922/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571922/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Chorvátsky Grob', 'parcely': []}, {'nazov': 'Bernolákovo', 'parcely': []}, {'nazov': 'Tomášov', 'parcely': []}, {'nazov': 'Studené', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo elektrických vedení 400kV', 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Chorvátsky Grob', 'parcely': []}, {'nazov': 'Bernolákovo', 'parcely': []}, {'nazov': 'Tomášov', 'parcely': []}, {'nazov': 'Studené', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo elektrických vedení 400kV', 'nazov_lokality_norm': None}
+ku_name:Chorvátsky Grob obec:None okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: None norm_ku: chorvatsky grob
+_get_nationalCadastralZoningReferences() found_ids: {'820865'}
+nationalCadastralZoningReferences: ['820865']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27820865%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.43 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Bernolákovo obec:None okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: None norm_ku: bernolakovo
+_get_nationalCadastralZoningReferences() found_ids: {'802735'}
+nationalCadastralZoningReferences: ['802735']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27802735%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.37 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Tomášov obec:None okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: None norm_ku: tomasov
+_get_nationalCadastralZoningReferences() found_ids: {'863491'}
+nationalCadastralZoningReferences: ['863491']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27863491%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.21 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Studené obec:None okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: None norm_ku: studene
+_get_nationalCadastralZoningReferences() found_ids: {'838519'}
+nationalCadastralZoningReferences: ['838519']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27838519%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: ochranné pásmo elektrických vedení 400kV
+get_geometry_of_a_geoname nazov_lokality: ochranné pásmo elektrických vedení 400kV
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ochranné pásmo elektrických vedení 400kV, Senec, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ochranné pásmo elektrických vedení 400kV, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=ochranné pásmo elektrických vedení 400kV, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.2170352, 'lon': 17.4061427, 'formatted_address': '903 01 Senec, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=903 01 Senec, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.2576 48.24175, 17.25767 48....
+1  CadastralZoning  ...  MULTIPOLYGON (((17.31311 48.23008, 17.31385 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((17.33885 48.17468, 17.33941 48...
+3  CadastralZoning  ...  MULTIPOLYGON (((17.29694 48.14532, 17.29699 48...
+
+[4 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571922/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Chorvátsky Grob', 'NATIONALSI': 'SKUEV0279', 'SITETITLE_': 'Šúr'}, {'parcel_label': 'Bernolákovo', 'NATIONALSI': 'SKUEV0822', 'SITETITLE_': 'Malý Dunaj'}, {'parcel_label': 'Tomášov', 'NATIONALSI': 'SKUEV0822', 'SITETITLE_': 'Malý Dunaj'}], 'MCHU': [{'parcel_label': 'Chorvátsky Grob', 'NATIONALSI': '168', 'SITETITLE_': 'OP PR Šúr'}, {'parcel_label': 'Chorvátsky Grob', 'NATIONALSI': '168', 'SITETITLE_': 'PR Šúr'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/571922/analysis.json...
+
+--- Časy spracovania dokumentu 571922 ---
+  download_and_text   :   0.88 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  16.85 s
+  gis_processing      :   3.20 s
+  CELKOVÝ ČAS         :  20.94 s
+------------------------------------------
+Dokument 571922 bol úspešne spracovaný.

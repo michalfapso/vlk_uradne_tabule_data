@@ -1,0 +1,194 @@
+[2026-07-20 20:14:41] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571846'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=12&odbor=10&sekcia=uradna-tabula&subor=571846
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571846/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0009299999999999999}
+LLM_tokens: {"input": 1366, "output": 2306, "total": 3672, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571846/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odst. 5 písm. e)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odst. 7' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11' zákona 'tohto zákona držiteľ povolenia na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odst.1' zákona 'tohto zákona držiteľ povolenia na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '251/2012 Z.z. je definované u 400 kV vedení, ako kolmá vzdialenosť 25 m od krajného vodiča na obe strany.  Predpokladané : - začatie výrubu : 9/2026 -'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0159075}
+LLM_tokens: {"input": 6195, "output": 4270, "total": 10465, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571846/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571846/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Ivanovce', 'parcely': [{'typ': 'E', 'cisla': ['3-1371', '3-1368', '3-1367', '3-1364']}]}, {'nazov': 'Melčice', 'parcely': [{'typ': 'E', 'cisla': ['1604', '903', '904', '901', '955/2', '955/1', '954', '952', '951', '875/4', '875/3', '875/2', '875/1', '746', '745', '1589/1', '714']}, {'typ': 'C', 'cisla': ['1574/2']}]}, {'nazov': 'Zemianske Lieskové', 'parcely': [{'typ': 'E', 'cisla': ['919/5', '914/3', '914/2', '914/1', '1202/4', '1202/3']}]}, {'nazov': 'Adamovské Kochánovce', 'parcely': [{'typ': 'E', 'cisla': ['2-1044', '2-653/2', '654/8', '654/7', '2-618', '2-871', '872', '1-696', '1-552']}]}, {'nazov': 'Drietoma', 'parcely': [{'typ': 'E', 'cisla': ['5017', '1570', '4019', '5140/1', '4016/1', '4015/1']}, {'typ': 'C', 'cisla': ['1006/10', '2760', '2774/18', '2774/19', '2789/11']}]}, {'nazov': 'Žablatie', 'parcely': [{'typ': 'C', 'cisla': ['900/1', '909/1']}]}, {'nazov': 'Zlatovce', 'parcely': [{'typ': 'E', 'cisla': ['2425', '2071']}]}, {'nazov': 'Ištebnik', 'parcely': [{'typ': 'C', 'cisla': ['827/4', '827/8']}]}, {'nazov': 'Dolná Súča', 'parcely': [{'typ': 'E', 'cisla': ['7968/3', '3855/1', '3884']}]}, {'nazov': 'Kľúče', 'parcely': [{'typ': 'C', 'cisla': ['1227', '1577', '1572', '1569']}]}, {'nazov': 'Nemšová', 'parcely': [{'typ': 'C', 'cisla': ['4364/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod el. vedením 400 kV, vedenie č. 495 TR: Bošáca – p.b. 92 a', 'nazov_lokality_norm': 'V495'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Ivanovce', 'parcely': [{'typ': 'E', 'cisla': ['3-1371', '3-1368', '3-1367', '3-1364']}]}, {'nazov': 'Melčice', 'parcely': [{'typ': 'E', 'cisla': ['1604', '903', '904', '901', '955/2', '955/1', '954', '952', '951', '875/4', '875/3', '875/2', '875/1', '746', '745', '1589/1', '714']}, {'typ': 'C', 'cisla': ['1574/2']}]}, {'nazov': 'Zemianske Lieskové', 'parcely': [{'typ': 'E', 'cisla': ['919/5', '914/3', '914/2', '914/1', '1202/4', '1202/3']}]}, {'nazov': 'Adamovské Kochánovce', 'parcely': [{'typ': 'E', 'cisla': ['2-1044', '2-653/2', '654/8', '654/7', '2-618', '2-871', '872', '1-696', '1-552']}]}, {'nazov': 'Drietoma', 'parcely': [{'typ': 'E', 'cisla': ['5017', '1570', '4019', '5140/1', '4016/1', '4015/1']}, {'typ': 'C', 'cisla': ['1006/10', '2760', '2774/18', '2774/19', '2789/11']}]}, {'nazov': 'Žablatie', 'parcely': [{'typ': 'C', 'cisla': ['900/1', '909/1']}]}, {'nazov': 'Zlatovce', 'parcely': [{'typ': 'E', 'cisla': ['2425', '2071']}]}, {'nazov': 'Ištebnik', 'parcely': [{'typ': 'C', 'cisla': ['827/4', '827/8']}]}, {'nazov': 'Dolná Súča', 'parcely': [{'typ': 'E', 'cisla': ['7968/3', '3855/1', '3884']}]}, {'nazov': 'Kľúče', 'parcely': [{'typ': 'C', 'cisla': ['1227', '1577', '1572', '1569']}]}, {'nazov': 'Nemšová', 'parcely': [{'typ': 'C', 'cisla': ['4364/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod el. vedením 400 kV, vedenie č. 495 TR: Bošáca – p.b. 92 a', 'nazov_lokality_norm': 'V495'}
+ku_name:Ivanovce obec:None okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: ivanovce
+_get_nationalCadastralZoningReferences() found_ids: {'821471'}
+nationalCadastralZoningReferences: ['821471']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27821471_3-1371.E%27%2C%27821471_3-1368.E%27%2C%27821471_3-1367.E%27%2C%27821471_3-1364.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.20 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'E', 'cisla': ['3-1371', '3-1368', '3-1367', '3-1364']}' v KU 'Ivanovce' sa nenašli dáta.
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27821471_1371.E%27%2C%27821471_1368.E%27%2C%27821471_1367.E%27%2C%27821471_1364.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.28 s
+ku_name:Melčice obec:None okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: melcice
+_get_nationalCadastralZoningReferences() found_ids: {'836664'}
+nationalCadastralZoningReferences: ['836664']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27836664_1604.E%27%2C%27836664_903.E%27%2C%27836664_904.E%27%2C%27836664_901.E%27%2C%27836664_955%2F2.E%27%2C%27836664_955%2F1.E%27%2C%27836664_954.E%27%2C%27836664_952.E%27%2C%27836664_951.E%27%2C%27836664_875%2F4.E%27%2C%27836664_875%2F3.E%27%2C%27836664_875%2F2.E%27%2C%27836664_875%2F1.E%27%2C%27836664_746.E%27%2C%27836664_745.E%27%2C%27836664_1589%2F1.E%27%2C%27836664_714.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.21 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27836664_1574%2F2.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.11 s
+ku_name:Zemianske Lieskové obec:None okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: zemianske lieskove
+_get_nationalCadastralZoningReferences() found_ids: {'873063'}
+nationalCadastralZoningReferences: ['873063']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27873063_919%2F5.E%27%2C%27873063_914%2F3.E%27%2C%27873063_914%2F2.E%27%2C%27873063_914%2F1.E%27%2C%27873063_1202%2F4.E%27%2C%27873063_1202%2F3.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.37 s
+ku_name:Adamovské Kochánovce obec:None okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: adamovske kochanovce
+_get_nationalCadastralZoningReferences() found_ids: {'800121'}
+nationalCadastralZoningReferences: ['800121']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27800121_2-1044.E%27%2C%27800121_2-653%2F2.E%27%2C%27800121_654%2F8.E%27%2C%27800121_654%2F7.E%27%2C%27800121_2-618.E%27%2C%27800121_2-871.E%27%2C%27800121_872.E%27%2C%27800121_1-696.E%27%2C%27800121_1-552.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.03 s
+ku_name:Drietoma obec:None okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: drietoma
+_get_nationalCadastralZoningReferences() found_ids: {'813001'}
+nationalCadastralZoningReferences: ['813001']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27813001_5017.E%27%2C%27813001_1570.E%27%2C%27813001_4019.E%27%2C%27813001_5140%2F1.E%27%2C%27813001_4016%2F1.E%27%2C%27813001_4015%2F1.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.40 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27813001_1006%2F10.C%27%2C%27813001_2760.C%27%2C%27813001_2774%2F18.C%27%2C%27813001_2774%2F19.C%27%2C%27813001_2789%2F11.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.71 s
+ku_name:Žablatie obec:None okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: zablatie
+_get_nationalCadastralZoningReferences() found_ids: {'871664'}
+nationalCadastralZoningReferences: ['871664']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27871664_900%2F1.C%27%2C%27871664_909%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.31 s
+ku_name:Zlatovce obec:None okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: zlatovce
+_get_nationalCadastralZoningReferences() found_ids: {'873551'}
+nationalCadastralZoningReferences: ['873551']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27873551_2425.E%27%2C%27873551_2071.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.02 s
+ku_name:Ištebnik obec:None okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: istebnik
+_get_nationalCadastralZoningReferences() found_ids: {'872601'}
+nationalCadastralZoningReferences: ['872601']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27872601_827%2F4.C%27%2C%27872601_827%2F8.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.36 s
+ku_name:Dolná Súča obec:None okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: dolna suca
+_get_nationalCadastralZoningReferences() found_ids: {'811840'}
+nationalCadastralZoningReferences: ['811840']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27811840_7968%2F3.E%27%2C%27811840_3855%2F1.E%27%2C%27811840_3884.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.09 s
+ku_name:Kľúče obec:None okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: kluce
+Fuzzy match found: 'Kľúče' -> 'Kľúčové' (ID: 824879)
+nationalCadastralZoningReferences: ['824879']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27824879_1227.C%27%2C%27824879_1577.C%27%2C%27824879_1572.C%27%2C%27824879_1569.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.63 s
+ku_name:Nemšová obec:None okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: nemsova
+_get_nationalCadastralZoningReferences() found_ids: {'839639'}
+nationalCadastralZoningReferences: ['839639']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27839639_4364%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.06 s
+nazov_lokality: V495
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2666'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2666'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2666'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2666'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2666'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2666'}
+6   CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+7   CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+8   CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+9   CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+10  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+11  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+12  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+13  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+14  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+15  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+16  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+17  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+18  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+19  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+20  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+21  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+22  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+23  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+24  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+25  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+26  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+27  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+28  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+29  CadastralParcel  ...   {'@href': '#auAdmUnitS.288'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.1164'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.1164'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.1164'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.1514'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.1514'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.1514'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.1514'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.1514'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.1514'}
+39  CadastralParcel  ...  {'@href': '#auAdmUnitS.1514'}
+40  CadastralParcel  ...  {'@href': '#auAdmUnitS.1514'}
+41  CadastralParcel  ...  {'@href': '#auAdmUnitS.1514'}
+42  CadastralParcel  ...  {'@href': '#auAdmUnitS.1514'}
+43  CadastralParcel  ...   {'@href': '#auAdmUnitS.672'}
+44  CadastralParcel  ...   {'@href': '#auAdmUnitS.672'}
+45  CadastralParcel  ...   {'@href': '#auAdmUnitS.672'}
+46  CadastralParcel  ...   {'@href': '#auAdmUnitS.672'}
+47  CadastralParcel  ...   {'@href': '#auAdmUnitS.672'}
+48  CadastralParcel  ...   {'@href': '#auAdmUnitS.672'}
+49  CadastralParcel  ...  {'@href': '#auAdmUnitS.2403'}
+50  CadastralParcel  ...  {'@href': '#auAdmUnitS.2403'}
+51  CadastralParcel  ...  {'@href': '#auAdmUnitS.2403'}
+52  CadastralParcel  ...  {'@href': '#auAdmUnitS.2242'}
+53  CadastralParcel  ...  {'@href': '#auAdmUnitS.2242'}
+54  CadastralParcel  ...  {'@href': '#auAdmUnitS.2242'}
+55  CadastralParcel  ...  {'@href': '#auAdmUnitS.2242'}
+56  CadastralParcel  ...  {'@href': '#auAdmUnitS.2242'}
+
+[57 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571846/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with '5st_konsUEV'.
+Found 14 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': '1006/10', 'NAZOV_UEV': 'Jachtár', 'KOD_UEV': 'SKUEV0578'}, {'parcel_label': '1006/10', 'NAZOV_UEV': 'Jachtár', 'KOD_UEV': 'SKUEV0578'}], 'UEV': [{'parcel_label': '951', 'NATIONALSI': 'SKUEV4016', 'SITETITLE_': 'Bielokarpatské predhorie'}, {'parcel_label': '952', 'NATIONALSI': 'SKUEV4016', 'SITETITLE_': 'Bielokarpatské predhorie'}, {'parcel_label': '954', 'NATIONALSI': 'SKUEV4016', 'SITETITLE_': 'Bielokarpatské predhorie'}, {'parcel_label': '955/2', 'NATIONALSI': 'SKUEV4016', 'SITETITLE_': 'Bielokarpatské predhorie'}, {'parcel_label': '955/1', 'NATIONALSI': 'SKUEV4016', 'SITETITLE_': 'Bielokarpatské predhorie'}, {'parcel_label': '901', 'NATIONALSI': 'SKUEV4016', 'SITETITLE_': 'Bielokarpatské predhorie'}, {'parcel_label': '746', 'NATIONALSI': 'SKUEV4016', 'SITETITLE_': 'Bielokarpatské predhorie'}, {'parcel_label': '1589/1', 'NATIONALSI': 'SKUEV4016', 'SITETITLE_': 'Bielokarpatské predhorie'}, {'parcel_label': '1604', 'NATIONALSI': 'SKUEV4016', 'SITETITLE_': 'Bielokarpatské predhorie'}, {'parcel_label': '745', 'NATIONALSI': 'SKUEV4016', 'SITETITLE_': 'Bielokarpatské predhorie'}, {'parcel_label': '903', 'NATIONALSI': 'SKUEV4016', 'SITETITLE_': 'Bielokarpatské predhorie'}, {'parcel_label': '904', 'NATIONALSI': 'SKUEV4016', 'SITETITLE_': 'Bielokarpatské predhorie'}, {'parcel_label': '872', 'NATIONALSI': 'SKUEV4016', 'SITETITLE_': 'Bielokarpatské predhorie'}, {'parcel_label': '1006/10', 'NATIONALSI': 'SKUEV0578', 'SITETITLE_': 'Jachtár'}], 'MCHU': [{'parcel_label': '1006/10', 'NATIONALSI': '1016', 'SITETITLE_': 'PR Jachtár'}, {'parcel_label': '3884', 'NATIONALSI': '161', 'SITETITLE_': 'PP Súčanka'}, {'parcel_label': '7968/3', 'NATIONALSI': '161', 'SITETITLE_': 'PP Súčanka'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/571846/analysis.json...
+
+--- Časy spracovania dokumentu 571846 ---
+  download_and_text   :  14.89 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.80 s
+  gis_processing      :  46.25 s
+  CELKOVÝ ČAS         :  76.94 s
+------------------------------------------
+Dokument 571846 bol úspešne spracovaný.

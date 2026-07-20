@@ -1,0 +1,66 @@
+[2026-07-20 19:49:07] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/571894'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=63&odbor=10&sekcia=uradna-tabula&subor=571894
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/571894/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/571894/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov /vodný zákon/, a v súlade'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov /vodný zákon/, a v súlade'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71' zákona '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov /vodný zákon/, a v súlade'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov /vodný zákon/, a v súlade'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16' zákona '25/2025 Stavebný zákona a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods. 1' zákona '25/2025 Stavebný zákona a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53 ods. 2' zákona '25/2025 Stavebný zákon, upúšťa od ústneho pojednávania spojeného s miestnou ohliadkou. Účastníci konania môžu uplatniť svoje návrhy, pripomienky, námi'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 4' zákona '25/2025 Stavebný zákon návrhy, pripomienky a námietky účastníkov konania musia obsahovať údaj o tom, kto ich podáva, akého konania sa týkajú a v čom v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 5' zákona '25/2025 Stavebný zákon, správny orgán neprihliadne na návrhy, pripomienky a námietky účastníkov konania, ktoré sledujú iný cieľ ako ochranu práv a prá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 6' zákona '25/2025 Stavebný zákon, správny orgán neprihliadne ani na: a) opätovne uplatnené návrhy, pripomienky a námietky účastníkov konania a dotknutých orgáno'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 7' zákona '25/2025 Stavebný zákon, odvolací orgán v odvolacom konaní neprihliadne na návrhy, pripomienky a námietky účastníkov konania, ktoré účastníci konania n'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 5' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/571894/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.016016}
+LLM_tokens: {"input": 8380, "output": 3942, "total": 12322, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/571894/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/571894/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Sabinov', 'obec': 'Šarišské Michaľany', 'katastralne_uzemia': [{'nazov': 'Šarišské Michaľany', 'parcely': [{'typ': 'C', 'cisla': ['520/6', '158/57', '146/280', '520/3', '520/2', '157/57']}, {'typ': 'E', 'cisla': ['778/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'lokalita Západ', 'nazov_lokality_norm': 'Západ, Šarišské Michaľany'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Sabinov', 'obec': 'Šarišské Michaľany', 'katastralne_uzemia': [{'nazov': 'Šarišské Michaľany', 'parcely': [{'typ': 'C', 'cisla': ['520/6', '158/57', '146/280', '520/3', '520/2', '157/57']}, {'typ': 'E', 'cisla': ['778/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'lokalita Západ', 'nazov_lokality_norm': 'Západ, Šarišské Michaľany'}
+ku_name:Šarišské Michaľany obec:Šarišské Michaľany okres:Sabinov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: sabinov norm_obec: sarisske michalany norm_ku: sarisske michalany
+_get_nationalCadastralZoningReferences() found_ids: {'860557'}
+nationalCadastralZoningReferences: ['860557']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27860557_520%2F6.C%27%2C%27860557_158%2F57.C%27%2C%27860557_146%2F280.C%27%2C%27860557_520%2F3.C%27%2C%27860557_520%2F2.C%27%2C%27860557_157%2F57.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.88 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27860557_778%2F2.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.71 s
+nazov_lokality: Západ, Šarišské Michaľany
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2613'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2613'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2613'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2613'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.2613'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.2613'}
+
+[6 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/571894/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/571894/analysis.json...
+
+--- Časy spracovania dokumentu 571894 ---
+  download_and_text   :   0.85 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  18.69 s
+  gis_processing      :   6.80 s
+  CELKOVÝ ČAS         :  26.35 s
+------------------------------------------
+Dokument 571894 bol úspešne spracovaný.

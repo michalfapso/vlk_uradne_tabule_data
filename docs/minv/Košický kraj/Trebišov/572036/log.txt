@@ -1,0 +1,70 @@
+[2026-07-20 19:43:42] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/572036'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=70&odbor=10&sekcia=uradna-tabula&subor=572036
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/572036/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/572036/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, ako príslušný orgán štátnej vodnej správy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'zák. NR SR č.364/2004 Z.z. o vodách a o zmene zákona SNR č.372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'zák.č.50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69' zákona 'stavebného zákona , zákona č.71/1967 Zb. o správnom konaní v platnom znení a na základe výsledkov vodoprávneho konania rozhodol takto: stavebníkovi: M'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods.2' zákona 'stavebného zákona stráca platnosť, ak sa so stavbou nezačalo do dvoch rokov odo dňa , kedy nadobudlo právoplatnosť. Odôvodnenie Listom doručeným dňa 0'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods.2' zákona 'stavebného zákona platí dva roky odo dňa, keď nadobudlo právoplatnosť. Pred uplynutím tejto lehoty stavebník požiadal o predlženie jeho platnosti. Okr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§26 ods. 3' zákona 'vodného zákona k jeho podkladom i k spôsobu ich zistenia v lehote 3 dní. V stanovenej lehote sa žiaden z účastníkov konania nevyjadril. Od ústneho kon'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods.2' zákona 'stavebného zákona upustil, nakoľko pomery staveniska mu boli dobre známe a žiadosť poskytovala dostatočný podklad pre posúdenie navrhovanej zmeny. Po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§4' zákona '145/1995 Z.z. o správnych poplatkoch oslobodený od platenia správnych poplatkov. Vlastníci susedných stavieb a pozemkov, budú upovedomení o vodoprávno'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 1 písm. a)' zákona '145/1995 Z.z. o správnych poplatkoch oslobodený od platenia správnych poplatkov. Vlastníci susedných stavieb a pozemkov, budú upovedomení o vodoprávno'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/572036/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014878000000000002}
+LLM_tokens: {"input": 7724, "output": 3672, "total": 11396, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/572036/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/572036/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Trebišov', 'obec': 'Sečovce', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. Gorkého', 'nazov_lokality_norm': 'Gorkého, Sečovce'}
+data: {'kraj': 'Košický kraj', 'okres': 'Trebišov', 'obec': 'Sečovce', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. Gorkého', 'nazov_lokality_norm': 'Gorkého, Sečovce'}
+Fallback to OBEC: Sečovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: trebisov norm_obec: secovce norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'854531'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27854531%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Gorkého, Sečovce
+get_geometry_of_a_geoname nazov_lokality: Gorkého, Sečovce
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Gorkého, Sečovce, Sečovce, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Gorkého, Sečovce, Trebišov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Gorkého, Sečovce, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Gorkého, Sečovce, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.7014341, 'lon': 21.6803398, 'formatted_address': 'Gorkého, 078 01 Sečovce, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Gorkého, 078 01 Sečovce, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.66059 48.74819, 21.66106 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/572036/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Sečovce', 'NATIONALSI': 'SKCHVU037', 'SITETITLE_': 'Ondavská rovina'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/572036/analysis.json...
+
+--- Časy spracovania dokumentu 572036 ---
+  download_and_text   :   1.06 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.41 s
+  gis_processing      :   2.23 s
+  CELKOVÝ ČAS         :  17.70 s
+------------------------------------------
+Dokument 572036 bol úspešne spracovaný.

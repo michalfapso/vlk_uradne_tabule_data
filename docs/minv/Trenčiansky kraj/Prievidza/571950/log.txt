@@ -1,0 +1,62 @@
+[2026-07-20 20:10:03] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/571950'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=16&odbor=10&sekcia=uradna-tabula&subor=571950
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/571950/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/571950/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'zakonac. 543/2002 Z.z. 0 ochrane prirody a krajiny v zneni neskorsich predpisov oznamujeme, ze planujeme previest''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1' zákona 'pismo b) zakona c.251/2012 0 energetike a 0 zmene a doplneni niektorYch zakonov v zneni neskorsich predpisov. Vyska porastov v ochrannom pasme vedenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona 'Zakona 0 energetike c. 25112012. Kontaktna osoba: lng. Igor Salko, c.mob.: 0911 844 192. V Sebedine, diia: 08.07.2026 PRES GREEN, s.r.o. Sebedfn 20 97'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011501500000000001}
+LLM_tokens: {"input": 4955, "output": 3008, "total": 7963, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/571950/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/571950/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Prievidza', 'katastralne_uzemia': [{'nazov': 'Prievidza', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo vedeni 22 kV: č. VN 1432 k10', 'nazov_lokality_norm': '1432 k10'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Prievidza', 'katastralne_uzemia': [{'nazov': 'Prievidza', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo vedeni 22 kV: č. VN 1432 k10', 'nazov_lokality_norm': '1432 k10'}
+ku_name:Prievidza obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: prievidza
+_get_nationalCadastralZoningReferences() found_ids: {'850063'}
+nationalCadastralZoningReferences: ['850063']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27850063%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: 1432 k10
+get_geometry_of_a_geoname nazov_lokality: 1432 k10
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=1432 k10, Prievidza, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=1432 k10, Prievidza, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=1432 k10, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=1432 k10, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.7745206, 'lon': 18.6245383, 'formatted_address': '971 01 Prievidza, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=971 01 Prievidza, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.66645 48.79928, 18.66646 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/571950/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/571950/analysis.json...
+
+--- Časy spracovania dokumentu 571950 ---
+  download_and_text   :   1.29 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.66 s
+  gis_processing      :   2.47 s
+  CELKOVÝ ČAS         :  16.42 s
+------------------------------------------
+Dokument 571950 bol úspešne spracovaný.

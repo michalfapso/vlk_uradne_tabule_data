@@ -1,0 +1,105 @@
+{
+  "cislo_konania_spisu": "8/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-07",
+  "datum_zverejnenia": "2026-07-13",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "LESOSTAV SEVER, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Piešťany",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šípkové",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1422/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1422/3"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Zakostolany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "468/2",
+              "465/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Pečeňady",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "199/49",
+              "465/5",
+              "191/101",
+              "190/02"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "pod el. vedením 400 kV Križovany - ESO - Sošaca",
+    "nazov_lokality_norm": "Križovany - ESO - Sošaca"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub náletových drevín",
+    "okliesňovanie stromov"
+  ],
+  "rozsah_zasahu": "plocha cca 27 360 m2",
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "náletové dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o nevyhnutnom výrube náletových drevín v ochrannom pásme 400 kV elektrického vedenia na trase Križovany - ESO - Sošaca. Zásah sa realizuje v katastrálnych územiach Šípkové, Zakostolany a Pečeňady na celkovej ploche viac ako 2,7 ha. Výrub je plánovaný v období od augusta 2026 do januára 2027.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

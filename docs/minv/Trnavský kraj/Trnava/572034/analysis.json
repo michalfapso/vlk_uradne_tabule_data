@@ -1,0 +1,111 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-07-16",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote určenej podľa § 29 ods. 5 prvej vety zákona o posudzovaní vplyvov"
+  },
+  "ziadatel_navrhovatel": "IB industry center s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský",
+    "okres": "Trnava",
+    "obec": "Trnava a Zeleneč",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Modranka",
+        "parcely": []
+      },
+      {
+        "nazov": "Zeleneč",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Výrobno-skladová zóna Zeleneč – Zóna D",
+    "nazov_lokality_norm": "Zeleneč"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť k zámeru navrhovanej činnosti",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "výstavba výrobno-skladovej haly",
+    "stavebné úpravy",
+    "pripojenie na technickú infraštruktúru"
+  ],
+  "rozsah_zasahu": "zastavaná plocha haly 32 368 m2, celková zastavanosť 34 382 m2, 61 parkovacích miest",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "24",
+        "18",
+        "3",
+        "56",
+        "29",
+        "30",
+        "64",
+        "38"
+      ]
+    },
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Vodný zákon",
+      "cislo": "364/2004",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015",
+      "paragrafy": [
+        "178"
+      ]
+    }
+  ],
+  "zhrnutie": "Zámer výstavby výrobno-skladovej haly 'Výrobno-skladová zóna Zeleneč – Zóna D' so zastavanou plochou vyše 34 000 m2 v k.ú. Modranka a Zeleneč. Projekt začína zisťovacie konanie (EIA) na Okresnom úrade Trnava. Text neuvádza, či sa projekt nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "Modranka",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Zeleneč",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Zeleneč",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP-2026/092915-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-17",
+  "datum_zverejnenia": "2026-07-17",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 03. 08. 2026"
+  },
+  "ziadatel_navrhovatel": "LESY Slovenskej republiky, Organizačná zložka OK Karpaty",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "vodná nádrž",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "vypúšťanie vodnej nádrže alebo rybníka",
+    "výlov rýb"
+  ],
+  "rozsah_zasahu": "vypúšťanie vodnej nádrže",
+  "typ_uzemia": [
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "ryby"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "13 ods. 2 písm. o)",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Začatie správneho konania vo veci žiadosti štátneho podniku LESY SR o vydanie súhlasu na vypúšťanie vodnej nádrže alebo rybníka za účelom výlovu rýb. Ryby budú následne premiestnené do vodnej nádrže Bukovec III. Konanie sa týka územia v 2. stupni ochrany v okrese Trnava.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Vodná nádrž Buková, Buková, okres Trnava, Trnavský kraj, Slovensko",
+          "NATIONALSI": "SKUEV0268",
+          "SITETITLE_": "Buková"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Vodná nádrž Buková, Buková, okres Trnava, Trnavský kraj, Slovensko",
+          "NATIONALSI": "17",
+          "SITETITLE_": "PR Buková"
+        },
+        {
+          "parcel_label": "Vodná nádrž Horné Orešany, Majdan, Horné Orešany, okres Trnava, Trnavský kraj, Slovensko",
+          "NATIONALSI": "94",
+          "SITETITLE_": "PR Lošonský háj"
+        },
+        {
+          "parcel_label": "Vodná nádrž Petrova Ves, Petrova Ves, okres Skalica, Trnavský kraj, 908 44, Slovensko",
+          "NATIONALSI": "1001",
+          "SITETITLE_": "CHA Vodná nádrž Petrova Ves"
+        },
+        {
+          "parcel_label": "Vodná nádrž Petrova Ves, Petrova Ves, okres Skalica, Trnavský kraj, 908 44, Slovensko",
+          "NATIONALSI": "1001",
+          "SITETITLE_": "CHA Vodná nádrž Petrova Ves"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Vodná nádrž Buková, Buková, okres Trnava, Trnavský kraj, Slovensko",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "Vodná nádrž Ronava, Pác, Cífer, okres Trnava, Trnavský kraj, 919 43, Slovensko",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        }
+      ]
+    },
+    "source_type": "GEONAME"
+  }
+}

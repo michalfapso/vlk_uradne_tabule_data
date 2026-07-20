@@ -1,0 +1,139 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/015935",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-07-16",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Pavol Čierny FUCHSFARM",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Valča",
+        "parcely": []
+      },
+      {
+        "nazov": "Trnovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Trebostovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Turčiansky Peter",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "pod el. vedením linky VN č. 269",
+    "nazov_lokality_norm": "VN č. 269"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub drevín z dôvodov podľa osobitných predpisov pod el. vedením"
+  ],
+  "rozsah_zasahu": "pod el. vedením linky VN č. 269",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube drevín pod elektrickým vedením vysokého napätia č. 269 v štyroch katastrálnych územiach okresu Martin. Do konania sa verejnosť nemôže prihlásiť, nakoľko sa neuskutočňuje podľa zákona o správnom konaní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Trnovo",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        },
+        {
+          "parcel_label": "Trebostovo",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        },
+        {
+          "parcel_label": "Turčiansky Peter",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Trnovo",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Trnovo",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        },
+        {
+          "parcel_label": "Trebostovo",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Trebostovo",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        },
+        {
+          "parcel_label": "Turčiansky Peter",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Turčiansky Peter",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Valča",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "Trnovo",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "Trebostovo",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "Turčiansky Peter",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

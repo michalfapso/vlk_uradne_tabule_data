@@ -1,0 +1,88 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-08",
+  "datum_zverejnenia": "2026-07-09",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "PRESGREEN, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Prievidza",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prievidza",
+        "parcely": []
+      },
+      {
+        "nazov": "Nedožery",
+        "parcely": []
+      },
+      {
+        "nazov": "Lazany",
+        "parcely": []
+      },
+      {
+        "nazov": "Bojnice",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "ochranné pásmo vedení 22 kV: č. VN 1333, 299, 294",
+    "nazov_lokality_norm": "VN 1333, 299, 294"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "odstránenie a okliesnenie drevín a iných porastov"
+  ],
+  "rozsah_zasahu": "v rozsahu podľa § 43 Zákona o energetike č. 251/2012",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a okliesnení drevín v ochrannom pásme vysokonapäťových vedení č. VN 1333, 299 a 294. Zásah sa realizuje v katastrálnych územiach Prievidza, Nedožery, Lazany a Bojnice v období od 23.07.2026 do 31.12.2026. Dôvodom je prerastanie porastov do bezpečnej vzdialenosti od vedenia a ohrozenie dodávky energie.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Bojnice",
+          "NATIONALSI": "387",
+          "SITETITLE_": "OP NPP Prepoštská jaskyňa"
+        },
+        {
+          "parcel_label": "Bojnice",
+          "NATIONALSI": "0",
+          "SITETITLE_": "PP Bojnická hradná jaskyňa"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

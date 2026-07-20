@@ -1,0 +1,152 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-13",
+  "datum_zverejnenia": "2025-07-16",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "PRESGREEN, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Lehota pod Vtáčnikom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lehota pod Vtáčnikom",
+        "parcely": []
+      },
+      {
+        "nazov": "Cigeľ",
+        "parcely": []
+      },
+      {
+        "nazov": "Koš",
+        "parcely": []
+      },
+      {
+        "nazov": "Sebedražie",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "ochranné pásmo vedení 22 kV č. VN 295 k41",
+    "nazov_lokality_norm": "VN 295 k41"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "odstránenie a okliesnenie drevín a iných porastov"
+  ],
+  "rozsah_zasahu": "v ochrannom pásme vedení 22 kV č. VN 295 k41",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike a o zmene a doplnení niektorých zákonov",
+      "cislo": "251/2012 Z.z.",
+      "paragrafy": [
+        "11 ods. 1 písm. b)",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a okliesnení drevín v ochrannom pásme 22 kV elektrického vedenia v katastrálnych územiach Lehota pod Vtáčnikom, Cigeľ, Koš a Sebedražie. Práce sú odôvodnené bezpečnosťou prevádzky a majú prebiehať v termíne od júla do decembra 2026. Zásah sa realizuje v ochrannom pásme inžinierskych sietí.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        },
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        },
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        },
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NAZOV_UEV": "Vtáčnik",
+          "KOD_UEV": "SKUEV0273"
+        },
+        {
+          "parcel_label": "Cigeľ",
+          "NAZOV_UEV": "Biely kameň",
+          "KOD_UEV": "SKUEV0871"
+        },
+        {
+          "parcel_label": "Cigeľ",
+          "NAZOV_UEV": "Biely kameň",
+          "KOD_UEV": "SKUEV0871"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NATIONALSI": "SKUEV0273",
+          "SITETITLE_": "Vtáčnik"
+        },
+        {
+          "parcel_label": "Cigeľ",
+          "NATIONALSI": "SKUEV0871",
+          "SITETITLE_": "Biely kameň"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NATIONALSI": "483",
+          "SITETITLE_": "NPR Vtáčnik"
+        },
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NATIONALSI": "1349",
+          "SITETITLE_": "PR Pralesy Slovenska-Vtáčnik"
+        },
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NATIONALSI": "213",
+          "SITETITLE_": "PR Biely kameň"
+        },
+        {
+          "parcel_label": "Lehota pod Vtáčnikom",
+          "NATIONALSI": "414",
+          "SITETITLE_": "PP Sivý kameň"
+        },
+        {
+          "parcel_label": "Cigeľ",
+          "NATIONALSI": "213",
+          "SITETITLE_": "PR Biely kameň"
+        },
+        {
+          "parcel_label": "Cigeľ",
+          "NATIONALSI": "1347",
+          "SITETITLE_": "PR Pralesy Slovenska-Veľký Grič"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

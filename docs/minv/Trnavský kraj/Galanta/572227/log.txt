@@ -1,0 +1,51 @@
+[2026-07-20 20:16:47] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572227'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=7&odbor=10&sekcia=uradna-tabula&subor=572227
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572227/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0007212}
+LLM_tokens: {"input": 1366, "output": 1784, "total": 3150, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572227/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572227/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011939499999999999}
+LLM_tokens: {"input": 5819, "output": 3010, "total": 8829, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572227/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572227/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'VS Kráľová', 'nazov_lokality_norm': 'Kráľová'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'VS Kráľová', 'nazov_lokality_norm': 'Kráľová'}
+No geometries were found.
+nazov_lokality: Kráľová
+get_geometry_of_a_geoname nazov_lokality: Kráľová
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Kráľová, Galanta, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.74186 48.28047, 17.74234 48.2789,...  ...  Vodné dielo Kráľová, Šoporňa, okres Galanta, T...
+
+[1 rows x 11 columns]
+geoname_query: Kráľová, Galanta, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.74186 48.28047, 17.74234 48.2789,...  ...  Vodné dielo Kráľová, Šoporňa, okres Galanta, T...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572227/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Vodné dielo Kráľová, Šoporňa, okres Galanta, Trnavský kraj, Slovensko', 'NATIONALSI': 'SKCHVU010', 'SITETITLE_': 'Kráľová'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572227/analysis.json...
+
+--- Časy spracovania dokumentu 572227 ---
+  download_and_text   :  13.17 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.05 s
+  gis_processing      :   0.40 s
+  CELKOVÝ ČAS         :  25.63 s
+------------------------------------------
+Dokument 572227 bol úspešne spracovaný.

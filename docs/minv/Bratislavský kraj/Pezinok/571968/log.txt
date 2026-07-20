@@ -1,0 +1,67 @@
+[2026-07-20 19:38:00] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/571968'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=3&odbor=10&sekcia=uradna-tabula&subor=571968
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/571968/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/571968/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 odst.1' zákona 'zák. NR SR č.525/2003 Z.z. o štátnej správe starostlivosti o  životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'zák. č.  50/1976 Zb. o územnom plánovaní a stavebnom poriadku v úplnom znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'zák. č. 364/2004 Z.z'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 88a' zákona 'zák. č. 50/1976 Zb'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'zák. č. 364/2004 Z.z. o vodách a o zmene  zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§88a' zákona 'Telefón                                 Fax                   e-mail                                     Internet                                IČO'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 8' zákona 'vyhlášky MŽP SR č. 453/2000 Z.z., priložil projektovú  dokumentáciu a požadované doklady.  Pretože sa jedná o líniovú stavbu, orgán štátnej vodnej spr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 62 ods.1' zákona 'stavebného zákona a zistil, že uskutočnením stavby nie sú ohrozené  verejné záujmy ani neprimerane obmedzené či ohrozené práva a oprávnené záujmy účas'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '2' zákona 'stavebného zákona a zistil, že uskutočnením stavby nie sú ohrozené  verejné záujmy ani neprimerane obmedzené či ohrozené práva a oprávnené záujmy účas'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'stavebného zákona,  ktoré upravujú vydávanie stavebných povolení. Pri tom sa riadil'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 46' zákona '71/1976  Zb. o správnom konaní, pretože podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47' zákona '71/1976  Zb. o správnom konaní, pretože podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 1' zákona 'vodného zákona sa na vodoprávne konanie  vzťahujú všeobecné predpisy o správnom konaní. Pridržiaval sa tiež ustanoveniami'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 8' zákona 'až'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 10' zákona 'vyhlášky MŽP SR č.453/2000 Z.z., ktorou sa vykonávajú niektoré ustanovenia stavebného  zákona. Tieto ustanovenia určujú obsah žiadosti o stavebné povo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. (2)' zákona 'správneho zákona vyvesiť túto  vyhlášku po dobu 15 dní, deň vyvesenia a zvesenia  na vyhláške potvrdiť a po zvesení  zaslať na Okresný úrad Pezinok, o'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/571968/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011715999999999999}
+LLM_tokens: {"input": 9224, "output": 2368, "total": 11592, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/571968/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/571968/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Modra', 'katastralne_uzemia': [{'nazov': 'Modra', 'parcely': [{'typ': 'C', 'cisla': ['2975/2', '3049', '3050/1']}, {'typ': 'E', 'cisla': ['4484/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Kellenbergerová ul.', 'nazov_lokality_norm': 'Kellenbergerová, Modra'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Modra', 'katastralne_uzemia': [{'nazov': 'Modra', 'parcely': [{'typ': 'C', 'cisla': ['2975/2', '3049', '3050/1']}, {'typ': 'E', 'cisla': ['4484/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Kellenbergerová ul.', 'nazov_lokality_norm': 'Kellenbergerová, Modra'}
+ku_name:Modra obec:Modra okres:Pezinok kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: modra norm_ku: modra
+_get_nationalCadastralZoningReferences() found_ids: {'838039'}
+nationalCadastralZoningReferences: ['838039']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27838039_2975%2F2.C%27%2C%27838039_3049.C%27%2C%27838039_3050%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.53 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27838039_4484%2F1.E%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.87 s
+nazov_lokality: Kellenbergerová, Modra
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1321'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1321'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1321'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1321'}
+
+[4 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/571968/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/571968/analysis.json...
+
+--- Časy spracovania dokumentu 571968 ---
+  download_and_text   :   1.37 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.27 s
+  gis_processing      :   6.61 s
+  CELKOVÝ ČAS         :  20.26 s
+------------------------------------------
+Dokument 571968 bol úspešne spracovaný.

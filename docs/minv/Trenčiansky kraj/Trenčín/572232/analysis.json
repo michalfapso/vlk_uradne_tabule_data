@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-09",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "FO",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Dolná Súča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolná Súča",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5970/2",
+              "5970/3",
+              "6146/5",
+              "6146/6"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "5980"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania na vydanie súhlasu na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín/krovitých porastov druhu malina, vŕba, tŕnie"
+  ],
+  "rozsah_zasahu": "viac ako 200 m2",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "malina",
+    "vŕba",
+    "tŕnie"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82",
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci výrubu drevín a krovitých porastov (malina, vŕba, tŕnie) na parcelách v katastrálnom území Dolná Súča. Zásah sa realizuje v extraviláne na ploche presahujúcej 200 m2 za účelom vyčistenia pozemkov od náletov. Verejnosť má 5 pracovných dní na prihlásenie sa do konania.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

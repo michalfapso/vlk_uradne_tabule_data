@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2026/017269",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-07-15",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia oznámenia"
+  },
+  "ziadatel_navrhovatel": "Urbár - pozemkové spoločenstvo obce Breza",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Breza",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lokca",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "lesný celok Lokca",
+    "nazov_lokality_norm": "Lokca"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "náhodná ťažba",
+    "asanačná ťažba"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "CHKO Horná Orava",
+    "3. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "15 ods. 4",
+        "14 ods. 7",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Začatie konania o zákaze vykonania náhodnej ťažby v lesnom celku Lokca v okrese Námestovo. Konanie bolo iniciované na podnet Správy CHKO Horná Orava voči obhospodarovateľovi Urbár - pozemkové spoločenstvo obce Breza v území s 3. stupňom ochrany.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "Lokca",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

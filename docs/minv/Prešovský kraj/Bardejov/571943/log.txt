@@ -1,0 +1,80 @@
+[2026-07-20 19:47:59] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571943'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=53&odbor=10&sekcia=uradna-tabula&subor=571943
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571943/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571943/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58 písm. c)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a na ustanove'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako špeciálny stavebný úra'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písm. e)' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako špeciálny stavebný úra'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. 1' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, v nadväznosti na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, v nadväznosti na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'citovaného vodného zákona, v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 3' zákona 'citovaného vodného zákona, v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80' zákona 'stavebného zákona v nadväznosti na ustanovenie 73'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 1' zákona 'vodného zákona a na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 5' zákona 'vodného zákona a na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 6' zákona 'vodného zákona a na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80 ods. 2' zákona 'stavebného zákona). V súlade'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona v nadväznosti na ustanovenie'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571943/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011259}
+LLM_tokens: {"input": 7632, "output": 2481, "total": 10113, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571943/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571943/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Lopúchov', 'katastralne_uzemia': [{'nazov': 'Lopúchov', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Lopúchov', 'nazov_lokality_norm': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Lopúchov', 'katastralne_uzemia': [{'nazov': 'Lopúchov', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Lopúchov', 'nazov_lokality_norm': None}
+ku_name:Lopúchov obec:Lopúchov okres:Bardejov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: lopuchov norm_ku: lopuchov
+_get_nationalCadastralZoningReferences() found_ids: {'833118'}
+nationalCadastralZoningReferences: ['833118']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27833118%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.35 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Lopúchov
+get_geometry_of_a_geoname nazov_lokality: Lopúchov
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Lopúchov, Lopúchov, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.34959 49.11702, 21.34962 49.11693...  ...  Lopúchov, okres Bardejov, Prešovský kraj, Slov...
+
+[1 rows x 11 columns]
+geoname_query: Lopúchov, Lopúchov, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.3766 49.14838, 21.37752 49....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.34959 49.11702, 21.34962 49.11693...  ...  Lopúchov, okres Bardejov, Prešovský kraj, Slov...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571943/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/571943/analysis.json...
+
+--- Časy spracovania dokumentu 571943 ---
+  download_and_text   :   1.83 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   9.72 s
+  gis_processing      :   0.96 s
+  CELKOVÝ ČAS         :  12.51 s
+------------------------------------------
+Dokument 571943 bol úspešne spracovaný.

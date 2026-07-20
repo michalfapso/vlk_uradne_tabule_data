@@ -1,0 +1,68 @@
+[2026-07-20 20:15:58] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571995'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=6&odbor=10&sekcia=uradna-tabula&subor=571995
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571995/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571995/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§26' zákona '364/2004 Z.z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov na vodnú stavbu s názvom: „Tlaková kanalizácia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. c)' zákona '364/2004 Z. z. o vodách a o zmene zákona č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80' zákona 'cit. stavebného zákona a v zmysle ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 57 ods. 1' zákona '455/1991 Zb. o živnostenskom podnikaní'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'stavebného zákona. Toto oznámenie musí byť vyvesené po dobu 15 dní na úradnej tabuli Obce Orechová Potôň, na úradnej tabuli tunajšieho úradu štátnej v'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571995/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01473}
+LLM_tokens: {"input": 8118, "output": 3557, "total": 11675, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 97 column 1 (char 2569)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0090762}
+LLM_tokens: {"input": 8118, "output": 2888, "total": 11006, "cached": 8104}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571995/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571995/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Dunajská Streda', 'obec': 'Orechová Potôň', 'katastralne_uzemia': [{'nazov': 'Orechová Potôň', 'parcely': [{'typ': 'C', 'cisla': ['428/39', '428/44', '428/90', '428/92', '428/104', '428/45', '428/89', '428/93', '428/98', '428/40', '428/108']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Dunajská Streda', 'obec': 'Orechová Potôň', 'katastralne_uzemia': [{'nazov': 'Orechová Potôň', 'parcely': [{'typ': 'C', 'cisla': ['428/39', '428/44', '428/90', '428/92', '428/104', '428/45', '428/89', '428/93', '428/98', '428/40', '428/108']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Orechová Potôň obec:Orechová Potôň okres:Dunajská Streda kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: dunajska streda norm_obec: orechova poton norm_ku: orechova poton
+_get_nationalCadastralZoningReferences() found_ids: {'844268'}
+nationalCadastralZoningReferences: ['844268']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27844268_428%2F39.C%27%2C%27844268_428%2F44.C%27%2C%27844268_428%2F90.C%27%2C%27844268_428%2F92.C%27%2C%27844268_428%2F104.C%27%2C%27844268_428%2F45.C%27%2C%27844268_428%2F89.C%27%2C%27844268_428%2F93.C%27%2C%27844268_428%2F98.C%27%2C%27844268_428%2F40.C%27%2C%27844268_428%2F108.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.72 s
+nazov_lokality: None
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1416'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1416'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1416'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1416'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1416'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1416'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1416'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1416'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1416'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1416'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1416'}
+
+[11 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571995/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/571995/analysis.json...
+
+--- Časy spracovania dokumentu 571995 ---
+  download_and_text   :   1.03 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  32.20 s
+  gis_processing      :   3.93 s
+  CELKOVÝ ČAS         :  37.16 s
+------------------------------------------
+Dokument 571995 bol úspešne spracovaný.

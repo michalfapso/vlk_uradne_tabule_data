@@ -1,0 +1,112 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2026/024895",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-15",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "LESOSTAV SEVER s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Senec",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Chorvátsky Grob",
+        "parcely": []
+      },
+      {
+        "nazov": "Bernolákovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Tomášov",
+        "parcely": []
+      },
+      {
+        "nazov": "Studené",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo elektrických vedení 400kV",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesnenie drevín"
+  ],
+  "rozsah_zasahu": "výrub v ochrannom pásme 400kV vedenia (25m od krajného vodiča)",
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "68",
+        "82"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "43"
+      ]
+    },
+    {
+      "nazov": "Zákon o organizácii miestnej štátnej správy",
+      "cislo": "180/2013",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Spoločnosť LESOSTAV SEVER s.r.o. oznámila plánovaný výrub a okliesňovanie drevín v ochrannom pásme 400kV elektrického vedenia v okrese Senec. Zásah sa týka katastrálnych území Chorvátsky Grob, Bernolákovo, Tomášov a Studené s termínom realizácie do januára 2027. Nejde o klasické správne konanie, do ktorého by sa dalo prihlásiť podľa § 82 ods. 7.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Chorvátsky Grob",
+          "NATIONALSI": "SKUEV0279",
+          "SITETITLE_": "Šúr"
+        },
+        {
+          "parcel_label": "Bernolákovo",
+          "NATIONALSI": "SKUEV0822",
+          "SITETITLE_": "Malý Dunaj"
+        },
+        {
+          "parcel_label": "Tomášov",
+          "NATIONALSI": "SKUEV0822",
+          "SITETITLE_": "Malý Dunaj"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Chorvátsky Grob",
+          "NATIONALSI": "168",
+          "SITETITLE_": "OP PR Šúr"
+        },
+        {
+          "parcel_label": "Chorvátsky Grob",
+          "NATIONALSI": "168",
+          "SITETITLE_": "PR Šúr"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

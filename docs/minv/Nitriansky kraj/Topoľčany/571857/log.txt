@@ -1,0 +1,72 @@
+[2026-07-20 19:47:07] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/571857'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=26&odbor=10&sekcia=uradna-tabula&subor=571857
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/571857/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/571857/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 3' zákona 'rastúcich  za hranicami zastavaného územia obce.    Dátum začatia konania: 09.07.2026  Dotknuté územie: k. ú. Chrabrany  Žiadateľ: ELSPOL – SK, s.r.o'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona 'združenie s právnou subjektivitou, ktorého predmetom  činnosti je najmenej jeden rok ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 1' zákona 'a ktoré písomne  oznámi svoju účasť v konaní v lehote určenej orgánom ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'sa  považuje za zúčastnenú osobu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona 'združenie podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'uvedie v písomnom  oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno a  priezvisko osoby oprávnenej konať v jeh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 20h' zákona 'Občianskeho zákonníka, ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 2 písm. c)' zákona '83/1990 Zb.  o združovaní občanov), ktoré preukazujú, že jeho predmetom činnosti je ochrana prírody a  krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/571857/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009132}
+LLM_tokens: {"input": 5796, "output": 2078, "total": 7874, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/571857/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/571857/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Topoľčany', 'obec': 'Chrabrany', 'katastralne_uzemia': [{'nazov': 'Chrabrany', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k. ú. Chrabrany', 'nazov_lokality_norm': 'Chrabrany'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Topoľčany', 'obec': 'Chrabrany', 'katastralne_uzemia': [{'nazov': 'Chrabrany', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k. ú. Chrabrany', 'nazov_lokality_norm': 'Chrabrany'}
+ku_name:Chrabrany obec:Chrabrany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: chrabrany norm_ku: chrabrany
+_get_nationalCadastralZoningReferences() found_ids: {'820903'}
+nationalCadastralZoningReferences: ['820903']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27820903%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Chrabrany
+get_geometry_of_a_geoname nazov_lokality: Chrabrany
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Chrabrany, Chrabrany, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.11558 48.52491, 18.11566 48.52432...  ...  Chrabrany, okres Topoľčany, Nitriansky kraj, 9...
+
+[1 rows x 11 columns]
+geoname_query: Chrabrany, Chrabrany, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.14486 48.5411, 18.14503 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.11558 48.52491, 18.11566 48.52432...  ...  Chrabrany, okres Topoľčany, Nitriansky kraj, 9...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/571857/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/571857/analysis.json...
+
+--- Časy spracovania dokumentu 571857 ---
+  download_and_text   :   0.95 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   8.26 s
+  gis_processing      :   0.97 s
+  CELKOVÝ ČAS         :  10.18 s
+------------------------------------------
+Dokument 571857 bol úspešne spracovaný.

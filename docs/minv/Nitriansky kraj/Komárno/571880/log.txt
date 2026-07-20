@@ -1,0 +1,94 @@
+[2026-07-20 19:44:30] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/571880'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=22&odbor=10&sekcia=uradna-tabula&subor=571880
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/571880/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/571880/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 1 písm. f)' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990  Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53 písm.  a)' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990  Zb. o priestupkoch v znení neskorších predpisov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/571880/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014211000000000001}
+LLM_tokens: {"input": 5760, "output": 3777, "total": 9537, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 70 column 1 (char 1887)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008654700000000001}
+LLM_tokens: {"input": 5760, "output": 2530, "total": 8290, "cached": 4034}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 71 column 1 (char 1923)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0084297}
+LLM_tokens: {"input": 5760, "output": 2455, "total": 8215, "cached": 4034}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/571880/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/571880/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Komárno', 'obec': 'Komárno', 'katastralne_uzemia': [{'nazov': 'Komárno', 'parcely': []}, {'nazov': 'Iža', 'parcely': []}, {'nazov': 'Svätý Peter', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'kanál Madzagos 1, kanál Hajlás D4, kanál Komočín', 'nazov_lokality_norm': 'Madzagos 1, Hajlás D4, Komočín'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Komárno', 'obec': 'Komárno', 'katastralne_uzemia': [{'nazov': 'Komárno', 'parcely': []}, {'nazov': 'Iža', 'parcely': []}, {'nazov': 'Svätý Peter', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'kanál Madzagos 1, kanál Hajlás D4, kanál Komočín', 'nazov_lokality_norm': 'Madzagos 1, Hajlás D4, Komočín'}
+ku_name:Komárno obec:Komárno okres:Komárno kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: komarno norm_obec: komarno norm_ku: komarno
+_get_nationalCadastralZoningReferences() found_ids: {'825883'}
+nationalCadastralZoningReferences: ['825883']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27825883%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.42 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Iža obec:Komárno okres:Komárno kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: komarno norm_obec: komarno norm_ku: iza
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: komarno norm_obec: None norm_ku: iza
+_get_nationalCadastralZoningReferences() found_ids: {'821501'}
+nationalCadastralZoningReferences: ['821501']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27821501%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Svätý Peter obec:Komárno okres:Komárno kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: komarno norm_obec: komarno norm_ku: svaty peter
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: komarno norm_obec: None norm_ku: svaty peter
+_get_nationalCadastralZoningReferences() found_ids: {'812536'}
+nationalCadastralZoningReferences: ['812536']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27812536%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Madzagos 1, Hajlás D4, Komočín
+get_geometry_of_a_geoname nazov_lokality: Madzagos 1, Hajlás D4, Komočín
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Madzagos 1, Hajlás D4, Komočín, Komárno, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Madzagos 1, Hajlás D4, Komočín, Komárno, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Madzagos 1, Hajlás D4, Komočín, Nitriansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Madzagos 1, Hajlás D4, Komočín, Slovensko
+response: <Response [200]>
+normalized: {'lat': 47.8182831, 'lon': 18.1386564, 'formatted_address': 'Komočín, 945 01 Komárno, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Komočín, 945 01 Komárno, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.1038 47.84877, 18.10391 47....
+1  CadastralZoning  ...  MULTIPOLYGON (((18.29093 47.83247, 18.29092 47...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.30734 47.86702, 18.30823 47...
+
+[3 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/571880/gis.geojson...
+Intersections with protected areas...
+Found 9 intersecting parcels with 'UEV'.
+Found 7 intersecting parcels with 'MCHU'.
+Found 4 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Komárno', 'NATIONALSI': 'SKUEV0393', 'SITETITLE_': 'Dunaj'}, {'parcel_label': 'Komárno', 'NATIONALSI': 'SKUEV0010', 'SITETITLE_': 'Komárňanské slanisko'}, {'parcel_label': 'Komárno', 'NATIONALSI': 'SKUEV0017', 'SITETITLE_': 'Pri Orechovom rade'}, {'parcel_label': 'Komárno', 'NATIONALSI': 'SKUEV0092', 'SITETITLE_': 'Dolnovážske luhy'}, {'parcel_label': 'Komárno', 'NATIONALSI': 'SKUEV0155', 'SITETITLE_': 'Alúvium Starej Nitry'}, {'parcel_label': 'Komárno', 'NATIONALSI': 'SKUEV0819', 'SITETITLE_': 'Vážsky Dunaj'}, {'parcel_label': 'Iža', 'NATIONALSI': 'SKUEV0076', 'SITETITLE_': 'Bokrošské slanisko'}, {'parcel_label': 'Iža', 'NATIONALSI': 'SKUEV0393', 'SITETITLE_': 'Dunaj'}, {'parcel_label': 'Svätý Peter', 'NATIONALSI': 'SKUEV0155', 'SITETITLE_': 'Alúvium Starej Nitry'}], 'MCHU': [{'parcel_label': 'Komárno', 'NATIONALSI': '1215', 'SITETITLE_': 'CHA Komárňanské slanisko'}, {'parcel_label': 'Komárno', 'NATIONALSI': '1213', 'SITETITLE_': 'CHA Pri Orechovom rade'}, {'parcel_label': 'Komárno', 'NATIONALSI': '3', 'SITETITLE_': 'NPR Apálsky ostrov'}, {'parcel_label': 'Komárno', 'NATIONALSI': '823', 'SITETITLE_': 'PR Vrbina'}, {'parcel_label': 'Komárno', 'NATIONALSI': '1078', 'SITETITLE_': 'PR Komočín'}, {'parcel_label': 'Iža', 'NATIONALSI': '12', 'SITETITLE_': 'PR Bokrošské slanisko'}, {'parcel_label': 'Svätý Peter', 'NATIONALSI': '963', 'SITETITLE_': 'CHA Svätopeterský park'}], 'CHVU': [{'parcel_label': 'Komárno', 'NATIONALSI': 'SKCHVU005', 'SITETITLE_': 'Dolné Považie'}, {'parcel_label': 'Komárno', 'NATIONALSI': 'SKCHVU007', 'SITETITLE_': 'Dunajské luhy'}, {'parcel_label': 'Iža', 'NATIONALSI': 'SKCHVU007', 'SITETITLE_': 'Dunajské luhy'}, {'parcel_label': 'Svätý Peter', 'NATIONALSI': 'SKCHVU005', 'SITETITLE_': 'Dolné Považie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/571880/analysis.json...
+
+--- Časy spracovania dokumentu 571880 ---
+  download_and_text   :   0.87 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  38.42 s
+  gis_processing      :   2.78 s
+  CELKOVÝ ČAS         :  42.07 s
+------------------------------------------
+Dokument 571880 bol úspešne spracovaný.

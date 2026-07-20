@@ -1,0 +1,76 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-07-16",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Pohorelá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pohorelá",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2476/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "r. km 259,150 – 259,400",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "vyschnuté a poškodené dreviny",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "47 ods. 7",
+        "47 ods. 4 písm. d)"
+      ]
+    },
+    {
+      "nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "cislo": "442/2002",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje plánovaný výrub vyschnutých a poškodených drevín v katastrálnom území Pohorelá na parcele C 2476/1. Výrub sa realizuje v úseku riečneho kilometra 259,150 – 259,400 na základe zákonnej výnimky pre správcov tokov. Dokument nešpecifikuje presný počet stromov ani prítomnosť chráneného územia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "2476/1",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,95 @@
+[2026-07-20 19:29:09] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571957'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=46&odbor=10&sekcia=uradna-tabula&subor=571957
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571957/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571957/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm. b)' zákona '251/2012 Z. z. o energetike a o zmene a doplnení niektorých zákonov v znení neskorších predpisov. Práce žiadateľ plánuje vykonávať v rozsahu podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona 'o energetike č.251/2012 Z. z. Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'druhej vety zákona o ochrane prírody orgán ochrany prírody je povinný zverejniť oznámenie na svojom webovom sídle, a to najneskôr do troch pracovných'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'možno vykonať len na základe súhlasného stanoviska orgánu ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 8 písm. a)' zákona 'alebo v rozsahu obmedzenia alebo podmienok uskutočnenia výrubu určených podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 8 písm. b)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 8 písm. c)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm. b)' zákona '251/2012 o energetike a o zmene a doplnení niektorých zákonov v znení neskorších predpisov. Výška porastov v ochrannom pásme vedenia prekročila bezpeč'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona 'o energetike Č. 251/2012. Kontaktná osoba: Ján Miklóš, č.mob.: +421 918396279. . JMMs.r.o .. 98401 Pinciná 88 leO: 44091061, IL DPH: 5K202 58662, Te''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm. b)' zákona 'o energetike, - Splnomocnený zástupca zodpovedá vlastníkovi nehnuteľnosti za majetkovú ujmu, ktorú spôsobil vlastníkovi pri uplatňovaní práv držiteľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 3' zákona 'o energetike, - Splnomocnený zástupca zodpovedá vlastníkovi nehnuteľnosti za majetkovú ujmu, ktorú spôsobil vlastníkovi pri uplatňovaní práv držiteľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571957/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014076000000000002}
+LLM_tokens: {"input": 9348, "output": 3134, "total": 12482, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571957/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571957/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Štiavnica', 'obec': 'Banská Štiavnica', 'katastralne_uzemia': [{'nazov': 'Banská Štiavnica', 'parcely': []}, {'nazov': 'Svätý Anton', 'parcely': []}, {'nazov': 'Žibritov', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo vedenia 22kV: č. VN 330_k10', 'nazov_lokality_norm': 'VN 330_k10'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Štiavnica', 'obec': 'Banská Štiavnica', 'katastralne_uzemia': [{'nazov': 'Banská Štiavnica', 'parcely': []}, {'nazov': 'Svätý Anton', 'parcely': []}, {'nazov': 'Žibritov', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo vedenia 22kV: č. VN 330_k10', 'nazov_lokality_norm': 'VN 330_k10'}
+ku_name:Banská Štiavnica obec:Banská Štiavnica okres:Banská Štiavnica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska stiavnica norm_obec: banska stiavnica norm_ku: banska stiavnica
+_get_nationalCadastralZoningReferences() found_ids: {'801470'}
+nationalCadastralZoningReferences: ['801470']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27801470%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.38 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Svätý Anton obec:Banská Štiavnica okres:Banská Štiavnica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska stiavnica norm_obec: banska stiavnica norm_ku: svaty anton
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska stiavnica norm_obec: None norm_ku: svaty anton
+_get_nationalCadastralZoningReferences() found_ids: {'800210'}
+nationalCadastralZoningReferences: ['800210']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27800210%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.35 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Žibritov obec:Banská Štiavnica okres:Banská Štiavnica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska stiavnica norm_obec: banska stiavnica norm_ku: zibritov
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska stiavnica norm_obec: None norm_ku: zibritov
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: zibritov
+_get_nationalCadastralZoningReferences() found_ids: {'874558'}
+nationalCadastralZoningReferences: ['874558']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27874558%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VN 330_k10
+get_geometry_of_a_geoname nazov_lokality: VN 330_k10
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN 330_k10, Banská Štiavnica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN 330_k10, Banská Štiavnica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN 330_k10, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=VN 330_k10, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.44920159999999, 'lon': 18.9070093, 'formatted_address': '969 01 Banská Štiavnica, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=969 01 Banská Štiavnica, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.89788 48.49165, 18.89795 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.96808 48.43746, 18.96885 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.98482 48.41048, 18.98446 48...
+
+[3 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571957/gis.geojson...
+Intersections with protected areas...
+Found 6 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Banská Štiavnica', 'NATIONALSI': 'SKUEV0216', 'SITETITLE_': 'Sitno'}, {'parcel_label': 'Banská Štiavnica', 'NATIONALSI': 'SKUEV0265', 'SITETITLE_': 'Suť'}, {'parcel_label': 'Svätý Anton', 'NATIONALSI': 'SKUEV0015', 'SITETITLE_': 'Dolná Bukovina'}, {'parcel_label': 'Svätý Anton', 'NATIONALSI': 'SKUEV0266', 'SITETITLE_': 'Skalka'}, {'parcel_label': 'Žibritov', 'NATIONALSI': 'SKUEV0015', 'SITETITLE_': 'Dolná Bukovina'}, {'parcel_label': 'Žibritov', 'NATIONALSI': 'SKUEV0266', 'SITETITLE_': 'Skalka'}], 'MCHU': [{'parcel_label': 'Banská Štiavnica', 'NATIONALSI': '203', 'SITETITLE_': 'CHA Arboretum Kysihýbeľ'}, {'parcel_label': 'Banská Štiavnica', 'NATIONALSI': '221', 'SITETITLE_': 'CHA Banskoštiavnická botanická záhrada'}, {'parcel_label': 'Banská Štiavnica', 'NATIONALSI': '1041', 'SITETITLE_': 'CHA Michalské rašelinisko'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/571957/analysis.json...
+
+--- Časy spracovania dokumentu 571957 ---
+  download_and_text   :   1.31 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  16.08 s
+  gis_processing      :   3.91 s
+  CELKOVÝ ČAS         :  21.31 s
+------------------------------------------
+Dokument 571957 bol úspešne spracovaný.

@@ -1,0 +1,95 @@
+[2026-07-20 20:31:35] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/571931'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=34&odbor=10&sekcia=uradna-tabula&subor=571931
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/571931/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0008967999999999999}
+LLM_tokens: {"input": 592, "output": 2223, "total": 2815, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/571931/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods.1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov ako aj špeciá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona ústne pojednávanie na deň:  **18.08.2026'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona). Zverejnenie verejnou vyhláškou musí byť uskutočnené v zmysle'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/571931/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0137745}
+LLM_tokens: {"input": 6573, "output": 3496, "total": 10069, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/571931/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/571931/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Štiavnička', 'katastralne_uzemia': [{'nazov': 'Štiavnička', 'parcely': [{'typ': 'C', 'cisla': ['767/1']}]}, {'nazov': 'Liptovská Štiavnica', 'parcely': [{'typ': 'C', 'cisla': ['398/1', '398/3', '398/4', '398/5', '398/14', '398/15']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': "Sihot' II", 'nazov_lokality_norm': "Sihot' II"}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Štiavnička', 'katastralne_uzemia': [{'nazov': 'Štiavnička', 'parcely': [{'typ': 'C', 'cisla': ['767/1']}]}, {'nazov': 'Liptovská Štiavnica', 'parcely': [{'typ': 'C', 'cisla': ['398/1', '398/3', '398/4', '398/5', '398/14', '398/15']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': "Sihot' II", 'nazov_lokality_norm': "Sihot' II"}
+ku_name:Štiavnička obec:Štiavnička okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: stiavnicka norm_ku: stiavnicka
+_get_nationalCadastralZoningReferences() found_ids: {'861201'}
+nationalCadastralZoningReferences: ['861201']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27861201_767%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.24 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['767/1']}' v KU 'Štiavnička' sa nenašli dáta.
+ku_name:Liptovská Štiavnica obec:Štiavnička okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: stiavnicka norm_ku: liptovska stiavnica
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: None norm_ku: liptovska stiavnica
+_get_nationalCadastralZoningReferences() found_ids: {'832502'}
+nationalCadastralZoningReferences: ['832502']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27832502_398%2F1.C%27%2C%27832502_398%2F3.C%27%2C%27832502_398%2F4.C%27%2C%27832502_398%2F5.C%27%2C%27832502_398%2F14.C%27%2C%27832502_398%2F15.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.85 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['398/1', '398/3', '398/4', '398/5', '398/14', '398/15']}' v KU 'Liptovská Štiavnica' sa nenašli dáta.
+Fallback to OBEC: Štiavnička
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: stiavnicka norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'861201'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=100&filter-lang=cql2-text&filter=nationalCadastalZoningReference+IN+%28%27861201%27%29&f=application%2Fgeo%2Bjson (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.20 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Sihot' II
+get_geometry_of_a_geoname nazov_lokality: Sihot' II
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Sihot' II, Štiavnička, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Sihot' II, Ružomberok, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Sihot' II, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=geojson&polygon_geojson=1&accept-language=sk&q=Sihot' II, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.5393 48.12418, 17.5422 48.12174, ...  ...  Sihoť II, Jelka, okres Galanta, Trnavský kraj,...
+
+[1 rows x 11 columns]
+geoname_query: Sihot' II, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.33316 49.08088, 19.33317 49...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.5393 48.12418, 17.5422 48.12174, ...  ...  Sihoť II, Jelka, okres Galanta, Trnavský kraj,...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/571931/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/571931/analysis.json...
+
+--- Časy spracovania dokumentu 571931 ---
+  download_and_text   :  13.80 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.73 s
+  gis_processing      :   8.78 s
+  CELKOVÝ ČAS         :  37.31 s
+------------------------------------------
+Dokument 571931 bol úspešne spracovaný.

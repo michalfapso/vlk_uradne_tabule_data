@@ -1,0 +1,57 @@
+[2026-07-20 19:40:32] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571991'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=65&odbor=10&sekcia=uradna-tabula&subor=571991
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571991/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0004104}
+LLM_tokens: {"input": 334, "output": 1007, "total": 1341, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571991/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 3' zákona 'na výrub 2 ks stromov z toho 1 ks druhu jedľ'a srieništá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'okresný úrad určuje na potvrdenie záujmu byť zúčastnenou osobou v uvedenom správnom konaní lehotu 5 pracovných dní od zverejnenia tohto oznámenia.  Po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona 'združenie s právnou subjektivitou uvedie v písomnom oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno a priezvi'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571991/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.016186}
+LLM_tokens: {"input": 5462, "output": 4485, "total": 9947, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 63 column 1 (char 1739)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01062805}
+LLM_tokens: {"input": 5462, "output": 3237, "total": 8699, "cached": 4031}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571991/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571991/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [{'nazov': 'Terasa', 'parcely': [{'typ': 'C', 'cisla': ['1839/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Považská 22 a Inžinierska 20', 'nazov_lokality_norm': 'Považská, Inžinierska, Košice'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [{'nazov': 'Terasa', 'parcely': [{'typ': 'C', 'cisla': ['1839/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Považská 22 a Inžinierska 20', 'nazov_lokality_norm': 'Považská, Inžinierska, Košice'}
+ku_name:Terasa obec:Košice okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: terasa
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: terasa
+_get_nationalCadastralZoningReferences() found_ids: {'827207'}
+nationalCadastralZoningReferences: ['827207']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27827207_1839%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.27 s
+nazov_lokality: Považská, Inžinierska, Košice
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1503'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571991/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/571991/analysis.json...
+
+--- Časy spracovania dokumentu 571991 ---
+  download_and_text   :   7.46 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  30.74 s
+  gis_processing      :   3.50 s
+  CELKOVÝ ČAS         :  41.70 s
+------------------------------------------
+Dokument 571991 bol úspešne spracovaný.

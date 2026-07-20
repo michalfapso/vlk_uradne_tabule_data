@@ -1,0 +1,32 @@
+[2026-07-20 19:30:24] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571913'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=571913
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571913/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571913/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 4 písm. e)' zákona ':     Na základe doručeného písomného oznámenia zo dňa 14.07.2026 na orgán ochrany  prírody vo veci uskutočnenia plánovaného výrubu drevín podľa ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 4 písm. e)' zákona 'a splnenia si oznamovacej povinnosti podľa ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'uvádzame nasledovne:     • Subjekt: Železnice Slovenskej republiky, OR Zvolen SMSÚ ŽTS TO Banská Bystrica,  29. augusta 49, 974 01 Banská Bystrica'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/571913/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0096705}
+LLM_tokens: {"input": 4839, "output": 2417, "total": 7256, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 56 column 1 (char 1615)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00941655}
+LLM_tokens: {"input": 4839, "output": 2634, "total": 7473, "cached": 2011}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 56 column 1 (char 1621)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00926355}
+LLM_tokens: {"input": 4839, "output": 2583, "total": 7422, "cached": 2011}
+Pokus 3 zlyhal: LLM nevrátil platný JSON. Chyba: Expecting property name enclosed in double quotes: line 25 column 3 (char 713)
+Zlyhalo spracovanie dokumentu 571913 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=571913): LLM analýza zlyhala po 3 pokusoch alebo nevrátila platný JSON.
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 433, in process_document
+    raise RuntimeError("LLM analýza zlyhala po 3 pokusoch alebo nevrátila platný JSON.")
+RuntimeError: LLM analýza zlyhala po 3 pokusoch alebo nevrátila platný JSON.
+[ERROR]: Zlyhalo spracovanie dokumentu 571913 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=40&odbor=10&sekcia=uradna-tabula&subor=571913): LLM analýza zlyhala po 3 pokusoch alebo nevrátila platný JSON.

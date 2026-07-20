@@ -1,0 +1,63 @@
+[2026-07-20 19:47:37] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/572145'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=53&odbor=10&sekcia=uradna-tabula&subor=572145
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/572145/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/572145/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58 písm. c)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov a ako špeciálny stavebný úrad podľa ustanovenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písm. e)' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov a ako špeciálny stavebný úrad podľa ustanovenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84' zákona '25/2025 Z. z. Stavebného zákona a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'citovaného vodného zákona, v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 3' zákona 'citovaného vodného zákona, v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 88a ods. 9' zákona 'stavebného zákona v nadväznosti na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80' zákona 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 1' zákona 'vodného zákona v nadväznosti na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 5' zákona 'vodného zákona v nadväznosti na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 6' zákona 'vodného zákona v nadväznosti na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80 ods. 2' zákona 'stavebného zákona). V súlade'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona v nadväznosti na ustanovenie'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/572145/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.016936}
+LLM_tokens: {"input": 7196, "output": 4446, "total": 11642, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/572145/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/572145/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Fričkovce', 'katastralne_uzemia': [{'nazov': 'Fričkovce', 'parcely': [{'typ': 'C', 'cisla': ['116/1', '661/1']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Fričkovce- Rozšírenie verejného vodovodu', 'nazov_lokality_norm': 'Fričkovce'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Fričkovce', 'katastralne_uzemia': [{'nazov': 'Fričkovce', 'parcely': [{'typ': 'C', 'cisla': ['116/1', '661/1']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Fričkovce- Rozšírenie verejného vodovodu', 'nazov_lokality_norm': 'Fričkovce'}
+ku_name:Fričkovce obec:Fričkovce okres:Bardejov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: frickovce norm_ku: frickovce
+_get_nationalCadastralZoningReferences() found_ids: {'814393'}
+nationalCadastralZoningReferences: ['814393']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=100&filter-lang=cql2-text&filter=nationalCadastralReference+IN+%28%27814393_116%2F1.C%27%2C%27814393_661%2F1.C%27%29 (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.42 s
+nazov_lokality: Fričkovce
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2000'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2000'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/572145/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/572145/analysis.json...
+
+--- Časy spracovania dokumentu 572145 ---
+  download_and_text   :   1.04 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  17.00 s
+  gis_processing      :   3.63 s
+  CELKOVÝ ČAS         :  21.67 s
+------------------------------------------
+Dokument 572145 bol úspešne spracovaný.
