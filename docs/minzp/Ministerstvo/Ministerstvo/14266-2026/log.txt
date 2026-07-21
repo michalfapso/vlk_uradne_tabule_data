@@ -1,0 +1,120 @@
+[2026-07-21 23:38:12] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14266-2026'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14266-2026/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14266-2026/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011852999999999999}
+LLM_tokens: {"input": 4230, "output": 3246, "total": 7476, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14266-2026/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14266-2026/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': 'Trenčín', 'obec': 'Omšenie', 'katastralne_uzemia': [{'nazov': 'Omšenie', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'vodnom toku Teplička', 'nazov_lokality_norm': 'Teplička'}
+data: {'kraj': None, 'okres': 'Trenčín', 'obec': 'Omšenie', 'katastralne_uzemia': [{'nazov': 'Omšenie', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'vodnom toku Teplička', 'nazov_lokality_norm': 'Teplička'}
+ku_name:Omšenie obec:Omšenie okres:Trenčín kraj:None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: trencin norm_obec: omsenie norm_ku: omsenie
+_get_nationalCadastralZoningReferences() found_ids: {'843792'}
+nationalCadastralZoningReferences: ['843792']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Teplička
+get_geometry_of_a_geoname nazov_lokality: Teplička
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Omšenie, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Trenčín, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((20.55889 48.88195, 20.55911 48...  ...  Teplička, okres Spišská Nová Ves, Košický kraj...
+1  POLYGON ((18.76597 49.22728, 18.76598 49.2269,...  ...  Teplička nad Váhom, okres Žilina, Žilinský kra...
+2  POLYGON ((19.96355 49.00893, 19.96429 49.00745...  ...  Liptovská Teplička, okres Poprad, Prešovský kr...
+
+[3 rows x 11 columns]
+geoname_query: Teplička, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.20794 48.92052, 18.20817 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((20.55889 48.88195, 20.55911 48...  ...  Teplička, okres Spišská Nová Ves, Košický kraj...
+1  POLYGON ((18.76597 49.22728, 18.76598 49.2269,...  ...  Teplička nad Váhom, okres Žilina, Žilinský kra...
+2  POLYGON ((19.96355 49.00893, 19.96429 49.00745...  ...  Liptovská Teplička, okres Poprad, Prešovský kr...
+
+[3 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14266-2026/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14266-2026/analysis.json...
+
+--- Časy spracovania dokumentu 14266-2026 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.23 s
+  gis_processing      :   1.33 s
+  CELKOVÝ ČAS         :  16.27 s
+------------------------------------------
+Dokument 14266-2026 bol úspešne spracovaný.
+[2026-07-21 23:44:03] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14266-2026'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14266-2026/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14266-2026/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': 'Trenčín', 'obec': 'Omšenie', 'katastralne_uzemia': [{'nazov': 'Omšenie', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'vodnom toku Teplička', 'nazov_lokality_norm': 'Teplička'}
+data: {'kraj': None, 'okres': 'Trenčín', 'obec': 'Omšenie', 'katastralne_uzemia': [{'nazov': 'Omšenie', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'vodnom toku Teplička', 'nazov_lokality_norm': 'Teplička'}
+ku_name:Omšenie obec:Omšenie okres:Trenčín kraj:None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: trencin norm_obec: omsenie norm_ku: omsenie
+_get_nationalCadastralZoningReferences() found_ids: {'843792'}
+nationalCadastralZoningReferences: ['843792']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.42 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Teplička
+get_geometry_of_a_geoname nazov_lokality: Teplička
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Omšenie, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Trenčín, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [429]>
+normalized: {'lat': 48.9303891, 'lon': 18.128495, 'formatted_address': 'Teplická, 914 01 Trenčianska Teplá, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 914 01 Trenčianska Teplá, Slovakia
+response: <Response [429]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.20794 48.92052, 18.20817 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14266-2026/gis.geojson...
+Intersections with protected areas...
+Found 39 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Baské', 'KOD_UEV': 'SKUEV0274'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Omšenie', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}], 'UEV': [{'parcel_label': 'Omšenie', 'NATIONALSI': 'SKUEV0274', 'SITETITLE_': 'Baské'}, {'parcel_label': 'Omšenie', 'NATIONALSI': 'SKUEV0811', 'SITETITLE_': 'Omšenská Baba'}], 'MCHU': [{'parcel_label': 'Omšenie', 'NATIONALSI': '199', 'SITETITLE_': 'PR Žihľavník'}, {'parcel_label': 'Omšenie', 'NATIONALSI': '88', 'SITETITLE_': 'NPP Lánce'}, {'parcel_label': 'Omšenie', 'NATIONALSI': '118', 'SITETITLE_': 'PR Omšenská Baba'}], 'CHVU': [{'parcel_label': 'Omšenie', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14266-2026/analysis.json...
+
+--- Časy spracovania dokumentu 14266-2026 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   6.05 s
+  CELKOVÝ ČAS         :   6.55 s
+------------------------------------------
+Dokument 14266-2026 bol úspešne spracovaný.

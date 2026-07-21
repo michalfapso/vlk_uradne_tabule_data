@@ -1,0 +1,159 @@
+[2026-07-21 23:35:29] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572239'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572239/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572239/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572239/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0130645}
+LLM_tokens: {"input": 5237, "output": 3482, "total": 8719, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572239/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572239/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Ružomberok', 'katastralne_uzemia': [{'nazov': 'Biely Potok', 'parcely': []}, {'nazov': 'Liptovská Osada', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Lesný celok Liptovská Osada - Biely Potok, v lesných porastoch č. 211_1, 223_1', 'nazov_lokality_norm': 'Liptovská Osada - Biely Potok'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Ružomberok', 'katastralne_uzemia': [{'nazov': 'Biely Potok', 'parcely': []}, {'nazov': 'Liptovská Osada', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Lesný celok Liptovská Osada - Biely Potok, v lesných porastoch č. 211_1, 223_1', 'nazov_lokality_norm': 'Liptovská Osada - Biely Potok'}
+ku_name:Biely Potok obec:Ružomberok okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: ruzomberok norm_ku: biely potok
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: None norm_ku: biely potok
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: biely potok
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: biely potok
+Fuzzy match found: 'Biely Potok' -> 'Ipeľský Potok' (ID: 821357)
+nationalCadastralZoningReferences: ['821357']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Liptovská Osada obec:Ružomberok okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: ruzomberok norm_ku: liptovska osada
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: None norm_ku: liptovska osada
+_get_nationalCadastralZoningReferences() found_ids: {'832430'}
+nationalCadastralZoningReferences: ['832430']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Liptovská Osada - Biely Potok
+get_geometry_of_a_geoname nazov_lokality: Liptovská Osada - Biely Potok
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Osada - Biely Potok, Ružomberok, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Osada - Biely Potok, Ružomberok, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Osada - Biely Potok, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Osada - Biely Potok, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0409381, 'lon': 19.2985691, 'formatted_address': 'Biely Potok, 034 03 Ružomberok, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Potok, 034 03 Ružomberok, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.22131 49.02868, 19.22142 49.02728...  ...  Biely Potok, Ružomberok, okres Ružomberok, Žil...
+
+[1 rows x 11 columns]
+geoname_query: Biely Potok, 034 03 Ružomberok, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.72144 48.59672, 19.72149 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.21272 48.98988, 19.21427 48...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.22131 49.02868, 19.22142 49.02728...  ...  Biely Potok, Ružomberok, okres Ružomberok, Žil...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572239/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572239/analysis.json...
+
+--- Časy spracovania dokumentu 572239 ---
+  download_and_text   :   1.03 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  15.09 s
+  gis_processing      :   2.79 s
+  CELKOVÝ ČAS         :  18.92 s
+------------------------------------------
+Dokument 572239 bol úspešne spracovaný.
+[2026-07-21 23:43:25] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572239'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572239/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572239/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572239/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Ružomberok', 'katastralne_uzemia': [{'nazov': 'Biely Potok', 'parcely': []}, {'nazov': 'Liptovská Osada', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Lesný celok Liptovská Osada - Biely Potok, v lesných porastoch č. 211_1, 223_1', 'nazov_lokality_norm': 'Liptovská Osada - Biely Potok'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Ružomberok', 'katastralne_uzemia': [{'nazov': 'Biely Potok', 'parcely': []}, {'nazov': 'Liptovská Osada', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Lesný celok Liptovská Osada - Biely Potok, v lesných porastoch č. 211_1, 223_1', 'nazov_lokality_norm': 'Liptovská Osada - Biely Potok'}
+ku_name:Biely Potok obec:Ružomberok okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: ruzomberok norm_ku: biely potok
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: None norm_ku: biely potok
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: biely potok
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: biely potok
+Fuzzy match found: 'Biely Potok' -> 'Ipeľský Potok' (ID: 821357)
+nationalCadastralZoningReferences: ['821357']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Liptovská Osada obec:Ružomberok okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: ruzomberok norm_ku: liptovska osada
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: None norm_ku: liptovska osada
+_get_nationalCadastralZoningReferences() found_ids: {'832430'}
+nationalCadastralZoningReferences: ['832430']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Liptovská Osada - Biely Potok
+get_geometry_of_a_geoname nazov_lokality: Liptovská Osada - Biely Potok
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Osada - Biely Potok, Ružomberok, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Osada - Biely Potok, Ružomberok, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Osada - Biely Potok, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Osada - Biely Potok, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0409381, 'lon': 19.2985691, 'formatted_address': 'Biely Potok, 034 03 Ružomberok, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Potok, 034 03 Ružomberok, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.22131 49.02868, 19.22142 49.02728...  ...  Biely Potok, Ružomberok, okres Ružomberok, Žil...
+
+[1 rows x 11 columns]
+geoname_query: Biely Potok, 034 03 Ružomberok, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.72144 48.59672, 19.72149 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.21272 48.98988, 19.21427 48...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.22131 49.02868, 19.22142 49.02728...  ...  Biely Potok, Ružomberok, okres Ružomberok, Žil...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572239/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572239/analysis.json...
+
+--- Časy spracovania dokumentu 572239 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   1.15 s
+  CELKOVÝ ČAS         :   1.15 s
+------------------------------------------
+Dokument 572239 bol úspešne spracovaný.

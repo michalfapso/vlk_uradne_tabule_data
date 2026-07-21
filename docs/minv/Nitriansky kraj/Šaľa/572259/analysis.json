@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": "OU-SA-OSZP-2026/006994-2",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-07-21",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Šaľa",
+    "obec": "Šaľa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šaľa",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3080/11"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Pri bytovom dome na Hollého ulici č. 1845/24, v meste Šaľa, mestská časť Veča",
+    "nazov_lokality_norm": "Hollého, Šaľa"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín rastúcich mimo les"
+  ],
+  "rozsah_zasahu": "1 ks Smrek (obvod kmeňa 100 cm)",
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "Smrek"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "19"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o výrub 1 ks smreka s obvodom kmeňa 100 cm rastúceho v intraviláne mesta Šaľa na Hollého ulici. Dôvodom výrubu je riziko poškodenia parkujúcich áut a bytového domu pri vetre a tienenie bytov. Konanie sa nerealizuje v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

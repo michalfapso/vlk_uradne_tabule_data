@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": "14245/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-16",
+  "datum_zverejnenia": "2026-07-16",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Okresné riaditeľstvo Hasičského a záchranného zboru v Trnave",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trnava",
+    "obec": "Buková",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Buková",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "v okolí VN Buková a zrúcaniny hradu Ostrý Kameň",
+    "nazov_lokality_norm": "Buková, Ostrý Kameň"
+  },
+  "typ_dokumentu": "Informácia o začatom správnom konaní",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "taktické cvičenie s námetom požiaru lesného porastu"
+  ],
+  "rozsah_zasahu": "taktické cvičenie",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Žiadosť o vydanie súhlasu a povolenie výnimky na vykonanie taktického cvičenia zameraného na likvidáciu požiaru lesného porastu. Cvičenie je plánované v katastrálnom území Buková v blízkosti vodnej nádrže a hradu Ostrý Kameň. Verejnosť má možnosť potvrdiť záujem o účasť v konaní do 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Buková",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        },
+        {
+          "parcel_label": "Buková",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Buková",
+          "NATIONALSI": "SKUEV0267",
+          "SITETITLE_": "Biele hory"
+        },
+        {
+          "parcel_label": "Buková",
+          "NATIONALSI": "SKUEV0268",
+          "SITETITLE_": "Buková"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Buková",
+          "NATIONALSI": "153",
+          "SITETITLE_": "PR Skalné okno"
+        },
+        {
+          "parcel_label": "Buková",
+          "NATIONALSI": "194",
+          "SITETITLE_": "NPR Záruby"
+        },
+        {
+          "parcel_label": "Buková",
+          "NATIONALSI": "17",
+          "SITETITLE_": "PR Buková"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Buková",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

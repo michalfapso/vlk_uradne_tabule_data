@@ -1,0 +1,159 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP-2026/033776",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-20",
+  "datum_zverejnenia": "2026-07-20",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Brezno",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Banisko",
+    "nazov_lokality_norm": "Banisko"
+  },
+  "typ_dokumentu": "Informácia o začatom konaní",
+  "kategorie_vlk": [
+    "VJAZD_VOZIDLA",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "vjazd motorovým vozidlom",
+    "organizovanie športového podujatia"
+  ],
+  "rozsah_zasahu": "športové podujatie Brezniansky MTB maratón",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "2",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "19",
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti o povolenie výnimky na vjazd motorovým vozidlom a organizovanie športového podujatia „Brezniansky MTB maratón“ dňa 19.09.2026. Činnosť sa má realizovať v lokalite Banisko v meste Brezno. Verejnosť a združenia môžu oznámiť svoju účasť do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Brezno",
+          "NAZOV_UEV": "Rohoznianska jelšina",
+          "KOD_UEV": "SKUEV0695"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "SKUEV0695",
+          "SITETITLE_": "Rohoznianska jelšina"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "SKUEV0153",
+          "SITETITLE_": "Horné lazy"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "403",
+          "SITETITLE_": "PR Rohoznianska jelšina"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "260",
+          "SITETITLE_": "PR Horné lazy"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "225",
+          "SITETITLE_": "PR Breznianska skalka"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "232",
+          "SITETITLE_": "OP NPP Bystrianska jaskyňa"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "1359",
+          "SITETITLE_": "NPP Jaskyňa mŕtvych netopierov"
+        },
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "246",
+          "SITETITLE_": "NPR Ďumbier"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Brezno",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

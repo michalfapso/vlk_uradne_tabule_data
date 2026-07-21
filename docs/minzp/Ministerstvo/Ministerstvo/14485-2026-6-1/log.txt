@@ -1,0 +1,84 @@
+[2026-07-21 23:36:03] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14485-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14485-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14485-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0100805}
+LLM_tokens: {"input": 4201, "output": 2660, "total": 6861, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14485-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14485-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': None, 'obec': 'Liptovská Porúbka', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': None, 'okres': None, 'obec': 'Liptovská Porúbka', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+Fallback to OBEC: Liptovská Porúbka
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: liptovska porubka norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'832448'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.74172 49.03677, 19.74175 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14485-2026-6-1/gis.geojson...
+Intersections with protected areas...
+Found 49 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}], 'UEV': [{'parcel_label': 'Liptovská Porúbka', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}], 'MCHU': [{'parcel_label': 'Liptovská Porúbka', 'NATIONALSI': '367', 'SITETITLE_': 'NPR Ohnište'}, {'parcel_label': 'Liptovská Porúbka', 'NATIONALSI': '280', 'SITETITLE_': 'NPR Jánska dolina'}, {'parcel_label': 'Liptovská Porúbka', 'NATIONALSI': '207', 'SITETITLE_': 'PP Mašiansky balvan'}, {'parcel_label': 'Liptovská Porúbka', 'NATIONALSI': '207', 'SITETITLE_': 'OP PP Mašiansky balvan'}], 'CHVU': [{'parcel_label': 'Liptovská Porúbka', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14485-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 14485-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.97 s
+  gis_processing      :   0.46 s
+  CELKOVÝ ČAS         :  12.93 s
+------------------------------------------
+Dokument 14485-2026-6-1 bol úspešne spracovaný.
+[2026-07-21 23:43:28] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14485-2026-6-1'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14485-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14485-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': None, 'obec': 'Liptovská Porúbka', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': None, 'okres': None, 'obec': 'Liptovská Porúbka', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+Fallback to OBEC: Liptovská Porúbka
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: liptovska porubka norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'832448'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.74172 49.03677, 19.74175 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14485-2026-6-1/gis.geojson...
+Intersections with protected areas...
+Found 49 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Liptovská Porúbka', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}], 'UEV': [{'parcel_label': 'Liptovská Porúbka', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}], 'MCHU': [{'parcel_label': 'Liptovská Porúbka', 'NATIONALSI': '367', 'SITETITLE_': 'NPR Ohnište'}, {'parcel_label': 'Liptovská Porúbka', 'NATIONALSI': '280', 'SITETITLE_': 'NPR Jánska dolina'}, {'parcel_label': 'Liptovská Porúbka', 'NATIONALSI': '207', 'SITETITLE_': 'PP Mašiansky balvan'}, {'parcel_label': 'Liptovská Porúbka', 'NATIONALSI': '207', 'SITETITLE_': 'OP PP Mašiansky balvan'}], 'CHVU': [{'parcel_label': 'Liptovská Porúbka', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14485-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 14485-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.48 s
+  CELKOVÝ ČAS         :   0.95 s
+------------------------------------------
+Dokument 14485-2026-6-1 bol úspešne spracovaný.

@@ -1,0 +1,139 @@
+[2026-07-21 23:37:42] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033170-sm'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033170-sm/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033170-sm/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13 ods. 2 písm. k)' zákona 'resp. udelenie výnimky podľa'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033170-sm/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0146675}
+LLM_tokens: {"input": 6085, "output": 3875, "total": 9960, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Expecting ',' delimiter: line 66 column 1 (char 1821)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00826985}
+LLM_tokens: {"input": 6085, "output": 2348, "total": 8433, "cached": 4037}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033170-sm/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033170-sm/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Donovaly', 'katastralne_uzemia': [{'nazov': 'Donovaly', 'parcely': []}, {'nazov': 'Podkonice', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Donovaly – Kalište - Pleše', 'nazov_lokality_norm': 'Donovaly, Kalište, Pleše'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Donovaly', 'katastralne_uzemia': [{'nazov': 'Donovaly', 'parcely': []}, {'nazov': 'Podkonice', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Donovaly – Kalište - Pleše', 'nazov_lokality_norm': 'Donovaly, Kalište, Pleše'}
+ku_name:Donovaly obec:Donovaly okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: donovaly norm_ku: donovaly
+_get_nationalCadastralZoningReferences() found_ids: {'812641'}
+nationalCadastralZoningReferences: ['812641']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Podkonice obec:Donovaly okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: donovaly norm_ku: podkonice
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: None norm_ku: podkonice
+_get_nationalCadastralZoningReferences() found_ids: {'847411'}
+nationalCadastralZoningReferences: ['847411']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Donovaly, Kalište, Pleše
+get_geometry_of_a_geoname nazov_lokality: Donovaly, Kalište, Pleše
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kalište, Pleše, Donovaly, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kalište, Pleše, Banská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kalište, Pleše, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kalište, Pleše, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.813547, 'lon': 19.2479084, 'formatted_address': 'Podkonice Pleše 394 Podkonice, 976 13 Banská Bystrica, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Pleše 394 Podkonice, 976 13 Banská Bystrica, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.24358 48.89517, 19.24384 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.24459 48.86094, 19.2453 48....
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033170-sm/gis.geojson...
+Intersections with protected areas...
+Found 31 intersecting parcels with '5st_konsUEV'.
+Found 4 intersecting parcels with 'UEV'.
+Found 5 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Donovaly', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Donovaly', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}], 'UEV': [{'parcel_label': 'Donovaly', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': 'Donovaly', 'NATIONALSI': 'SKUEV0198', 'SITETITLE_': 'Zvolen'}, {'parcel_label': 'Podkonice', 'NATIONALSI': 'SKUEV0298', 'SITETITLE_': 'Brvnište'}, {'parcel_label': 'Podkonice', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}], 'MCHU': [{'parcel_label': 'Donovaly', 'NATIONALSI': '1065', 'SITETITLE_': 'PR Štrosy'}, {'parcel_label': 'Podkonice', 'NATIONALSI': '1137', 'SITETITLE_': 'CHA Brvnište'}, {'parcel_label': 'Podkonice', 'NATIONALSI': '1310', 'SITETITLE_': 'PR Pralesy Slovenska-Kozí chrbát'}, {'parcel_label': 'Podkonice', 'NATIONALSI': '1065', 'SITETITLE_': 'PR Štrosy'}, {'parcel_label': 'Podkonice', 'NATIONALSI': '1135', 'SITETITLE_': 'PR Barania hlava'}], 'CHVU': [{'parcel_label': 'Donovaly', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Donovaly', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': 'Podkonice', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033170-sm/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp3-2026-033170-sm ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  25.69 s
+  gis_processing      :   3.98 s
+  CELKOVÝ ČAS         :  30.19 s
+------------------------------------------
+Dokument ou-bb-oszp3-2026-033170-sm bol úspešne spracovaný.
+[2026-07-21 23:43:54] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033170-sm'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033170-sm/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033170-sm/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033170-sm/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Donovaly', 'katastralne_uzemia': [{'nazov': 'Donovaly', 'parcely': []}, {'nazov': 'Podkonice', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Donovaly – Kalište - Pleše', 'nazov_lokality_norm': 'Donovaly, Kalište, Pleše'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Donovaly', 'katastralne_uzemia': [{'nazov': 'Donovaly', 'parcely': []}, {'nazov': 'Podkonice', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Donovaly – Kalište - Pleše', 'nazov_lokality_norm': 'Donovaly, Kalište, Pleše'}
+ku_name:Donovaly obec:Donovaly okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: donovaly norm_ku: donovaly
+_get_nationalCadastralZoningReferences() found_ids: {'812641'}
+nationalCadastralZoningReferences: ['812641']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Podkonice obec:Donovaly okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: donovaly norm_ku: podkonice
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: None norm_ku: podkonice
+_get_nationalCadastralZoningReferences() found_ids: {'847411'}
+nationalCadastralZoningReferences: ['847411']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Donovaly, Kalište, Pleše
+get_geometry_of_a_geoname nazov_lokality: Donovaly, Kalište, Pleše
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kalište, Pleše, Donovaly, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kalište, Pleše, Banská Bystrica, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kalište, Pleše, Banskobystrický kraj, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kalište, Pleše, Slovensko
+response: <Response [429]>
+normalized: {'lat': 48.813547, 'lon': 19.2479084, 'formatted_address': 'Podkonice Pleše 394 Podkonice, 976 13 Banská Bystrica, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Pleše 394 Podkonice, 976 13 Banská Bystrica, Slovakia
+response: <Response [429]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.24358 48.89517, 19.24384 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.24459 48.86094, 19.2453 48....
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033170-sm/gis.geojson...
+Intersections with protected areas...
+Found 31 intersecting parcels with '5st_konsUEV'.
+Found 4 intersecting parcels with 'UEV'.
+Found 5 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Donovaly', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Donovaly', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Podkonice', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}], 'UEV': [{'parcel_label': 'Donovaly', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': 'Donovaly', 'NATIONALSI': 'SKUEV0198', 'SITETITLE_': 'Zvolen'}, {'parcel_label': 'Podkonice', 'NATIONALSI': 'SKUEV0298', 'SITETITLE_': 'Brvnište'}, {'parcel_label': 'Podkonice', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}], 'MCHU': [{'parcel_label': 'Donovaly', 'NATIONALSI': '1065', 'SITETITLE_': 'PR Štrosy'}, {'parcel_label': 'Podkonice', 'NATIONALSI': '1137', 'SITETITLE_': 'CHA Brvnište'}, {'parcel_label': 'Podkonice', 'NATIONALSI': '1310', 'SITETITLE_': 'PR Pralesy Slovenska-Kozí chrbát'}, {'parcel_label': 'Podkonice', 'NATIONALSI': '1065', 'SITETITLE_': 'PR Štrosy'}, {'parcel_label': 'Podkonice', 'NATIONALSI': '1135', 'SITETITLE_': 'PR Barania hlava'}], 'CHVU': [{'parcel_label': 'Donovaly', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Donovaly', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': 'Podkonice', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033170-sm/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp3-2026-033170-sm ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   8.63 s
+  CELKOVÝ ČAS         :   9.01 s
+------------------------------------------
+Dokument ou-bb-oszp3-2026-033170-sm bol úspešne spracovaný.

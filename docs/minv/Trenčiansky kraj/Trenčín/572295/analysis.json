@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-20",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Mestské hospodárstvo a správa lesov, m. r. o., Trenčín",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčianske Biskupice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1113/35"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "mesto Trenčín, k. ú. Trenčianske Biskupice, na parcele KN-C č. 1113/35",
+    "nazov_lokality_norm": "Trenčianske Biskupice"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania na vydanie súhlasu na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub 2 ks drevín druhu topoľ kanadský"
+  ],
+  "rozsah_zasahu": "2 ks drevín druhu topoľ kanadský (obvody 580 cm a 250 cm)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "topoľ kanadský"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 82 ods. 7",
+        "§ 47 ods. 3",
+        "§ 82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania na výrub 2 kusov topoľa kanadského v katastrálnom území Trenčianske Biskupice. Stromy s obvodmi 580 a 250 cm sa nachádzajú v extraviláne na parcele 1113/35 a dôvodom výrubu je poškodzovanie súkromného majetku.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

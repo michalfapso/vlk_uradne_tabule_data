@@ -1,0 +1,114 @@
+[2026-07-21 23:35:49] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14498-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14498-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14498-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0106405}
+LLM_tokens: {"input": 4301, "output": 2830, "total": 7131, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14498-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14498-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': 'Žilina', 'obec': 'Žilina', 'katastralne_uzemia': [{'nazov': 'Žilina', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Pražská ulica č. 21, Zelené Vlčince', 'nazov_lokality_norm': 'Pražská, Žilina'}
+data: {'kraj': None, 'okres': 'Žilina', 'obec': 'Žilina', 'katastralne_uzemia': [{'nazov': 'Žilina', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Pražská ulica č. 21, Zelené Vlčince', 'nazov_lokality_norm': 'Pražská, Žilina'}
+ku_name:Žilina obec:Žilina okres:Žilina kraj:None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: zilina norm_obec: zilina norm_ku: zilina
+_get_nationalCadastralZoningReferences() found_ids: {'874604'}
+nationalCadastralZoningReferences: ['874604']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Pražská, Žilina
+get_geometry_of_a_geoname nazov_lokality: Pražská, Žilina
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilina, Žilina, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.76727 49.21307, 18.76737 49.21296...  ...  Pražská, Vlčince 2, Celulózka, Vlčince, Žilina...
+
+[1 rows x 11 columns]
+geoname_query: Pražská, Žilina, Žilina, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.70841 49.23683, 18.70851 49...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.76727 49.21307, 18.76737 49.21296...  ...  Pražská, Vlčince 2, Celulózka, Vlčince, Žilina...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14498-2026-6-1/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14498-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 14498-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.60 s
+  gis_processing      :   0.98 s
+  CELKOVÝ ČAS         :  14.31 s
+------------------------------------------
+Dokument 14498-2026-6-1 bol úspešne spracovaný.
+[2026-07-21 23:43:27] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14498-2026-6-1'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14498-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14498-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': 'Žilina', 'obec': 'Žilina', 'katastralne_uzemia': [{'nazov': 'Žilina', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Pražská ulica č. 21, Zelené Vlčince', 'nazov_lokality_norm': 'Pražská, Žilina'}
+data: {'kraj': None, 'okres': 'Žilina', 'obec': 'Žilina', 'katastralne_uzemia': [{'nazov': 'Žilina', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Pražská ulica č. 21, Zelené Vlčince', 'nazov_lokality_norm': 'Pražská, Žilina'}
+ku_name:Žilina obec:Žilina okres:Žilina kraj:None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: zilina norm_obec: zilina norm_ku: zilina
+_get_nationalCadastralZoningReferences() found_ids: {'874604'}
+nationalCadastralZoningReferences: ['874604']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Pražská, Žilina
+get_geometry_of_a_geoname nazov_lokality: Pražská, Žilina
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilina, Žilina, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.76727 49.21307, 18.76737 49.21296...  ...  Pražská, Vlčince 2, Celulózka, Vlčince, Žilina...
+
+[1 rows x 11 columns]
+geoname_query: Pražská, Žilina, Žilina, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.70841 49.23683, 18.70851 49...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.76727 49.21307, 18.76737 49.21296...  ...  Pražská, Vlčince 2, Celulózka, Vlčince, Žilina...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14498-2026-6-1/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14498-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 14498-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.58 s
+  CELKOVÝ ČAS         :   1.09 s
+------------------------------------------
+Dokument 14498-2026-6-1 bol úspešne spracovaný.

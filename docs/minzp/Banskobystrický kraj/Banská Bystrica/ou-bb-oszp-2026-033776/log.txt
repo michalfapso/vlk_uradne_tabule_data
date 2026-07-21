@@ -1,0 +1,124 @@
+[2026-07-21 23:36:58] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp-2026-033776'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp-2026-033776/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp-2026-033776/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp-2026-033776/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012753500000000001}
+LLM_tokens: {"input": 5809, "output": 3283, "total": 9092, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 57 column 1 (char 1661)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0105722}
+LLM_tokens: {"input": 5809, "output": 3161, "total": 8970, "cached": 4034}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp-2026-033776/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp-2026-033776/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Brezno', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Banisko', 'nazov_lokality_norm': 'Banisko'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Brezno', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Banisko', 'nazov_lokality_norm': 'Banisko'}
+Fallback to OBEC: Brezno
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: brezno norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: brezno norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'806528'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.45 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Banisko
+get_geometry_of_a_geoname nazov_lokality: Banisko
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Brezno, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Banská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.70491 49.18026, 19.70496 49.1802,...  ...  Banisko, Žiar, okres Liptovský Mikuláš, Žilins...
+
+[1 rows x 11 columns]
+geoname_query: Banisko, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.64071 48.9362, 19.64434 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.70491 49.18026, 19.70496 49.1802,...  ...  Banisko, Žiar, okres Liptovský Mikuláš, Žilins...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp-2026-033776/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp-2026-033776/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp-2026-033776 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  28.36 s
+  gis_processing      :   2.13 s
+  CELKOVÝ ČAS         :  30.87 s
+------------------------------------------
+Dokument ou-bb-oszp-2026-033776 bol úspešne spracovaný.
+[2026-07-21 23:43:37] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp-2026-033776'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp-2026-033776/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp-2026-033776/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp-2026-033776/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Brezno', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Banisko', 'nazov_lokality_norm': 'Banisko'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Brezno', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Banisko', 'nazov_lokality_norm': 'Banisko'}
+Fallback to OBEC: Brezno
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: brezno norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: brezno norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'806528'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Banisko
+get_geometry_of_a_geoname nazov_lokality: Banisko
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Brezno, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Banská Bystrica, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Banskobystrický kraj, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [429]>
+normalized: {'lat': 48.8094517, 'lon': 19.6217997, 'formatted_address': 'Banisko, 977 01 Brezno, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 977 01 Brezno, Slovakia
+response: <Response [429]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.64071 48.9362, 19.64434 48....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp-2026-033776/gis.geojson...
+Intersections with protected areas...
+Found 7 intersecting parcels with '5st_konsUEV'.
+Found 4 intersecting parcels with 'UEV'.
+Found 6 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Brezno', 'NAZOV_UEV': 'Rohoznianska jelšina', 'KOD_UEV': 'SKUEV0695'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}], 'UEV': [{'parcel_label': 'Brezno', 'NATIONALSI': 'SKUEV0695', 'SITETITLE_': 'Rohoznianska jelšina'}, {'parcel_label': 'Brezno', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Brezno', 'NATIONALSI': 'SKUEV0153', 'SITETITLE_': 'Horné lazy'}, {'parcel_label': 'Brezno', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}], 'MCHU': [{'parcel_label': 'Brezno', 'NATIONALSI': '403', 'SITETITLE_': 'PR Rohoznianska jelšina'}, {'parcel_label': 'Brezno', 'NATIONALSI': '260', 'SITETITLE_': 'PR Horné lazy'}, {'parcel_label': 'Brezno', 'NATIONALSI': '225', 'SITETITLE_': 'PR Breznianska skalka'}, {'parcel_label': 'Brezno', 'NATIONALSI': '232', 'SITETITLE_': 'OP NPP Bystrianska jaskyňa'}, {'parcel_label': 'Brezno', 'NATIONALSI': '1359', 'SITETITLE_': 'NPP Jaskyňa mŕtvych netopierov'}, {'parcel_label': 'Brezno', 'NATIONALSI': '246', 'SITETITLE_': 'NPR Ďumbier'}], 'CHVU': [{'parcel_label': 'Brezno', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp-2026-033776/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp-2026-033776 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   8.05 s
+  CELKOVÝ ČAS         :   8.68 s
+------------------------------------------
+Dokument ou-bb-oszp-2026-033776 bol úspešne spracovaný.

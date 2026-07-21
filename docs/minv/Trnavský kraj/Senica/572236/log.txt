@@ -1,0 +1,92 @@
+[2026-07-21 23:30:54] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/572236'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/572236/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/572236/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona '543/202 Z.z. o ochrane prírody a krajiny v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13  ods. 2 písm. k)' zákona ':     - o udelenie súhlasu požiadal Patrik Štvrtecký – Štvrtecký a spol. Podujatia sa plánujú uskutočňovať  počas celého roka na pozemkoch parc. č. 34'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'l)' zákona ':     - o udelenie súhlasu požiadal Patrik Štvrtecký – Štvrtecký a spol. Podujatia sa plánujú uskutočňovať  počas celého roka na pozemkoch parc. č. 34'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'n)' zákona ':     - o udelenie súhlasu požiadal Patrik Štvrtecký – Štvrtecký a spol. Podujatia sa plánujú uskutočňovať  počas celého roka na pozemkoch parc. č. 34'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie písomného alebo elektronického potvrdenia záujmu byť  účastníkom konania,  podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ', v začatom správnom konaní je do : 27.07.2026'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0119894}
+LLM_tokens: {"input": 4516, "output": 3545, "total": 8061, "cached": 2008}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/572236/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/572236/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Senica', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Rozbehy', 'parcely': [{'typ': 'C', 'cisla': ['342', '339']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k. ú. Rozbehy', 'nazov_lokality_norm': 'Rozbehy'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Senica', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Rozbehy', 'parcely': [{'typ': 'C', 'cisla': ['342', '339']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k. ú. Rozbehy', 'nazov_lokality_norm': 'Rozbehy'}
+ku_name:Rozbehy obec:None okres:Senica kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: senica norm_obec: None norm_ku: rozbehy
+_get_nationalCadastralZoningReferences() found_ids: {'852881'}
+nationalCadastralZoningReferences: ['852881']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.37 s
+nazov_lokality: Rozbehy
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1193'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1193'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/572236/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/572236/analysis.json...
+
+--- Časy spracovania dokumentu 572236 ---
+  download_and_text   :   1.09 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.12 s
+  gis_processing      :   3.57 s
+  CELKOVÝ ČAS         :  18.78 s
+------------------------------------------
+Dokument 572236 bol úspešne spracovaný.
+[2026-07-21 23:39:17] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/572236'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/572236/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona '543/202 Z.z. o ochrane prírody a krajiny v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13  ods. 2 písm. k)' zákona ':     - o udelenie súhlasu požiadal Patrik Štvrtecký – Štvrtecký a spol. Podujatia sa plánujú uskutočňovať  počas celého roka na pozemkoch parc. č. 34'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'l)' zákona ':     - o udelenie súhlasu požiadal Patrik Štvrtecký – Štvrtecký a spol. Podujatia sa plánujú uskutočňovať  počas celého roka na pozemkoch parc. č. 34'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'n)' zákona ':     - o udelenie súhlasu požiadal Patrik Štvrtecký – Štvrtecký a spol. Podujatia sa plánujú uskutočňovať  počas celého roka na pozemkoch parc. č. 34'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie písomného alebo elektronického potvrdenia záujmu byť  účastníkom konania,  podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ', v začatom správnom konaní je do : 27.07.2026'.
+No law excerpts found.
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/572236/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Senica', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Rozbehy', 'parcely': [{'typ': 'C', 'cisla': ['342', '339']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k. ú. Rozbehy', 'nazov_lokality_norm': 'Rozbehy'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Senica', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Rozbehy', 'parcely': [{'typ': 'C', 'cisla': ['342', '339']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k. ú. Rozbehy', 'nazov_lokality_norm': 'Rozbehy'}
+ku_name:Rozbehy obec:None okres:Senica kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: senica norm_obec: None norm_ku: rozbehy
+_get_nationalCadastralZoningReferences() found_ids: {'852881'}
+nationalCadastralZoningReferences: ['852881']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.28 s
+nazov_lokality: Rozbehy
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1193'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1193'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/572236/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/572236/analysis.json...
+
+--- Časy spracovania dokumentu 572236 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   3.48 s
+  CELKOVÝ ČAS         :   3.48 s
+------------------------------------------
+Dokument 572236 bol úspešne spracovaný.

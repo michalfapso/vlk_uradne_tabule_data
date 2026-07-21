@@ -1,0 +1,110 @@
+[2026-07-21 23:38:28] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14245-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14245-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14245-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008521500000000001}
+LLM_tokens: {"input": 4251, "output": 2132, "total": 6383, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14245-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14245-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': 'Trnava', 'obec': 'Buková', 'katastralne_uzemia': [{'nazov': 'Buková', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'v okolí VN Buková a zrúcaniny hradu Ostrý Kameň', 'nazov_lokality_norm': 'Buková, Ostrý Kameň'}
+data: {'kraj': None, 'okres': 'Trnava', 'obec': 'Buková', 'katastralne_uzemia': [{'nazov': 'Buková', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'v okolí VN Buková a zrúcaniny hradu Ostrý Kameň', 'nazov_lokality_norm': 'Buková, Ostrý Kameň'}
+ku_name:Buková obec:Buková okres:Trnava kraj:None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: trnava norm_obec: bukova norm_ku: bukova
+_get_nationalCadastralZoningReferences() found_ids: {'807303'}
+nationalCadastralZoningReferences: ['807303']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Buková, Ostrý Kameň
+get_geometry_of_a_geoname nazov_lokality: Buková, Ostrý Kameň
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ostrý Kameň, Buková, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ostrý Kameň, Trnava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ostrý Kameň, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.5218405, 'lon': 17.3710296, 'formatted_address': '919 10 Buková, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 10 Buková, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.39016 48.56287, 17.39026 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14245-2026-6-1/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Buková', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Buková', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}], 'UEV': [{'parcel_label': 'Buková', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}, {'parcel_label': 'Buková', 'NATIONALSI': 'SKUEV0268', 'SITETITLE_': 'Buková'}], 'MCHU': [{'parcel_label': 'Buková', 'NATIONALSI': '153', 'SITETITLE_': 'PR Skalné okno'}, {'parcel_label': 'Buková', 'NATIONALSI': '194', 'SITETITLE_': 'NPR Záruby'}, {'parcel_label': 'Buková', 'NATIONALSI': '17', 'SITETITLE_': 'PR Buková'}], 'CHVU': [{'parcel_label': 'Buková', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14245-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 14245-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.01 s
+  gis_processing      :   1.71 s
+  CELKOVÝ ČAS         :  12.42 s
+------------------------------------------
+Dokument 14245-2026-6-1 bol úspešne spracovaný.
+[2026-07-21 23:44:10] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14245-2026-6-1'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14245-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14245-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': 'Trnava', 'obec': 'Buková', 'katastralne_uzemia': [{'nazov': 'Buková', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'v okolí VN Buková a zrúcaniny hradu Ostrý Kameň', 'nazov_lokality_norm': 'Buková, Ostrý Kameň'}
+data: {'kraj': None, 'okres': 'Trnava', 'obec': 'Buková', 'katastralne_uzemia': [{'nazov': 'Buková', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'v okolí VN Buková a zrúcaniny hradu Ostrý Kameň', 'nazov_lokality_norm': 'Buková, Ostrý Kameň'}
+ku_name:Buková obec:Buková okres:Trnava kraj:None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: trnava norm_obec: bukova norm_ku: bukova
+_get_nationalCadastralZoningReferences() found_ids: {'807303'}
+nationalCadastralZoningReferences: ['807303']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Buková, Ostrý Kameň
+get_geometry_of_a_geoname nazov_lokality: Buková, Ostrý Kameň
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ostrý Kameň, Buková, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ostrý Kameň, Trnava, Slovensko
+response: <Response [429]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ostrý Kameň, Slovensko
+response: <Response [429]>
+normalized: {'lat': 48.5218405, 'lon': 17.3710296, 'formatted_address': '919 10 Buková, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 10 Buková, Slovakia
+response: <Response [429]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.39016 48.56287, 17.39026 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14245-2026-6-1/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Buková', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Buková', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}], 'UEV': [{'parcel_label': 'Buková', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}, {'parcel_label': 'Buková', 'NATIONALSI': 'SKUEV0268', 'SITETITLE_': 'Buková'}], 'MCHU': [{'parcel_label': 'Buková', 'NATIONALSI': '153', 'SITETITLE_': 'PR Skalné okno'}, {'parcel_label': 'Buková', 'NATIONALSI': '194', 'SITETITLE_': 'NPR Záruby'}, {'parcel_label': 'Buková', 'NATIONALSI': '17', 'SITETITLE_': 'PR Buková'}], 'CHVU': [{'parcel_label': 'Buková', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14245-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 14245-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   7.28 s
+  CELKOVÝ ČAS         :   7.76 s
+------------------------------------------
+Dokument 14245-2026-6-1 bol úspešne spracovaný.

@@ -1,0 +1,69 @@
+[2026-07-21 23:24:32] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572250'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572250/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572250/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. (3)' zákona ', združenie s právnou subjektivitou, ktorého predmetom činnosti je najmenej jeden rok ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. (1)' zákona ', a ktoré a ktoré písomne oznámi svoju účasť v konaní v lehote určenej orgánom ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'sa považuje za zúčastnenú osobu.           Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. (6)' zákona ', združenie podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'uvedie v písomnom oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo  organizácie, meno a priezvisko osoby oprávnenej konať v jeho'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572250/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009873}
+LLM_tokens: {"input": 6414, "output": 2222, "total": 8636, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572250/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572250/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+Fallback to OBEC: Bratislava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: bratislava norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: bratislava norm_ku: None
+Fallback to OBEC failed: Nenašlo sa žiadne katastrálne uzemie pre zadané parametre kraj:None, okres:None, obec:Bratislava, katastralneUzemie:None
+No geometries were found.
+nazov_lokality: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 572250 ---
+  download_and_text   :   1.07 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   8.75 s
+  gis_processing      :   0.02 s
+  CELKOVÝ ČAS         :   9.85 s
+------------------------------------------
+Dokument 572250 bol úspešne spracovaný.
+[2026-07-21 23:38:43] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572250'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572250/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572250/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572250/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+Fallback to OBEC: Bratislava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: bratislava norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: bratislava norm_ku: None
+Fallback to OBEC failed: Nenašlo sa žiadne katastrálne uzemie pre zadané parametre kraj:None, okres:None, obec:Bratislava, katastralneUzemie:None
+No geometries were found.
+nazov_lokality: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 572250 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   0.02 s
+  CELKOVÝ ČAS         :   0.02 s
+------------------------------------------
+Dokument 572250 bol úspešne spracovaný.
