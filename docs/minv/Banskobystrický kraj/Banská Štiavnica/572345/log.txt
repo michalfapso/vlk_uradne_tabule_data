@@ -1,0 +1,60 @@
+[2026-07-22 19:00:34] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572345'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572345/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572345/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572345/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0148045}
+LLM_tokens: {"input": 11063, "output": 3091, "total": 14154, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572345/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572345/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Štiavnica', 'obec': 'Banská Štiavnica', 'katastralne_uzemia': [{'nazov': 'Banská Štiavnica', 'parcely': [{'typ': 'C', 'cisla': ['3051/7', '3051/3', '3050', '3049', '3046', '5752/2', '2226', '2227', '5873/22', '5756/4', '5749/1', '5749/6', '5749/7', '3922', '5853/2', '5842/3', '5842/2', '3129', '7207/4', '7212', '7775', '7781', '7180', '7196', '5847/3']}, {'typ': 'E', 'cisla': ['855/1', '860', '6409/1', '6409/93', '6409/37', '6526', '298/1', '6527/3', '6409/36', '6409/50', '6409/53', '6599/1', '6409/58', '6409/3', '1381/18', '6409/4', '6409/9', '2582/2', '2582/1', '1007', '6554/1', '6554/2', '988', '989/2', '989/1', '6556/2', '4745/3', '4739/3', '6558/1', '4737/4', '4734/20', '4734/19', '4736', '4734/9', '4727/3', '4727', '4724', '4734/3', '4422/1', '1795/1', '4751/1', '4746/1', '4750', '4722/5', '4745/6', '6556/3', '989/3', '6409/10', '6409/11', '6409/13']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'tajch Veľká Vodárenská, Pod červenou studňou, turistickými chodníkmi na vrch Paradajs, tajch Ottergrund, Starý Zámok', 'nazov_lokality_norm': 'Paradajs, Banská Štiavnica'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Štiavnica', 'obec': 'Banská Štiavnica', 'katastralne_uzemia': [{'nazov': 'Banská Štiavnica', 'parcely': [{'typ': 'C', 'cisla': ['3051/7', '3051/3', '3050', '3049', '3046', '5752/2', '2226', '2227', '5873/22', '5756/4', '5749/1', '5749/6', '5749/7', '3922', '5853/2', '5842/3', '5842/2', '3129', '7207/4', '7212', '7775', '7781', '7180', '7196', '5847/3']}, {'typ': 'E', 'cisla': ['855/1', '860', '6409/1', '6409/93', '6409/37', '6526', '298/1', '6527/3', '6409/36', '6409/50', '6409/53', '6599/1', '6409/58', '6409/3', '1381/18', '6409/4', '6409/9', '2582/2', '2582/1', '1007', '6554/1', '6554/2', '988', '989/2', '989/1', '6556/2', '4745/3', '4739/3', '6558/1', '4737/4', '4734/20', '4734/19', '4736', '4734/9', '4727/3', '4727', '4724', '4734/3', '4422/1', '1795/1', '4751/1', '4746/1', '4750', '4722/5', '4745/6', '6556/3', '989/3', '6409/10', '6409/11', '6409/13']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'tajch Veľká Vodárenská, Pod červenou studňou, turistickými chodníkmi na vrch Paradajs, tajch Ottergrund, Starý Zámok', 'nazov_lokality_norm': 'Paradajs, Banská Štiavnica'}
+ku_name:Banská Štiavnica obec:Banská Štiavnica okres:Banská Štiavnica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska stiavnica norm_obec: banska stiavnica norm_ku: banska stiavnica
+_get_nationalCadastralZoningReferences() found_ids: {'801470'}
+nationalCadastralZoningReferences: ['801470']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.81 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.56 s
+nazov_lokality: Paradajs, Banská Štiavnica
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1988'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1988'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1988'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1988'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1988'}
+..              ...  ...                            ...
+68  CadastralParcel  ...  {'@href': '#auAdmUnitS.1988'}
+69  CadastralParcel  ...  {'@href': '#auAdmUnitS.1988'}
+70  CadastralParcel  ...  {'@href': '#auAdmUnitS.1988'}
+71  CadastralParcel  ...  {'@href': '#auAdmUnitS.1988'}
+72  CadastralParcel  ...  {'@href': '#auAdmUnitS.1988'}
+
+[73 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572345/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'MCHU'.
+intersections: {'MCHU': [{'parcel_label': '6599/1', 'NATIONALSI': '221', 'SITETITLE_': 'CHA Banskoštiavnická botanická záhrada'}, {'parcel_label': '6409/3', 'NATIONALSI': '221', 'SITETITLE_': 'CHA Banskoštiavnická botanická záhrada'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572345/analysis.json...
+
+--- Časy spracovania dokumentu 572345 ---
+  download_and_text   :   2.12 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  14.83 s
+  gis_processing      :   7.72 s
+  CELKOVÝ ČAS         :  24.67 s
+------------------------------------------
+Dokument 572345 bol úspešne spracovaný.

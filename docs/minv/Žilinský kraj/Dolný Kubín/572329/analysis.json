@@ -1,0 +1,94 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2026/007070",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-22",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Jasenová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jasenová",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "2221"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "k.ú. Jasenová",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub 27 ks smrek"
+  ],
+  "rozsah_zasahu": "27 ks smrek",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "smrek"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "§ 68 písm. c)",
+        "§ 82 ods. 7",
+        "§ 82 ods. 3",
+        "§ 82 ods. 6"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "§ 5"
+      ]
+    },
+    {
+      "nazov": "ktorou sa vykonávajú niektoré ustanovenia zákona o ochrane prírody a krajiny",
+      "cislo": "170/2021",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "§ 19"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci výrubu 27 kusov smreka v katastrálnom území Jasenová. Výrub sa nachádza mimo zastavaného územia na parcele registra E a je odôvodnený zlým zdravotným stavom drevín. Verejnosť sa môže do konania prihlásiť do 5 pracovných dní od zverejnenia informácie.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "2221",
+          "NATIONALSI": "SKCHVU050",
+          "SITETITLE_": "Chočské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,60 @@
+[2026-07-22 19:05:30] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/572306'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/572306/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 4 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0014864}
+LLM_tokens: {"input": 1108, "output": 3697, "total": 4805, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/572306/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'stavebného zákona.  **Výrok**  Okresný úrad Dunajská Streda, odbor starostlivosti o životné prostredie ako príslušný orgán štátnej vodnej správy podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§26 ods. 3)' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§82' zákona 'stavebného zákona, v súlade s ustanoveniami'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 81 ods. 4)' zákona 'stavebného zákona  pre: PARK Šamorín, Dvořákovo 8/A, 811 02 Bratislava, IČO: 53 995 597  Povolenie sa vzťahuje na užívanie: SO-05 kanalizačná prípojka'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona.  **Účel stavby:** Účel stavby je odvedenie odpadových vôd z objektov kanalizačnými prípojkami do verejnej kanalizácie mesta. Odpadové'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 75 ods. 9' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 8' zákona '50/1976 Zb. o úzmennom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO: 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhoto'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/572306/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01495775}
+LLM_tokens: {"input": 7762, "output": 3996, "total": 11758, "cached": 2025}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/572306/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/572306/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Dunajská Streda', 'obec': 'Šamorín', 'katastralne_uzemia': [{'nazov': 'Šamorín', 'parcely': [{'typ': 'C', 'cisla': ['2232', '2237', '2238', '2240', '2247']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Polyfunkčný objekt PARK', 'nazov_lokality_norm': 'Polyfunkčný objekt PARK'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Dunajská Streda', 'obec': 'Šamorín', 'katastralne_uzemia': [{'nazov': 'Šamorín', 'parcely': [{'typ': 'C', 'cisla': ['2232', '2237', '2238', '2240', '2247']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Polyfunkčný objekt PARK', 'nazov_lokality_norm': 'Polyfunkčný objekt PARK'}
+ku_name:Šamorín obec:Šamorín okres:Dunajská Streda kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: dunajska streda norm_obec: samorin norm_ku: samorin
+_get_nationalCadastralZoningReferences() found_ids: {'860387'}
+nationalCadastralZoningReferences: ['860387']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.79 s
+nazov_lokality: Polyfunkčný objekt PARK
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2039'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2039'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/572306/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Dunajská Streda/572306/analysis.json...
+
+--- Časy spracovania dokumentu 572306 ---
+  download_and_text   :  27.09 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.09 s
+  gis_processing      :   4.01 s
+  CELKOVÝ ČAS         :  47.20 s
+------------------------------------------
+Dokument 572306 bol úspešne spracovaný.

@@ -1,0 +1,74 @@
+[2026-07-22 18:59:45] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572377'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572377/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 4 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0017912}
+LLM_tokens: {"input": 1108, "output": 4459, "total": 5567, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572377/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 1' zákona 'o územnom plánovaní, žiadam o sprístupnenie informácií o predložených zmenách a doplnkoch územného plánu mesta Banská Štiavnica, ktoré by mohli mať vp'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 8 ods. 2' zákona '211/2000 Z. z., žiadame o sprístupnenie informácií prostredníctvom oprávneného zástupcu. V prípade potreby budem predložená plná moc._  **Dôležité ter'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 1' zákona 'o územnom plánovaní, žiadam o sprístupnenie informácií o predložených zmenách a doplnkoch územného plánu mesta Banská Štiavnica, ktoré by mohli mať vp'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 8 ods. 2' zákona '211/2000 Z. z., žiadame o sprístupnenie informácií prostredníctvom oprávneného zástupcu._  _V prípade potreby budem predložená plná moc._  _Lehota na'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 4' zákona '364/2004 Z. z. o vodách a o zmene a zákonoch Slovenskej národnej rady č. 372/1990 Z. z. o priestupkoch a o niektorých iných správnych orgánoch v znení'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82' zákona '361/1976 Zb. o vodnom hospodárstve a s účinnosťou portálu v postavení'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 6' zákona '25/2006 Z. z. o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 8' zákona '25/2006 Z. z. o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 1' zákona 'o územnom plánovaní, žiadam o sprístupnenie informácií o predložených zmenách a doplnkoch územného plánu mesta Banská Štiavnica, ktoré by mohli mať vp'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 2' zákona 'vodného zákona špeciálny stavebný úrad vyzýva navrhovateľa, aby najneskôr ku dňu ústneho pojednávania'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 6' zákona '25/2006 Z. z. o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 8' zákona '25/2006 Z. z. o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 33 ods. 5' zákona 'vodného zákona orgán štátnej vodnej správy upozorňuje účastníkov konania, že na námietky, ktoré nebudú oznámené najneskôr na ústnom pojednávaní sa nep'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z.) **Zastúpená osoba:** Ministerstvo vnútra Slovenskej republiky **Spôsob autorizácie:** kvalifikovaný elektronický podpis vyhotovený s p'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572377/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013797499999999999}
+LLM_tokens: {"input": 8509, "output": 3181, "total": 11690, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572377/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572377/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Štiavnica', 'obec': 'Banská Štiavnica', 'katastralne_uzemia': [{'nazov': 'Banská Štiavnica', 'parcely': [{'typ': 'E', 'cisla': ['6268/1', '6268/2', '6268/3', '6168/3', '6164/3', '7539/2', '7539/7', '7538/1', '7537/9', '7535/20', '7535/21', '7538/3', '7427', '7431', '7371/1', '7371/8']}]}, {'nazov': 'Banská Belá', 'parcely': [{'typ': 'E', 'cisla': ['1/1', '10/2', '10/1', '9/1', '8', '1786/1', '1', '2/1', '2076']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ul. BELIANSKA', 'nazov_lokality_norm': 'BELIANSKA, Banská Štiavnica'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Štiavnica', 'obec': 'Banská Štiavnica', 'katastralne_uzemia': [{'nazov': 'Banská Štiavnica', 'parcely': [{'typ': 'E', 'cisla': ['6268/1', '6268/2', '6268/3', '6168/3', '6164/3', '7539/2', '7539/7', '7538/1', '7537/9', '7535/20', '7535/21', '7538/3', '7427', '7431', '7371/1', '7371/8']}]}, {'nazov': 'Banská Belá', 'parcely': [{'typ': 'E', 'cisla': ['1/1', '10/2', '10/1', '9/1', '8', '1786/1', '1', '2/1', '2076']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ul. BELIANSKA', 'nazov_lokality_norm': 'BELIANSKA, Banská Štiavnica'}
+ku_name:Banská Štiavnica obec:Banská Štiavnica okres:Banská Štiavnica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska stiavnica norm_obec: banska stiavnica norm_ku: banska stiavnica
+_get_nationalCadastralZoningReferences() found_ids: {'801470'}
+nationalCadastralZoningReferences: ['801470']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.33 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'E', 'cisla': ['6268/1', '6268/2', '6268/3', '6168/3', '6164/3', '7539/2', '7539/7', '7538/1', '7537/9', '7535/20', '7535/21', '7538/3', '7427', '7431', '7371/1', '7371/8']}' v KU 'Banská Štiavnica' sa nenašli dáta.
+ku_name:Banská Belá obec:Banská Štiavnica okres:Banská Štiavnica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska stiavnica norm_obec: banska stiavnica norm_ku: banska bela
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska stiavnica norm_obec: None norm_ku: banska bela
+_get_nationalCadastralZoningReferences() found_ids: {'801038'}
+nationalCadastralZoningReferences: ['801038']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.33 s
+nazov_lokality: BELIANSKA, Banská Štiavnica
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1892'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1892'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1892'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572377/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Štiavnica/572377/analysis.json...
+
+--- Časy spracovania dokumentu 572377 ---
+  download_and_text   :  25.01 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  15.62 s
+  gis_processing      :   8.01 s
+  CELKOVÝ ČAS         :  48.66 s
+------------------------------------------
+Dokument 572377 bol úspešne spracovaný.

@@ -1,0 +1,87 @@
+{
+  "cislo_konania_spisu": "OU-DS-OSZP-2026/023719-004",
+  "cislo_rozhodnutia": "OU-DS-OSZP-2026/023719-004",
+  "datum_dokumentu": "2026-07-21",
+  "datum_zverejnenia": "2026-07-22",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "v lehote do 15 dní odo dňa oznámenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "PARK Šamorín, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Dunajská Streda",
+    "obec": "Šamorín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šamorín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2232",
+              "2237",
+              "2238",
+              "2240",
+              "2247"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Polyfunkčný objekt PARK",
+    "nazov_lokality_norm": "Polyfunkčný objekt PARK"
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "povolenie na užívanie vodnej stavby",
+    "kanalizačná prípojka"
+  ],
+  "rozsah_zasahu": "stoka PVC DN 200 mm dĺžka 10,14 m a 10,18 m, 3 ks revízna šachta, 1 ks lapač tuku",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "73",
+        "26",
+        "61",
+        "75"
+      ]
+    },
+    {
+      "nazov": "stavebný zákon",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "61",
+        "120",
+        "81",
+        "82"
+      ]
+    },
+    {
+      "nazov": "zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "53",
+        "54"
+      ]
+    }
+  ],
+  "zhrnutie": "Kolaudačné rozhodnutie povoľujúce užívanie vodnej stavby (kanalizačná prípojka) pre Polyfunkčný objekt PARK v meste Šamorín. Zásah zahŕňa vybudovanie cca 20 metrov kanalizačného potrubia a príslušnej technológie na parcelách registra C v zastavanom území. Dokument nešpecifikuje, či sa stavba nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

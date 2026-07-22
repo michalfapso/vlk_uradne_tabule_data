@@ -1,0 +1,61 @@
+[2026-07-22 19:10:11] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572328'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572328/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0262224}
+LLM_tokens: {"input": 1366, "output": 65537, "total": 66903, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572328/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako prísluš'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Z. z. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Z. z. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 1 písm. d)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572328/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0474175}
+LLM_tokens: {"input": 69509, "output": 4221, "total": 73730, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572328/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572328/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Lisková', 'katastralne_uzemia': [{'nazov': 'Lisková', 'parcely': [{'typ': 'C', 'cisla': ['2441/1', '2442', '2442/17', '2442/18', '2441/21']}, {'typ': 'E', 'cisla': ['3404/501', '3407/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ložisko Štrkopieskov k. ú. Lisková, SKUEV0253 Váh, vodná nádrž Sláčik', 'nazov_lokality_norm': 'Váh'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Lisková', 'katastralne_uzemia': [{'nazov': 'Lisková', 'parcely': [{'typ': 'C', 'cisla': ['2441/1', '2442', '2442/17', '2442/18', '2441/21']}, {'typ': 'E', 'cisla': ['3404/501', '3407/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ložisko Štrkopieskov k. ú. Lisková, SKUEV0253 Váh, vodná nádrž Sláčik', 'nazov_lokality_norm': 'Váh'}
+ku_name:Lisková obec:Lisková okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: liskova norm_ku: liskova
+_get_nationalCadastralZoningReferences() found_ids: {'832871'}
+nationalCadastralZoningReferences: ['832871']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.87 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.02 s
+nazov_lokality: Váh
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.720'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.720'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.720'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.720'}
+
+[4 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572328/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with '5st_konsUEV'.
+Found 4 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': '3407/1', 'NAZOV_UEV': 'Váh', 'KOD_UEV': 'SKUEV0253'}], 'UEV': [{'parcel_label': '2441/1', 'NATIONALSI': 'SKUEV0253', 'SITETITLE_': 'Váh'}, {'parcel_label': '2442', 'NATIONALSI': 'SKUEV0253', 'SITETITLE_': 'Váh'}, {'parcel_label': '3404/501', 'NATIONALSI': 'SKUEV0253', 'SITETITLE_': 'Váh'}, {'parcel_label': '3407/1', 'NATIONALSI': 'SKUEV0253', 'SITETITLE_': 'Váh'}], 'MCHU': [{'parcel_label': '3407/1', 'NATIONALSI': '276', 'SITETITLE_': 'PR Ivachnovský luh'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572328/analysis.json...
+
+--- Časy spracovania dokumentu 572328 ---
+  download_and_text   : 162.88 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  21.64 s
+  gis_processing      :   7.12 s
+  CELKOVÝ ČAS         : 191.64 s
+------------------------------------------
+Dokument 572328 bol úspešne spracovaný.

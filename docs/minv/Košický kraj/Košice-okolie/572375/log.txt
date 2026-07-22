@@ -1,0 +1,47 @@
+[2026-07-22 19:03:14] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572375'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572375/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572375/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'v začatom správnom konaní písomnou alebo elektronickou formou. Ing. Andrea Vravcová, PhD. vedúca odboru OU-KS-OSZP-2026/013791-0042663/2026 2 / 2 Info'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572375/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0079194}
+LLM_tokens: {"input": 5985, "output": 1945, "total": 7930, "cached": 2018}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572375/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572375/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Kysak', 'katastralne_uzemia': [{'nazov': 'Kysak', 'parcely': [{'typ': 'C', 'cisla': ['575']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'areál meniarne ŽSR Kysak', 'nazov_lokality_norm': 'meniareň ŽSR, Kysak'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Kysak', 'katastralne_uzemia': [{'nazov': 'Kysak', 'parcely': [{'typ': 'C', 'cisla': ['575']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'areál meniarne ŽSR Kysak', 'nazov_lokality_norm': 'meniareň ŽSR, Kysak'}
+ku_name:Kysak obec:Kysak okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: kysak norm_ku: kysak
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: kysak
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: kysak
+_get_nationalCadastralZoningReferences() found_ids: {'830259'}
+nationalCadastralZoningReferences: ['830259']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.10 s
+nazov_lokality: meniareň ŽSR, Kysak
+gdf_parcelset:       @featureType  ...           administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.90'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572375/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572375/analysis.json...
+
+--- Časy spracovania dokumentu 572375 ---
+  download_and_text   :   1.42 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   7.77 s
+  gis_processing      :   3.35 s
+  CELKOVÝ ČAS         :  12.55 s
+------------------------------------------
+Dokument 572375 bol úspešne spracovaný.

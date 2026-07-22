@@ -1,0 +1,59 @@
+[2026-07-22 19:13:24] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033854-sm'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033854-sm/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033854-sm/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033854-sm/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0139565}
+LLM_tokens: {"input": 6403, "output": 3585, "total": 9988, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033854-sm/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033854-sm/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Hiadeľ', 'katastralne_uzemia': [{'nazov': 'Hiadeľ', 'parcely': [{'typ': 'E', 'cisla': ['859/2', '862', '860/2', '863', '861', '858/2', '857/2', '870/3', '867', '339/2']}, {'typ': 'C', 'cisla': ['798/6', '798/1', '800/2']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Hiadeľ', 'katastralne_uzemia': [{'nazov': 'Hiadeľ', 'parcely': [{'typ': 'E', 'cisla': ['859/2', '862', '860/2', '863', '861', '858/2', '857/2', '870/3', '867', '339/2']}, {'typ': 'C', 'cisla': ['798/6', '798/1', '800/2']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Hiadeľ obec:Hiadeľ okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: hiadel norm_ku: hiadel
+_get_nationalCadastralZoningReferences() found_ids: {'816124'}
+nationalCadastralZoningReferences: ['816124']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.19 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.53 s
+nazov_lokality: None
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.846'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.846'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.846'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.846'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.846'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.846'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.846'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.846'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.846'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.846'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.846'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.846'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.846'}
+
+[13 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033854-sm/gis.geojson...
+Intersections with protected areas...
+Found 8 intersecting parcels with 'UEV'.
+Found 8 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': '859/2', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': '863', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': '870/3', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': '857/2', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': '858/2', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': '860/2', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': '798/1', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': '798/6', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}], 'CHVU': [{'parcel_label': '859/2', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': '863', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': '870/3', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': '857/2', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': '858/2', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': '860/2', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': '798/1', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': '798/6', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-033854-sm/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp3-2026-033854-sm ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  13.54 s
+  gis_processing      :   6.96 s
+  CELKOVÝ ČAS         :  21.21 s
+------------------------------------------
+Dokument ou-bb-oszp3-2026-033854-sm bol úspešne spracovaný.

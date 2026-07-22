@@ -1,0 +1,104 @@
+[2026-07-22 19:02:05] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/572358'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/572358/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/572358/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16a ods. 1' zákona 'vodného zákona Okresný úrad Košice, odbor starostlivosti o životné prostredie, oddelenie štátnej správy vôd a vybraných zložiek životného prostredia k'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16a ods. 1' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16a ods. 3' zákona 'vodného zákona o vydanie odborného stanoviska k navrhovanej stavbe, ktoré je podkladom pre vydanie záväzného stanoviska. Poverená osoba podaním č. RD-'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 60 ods. 1 písm. i)' zákona 'vodného zákona, k predloženej projektovej dokumentácií vydáva podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16a ods. 1' zákona 'vodného zákona nasledovné záväzné stanovisko: Pre stavbu „Modernizácia železničnej trate Žilina – Košice, úsek trate Krompachy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. 6 písm. b)' zákona 'vodného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16a ods. 1' zákona 'vodného zákona podkladom k vyjadreniu orgánu štátnej vodnej správy v územnom konaní k činnosti; ak sa územné konanie pre činnosť nevyžaduje, záväzné s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16a ods. 6' zákona 'vodného zákona podať návrh na začatie konania o povolení činnosti, ak zo záväzného stanoviska vyplýva, že sa nevyžaduje výnimka. Záväzné stanovisko bu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16a ods. 5' zákona 'vodného zákona zverejnené na webovom sídle okresného úradu v sídle kraja a súčasne na webovom sídle Ministerstva životného prostredia Slovenskej repub'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014828500000000001}
+LLM_tokens: {"input": 10631, "output": 3171, "total": 13802, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 84 column 1 (char 2489)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0152407}
+LLM_tokens: {"input": 10631, "output": 4527, "total": 15158, "cached": 8124}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/572358/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/572358/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Kysak', 'katastralne_uzemia': [{'nazov': 'Kysak', 'parcely': []}, {'nazov': 'Malá Lodina', 'parcely': []}, {'nazov': 'Veľká Lodina', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok rieky Hornád', 'nazov_lokality_norm': 'Hornád'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Kysak', 'katastralne_uzemia': [{'nazov': 'Kysak', 'parcely': []}, {'nazov': 'Malá Lodina', 'parcely': []}, {'nazov': 'Veľká Lodina', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok rieky Hornád', 'nazov_lokality_norm': 'Hornád'}
+ku_name:Kysak obec:Kysak okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kysak norm_ku: kysak
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: kysak
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: kysak
+_get_nationalCadastralZoningReferences() found_ids: {'830259'}
+nationalCadastralZoningReferences: ['830259']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.37 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Malá Lodina obec:Kysak okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kysak norm_ku: mala lodina
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: mala lodina
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: mala lodina
+_get_nationalCadastralZoningReferences() found_ids: {'835137'}
+nationalCadastralZoningReferences: ['835137']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Veľká Lodina obec:Kysak okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kysak norm_ku: velka lodina
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: velka lodina
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: velka lodina
+_get_nationalCadastralZoningReferences() found_ids: {'867811'}
+nationalCadastralZoningReferences: ['867811']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Hornád
+get_geometry_of_a_geoname nazov_lokality: Hornád
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kysak, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Košice, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.2878 48.73325, 21.28781 48.73319,...  ...  OC Hornád, 987/8, Trieda arm. gen. Svobodu, Ko...
+
+[1 rows x 11 columns]
+geoname_query: Hornád, Košice, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.19518 48.87534, 21.1952 48....
+1  CadastralZoning  ...  MULTIPOLYGON (((21.1325 48.90162, 21.13253 48....
+2  CadastralZoning  ...  MULTIPOLYGON (((21.15571 48.89526, 21.15591 48...
+
+[3 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.2878 48.73325, 21.28781 48.73319,...  ...  OC Hornád, 987/8, Trieda arm. gen. Svobodu, Ko...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/572358/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/572358/analysis.json...
+
+--- Časy spracovania dokumentu 572358 ---
+  download_and_text   :   1.19 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  40.64 s
+  gis_processing      :   2.52 s
+  CELKOVÝ ČAS         :  44.35 s
+------------------------------------------
+Dokument 572358 bol úspešne spracovaný.

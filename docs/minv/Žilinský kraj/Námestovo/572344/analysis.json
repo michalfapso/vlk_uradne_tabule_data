@@ -1,0 +1,123 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2026/016292-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-22",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Hruštín",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Hruštín",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "m. č. Vaňovka – Hrádky",
+    "nazov_lokality_norm": "Vaňovka – Hrádky"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania o zmene stavby pred jej dokončením",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "zmena stavby pred jej dokončením",
+    "vodovodná sieť",
+    "NN prípojka",
+    "automatická tlaková stanica",
+    "podzemná nádrž",
+    "oporný múr"
+  ],
+  "rozsah_zasahu": "NN prípojka dĺžky cca 65,0 m, prefabrikovaná podzemná nádrž objemu 22 m3, kompaktná automatická tlaková stanica",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o správe správnych a živostných prostriedkov",
+      "cislo": "329/2009 Z. z.",
+      "paragrafy": [
+        "§ 5"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "§ 61 písm. c)",
+        "§ 73 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o priestupkoch",
+      "cislo": "372/1990 Zb.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "§ 5 ods. 3"
+      ]
+    },
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "25/2005 Z. z.",
+      "paragrafy": [
+        "§ 84 ods. 5"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania o zmene stavby pred jej dokončením pre projekt vodovodnej siete v obci Hruštín, miestna časť Vaňovka – Hrádky. Zmeny zahŕňajú novú elektrickú prípojku v dĺžke 65 m, inštaláciu prefabrikovanej podzemnej nádrže s objemom 22 m3 a technologickú časť tlakovej stanice. Stavba je realizovaná v rámci individuálnej bytovej výstavby.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Hruštín",
+          "NATIONALSI": "SKUEV0185",
+          "SITETITLE_": "Pramene Hruštínky"
+        },
+        {
+          "parcel_label": "Hruštín",
+          "NATIONALSI": "SKUEV0662",
+          "SITETITLE_": "Vasiľovská hoľa"
+        },
+        {
+          "parcel_label": "Hruštín",
+          "NATIONALSI": "SKUEV0661",
+          "SITETITLE_": "Hruštínska hoľa"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Hruštín",
+          "NATIONALSI": "357",
+          "SITETITLE_": "NPR Minčol"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Hruštín",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "Hruštín",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        },
+        {
+          "parcel_label": "Vaňovka",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-04-07",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obecný urbariát - pozemkové spoločenstvo Lisková",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Ružomberok",
+    "obec": "Lisková",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lisková",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2441/1",
+              "2442",
+              "2442/17",
+              "2442/18",
+              "2441/21"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3404/501",
+              "3407/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ložisko Štrkopieskov k. ú. Lisková, SKUEV0253 Váh, vodná nádrž Sláčik",
+    "nazov_lokality_norm": "Váh"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "odkrytie hladiny podzemnej vody",
+    "ťažba nevyhradeného nerastu",
+    "ťažba štrkopieskov",
+    "činnosť vykonávaná banským spôsobom"
+  ],
+  "rozsah_zasahu": "84300 m3 (143300 ton) štrkopieskov na ploche 36938 m2 (3,6938 ha)",
+  "typ_uzemia": [
+    "SKUEV0253 Váh",
+    "Územie európskeho významu",
+    "biotop európskeho významu",
+    "biotop národného významu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Horské vodné toky a bylinné porasty pozdĺž ich brehov (3220)",
+    "vegetácia zväzu Ranunculion fluitantis a Callitricho-Batrachion (3260)",
+    "lemové spoločenstvá (6430)",
+    "Vŕbové korytá na zaplavovaných brehoch riek (C9)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "23",
+        "58",
+        "61"
+      ]
+    },
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "Správny poriadok",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "46"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o povolení odkrytia hladiny podzemnej vody pre účely ťažby 84 300 m3 štrkopieskov na ploche takmer 3,7 ha v k. ú. Lisková. Činnosť sa nachádza v bezprostrednej blízkosti územia európskeho významu SKUEV0253 Váh a ovplyvňuje chránené biotopy európskeho a národného významu. Povolenie je viazané na prísne technologické podmienky a platí do konca roku 2030.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "3407/1",
+          "NAZOV_UEV": "Váh",
+          "KOD_UEV": "SKUEV0253"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "2441/1",
+          "NATIONALSI": "SKUEV0253",
+          "SITETITLE_": "Váh"
+        },
+        {
+          "parcel_label": "2442",
+          "NATIONALSI": "SKUEV0253",
+          "SITETITLE_": "Váh"
+        },
+        {
+          "parcel_label": "3404/501",
+          "NATIONALSI": "SKUEV0253",
+          "SITETITLE_": "Váh"
+        },
+        {
+          "parcel_label": "3407/1",
+          "NATIONALSI": "SKUEV0253",
+          "SITETITLE_": "Váh"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "3407/1",
+          "NATIONALSI": "276",
+          "SITETITLE_": "PR Ivachnovský luh"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

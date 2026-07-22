@@ -1,0 +1,62 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 28.07.2026"
+  },
+  "ziadatel_navrhovatel": "vlastník alebo správca vodnej stavby",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žiar nad Hronom",
+    "obec": "Žiar nad Hronom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Žiar nad Hronom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2040/23"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Lutilský potok – hať v r. km 0,18",
+    "nazov_lokality_norm": "Lutilský"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "opatrenia na obnovu migračnej priechodnosti"
+  ],
+  "rozsah_zasahu": "hať v r. km 0,18",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "4",
+        "82"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci uloženia povinnosti vykonať opatrenia na obnovu migračnej priechodnosti na vodnej stavbe (hať) na Lutilskom potoku. Konanie sa týka parcely CKN 2040/23 v katastrálnom území Žiar nad Hronom.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

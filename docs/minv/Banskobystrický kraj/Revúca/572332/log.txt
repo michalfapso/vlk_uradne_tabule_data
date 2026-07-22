@@ -1,0 +1,57 @@
+[2026-07-22 19:00:58] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/572332'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/572332/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/572332/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/572332/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0122355}
+LLM_tokens: {"input": 4539, "output": 3322, "total": 7861, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/572332/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/572332/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Revúca', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Starňa', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásme elektrického vedenia vvn a zvn', 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Revúca', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Starňa', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásme elektrického vedenia vvn a zvn', 'nazov_lokality_norm': None}
+ku_name:Starňa obec:None okres:Revúca kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: revuca norm_obec: None norm_ku: starna
+_get_nationalCadastralZoningReferences() found_ids: {'858498'}
+nationalCadastralZoningReferences: ['858498']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: ochranné pásme elektrického vedenia vvn a zvn
+get_geometry_of_a_geoname nazov_lokality: ochranné pásme elektrického vedenia vvn a zvn
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** pásme elektrického vedenia vvn a zvn, Revúca, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** pásme elektrického vedenia vvn a zvn, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** pásme elektrického vedenia vvn a zvn, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.6834697, 'lon': 20.1138148, 'formatted_address': '050 01 Revúca, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Revúca, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.3301 48.4489, 20.33122 48.4...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/572332/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/572332/analysis.json...
+
+--- Časy spracovania dokumentu 572332 ---
+  download_and_text   :   1.16 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.35 s
+  gis_processing      :   2.63 s
+  CELKOVÝ ČAS         :  17.14 s
+------------------------------------------
+Dokument 572332 bol úspešne spracovaný.
