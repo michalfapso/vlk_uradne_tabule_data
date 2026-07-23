@@ -1,0 +1,121 @@
+[2026-07-23 19:05:09] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572412'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572412/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572412/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov, oznamuje podľa oznamuje podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov začatie vodoprávneho konania. Vzhľadom k tomu, že sú mu dobre známe'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona 'stavebného zákona od miestneho zisťovania a súčasne nariaďuje k prerokovaniu návrhu ústne pojednávanie na deň 26.08.2026'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 38 ods. 4' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov zároveň zasielame v súl'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 140c ods. 2' zákona 'stavebného zákona nasledovné prílohy: - žiadosť o povolenie na uskutočnenie vodnej stavby, povolenie na vypúšťanie vôd z povrchového odtoku do podzemn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona. Toto oznámenie bude vyvesené po dobu 15 dní na úradnej tabuli Okresného úradu Košice-okolie, OSŽP a jeho internetovej stránke a zárove'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 8 ods. 1 písm. g)' zákona 'vyhlášky č. 453/2000 Z. z., ktorou sa vykonávajú niektoré ustanovenia stavebného zákona) a ostatným neznámym osobám, ktorých vlastnícke alebo iné práv'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572412/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0180495}
+LLM_tokens: {"input": 10035, "output": 4344, "total": 14379, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572412/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572412/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Budimír', 'katastralne_uzemia': [{'nazov': 'Budimír', 'parcely': [{'typ': 'E', 'cisla': ['567/1', '566/486', '566/86', '566/85', '566/84', '566/83', '566/82', '866/81', '566/80', '566/79', '566/78', '566/77', '566/76', '566/75', '566/74', '566/73', '566/72', '566/71', '566/68', '566/67', '566/66', '566/65', '566/64', '566/63', '613']}, {'typ': 'C', 'cisla': ['600/8', '566/661', '566/664']}]}, {'nazov': 'Vajkovce', 'parcely': [{'typ': 'C', 'cisla': ['434/11', '434/12', '436/2', '436/3', '436/7', '437/4', '438/1']}, {'typ': 'E', 'cisla': ['1415']}]}, {'nazov': 'Beniakovce', 'parcely': [{'typ': 'C', 'cisla': ['1237/6', '3081/1', '1241/1']}, {'typ': 'E', 'cisla': ['1237']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Obytný súbor Beniakova Podhora', 'nazov_lokality_norm': 'Beniakova Podhora'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Budimír', 'katastralne_uzemia': [{'nazov': 'Budimír', 'parcely': [{'typ': 'E', 'cisla': ['567/1', '566/486', '566/86', '566/85', '566/84', '566/83', '566/82', '866/81', '566/80', '566/79', '566/78', '566/77', '566/76', '566/75', '566/74', '566/73', '566/72', '566/71', '566/68', '566/67', '566/66', '566/65', '566/64', '566/63', '613']}, {'typ': 'C', 'cisla': ['600/8', '566/661', '566/664']}]}, {'nazov': 'Vajkovce', 'parcely': [{'typ': 'C', 'cisla': ['434/11', '434/12', '436/2', '436/3', '436/7', '437/4', '438/1']}, {'typ': 'E', 'cisla': ['1415']}]}, {'nazov': 'Beniakovce', 'parcely': [{'typ': 'C', 'cisla': ['1237/6', '3081/1', '1241/1']}, {'typ': 'E', 'cisla': ['1237']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Obytný súbor Beniakova Podhora', 'nazov_lokality_norm': 'Beniakova Podhora'}
+ku_name:Budimír obec:Budimír okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: budimir norm_ku: budimir
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: budimir
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: budimir
+_get_nationalCadastralZoningReferences() found_ids: {'807150'}
+nationalCadastralZoningReferences: ['807150']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.69 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.77 s
+ku_name:Vajkovce obec:Budimír okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: budimir norm_ku: vajkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: vajkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: vajkovce
+_get_nationalCadastralZoningReferences() found_ids: {'866717'}
+nationalCadastralZoningReferences: ['866717']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.50 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.89 s
+ku_name:Beniakovce obec:Budimír okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: budimir norm_ku: beniakovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: beniakovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: beniakovce
+_get_nationalCadastralZoningReferences() found_ids: {'802611'}
+nationalCadastralZoningReferences: ['802611']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.67 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.96 s
+nazov_lokality: Beniakova Podhora
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.1153'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.1273'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.1273'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.1273'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.1273'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.1273'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.1273'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.1273'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.1273'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.2040'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.2040'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.2040'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.2040'}
+
+[38 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572412/gis.geojson...
+Intersections with protected areas...
+Found 5 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': '438/1', 'NATIONALSI': 'SKUEV4007', 'SITETITLE_': 'Dolný tok Torysy'}, {'parcel_label': '434/11', 'NATIONALSI': 'SKUEV4007', 'SITETITLE_': 'Dolný tok Torysy'}, {'parcel_label': '434/12', 'NATIONALSI': 'SKUEV4007', 'SITETITLE_': 'Dolný tok Torysy'}, {'parcel_label': '1237/6', 'NATIONALSI': 'SKUEV4007', 'SITETITLE_': 'Dolný tok Torysy'}, {'parcel_label': '1237', 'NATIONALSI': 'SKUEV4007', 'SITETITLE_': 'Dolný tok Torysy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572412/analysis.json...
+
+--- Časy spracovania dokumentu 572412 ---
+  download_and_text   :   1.43 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  17.54 s
+  gis_processing      :  21.86 s
+  CELKOVÝ ČAS         :  40.83 s
+------------------------------------------
+Dokument 572412 bol úspešne spracovaný.

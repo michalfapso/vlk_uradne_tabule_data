@@ -1,0 +1,73 @@
+[2026-07-23 19:04:32] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572408'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572408/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572408/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572408/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009698250000000002}
+LLM_tokens: {"input": 5478, "output": 2622, "total": 8100, "cached": 2015}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572408/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572408/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Bacúch', 'katastralne_uzemia': [{'nazov': 'Bacúch', 'parcely': []}, {'nazov': 'Polomka', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k. ú. Bacúch, Polomka', 'nazov_lokality_norm': 'Bacúch, Polomka'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Bacúch', 'katastralne_uzemia': [{'nazov': 'Bacúch', 'parcely': []}, {'nazov': 'Polomka', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k. ú. Bacúch, Polomka', 'nazov_lokality_norm': 'Bacúch, Polomka'}
+ku_name:Bacúch obec:Bacúch okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: bacuch norm_ku: bacuch
+_get_nationalCadastralZoningReferences() found_ids: {'800384'}
+nationalCadastralZoningReferences: ['800384']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Polomka obec:Bacúch okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: bacuch norm_ku: polomka
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: polomka
+_get_nationalCadastralZoningReferences() found_ids: {'848051'}
+nationalCadastralZoningReferences: ['848051']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Bacúch, Polomka
+get_geometry_of_a_geoname nazov_lokality: Bacúch, Polomka
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Polomka, Bacúch, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Polomka, Brezno, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Polomka, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Polomka, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.8592935, 'lon': 19.8059984, 'formatted_address': '976 64 Bacúch, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 64 Bacúch, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.77761 48.9052, 19.77831 48....
+1  CadastralZoning  ...  MULTIPOLYGON (((19.8179 48.91611, 19.81813 48....
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572408/gis.geojson...
+Intersections with protected areas...
+Found 50 intersecting parcels with '5st_konsUEV'.
+Found 7 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Bacúch', 'NAZOV_UEV': 'Bacúšska jelšina', 'KOD_UEV': 'SKUEV0399'}, {'parcel_label': 'Bacúch', 'NAZOV_UEV': 'Bacúšska jelšina', 'KOD_UEV': 'SKUEV0399'}, {'parcel_label': 'Bacúch', 'NAZOV_UEV': 'Bacúšska jelšina', 'KOD_UEV': 'SKUEV0399'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Kráľovohoľské Tatry', 'KOD_UEV': 'SKUEV0310'}], 'UEV': [{'parcel_label': 'Bacúch', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Bacúch', 'NATIONALSI': 'SKUEV0399', 'SITETITLE_': 'Bacúšska jelšina'}, {'parcel_label': 'Bacúch', 'NATIONALSI': 'SKUEV0310', 'SITETITLE_': 'Kráľovohoľské Tatry'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV0225', 'SITETITLE_': 'Muránska planina'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV4077', 'SITETITLE_': 'Lúky pod Volchovom'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV0310', 'SITETITLE_': 'Kráľovohoľské Tatry'}], 'MCHU': [{'parcel_label': 'Bacúch', 'NATIONALSI': '206', 'SITETITLE_': 'PR Bacúšska jelšina'}, {'parcel_label': 'Polomka', 'NATIONALSI': '1351', 'SITETITLE_': 'PR Pralesy Slovenska-Zadná hoľa'}], 'CHVU': [{'parcel_label': 'Bacúch', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKCHVU017', 'SITETITLE_': 'Muránska planina - Stolica'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572408/analysis.json...
+
+--- Časy spracovania dokumentu 572408 ---
+  download_and_text   :   1.24 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.33 s
+  gis_processing      :   2.93 s
+  CELKOVÝ ČAS         :  16.51 s
+------------------------------------------
+Dokument 572408 bol úspešne spracovaný.

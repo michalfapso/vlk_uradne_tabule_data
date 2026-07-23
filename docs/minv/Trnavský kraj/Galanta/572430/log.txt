@@ -1,0 +1,46 @@
+[2026-07-23 19:08:37] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572430'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572430/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572430/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie písomného alebo elektronického  potvrdenia záujmu byť zúčastnenou osobou konania  podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona 'v začatom  správnom konaní je do: 31.07.2026.                     RNDr. Eva N e v i ď a n s k á                         vedúca odboru'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572430/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0072992}
+LLM_tokens: {"input": 5227, "output": 1864, "total": 7091, "cached": 2014}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572430/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572430/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Sládkovičovo', 'katastralne_uzemia': [{'nazov': 'Sládkovičovo', 'parcely': [{'typ': 'C', 'cisla': ['3576/24']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Ekopark', 'nazov_lokality_norm': 'Ekopark'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Sládkovičovo', 'katastralne_uzemia': [{'nazov': 'Sládkovičovo', 'parcely': [{'typ': 'C', 'cisla': ['3576/24']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Ekopark', 'nazov_lokality_norm': 'Ekopark'}
+ku_name:Sládkovičovo obec:Sládkovičovo okres:Galanta kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: sladkovicovo norm_ku: sladkovicovo
+_get_nationalCadastralZoningReferences() found_ids: {'855961'}
+nationalCadastralZoningReferences: ['855961']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.50 s
+nazov_lokality: Ekopark
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2690'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572430/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/572430/analysis.json...
+
+--- Časy spracovania dokumentu 572430 ---
+  download_and_text   :   1.49 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   8.55 s
+  gis_processing      :   3.81 s
+  CELKOVÝ ČAS         :  13.87 s
+------------------------------------------
+Dokument 572430 bol úspešne spracovaný.

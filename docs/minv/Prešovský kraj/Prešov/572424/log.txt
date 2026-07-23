@@ -1,0 +1,77 @@
+[2026-07-23 19:06:06] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/572424'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/572424/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/572424/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 24 ods. 1' zákona '24/2006 Z. z. o posudzovaní  vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18 ods. 2 písm. b)' zákona 'zisťovaciemu konaniu.  Príslušný orgán  Okresný úrad Prešov, odbor starostlivosti o životné  prostredie, oddelenie ochrany prírod a vybraných zložiek'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1 písm. c)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a  doplnení niektorých zákonov v znení neskorších predpisov a ako príslu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a  doplnení niektorých zákonov v znení neskorších predpisov a ako príslu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 písm. l)' zákona 'v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 56  písm. l)' zákona 'oznamuje, že doručením zámeru  navrhovateľom HANT Development, a.s., Stará Ivanská cesta 1/386, 821 04 Bratislava,  dňa 07.07.2026 sa začalo zisťovaci'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'stavebného zákona   -  vydanie súhlasu orgánu ochrany ovzdušia na inštaláciu zdroja znečisťovania  ovzdušia podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 64 ods. 1 písm. f)' zákona 'na konania podľa tohto zákona sa vzťahuje  všeobecný predpis o správnom konaní okrem zisťovacieho konania podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 29' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 1' zákona 'proti záväznému stanovisku zo zisťovacieho konania môže podať  odvolanie navrhovateľ, dotknutá verejnosť a dotknutá obec, na ktorej území sa má  navrh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 2' zákona 'navrhovateľ a dotknutá obec, na ktorej území sa má navrhovaná  činnosť alebo jej zmena realizovať, môžu podať odvolanie v lehote 15 dní odo dňa doruče'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 písm. t)' zákona 'sa môže žalobou podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 178 ods.  3' zákona 'Správneho súdneho poriadku domáhať zrušenia záväzného stanoviska zo zisťovacieho  konania vydaného podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 16' zákona 'ktorým sa určilo, že navrhovaná činnosť alebo jej  zmena sa nebude posudzovať podľa tohto zákona, a napadnúť jeho vecnú alebo  procesnú zákonnosť.  i)'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 29 ods. 3' zákona 'príslušný orgán na základe zámeru navrhovanej činnosti  vykoná zisťovacie konanie a určí, či navrhovaná činnosť bude predmetom posudzovania  vplyvov n'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 38 ods. 4' zákona 'má príslušný orgán v povoľovacom konaní k navrhovanej  činnosti alebo jej zmene postavenie dotknutého orgánu, ak k nej vydal rozhodnutie zo  zisťovaci'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013603400000000002}
+LLM_tokens: {"input": 5977, "output": 3841, "total": 9818, "cached": 2018}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/572424/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/572424/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Prešov', 'obec': 'Prešov', 'katastralne_uzemia': [{'nazov': 'Prešov', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'juhozápadnom okraji mesta Prešov, Rezidencia Teriana', 'nazov_lokality_norm': 'Rezidencia Teriana, Prešov'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Prešov', 'obec': 'Prešov', 'katastralne_uzemia': [{'nazov': 'Prešov', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'juhozápadnom okraji mesta Prešov, Rezidencia Teriana', 'nazov_lokality_norm': 'Rezidencia Teriana, Prešov'}
+ku_name:Prešov obec:Prešov okres:Prešov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: presov norm_obec: presov norm_ku: presov
+_get_nationalCadastralZoningReferences() found_ids: {'849502'}
+nationalCadastralZoningReferences: ['849502']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.63 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Rezidencia Teriana, Prešov
+get_geometry_of_a_geoname nazov_lokality: Rezidencia Teriana, Prešov
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Teriana, Prešov, Prešov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Teriana, Prešov, Prešov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Teriana, Prešov, Prešovský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Teriana, Prešov, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0092855, 'lon': 21.2134449, 'formatted_address': 'Tarjányiho 080/01, 080 01 Prešov, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 080/01, 080 01 Prešov, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.25134 49.04668, 21.25165 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/572424/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/572424/analysis.json...
+
+--- Časy spracovania dokumentu 572424 ---
+  download_and_text   :   1.37 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  18.01 s
+  gis_processing      :   3.80 s
+  CELKOVÝ ČAS         :  23.18 s
+------------------------------------------
+Dokument 572424 bol úspešne spracovaný.

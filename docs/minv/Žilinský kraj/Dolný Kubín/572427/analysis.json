@@ -1,0 +1,205 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2026/004611-023",
+  "cislo_rozhodnutia": "OU-DK-OSZP-2026/004611-0018507/2026",
+  "datum_dokumentu": "2026-07-23",
+  "datum_zverejnenia": "2026-07-23",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Žaškov",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Žaškov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Žaškov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1758/2",
+              "3570",
+              "3587",
+              "3588",
+              "3558",
+              "3557/2",
+              "7443/2",
+              "3583"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "UEV Šíp, CHVU Malá Fatra, CHVÚ Chočské vrchy, CHA Rieka Orava, NRBc 6 Šíp",
+    "nazov_lokality_norm": "Žaškov"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "LES_VYRUB",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "Územný plán obce - Zmeny a doplnky",
+    "doplnenie obytnej funkcie",
+    "rekreácia",
+    "výstavba rodinných domov",
+    "umiestňovanie stavieb v ochrannom pásme lesa"
+  ],
+  "rozsah_zasahu": "11 lokalít pre RD a rekreáciu (napr. 32 b.j., jednotlivé RD), zmeny funkčného využitia plôch v chránených územiach",
+  "typ_uzemia": [
+    "ochranné pásmo Národného parku Malá Fatra",
+    "CHVU Malá Fatra",
+    "UEV Šíp",
+    "CHVÚ Chočské vrchy",
+    "Chránený areál Rieka Orava",
+    "UEV Orava",
+    "Ramsarská lokalita",
+    "2. stupeň",
+    "4. stupeň",
+    "ochranné pásmo vodárenského zdroja",
+    "miestny biokoridor MBKh8",
+    "ochranné pásmo lesa"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vstavačovec májový",
+    "črievičník papučkový",
+    "vstavačovec Fuchsov",
+    "strakoš sivý",
+    "vydra riečna",
+    "hlavátka podunajská",
+    "netopiere",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/uzemny-plan-obce-zaskov-zmeny-doplnky-c-2",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "7",
+        "53",
+        "56",
+        "6",
+        "63"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "65",
+        "9"
+      ]
+    },
+    {
+      "nazov": "o lesoch",
+      "cislo": "326/2005",
+      "paragrafy": [
+        "10"
+      ]
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "73"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o neposudzovaní zmien územného plánu obce Žaškov, ktoré zahŕňajú 11 nových lokalít pre bývanie a rekreáciu. Dokument stanovuje prísne podmienky na ochranu biotopov orchideí v UEV Šíp, ochranu tokov a brehových porastov a vyžaduje vylúčenie vybraných lokalít z dôvodu ochrany vodného zdroja Tepeľ a chránených území. Časť územia zasahuje do ochranného pásma NP Malá Fatra a CHVÚ.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "7443/2",
+          "NATIONALSI": "SKUEV0663",
+          "SITETITLE_": "Šíp"
+        },
+        {
+          "parcel_label": "3557/2",
+          "NATIONALSI": "SKUEV0663",
+          "SITETITLE_": "Šíp"
+        },
+        {
+          "parcel_label": "3588",
+          "NATIONALSI": "SKUEV0663",
+          "SITETITLE_": "Šíp"
+        },
+        {
+          "parcel_label": "3587",
+          "NATIONALSI": "SKUEV0663",
+          "SITETITLE_": "Šíp"
+        },
+        {
+          "parcel_label": "3583",
+          "NATIONALSI": "SKUEV0663",
+          "SITETITLE_": "Šíp"
+        },
+        {
+          "parcel_label": "3570",
+          "NATIONALSI": "SKUEV0663",
+          "SITETITLE_": "Šíp"
+        },
+        {
+          "parcel_label": "3558",
+          "NATIONALSI": "SKUEV0663",
+          "SITETITLE_": "Šíp"
+        },
+        {
+          "parcel_label": "1758/2",
+          "NATIONALSI": "SKUEV0663",
+          "SITETITLE_": "Šíp"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "7443/2",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "3557/2",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "3588",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "3587",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "3583",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "3570",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "3558",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "1758/2",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}
