@@ -1,0 +1,74 @@
+[2026-07-24 19:14:46] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572452'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572452/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572452/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. (2)' zákona 'správneho zákona vyvesiť túto verejnú vyhlášku po dobu 15 dní, deň vyvesenia a zvesenia na vyhláške potvrdiť a zaslať na Okresný úrad Pezinok, odbor s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572452/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011679000000000002}
+LLM_tokens: {"input": 8286, "output": 2512, "total": 10798, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572452/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572452/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Pezinok', 'katastralne_uzemia': [{'nazov': 'Pezinok – Grinava', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'k.ú. Pezinok – Grinava', 'nazov_lokality_norm': 'Grinava'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Pezinok', 'katastralne_uzemia': [{'nazov': 'Pezinok – Grinava', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'k.ú. Pezinok – Grinava', 'nazov_lokality_norm': 'Grinava'}
+ku_name:Pezinok – Grinava obec:Pezinok okres:Pezinok kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: pezinok norm_ku: pezinok – grinava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: pezinok norm_ku: grinava
+_get_nationalCadastralZoningReferences() found_ids: {'839019'}
+nationalCadastralZoningReferences: ['839019']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.48 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Grinava
+get_geometry_of_a_geoname nazov_lokality: Grinava
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Pezinok, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.23381 48.26984, 17.23402 48.26961...  ...  Grinava, Pezinok, okres Pezinok, Bratislavský ...
+1  POLYGON ((17.15309 48.29493, 17.15324 48.29416...  ...  Grinava, Pezinok, okres Pezinok, Bratislavský ...
+2  POLYGON ((17.23555 48.26896, 17.23652 48.26871...  ...  Grinava, Pezinok, okres Pezinok, Bratislavský ...
+
+[3 rows x 11 columns]
+geoname_query: Grinava, Pezinok, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.15602 48.29239, 17.15777 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.23381 48.26984, 17.23402 48.26961...  ...  Grinava, Pezinok, okres Pezinok, Bratislavský ...
+1  POLYGON ((17.15309 48.29493, 17.15324 48.29416...  ...  Grinava, Pezinok, okres Pezinok, Bratislavský ...
+2  POLYGON ((17.23555 48.26896, 17.23652 48.26871...  ...  Grinava, Pezinok, okres Pezinok, Bratislavský ...
+
+[3 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572452/gis.geojson...
+Intersections with protected areas...
+Found 4 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Grinava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Grinava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Grinava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Grinava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}], 'UEV': [{'parcel_label': 'Grinava', 'NATIONALSI': 'SKUEV0104', 'SITETITLE_': 'Homoľské Karpaty'}], 'MCHU': [{'parcel_label': 'Grinava', 'NATIONALSI': '824', 'SITETITLE_': 'PR Zlatá studnička'}], 'CHVU': [{'parcel_label': 'Grinava', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/572452/analysis.json...
+
+--- Časy spracovania dokumentu 572452 ---
+  download_and_text   :   1.99 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.94 s
+  gis_processing      :   1.00 s
+  CELKOVÝ ČAS         :  13.94 s
+------------------------------------------
+Dokument 572452 bol úspešne spracovaný.

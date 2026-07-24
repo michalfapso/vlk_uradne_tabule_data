@@ -1,0 +1,418 @@
+[2026-07-24 19:16:22] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/572453'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/572453/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/572453/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11' zákona 'o energetike vykonat' v úsekoch uvedených nižšie a zakreslených v priložených mapových prílohách: 400kV vedenie V409 - medzi p.b.č. 143 - 144'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1' zákona '251/2012 Z. z. o energetike a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§11' zákona 'o energetike poveruje spoločnosť SLS - servis lesy stráž, s.r.o. Časť Pod lesom 283 059 91 Veľký Slavkov výkonom činností súvisiacich s výrubom porast'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1' zákona 'o energetike v rozsahu stanovenom v Rámcovej dohode č. 2022-0035-1121210. V071 Lemešany - EV01, V072 Lemešany - EV01, V041 EV02 - Veľké Kapušany, V042'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/572453/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0154065}
+LLM_tokens: {"input": 6585, "output": 4038, "total": 10623, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/572453/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/572453/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Michalovce', 'obec': 'Horovce, Rakovec nad Ondavou, Moravany, Trhovište, Žbince, Budkovce, Sliepkovce, Stretava, Pavlovce nad Uhom, Čierne Pole', 'katastralne_uzemia': [{'nazov': 'Horovce', 'parcely': []}, {'nazov': 'Rakovec nad Ondavou', 'parcely': []}, {'nazov': 'Moravany', 'parcely': []}, {'nazov': 'Trhovište', 'parcely': []}, {'nazov': 'Žbince', 'parcely': []}, {'nazov': 'Budkovce', 'parcely': []}, {'nazov': 'Sliepkovce', 'parcely': []}, {'nazov': 'Stretava', 'parcely': []}, {'nazov': 'Pavlovce nad Uhom', 'parcely': []}, {'nazov': 'Čierne Pole', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo elektrického vedenia vvn a zvn', 'nazov_lokality_norm': 'elektrické vedenie'}
+data: {'kraj': 'Košický kraj', 'okres': 'Michalovce', 'obec': 'Horovce, Rakovec nad Ondavou, Moravany, Trhovište, Žbince, Budkovce, Sliepkovce, Stretava, Pavlovce nad Uhom, Čierne Pole', 'katastralne_uzemia': [{'nazov': 'Horovce', 'parcely': []}, {'nazov': 'Rakovec nad Ondavou', 'parcely': []}, {'nazov': 'Moravany', 'parcely': []}, {'nazov': 'Trhovište', 'parcely': []}, {'nazov': 'Žbince', 'parcely': []}, {'nazov': 'Budkovce', 'parcely': []}, {'nazov': 'Sliepkovce', 'parcely': []}, {'nazov': 'Stretava', 'parcely': []}, {'nazov': 'Pavlovce nad Uhom', 'parcely': []}, {'nazov': 'Čierne Pole', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo elektrického vedenia vvn a zvn', 'nazov_lokality_norm': 'elektrické vedenie'}
+ku_name:Horovce obec:Horovce, Rakovec nad Ondavou, Moravany, Trhovište, Žbince, Budkovce, Sliepkovce, Stretava, Pavlovce nad Uhom, Čierne Pole okres:Michalovce kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: horovce norm_ku: horovce
+_get_nationalCadastralZoningReferences() found_ids: {'818577'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: rakovec nad ondavou norm_ku: horovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: horovce
+_get_nationalCadastralZoningReferences() found_ids: {'818577'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: moravany norm_ku: horovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: horovce
+_get_nationalCadastralZoningReferences() found_ids: {'818577'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: trhoviste norm_ku: horovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: horovce
+_get_nationalCadastralZoningReferences() found_ids: {'818577'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: zbince norm_ku: horovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: horovce
+_get_nationalCadastralZoningReferences() found_ids: {'818577'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: budkovce norm_ku: horovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: horovce
+_get_nationalCadastralZoningReferences() found_ids: {'818577'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: sliepkovce norm_ku: horovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: horovce
+_get_nationalCadastralZoningReferences() found_ids: {'818577'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: stretava norm_ku: horovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: horovce
+_get_nationalCadastralZoningReferences() found_ids: {'818577'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: pavlovce nad uhom norm_ku: horovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: horovce
+_get_nationalCadastralZoningReferences() found_ids: {'818577'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: cierne pole norm_ku: horovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: horovce
+_get_nationalCadastralZoningReferences() found_ids: {'818577'}
+nationalCadastralZoningReferences: ['818577']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Rakovec nad Ondavou obec:Horovce, Rakovec nad Ondavou, Moravany, Trhovište, Žbince, Budkovce, Sliepkovce, Stretava, Pavlovce nad Uhom, Čierne Pole okres:Michalovce kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: horovce norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() found_ids: {'851523'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: rakovec nad ondavou norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() found_ids: {'851523'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: moravany norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() found_ids: {'851523'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: trhoviste norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() found_ids: {'851523'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: zbince norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() found_ids: {'851523'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: budkovce norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() found_ids: {'851523'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: sliepkovce norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() found_ids: {'851523'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: stretava norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() found_ids: {'851523'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: pavlovce nad uhom norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() found_ids: {'851523'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: cierne pole norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: rakovec nad ondavou
+_get_nationalCadastralZoningReferences() found_ids: {'851523'}
+nationalCadastralZoningReferences: ['851523']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Moravany obec:Horovce, Rakovec nad Ondavou, Moravany, Trhovište, Žbince, Budkovce, Sliepkovce, Stretava, Pavlovce nad Uhom, Čierne Pole okres:Michalovce kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: horovce norm_ku: moravany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: moravany
+_get_nationalCadastralZoningReferences() found_ids: {'838411'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: rakovec nad ondavou norm_ku: moravany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: moravany
+_get_nationalCadastralZoningReferences() found_ids: {'838411'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: moravany norm_ku: moravany
+_get_nationalCadastralZoningReferences() found_ids: {'838411'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: trhoviste norm_ku: moravany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: moravany
+_get_nationalCadastralZoningReferences() found_ids: {'838411'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: zbince norm_ku: moravany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: moravany
+_get_nationalCadastralZoningReferences() found_ids: {'838411'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: budkovce norm_ku: moravany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: moravany
+_get_nationalCadastralZoningReferences() found_ids: {'838411'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: sliepkovce norm_ku: moravany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: moravany
+_get_nationalCadastralZoningReferences() found_ids: {'838411'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: stretava norm_ku: moravany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: moravany
+_get_nationalCadastralZoningReferences() found_ids: {'838411'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: pavlovce nad uhom norm_ku: moravany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: moravany
+_get_nationalCadastralZoningReferences() found_ids: {'838411'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: cierne pole norm_ku: moravany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: moravany
+_get_nationalCadastralZoningReferences() found_ids: {'838411'}
+nationalCadastralZoningReferences: ['838411']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Trhovište obec:Horovce, Rakovec nad Ondavou, Moravany, Trhovište, Žbince, Budkovce, Sliepkovce, Stretava, Pavlovce nad Uhom, Čierne Pole okres:Michalovce kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: horovce norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() found_ids: {'864757'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: rakovec nad ondavou norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() found_ids: {'864757'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: moravany norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() found_ids: {'864757'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: trhoviste norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() found_ids: {'864757'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: zbince norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() found_ids: {'864757'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: budkovce norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() found_ids: {'864757'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: sliepkovce norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() found_ids: {'864757'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: stretava norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() found_ids: {'864757'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: pavlovce nad uhom norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() found_ids: {'864757'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: cierne pole norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: trhoviste
+_get_nationalCadastralZoningReferences() found_ids: {'864757'}
+nationalCadastralZoningReferences: ['864757']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Žbince obec:Horovce, Rakovec nad Ondavou, Moravany, Trhovište, Žbince, Budkovce, Sliepkovce, Stretava, Pavlovce nad Uhom, Čierne Pole okres:Michalovce kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: horovce norm_ku: zbince
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: zbince
+_get_nationalCadastralZoningReferences() found_ids: {'874051'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: rakovec nad ondavou norm_ku: zbince
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: zbince
+_get_nationalCadastralZoningReferences() found_ids: {'874051'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: moravany norm_ku: zbince
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: zbince
+_get_nationalCadastralZoningReferences() found_ids: {'874051'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: trhoviste norm_ku: zbince
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: zbince
+_get_nationalCadastralZoningReferences() found_ids: {'874051'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: zbince norm_ku: zbince
+_get_nationalCadastralZoningReferences() found_ids: {'874051'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: budkovce norm_ku: zbince
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: zbince
+_get_nationalCadastralZoningReferences() found_ids: {'874051'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: sliepkovce norm_ku: zbince
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: zbince
+_get_nationalCadastralZoningReferences() found_ids: {'874051'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: stretava norm_ku: zbince
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: zbince
+_get_nationalCadastralZoningReferences() found_ids: {'874051'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: pavlovce nad uhom norm_ku: zbince
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: zbince
+_get_nationalCadastralZoningReferences() found_ids: {'874051'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: cierne pole norm_ku: zbince
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: zbince
+_get_nationalCadastralZoningReferences() found_ids: {'874051'}
+nationalCadastralZoningReferences: ['874051']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.50 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Budkovce obec:Horovce, Rakovec nad Ondavou, Moravany, Trhovište, Žbince, Budkovce, Sliepkovce, Stretava, Pavlovce nad Uhom, Čierne Pole okres:Michalovce kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: horovce norm_ku: budkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: budkovce
+_get_nationalCadastralZoningReferences() found_ids: {'807231'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: rakovec nad ondavou norm_ku: budkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: budkovce
+_get_nationalCadastralZoningReferences() found_ids: {'807231'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: moravany norm_ku: budkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: budkovce
+_get_nationalCadastralZoningReferences() found_ids: {'807231'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: trhoviste norm_ku: budkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: budkovce
+_get_nationalCadastralZoningReferences() found_ids: {'807231'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: zbince norm_ku: budkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: budkovce
+_get_nationalCadastralZoningReferences() found_ids: {'807231'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: budkovce norm_ku: budkovce
+_get_nationalCadastralZoningReferences() found_ids: {'807231'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: sliepkovce norm_ku: budkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: budkovce
+_get_nationalCadastralZoningReferences() found_ids: {'807231'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: stretava norm_ku: budkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: budkovce
+_get_nationalCadastralZoningReferences() found_ids: {'807231'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: pavlovce nad uhom norm_ku: budkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: budkovce
+_get_nationalCadastralZoningReferences() found_ids: {'807231'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: cierne pole norm_ku: budkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: budkovce
+_get_nationalCadastralZoningReferences() found_ids: {'807231'}
+nationalCadastralZoningReferences: ['807231']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.44 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Sliepkovce obec:Horovce, Rakovec nad Ondavou, Moravany, Trhovište, Žbince, Budkovce, Sliepkovce, Stretava, Pavlovce nad Uhom, Čierne Pole okres:Michalovce kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: horovce norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() found_ids: {'856444'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: rakovec nad ondavou norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() found_ids: {'856444'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: moravany norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() found_ids: {'856444'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: trhoviste norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() found_ids: {'856444'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: zbince norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() found_ids: {'856444'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: budkovce norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() found_ids: {'856444'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: sliepkovce norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() found_ids: {'856444'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: stretava norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() found_ids: {'856444'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: pavlovce nad uhom norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() found_ids: {'856444'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: cierne pole norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: sliepkovce
+_get_nationalCadastralZoningReferences() found_ids: {'856444'}
+nationalCadastralZoningReferences: ['856444']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Stretava obec:Horovce, Rakovec nad Ondavou, Moravany, Trhovište, Žbince, Budkovce, Sliepkovce, Stretava, Pavlovce nad Uhom, Čierne Pole okres:Michalovce kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: horovce norm_ku: stretava
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: stretava
+_get_nationalCadastralZoningReferences() found_ids: {'859061'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: rakovec nad ondavou norm_ku: stretava
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: stretava
+_get_nationalCadastralZoningReferences() found_ids: {'859061'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: moravany norm_ku: stretava
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: stretava
+_get_nationalCadastralZoningReferences() found_ids: {'859061'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: trhoviste norm_ku: stretava
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: stretava
+_get_nationalCadastralZoningReferences() found_ids: {'859061'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: zbince norm_ku: stretava
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: stretava
+_get_nationalCadastralZoningReferences() found_ids: {'859061'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: budkovce norm_ku: stretava
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: stretava
+_get_nationalCadastralZoningReferences() found_ids: {'859061'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: sliepkovce norm_ku: stretava
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: stretava
+_get_nationalCadastralZoningReferences() found_ids: {'859061'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: stretava norm_ku: stretava
+_get_nationalCadastralZoningReferences() found_ids: {'859061'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: pavlovce nad uhom norm_ku: stretava
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: stretava
+_get_nationalCadastralZoningReferences() found_ids: {'859061'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: cierne pole norm_ku: stretava
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: stretava
+_get_nationalCadastralZoningReferences() found_ids: {'859061'}
+nationalCadastralZoningReferences: ['859061']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Pavlovce nad Uhom obec:Horovce, Rakovec nad Ondavou, Moravany, Trhovište, Žbince, Budkovce, Sliepkovce, Stretava, Pavlovce nad Uhom, Čierne Pole okres:Michalovce kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: horovce norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() found_ids: {'845787'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: rakovec nad ondavou norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() found_ids: {'845787'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: moravany norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() found_ids: {'845787'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: trhoviste norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() found_ids: {'845787'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: zbince norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() found_ids: {'845787'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: budkovce norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() found_ids: {'845787'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: sliepkovce norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() found_ids: {'845787'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: stretava norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() found_ids: {'845787'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: pavlovce nad uhom norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() found_ids: {'845787'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: cierne pole norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: pavlovce nad uhom
+_get_nationalCadastralZoningReferences() found_ids: {'845787'}
+nationalCadastralZoningReferences: ['845787']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Čierne Pole obec:Horovce, Rakovec nad Ondavou, Moravany, Trhovište, Žbince, Budkovce, Sliepkovce, Stretava, Pavlovce nad Uhom, Čierne Pole okres:Michalovce kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: horovce norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() found_ids: {'809705'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: rakovec nad ondavou norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() found_ids: {'809705'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: moravany norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() found_ids: {'809705'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: trhoviste norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() found_ids: {'809705'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: zbince norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() found_ids: {'809705'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: budkovce norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() found_ids: {'809705'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: sliepkovce norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() found_ids: {'809705'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: stretava norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() found_ids: {'809705'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: pavlovce nad uhom norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() found_ids: {'809705'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: cierne pole norm_ku: cierne pole
+_get_nationalCadastralZoningReferences() found_ids: {'809705'}
+nationalCadastralZoningReferences: ['809705']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: elektrické vedenie
+get_geometry_of_a_geoname nazov_lokality: elektrické vedenie
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vedenie, Horovce, Rakovec nad Ondavou, Moravany, Trhovište, Žbince, Budkovce, Sliepkovce, Stretava, Pavlovce nad Uhom, Čierne Pole, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vedenie, Michalovce, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vedenie, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vedenie, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.5788446, 'lon': 22.0783604, 'formatted_address': '079 01 Čierne Pole, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Čierne Pole, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.78172 48.72219, 21.78181 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((21.79466 48.79181, 21.79503 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((21.80799 48.75933, 21.80797 48...
+3  CadastralZoning  ...  MULTIPOLYGON (((21.82353 48.72076, 21.82383 48...
+4  CadastralZoning  ...  MULTIPOLYGON (((21.85926 48.69768, 21.85928 48...
+5  CadastralZoning  ...  MULTIPOLYGON (((21.96305 48.65843, 21.96321 48...
+6  CadastralZoning  ...  MULTIPOLYGON (((21.94874 48.67728, 21.94893 48...
+7  CadastralZoning  ...  MULTIPOLYGON (((22.00763 48.66383, 22.00776 48...
+8  CadastralZoning  ...  MULTIPOLYGON (((22.02734 48.65051, 22.02815 48...
+9  CadastralZoning  ...  MULTIPOLYGON (((22.08995 48.59501, 22.09142 48...
+
+[10 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/572453/gis.geojson...
+Intersections with protected areas...
+Found 15 intersecting parcels with '5st_konsUEV'.
+Found 4 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+Found 5 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}, {'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}, {'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}, {'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}, {'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}, {'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}, {'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}, {'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}, {'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}, {'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}, {'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}, {'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}, {'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}, {'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}, {'parcel_label': 'Horovce', 'NAZOV_UEV': 'Bisce', 'KOD_UEV': 'SKUEV0020'}], 'UEV': [{'parcel_label': 'Horovce', 'NATIONALSI': 'SKUEV0020', 'SITETITLE_': 'Bisce'}, {'parcel_label': 'Rakovec nad Ondavou', 'NATIONALSI': 'SKUEV0847', 'SITETITLE_': 'Pozdišovský chrbát'}, {'parcel_label': 'Moravany', 'NATIONALSI': 'SKUEV0847', 'SITETITLE_': 'Pozdišovský chrbát'}, {'parcel_label': 'Pavlovce nad Uhom', 'NATIONALSI': 'SKUEV0235', 'SITETITLE_': 'Stretavka'}], 'MCHU': [{'parcel_label': 'Horovce', 'NATIONALSI': '1142', 'SITETITLE_': 'PR Bisce'}, {'parcel_label': 'Pavlovce nad Uhom', 'NATIONALSI': '862', 'SITETITLE_': 'PR Ortov'}, {'parcel_label': 'Pavlovce nad Uhom', 'NATIONALSI': '1183', 'SITETITLE_': 'CHA Stretavka'}, {'parcel_label': 'Čierne Pole', 'NATIONALSI': '862', 'SITETITLE_': 'PR Ortov'}], 'CHVU': [{'parcel_label': 'Horovce', 'NATIONALSI': 'SKCHVU037', 'SITETITLE_': 'Ondavská rovina'}, {'parcel_label': 'Moravany', 'NATIONALSI': 'SKCHVU037', 'SITETITLE_': 'Ondavská rovina'}, {'parcel_label': 'Trhovište', 'NATIONALSI': 'SKCHVU037', 'SITETITLE_': 'Ondavská rovina'}, {'parcel_label': 'Stretava', 'NATIONALSI': 'SKCHVU024', 'SITETITLE_': 'Senianske rybníky'}, {'parcel_label': 'Pavlovce nad Uhom', 'NATIONALSI': 'SKCHVU024', 'SITETITLE_': 'Senianske rybníky'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/572453/analysis.json...
+
+--- Časy spracovania dokumentu 572453 ---
+  download_and_text   :   3.65 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  17.09 s
+  gis_processing      :   8.25 s
+  CELKOVÝ ČAS         :  28.99 s
+------------------------------------------
+Dokument 572453 bol úspešne spracovaný.

@@ -1,0 +1,54 @@
+[2026-07-24 19:17:26] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572507'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572507/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572507/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'sa považuje za zúčastnenú osobu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'uvedie v  písomnom oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno  a priezvisko osoby oprávnenej konať v jeh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 20h' zákona 'Občianskeho zákonníka, ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 2 písm. c)' zákona '83/1990 Zb.), ktoré  preukazujú, že jeho predmetom činnosti je ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572507/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0087975}
+LLM_tokens: {"input": 6159, "output": 1906, "total": 8065, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572507/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572507/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Dolný Ďur', 'katastralne_uzemia': [{'nazov': 'Dolný Ďur', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Dolný Ďur', 'katastralne_uzemia': [{'nazov': 'Dolný Ďur', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Dolný Ďur obec:Dolný Ďur okres:Levice kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: levice norm_obec: dolny dur norm_ku: dolny dur
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: levice norm_obec: None norm_ku: dolny dur
+_get_nationalCadastralZoningReferences() found_ids: {'868931'}
+nationalCadastralZoningReferences: ['868931']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.38 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.40201 48.22218, 18.4024 48....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572507/gis.geojson...
+Intersections with protected areas...
+Found 6 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Dolný Ďur', 'NAZOV_UEV': 'Patianska cerina', 'KOD_UEV': 'SKUEV0882'}, {'parcel_label': 'Dolný Ďur', 'NAZOV_UEV': 'Patianska cerina', 'KOD_UEV': 'SKUEV0882'}, {'parcel_label': 'Dolný Ďur', 'NAZOV_UEV': 'Patianska cerina', 'KOD_UEV': 'SKUEV0882'}, {'parcel_label': 'Dolný Ďur', 'NAZOV_UEV': 'Patianska cerina', 'KOD_UEV': 'SKUEV0882'}, {'parcel_label': 'Dolný Ďur', 'NAZOV_UEV': 'Patianska cerina', 'KOD_UEV': 'SKUEV0882'}, {'parcel_label': 'Dolný Ďur', 'NAZOV_UEV': 'Patianska cerina', 'KOD_UEV': 'SKUEV0882'}], 'UEV': [{'parcel_label': 'Dolný Ďur', 'NATIONALSI': 'SKUEV0882', 'SITETITLE_': 'Patianska cerina'}], 'MCHU': [{'parcel_label': 'Dolný Ďur', 'NATIONALSI': '127', 'SITETITLE_': 'NPR Patianska cerina'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572507/analysis.json...
+
+--- Časy spracovania dokumentu 572507 ---
+  download_and_text   :   1.29 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   8.57 s
+  gis_processing      :   0.63 s
+  CELKOVÝ ČAS         :  10.50 s
+------------------------------------------
+Dokument 572507 bol úspešne spracovaný.

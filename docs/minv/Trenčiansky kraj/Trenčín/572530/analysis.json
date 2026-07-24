@@ -1,0 +1,104 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP1-2026/036570-002",
+  "cislo_rozhodnutia": "OU-TN-OSZP1-2026/036570-0088443/2026",
+  "datum_dokumentu": "2026-07-24",
+  "datum_zverejnenia": "2026-07-24",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia na internetovej stránke orgánu ochrany prírody"
+  },
+  "ziadatel_navrhovatel": "Film United s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Čachtice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Čachtice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3240/2",
+              "3241"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "areál Čachtického hradu",
+    "nazov_lokality_norm": "Čachtický hrad"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "VJAZD_VOZIDLA",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "výnimka zo zákazu jazdenia a státia vozidlom",
+    "pohyb mimo vyznačených turistických alebo náučných chodníkov",
+    "použitie zariadenia spôsobujúceho svetelné alebo hlukové efekty",
+    "použitie lietajúceho zariadenia (dronu)"
+  ],
+  "rozsah_zasahu": "filmovanie dňa 24. 09. 2026, 5 vozidiel PickUp, pohyb asi 80 osôb",
+  "typ_uzemia": [
+    "Chránený areál Čachtické Karpaty",
+    "Chránená krajinná oblasť Malé Karpaty",
+    "2. stupeň",
+    "4. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z.z.",
+      "paragrafy": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "15",
+        "14",
+        "82"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti o výnimky pre filmovanie v areáli Čachtického hradu. Zásah zahŕňa vjazd 5 vozidiel, pohyb 80 osôb mimo chodníkov a použitie dronu v chránenom areáli Čachtické Karpaty (2. a 4. stupeň ochrany).",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "3241",
+          "NATIONALSI": "SKUEV0103",
+          "SITETITLE_": "Čachtické Karpaty"
+        },
+        {
+          "parcel_label": "3240/2",
+          "NATIONALSI": "SKUEV0103",
+          "SITETITLE_": "Čachtické Karpaty"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "3241",
+          "NATIONALSI": "1265",
+          "SITETITLE_": "CHA Čachtické Karpaty"
+        },
+        {
+          "parcel_label": "3240/2",
+          "NATIONALSI": "1265",
+          "SITETITLE_": "CHA Čachtické Karpaty"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

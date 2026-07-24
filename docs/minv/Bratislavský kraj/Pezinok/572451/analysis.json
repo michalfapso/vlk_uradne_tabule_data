@@ -1,0 +1,102 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2026/004048-006",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-23",
+  "datum_zverejnenia": "2026-07-23",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "7 dní od doručenia tohto upovedomenia"
+  },
+  "ziadatel_navrhovatel": "SENPET s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Pezinok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Grinava",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Grinava",
+    "nazov_lokality_norm": "Grinava"
+  },
+  "typ_dokumentu": "Upovedomenie verejnou vyhláškou o možnosti vyjadriť sa pred vydaním rozhodnutia k jeho podkladu",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "SO 02 Verejný vodovod a prípojky",
+    "SO 03 Verejná splašková kanalizácia a kanalizačné prípojky"
+  ],
+  "rozsah_zasahu": "vodné stavby k stavbe Polyfunkčné objekty Pezinok",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "23 ods. 1",
+        "33 ods. 2",
+        "26 ods. 1",
+        "26 ods. 2"
+      ]
+    }
+  ],
+  "zhrnutie": "Upovedomenie o možnosti vyjadriť sa k podkladom v rámci vodoprávneho konania pre stavbu vodovodu a kanalizácie v lokalite Grinava (Pezinok). Žiadateľom je SENPET s.r.o. a konanie sa týka vybudovania inžinierskych sietí pre polyfunkčné objekty bez zmienky o zásahu do chránených území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Grinava",
+          "NAZOV_UEV": "Homoľské Karpaty",
+          "KOD_UEV": "SKUEV0104"
+        },
+        {
+          "parcel_label": "Grinava",
+          "NAZOV_UEV": "Homoľské Karpaty",
+          "KOD_UEV": "SKUEV0104"
+        },
+        {
+          "parcel_label": "Grinava",
+          "NAZOV_UEV": "Homoľské Karpaty",
+          "KOD_UEV": "SKUEV0104"
+        },
+        {
+          "parcel_label": "Grinava",
+          "NAZOV_UEV": "Homoľské Karpaty",
+          "KOD_UEV": "SKUEV0104"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Grinava",
+          "NATIONALSI": "SKUEV0104",
+          "SITETITLE_": "Homoľské Karpaty"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Grinava",
+          "NATIONALSI": "824",
+          "SITETITLE_": "PR Zlatá studnička"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Grinava",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

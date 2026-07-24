@@ -1,0 +1,50 @@
+[2026-07-24 19:17:08] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572509'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572509/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572509/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572509/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014606000000000001}
+LLM_tokens: {"input": 7186, "output": 3671, "total": 10857, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572509/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572509/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Levice', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Zaústenie vedenia V 492 Veľký Ďur – Horná Ždaňa do R400kV v ESt Levice', 'nazov_lokality_norm': 'ESt, Levice'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Levice', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Zaústenie vedenia V 492 Veľký Ďur – Horná Ždaňa do R400kV v ESt Levice', 'nazov_lokality_norm': 'ESt, Levice'}
+Fallback to OBEC: Levice
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: levice norm_obec: levice norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (5), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: ESt, Levice
+get_geometry_of_a_geoname nazov_lokality: ESt, Levice
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Levice, Levice, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.60605 48.186, 18.60667 48.18554, ...  ...  SCANDOLARA TUB-EST, s.r.o., 5588/2, E. Sachsa,...
+
+[1 rows x 11 columns]
+geoname_query: ESt, Levice, Levice, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.60605 48.186, 18.60667 48.18554, ...  ...  SCANDOLARA TUB-EST, s.r.o., 5588/2, E. Sachsa,...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572509/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572509/analysis.json...
+
+--- Časy spracovania dokumentu 572509 ---
+  download_and_text   :   1.46 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.30 s
+  gis_processing      :   0.50 s
+  CELKOVÝ ČAS         :  18.27 s
+------------------------------------------
+Dokument 572509 bol úspešne spracovaný.

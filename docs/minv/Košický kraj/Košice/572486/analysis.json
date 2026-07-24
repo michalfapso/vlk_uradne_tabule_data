@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP3-2026/050400",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-24",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLS – servis lesy stráž s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice",
+    "obec": "Košice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Myslava",
+        "parcely": []
+      },
+      {
+        "nazov": "Kamenné",
+        "parcely": []
+      },
+      {
+        "nazov": "Čermeľ",
+        "parcely": []
+      },
+      {
+        "nazov": "Ťahanovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Šaca",
+        "parcely": []
+      },
+      {
+        "nazov": "Železiarne",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo elektrického vedenia vvn a zvn",
+    "nazov_lokality_norm": "elektrického vedenia, Košice"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom nevyhnutnom výrube existujúcej krovitej a stromovej vegetácie",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub stromov a iných porastov",
+    "orezávanie polokrov, krov a drevín"
+  ],
+  "rozsah_zasahu": "dreviny s priemerom do 20 cm v ochrannom pásme vedenia 400 kV",
+  "typ_uzemia": [
+    "ochranné pásmo vonkajšieho nadzemného elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 7",
+        "82 ods. 8",
+        "47 ods. 3"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a orezávaní drevín do 20 cm v ochranných pásmach 400 kV elektrického vedenia v lokalitách Košice - Myslava, Čermeľ, Šaca a ďalších. Výrub je odôvodnený bezpečnosťou prevádzky prenosovej sústavy a má sa realizovať od 15.08.2026 do 28.02.2027. Účasť verejnosti v konaní je podľa § 82 ods. 8 zákona o ochrane prírody vylúčená.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

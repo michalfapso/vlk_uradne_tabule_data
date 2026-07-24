@@ -1,0 +1,69 @@
+[2026-07-24 19:13:36] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/572499'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/572499/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/572499/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 50' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a ako príslušný orgán štátnej vodnej správ'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'vodného zákona v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. 1' zákona 'stavebného zákona o z n a m u j e podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods. 3' zákona 'stavebného zákona v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona začatie konania všetkým účastníkom konania, dotknutým orgánom a dotknutým právnickým osobám vo veci vydania rozhodnutia o stavebnom zám'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53 ods. 2' zákona 'stavebného zákona u p ú š ť a od ústneho pojednávania a miestneho zisťovania. V súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods. 2' zákona 'Stavebného zákona účastníci konania, dotknuté orgány a dotknuté právnické osoby môžu svoje námietky uplatniť najneskôr do 7 pracovných dní odo dňa dor'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona sa o začatí konania upovedomujú účastníci konania verejnou vyhláškou. Verejná vyhláška bude vyvesená po dobu 15 dní na úradnej tabuli O'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods. 3' zákona 'stavebného zákona ak je počet účastníkov konania väčší ako 20, alebo ak konaniu predchádzal proces posudzovania vplyvov na životné prostredie alebo ak'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/572499/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.017752}
+LLM_tokens: {"input": 10088, "output": 4236, "total": 14324, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/572499/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/572499/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Banská Bystrica', 'katastralne_uzemia': [{'nazov': 'Sásová', 'parcely': [{'typ': 'C', 'cisla': ['267/1', '267/2', '267/3', '267/4', '2410/7', '2409/1', '253', '251', '252', '249', '248', '235', '239', '238', '237/2', '212/2', '2407/10', '144', '143', '116/2', '131/9', '120/3', '121/3', '122/3', '110/8', '109/2', '108/2', '105', '67/4', '78/2', '77/2', '76/2', '75/2', '69/2', '70/2', '71/3', '72/2', '73/2', '58/2', '347/3', '348/1', '349', '352/2', '2424/3', '51/2', '50/2', '49/2', '48/4', '47', '2402/41', '39/2', '38/2', '37/2', '35/8', '34/4', '33/4', '32/4', '30/4', '31/4', '29', '28', '27', '2426/2', '382/3', '381/2', '380/1', '379/5', '378/3', '390/2', '2402/1', '2631/2', '2630/2', '2629', '2628', '2627/1', '2625/1']}, {'typ': 'E', 'cisla': ['473/1', '443', '63/1', '63/2', '62/1', '442/1', '223/9', '40/1', '35/4', '393/3', '393/2', '388', '382/1', '379', '293/1', '324/1', '317/19', '317/20', '316/2', '280/1', '264/1', '269', '264/12']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Banská Bystrica – časť Karlovo', 'nazov_lokality_norm': 'Karlovo, Banská Bystrica'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Banská Bystrica', 'katastralne_uzemia': [{'nazov': 'Sásová', 'parcely': [{'typ': 'C', 'cisla': ['267/1', '267/2', '267/3', '267/4', '2410/7', '2409/1', '253', '251', '252', '249', '248', '235', '239', '238', '237/2', '212/2', '2407/10', '144', '143', '116/2', '131/9', '120/3', '121/3', '122/3', '110/8', '109/2', '108/2', '105', '67/4', '78/2', '77/2', '76/2', '75/2', '69/2', '70/2', '71/3', '72/2', '73/2', '58/2', '347/3', '348/1', '349', '352/2', '2424/3', '51/2', '50/2', '49/2', '48/4', '47', '2402/41', '39/2', '38/2', '37/2', '35/8', '34/4', '33/4', '32/4', '30/4', '31/4', '29', '28', '27', '2426/2', '382/3', '381/2', '380/1', '379/5', '378/3', '390/2', '2402/1', '2631/2', '2630/2', '2629', '2628', '2627/1', '2625/1']}, {'typ': 'E', 'cisla': ['473/1', '443', '63/1', '63/2', '62/1', '442/1', '223/9', '40/1', '35/4', '393/3', '393/2', '388', '382/1', '379', '293/1', '324/1', '317/19', '317/20', '316/2', '280/1', '264/1', '269', '264/12']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Banská Bystrica – časť Karlovo', 'nazov_lokality_norm': 'Karlovo, Banská Bystrica'}
+ku_name:Sásová obec:Banská Bystrica okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: banska bystrica norm_ku: sasova
+_get_nationalCadastralZoningReferences() found_ids: {'801101'}
+nationalCadastralZoningReferences: ['801101']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.85 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.61 s
+nazov_lokality: Karlovo, Banská Bystrica
+gdf_parcelset:         @featureType  ...             administrativeUnit
+0    CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+1    CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+2    CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+3    CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+4    CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+..               ...  ...                            ...
+97   CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+98   CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+99   CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+100  CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+101  CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+
+[102 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/572499/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/572499/analysis.json...
+
+--- Časy spracovania dokumentu 572499 ---
+  download_and_text   :   1.84 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  16.90 s
+  gis_processing      :   8.81 s
+  CELKOVÝ ČAS         :  27.56 s
+------------------------------------------
+Dokument 572499 bol úspešne spracovaný.
