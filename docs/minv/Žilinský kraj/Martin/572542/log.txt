@@ -1,0 +1,67 @@
+[2026-07-27 19:19:32] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572542'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572542/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572542/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm. b)' zákona '251/2012 Z. z. o energetike a o zmene  a doplnení niektorých zákonov v znení neskorších predpisov, doručeného tunajšiemu úradu dňa 23.  07. 2026 od oz'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572542/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012602}
+LLM_tokens: {"input": 5020, "output": 3364, "total": 8384, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572542/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572542/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': 'Krpeľany', 'katastralne_uzemia': [{'nazov': 'Krpeľany', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo el. vedenia 220 kV, vedenie č. 273, TR: Sučany - Važec', 'nazov_lokality_norm': 'Krpeľany'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': 'Krpeľany', 'katastralne_uzemia': [{'nazov': 'Krpeľany', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo el. vedenia 220 kV, vedenie č. 273, TR: Sučany - Važec', 'nazov_lokality_norm': 'Krpeľany'}
+ku_name:Krpeľany obec:Krpeľany okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: krpelany norm_ku: krpelany
+_get_nationalCadastralZoningReferences() found_ids: {'829412'}
+nationalCadastralZoningReferences: ['829412']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Krpeľany
+get_geometry_of_a_geoname nazov_lokality: Krpeľany
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Krpeľany, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                      display_name
+0  POLYGON ((19.07613 49.123, 19.07618 49.12296, ...  ...  Krpeľany, okres Martin, Žilinský kraj, Slovensko
+
+[1 rows x 11 columns]
+geoname_query: Krpeľany, Krpeľany, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.09722 49.14999, 19.09682 49...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                      display_name
+0  POLYGON ((19.07613 49.123, 19.07618 49.12296, ...  ...  Krpeľany, okres Martin, Žilinský kraj, Slovensko
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572542/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Krpeľany', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Krpeľany', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}], 'UEV': [{'parcel_label': 'Krpeľany', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': 'Krpeľany', 'NATIONALSI': 'SKUEV0253', 'SITETITLE_': 'Váh'}], 'MCHU': [{'parcel_label': 'Krpeľany', 'NATIONALSI': '312', 'SITETITLE_': 'PR Korbeľka'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/572542/analysis.json...
+
+--- Časy spracovania dokumentu 572542 ---
+  download_and_text   :   1.55 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.39 s
+  gis_processing      :   0.71 s
+  CELKOVÝ ČAS         :  16.65 s
+------------------------------------------
+Dokument 572542 bol úspešne spracovaný.

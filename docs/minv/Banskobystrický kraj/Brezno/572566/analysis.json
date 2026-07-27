@@ -1,0 +1,97 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-07-28",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Lesy SR, š., p., OZ Horehronie",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Beňuš, Braväcovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Beňuš",
+        "parcely": []
+      },
+      {
+        "nazov": "Braväcovo",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatých správnych konaniach",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "vydanie súhlasu podľa §13 zákona č. 543/2002 Z.z."
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "2. stupeň",
+    "Druhý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "13",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti štátneho podniku Lesy SR o vydanie súhlasu podľa §13 zákona o ochrane prírody (2. stupeň ochrany). Konanie sa týka katastrálnych území Beňuš a Braväcovo v okrese Brezno. Verejnosť môže potvrdiť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Beňuš",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Beňuš",
+          "NATIONALSI": "SKUEV0310",
+          "SITETITLE_": "Kráľovohoľské Tatry"
+        },
+        {
+          "parcel_label": "Braväcovo",
+          "NATIONALSI": "SKUEV0310",
+          "SITETITLE_": "Kráľovohoľské Tatry"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Beňuš",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        },
+        {
+          "parcel_label": "Braväcovo",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

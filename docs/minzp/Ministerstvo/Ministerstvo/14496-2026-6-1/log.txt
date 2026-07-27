@@ -1,0 +1,62 @@
+[2026-07-27 19:21:10] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14496-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14496-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14496-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0111405}
+LLM_tokens: {"input": 4311, "output": 2995, "total": 7306, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14496-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14496-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Ministerstvo', 'okres': 'Ministerstvo', 'obec': 'Krásnohorské Podhradie', 'katastralne_uzemia': [{'nazov': 'Krásnohorské Podhradie', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Andrássyho obrazáreň na Lipovej ul. č. 122', 'nazov_lokality_norm': 'Lipová, Krásnohorské Podhradie'}
+data: {'kraj': 'Ministerstvo', 'okres': 'Ministerstvo', 'obec': 'Krásnohorské Podhradie', 'katastralne_uzemia': [{'nazov': 'Krásnohorské Podhradie', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Andrássyho obrazáreň na Lipovej ul. č. 122', 'nazov_lokality_norm': 'Lipová, Krásnohorské Podhradie'}
+ku_name:Krásnohorské Podhradie obec:Krásnohorské Podhradie okres:Ministerstvo kraj:Ministerstvo
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: ministerstvo norm_obec: krasnohorske podhradie norm_ku: krasnohorske podhradie
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: ministerstvo norm_obec: None norm_ku: krasnohorske podhradie
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: None norm_obec: None norm_ku: krasnohorske podhradie
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: krasnohorske podhradie
+_get_nationalCadastralZoningReferences() found_ids: {'828734'}
+nationalCadastralZoningReferences: ['828734']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Lipová, Krásnohorské Podhradie
+get_geometry_of_a_geoname nazov_lokality: Lipová, Krásnohorské Podhradie
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Krásnohorské Podhradie, Krásnohorské Podhradie, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Krásnohorské Podhradie, Ministerstvo, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Krásnohorské Podhradie, Ministerstvo, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Krásnohorské Podhradie, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.6550547, 'lon': 20.5957032, 'formatted_address': 'Lipová, 049 41 Krásnohorské Podhradie, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 049 41 Krásnohorské Podhradie, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.59148 48.69175, 20.59171 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14496-2026-6-1/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'MCHU': [{'parcel_label': 'Krásnohorské Podhradie', 'NATIONALSI': '0', 'SITETITLE_': 'PP Malá pivnica'}, {'parcel_label': 'Krásnohorské Podhradie', 'NATIONALSI': '0', 'SITETITLE_': 'PP Veľká pivnica'}], 'CHVU': [{'parcel_label': 'Krásnohorské Podhradie', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14496-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 14496-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.75 s
+  gis_processing      :   1.97 s
+  CELKOVÝ ČAS         :  15.21 s
+------------------------------------------
+Dokument 14496-2026-6-1 bol úspešne spracovaný.

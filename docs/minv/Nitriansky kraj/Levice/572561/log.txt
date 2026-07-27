@@ -1,0 +1,50 @@
+[2026-07-27 19:17:20] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572561'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572561/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572561/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'sa považuje za zúčastnenú osobu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'uvedie v  písomnom oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno  a priezvisko osoby oprávnenej konať v jeh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 20h' zákona 'Občianskeho zákonníka, ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 2 písm. c)' zákona '83/1990 Zb.), ktoré  preukazujú, že jeho predmetom činnosti je ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572561/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011231499999999998}
+LLM_tokens: {"input": 6593, "output": 2645, "total": 9238, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572561/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572561/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Tlmače', 'katastralne_uzemia': [{'nazov': 'Tlmače', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Tlmače', 'katastralne_uzemia': [{'nazov': 'Tlmače', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Tlmače obec:Tlmače okres:Levice kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: levice norm_obec: tlmace norm_ku: tlmace
+_get_nationalCadastralZoningReferences() found_ids: {'863416'}
+nationalCadastralZoningReferences: ['863416']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.20 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.50875 48.30019, 18.5106 48....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572561/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/572561/analysis.json...
+
+--- Časy spracovania dokumentu 572561 ---
+  download_and_text   :   1.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.79 s
+  gis_processing      :   0.41 s
+  CELKOVÝ ČAS         :  13.21 s
+------------------------------------------
+Dokument 572561 bol úspešne spracovaný.

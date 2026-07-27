@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "place_id": 187794083, "osm_type": "way", "osm_id": 1336662293, "place_rank": 24, "category": "landuse", "type": "residential", "importance": 0.08007727397573812, "addresstype": "residential", "name": "Záhradnícka", "display_name": "Záhradnícka, Nivy, Bratislava-Ružinov, okres Bratislava II, Bratislava, Borinka, Bratislavský kraj, 900 32, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 17.1351984, 48.156162 ], [ 17.13525, 48.1559402 ], [ 17.1358768, 48.1560144 ], [ 17.1359444, 48.1560232 ], [ 17.1359423, 48.1560302 ], [ 17.1359389, 48.156042 ], [ 17.1359321, 48.156068 ], [ 17.1359225, 48.1561035 ], [ 17.1359131, 48.1561379 ], [ 17.1359043, 48.1561735 ], [ 17.1358958, 48.1562079 ], [ 17.1358855, 48.1562423 ], [ 17.1358814, 48.1562634 ], [ 17.13527, 48.1561839 ], [ 17.1352725, 48.1561703 ], [ 17.1351984, 48.156162 ] ] ] } }
+]
+}

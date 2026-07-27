@@ -1,0 +1,91 @@
+[2026-07-27 19:12:11] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Veľký Krtíš/572552'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Veľký Krtíš/572552/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0262208}
+LLM_tokens: {"input": 1366, "output": 65533, "total": 66899, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Veľký Krtíš/572552/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 2' zákona '24/2006 Z. z. o environmentálnom posudzovaní v znení neskorších predpisov je pri stavbe potrebné posúdenie vplyvov na životné prostredie. V súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 8 ods. 3' zákona 'uvedeného zákona Okresný úrad Veľký Kríž, odbor starostlivosti o životné prostredie je príslušným orgánom štátnej správy na posudzovanie podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 1 písm. c)' zákona 'v znení neskorších predpisov. Predmetom oznámenia je, že Obec Veľký Stračiny, ako stavbu navrhovateľ, predložil Okresnému úradu Veľký Kríž, odboru sta'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.044787}
+LLM_tokens: {"input": 69426, "output": 3358, "total": 72784, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Veľký Krtíš/572552/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Veľký Krtíš/572552/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Veľký Krtíš', 'obec': 'Veľký Stračiny', 'katastralne_uzemia': [{'nazov': 'Veľký Stračiny', 'parcely': [{'typ': 'C', 'cisla': ['1360/9', '1360/29', '1360/7', '1360/6', '3355/3', '1430/1', '1409/6', '1430/10', '1430/6', '120/1', '3308/5', '340/6', '114/1', '117/2', '110', '121', '122/2', '3/1', '3/3', '3356/3', '915/4', '916/2', '537/6', '21/25', '21/26', '13/10/2', '13', '210', '21/1', '21/11', '219', '3408/1', '219/1', '100/3', '130/5', '20', '21/3', '3355/2', '1403/3']}, {'typ': 'E', 'cisla': ['5355/2', '25', '53356/3', '21', '77', '53375/1', '50212', '53355/1', '606/1', '419/7', '53108/2', '419/1', '3', '3356/3']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Veľký Stračiny', 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Veľký Krtíš', 'obec': 'Veľký Stračiny', 'katastralne_uzemia': [{'nazov': 'Veľký Stračiny', 'parcely': [{'typ': 'C', 'cisla': ['1360/9', '1360/29', '1360/7', '1360/6', '3355/3', '1430/1', '1409/6', '1430/10', '1430/6', '120/1', '3308/5', '340/6', '114/1', '117/2', '110', '121', '122/2', '3/1', '3/3', '3356/3', '915/4', '916/2', '537/6', '21/25', '21/26', '13/10/2', '13', '210', '21/1', '21/11', '219', '3408/1', '219/1', '100/3', '130/5', '20', '21/3', '3355/2', '1403/3']}, {'typ': 'E', 'cisla': ['5355/2', '25', '53356/3', '21', '77', '53375/1', '50212', '53355/1', '606/1', '419/7', '53108/2', '419/1', '3', '3356/3']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Veľký Stračiny', 'nazov_lokality_norm': None}
+ku_name:Veľký Stračiny obec:Veľký Stračiny okres:Veľký Krtíš kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: velky krtis norm_obec: velky straciny norm_ku: velky straciny
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: velky krtis norm_obec: None norm_ku: velky straciny
+Fuzzy match found: 'Veľký Stračiny' -> 'Veľké Straciny' (ID: 868612)
+nationalCadastralZoningReferences: ['868612']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.94 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.29 s
+nazov_lokality: Veľký Stračiny
+gdf_parcelset:        @featureType  ...           administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.97'}
+
+[37 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Veľký Krtíš/572552/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Veľký Krtíš/572552/analysis.json...
+
+--- Časy spracovania dokumentu 572552 ---
+  download_and_text   : 171.95 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  17.04 s
+  gis_processing      :   7.59 s
+  CELKOVÝ ČAS         : 196.59 s
+------------------------------------------
+Dokument 572552 bol úspešne spracovaný.

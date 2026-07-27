@@ -1,0 +1,72 @@
+[2026-07-27 19:20:22] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572556'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572556/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.002264}
+LLM_tokens: {"input": 1366, "output": 5641, "total": 7007, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572556/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a príslušný o'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58 ods. 1 písm. c)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. d)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'vodného zákona v súlade s ustanoveniami'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58 ods. 4' zákona 'stavebného zákona.  **E. PODMIENKY USKUTOČNENIA STAVBY**  **E.1 Stavebník:** Obec Liptovská Štiavnica, Hlavná 39/53, 034 01 Liptovská Štiavnica, IČO:'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 odst. 3' zákona 'vodného zákona č. 364/2004 Z. z. v znení neskorších predpisov. Správca toku nezodpovedá za škody spôsobené účinkami vôd, splaveninami a ľadu ako i vzn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53' zákona 'vodného zákona č. 364/2004 Z. z. v znení neskorších predpisov. Správca toku nezodpovedá za škody spôsobené účinkami vôd, splaveninami a ľadu ako i vzn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 49 odst. 4' zákona 'vodného zákona. - Realizácia stavebných prác, súvisiacich s výustným objektom je potrebné uskutočnit v čase znizien prietokov. - Nakoľko budú stavebné'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§49 ods.5' zákona '364/2004 Z. z. o vodách v znení neskorších predpisov. - Zrealizovať oplemenenie nepreviezme správa toku do svojho majetka, ale zostane v správe a údrz'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods.1 písm. d)' zákona '364/2004 Z. z. o vodách a o zmene platných predpisov  **Vypúšťanie vôd z povrchového odtoku do vodného toku Štiavnička:**  **J. PODMIENKY POVOLENIA**'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53' zákona 'vodného zákona.**  **J.6.2 Pravidelne kontrolovať šachty a úličné vpuste od nánosov a naplavenín a podľa potreby ich** čistiť.  **J.6.3 Neočakávané ok'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. 2' zákona 'vodného zákona.** Povolenie zaniká skončením platnosti povolenia stanovenia v II. Časti tohto rozhodnutia – bod L. a zanik zániku povolenia upravuje a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 4' zákona 'vodného zákona.** Povolenie zaniká skončením platnosti povolenia stanovenia v II. Časti tohto rozhodnutia – bod L. a zanik zániku povolenia upravuje a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 25' zákona 'vodného zákona.  Originál tohto dokumentu obsahuje ďalších 3 strán, ktoré ale neboli prevedené do textu'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572556/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013857}
+LLM_tokens: {"input": 9606, "output": 3018, "total": 12624, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572556/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572556/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Liptovská Štiavnica', 'katastralne_uzemia': [{'nazov': 'Liptovská Štiavnica', 'parcely': [{'typ': 'C', 'cisla': ['782/3', '825', '951/4']}, {'typ': 'E', 'cisla': ['1031', '1044', '744/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulica Hlavná, tok Štiavnička', 'nazov_lokality_norm': 'Hlavná, Liptovská Štiavnica'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Liptovská Štiavnica', 'katastralne_uzemia': [{'nazov': 'Liptovská Štiavnica', 'parcely': [{'typ': 'C', 'cisla': ['782/3', '825', '951/4']}, {'typ': 'E', 'cisla': ['1031', '1044', '744/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulica Hlavná, tok Štiavnička', 'nazov_lokality_norm': 'Hlavná, Liptovská Štiavnica'}
+ku_name:Liptovská Štiavnica obec:Liptovská Štiavnica okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: liptovska stiavnica norm_ku: liptovska stiavnica
+_get_nationalCadastralZoningReferences() found_ids: {'832502'}
+nationalCadastralZoningReferences: ['832502']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.51 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.10 s
+nazov_lokality: Hlavná, Liptovská Štiavnica
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2558'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2558'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2558'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2558'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.2558'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.2558'}
+
+[6 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572556/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/572556/analysis.json...
+
+--- Časy spracovania dokumentu 572556 ---
+  download_and_text   :  25.19 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.76 s
+  gis_processing      :   6.82 s
+  CELKOVÝ ČAS         :  46.78 s
+------------------------------------------
+Dokument 572556 bol úspešne spracovaný.

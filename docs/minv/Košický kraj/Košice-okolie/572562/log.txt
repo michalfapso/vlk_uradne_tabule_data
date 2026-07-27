@@ -1,0 +1,63 @@
+[2026-07-27 19:16:51] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572562'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572562/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572562/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 1 písm. f)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53 písm. a)' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572562/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010171900000000001}
+LLM_tokens: {"input": 6080, "output": 2680, "total": 8760, "cached": 2018}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572562/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572562/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Valaliky', 'katastralne_uzemia': [{'nazov': 'Valaliky', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'odvodňovací kanál - ev. č. 5403 096 001', 'nazov_lokality_norm': '5403 096 001'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Valaliky', 'katastralne_uzemia': [{'nazov': 'Valaliky', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'odvodňovací kanál - ev. č. 5403 096 001', 'nazov_lokality_norm': '5403 096 001'}
+ku_name:Valaliky obec:Valaliky okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: valaliky norm_ku: valaliky
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: valaliky
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: valaliky
+_get_nationalCadastralZoningReferences() found_ids: {'866725'}
+nationalCadastralZoningReferences: ['866725']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: 5403 096 001
+get_geometry_of_a_geoname nazov_lokality: 5403 096 001
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 096 001, Valaliky, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 096 001, Košice-okolie, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 096 001, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 096 001, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.6421867, 'lon': 21.2917987, 'formatted_address': '044 13 Valaliky, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 13 Valaliky, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.28468 48.65127, 21.28475 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572562/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/572562/analysis.json...
+
+--- Časy spracovania dokumentu 572562 ---
+  download_and_text   :   1.11 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.20 s
+  gis_processing      :   3.07 s
+  CELKOVÝ ČAS         :  14.38 s
+------------------------------------------
+Dokument 572562 bol úspešne spracovaný.

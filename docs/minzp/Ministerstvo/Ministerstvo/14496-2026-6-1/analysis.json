@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": "14496/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-27",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Banícke múzeum v Rožňave",
+  "miesto_realizacie": {
+    "kraj": "Ministerstvo",
+    "okres": "Ministerstvo",
+    "obec": "Krásnohorské Podhradie",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Krásnohorské Podhradie",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Andrássyho obrazáreň na Lipovej ul. č. 122",
+    "nazov_lokality_norm": "Lipová, Krásnohorské Podhradie"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania o povolení výnimky",
+  "kategorie_vlk": [
+    "ZIVOCICHY_USMRCOVANIE"
+  ],
+  "typ_zasahu": [
+    "odstránenie 3 hniezd chránených živočíchov"
+  ],
+  "rozsah_zasahu": "3 hniezda (belorítka obyčajná)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "belorítka obyčajná (Delichon urbicum)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Žiadosť Baníckeho múzea v Rožňave o povolenie výnimky na odstránenie 3 hniezd chráneného živočícha belorítka obyčajná. Zásah sa plánuje na budove Andrássyho obrazárne v obci Krásnohorské Podhradie. Konanie sa vedie v rámci druhovej ochrany živočíchov.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Krásnohorské Podhradie",
+          "NATIONALSI": "0",
+          "SITETITLE_": "PP Malá pivnica"
+        },
+        {
+          "parcel_label": "Krásnohorské Podhradie",
+          "NATIONALSI": "0",
+          "SITETITLE_": "PP Veľká pivnica"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Krásnohorské Podhradie",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

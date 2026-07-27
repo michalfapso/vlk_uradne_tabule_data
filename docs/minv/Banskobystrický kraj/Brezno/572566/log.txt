@@ -1,0 +1,62 @@
+[2026-07-27 19:11:55] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572566'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572566/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572566/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572566/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013714500000000001}
+LLM_tokens: {"input": 7203, "output": 3371, "total": 10574, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572566/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572566/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Beňuš, Braväcovo', 'katastralne_uzemia': [{'nazov': 'Beňuš', 'parcely': []}, {'nazov': 'Braväcovo', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Beňuš, Braväcovo', 'katastralne_uzemia': [{'nazov': 'Beňuš', 'parcely': []}, {'nazov': 'Braväcovo', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Beňuš obec:Beňuš, Braväcovo okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: benus norm_ku: benus
+_get_nationalCadastralZoningReferences() found_ids: {'802689'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: bravacovo norm_ku: benus
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: benus
+_get_nationalCadastralZoningReferences() found_ids: {'802689'}
+nationalCadastralZoningReferences: ['802689']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 1.02 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Braväcovo obec:Beňuš, Braväcovo okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: benus norm_ku: bravacovo
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: bravacovo
+_get_nationalCadastralZoningReferences() found_ids: {'806145'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: bravacovo norm_ku: bravacovo
+_get_nationalCadastralZoningReferences() found_ids: {'806145'}
+nationalCadastralZoningReferences: ['806145']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.71966 48.88159, 19.71996 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.74044 48.88812, 19.74037 48...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572566/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Beňuš', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Beňuš', 'NATIONALSI': 'SKUEV0310', 'SITETITLE_': 'Kráľovohoľské Tatry'}, {'parcel_label': 'Braväcovo', 'NATIONALSI': 'SKUEV0310', 'SITETITLE_': 'Kráľovohoľské Tatry'}], 'CHVU': [{'parcel_label': 'Beňuš', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Braväcovo', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572566/analysis.json...
+
+--- Časy spracovania dokumentu 572566 ---
+  download_and_text   :   1.23 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  13.37 s
+  gis_processing      :   1.73 s
+  CELKOVÝ ČAS         :  16.35 s
+------------------------------------------
+Dokument 572566 bol úspešne spracovaný.

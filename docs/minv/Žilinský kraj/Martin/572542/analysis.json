@@ -1,0 +1,94 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/016476",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-27",
+  "datum_zverejnenia": "2026-07-27",
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA s.r.o. (v zastúpení Slovenská elektrizačná prenosová sústava, a.s.)",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Krpeľany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Krpeľany",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo el. vedenia 220 kV, vedenie č. 273, TR: Sučany - Važec",
+    "nazov_lokality_norm": "Krpeľany"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub drevín v ochrannom pásme el. vedenia"
+  ],
+  "rozsah_zasahu": "výrub v okolí podperných bodov č. 30, 31, 32",
+  "typ_uzemia": [
+    "ochranné pásmo el. vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012 Z. z.",
+      "paragrafy": [
+        "11 ods. 1 písm. b)"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube drevín rastúcich mimo les v ochrannom pásme 220 kV elektrického vedenia č. 273 v katastri obce Krpeľany. Ide o výrub z dôvodu údržby energetickej siete vykonávaný spoločnosťou ENZA pre SEPS. Dokument má len informačný charakter, nejde o správne konanie a verejnosť sa nemôže prihlásiť za účastníka.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Krpeľany",
+          "NAZOV_UEV": "Veľká Fatra",
+          "KOD_UEV": "SKUEV0238"
+        },
+        {
+          "parcel_label": "Krpeľany",
+          "NAZOV_UEV": "Veľká Fatra",
+          "KOD_UEV": "SKUEV0238"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Krpeľany",
+          "NATIONALSI": "SKUEV0238",
+          "SITETITLE_": "Veľká Fatra"
+        },
+        {
+          "parcel_label": "Krpeľany",
+          "NATIONALSI": "SKUEV0253",
+          "SITETITLE_": "Váh"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Krpeľany",
+          "NATIONALSI": "312",
+          "SITETITLE_": "PR Korbeľka"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "cislo_konania_spisu": "OU-BY-OSZP-2026/000118",
+  "cislo_rozhodnutia": "OU-BY-OSZP-2026/000118-010",
+  "datum_dokumentu": "2026-07-27",
+  "datum_zverejnenia": "2026-07-27",
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Mesto Bytča",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Bytča",
+    "obec": "Bytča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľká Bytča",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3509/1",
+              "3498/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3509",
+              "3498/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Hliník nad Váhom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1011",
+              "985",
+              "983",
+              "158/1",
+              "982/2",
+              "177/1",
+              "900/1",
+              "988/1",
+              "186/1",
+              "992",
+              "996"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "933",
+              "934",
+              "923/3",
+              "935/1",
+              "937"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "m.č. Hliník nad Váhom",
+    "nazov_lokality_norm": "Hliník nad Váhom, Bytča"
+  },
+  "typ_dokumentu": "Oprava formálnej chyby v písomnom vyhotovení rozhodnutia o stavebnom zámere",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "vodná stavba",
+    "odkanalizovanie"
+  ],
+  "rozsah_zasahu": "Odkanalizovanie Bytča – m.č. Hliník nad Váhom, II. etapa",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "47",
+        "26"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "50"
+      ]
+    }
+  ],
+  "zhrnutie": "Ide o opravu formálnych chýb v zozname parciel v rozhodnutí o stavebnom zámere pre líniovú vodnú stavbu „Odkanalizovanie Bytča – m.č. Hliník nad Váhom, II. etapa“. Zásah sa realizuje v zastavanom území mesta Bytča a dokument neuvádza informácie o výskyte chránených území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}
