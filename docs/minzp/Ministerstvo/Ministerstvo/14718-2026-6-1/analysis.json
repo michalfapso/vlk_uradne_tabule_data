@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": "14718/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-28",
+  "datum_zverejnenia": "2026-07-28",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "COOP Jednota Žilina, spotrebné družstvo",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Bytča",
+    "obec": "Štiavnik",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Štiavnik",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "predajňa potravín COOP Jednota Supermarket Štiavnik",
+    "nazov_lokality_norm": "COOP Jednota Supermarket, Štiavnik"
+  },
+  "typ_dokumentu": "Oznámenie o podaní žiadosti o povolenie výnimky zo zákazov druhovej ochrany",
+  "kategorie_vlk": [
+    "ZIVOCICHY_USMRCOVANIE"
+  ],
+  "typ_zasahu": [
+    "odstránenie hniezd chráneného živočícha"
+  ],
+  "rozsah_zasahu": "hniezda lastovičky domovej",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "lastovička domová (Hirundo rustica)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Žiadateľ COOP Jednota Žilina žiada o povolenie výnimky na odstránenie hniezd lastovičky domovej z objektu supermarketu v obci Štiavnik. Konanie je v počiatočnej fáze a verejnosť môže požiadať o účasť do 5 pracovných dní. Zásah sa realizuje v zastavanom území obce a dokument nespomína chránené územie.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Štiavnik",
+          "NATIONALSI": "SKUEV0642",
+          "SITETITLE_": "Javornícky hrebeň"
+        },
+        {
+          "parcel_label": "Štiavnik",
+          "NATIONALSI": "SKUEV0643",
+          "SITETITLE_": "Ráztocké penovcové pramenisko"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Štiavnik",
+          "NATIONALSI": "268",
+          "SITETITLE_": "PR Hričovec"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

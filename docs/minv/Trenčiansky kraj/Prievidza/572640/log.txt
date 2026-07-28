@@ -1,0 +1,88 @@
+[2026-07-28 19:18:08] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/572640'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/572640/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/572640/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 odst. 7' zákona 'Vam oznamujeme nevyhnutny vyrub naletovych drevfn v existujucom ochrannom pasme elektrickeho vedenia. Vyrub bude prevedeny pod el. vedenim : ~ l!> ~ d'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11' zákona 'tohto zakona drzite!' povolenia na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odst. 1' zákona 'tohto zakona drzite!' povolenia na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona 'zakona c. 251/2012 Z.z. je definovane u r:JIJrO kV vedeni, ako kolma vzdialenost' #c..? .. m od krajneho vodica na obe strany. Predpokladane : - zacat'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0130455}
+LLM_tokens: {"input": 6483, "output": 3268, "total": 9751, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/572640/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/572640/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Valaská Belá', 'katastralne_uzemia': [{'nazov': 'Valaská Belá', 'parcely': []}, {'nazov': 'Šutovce', 'parcely': []}, {'nazov': 'Nitrianske Pravno', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Kozinec, Rakosie, Maly Vysehrad, Somorova Ves, Matusikov vrch', 'nazov_lokality_norm': 'Maly Vysehrad'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Valaská Belá', 'katastralne_uzemia': [{'nazov': 'Valaská Belá', 'parcely': []}, {'nazov': 'Šutovce', 'parcely': []}, {'nazov': 'Nitrianske Pravno', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Kozinec, Rakosie, Maly Vysehrad, Somorova Ves, Matusikov vrch', 'nazov_lokality_norm': 'Maly Vysehrad'}
+ku_name:Valaská Belá obec:Valaská Belá okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: valaska bela norm_ku: valaska bela
+_get_nationalCadastralZoningReferences() found_ids: {'867195'}
+nationalCadastralZoningReferences: ['867195']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.48 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Šutovce obec:Valaská Belá okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: valaska bela norm_ku: sutovce
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: sutovce
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: sutovce
+Fuzzy match found: 'Šutovce' -> 'Častkovce' (ID: 808857)
+nationalCadastralZoningReferences: ['808857']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Nitrianske Pravno obec:Valaská Belá okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: valaska bela norm_ku: nitrianske pravno
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: nitrianske pravno
+_get_nationalCadastralZoningReferences() found_ids: {'840670'}
+nationalCadastralZoningReferences: ['840670']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.58 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Maly Vysehrad
+get_geometry_of_a_geoname nazov_lokality: Maly Vysehrad
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Vysehrad, Valaská Belá, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Vysehrad, Prievidza, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Vysehrad, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Vysehrad, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.8873635, 'lon': 18.3967988, 'formatted_address': '972 28 Valaská Belá, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 28 Valaská Belá, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.37286 48.93851, 18.37337 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((17.73843 48.7005, 17.73991 48....
+2  CadastralZoning  ...  MULTIPOLYGON (((18.52627 48.91876, 18.52648 48...
+
+[3 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/572640/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with '5st_konsUEV'.
+Found 7 intersecting parcels with 'UEV'.
+Found 5 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Valaská Belá', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}, {'parcel_label': 'Valaská Belá', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}], 'UEV': [{'parcel_label': 'Valaská Belá', 'NATIONALSI': 'SKUEV0275', 'SITETITLE_': 'Kňaží stôl'}, {'parcel_label': 'Valaská Belá', 'NATIONALSI': 'SKUEV4032', 'SITETITLE_': 'Lúky pod Čičermanom'}, {'parcel_label': 'Valaská Belá', 'NATIONALSI': 'SKUEV0256', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': 'Valaská Belá', 'NATIONALSI': 'SKUEV0274', 'SITETITLE_': 'Baské'}, {'parcel_label': 'Častkovce', 'NATIONALSI': 'SKUEV0564', 'SITETITLE_': 'Dubová'}, {'parcel_label': 'Častkovce', 'NATIONALSI': 'SKUEV0103', 'SITETITLE_': 'Čachtické Karpaty'}, {'parcel_label': 'Nitrianske Pravno', 'NATIONALSI': 'SKUEV4032', 'SITETITLE_': 'Lúky pod Čičermanom'}], 'MCHU': [{'parcel_label': 'Valaská Belá', 'NATIONALSI': '1133', 'SITETITLE_': 'PR Rysia'}, {'parcel_label': 'Valaská Belá', 'NATIONALSI': '390', 'SITETITLE_': 'PP Prielom Nitrice'}, {'parcel_label': 'Valaská Belá', 'NATIONALSI': '133', 'SITETITLE_': 'PR Pod Homôľkou'}, {'parcel_label': 'Častkovce', 'NATIONALSI': '16', 'SITETITLE_': 'PP Brehové porasty Dubovej'}, {'parcel_label': 'Častkovce', 'NATIONALSI': '1265', 'SITETITLE_': 'CHA Čachtické Karpaty'}], 'CHVU': [{'parcel_label': 'Valaská Belá', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/572640/analysis.json...
+
+--- Časy spracovania dokumentu 572640 ---
+  download_and_text   :   2.87 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.01 s
+  gis_processing      :   3.87 s
+  CELKOVÝ ČAS         :  22.74 s
+------------------------------------------
+Dokument 572640 bol úspešne spracovaný.

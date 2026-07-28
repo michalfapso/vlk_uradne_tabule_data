@@ -1,0 +1,158 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2024-07-23",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Valaská Belá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Valaská Belá",
+        "parcely": []
+      },
+      {
+        "nazov": "Šutovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Nitrianske Pravno",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Kozinec, Rakosie, Maly Vysehrad, Somorova Ves, Matusikov vrch",
+    "nazov_lokality_norm": "Maly Vysehrad"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub náletových drevín",
+    "okliešňovanie stromov a iných porastov"
+  ],
+  "rozsah_zasahu": "nevyhnutný výrub náletových drevín v ochrannom pásme el. vedenia",
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "náletové dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11 ods. 1",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Spoločnosť ENZA s.r.o. oznamuje vykonanie nevyhnutného výrubu náletových drevín a okliešťovanie stromov v ochrannom pásme elektrického vedenia (22 kV a 110 kV). Zásah sa dotýka katastrálnych území Valaská Belá, Šutovce a Nitrianske Pravno, vrátane lokalít Kozinec a Malý Vyšehrad. Ide o údržbové práce vo verejnom záujme na zaistenie bezpečnosti prevádzky energetických zariadení.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Valaská Belá",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "SKUEV0275",
+          "SITETITLE_": "Kňaží stôl"
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "SKUEV4032",
+          "SITETITLE_": "Lúky pod Čičermanom"
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "SKUEV0274",
+          "SITETITLE_": "Baské"
+        },
+        {
+          "parcel_label": "Častkovce",
+          "NATIONALSI": "SKUEV0564",
+          "SITETITLE_": "Dubová"
+        },
+        {
+          "parcel_label": "Častkovce",
+          "NATIONALSI": "SKUEV0103",
+          "SITETITLE_": "Čachtické Karpaty"
+        },
+        {
+          "parcel_label": "Nitrianske Pravno",
+          "NATIONALSI": "SKUEV4032",
+          "SITETITLE_": "Lúky pod Čičermanom"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "1133",
+          "SITETITLE_": "PR Rysia"
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "390",
+          "SITETITLE_": "PP Prielom Nitrice"
+        },
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "133",
+          "SITETITLE_": "PR Pod Homôľkou"
+        },
+        {
+          "parcel_label": "Častkovce",
+          "NATIONALSI": "16",
+          "SITETITLE_": "PP Brehové porasty Dubovej"
+        },
+        {
+          "parcel_label": "Častkovce",
+          "NATIONALSI": "1265",
+          "SITETITLE_": "CHA Čachtické Karpaty"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,67 @@
+[2026-07-28 19:19:23] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/572643'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/572643/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/572643/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, orgánu štátnej vodnej správy pod'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení zmien a doplnení'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 24 ods. 4' zákona '153/2001 Z. z. o prokuratúre v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 24 ods. 4' zákona 'o prokuratúre orgán verejnej správy zašle protest účastníkom konania s výzvou, aby sa v určenej lehote k jeho obsahu vyjadrili a s poučením, že inak s'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/572643/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014927000000000001}
+LLM_tokens: {"input": 6370, "output": 3914, "total": 10284, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/572643/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/572643/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Čadca', 'obec': 'Zborov nad Bystricou', 'katastralne_uzemia': [{'nazov': 'Zborov nad Bystricou', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'u Zuzčákov a Kocifajov', 'nazov_lokality_norm': 'Zuzčákov, Zborov nad Bystricou'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Čadca', 'obec': 'Zborov nad Bystricou', 'katastralne_uzemia': [{'nazov': 'Zborov nad Bystricou', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'u Zuzčákov a Kocifajov', 'nazov_lokality_norm': 'Zuzčákov, Zborov nad Bystricou'}
+ku_name:Zborov nad Bystricou obec:Zborov nad Bystricou okres:Čadca kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: cadca norm_obec: zborov nad bystricou norm_ku: zborov nad bystricou
+_get_nationalCadastralZoningReferences() found_ids: {'872903'}
+nationalCadastralZoningReferences: ['872903']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Zuzčákov, Zborov nad Bystricou
+get_geometry_of_a_geoname nazov_lokality: Zuzčákov, Zborov nad Bystricou
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Zborov nad Bystricou, Zborov nad Bystricou, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Zborov nad Bystricou, Čadca, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Zborov nad Bystricou, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Zborov nad Bystricou, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.3807075, 'lon': 18.8844955, 'formatted_address': '023 03 Zborov nad Bystricou, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 03 Zborov nad Bystricou, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.89922 49.41529, 18.90044 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/572643/gis.geojson...
+Intersections with protected areas...
+Found 10 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Zborov nad Bystricou', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Zborov nad Bystricou', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Zborov nad Bystricou', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Zborov nad Bystricou', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Zborov nad Bystricou', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Zborov nad Bystricou', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Zborov nad Bystricou', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Zborov nad Bystricou', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Zborov nad Bystricou', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Zborov nad Bystricou', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}], 'UEV': [{'parcel_label': 'Zborov nad Bystricou', 'NATIONALSI': 'SKUEV0288', 'SITETITLE_': 'Kysucké Beskydy'}], 'MCHU': [{'parcel_label': 'Zborov nad Bystricou', 'NATIONALSI': '467', 'SITETITLE_': 'OP NPR Veľká Rača'}, {'parcel_label': 'Zborov nad Bystricou', 'NATIONALSI': '467', 'SITETITLE_': 'NPR Veľká Rača'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/572643/analysis.json...
+
+--- Časy spracovania dokumentu 572643 ---
+  download_and_text   :   4.46 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.87 s
+  gis_processing      :   2.31 s
+  CELKOVÝ ČAS         :  23.64 s
+------------------------------------------
+Dokument 572643 bol úspešne spracovaný.

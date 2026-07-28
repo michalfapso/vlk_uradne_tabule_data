@@ -1,0 +1,81 @@
+[2026-07-28 19:13:52] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/572597'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/572597/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.026222}
+LLM_tokens: {"input": 1366, "output": 65536, "total": 66902, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/572597/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v spojení s u'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '364/2004 Z. z. o vodách v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58' zákona 'až'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 65' zákona 'stavebného zákona a v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58' zákona 'až'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 65' zákona 'stavebného zákona a v nadväznosti na'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 1' zákona 'vodného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 10' zákona 'vyhlášky Ministerstva životného prostredia SR č. 453/2000 Z. z., ktorou sa vykonávajú niektoré ustanovenia stavebného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona 'vodného zákona v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'stavebného zákona, povoľuje uskutočniť vodné stavby realizované v rámci hlavnej stavby „EUROPARK, Európska trieda, Košice“ v katastrálnom území Košice'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.043939}
+LLM_tokens: {"input": 69422, "output": 3076, "total": 72498, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/572597/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/572597/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [{'nazov': 'Košice – Nové', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'EUROPARK, Európska trieda, Košice', 'nazov_lokality_norm': 'Európska, Košice'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [{'nazov': 'Košice – Nové', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'EUROPARK, Európska trieda, Košice', 'nazov_lokality_norm': 'Európska, Košice'}
+ku_name:Košice – Nové obec:Košice okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: kosice – nove
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: nove
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: nove
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: nove
+Fuzzy match found: 'Nové' -> 'Inovce' (ID: 821284)
+nationalCadastralZoningReferences: ['821284']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Európska, Košice
+get_geometry_of_a_geoname nazov_lokality: Európska, Košice
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Košice, Košice, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.26683 48.75744, 21.26736 48.75733...  ...  Multifunkčné ihrisko Bruselská - Európska Trie...
+
+[1 rows x 11 columns]
+geoname_query: Európska, Košice, Košice, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((22.36034 48.84023, 22.36042 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.26683 48.75744, 21.26736 48.75733...  ...  Multifunkčné ihrisko Bruselská - Európska Trie...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/572597/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/572597/analysis.json...
+
+--- Časy spracovania dokumentu 572597 ---
+  download_and_text   : 164.83 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  16.75 s
+  gis_processing      :   0.77 s
+  CELKOVÝ ČAS         : 182.36 s
+------------------------------------------
+Dokument 572597 bol úspešne spracovaný.

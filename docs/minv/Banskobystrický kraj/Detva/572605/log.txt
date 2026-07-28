@@ -1,0 +1,56 @@
+[2026-07-28 19:07:52] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/572605'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/572605/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/572605/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§  13 ods. 2' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/572605/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0106745}
+LLM_tokens: {"input": 4873, "output": 2746, "total": 7619, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 59 column 1 (char 1594)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008420150000000001}
+LLM_tokens: {"input": 4873, "output": 2598, "total": 7471, "cached": 4023}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 59 column 1 (char 1627)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00840815}
+LLM_tokens: {"input": 4873, "output": 2594, "total": 7467, "cached": 4023}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/572605/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/572605/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Detva', 'obec': 'Detva', 'katastralne_uzemia': [{'nazov': 'Detva', 'parcely': [{'typ': 'E', 'cisla': ['7643/2']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Kalamárka', 'nazov_lokality_norm': 'Kalamárka'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Detva', 'obec': 'Detva', 'katastralne_uzemia': [{'nazov': 'Detva', 'parcely': [{'typ': 'E', 'cisla': ['7643/2']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Kalamárka', 'nazov_lokality_norm': 'Kalamárka'}
+ku_name:Detva obec:Detva okres:Detva kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: detva norm_obec: detva norm_ku: detva
+_get_nationalCadastralZoningReferences() found_ids: {'810363'}
+nationalCadastralZoningReferences: ['810363']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.97 s
+nazov_lokality: Kalamárka
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1827'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/572605/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '7643/2', 'NATIONALSI': 'SKCHVU022', 'SITETITLE_': 'Poľana'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/572605/analysis.json...
+
+--- Časy spracovania dokumentu 572605 ---
+  download_and_text   :   1.64 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  36.14 s
+  gis_processing      :   4.29 s
+  CELKOVÝ ČAS         :  42.10 s
+------------------------------------------
+Dokument 572605 bol úspešne spracovaný.

@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 15 dní od zverejnenia oznámenia dotknutou obcou"
+  },
+  "ziadatel_navrhovatel": "obec Marianka",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": "Marianka",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "obec Marianka",
+    "nazov_lokality_norm": "Marianka"
+  },
+  "typ_dokumentu": "Oznámenie o strategickom dokumente",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "Klimatický plán obce"
+  ],
+  "rozsah_zasahu": "roky 2025 - 2034",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/klimaticky-plan-obce-marianka-v-sulade-s-phsr-obce-roky-2025-2034",
+  "zakony": [
+    {
+      "nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "6",
+        "6 ods. 3",
+        "6 ods. 5"
+      ]
+    }
+  ],
+  "zhrnutie": "Okresný úrad Malacky informuje verejnosť o strategickom dokumente Klimatický plán obce Marianka na roky 2025 - 2034. Verejnosť môže podávať stanoviská do 15 dní od zverejnenia oznámenia obcou. Dokument je v štádiu zisťovacieho konania o posudzovaní vplyvov na životné prostredie.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "Marianka",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "Marianka",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

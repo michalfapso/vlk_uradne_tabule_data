@@ -1,0 +1,52 @@
+[2026-07-28 19:11:25] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/572595'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/572595/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/572595/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 2' zákona 'zák. č. 543/2002 Z.z.  o ochrane prírody a krajiny v znení neskorších predpisov  - začatie konania  p. č.  CKN 6575/3, 6619/1*5*7*8, 6610/6, 6621/3*10'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/572595/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012968}
+LLM_tokens: {"input": 5410, "output": 3421, "total": 8831, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/572595/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/572595/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Veľké Leváre', 'katastralne_uzemia': [{'nazov': 'Veľké Leváre', 'parcely': [{'typ': 'C', 'cisla': ['6575/3', '6619/1', '6619/5', '6619/7', '6619/8', '6610/6', '6621/3', '6621/10']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Veľké Leváre', 'katastralne_uzemia': [{'nazov': 'Veľké Leváre', 'parcely': [{'typ': 'C', 'cisla': ['6575/3', '6619/1', '6619/5', '6619/7', '6619/8', '6610/6', '6621/3', '6621/10']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Veľké Leváre obec:Veľké Leváre okres:Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: velke levare norm_ku: velke levare
+_get_nationalCadastralZoningReferences() found_ids: {'868191'}
+nationalCadastralZoningReferences: ['868191']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.36 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.277'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.277'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.277'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.277'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.277'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.277'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.277'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.277'}
+
+[8 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/572595/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/572595/analysis.json...
+
+--- Časy spracovania dokumentu 572595 ---
+  download_and_text   :   2.65 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  14.63 s
+  gis_processing      :   4.58 s
+  CELKOVÝ ČAS         :  21.87 s
+------------------------------------------
+Dokument 572595 bol úspešne spracovaný.

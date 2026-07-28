@@ -1,0 +1,67 @@
+[2026-07-28 19:20:27] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14718-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14718-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14718-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008115500000000001}
+LLM_tokens: {"input": 4255, "output": 1996, "total": 6251, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 51 column 1 (char 1629)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00966365}
+LLM_tokens: {"input": 4255, "output": 3114, "total": 7369, "cached": 4013}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Expecting ',' delimiter: line 50 column 2 (char 1580)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009159500000000001}
+LLM_tokens: {"input": 4255, "output": 2344, "total": 6599, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14718-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14718-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': 'Bytča', 'obec': 'Štiavnik', 'katastralne_uzemia': [{'nazov': 'Štiavnik', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'predajňa potravín COOP Jednota Supermarket Štiavnik', 'nazov_lokality_norm': 'COOP Jednota Supermarket, Štiavnik'}
+data: {'kraj': None, 'okres': 'Bytča', 'obec': 'Štiavnik', 'katastralne_uzemia': [{'nazov': 'Štiavnik', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'predajňa potravín COOP Jednota Supermarket Štiavnik', 'nazov_lokality_norm': 'COOP Jednota Supermarket, Štiavnik'}
+ku_name:Štiavnik obec:Štiavnik okres:Bytča kraj:None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: bytca norm_obec: stiavnik norm_ku: stiavnik
+_get_nationalCadastralZoningReferences() found_ids: {'861324'}
+nationalCadastralZoningReferences: ['861324']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: COOP Jednota Supermarket, Štiavnik
+get_geometry_of_a_geoname nazov_lokality: COOP Jednota Supermarket, Štiavnik
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Jednota Supermarket, Štiavnik, Štiavnik, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Jednota Supermarket, Štiavnik, Bytča, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Jednota Supermarket, Štiavnik, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.25793789999999, 'lon': 18.5242033, 'formatted_address': 'Petrovice 97, 013 53 Petrovice, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 97, 013 53 Petrovice, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.41142 49.33682, 18.41164 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14718-2026-6-1/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Štiavnik', 'NATIONALSI': 'SKUEV0642', 'SITETITLE_': 'Javornícky hrebeň'}, {'parcel_label': 'Štiavnik', 'NATIONALSI': 'SKUEV0643', 'SITETITLE_': 'Ráztocké penovcové pramenisko'}], 'MCHU': [{'parcel_label': 'Štiavnik', 'NATIONALSI': '268', 'SITETITLE_': 'PR Hričovec'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/14718-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 14718-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  33.30 s
+  gis_processing      :   2.64 s
+  CELKOVÝ ČAS         :  38.69 s
+------------------------------------------
+Dokument 14718-2026-6-1 bol úspešne spracovaný.

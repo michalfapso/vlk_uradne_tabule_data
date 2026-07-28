@@ -1,0 +1,112 @@
+[2026-07-28 19:08:52] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/572633'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/572633/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/572633/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 2 písm. a)' zákona '251/2012 Z. z. o energetike  a o zmene a doplnení  niektorých zákonov okrem iných povinnosti aj povinnosť'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/572633/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.016338000000000002}
+LLM_tokens: {"input": 4938, "output": 4623, "total": 9561, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/572633/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/572633/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Žiar nad Hronom', 'obec': 'Trnavá Hora, Jastrabá, Pitelová', 'katastralne_uzemia': [{'nazov': 'Trnavá Hora', 'parcely': []}, {'nazov': 'Kľačany', 'parcely': []}, {'nazov': 'Jastrabá', 'parcely': []}, {'nazov': 'Pitelová', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo 22 kV vedenia na VN linke č. 303', 'nazov_lokality_norm': 'VN linka č. 303'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Žiar nad Hronom', 'obec': 'Trnavá Hora, Jastrabá, Pitelová', 'katastralne_uzemia': [{'nazov': 'Trnavá Hora', 'parcely': []}, {'nazov': 'Kľačany', 'parcely': []}, {'nazov': 'Jastrabá', 'parcely': []}, {'nazov': 'Pitelová', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo 22 kV vedenia na VN linke č. 303', 'nazov_lokality_norm': 'VN linka č. 303'}
+ku_name:Trnavá Hora obec:Trnavá Hora, Jastrabá, Pitelová okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: trnava hora norm_ku: trnava hora
+_get_nationalCadastralZoningReferences() found_ids: {'865265'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: jastraba norm_ku: trnava hora
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: trnava hora
+_get_nationalCadastralZoningReferences() found_ids: {'865265'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: pitelova norm_ku: trnava hora
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: trnava hora
+_get_nationalCadastralZoningReferences() found_ids: {'865265'}
+nationalCadastralZoningReferences: ['865265']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.41 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Kľačany obec:Trnavá Hora, Jastrabá, Pitelová okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: trnava hora norm_ku: klacany
+_get_nationalCadastralZoningReferences() found_ids: {'823996'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: jastraba norm_ku: klacany
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: klacany
+_get_nationalCadastralZoningReferences() found_ids: {'823996'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: pitelova norm_ku: klacany
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: klacany
+_get_nationalCadastralZoningReferences() found_ids: {'823996'}
+nationalCadastralZoningReferences: ['823996']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.41 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Jastrabá obec:Trnavá Hora, Jastrabá, Pitelová okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: trnava hora norm_ku: jastraba
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: jastraba
+_get_nationalCadastralZoningReferences() found_ids: {'822485'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: jastraba norm_ku: jastraba
+_get_nationalCadastralZoningReferences() found_ids: {'822485'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: pitelova norm_ku: jastraba
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: jastraba
+_get_nationalCadastralZoningReferences() found_ids: {'822485'}
+nationalCadastralZoningReferences: ['822485']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Pitelová obec:Trnavá Hora, Jastrabá, Pitelová okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: trnava hora norm_ku: pitelova
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: pitelova
+_get_nationalCadastralZoningReferences() found_ids: {'846724'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: jastraba norm_ku: pitelova
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: pitelova
+_get_nationalCadastralZoningReferences() found_ids: {'846724'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: pitelova norm_ku: pitelova
+_get_nationalCadastralZoningReferences() found_ids: {'846724'}
+nationalCadastralZoningReferences: ['846724']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VN linka č. 303
+get_geometry_of_a_geoname nazov_lokality: VN linka č. 303
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka č. 303, Trnavá Hora, Jastrabá, Pitelová, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka č. 303, Žiar nad Hronom, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka č. 303, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka č. 303, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.5926076, 'lon': 18.9497524, 'formatted_address': 'Trnavá Hora 303, 966 11 Trnavá Hora, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hora 303, 966 11 Trnavá Hora, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.98527 48.61148, 18.98555 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.97583 48.63211, 18.97592 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.94338 48.66471, 18.94349 48...
+3  CadastralZoning  ...  MULTIPOLYGON (((18.91006 48.62114, 18.91117 48...
+
+[4 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/572633/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'MCHU'.
+intersections: {'MCHU': [{'parcel_label': 'Kľačany', 'NATIONALSI': '1336', 'SITETITLE_': 'PR Pralesy Slovenska-Snoža'}, {'parcel_label': 'Jastrabá', 'NATIONALSI': '285', 'SITETITLE_': 'OP PP Jastrabská skala'}, {'parcel_label': 'Jastrabá', 'NATIONALSI': '285', 'SITETITLE_': 'PP Jastrabská skala'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/572633/analysis.json...
+
+--- Časy spracovania dokumentu 572633 ---
+  download_and_text   :   1.08 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  20.60 s
+  gis_processing      :   4.89 s
+  CELKOVÝ ČAS         :  26.57 s
+------------------------------------------
+Dokument 572633 bol úspešne spracovaný.

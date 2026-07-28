@@ -1,0 +1,56 @@
+[2026-07-28 19:21:44] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-069828-bra'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-069828-bra/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-069828-bra/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0105635}
+LLM_tokens: {"input": 4507, "output": 2770, "total": 7277, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-069828-bra/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-069828-bra/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Lietavská Lúčka', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Diaľničný privádzač Lietavská Lúčka - Žilina', 'nazov_lokality_norm': 'Diaľničný privádzač Lietavská Lúčka, Žilina'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Lietavská Lúčka', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Diaľničný privádzač Lietavská Lúčka - Žilina', 'nazov_lokality_norm': 'Diaľničný privádzač Lietavská Lúčka, Žilina'}
+Fallback to OBEC: Lietavská Lúčka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: lietavska lucka norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'832138'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Diaľničný privádzač Lietavská Lúčka, Žilina
+get_geometry_of_a_geoname nazov_lokality: Diaľničný privádzač Lietavská Lúčka, Žilina
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** privádzač Lietavská Lúčka, Žilina, Lietavská Lúčka, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** privádzač Lietavská Lúčka, Žilina, Žilina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** privádzač Lietavská Lúčka, Žilina, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** privádzač Lietavská Lúčka, Žilina, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.17542419999999, 'lon': 18.722629, 'formatted_address': '013 11 Lietavská Lúčka, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 11 Lietavská Lúčka, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.72239 49.18454, 18.72333 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-069828-bra/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-069828-bra/analysis.json...
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-069828-bra ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.33 s
+  gis_processing      :   3.13 s
+  CELKOVÝ ČAS         :  15.39 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-069828-bra bol úspešne spracovaný.

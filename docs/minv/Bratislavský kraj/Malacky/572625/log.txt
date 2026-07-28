@@ -1,0 +1,53 @@
+[2026-07-28 19:10:22] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/572625'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/572625/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0002456}
+LLM_tokens: {"input": 334, "output": 595, "total": 929, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/572625/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013536}
+LLM_tokens: {"input": 4458, "output": 3769, "total": 8227, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/572625/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/572625/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Stupava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulica Budovateľská, Bezručova a Školská', 'nazov_lokality_norm': 'Budovateľská, Bezručova, Školská, Stupava'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Stupava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulica Budovateľská, Bezručova a Školská', 'nazov_lokality_norm': 'Budovateľská, Bezručova, Školská, Stupava'}
+Fallback to OBEC: Stupava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: stupava norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (6), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Budovateľská, Bezručova, Školská, Stupava
+get_geometry_of_a_geoname nazov_lokality: Budovateľská, Bezručova, Školská, Stupava
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bezručova, Školská, Stupava, Stupava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bezručova, Školská, Stupava, Malacky, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bezručova, Školská, Stupava, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bezručova, Školská, Stupava, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.268041, 'lon': 17.0329443, 'formatted_address': 'Školská, 900 31 Stupava, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 900 31 Stupava, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 572625 ---
+  download_and_text   :   6.35 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.36 s
+  gis_processing      :   2.63 s
+  CELKOVÝ ČAS         :  25.34 s
+------------------------------------------
+Dokument 572625 bol úspešne spracovaný.

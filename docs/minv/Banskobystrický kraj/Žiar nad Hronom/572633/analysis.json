@@ -1,0 +1,93 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-28",
+  "datum_zverejnenia": "2026-07-28",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žiar nad Hronom",
+    "obec": "Trnavá Hora, Jastrabá, Pitelová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trnavá Hora",
+        "parcely": []
+      },
+      {
+        "nazov": "Kľačany",
+        "parcely": []
+      },
+      {
+        "nazov": "Jastrabá",
+        "parcely": []
+      },
+      {
+        "nazov": "Pitelová",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "ochranné pásmo 22 kV vedenia na VN linke č. 303",
+    "nazov_lokality_norm": "VN linka č. 303"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o plánovanom výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub porastov",
+    "odstraňovanie a okliesňovanie stromov"
+  ],
+  "rozsah_zasahu": "porasty v ochrannom pásme 22 kV vedenia na VN linke č. 303",
+  "typ_uzemia": [
+    "ochranné pásmo 22 kV vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "cislo": "251/2012 Z. z.",
+      "paragrafy": [
+        "11 ods. 2 písm. a)"
+      ]
+    }
+  ],
+  "zhrnutie": "Stredoslovenská distribučná, a.s. oznámila plánovaný výrub a okliesňovanie porastov v ochrannom pásme 22 kV vedenia (linka č. 303) na nelesných pozemkoch v katastroch Trnavá Hora, Kľačany, Jastrabá a Pitelová. Práce sa majú realizovať v období august až október 2026 z dôvodu bezpečnosti prevádzky elektrických zariadení. Dokument slúži ako oficiálne oznámenie o plánovanom výrube pre verejnosť.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Kľačany",
+          "NATIONALSI": "1336",
+          "SITETITLE_": "PR Pralesy Slovenska-Snoža"
+        },
+        {
+          "parcel_label": "Jastrabá",
+          "NATIONALSI": "285",
+          "SITETITLE_": "OP PP Jastrabská skala"
+        },
+        {
+          "parcel_label": "Jastrabá",
+          "NATIONALSI": "285",
+          "SITETITLE_": "PP Jastrabská skala"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}
