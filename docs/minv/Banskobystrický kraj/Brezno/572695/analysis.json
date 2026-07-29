@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-07-29",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Ľubica Gordanová",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Šumiac",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šumiac",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1587/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": null,
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "13",
+        "82 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19 ods. 1"
+      ]
+    }
+  ],
+  "zhrnutie": "Začiatok správneho konania o vydanie súhlasu podľa § 13 zákona o ochrane prírody v 2. stupni ochrany. Žiadosť podala Ľubica Gordanová pre parcelu v katastrálnom území Šumiac. Konkrétny typ zásahu nie je v dokumente špecifikovaný.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "1587/2",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,70 @@
+[2026-07-29 19:08:07] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/572681'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/572681/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/572681/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako  prísl'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona '364/2004 Z. z. o vodách a  o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších  predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom  poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84' zákona '25/2025 Zb. stavebný zákon a o zmene a doplnení niektorých  zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 2' zákona 'stavebného zákona      stavebníkovi: Trnavská vodárenská spoločnosť a.s., Priemyselná 10, 921 79 Piešťany,                           IČO 36 252 484'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69' zákona 'stavebného zákona      stavebníkovi: Trnavská vodárenská spoločnosť a.s., Priemyselná 10, 921 79 Piešťany,                           IČO 36 252 484'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona '25/2025 Zb. stavebný zákon a o zmene a doplnení niektorých  zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona 'stavebného zákona upustil od ústneho pojednávania  a miestneho zisťovania, nakoľko žiadosť poskytovala dostatočný podklad pre riadne  a spoľahlivé pos'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 62' zákona 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona a zistil, že podklady zostali  nezmenené a predĺžením platnosti povolenia na uskutočnenie vodnej stavby nebudú ohrozené  verejné záujmy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. a)' zákona 'sadzobníka  správnych poplatkov zákona č. 145/1995 Z. z. o správnych poplatkoch v znení neskorších  predpisov, stavebník uhradil bankovým prevodom'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69 ods. 2' zákona 'stavebného zákona a musí byť vyvesené po dobu 15 dní na úradnej tabuli správneho orgánu a  príslušnej obce. Posledný deň tejto lehoty je dňom doručeni'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona     Projektantovi :  5. Banské projekty, s.r.o., Miletičova 23, 821 09 Bratislava - Ing. Ľuboš Hollý     Dotknutým orgánom:  6. Slov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/572681/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0140395}
+LLM_tokens: {"input": 9119, "output": 3160, "total": 12279, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 110 column 1 (char 2921)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0167815}
+LLM_tokens: {"input": 9119, "output": 4074, "total": 13193, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/572681/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/572681/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Hlohovec', 'obec': 'Horné Otrokovce', 'katastralne_uzemia': [{'nazov': 'Horné Otrokovce', 'parcely': [{'typ': 'C', 'cisla': ['135/4', '193/1', '193/4', '193/10', '193/15', '193/16', '193/17', '193/22', '191/17']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'vrt HGO-2 Horné Otrokovce', 'nazov_lokality_norm': 'HGO-2, Horné Otrokovce'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Hlohovec', 'obec': 'Horné Otrokovce', 'katastralne_uzemia': [{'nazov': 'Horné Otrokovce', 'parcely': [{'typ': 'C', 'cisla': ['135/4', '193/1', '193/4', '193/10', '193/15', '193/16', '193/17', '193/22', '191/17']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'vrt HGO-2 Horné Otrokovce', 'nazov_lokality_norm': 'HGO-2, Horné Otrokovce'}
+ku_name:Horné Otrokovce obec:Horné Otrokovce okres:Hlohovec kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: hlohovec norm_obec: horne otrokovce norm_ku: horne otrokovce
+_get_nationalCadastralZoningReferences() found_ids: {'818127'}
+nationalCadastralZoningReferences: ['818127']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.54 s
+nazov_lokality: HGO-2, Horné Otrokovce
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.400'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.400'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.400'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.400'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.400'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.400'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.400'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.400'}
+8  CadastralParcel  ...  {'@href': '#auAdmUnitS.400'}
+
+[9 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/572681/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/572681/analysis.json...
+
+--- Časy spracovania dokumentu 572681 ---
+  download_and_text   :   1.54 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  32.46 s
+  gis_processing      :   3.75 s
+  CELKOVÝ ČAS         :  37.76 s
+------------------------------------------
+Dokument 572681 bol úspešne spracovaný.

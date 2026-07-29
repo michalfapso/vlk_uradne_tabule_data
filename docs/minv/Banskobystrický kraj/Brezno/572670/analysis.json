@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-07-29",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Ján Kvietok a Martina Kvietková",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "7075/118"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Kiepka 36",
+    "nazov_lokality_norm": "Kiepka, Brezno"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť Jána a Martiny Kvietkových o vydanie súhlasu na výrub drevín na parcele 7075/118 v k. ú. Brezno. Ide o oznámenie o začatí správneho konania, kde je lehota na prihlásenie záujemcov 5 pracovných dní od zverejnenia. Lokalita sa nachádza pravdepodobne v zastavanom území obce.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

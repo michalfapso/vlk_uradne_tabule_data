@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-RK-OSZP-2026/010453",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-29",
+  "datum_zverejnenia": "2026-07-29",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia informácie na doručenie potvrdenia záujmu; lehota do 3 dní odo dňa potvrdenia záujmu na vyjadrenie k veci"
+  },
+  "ziadatel_navrhovatel": "Lesy SR, š.p., Organizačná zložka OZ Tatry Liptovský Hrádok",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Ružomberok",
+    "obec": "Ružomberok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Biely Potok",
+        "parcely": []
+      },
+      {
+        "nazov": "Liptovská Osada",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Lesný celok Liptovská Osada - Biely Potok, lesný porast č. 1455_1",
+    "nazov_lokality_norm": "Liptovská Osada, Biely Potok"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "asanačná ťažba",
+    "ťažba smreka"
+  ],
+  "rozsah_zasahu": "50 m3",
+  "typ_uzemia": [
+    "Národný park Nízke Tatry",
+    "Zóna A",
+    "Chránené vtáčie územie Nízke Tatry",
+    "5. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vtáky",
+    "smrek obyčajný",
+    "lykožrút smrekový"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "§ 82 ods.7"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "§ 19 ods. 1"
+      ]
+    }
+  ],
+  "zhrnutie": "Začatie správneho konania vo veci zákazu ohlásenej asanačnej ťažby smreka v objeme 50 m3. Zásah sa nachádza v zóne A Národného parku Nízke Tatry a CHVÚ Nízke Tatry. Účelom konania je zabezpečenie ochrany chránených druhov vtákov.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

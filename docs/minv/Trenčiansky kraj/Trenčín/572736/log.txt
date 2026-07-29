@@ -1,0 +1,54 @@
+[2026-07-29 19:07:47] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572736'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572736/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572736/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§1 ods.1 písm. b)' zákona '525/2003 Z.z. o štátnej  správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, na základe  žiadosti spoločnosti HES – CO'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 1' zákona '525/2003 Z.z. o štátnej  správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, na základe  žiadosti spoločnosti HES – CO'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13 ods. 2 písm. f)' zákona '– o vydanie súhlasu  na vykonávanie technických geologických prác v druhom stupni ochrany prírody.    Podľa odborného stanoviska v blízkosti osady Grú'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2' zákona '145/1995 Z. z. o správnych poplatkoch v znení neskorších predpisov a podľa  Sadzobníka správnych poplatkov časť X. Životné prostredie, Položka 160, bo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3  ods. 1' zákona '145/1995 Z. z. o správnych poplatkoch v znení neskorších predpisov a podľa  Sadzobníka správnych poplatkov časť X. Životné prostredie, Položka 160, bo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona '. Tieto sa môžu podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82  ods. 3' zákona 'do 5 pracovných dní od zverejnenia tohto oznámenia na internetovej stránke  orgánu ochrany prírody, písomne alebo elektronickou poštou  prihlásiť za z'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572736/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.015489000000000001}
+LLM_tokens: {"input": 6030, "output": 4158, "total": 10188, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572736/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572736/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Nová Bošáca', 'katastralne_uzemia': [{'nazov': 'Nová Bošáca', 'parcely': [{'typ': 'C', 'cisla': ['9988/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'osada Grúň', 'nazov_lokality_norm': 'Grúň, Nová Bošáca'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Nová Bošáca', 'katastralne_uzemia': [{'nazov': 'Nová Bošáca', 'parcely': [{'typ': 'C', 'cisla': ['9988/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'osada Grúň', 'nazov_lokality_norm': 'Grúň, Nová Bošáca'}
+ku_name:Nová Bošáca obec:Nová Bošáca okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: nova bosaca norm_ku: nova bosaca
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: nova bosaca
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: nova bosaca
+_get_nationalCadastralZoningReferences() found_ids: {'841501'}
+nationalCadastralZoningReferences: ['841501']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.14 s
+nazov_lokality: Grúň, Nová Bošáca
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1131'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572736/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': '9988/1', 'NATIONALSI': 'SKUEV0367', 'SITETITLE_': 'Holubyho kopanice'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572736/analysis.json...
+
+--- Časy spracovania dokumentu 572736 ---
+  download_and_text   :   1.55 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.00 s
+  gis_processing      :   3.37 s
+  CELKOVÝ ČAS         :  19.93 s
+------------------------------------------
+Dokument 572736 bol úspešne spracovaný.

@@ -1,0 +1,56 @@
+[2026-07-29 19:09:15] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572680'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572680/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572680/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 15 ods. 1 písm. a)' zákona 'konkrétne v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 1 písm.  a)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'b)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'd)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'e)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'f)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie písomného alebo elektronického potvrdenia  záujmu byť zúčastnenou osobou, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ', v začatom správnom konaní je do:  05. 08. 2026.    Potvrdenie záujmu byť v konkrétnom správnom konaní je potrebné doručiť Okresnému úradu  Trnava, o'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572680/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014801000000000002}
+LLM_tokens: {"input": 5476, "output": 4021, "total": 9497, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572680/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572680/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Gabčíkovo', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Gabčíkovo', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+Fallback to OBEC: Gabčíkovo
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: gabcikovo norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: None norm_obec: gabcikovo norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'814440'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.5542 47.92116, 17.55505 47....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572680/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Gabčíkovo', 'NATIONALSI': 'SKUEV0227', 'SITETITLE_': 'Čiližské močiare'}, {'parcel_label': 'Gabčíkovo', 'NATIONALSI': 'SKUEV0090', 'SITETITLE_': 'Dunajské luhy'}, {'parcel_label': 'Gabčíkovo', 'NATIONALSI': 'SKUEV0093', 'SITETITLE_': 'Severný Bodícky kanál'}], 'MCHU': [{'parcel_label': 'Gabčíkovo', 'NATIONALSI': '1177', 'SITETITLE_': 'CHA Čiližské močiare'}, {'parcel_label': 'Gabčíkovo', 'NATIONALSI': '932', 'SITETITLE_': 'CHA Gabčíkovský park'}], 'CHVU': [{'parcel_label': 'Gabčíkovo', 'NATIONALSI': 'SKCHVU007', 'SITETITLE_': 'Dunajské luhy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/572680/analysis.json...
+
+--- Časy spracovania dokumentu 572680 ---
+  download_and_text   :   1.55 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  18.34 s
+  gis_processing      :   0.57 s
+  CELKOVÝ ČAS         :  20.48 s
+------------------------------------------
+Dokument 572680 bol úspešne spracovaný.

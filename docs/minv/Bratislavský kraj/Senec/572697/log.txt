@@ -1,0 +1,62 @@
+[2026-07-29 19:01:07] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572697'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572697/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572697/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona 'pís. g) a h) zákona č.543/2002  Z. z. o ochrane prírody a krajiny v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '251/2012 Z.z. o energetike.    Okliesnenie a výruby drevín budú vykonané v zákonnom ochrannom pásme elektrických vedení 400kV,  vedenie č. 429 TR: P'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'a)   vydá súhlasné stanovisko k oznámenému výrubu,   b)   výrub obmedzí, zakáže alebo určí podmienky jeho uskutočnenia, ak si to vyžadujú záujmy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572697/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010193}
+LLM_tokens: {"input": 6322, "output": 2344, "total": 8666, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572697/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572697/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Studené', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo elektrických vedení 400kV, vedenie č. 429 TR: P. Biskupice - Gabčíkovo', 'nazov_lokality_norm': 'P. Biskupice - Gabčíkovo'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Studené', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo elektrických vedení 400kV, vedenie č. 429 TR: P. Biskupice - Gabčíkovo', 'nazov_lokality_norm': 'P. Biskupice - Gabčíkovo'}
+ku_name:Studené obec:None okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: None norm_ku: studene
+_get_nationalCadastralZoningReferences() found_ids: {'838519'}
+nationalCadastralZoningReferences: ['838519']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: P. Biskupice - Gabčíkovo
+get_geometry_of_a_geoname nazov_lokality: P. Biskupice - Gabčíkovo
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Biskupice - Gabčíkovo, Senec, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Biskupice - Gabčíkovo, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Biskupice - Gabčíkovo, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.2170352, 'lon': 17.4061427, 'formatted_address': '903 01 Senec, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Senec, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.29694 48.14532, 17.29699 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572697/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572697/analysis.json...
+
+--- Časy spracovania dokumentu 572697 ---
+  download_and_text   :   1.29 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   9.69 s
+  gis_processing      :   2.52 s
+  CELKOVÝ ČAS         :  13.52 s
+------------------------------------------
+Dokument 572697 bol úspešne spracovaný.

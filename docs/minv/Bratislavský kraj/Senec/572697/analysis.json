@@ -1,0 +1,72 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2026/026212",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-29",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "LESOSTAV SEVER s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Senec",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Studené",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo elektrických vedení 400kV, vedenie č. 429 TR: P. Biskupice - Gabčíkovo",
+    "nazov_lokality_norm": "P. Biskupice - Gabčíkovo"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "plánovaný výrub drevín",
+    "okliesnenie drevín"
+  ],
+  "rozsah_zasahu": "v ochranných pásmach elektrických vedení 400kV, vedenie č. 429",
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "68 pís. g)",
+        "68 pís. h)",
+        "47 ods. 7",
+        "47 ods. 8",
+        "82 ods. 7"
+      ]
+    },
+    {
+      "nazov": "Zákon o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012 Z. z.",
+      "paragrafy": [
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a okliesňovaní drevín spoločnosťou LESOSTAV SEVER s.r.o. v ochrannom pásme 400kV elektrického vedenia v k.ú. Studené. Výrub je odôvodnený bezpečnosťou prevádzky energetických zariadení podľa zákona o energetike. Dokument nepredstavuje informáciu o začatom správnom konaní a verejnosť nemá v tejto fáze povolenú účasť.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

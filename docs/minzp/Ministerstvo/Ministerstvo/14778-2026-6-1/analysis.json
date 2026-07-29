@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": "14778/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-29",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Okresné riaditeľstvo Hasičského a záchranného zboru v Piešťanoch",
+  "miesto_realizacie": {
+    "kraj": "Ministerstvo",
+    "okres": "Ministerstvo",
+    "obec": "Piešťany",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "rieka Váh - VN Sĺňava",
+    "nazov_lokality_norm": "Sĺňava"
+  },
+  "typ_dokumentu": "Oznámenie o žiadosti o vydanie súhlasu a povolenie výnimky",
+  "kategorie_vlk": [
+    "VJAZD_VOZIDLA",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "vykonávanie protipovodňových výcvikov"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Okresné riaditeľstvo HaZZ v Piešťanoch žiada o povolenie výnimky a súhlas na vykonávanie protipovodňových výcvikov na rieke Váh - VN Sĺňava. Konanie sa nachádza v počiatočnej fáze, pričom záujem o účasť je potrebné potvrdiť do 5 pracovných dní od zverejnenia. Žiadosť sa týka územia chráneného podľa zákona o ochrane prírody a krajiny.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Piešťany",
+          "NATIONALSI": "155",
+          "SITETITLE_": "CHA Sĺňava"
+        },
+        {
+          "parcel_label": "Piešťany",
+          "NATIONALSI": "155",
+          "SITETITLE_": "CHA Sĺňava"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Piešťany",
+          "NATIONALSI": "SKCHVU026",
+          "SITETITLE_": "Sĺňava"
+        },
+        {
+          "parcel_label": "Piešťany",
+          "NATIONALSI": "SKCHVU026",
+          "SITETITLE_": "Sĺňava"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

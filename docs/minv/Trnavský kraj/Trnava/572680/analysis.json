@@ -1,0 +1,96 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP1-2026/095329-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-29",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 05. 08. 2026"
+  },
+  "ziadatel_navrhovatel": "mesto Gabčíkovo",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Gabčíkovo",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "realizácia kultúrnych a spoločenských podujatí",
+    "tréningy a majstrovské zápasy futbalových mládežníckych družstiev a mužstva dospelých",
+    "povolenie výnimiek zo zakázanej činnosti"
+  ],
+  "rozsah_zasahu": "kultúrne, spoločenské a športové podujatia v 4. stupni ochrany",
+  "typ_uzemia": [
+    "4. stupeň",
+    "3. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82 ods. 7",
+        "15 ods. 1 písm. a)",
+        "14 ods. 1 písm. a)",
+        "14 ods. 1 písm. b)",
+        "14 ods. 1 písm. d)",
+        "14 ods. 1 písm. e)",
+        "14 ods. 1 písm. f)",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Mesto Gabčíkovo žiada o výnimky zo zákazov v 4. stupni ochrany z dôvodu organizovania kultúrnych a športových podujatí (najmä futbalové zápasy a tréningy). Správne konanie sa začalo 24. 07. 2026 na Okresnom úrade Trnava. Záujemcovia o účasť v konaní sa môžu prihlásiť do 05. 08. 2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Gabčíkovo",
+          "NATIONALSI": "SKUEV0227",
+          "SITETITLE_": "Čiližské močiare"
+        },
+        {
+          "parcel_label": "Gabčíkovo",
+          "NATIONALSI": "SKUEV0090",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "Gabčíkovo",
+          "NATIONALSI": "SKUEV0093",
+          "SITETITLE_": "Severný Bodícky kanál"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Gabčíkovo",
+          "NATIONALSI": "1177",
+          "SITETITLE_": "CHA Čiližské močiare"
+        },
+        {
+          "parcel_label": "Gabčíkovo",
+          "NATIONALSI": "932",
+          "SITETITLE_": "CHA Gabčíkovský park"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Gabčíkovo",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

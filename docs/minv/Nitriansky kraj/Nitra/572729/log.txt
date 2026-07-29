@@ -1,0 +1,58 @@
+[2026-07-29 19:03:25] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/572729'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/572729/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/572729/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 29 ods. 2 písm. d)' zákona '25/2025 Stavebný zákon a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. 1' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona verejnou vyhláškou v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods. 3' zákona 'stavebného zákona a vzhľadom na to, že špeciálnemu stavebnému úradu sú dobre známe pomery staveniska a žiadosť poskytuje dostatočný podklad pre posúde'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53 ods. 2' zákona 'stavebného zákona upúšťa od miestneho zisťovania a od ústneho pojednávania. Vzhľadom na to, že spisový materiál je kompletný, Vám špeciálny stavebný ú'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods. 3' zákona 'stavebného zákona a musí byť vyvesené po dobu 15 dní na úradnej tabuli Obce Lúčnica nad Žitavou a Okresného úradu Nitra a na webovom sídle Okresného ú'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods. 3' zákona 'stavebného zákona a'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/572729/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013816}
+LLM_tokens: {"input": 8000, "output": 3272, "total": 11272, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/572729/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/572729/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Lúčnica nad Žitavou', 'katastralne_uzemia': [{'nazov': 'Martinová', 'parcely': [{'typ': 'C', 'cisla': ['122/3', '121/5']}, {'typ': 'E', 'cisla': ['161', '159']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Obytná zóna - Martinová', 'nazov_lokality_norm': 'Martinová'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Lúčnica nad Žitavou', 'katastralne_uzemia': [{'nazov': 'Martinová', 'parcely': [{'typ': 'C', 'cisla': ['122/3', '121/5']}, {'typ': 'E', 'cisla': ['161', '159']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Obytná zóna - Martinová', 'nazov_lokality_norm': 'Martinová'}
+ku_name:Martinová obec:Lúčnica nad Žitavou okres:Nitra kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nitra norm_obec: lucnica nad zitavou norm_ku: martinova
+_get_nationalCadastralZoningReferences() found_ids: {'834050'}
+nationalCadastralZoningReferences: ['834050']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.38 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.03 s
+nazov_lokality: Martinová
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2668'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2668'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2668'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2668'}
+
+[4 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/572729/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/572729/analysis.json...
+
+--- Časy spracovania dokumentu 572729 ---
+  download_and_text   :   1.43 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.45 s
+  gis_processing      :   6.63 s
+  CELKOVÝ ČAS         :  20.51 s
+------------------------------------------
+Dokument 572729 bol úspešne spracovaný.

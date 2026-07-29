@@ -1,0 +1,55 @@
+[2026-07-29 19:07:27] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572737'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572737/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572737/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1 písm. b)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572737/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0126145}
+LLM_tokens: {"input": 7067, "output": 3027, "total": 10094, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572737/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572737/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Stará Turá', 'katastralne_uzemia': [{'nazov': 'Stará Turá', 'parcely': [{'typ': 'C', 'cisla': ['1036/7']}, {'typ': 'E', 'cisla': ['139/16', '1031/33', '764/11']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'vodný tok Tŕstie', 'nazov_lokality_norm': 'Tŕstie'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Stará Turá', 'katastralne_uzemia': [{'nazov': 'Stará Turá', 'parcely': [{'typ': 'C', 'cisla': ['1036/7']}, {'typ': 'E', 'cisla': ['139/16', '1031/33', '764/11']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'vodný tok Tŕstie', 'nazov_lokality_norm': 'Tŕstie'}
+ku_name:Stará Turá obec:Stará Turá okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: stara tura norm_ku: stara tura
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: stara tura
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: stara tura
+_get_nationalCadastralZoningReferences() found_ids: {'858251'}
+nationalCadastralZoningReferences: ['858251']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.14 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.12 s
+nazov_lokality: Tŕstie
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.595'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.595'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.595'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.595'}
+
+[4 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572737/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/572737/analysis.json...
+
+--- Časy spracovania dokumentu 572737 ---
+  download_and_text   :   1.38 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.83 s
+  gis_processing      :   6.50 s
+  CELKOVÝ ČAS         :  20.71 s
+------------------------------------------
+Dokument 572737 bol úspešne spracovaný.

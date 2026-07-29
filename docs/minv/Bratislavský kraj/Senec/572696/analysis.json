@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2026/026083",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-29",
+  "datum_zverejnenia": "2026-07-29",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "v lehote 15 pracovných dní od doručenia oznámenia (doručené dňa 27.07.2026)"
+  },
+  "ziadatel_navrhovatel": "LESOSTAV SEVER s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Senec",
+    "obec": "Hrubý Šúr",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hrubý Šúr",
+        "parcely": []
+      },
+      {
+        "nazov": "Studené",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo elektrických vedení 400kV, vedenie č. 439 TR: Križovany – P. Biskupice",
+    "nazov_lokality_norm": "Križovany – Podunajské Biskupice"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "okliesnenie drevín",
+    "odstraňovanie stromov a iných porastov"
+  ],
+  "rozsah_zasahu": "ochranné pásmo elektrických vedení 400kV",
+  "typ_uzemia": [
+    "ochranné pásmo elektrických vedení"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 7",
+        "47 ods. 8",
+        "68 pís. g)",
+        "68 pís. h)",
+        "82 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012 Z. z.",
+      "paragrafy": [
+        "43"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Spoločnosť LESOSTAV SEVER s.r.o. oznámila plánovaný výrub a okliesnenie drevín v ochrannom pásme 400kV elektrického vedenia č. 439 v katastroch Hrubý Šúr a Studené. Výrub sa realizuje z dôvodu bezpečnosti energetických zariadení podľa zákona o energetike s termínom do januára 2027. Orgán ochrany prírody má 15 pracovných dní na prípadné obmedzenie alebo zákaz výrubu.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Hrubý Šúr",
+          "NATIONALSI": "SKUEV0822",
+          "SITETITLE_": "Malý Dunaj"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

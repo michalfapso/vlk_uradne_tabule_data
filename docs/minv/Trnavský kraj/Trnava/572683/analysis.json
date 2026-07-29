@@ -1,0 +1,98 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2026/085605-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-29",
+  "datum_zverejnenia": "2026-07-29",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 8 pracovných dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Biatec Development, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Trnava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trnava",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "7874/1",
+              "7875",
+              "7874/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Bytový dom Green Tirna",
+    "nazov_lokality_norm": "Green Tirna, Trnava"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE",
+    "CHEMIA"
+  ],
+  "typ_zasahu": [
+    "uskutočnenie vodných stavieb",
+    "areálová dažďová kanalizácia",
+    "odlučovač ropných látok",
+    "vypúšťanie vôd z povrchového odtoku do podzemných vôd",
+    "vsakovacie vrty"
+  ],
+  "rozsah_zasahu": "dažďová kanalizácia pre plochy 750 m2 a 1895 m2, odlučovač ropných látok 15 l/s, 2 vsakovacie vrty hĺbky 20 m",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "21",
+        "26",
+        "61",
+        "73"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "61",
+        "120"
+      ]
+    },
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "Zákon o priestupkoch",
+      "cislo": "372/1990",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Zákon",
+      "cislo": "25/2025",
+      "paragrafy": [
+        "84"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania pre stavbu bytového domu Green Tirna v Trnave. Projekt rieši dažďovú kanalizáciu s odlučovačom ropných látok a vypúšťanie prečistených zrážkových vôd do podzemných vôd cez hĺbkové vsakovacie vrty. Zásah sa realizuje v zastavanom území mesta na parcelách registra C.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

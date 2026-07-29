@@ -1,0 +1,54 @@
+[2026-07-29 18:55:22] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572694'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572694/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572694/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572694/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0110215}
+LLM_tokens: {"input": 5273, "output": 2795, "total": 8068, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 65 column 1 (char 1675)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0085549}
+LLM_tokens: {"input": 5273, "output": 2577, "total": 7850, "cached": 4028}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 65 column 1 (char 1627)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010504900000000001}
+LLM_tokens: {"input": 5273, "output": 3227, "total": 8500, "cached": 4028}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572694/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572694/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Jasenie', 'katastralne_uzemia': [{'nazov': 'Jasenie', 'parcely': [{'typ': 'C', 'cisla': ['2487']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Jasenie', 'katastralne_uzemia': [{'nazov': 'Jasenie', 'parcely': [{'typ': 'C', 'cisla': ['2487']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Jasenie obec:Jasenie okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: jasenie norm_ku: jasenie
+_get_nationalCadastralZoningReferences() found_ids: {'822302'}
+nationalCadastralZoningReferences: ['822302']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.61 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1691'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572694/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/572694/analysis.json...
+
+--- Časy spracovania dokumentu 572694 ---
+  download_and_text   :   1.47 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  34.53 s
+  gis_processing      :   3.90 s
+  CELKOVÝ ČAS         :  39.92 s
+------------------------------------------
+Dokument 572694 bol úspešne spracovaný.

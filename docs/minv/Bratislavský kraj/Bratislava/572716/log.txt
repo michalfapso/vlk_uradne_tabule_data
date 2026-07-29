@@ -1,0 +1,98 @@
+[2026-07-29 18:58:09] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572716'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572716/orig.doc
+Converting document to text...
+LibreOffice conversion stdout: convert /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572716/orig.doc as a Writer document -> /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572716/orig.txt using filter : Text
+
+LibreOffice conversion stderr: 
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572716/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 5' zákona '85/1990 Zb. o petičnom práve v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 5' zákona 'o petičnom práve, príslušný orgán verejnej moci je povinný prešetriť a vybaviť petíciu tak, aby zistil skutočný stav veci, jeho súlad alebo rozpor s p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 4' zákona 'zástupcovi.   Petíciou „Za zachovanie prírodného a rekreačného charakteru Zlatých pieskov“ vyjadrili občania, návštevníci a užívatelia lokality Zlaté'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1' zákona 'o petičnom práve a preto doručené podanie vybavoval podľa tohto zákona. Príslušný orgán zistil, že podanie obsahuje všetky predpísané náležitosti podľ'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona 'o petičnom práve a to písomnú formu, predmet  verejného  záujmu alebo iného spoločného záujmu.  Po preskúmaní a prešetrení obsahu petície   Okresný úr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 písm. d)' zákona 'o posudzovaní'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 29 ods. 14' zákona 'o posudzovaní príslušný orgán požiadal dotknutú obec, aby o záväznom stanovisku zo zisťovacieho konania informovala verejnosť. V záväznom stanovisku z'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 1' zákona 'OPK) a aby bola zabezpečená ich ochrana v zmysle STN 83 7010 Ochrana prírody, Ošetrovanie, udržiavanie a ochrana stromovej vegetácie, podľa ktorej'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 44 ods. 1' zákona '25/2025 Z.z. Stavebný zákon a o zmene a doplnení niektorých zákonov, podľa ktorého stavbyvedúci'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 38 ods. 6' zákona 'o posudzovaní rozhodnutie povoľujúceho orgánu musí obsahovať podmienky, ktoré určil príslušný orgán v záväznom stanovisku  zo zisťovacieho konania. To'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 3' zákona '85/1990 Zb. o petičnom práve postúpená Mestskej časti Bratislava – Ružinov ako vecne príslušnému orgánu, o čom bol zástupca petície upovedomený'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572716/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.020571000000000002}
+LLM_tokens: {"input": 9798, "output": 5224, "total": 15022, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572716/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572716/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava - Ružinov', 'katastralne_uzemia': [{'nazov': 'Trnávka', 'parcely': [{'typ': 'C', 'cisla': ['16868/1', '16868/3', '16868/42', '16868/43', '16868/46', '16868/47', '16868/99', '16868/100', '16868/101', '16868/102', '16868/117', '16868/132', '16868/139', '16868/140', '16868/178', '16868/179', '16868/213', '16780/1', '16780/7', '16883/1', '16999/5', '17054/21', '17054/22', '16869/26', '16882/26', '16882/27', '16981/52', '16981/53', '16981/54', '16981/55', '16868/171', '16868/177', '16868/196', '16868/49', '17054/2', '17054/4', '6182/2', '16868/63', '16981/3', '16981/4', '16869/4']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Zlaté piesky', 'nazov_lokality_norm': 'Zlaté piesky'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava - Ružinov', 'katastralne_uzemia': [{'nazov': 'Trnávka', 'parcely': [{'typ': 'C', 'cisla': ['16868/1', '16868/3', '16868/42', '16868/43', '16868/46', '16868/47', '16868/99', '16868/100', '16868/101', '16868/102', '16868/117', '16868/132', '16868/139', '16868/140', '16868/178', '16868/179', '16868/213', '16780/1', '16780/7', '16883/1', '16999/5', '17054/21', '17054/22', '16869/26', '16882/26', '16882/27', '16981/52', '16981/53', '16981/54', '16981/55', '16868/171', '16868/177', '16868/196', '16868/49', '17054/2', '17054/4', '6182/2', '16868/63', '16981/3', '16981/4', '16869/4']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Zlaté piesky', 'nazov_lokality_norm': 'Zlaté piesky'}
+ku_name:Trnávka obec:Bratislava - Ružinov okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava - ruzinov norm_ku: trnavka
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: None norm_ku: trnavka
+_get_nationalCadastralZoningReferences() found_ids: {'805343'}
+nationalCadastralZoningReferences: ['805343']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.97 s
+nazov_lokality: Zlaté piesky
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+39  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+40  CadastralParcel  ...  {'@href': '#auAdmUnitS.2397'}
+
+[41 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572716/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/572716/analysis.json...
+
+--- Časy spracovania dokumentu 572716 ---
+  download_and_text   :   2.61 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  23.56 s
+  gis_processing      :   4.22 s
+  CELKOVÝ ČAS         :  30.39 s
+------------------------------------------
+Dokument 572716 bol úspešne spracovaný.
