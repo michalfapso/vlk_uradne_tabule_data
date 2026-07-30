@@ -1,0 +1,48 @@
+[2026-07-30 19:15:46] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/572796'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/572796/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0003352}
+LLM_tokens: {"input": 334, "output": 819, "total": 1153, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/572796/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/572796/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0098}
+LLM_tokens: {"input": 6010, "output": 2265, "total": 8275, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/572796/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/572796/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Spišská Nová Ves', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'rokline Kyseľ, Obrovský vodopád', 'nazov_lokality_norm': 'Kyseľ'}
+data: {'kraj': 'Košický kraj', 'okres': 'Spišská Nová Ves', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'rokline Kyseľ, Obrovský vodopád', 'nazov_lokality_norm': 'Kyseľ'}
+No geometries were found.
+nazov_lokality: Kyseľ
+get_geometry_of_a_geoname nazov_lokality: Kyseľ
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Spišská Nová Ves, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.9361542, 'lon': 20.3977523, 'formatted_address': 'Malý Kyseľ, 053 15 Hrabušice, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kyseľ, 053 15 Hrabušice, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 572796 ---
+  download_and_text   :   5.42 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  10.57 s
+  gis_processing      :   1.69 s
+  CELKOVÝ ČAS         :  17.68 s
+------------------------------------------
+Dokument 572796 bol úspešne spracovaný.

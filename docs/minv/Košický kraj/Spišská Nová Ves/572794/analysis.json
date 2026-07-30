@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-30",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Košice Región Turizmus",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Spišská Nová Ves",
+    "obec": "Smíľany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Smíľany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2262/21"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Národný park Slovenský raj",
+    "nazov_lokality_norm": "Slovenský raj"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "osadenie drevených prvkov",
+    "umiestnenie informačnej konštrukcie"
+  ],
+  "rozsah_zasahu": "osadenie drevených prvkov – postavičiek Haravara spolu s informačnou tabuľou",
+  "typ_uzemia": [
+    "Národný park Slovenský raj",
+    "3. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "14 ods. 2 písm. b)",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Konanie o vydanie súhlasu na osadenie drevených turistických prvkov a informačnej tabule v k. ú. Smíľany (Smižany). Činnosť je plánovaná v chránenom území Národného parku Slovenský raj, kde platí 3. stupeň ochrany. Žiadateľom je organizácia Košice Región Turizmus.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UNESCO": [
+        {
+          "parcel_label": "2262/21",
+          "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
+          "Kod_chrane": "UN01"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

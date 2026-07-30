@@ -1,0 +1,53 @@
+[2026-07-30 19:15:10] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/572782'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/572782/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0002548}
+LLM_tokens: {"input": 334, "output": 618, "total": 952, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/572782/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/572782/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0121275}
+LLM_tokens: {"input": 5283, "output": 3162, "total": 8445, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/572782/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/572782/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Čierna Lehota', 'katastralne_uzemia': [{'nazov': 'Čierna Lehota', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Čierna Lehota', 'katastralne_uzemia': [{'nazov': 'Čierna Lehota', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Čierna Lehota obec:Čierna Lehota okres:Rožňava kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: roznava norm_obec: cierna lehota norm_ku: cierna lehota
+_get_nationalCadastralZoningReferences() found_ids: {'809586'}
+nationalCadastralZoningReferences: ['809586']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.20909 48.77279, 20.2105 48....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/572782/gis.geojson...
+Intersections with protected areas...
+Found 36 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Stolica', 'KOD_UEV': 'SKUEV0203'}], 'UEV': [{'parcel_label': 'Čierna Lehota', 'NATIONALSI': 'SKUEV0203', 'SITETITLE_': 'Stolica'}], 'MCHU': [{'parcel_label': 'Čierna Lehota', 'NATIONALSI': '1377', 'SITETITLE_': 'CHA Stolica'}], 'CHVU': [{'parcel_label': 'Čierna Lehota', 'NATIONALSI': 'SKCHVU017', 'SITETITLE_': 'Muránska planina - Stolica'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/572782/analysis.json...
+
+--- Časy spracovania dokumentu 572782 ---
+  download_and_text   :   4.32 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  13.31 s
+  gis_processing      :   0.55 s
+  CELKOVÝ ČAS         :  18.18 s
+------------------------------------------
+Dokument 572782 bol úspešne spracovaný.

@@ -1,0 +1,60 @@
+[2026-07-30 19:16:03] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/572795'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/572795/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0007335999999999999}
+LLM_tokens: {"input": 592, "output": 1815, "total": 2407, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/572795/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/572795/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014489000000000002}
+LLM_tokens: {"input": 6586, "output": 3732, "total": 10318, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/572795/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/572795/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Spišská Nová Ves', 'obec': 'Spišská Nová Ves', 'katastralne_uzemia': [{'nazov': 'Spišská Nová Ves', 'parcely': [{'typ': 'C', 'cisla': ['72748/3', '5498', '3119/2', '6863', '4637', '7243/1', '4727', '4722/1', '7265', '5858', '6297/1', '5942/1', '9409/1', '1041/4']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Centrálna mestská zóna, CMZ, Tarča, Mier, J. Fándlyho, Čsl. armády, R. Jašíka, Brezová, Javorová, Kamenný obrázok, Štúrovo nábrežie, J. Kelka, P. Jilemnického, Cintorínska, Slovenská', 'nazov_lokality_norm': 'Spišská Nová Ves'}
+data: {'kraj': 'Košický kraj', 'okres': 'Spišská Nová Ves', 'obec': 'Spišská Nová Ves', 'katastralne_uzemia': [{'nazov': 'Spišská Nová Ves', 'parcely': [{'typ': 'C', 'cisla': ['72748/3', '5498', '3119/2', '6863', '4637', '7243/1', '4727', '4722/1', '7265', '5858', '6297/1', '5942/1', '9409/1', '1041/4']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Centrálna mestská zóna, CMZ, Tarča, Mier, J. Fándlyho, Čsl. armády, R. Jašíka, Brezová, Javorová, Kamenný obrázok, Štúrovo nábrežie, J. Kelka, P. Jilemnického, Cintorínska, Slovenská', 'nazov_lokality_norm': 'Spišská Nová Ves'}
+ku_name:Spišská Nová Ves obec:Spišská Nová Ves okres:Spišská Nová Ves kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: spisska nova ves norm_ku: spisska nova ves
+_get_nationalCadastralZoningReferences() found_ids: {'857386'}
+nationalCadastralZoningReferences: ['857386']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.88 s
+nazov_lokality: Spišská Nová Ves
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1690'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1690'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1690'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1690'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1690'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1690'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1690'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1690'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1690'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1690'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1690'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1690'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1690'}
+
+[13 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/572795/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/572795/analysis.json...
+
+--- Časy spracovania dokumentu 572795 ---
+  download_and_text   :  11.17 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  16.02 s
+  gis_processing      :   4.05 s
+  CELKOVÝ ČAS         :  31.24 s
+------------------------------------------
+Dokument 572795 bol úspešne spracovaný.
