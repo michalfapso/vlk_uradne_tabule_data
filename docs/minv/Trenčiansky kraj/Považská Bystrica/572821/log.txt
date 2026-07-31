@@ -1,0 +1,56 @@
+[2026-07-31 19:08:39] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/572821'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/572821/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0004076}
+LLM_tokens: {"input": 592, "output": 1000, "total": 1592, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/572821/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 odst. 7' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 odst. 1' zákona 'tohto zákona drziteľ povolenia na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '61/2012 z.z. je definované_kV vedení, ako kolmá vzdialenosť od krajného<bos>nka na oboch stranách. Predpokladané: - začatie výrubu: - ukončenie výrubu'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0102455}
+LLM_tokens: {"input": 4867, "output": 2604, "total": 7471, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/572821/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/572821/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Považská Bystrica', 'obec': 'Považská Bystrica', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Chodnícke, Matúsky, Jelšové, Holovské, Horná Kamenná, Kamenná, Galanopolovské', 'nazov_lokality_norm': 'Chodnícke, Považská Bystrica'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Považská Bystrica', 'obec': 'Považská Bystrica', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Chodnícke, Matúsky, Jelšové, Holovské, Horná Kamenná, Kamenná, Galanopolovské', 'nazov_lokality_norm': 'Chodnícke, Považská Bystrica'}
+Fallback to OBEC: Považská Bystrica
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: povazska bystrica norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (12), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Chodnícke, Považská Bystrica
+get_geometry_of_a_geoname nazov_lokality: Chodnícke, Považská Bystrica
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Považská Bystrica, Považská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Považská Bystrica, Považská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Považská Bystrica, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Považská Bystrica, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.1127587, 'lon': 18.4205536, 'formatted_address': 'Chodnické, 017 01 Považská Bystrica, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 017 01 Považská Bystrica, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 572821 ---
+  download_and_text   :   9.97 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.02 s
+  gis_processing      :   1.70 s
+  CELKOVÝ ČAS         :  23.70 s
+------------------------------------------
+Dokument 572821 bol úspešne spracovaný.
