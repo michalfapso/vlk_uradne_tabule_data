@@ -1,0 +1,76 @@
+{
+  "cislo_konania_spisu": "SK/926/1001196",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-29",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Púchov",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hovenica Hinka",
+        "parcely": []
+      },
+      {
+        "nazov": "Spolna Hinka",
+        "parcely": []
+      },
+      {
+        "nazov": "Hovenice Horka",
+        "parcely": []
+      },
+      {
+        "nazov": "Spa Horka",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "pod el. vedením 110 KV L40-P Bystrica-CR (lokality: Medné, Orlové, Zádedová, Kopanica)",
+    "nazov_lokality_norm": "L40 Považská Bystrica"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín pod el. vedením",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub náletových drevín",
+    "odstraňovanie stromov",
+    "okliesňovanie stromov"
+  ],
+  "rozsah_zasahu": "nešpecifikovaný (náletové dreviny v ochrannom pásme 110 kV vedenia)",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o nevyhnutnom výrube náletových drevín a okliesňovaní stromov v ochrannom pásme 110 kV elektrického vedenia L40 (Považská Bystrica). Výrub sa realizuje vo viacerých katastrálnych územiach v okrese Púchov z dôvodu bezpečnosti energetických zariadení.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

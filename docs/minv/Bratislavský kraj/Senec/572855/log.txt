@@ -1,0 +1,73 @@
+[2026-08-03 19:23:22] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572855'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572855/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572855/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 36 ods. 5 písm. b)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§3 ods. 10)' zákona '442/2002 Z.z. o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z.z. o regulácii v sieťových odvetviach Verejno'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 36 ods. 5 písm. b)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§3 ods. 10)' zákona '442/2002 Z.z. o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z.z. o regulácii v sieťových odvetviach Verejno'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 36 ods. 1 písm. c)' zákona '442/2002 Z.z. oznamuje začiatok konania vo veci rozhodnutia v pochybnostiach, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 36 ods.5 písm. b)' zákona '442/2002 Z.z. o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z.z. o regulácii v sieťových odvetviach, prekla'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 36 ods. 5 písm. b)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§3 ods. 10)' zákona '442/2002 Z.z. o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z.z. o regulácii v sieťových odvetviach, , Vere'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014077999999999999}
+LLM_tokens: {"input": 7642, "output": 3419, "total": 11061, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572855/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572855/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Senec', 'katastralne_uzemia': [{'nazov': 'Senec', 'parcely': [{'typ': None, 'cisla': ['5550', '5550/1', '5550/2', '5550/3', '5550/4', '4222/3', '3938/2', '4010/1', '3938/1', '4411', '4227/1', '4227/4', '5373', '5372', '5562/1', '4227/5', '4416', '4417', '4415/1', '5374/1', '3773/8', '3773/9', '4228', '5196', '5138', '5220', '5222', '5198']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Logistický park lokalita Senec, Centrálny sklad BILLA', 'nazov_lokality_norm': 'Logistický park Senec'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Senec', 'katastralne_uzemia': [{'nazov': 'Senec', 'parcely': [{'typ': None, 'cisla': ['5550', '5550/1', '5550/2', '5550/3', '5550/4', '4222/3', '3938/2', '4010/1', '3938/1', '4411', '4227/1', '4227/4', '5373', '5372', '5562/1', '4227/5', '4416', '4417', '4415/1', '5374/1', '3773/8', '3773/9', '4228', '5196', '5138', '5220', '5222', '5198']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Logistický park lokalita Senec, Centrálny sklad BILLA', 'nazov_lokality_norm': 'Logistický park Senec'}
+ku_name:Senec obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: senec
+_get_nationalCadastralZoningReferences() found_ids: {'854964'}
+nationalCadastralZoningReferences: ['854964']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.10 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.55 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+nazov_lokality: Logistický park Senec
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+
+[17 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572855/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/572855/analysis.json...
+
+--- Časy spracovania dokumentu 572855 ---
+  download_and_text   :   1.43 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.87 s
+  gis_processing      :   7.88 s
+  CELKOVÝ ČAS         :  23.18 s
+------------------------------------------
+Dokument 572855 bol úspešne spracovaný.

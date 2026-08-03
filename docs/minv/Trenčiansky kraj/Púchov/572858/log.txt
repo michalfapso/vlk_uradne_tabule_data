@@ -1,0 +1,93 @@
+[2026-08-03 19:24:20] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/572858'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/572858/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0005807999999999999}
+LLM_tokens: {"input": 1366, "output": 1433, "total": 2799, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/572858/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 odst. 7' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11' zákona 'tohto zákona držať povolenie na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odst. 1' zákona 'tohto zákona držať povolenie na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '251/2012 Z. z. je definované u 45 kV vedení, ako kolmá vzdialenost' 25 m od krajného vodiča na obe strany.  Predpokladané: - začatie výrubu: - ukončen'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0160955}
+LLM_tokens: {"input": 5299, "output": 4482, "total": 9781, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/572858/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/572858/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Hovenica Hinka', 'parcely': []}, {'nazov': 'Spolna Hinka', 'parcely': []}, {'nazov': 'Hovenice Horka', 'parcely': []}, {'nazov': 'Spa Horka', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod el. vedením 110 KV L40-P Bystrica-CR (lokality: Medné, Orlové, Zádedová, Kopanica)', 'nazov_lokality_norm': 'L40 Považská Bystrica'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Hovenica Hinka', 'parcely': []}, {'nazov': 'Spolna Hinka', 'parcely': []}, {'nazov': 'Hovenice Horka', 'parcely': []}, {'nazov': 'Spa Horka', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod el. vedením 110 KV L40-P Bystrica-CR (lokality: Medné, Orlové, Zádedová, Kopanica)', 'nazov_lokality_norm': 'L40 Považská Bystrica'}
+ku_name:Hovenica Hinka obec:None okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: None norm_ku: hovenica hinka
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: hovenica hinka
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: hovenica hinka
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+ku_name:Spolna Hinka obec:None okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: None norm_ku: spolna hinka
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: spolna hinka
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: spolna hinka
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+ku_name:Hovenice Horka obec:None okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: None norm_ku: hovenice horka
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: hovenice horka
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: hovenice horka
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+ku_name:Spa Horka obec:None okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: None norm_ku: spa horka
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: spa horka
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: spa horka
+Fuzzy match found: 'Spa Horka' -> 'Krásna Hôrka' (ID: 828386)
+nationalCadastralZoningReferences: ['828386']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.51 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: L40 Považská Bystrica
+get_geometry_of_a_geoname nazov_lokality: L40 Považská Bystrica
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Považská Bystrica, Púchov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Považská Bystrica, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.37628 49.13806, 18.37634 49.13795...  ...  Považská Bystrica, okres Považská Bystrica, Tr...
+
+[1 rows x 11 columns]
+geoname_query: L40 Považská Bystrica, Trenčiansky kraj, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.48662 49.35993, 19.48713 49...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.37628 49.13806, 18.37634 49.13795...  ...  Považská Bystrica, okres Považská Bystrica, Tr...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/572858/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/572858/analysis.json...
+
+--- Časy spracovania dokumentu 572858 ---
+  download_and_text   :  11.90 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  20.45 s
+  gis_processing      :   1.90 s
+  CELKOVÝ ČAS         :  34.26 s
+------------------------------------------
+Dokument 572858 bol úspešne spracovaný.

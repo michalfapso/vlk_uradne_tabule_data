@@ -1,0 +1,125 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2026/005759-011",
+  "cislo_rozhodnutia": "OU-DK-OSZP-2026/005759-0019114/2026",
+  "datum_dokumentu": "2026-08-03",
+  "datum_zverejnenia": "2026-08-03",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "15 dní odo dňa zverejnenia záväzného stanoviska zo zisťovacieho konania v centrálnom informačnom systéme"
+  },
+  "ziadatel_navrhovatel": "Poľnohospodárske družstvo Žaškov",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Žaškov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Žaškov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4560",
+              "4561",
+              "4555",
+              "4556",
+              "4557",
+              "7448/1",
+              "4389",
+              "4562"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "areál existujúceho hospodárskeho dvora PD Žaškov",
+    "nazov_lokality_norm": "Družstevná, Žaškov"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "kategorie_vlk": [
+    "POLNOHOSPODARSTVO"
+  ],
+  "typ_zasahu": [
+    "vybudovanie nového kravína",
+    "asanácia ovčínov",
+    "hnojovicové hospodárstvo",
+    "výstavba ŽB nádrže",
+    "dažďová kanalizácia",
+    "retenčná nádrž"
+  ],
+  "rozsah_zasahu": "kravín pre 254 ks dojníc, zastavaná plocha 3 906,4 m2, centrálna hnojovicová nádrž 4 064 m3",
+  "typ_uzemia": [
+    "1. stupeň",
+    "CHVÚ Chočské vrchy",
+    "NATURA 2000"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "hovädzí dobytok",
+    "dojnice"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/farma-dojnic-zaskov",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "18",
+        "24",
+        "25",
+        "29",
+        "30",
+        "38",
+        "56"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "1"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "9",
+        "65",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "39"
+      ]
+    },
+    {
+      "nazov": "o odpadoch",
+      "cislo": "79/2015 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Projekt modernizácie farmy v Žaškove zahŕňa výstavbu nového kravína pre 254 dojníc a asanáciu starých ovčínov v areáli existujúceho hospodárskeho dvora. Lokalita sa nachádza v 1. stupni ochrany v tesnom dotyku s CHVÚ Chočské vrchy. Okresný úrad rozhodol v zisťovacom konaní, že zmena činnosti sa nebude ďalej posudzovať podľa zákona o EIA.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "7448/1",
+          "NATIONALSI": "SKCHVU050",
+          "SITETITLE_": "Chočské vrchy"
+        },
+        {
+          "parcel_label": "4389",
+          "NATIONALSI": "SKCHVU050",
+          "SITETITLE_": "Chočské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}
