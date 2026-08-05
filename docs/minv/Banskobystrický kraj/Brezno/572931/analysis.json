@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-08-05",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Juraj Vetrák",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "1118"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "k. ú. Brezno",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatých správnych konaniach",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť Juraja Vetráka o vydanie súhlasu na výrub drevín v katastrálnom území Brezno na parcele č. 1118. Ide o začaté správne konanie, v ktorom si verejnosť môže uplatniť účasť v lehote 5 pracovných dní od zverejnenia. Dokument neuvádza presný rozsah výrubu ani informáciu, či sa pozemok nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}
