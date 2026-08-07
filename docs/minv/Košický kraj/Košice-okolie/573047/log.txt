@@ -1,0 +1,86 @@
+[2026-08-06 23:54:02] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/573047'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/573047/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/573047/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11' zákona 'o energetike vykonať v úsekoch uvedených nižšie: 2 x 400kV vedenie V487/488 – medzi p.b.č. 72 – 73, 73 – 74, 74 – 75, 75 – 76'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/573047/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0126235}
+LLM_tokens: {"input": 6647, "output": 3100, "total": 9747, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/573047/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/573047/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Bukovec', 'katastralne_uzemia': [{'nazov': 'Baška', 'parcely': []}, {'nazov': 'Malá Ida', 'parcely': []}, {'nazov': 'Bukovec', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 22 kV, 110 kV a 400kV elektrického vedenia', 'nazov_lokality_norm': 'elektrické vedenie'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Bukovec', 'katastralne_uzemia': [{'nazov': 'Baška', 'parcely': []}, {'nazov': 'Malá Ida', 'parcely': []}, {'nazov': 'Bukovec', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 22 kV, 110 kV a 400kV elektrického vedenia', 'nazov_lokality_norm': 'elektrické vedenie'}
+ku_name:Baška obec:Bukovec okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: bukovec norm_ku: baska
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: baska
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: baska
+_get_nationalCadastralZoningReferences() found_ids: {'802123'}
+nationalCadastralZoningReferences: ['802123']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Malá Ida obec:Bukovec okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: bukovec norm_ku: mala ida
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: mala ida
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: mala ida
+_get_nationalCadastralZoningReferences() found_ids: {'835030'}
+nationalCadastralZoningReferences: ['835030']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Bukovec obec:Bukovec okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: bukovec norm_ku: bukovec
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: bukovec
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: bukovec
+_get_nationalCadastralZoningReferences() found_ids: {'807389'}
+nationalCadastralZoningReferences: ['807389']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: elektrické vedenie
+get_geometry_of_a_geoname nazov_lokality: elektrické vedenie
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vedenie, Bukovec, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vedenie, Košice-okolie, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vedenie, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vedenie, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.7092785, 'lon': 21.1508244, 'formatted_address': '044 20 Bukovec, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 20 Bukovec, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.17428 48.72434, 21.17484 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((21.17309 48.70187, 21.17312 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((21.1253 48.73386, 21.12556 48....
+
+[3 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/573047/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Malá Ida', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Bukovec', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/573047/analysis.json...
+
+--- Časy spracovania dokumentu 573047 ---
+  download_and_text   :   1.16 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.75 s
+  gis_processing      :   3.14 s
+  CELKOVÝ ČAS         :  18.05 s
+------------------------------------------
+Dokument 573047 bol úspešne spracovaný.

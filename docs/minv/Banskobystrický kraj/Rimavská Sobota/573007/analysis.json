@@ -1,0 +1,89 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2026/015965",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-04",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "Statok Bizovo s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": "Hodejovec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hodejovec",
+        "parcely": []
+      },
+      {
+        "nazov": "Bizovo",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Katastrálne územie Hodejovec, Bizovo",
+    "nazov_lokality_norm": "Hodejovec, Bizovo"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "kategorie_vlk": [
+    "POLNOHOSPODARSTVO"
+  ],
+  "typ_zasahu": [
+    "pasenie, napájanie, preháňanie a nocovanie hospodárskych zvierat"
+  ],
+  "rozsah_zasahu": "do 200 ks",
+  "typ_uzemia": [
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82",
+        "13"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci súhlasu na pasenie, napájanie a nocovanie do 200 kusov hospodárskych zvierat. Činnosť má prebiehať v katastrálnych územiach Hodejovec a Bizovo v území s 2. stupňom ochrany.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Hodejovec",
+          "NATIONALSI": "SKUEV0357",
+          "SITETITLE_": "Cerová vrchovina"
+        },
+        {
+          "parcel_label": "Hodejovec",
+          "NATIONALSI": "SKUEV0359",
+          "SITETITLE_": "Dechtárske vinice"
+        },
+        {
+          "parcel_label": "Hodejovec",
+          "NATIONALSI": "SKUEV4003",
+          "SITETITLE_": "Cifra"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Hodejovec",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        },
+        {
+          "parcel_label": "Bizovo",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

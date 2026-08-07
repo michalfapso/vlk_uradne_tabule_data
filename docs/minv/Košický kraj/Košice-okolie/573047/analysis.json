@@ -1,0 +1,86 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2026/016725",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-06",
+  "datum_zverejnenia": "2026-08-06",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLS – servis lesy stráž, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Bukovec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Baška",
+        "parcely": []
+      },
+      {
+        "nazov": "Malá Ida",
+        "parcely": []
+      },
+      {
+        "nazov": "Bukovec",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo 22 kV, 110 kV a 400kV elektrického vedenia",
+    "nazov_lokality_norm": "elektrické vedenie"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "orezávanie polokrov",
+    "orezávanie krov",
+    "orezávanie drevín"
+  ],
+  "rozsah_zasahu": "cca 482 ks listnatých a ihličnatých stromov (priemery od 20 do 90 cm) a orez krov",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012 Z. z.",
+      "paragrafy": [
+        "11"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a oreze približne 482 stromov a krovín v ochranných pásmach elektrických vedení. Zásah sa realizuje v katastrálnych územiach Baška, Malá Ida a Bukovec z dôvodu bezpečnosti prevádzky vedení. Výrub zahŕňa listnaté aj ihličnaté dreviny s priemerom kmeňov až do 90 cm a má byť ukončený do konca februára 2027.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "Malá Ida",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "Bukovec",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

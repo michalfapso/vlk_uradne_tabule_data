@@ -1,0 +1,42 @@
+[2026-08-06 23:59:52] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-071353-buk'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-071353-buk/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-071353-buk/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0120595}
+LLM_tokens: {"input": 4469, "output": 3275, "total": 7744, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-071353-buk/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-071353-buk/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'CHA Tupá skala', 'nazov_lokality_norm': 'Tupá skala'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'CHA Tupá skala', 'nazov_lokality_norm': 'Tupá skala'}
+No geometries were found.
+nazov_lokality: Tupá skala
+get_geometry_of_a_geoname nazov_lokality: Tupá skala
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** skala, Žilina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** skala, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** skala, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.1913778, 'lon': 19.324583, 'formatted_address': 'Tupa Skala, 026 01 Vyšný Kubín, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Skala, 026 01 Vyšný Kubín, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-071353-buk ---
+  download_and_text   :   0.01 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.25 s
+  gis_processing      :   1.78 s
+  CELKOVÝ ČAS         :  16.52 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-071353-buk bol úspešne spracovaný.

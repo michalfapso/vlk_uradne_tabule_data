@@ -1,0 +1,122 @@
+{
+  "cislo_konania_spisu": "OU-NZ-OSZP-2026/025560",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-31",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, oblastné riaditeľstvo Trnava, SMSÚ ŽTS TO Nové Zámky",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nové Zámky",
+    "obec": "Gbelce, Mužla",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Gbelce",
+        "parcely": []
+      },
+      {
+        "nazov": "Mužla",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "81"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Železnice Slovenskej republiky oznámili plánovaný výrub drevín v katastrálnych územiach Gbelce a Mužla. Oznámenie bolo podané 31.07.2026 na Okresný úrad Nové Zámky. Dokument nešpecifikuje presný rozsah výrubu ani to, či sa zásah dotýka chránených území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Mužla",
+          "NATIONALSI": "SKUEV0393",
+          "SITETITLE_": "Dunaj"
+        },
+        {
+          "parcel_label": "Mužla",
+          "NATIONALSI": "SKUEV0067",
+          "SITETITLE_": "Čenkov"
+        },
+        {
+          "parcel_label": "Mužla",
+          "NATIONALSI": "SKUEV0068",
+          "SITETITLE_": "Jurský Chlm"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Gbelce",
+          "NATIONALSI": "126",
+          "SITETITLE_": "NPR Parížske močiare"
+        },
+        {
+          "parcel_label": "Mužla",
+          "NATIONALSI": "1259",
+          "SITETITLE_": "CHA Čenkov"
+        },
+        {
+          "parcel_label": "Mužla",
+          "NATIONALSI": "806",
+          "SITETITLE_": "CHA Jurský Chlm"
+        },
+        {
+          "parcel_label": "Mužla",
+          "NATIONALSI": "912",
+          "SITETITLE_": "PP Mužliansky potok"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Gbelce",
+          "NATIONALSI": "SKCHVU020",
+          "SITETITLE_": "Parížske močiare"
+        },
+        {
+          "parcel_label": "Mužla",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "Mužla",
+          "NATIONALSI": "SKCHVU004",
+          "SITETITLE_": "Dolné Pohronie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

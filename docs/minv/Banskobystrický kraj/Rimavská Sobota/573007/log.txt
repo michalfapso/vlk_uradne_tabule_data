@@ -1,0 +1,71 @@
+[2026-08-06 23:53:14] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/573007'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/573007/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/573007/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/573007/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011553999999999998}
+LLM_tokens: {"input": 5240, "output": 2978, "total": 8218, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/573007/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/573007/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Hodejovec', 'katastralne_uzemia': [{'nazov': 'Hodejovec', 'parcely': []}, {'nazov': 'Bizovo', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Katastrálne územie Hodejovec, Bizovo', 'nazov_lokality_norm': 'Hodejovec, Bizovo'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Hodejovec', 'katastralne_uzemia': [{'nazov': 'Hodejovec', 'parcely': []}, {'nazov': 'Bizovo', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Katastrálne územie Hodejovec, Bizovo', 'nazov_lokality_norm': 'Hodejovec, Bizovo'}
+ku_name:Hodejovec obec:Hodejovec okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: hodejovec norm_ku: hodejovec
+_get_nationalCadastralZoningReferences() found_ids: {'816566'}
+nationalCadastralZoningReferences: ['816566']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Bizovo obec:Hodejovec okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: hodejovec norm_ku: bizovo
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: bizovo
+_get_nationalCadastralZoningReferences() found_ids: {'815225'}
+nationalCadastralZoningReferences: ['815225']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.20 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Hodejovec, Bizovo
+get_geometry_of_a_geoname nazov_lokality: Hodejovec, Bizovo
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bizovo, Hodejovec, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bizovo, Rimavská Sobota, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bizovo, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bizovo, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.28170009999999, 'lon': 19.9996736, 'formatted_address': 'Bizovo, 980 02 Gortva, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 980 02 Gortva, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.03883 48.29611, 20.03879 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.98938 48.28909, 19.9897 48....
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/573007/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Hodejovec', 'NATIONALSI': 'SKUEV0357', 'SITETITLE_': 'Cerová vrchovina'}, {'parcel_label': 'Hodejovec', 'NATIONALSI': 'SKUEV0359', 'SITETITLE_': 'Dechtárske vinice'}, {'parcel_label': 'Hodejovec', 'NATIONALSI': 'SKUEV4003', 'SITETITLE_': 'Cifra'}], 'CHVU': [{'parcel_label': 'Hodejovec', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': 'Bizovo', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/573007/analysis.json...
+
+--- Časy spracovania dokumentu 573007 ---
+  download_and_text   :   1.07 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.64 s
+  gis_processing      :   2.73 s
+  CELKOVÝ ČAS         :  16.45 s
+------------------------------------------
+Dokument 573007 bol úspešne spracovaný.

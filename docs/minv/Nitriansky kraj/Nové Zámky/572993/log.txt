@@ -1,0 +1,67 @@
+[2026-08-06 23:54:33] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/572993'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/572993/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/572993/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'Dátum prijatia oznámenia: 31.07.2026    Dotknuté územie: k. ú. Gbelce, Mužla    Oznamovateľ: Železnice Slovenskej republiky, oblastné riaditeľstvo Trn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 81 ods. 2 písm. m)' zákona 'sa všeobecné predpisy o správnom konaní'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 8' zákona 'na výrub drevín oznámený podľa ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'zákona'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/572993/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0094395}
+LLM_tokens: {"input": 4671, "output": 2368, "total": 7039, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/572993/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/572993/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Gbelce, Mužla', 'katastralne_uzemia': [{'nazov': 'Gbelce', 'parcely': []}, {'nazov': 'Mužla', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Gbelce, Mužla', 'katastralne_uzemia': [{'nazov': 'Gbelce', 'parcely': []}, {'nazov': 'Mužla', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Gbelce obec:Gbelce, Mužla okres:Nové Zámky kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: gbelce norm_ku: gbelce
+_get_nationalCadastralZoningReferences() found_ids: {'814687'}
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: muzla norm_ku: gbelce
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: None norm_ku: gbelce
+_get_nationalCadastralZoningReferences() found_ids: {'814687'}
+nationalCadastralZoningReferences: ['814687']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.21 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Mužla obec:Gbelce, Mužla okres:Nové Zámky kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: gbelce norm_ku: muzla
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: None norm_ku: muzla
+_get_nationalCadastralZoningReferences() found_ids: {'838896'}
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: muzla norm_ku: muzla
+_get_nationalCadastralZoningReferences() found_ids: {'838896'}
+nationalCadastralZoningReferences: ['838896']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.51979 47.87553, 18.51992 47...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.61075 47.83868, 18.61121 47...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/572993/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Mužla', 'NATIONALSI': 'SKUEV0393', 'SITETITLE_': 'Dunaj'}, {'parcel_label': 'Mužla', 'NATIONALSI': 'SKUEV0067', 'SITETITLE_': 'Čenkov'}, {'parcel_label': 'Mužla', 'NATIONALSI': 'SKUEV0068', 'SITETITLE_': 'Jurský Chlm'}], 'MCHU': [{'parcel_label': 'Gbelce', 'NATIONALSI': '126', 'SITETITLE_': 'NPR Parížske močiare'}, {'parcel_label': 'Mužla', 'NATIONALSI': '1259', 'SITETITLE_': 'CHA Čenkov'}, {'parcel_label': 'Mužla', 'NATIONALSI': '806', 'SITETITLE_': 'CHA Jurský Chlm'}, {'parcel_label': 'Mužla', 'NATIONALSI': '912', 'SITETITLE_': 'PP Mužliansky potok'}], 'CHVU': [{'parcel_label': 'Gbelce', 'NATIONALSI': 'SKCHVU020', 'SITETITLE_': 'Parížske močiare'}, {'parcel_label': 'Mužla', 'NATIONALSI': 'SKCHVU007', 'SITETITLE_': 'Dunajské luhy'}, {'parcel_label': 'Mužla', 'NATIONALSI': 'SKCHVU004', 'SITETITLE_': 'Dolné Pohronie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/572993/analysis.json...
+
+--- Časy spracovania dokumentu 572993 ---
+  download_and_text   :   1.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.97 s
+  gis_processing      :   0.75 s
+  CELKOVÝ ČAS         :  12.72 s
+------------------------------------------
+Dokument 572993 bol úspešne spracovaný.

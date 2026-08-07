@@ -1,0 +1,232 @@
+[2026-08-06 23:58:42] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573054'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573054/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573054/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'stavebného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 29 ods. 1' zákona 'správneho zákona do doby predbežnej otázky. Stavebník dňa 23.07.2026 doložil chýbajúce doklady, preto tunajší úrad pokračuje v začatom konaní. Na stav'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 140b' zákona 'stavebného zákona pod č. Č.s. 2022/283067/DOL zo dňa 18.08.2022. Na stavbu stavbu „Odkanalizovanie obcí Dlhé Pole, Svederník, Divina“ vydala Obec Dlhé'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'stavebného zákona pod č. Č.s. 2022/283067/DOL zo dňa 18.08.2022. Na stavbu stavbu „Odkanalizovanie obcí Dlhé Pole, Svederník, Divina“ vydala Obec Dlhé'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej starostlivosti o životné pros'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej starostlivosti o životné pros'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a ako špeciálny stavebný úrad vo veciach v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'číslo 364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'číslo 50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§73' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'stavebného zákona oznamuje začatie stavebného konania dotknutým orgánom a známym účastníkom konania a súčasne v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18' zákona 'číslo 71/1967 Zb. o správnom konaní v znení neskorších predpisov, na prejednanie predloženej žiadosti nariaďuje ústne pojednávanie na deň 22. septembr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21' zákona 'číslo 71/1967 Zb. o správnom konaní v znení neskorších predpisov, na prejednanie predloženej žiadosti nariaďuje ústne pojednávanie na deň 22. septembr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 5' zákona 'stavebného zákona predpokladá sa, že so stavbou z hľadiska ním sledovaných záujmov súhlasí. Na pripomienky a námietky, ktoré boli a mohli byť uplatnen'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573054/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0148095}
+LLM_tokens: {"input": 9015, "output": 3434, "total": 12449, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573054/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573054/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Dlhé Pole', 'katastralne_uzemia': [{'nazov': 'Dlhé Pole', 'parcely': []}, {'nazov': 'Svederník', 'parcely': []}, {'nazov': 'Divina', 'parcely': []}, {'nazov': 'Divinka', 'parcely': []}, {'nazov': 'Horný Hričov', 'parcely': []}, {'nazov': 'Kotešová', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'obce Dlhé Pole, Svederník, Divina', 'nazov_lokality_norm': 'Dlhé Pole'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Dlhé Pole', 'katastralne_uzemia': [{'nazov': 'Dlhé Pole', 'parcely': []}, {'nazov': 'Svederník', 'parcely': []}, {'nazov': 'Divina', 'parcely': []}, {'nazov': 'Divinka', 'parcely': []}, {'nazov': 'Horný Hričov', 'parcely': []}, {'nazov': 'Kotešová', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'obce Dlhé Pole, Svederník, Divina', 'nazov_lokality_norm': 'Dlhé Pole'}
+ku_name:Dlhé Pole obec:Dlhé Pole okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dlhe pole norm_ku: dlhe pole
+_get_nationalCadastralZoningReferences() found_ids: {'811041'}
+nationalCadastralZoningReferences: ['811041']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Svederník obec:Dlhé Pole okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dlhe pole norm_ku: svedernik
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: svedernik
+_get_nationalCadastralZoningReferences() found_ids: {'859681'}
+nationalCadastralZoningReferences: ['859681']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Divina obec:Dlhé Pole okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dlhe pole norm_ku: divina
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: divina
+_get_nationalCadastralZoningReferences() found_ids: {'810835'}
+nationalCadastralZoningReferences: ['810835']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.22 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Divinka obec:Dlhé Pole okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dlhe pole norm_ku: divinka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: divinka
+_get_nationalCadastralZoningReferences() found_ids: {'810851'}
+nationalCadastralZoningReferences: ['810851']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.19 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Horný Hričov obec:Dlhé Pole okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dlhe pole norm_ku: horny hricov
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: horny hricov
+_get_nationalCadastralZoningReferences() found_ids: {'818381'}
+nationalCadastralZoningReferences: ['818381']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Kotešová obec:Dlhé Pole okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dlhe pole norm_ku: kotesova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: kotesova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: kotesova
+_get_nationalCadastralZoningReferences() found_ids: {'827746'}
+nationalCadastralZoningReferences: ['827746']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.22 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Dlhé Pole
+get_geometry_of_a_geoname nazov_lokality: Dlhé Pole
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Pole, Dlhé Pole, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.5879 49.34553, 18.58821 49.34527,...  ...  Dlhé Pole, okres Žilina, Žilinský kraj, Slovensko
+
+[1 rows x 11 columns]
+geoname_query: Dlhé Pole, Dlhé Pole, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.63602 49.36433, 18.63774 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.64965 49.28651, 18.64966 49...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.67372 49.34125, 18.67378 49...
+3  CadastralZoning  ...  MULTIPOLYGON (((18.72286 49.27049, 18.72367 49...
+4  CadastralZoning  ...  MULTIPOLYGON (((18.66796 49.26246, 18.66931 49...
+5  CadastralZoning  ...  MULTIPOLYGON (((18.60611 49.28437, 18.60624 49...
+
+[6 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.5879 49.34553, 18.58821 49.34527,...  ...  Dlhé Pole, okres Žilina, Žilinský kraj, Slovensko
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573054/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573054/analysis.json...
+
+--- Časy spracovania dokumentu 573054 ---
+  download_and_text   :   1.09 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.98 s
+  gis_processing      :   2.13 s
+  CELKOVÝ ČAS         :  19.20 s
+------------------------------------------
+Dokument 573054 bol úspešne spracovaný.
+[2026-08-06 23:59:02] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573054'
+Loading text doc from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573054/text.txt...
+Loading laws from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573054/laws.txt...
+Loading from /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573054/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Dlhé Pole', 'katastralne_uzemia': [{'nazov': 'Dlhé Pole', 'parcely': []}, {'nazov': 'Svederník', 'parcely': []}, {'nazov': 'Divina', 'parcely': []}, {'nazov': 'Divinka', 'parcely': []}, {'nazov': 'Horný Hričov', 'parcely': []}, {'nazov': 'Kotešová', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'obce Dlhé Pole, Svederník, Divina', 'nazov_lokality_norm': 'Dlhé Pole'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Dlhé Pole', 'katastralne_uzemia': [{'nazov': 'Dlhé Pole', 'parcely': []}, {'nazov': 'Svederník', 'parcely': []}, {'nazov': 'Divina', 'parcely': []}, {'nazov': 'Divinka', 'parcely': []}, {'nazov': 'Horný Hričov', 'parcely': []}, {'nazov': 'Kotešová', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'obce Dlhé Pole, Svederník, Divina', 'nazov_lokality_norm': 'Dlhé Pole'}
+ku_name:Dlhé Pole obec:Dlhé Pole okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dlhe pole norm_ku: dlhe pole
+_get_nationalCadastralZoningReferences() found_ids: {'811041'}
+nationalCadastralZoningReferences: ['811041']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.19 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Svederník obec:Dlhé Pole okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dlhe pole norm_ku: svedernik
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: svedernik
+_get_nationalCadastralZoningReferences() found_ids: {'859681'}
+nationalCadastralZoningReferences: ['859681']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.19 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Divina obec:Dlhé Pole okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dlhe pole norm_ku: divina
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: divina
+_get_nationalCadastralZoningReferences() found_ids: {'810835'}
+nationalCadastralZoningReferences: ['810835']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.35 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Divinka obec:Dlhé Pole okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dlhe pole norm_ku: divinka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: divinka
+_get_nationalCadastralZoningReferences() found_ids: {'810851'}
+nationalCadastralZoningReferences: ['810851']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.19 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Horný Hričov obec:Dlhé Pole okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dlhe pole norm_ku: horny hricov
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: horny hricov
+_get_nationalCadastralZoningReferences() found_ids: {'818381'}
+nationalCadastralZoningReferences: ['818381']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.18 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Kotešová obec:Dlhé Pole okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dlhe pole norm_ku: kotesova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: kotesova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: kotesova
+_get_nationalCadastralZoningReferences() found_ids: {'827746'}
+nationalCadastralZoningReferences: ['827746']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.21 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Dlhé Pole
+get_geometry_of_a_geoname nazov_lokality: Dlhé Pole
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Pole, Dlhé Pole, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.5879 49.34553, 18.58821 49.34527,...  ...  Dlhé Pole, okres Žilina, Žilinský kraj, Slovensko
+
+[1 rows x 11 columns]
+geoname_query: Dlhé Pole, Dlhé Pole, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.63602 49.36433, 18.63774 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.64965 49.28651, 18.64966 49...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.67372 49.34125, 18.67378 49...
+3  CadastralZoning  ...  MULTIPOLYGON (((18.72286 49.27049, 18.72367 49...
+4  CadastralZoning  ...  MULTIPOLYGON (((18.66796 49.26246, 18.66931 49...
+5  CadastralZoning  ...  MULTIPOLYGON (((18.60611 49.28437, 18.60624 49...
+
+[6 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.5879 49.34553, 18.58821 49.34527,...  ...  Dlhé Pole, okres Žilina, Žilinský kraj, Slovensko
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573054/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573054/analysis.json...
+
+--- Časy spracovania dokumentu 573054 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   0.00 s
+  gis_processing      :   1.79 s
+  CELKOVÝ ČAS         :   1.79 s
+------------------------------------------
+Dokument 573054 bol úspešne spracovaný.

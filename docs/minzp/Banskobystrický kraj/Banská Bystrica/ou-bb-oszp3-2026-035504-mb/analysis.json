@@ -1,0 +1,91 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2026/035504-MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-06",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Tajov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tajov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "786/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatom správnom konaní",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 4 ks drevín"
+  ],
+  "rozsah_zasahu": "4 ks drevín",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47",
+        "2",
+        "82"
+      ]
+    },
+    {
+      "nazov": "zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19",
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Konanie vo veci žiadosti fyzickej osoby o súhlas na výrub 4 ks drevín v k. ú. Tajov na parcele C-KN 786/3. Dôvodom výrubu je ohrozenie a zhoršený zdravotný stav drevín. Združenia môžu oznámiť svoju účasť v konaní do 5 pracovných dní od zverejnenia informácie.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Tajov",
+          "NATIONALSI": "SKUEV0864",
+          "SITETITLE_": "Holý vŕšok"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Tajov",
+          "NATIONALSI": "874",
+          "SITETITLE_": "PP Králická tiesňava"
+        },
+        {
+          "parcel_label": "Tajov",
+          "NATIONALSI": "767",
+          "SITETITLE_": "PP Tajovská kopa"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

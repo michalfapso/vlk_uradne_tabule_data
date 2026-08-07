@@ -1,0 +1,63 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 15 dní od zverejnenia oznámenia dotknutou obcou"
+  },
+  "ziadatel_navrhovatel": "Obec Ohradzany",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Humenné",
+    "obec": "Ohradzany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ohradzany",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Obec Ohradzany",
+    "nazov_lokality_norm": "Ohradzany"
+  },
+  "typ_dokumentu": "Oznámenie o strategickom dokumente",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "Zmeny a doplnky č.2 Územného plánu obce Ohradzany"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/zmeny-doplnky-c-2-uzemneho-planu-obce-ohradzany",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "6",
+        "6 ods. 5"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o strategickom dokumente 'Zmeny a doplnky č.2 Územného plánu obce Ohradzany'. Verejnosť môže predkladať stanoviská do 15 dní od zverejnenia oznámenia obcou. Dokument sa týka územného plánovania a je v procese posudzovania vplyvov na životné prostredie (SEA).",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Ohradzany",
+          "NATIONALSI": "SKUEV0205",
+          "SITETITLE_": "Hubková"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,57 @@
+[2026-08-06 23:53:30] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/573024'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/573024/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/573024/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 1)' zákona 'a podalo predbežnú písomnú žiadosť podľa'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/573024/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009707}
+LLM_tokens: {"input": 5884, "output": 2255, "total": 8139, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Expecting ',' delimiter: line 68 column 1 (char 1923)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01011935}
+LLM_tokens: {"input": 5884, "output": 2695, "total": 8579, "cached": 2017}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/573024/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/573024/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Chorvátsky Grob', 'katastralne_uzemia': [{'nazov': 'Chorvátsky Grob', 'parcely': [{'typ': 'E', 'cisla': ['1568/1', '1567', '1566/1', '1565', '1560']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'vodná stavba otvoreného dažďového rigola', 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Chorvátsky Grob', 'katastralne_uzemia': [{'nazov': 'Chorvátsky Grob', 'parcely': [{'typ': 'E', 'cisla': ['1568/1', '1567', '1566/1', '1565', '1560']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'vodná stavba otvoreného dažďového rigola', 'nazov_lokality_norm': None}
+ku_name:Chorvátsky Grob obec:Chorvátsky Grob okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: chorvatsky grob norm_ku: chorvatsky grob
+_get_nationalCadastralZoningReferences() found_ids: {'820865'}
+nationalCadastralZoningReferences: ['820865']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+get_geometry_of_cadastral_zone_parcels() request duration: 1.33 s
+Server vrátil chybu 500. Opakujem pokus o 5 sekúnd... (Pokus 1/5)
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.40 s
+nazov_lokality: vodná stavba otvoreného dažďového rigola
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+
+[5 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/573024/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/573024/analysis.json...
+
+--- Časy spracovania dokumentu 573024 ---
+  download_and_text   :   1.10 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  21.04 s
+  gis_processing      :   9.94 s
+  CELKOVÝ ČAS         :  32.09 s
+------------------------------------------
+Dokument 573024 bol úspešne spracovaný.
