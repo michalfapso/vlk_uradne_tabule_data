@@ -1,0 +1,122 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP1-2026/096828-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-06",
+  "datum_zverejnenia": "2026-08-06",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 14. 08. 2026"
+  },
+  "ziadatel_navrhovatel": "LiV-EPI, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Borský Svätý Jur",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Borský Svätý Jur",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Tomky",
+    "nazov_lokality_norm": "Tomky"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "VJAZD_VOZIDLA",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výnimka zo zakázanej činnosti jazdiť alebo stáť s motorovým vozidlom na pozemkoch za hranicami zastavaného územia",
+    "realizácia stavby VNK, TS, NNK"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "2. stupeň",
+    "2. stupeň územnej ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82",
+        "13"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci povolenia výnimky na vjazd a státie s motorovým vozidlom v extraviláne obce Borský Svätý Jur. Zásah súvisí s výstavbou inžinierskych sietí v lokalite Tomky, kde platí 2. stupeň ochrany. Záujem o účasť v konaní je potrebné potvrdiť do 14. 08. 2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Borský Svätý Jur",
+          "NAZOV_UEV": "Červený rybník",
+          "KOD_UEV": "SKUEV0179"
+        },
+        {
+          "parcel_label": "Borský Svätý Jur",
+          "NAZOV_UEV": "Červený rybník",
+          "KOD_UEV": "SKUEV0179"
+        },
+        {
+          "parcel_label": "Borský Svätý Jur",
+          "NAZOV_UEV": "Červený rybník",
+          "KOD_UEV": "SKUEV0179"
+        },
+        {
+          "parcel_label": "Borský Svätý Jur",
+          "NAZOV_UEV": "Červený rybník",
+          "KOD_UEV": "SKUEV0179"
+        },
+        {
+          "parcel_label": "Borský Svätý Jur",
+          "NAZOV_UEV": "Červený rybník",
+          "KOD_UEV": "SKUEV0179"
+        },
+        {
+          "parcel_label": "Borský Svätý Jur",
+          "NAZOV_UEV": "Červený rybník",
+          "KOD_UEV": "SKUEV0179"
+        },
+        {
+          "parcel_label": "Borský Svätý Jur",
+          "NAZOV_UEV": "Červený rybník",
+          "KOD_UEV": "SKUEV0179"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Borský Svätý Jur",
+          "NATIONALSI": "SKUEV0179",
+          "SITETITLE_": "Červený rybník"
+        },
+        {
+          "parcel_label": "Borský Svätý Jur",
+          "NATIONALSI": "SKUEV0165",
+          "SITETITLE_": "Kútsky les"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Borský Svätý Jur",
+          "NATIONALSI": "26",
+          "SITETITLE_": "NPR Červený rybník"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Borský Svätý Jur",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

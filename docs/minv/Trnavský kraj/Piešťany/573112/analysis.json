@@ -1,0 +1,106 @@
+{
+  "cislo_konania_spisu": "OU-PN-OSZP-2026/000846-016",
+  "cislo_rozhodnutia": "OU-PN-OSZP-2026/000846-0014273/2026",
+  "datum_dokumentu": "2026-05-15",
+  "datum_zverejnenia": "2026-08-06",
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Mgr. Marcel Ištok, DiS.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Piešťany",
+    "obec": "Sokolovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sokolovce",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Pri vodárni",
+    "nazov_lokality_norm": "Pri vodárni, Sokolovce"
+  },
+  "typ_dokumentu": "Rozhodnutie o prerušení konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "IBV Sokolovce Pri vodárni 1. časť, 2. časť",
+    "líniové výkopové a nadväzujúce technické práce",
+    "výstavba RD"
+  ],
+  "rozsah_zasahu": "IBV Sokolovce Pri vodárni 1. časť, 2. časť",
+  "typ_uzemia": [
+    "chránené územia",
+    "hygienické ochranné pásmo VZ Sokolovce",
+    "ochranné pásma vodných zdrojov"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vtáctvo"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "§ 5"
+      ]
+    },
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "§ 56 písm. b)",
+        "§ 29",
+        "§ 20 ods. 1",
+        "§ 29 ods. 1 písm. a)"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "§ 46",
+        "§ 47",
+        "§ 29 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o prerušení zisťovacieho konania na 90 dní pre projekt výstavby rodinných domov (IBV) v obci Sokolovce. Dôvodom je potreba doplniť chýbajúce posúdenie vplyvov na chránené územia a vtáctvo, ako aj opatrenia na ochranu podzemných vôd v ochrannom pásme vodného zdroja.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Sokolovce",
+          "NATIONALSI": "SKUEV0852",
+          "SITETITLE_": "Váh pri Hlohovci"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Sokolovce",
+          "NATIONALSI": "155",
+          "SITETITLE_": "OP CHA Sĺňava"
+        },
+        {
+          "parcel_label": "Sokolovce",
+          "NATIONALSI": "155",
+          "SITETITLE_": "CHA Sĺňava"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Sokolovce",
+          "NATIONALSI": "SKCHVU026",
+          "SITETITLE_": "Sĺňava"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

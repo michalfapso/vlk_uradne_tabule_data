@@ -1,0 +1,79 @@
+{
+  "cislo_konania_spisu": "OU-KN-OSŽP-2026/018309",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-08-04",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Klub vodného motorizmu Váh",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Komárno",
+    "obec": "Komárno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Komárno",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "9940/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "rieka Váh",
+    "nazov_lokality_norm": "Váh"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "usporiadanie športového podujatia",
+    "Národné preteky rýchlostných motorových člnov M-SR"
+  ],
+  "rozsah_zasahu": "riečny kilometer 0 – 2 na rieke Váh",
+  "typ_uzemia": [
+    "SKCHVÚ007 Dunajské luhy",
+    "SKUEV0393 Dunaj",
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "13 ods. 2 písm. k)"
+      ]
+    }
+  ],
+  "zhrnutie": "Začatie správneho konania vo veci udelenia povolenia na usporiadanie národných pretekov rýchlostných motorových člnov na rieke Váh (rkm 0 – 2). Lokalita zasahuje do chráneného vtáčieho územia Dunajské luhy a územia európskeho významu Dunaj v 2. stupni ochrany. Verejnosť môže potvrdiť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "9940/1",
+          "NATIONALSI": "SKUEV0393",
+          "SITETITLE_": "Dunaj"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "9940/1",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

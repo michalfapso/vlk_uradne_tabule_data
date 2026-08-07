@@ -1,0 +1,142 @@
+{
+  "cislo_konania_spisu": "V 288/2026",
+  "cislo_rozhodnutia": "V 288/2026",
+  "datum_dokumentu": "2026-08-04",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovak Estate s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kucany",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "2733",
+              "2735",
+              "2734",
+              "2736"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Čeľkov",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1619"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Kysla",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1460/4",
+              "1461/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Brehov",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1607",
+              "1707/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení vkladu vlastníckeho práva",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "vklad vlastníckeho práva k nehnuteľnostiam"
+  ],
+  "rozsah_zasahu": "prevod vlastníctva k pozemkom: lesný pozemok (2161 m2 + 48026 m2), trvalé trávnaté porasty, vodné plochy a orná pôda",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "katastrálny zákon",
+      "cislo": "162/1995 Z. z.",
+      "paragrafy": [
+        "18",
+        "31"
+      ]
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015 Z. z.",
+      "paragrafy": [
+        "177"
+      ]
+    }
+  ],
+  "zhrnutie": "Okresný úrad povolil vklad vlastníckeho práva pre spoločnosť Slovak Estate s.r.o. k lesným pozemkom, vodným plochám a trávnatým porastom v KÚ Kucany, Čeľkov, Kysla a Brehov. Ide o právoplatné rozhodnutie o zmene vlastníctva na základe kúpnej zmluvy. Dokument nespomína priamy fyzický zásah ani ochranu územia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "2735",
+          "NATIONALSI": "SKUEV0843",
+          "SITETITLE_": "Dolný tok Ondavy"
+        },
+        {
+          "parcel_label": "2736",
+          "NATIONALSI": "SKUEV0843",
+          "SITETITLE_": "Dolný tok Ondavy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "2733",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2734",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2735",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        },
+        {
+          "parcel_label": "2736",
+          "NATIONALSI": "SKCHVU015",
+          "SITETITLE_": "Medzibodrožie"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

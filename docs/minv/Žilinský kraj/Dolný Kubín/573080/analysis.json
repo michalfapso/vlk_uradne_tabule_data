@@ -1,0 +1,115 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2026/007392-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-07",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr na ústnom pojednávaní dňa 08. 09. 2026"
+  },
+  "ziadatel_navrhovatel": "TRAFOSTANICE, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Dolný Kubín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Záskalie",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1012/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Rybárska ul. - Dolný Kubín",
+    "nazov_lokality_norm": "Rybárska, Dolný Kubín"
+  },
+  "typ_dokumentu": "Oznámenie o začatí kolaudačného konania",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "rozšírenie verejného vodovodu"
+  ],
+  "rozsah_zasahu": "DN 90 o dĺžke 138,98 m, 1 x podzemný hydrant",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "61",
+        "73"
+      ]
+    },
+    {
+      "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "120",
+        "80"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": [
+        "84"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "18",
+        "33",
+        "26"
+      ]
+    },
+    {
+      "nazov": "Vyhláška Ministerstva životného prostredia Slovenskej republiky, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "cislo": "453/2000 Z. z.",
+      "paragrafy": [
+        "18"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí kolaudačného konania pre stavbu rozšírenia verejného vodovodu v Dolnom Kubíne na ulici Rybárska. Zásah zahŕňa inžiniersku sieť v dĺžke cca 139 metrov na parcele v katastrálnom území Záskalie. Dokument neuvádza, či sa realizácia nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "1012/1",
+          "NATIONALSI": "SKUEV0243",
+          "SITETITLE_": "Orava"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "1012/1",
+          "NATIONALSI": "1034",
+          "SITETITLE_": "CHA Rieka Orava"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}
