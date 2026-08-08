@@ -1,0 +1,49 @@
+[2026-08-08 18:24:42] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/573123'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/573123/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.000334}
+LLM_tokens: {"input": 334, "output": 816, "total": 1150, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/573123/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/573123/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011116500000000001}
+LLM_tokens: {"input": 5469, "output": 2794, "total": 8263, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/573123/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/573123/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Spišská Nová Ves', 'obec': 'Vítkovce', 'katastralne_uzemia': [{'nazov': 'Vítkovce', 'parcely': [{'typ': 'C', 'cisla': ['1223']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'trvalý trávny porast', 'nazov_lokality_norm': None}
+data: {'kraj': 'Košický kraj', 'okres': 'Spišská Nová Ves', 'obec': 'Vítkovce', 'katastralne_uzemia': [{'nazov': 'Vítkovce', 'parcely': [{'typ': 'C', 'cisla': ['1223']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'trvalý trávny porast', 'nazov_lokality_norm': None}
+ku_name:Vítkovce obec:Vítkovce okres:Spišská Nová Ves kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: vitkovce norm_ku: vitkovce
+_get_nationalCadastralZoningReferences() found_ids: {'869759'}
+nationalCadastralZoningReferences: ['869759']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.07 s
+nazov_lokality: trvalý trávny porast
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2847'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/573123/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '1223', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/573123/analysis.json...
+
+--- Časy spracovania dokumentu 573123 ---
+  download_and_text   :   6.13 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  11.54 s
+  gis_processing      :   4.38 s
+  CELKOVÝ ČAS         :  22.07 s
+------------------------------------------
+Dokument 573123 bol úspešne spracovaný.
