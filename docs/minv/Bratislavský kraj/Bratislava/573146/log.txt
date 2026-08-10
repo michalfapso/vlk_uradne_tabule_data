@@ -1,0 +1,69 @@
+[2026-08-10 18:46:15] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573146'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573146/orig.doc
+Converting document to text...
+LibreOffice conversion stdout: convert /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573146/orig.doc as a Writer document -> /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573146/orig.txt using filter : Text
+
+LibreOffice conversion stderr: 
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573146/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§2 ods. 1)' zákona 'a  podalo predbežnú písomnú žiadosť podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 7' zákona 'sa považuje za zúčastnenú osobu na adresu: Okresný úrad Bratislava, odbor starostlivosti o životné prostredie, oddelenie ochrany prírody a vybraných z'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573146/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01090675}
+LLM_tokens: {"input": 5399, "output": 3038, "total": 8437, "cached": 2015}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573146/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573146/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava – Rusovce', 'katastralne_uzemia': [{'nazov': 'Bratislava – Rusovce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Jarovské rameno Dunaja', 'nazov_lokality_norm': 'Jarovské rameno, Bratislava – Rusovce'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava – Rusovce', 'katastralne_uzemia': [{'nazov': 'Bratislava – Rusovce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Jarovské rameno Dunaja', 'nazov_lokality_norm': 'Jarovské rameno, Bratislava – Rusovce'}
+ku_name:Bratislava – Rusovce obec:Bratislava – Rusovce okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava – rusovce norm_ku: bratislava – rusovce
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava – rusovce norm_ku: rusovce
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: None norm_ku: rusovce
+_get_nationalCadastralZoningReferences() found_ids: {'853771'}
+nationalCadastralZoningReferences: ['853771']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Jarovské rameno, Bratislava – Rusovce
+get_geometry_of_a_geoname nazov_lokality: Jarovské rameno, Bratislava – Rusovce
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** rameno, Bratislava – Rusovce, Bratislava – Rusovce, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** rameno, Bratislava – Rusovce, Bratislava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** rameno, Bratislava – Rusovce, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** rameno, Bratislava – Rusovce, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.0785595, 'lon': 17.1372232, 'formatted_address': 'Jarovské rameno, Bratislava, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** rameno, Bratislava, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.14183 48.07365, 17.14295 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573146/gis.geojson...
+Intersections with protected areas...
+Found 31 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}, {'parcel_label': 'Rusovce', 'NAZOV_UEV': 'Ostrovné lúčky', 'KOD_UEV': 'SKUEV0269'}], 'UEV': [{'parcel_label': 'Rusovce', 'NATIONALSI': 'SKUEV0269', 'SITETITLE_': 'Ostrovné lúčky'}], 'MCHU': [{'parcel_label': 'Rusovce', 'NATIONALSI': '122', 'SITETITLE_': 'CHA Ostrovné lúčky'}], 'CHVU': [{'parcel_label': 'Rusovce', 'NATIONALSI': 'SKCHVU007', 'SITETITLE_': 'Dunajské luhy'}, {'parcel_label': 'Rusovce', 'NATIONALSI': 'SKCHVU029', 'SITETITLE_': 'Sysľovské polia'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573146/analysis.json...
+
+--- Časy spracovania dokumentu 573146 ---
+  download_and_text   :   1.39 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.53 s
+  gis_processing      :   2.12 s
+  CELKOVÝ ČAS         :  15.05 s
+------------------------------------------
+Dokument 573146 bol úspešne spracovaný.

@@ -1,0 +1,70 @@
+[2026-08-10 18:46:30] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573144'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573144/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573144/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 24 ods. 1 písm. i)' zákona '24/2006 Z. z. o posudzovaní  vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších  predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1 písm. c)' zákona '525/2003 Z. z.  o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov, ako správn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z.  o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov, ako správn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 písm. l)' zákona 'o posudzovaní, oznamuje podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 56  písm. b)' zákona 'o posudzovaní, oznamuje podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 3 písm. a)' zákona 'o posudzovaní,  že  proti záväznému stanovisku zo zisťovacieho konania č. OU-BA-OSZP3-2026/390656-026 zo dňa  22.06.2026 pre zámer navrhovanej činnost'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 1' zákona 'o posudzovaní od Združenia domových samospráv,  Rovniankova 14, 851 02 Bratislava, IČO: 318 201 74.        OÚ BA informuje o doručenom odvolaní v cent'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 15' zákona 'o posudzovaní má odvolateľ právo nahliadať do spisu, robiť si  z neho výpisy, odpisy a kópie.     Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 4' zákona 'o posudzovaní príslušný orgán po uplynutí lehoty podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30  odseku 3 písm. c)' zákona 'o posudzovaní predloží bezodkladne, najneskôr však do desiatich dní,  podané odvolanie spolu s administratívnym spisom vrátane doručených vyjadrení sv'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 8' zákona 'o posudzovaní odvolací orgán preskúma napadnuté rozhodnutie  v celom rozsahu; ak je to nevyhnutné, doterajšie konanie doplní, prípadne zistené vady'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573144/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010867}
+LLM_tokens: {"input": 4970, "output": 2794, "total": 7764, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573144/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573144/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Letisko Bratislava', 'nazov_lokality_norm': 'Letisko Bratislava'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Letisko Bratislava', 'nazov_lokality_norm': 'Letisko Bratislava'}
+Fallback to OBEC: Bratislava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: bratislava norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: bratislava norm_ku: None
+Fallback to OBEC failed: Nenašlo sa žiadne katastrálne uzemie pre zadané parametre kraj:None, okres:None, obec:Bratislava, katastralneUzemie:None
+No geometries were found.
+nazov_lokality: Letisko Bratislava
+get_geometry_of_a_geoname nazov_lokality: Letisko Bratislava
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bratislava, Bratislava, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.18986 48.1647, 17.18986 48.16469,...  ...  Letisko M. R. Štefánika, Ivanská cesta, Bratis...
+1  POLYGON ((17.18707 48.19796, 17.18715 48.19783...  ...  Modelárske letisko, Východná, Východné, Bratis...
+2  POLYGON ((17.20591 48.16995, 17.20641 48.16959...  ...  HaZZ Letisko M. R. Štefánika, 4527, Bratislava...
+3  POLYGON ((17.17315 48.17334, 17.17374 48.17286...  ...  Parkovanie Letisko, Galvaniho, Štúrova kolónia...
+4  POLYGON ((17.19218 48.16422, 17.19237 48.16422...  ...  Colný úrad Bratislava - Pobočka colného úradu ...
+
+[5 rows x 11 columns]
+geoname_query: Letisko Bratislava, Bratislava, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.18986 48.1647, 17.18986 48.16469,...  ...  Letisko M. R. Štefánika, Ivanská cesta, Bratis...
+1  POLYGON ((17.18707 48.19796, 17.18715 48.19783...  ...  Modelárske letisko, Východná, Východné, Bratis...
+2  POLYGON ((17.20591 48.16995, 17.20641 48.16959...  ...  HaZZ Letisko M. R. Štefánika, 4527, Bratislava...
+3  POLYGON ((17.17315 48.17334, 17.17374 48.17286...  ...  Parkovanie Letisko, Galvaniho, Štúrova kolónia...
+4  POLYGON ((17.19218 48.16422, 17.19237 48.16422...  ...  Colný úrad Bratislava - Pobočka colného úradu ...
+
+[5 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573144/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573144/analysis.json...
+
+--- Časy spracovania dokumentu 573144 ---
+  download_and_text   :   1.59 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.05 s
+  gis_processing      :   0.93 s
+  CELKOVÝ ČAS         :  13.57 s
+------------------------------------------
+Dokument 573144 bol úspešne spracovaný.

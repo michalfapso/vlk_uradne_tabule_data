@@ -1,0 +1,142 @@
+{
+  "cislo_konania_spisu": "OU-LM-OSZP-2026/001680-005",
+  "cislo_rozhodnutia": "OU-LM-OSZP-2026/001680-0030908/2026",
+  "datum_dokumentu": "2026-08-05",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "v lehote do 15 dní odo dňa jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "Regionálny rozvoj Liptova s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Jamník",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jamník",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "IBV Jamnická vyhliadka",
+    "nazov_lokality_norm": "Jamnická vyhliadka, Jamník"
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení na užívanie vodných stavieb",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "užívanie vodnej stavby",
+    "splašková kanalizácia",
+    "prečerpávanie splaškových odpadových vôd"
+  ],
+  "rozsah_zasahu": "SO 03 Splašková kanalizácia, SO 03.1 Prečerpávanie splaškových odpadových vôd",
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o organizácii miestnej štátnej správy",
+      "cislo": "180/2013",
+      "paragrafy": [
+        "§ 4 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "§ 5"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "§ 61",
+        "§ 73",
+        "§ 26 ods. 4",
+        "§ 73 ods. 6"
+      ]
+    },
+    {
+      "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "§ 120",
+        "§ 82 ods. 1",
+        "§ 103",
+        "§ 80 ods. 2",
+        "§ 78",
+        "§ 81 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "§ 46",
+        "§ 33 ods. 2",
+        "§ 26 ods. 2",
+        "§ 53",
+        "§ 54"
+      ]
+    },
+    {
+      "nazov": "vyhláška, ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "cislo": "453/2000",
+      "paragrafy": [
+        "§ 20",
+        "§ 17 ods. 2"
+      ]
+    },
+    {
+      "nazov": "o správnych poplatkoch",
+      "cislo": "145/1995",
+      "paragrafy": [
+        "položka 59 a) bod 13",
+        "položka 59 e)"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o povolení užívania (kolaudácia) splaškovej kanalizácie a prečerpávacej stanice pre lokality IBV Jamnická vyhliadka a IBV Jamnická vyhliadka II. v obci Jamník. Stavba slúži na odvádzanie odpadových vôd do obecnej ČOV a nachádza sa v zastavanom území bez presahu do chránených území prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Jamník",
+          "NATIONALSI": "SKUEV0228",
+          "SITETITLE_": "Švihrová"
+        },
+        {
+          "parcel_label": "Jamník",
+          "NATIONALSI": "SKUEV0307",
+          "SITETITLE_": "Tatry"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Jamník",
+          "NATIONALSI": "448",
+          "SITETITLE_": "PR Švihrová"
+        },
+        {
+          "parcel_label": "Jamník",
+          "NATIONALSI": "402",
+          "SITETITLE_": "NPR Roháčske plesá"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Jamník",
+          "NATIONALSI": "SKCHVU030",
+          "SITETITLE_": "Tatry"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

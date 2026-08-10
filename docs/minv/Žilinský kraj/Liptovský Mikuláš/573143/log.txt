@@ -1,0 +1,83 @@
+[2026-08-10 18:49:32] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/573143'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/573143/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/573143/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 1' zákona '180/2013 Z. z. Zákon o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona č. 372/1990 Z. z. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona 'vodného zákona na základe žiadosti od žiadateľa: Regionálny rozvoj Liptova s. r. o., Ul. 1. mája 112, 031 01 Liptovský Mikuláš, IČO 36 758 434'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 4' zákona 'vodného zákona v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 1' zákona 'stavebného zákona platného do 31.03.2025 a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 20' zákona 'vyhlášky č. 453/2000 Z. z., ktorou sa vykonávajú niektoré ustanovenia stavebného zákona pre vlastníka vodných stavieb Obec Jamník, Jamník 192, 033 01'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 103' zákona 'stavebného zákona v znení neskorších predpisov uchovávať po celý čas jej trvania, pri zmene vlastníctva ju odovzdať novému nadobúdateľovi stavby a pri'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 4 písm. b)' zákona 'zák. č. 25/2025 stavebného zákona. OÚ LM OSŽP použil znenia zákona č. 50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpiso'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 17 ods. 2' zákona 'Vyhlášky MŽP SR č. 435/2000 Z. z. kompletnú predpísanú sprievodnú technickú dokumentáciu, ktorá je súčasťou spisu a bude uložená v archíve. V kolaudač'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80 ods. 2' zákona 'stavebného zákona svoje námietky a pripomienky môžu uplatniť 2 / 4 OU-LM-OSZP-2026/001680-0030908/2026 2 najneskôr v lehote 8 dní, inak sa nebudú brať'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 78' zákona 'stavebného zákona sú účastníci kolaudačného konania taxatívne stanovení: „stavebník, vlastník stavby, ak nie je stavebníkom a vlastník pozemku, na kto'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 81 ods. 1' zákona 'stavebného zákona, v kolaudačnom konaní stavebný úrad najmä skúma, či sa stavba uskutočnila podľa dokumentácie overenej stavebným úradom v stavebnom k'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona v spojení sa rozhodnutie doručí formou verejnej vyhlášky. V zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/573143/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0134875}
+LLM_tokens: {"input": 9605, "output": 2895, "total": 12500, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 97 column 1 (char 2613)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014576500000000001}
+LLM_tokens: {"input": 9605, "output": 3258, "total": 12863, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/573143/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/573143/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Jamník', 'katastralne_uzemia': [{'nazov': 'Jamník', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'IBV Jamnická vyhliadka', 'nazov_lokality_norm': 'Jamnická vyhliadka, Jamník'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Jamník', 'katastralne_uzemia': [{'nazov': 'Jamník', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'IBV Jamnická vyhliadka', 'nazov_lokality_norm': 'Jamnická vyhliadka, Jamník'}
+ku_name:Jamník obec:Jamník okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: jamnik norm_ku: jamnik
+_get_nationalCadastralZoningReferences() found_ids: {'822019'}
+nationalCadastralZoningReferences: ['822019']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.39 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Jamnická vyhliadka, Jamník
+get_geometry_of_a_geoname nazov_lokality: Jamnická vyhliadka, Jamník
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vyhliadka, Jamník, Jamník, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vyhliadka, Jamník, Liptovský Mikuláš, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vyhliadka, Jamník, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vyhliadka, Jamník, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.16831209999999, 'lon': 19.7767925, 'formatted_address': 'Jamnícka dolina, 033 01 Jamník, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** dolina, 033 01 Jamník, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.76354 49.20742, 19.76459 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/573143/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Jamník', 'NATIONALSI': 'SKUEV0228', 'SITETITLE_': 'Švihrová'}, {'parcel_label': 'Jamník', 'NATIONALSI': 'SKUEV0307', 'SITETITLE_': 'Tatry'}], 'MCHU': [{'parcel_label': 'Jamník', 'NATIONALSI': '448', 'SITETITLE_': 'PR Švihrová'}, {'parcel_label': 'Jamník', 'NATIONALSI': '402', 'SITETITLE_': 'NPR Roháčske plesá'}], 'CHVU': [{'parcel_label': 'Jamník', 'NATIONALSI': 'SKCHVU030', 'SITETITLE_': 'Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/573143/analysis.json...
+
+--- Časy spracovania dokumentu 573143 ---
+  download_and_text   :   1.34 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  29.52 s
+  gis_processing      :   2.54 s
+  CELKOVÝ ČAS         :  33.41 s
+------------------------------------------
+Dokument 573143 bol úspešne spracovaný.

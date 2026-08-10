@@ -1,0 +1,53 @@
+[2026-08-10 18:48:02] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/573196'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/573196/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/573196/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58 písm. c)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a na ustanove'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písm. e)' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov, podľa ustanovenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 6' zákona 'číslo 71/1967 Zb. o správnom konaní vydáva opravu chyby v písomnom vyhotovení rozhodnutia č. OU- BJ-OSZP-2026/006101-010 zo dňa 06.07.2026 o povolení'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 6' zákona 'správenho poriadku, túto nesprávnosť opravuje a upovedomuje o tom všetkých účastníkov konania. Uvedenou opravou sa obsah a zmysel rozhodnutia nemení'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/573196/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0107715}
+LLM_tokens: {"input": 6471, "output": 2512, "total": 8983, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/573196/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/573196/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Koprivnica', 'katastralne_uzemia': [{'nazov': 'Koprivnica', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Koprivnica', 'katastralne_uzemia': [{'nazov': 'Koprivnica', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Koprivnica obec:Koprivnica okres:Bardejov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: koprivnica norm_ku: koprivnica
+_get_nationalCadastralZoningReferences() found_ids: {'826251'}
+nationalCadastralZoningReferences: ['826251']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.37555 49.1831, 21.37662 49....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/573196/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/573196/analysis.json...
+
+--- Časy spracovania dokumentu 573196 ---
+  download_and_text   :   1.13 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   9.66 s
+  gis_processing      :   0.46 s
+  CELKOVÝ ČAS         :  11.26 s
+------------------------------------------
+Dokument 573196 bol úspešne spracovaný.

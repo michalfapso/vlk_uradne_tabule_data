@@ -1,0 +1,65 @@
+[2026-08-10 18:48:14] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573191'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573191/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573191/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov /vodný zákon/, a v súlade'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov /vodný zákon/, a v súlade'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71' zákona '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov /vodný zákon/, a v súlade'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov /vodný zákon/, a v súlade'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16' zákona '25/2025 Stavebný zákona a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods. 1' zákona '25/2025 Stavebný zákona a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53 ods. 2' zákona '25/2025 Stavebný zákon, upúšťa od ústneho pojednávania spojeného s miestnou obhliadkou. ______________________________________________________________'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 4' zákona '25/2025 Stavebný zákon návrhy, pripomienky a námietky účastníkov konania musia obsahovať údaj o tom, kto ich podáva, akého konania sa týkajú a v čom v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 5' zákona '25/2025 Stavebný zákon, správny orgán neprihliadne na návrhy, pripomienky a námietky účastníkov konania, ktoré sledujú iný cieľ ako ochranu práv a prá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 6' zákona '25/2025 Stavebný zákon, správny orgán neprihliadne ani na: a) opätovne uplatnené návrhy, pripomienky a námietky účastníkov konania a dotknutých orgáno'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 7' zákona '25/2025 Stavebný zákon, odvolací orgán v odvolacom konaní neprihliadne na návrhy, pripomienky a námietky účastníkov konania, ktoré účastníci konania n'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 5' zákona '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573191/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0120855}
+LLM_tokens: {"input": 7071, "output": 2850, "total": 9921, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 92 column 1 (char 2381)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00980025}
+LLM_tokens: {"input": 7071, "output": 2695, "total": 9766, "cached": 4045}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573191/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573191/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Sabinov', 'obec': 'Šarišské Dravce', 'katastralne_uzemia': [{'nazov': 'Šarišské Dravce', 'parcely': [{'typ': 'C', 'cisla': ['648', '651/3', '656']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Za Močidly', 'nazov_lokality_norm': 'Za Močidly, Šarišské Dravce'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Sabinov', 'obec': 'Šarišské Dravce', 'katastralne_uzemia': [{'nazov': 'Šarišské Dravce', 'parcely': [{'typ': 'C', 'cisla': ['648', '651/3', '656']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Za Močidly', 'nazov_lokality_norm': 'Za Močidly, Šarišské Dravce'}
+ku_name:Šarišské Dravce obec:Šarišské Dravce okres:Sabinov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: sabinov norm_obec: sarisske dravce norm_ku: sarisske dravce
+_get_nationalCadastralZoningReferences() found_ids: {'860514'}
+nationalCadastralZoningReferences: ['860514']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.54 s
+nazov_lokality: Za Močidly, Šarišské Dravce
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2274'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2274'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2274'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573191/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573191/analysis.json...
+
+--- Časy spracovania dokumentu 573191 ---
+  download_and_text   :   0.96 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  21.14 s
+  gis_processing      :   3.75 s
+  CELKOVÝ ČAS         :  25.86 s
+------------------------------------------
+Dokument 573191 bol úspešne spracovaný.
