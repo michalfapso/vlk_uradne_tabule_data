@@ -1,0 +1,74 @@
+[2026-08-11 18:57:11] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/573276'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/573276/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/573276/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov bolo  doruče'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov bolo  doruče'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 5' zákona 'do troch  pracovných dní od doručenia oznámenia informuje verejnosť spôsobom v mieste obvyklým  a zároveň oznámi, kde a kedy možno do oznámenia nahlia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 63' zákona 'k oznámeniu o strategickom dokumente je možné vykonať na  Okresnom úrade Komárno, odbore starostlivosti o životné prostredie, Záhradnícka č. 6, 945 01'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0111395}
+LLM_tokens: {"input": 4615, "output": 2944, "total": 7559, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 59 column 1 (char 1761)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01392845}
+LLM_tokens: {"input": 4615, "output": 4175, "total": 8790, "cached": 2009}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/573276/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/573276/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Komárno', 'obec': 'Patince', 'katastralne_uzemia': [{'nazov': 'Patince', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Obec Patince', 'nazov_lokality_norm': 'Patince'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Komárno', 'obec': 'Patince', 'katastralne_uzemia': [{'nazov': 'Patince', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Obec Patince', 'nazov_lokality_norm': 'Patince'}
+ku_name:Patince obec:Patince okres:Komárno kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: komarno norm_obec: patince norm_ku: patince
+_get_nationalCadastralZoningReferences() found_ids: {'845663'}
+nationalCadastralZoningReferences: ['845663']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.35 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Patince
+get_geometry_of_a_geoname nazov_lokality: Patince
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Patince, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.25578 47.73904, 18.25656 47.73894...  ...  Patince, okres Komárno, Nitriansky kraj, Slove...
+
+[1 rows x 11 columns]
+geoname_query: Patince, Patince, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.26999 47.75866, 18.27007 47...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.25578 47.73904, 18.25656 47.73894...  ...  Patince, okres Komárno, Nitriansky kraj, Slove...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/573276/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Patince', 'NATIONALSI': 'SKUEV0393', 'SITETITLE_': 'Dunaj'}], 'CHVU': [{'parcel_label': 'Patince', 'NATIONALSI': 'SKCHVU007', 'SITETITLE_': 'Dunajské luhy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/573276/analysis.json...
+
+--- Časy spracovania dokumentu 573276 ---
+  download_and_text   :   0.95 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  27.58 s
+  gis_processing      :   1.01 s
+  CELKOVÝ ČAS         :  29.54 s
+------------------------------------------
+Dokument 573276 bol úspešne spracovaný.

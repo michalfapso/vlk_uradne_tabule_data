@@ -1,0 +1,54 @@
+[2026-08-11 18:48:51] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573268'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573268/orig.doc
+Converting document to text...
+LibreOffice conversion stdout: convert /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573268/orig.doc as a Writer document -> /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573268/orig.txt using filter : Text
+
+LibreOffice conversion stderr: 
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573268/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 1' zákona ') a ktoré písomne oznámi svoju účasť v konaní v lehote určenej orgánom ochrany prírody sa považuje za zúčastnenú osobu. Združenie s právnou subjektivi'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona '). Oznámenie môže združenie s právnou subjektivitou môže doručiť písomné'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '6' zákona '). Oznámenie môže združenie s právnou subjektivitou môže doručiť písomné'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573268/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0125945}
+LLM_tokens: {"input": 7789, "output": 2900, "total": 10689, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573268/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573268/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Petržalka', 'katastralne_uzemia': [{'nazov': 'Petržalka', 'parcely': [{'typ': None, 'cisla': ['3042/458']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Južné mesto', 'nazov_lokality_norm': 'Južné mesto'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Petržalka', 'katastralne_uzemia': [{'nazov': 'Petržalka', 'parcely': [{'typ': None, 'cisla': ['3042/458']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Južné mesto', 'nazov_lokality_norm': 'Južné mesto'}
+ku_name:Petržalka obec:Petržalka okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: petrzalka norm_ku: petrzalka
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: None norm_ku: petrzalka
+_get_nationalCadastralZoningReferences() found_ids: {'804959'}
+nationalCadastralZoningReferences: ['804959']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.23 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.85 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+nazov_lokality: Južné mesto
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.589'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573268/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573268/analysis.json...
+
+--- Časy spracovania dokumentu 573268 ---
+  download_and_text   :   2.19 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.02 s
+  gis_processing      :   6.40 s
+  CELKOVÝ ČAS         :  19.62 s
+------------------------------------------
+Dokument 573268 bol úspešne spracovaný.

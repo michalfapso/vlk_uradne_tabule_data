@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2026/011861-004",
+  "cislo_rozhodnutia": "OU-NM-OSZP-2026/011861-004",
+  "datum_dokumentu": "2026-06-06",
+  "datum_zverejnenia": "2026-05-16",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "DOMNASTAN, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Nové Mesto nad Váhom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nové Mesto nad Váhom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4358/1",
+              "4534/29",
+              "4534/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Centrál - Obchodné centrum, ul. Holého",
+    "nazov_lokality_norm": "Holého, Nové Mesto nad Váhom"
+  },
+  "typ_dokumentu": "Rozhodnutie o povolení vodnej stavby verejnou vyhláškou",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "preložka vodovodu",
+    "vodovodná prípojka",
+    "areálový vodovod",
+    "nádrž SHZ",
+    "preložka kanalizácie",
+    "kanalizačná prípojka dažďových vôd",
+    "vsakovacie zariadenie",
+    "odlučovač ropných látok"
+  ],
+  "rozsah_zasahu": "vodovod (preložka 18,3 m, prípojka 5,0 m, areál 23,0 m), nádrž SHZ 86,33 m3, kanalizácia (preložka 33,0 m, prípojka 29,0 m)",
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "21",
+        "26",
+        "61"
+      ]
+    },
+    {
+      "nazov": "o územnom plánovaní a o stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "66",
+        "120"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o povolení vodnej stavby pre obchodné centrum v Novom Meste nad Váhom zahŕňajúce preložky vodovodu a kanalizácie. Projekt obsahuje vybudovanie vsakovacieho zariadenia s odlučovačom ropných látok a požiarnu nádrž. Stavba sa nachádza v zastavanom území obce a nezasahuje do chránených území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

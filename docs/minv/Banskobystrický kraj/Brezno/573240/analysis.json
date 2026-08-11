@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-08-11",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Robert Môcik a Daniela Môciková",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5896/280"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť Roberta a Daniely Môcikových o vydanie súhlasu na výrub drevín v katastrálnom území Brezno na parcele KN-C 5896/280. Konanie je v počiatočnej fáze a verejnosť môže oznámiť svoju účasť do 5 pracovných dní od zverejnenia. Dokument nešpecifikuje presný počet stromov ani či sa nachádzajú v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

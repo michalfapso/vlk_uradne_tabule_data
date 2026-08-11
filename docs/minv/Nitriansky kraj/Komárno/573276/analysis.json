@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-05",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 15 dní od zverejnenia predmetného oznámenia dotknutou obcou"
+  },
+  "ziadatel_navrhovatel": "Obec Patince",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Komárno",
+    "obec": "Patince",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Patince",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Obec Patince",
+    "nazov_lokality_norm": "Patince"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o predložení strategického dokumentu",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "Územný plán obce Patince – Zmeny a doplnky č. 2"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "http://www.enviroportal.sk/sk/sea",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "6",
+        "63"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "1",
+        "5"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o strategickom dokumente týkajúcom sa zmien a doplnkov č. 2 územného plánu obce Patince. Verejnosť môže predkladať stanoviská do 15 dní od zverejnenia oznámenia. Proces prebieha v zmysle zákona o posudzovaní vplyvov na životné prostredie (SEA).",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Patince",
+          "NATIONALSI": "SKUEV0393",
+          "SITETITLE_": "Dunaj"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Patince",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

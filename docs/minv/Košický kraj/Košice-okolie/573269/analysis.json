@@ -1,0 +1,102 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2026/016011-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-10",
+  "datum_zverejnenia": "2026-08-10",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr na ústnom pojednávaní dňa 11. 09. 2026"
+  },
+  "ziadatel_navrhovatel": "Obec Haniska",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Haniska",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Haniska",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "934/15",
+              "934/346",
+              "934/142",
+              "934/428",
+              "934/405"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "IBV Zamajer",
+    "nazov_lokality_norm": "Zamajer"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania a nariadenie ústneho pojednávania",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "rozšírenie obecného vodovodu",
+    "prepojenie na plánovaný vodovod"
+  ],
+  "rozsah_zasahu": "vodovod dĺžky 1161 m, 5 ks podzemných požiarnych hydrantov, 1 ks nadzemný hydrant",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "61",
+        "73"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": [
+        "16",
+        "51"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania pre výstavbu vodovodu v rámci IBV Zamajer v obci Haniska. Projekt zahŕňa rozšírenie obecného vodovodu a prepojenie na plánovaný vodovod Valaliky - Volvo v celkovej dĺžke približne 1161 metrov. Ústne pojednávanie je nariadené na 11. 09. 2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Haniska",
+          "NATIONALSI": "SKUEV0935",
+          "SITETITLE_": "Haništiansky les"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Haniska",
+          "NATIONALSI": "SKCHVU009",
+          "SITETITLE_": "Košická kotlina"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

@@ -1,0 +1,48 @@
+[2026-08-11 19:00:51] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573279'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573279/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573279/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých  zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'citovaného zákona, sa považuje za zúčastnenú osobu.    Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'uvedie v písomnom  oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno  a priezvisko osoby oprávnenej konať v jeh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573279/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014096000000000001}
+LLM_tokens: {"input": 7234, "output": 3493, "total": 10727, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573279/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573279/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Stará Turá', 'katastralne_uzemia': [{'nazov': 'Stará Turá', 'parcely': [{'typ': 'C', 'cisla': ['5002/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'parcela reg. „C“ č. 5002/1 v k. ú. Stará Turá', 'nazov_lokality_norm': None}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Stará Turá', 'katastralne_uzemia': [{'nazov': 'Stará Turá', 'parcely': [{'typ': 'C', 'cisla': ['5002/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'parcela reg. „C“ č. 5002/1 v k. ú. Stará Turá', 'nazov_lokality_norm': None}
+ku_name:Stará Turá obec:Stará Turá okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: stara tura norm_ku: stara tura
+_get_nationalCadastralZoningReferences() found_ids: {'858251'}
+nationalCadastralZoningReferences: ['858251']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.20 s
+nazov_lokality: parcela reg. „C“ č. 5002/1 v k. ú. Stará Turá
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.595'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573279/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573279/analysis.json...
+
+--- Časy spracovania dokumentu 573279 ---
+  download_and_text   :   1.02 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  14.01 s
+  gis_processing      :   3.40 s
+  CELKOVÝ ČAS         :  18.43 s
+------------------------------------------
+Dokument 573279 bol úspešne spracovaný.

@@ -1,0 +1,88 @@
+[2026-08-11 18:57:41] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573235'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573235/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573235/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov /vodný zákon/'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71' zákona '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov /vodný zákon/'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov /vodný zákon/'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku /stavebný zákon/ v znení neskorších predpisov, oznamuje začatie konania vo veci 1. predĺženia pla'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku /stavebný zákon/ v znení neskorších predpisov, oznamuje začatie konania vo veci 1. predĺženia pla'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku /stavebný zákon/ v znení neskorších predpisov, oznamuje začatie konania vo veci 1. predĺženia pla'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 70' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku /stavebný zákon/ v znení neskorších predpisov, oznamuje začatie konania vo veci 1. predĺženia pla'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573235/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0132815}
+LLM_tokens: {"input": 6547, "output": 3336, "total": 9883, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573235/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573235/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Sabinov', 'obec': 'Lipany', 'katastralne_uzemia': [{'nazov': 'Lipany', 'parcely': [{'typ': 'C', 'cisla': ['1241/35', '1253/1', '1241/79']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Rekreačná zóna', 'nazov_lokality_norm': 'Rekreačná zóna'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Sabinov', 'obec': 'Lipany', 'katastralne_uzemia': [{'nazov': 'Lipany', 'parcely': [{'typ': 'C', 'cisla': ['1241/35', '1253/1', '1241/79']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Rekreačná zóna', 'nazov_lokality_norm': 'Rekreačná zóna'}
+ku_name:Lipany obec:Lipany okres:Sabinov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: sabinov norm_obec: lipany norm_ku: lipany
+_get_nationalCadastralZoningReferences() found_ids: {'832219'}
+nationalCadastralZoningReferences: ['832219']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.53 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['1241/35', '1253/1', '1241/79']}' v KU 'Lipany' sa nenašli dáta.
+Fallback to OBEC: Lipany
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: sabinov norm_obec: lipany norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'832219'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Rekreačná zóna
+get_geometry_of_a_geoname nazov_lokality: Rekreačná zóna
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** zóna, Lipany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** zóna, Sabinov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** zóna, Prešovský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** zóna, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.20452 48.99579, 18.20462 48.9958,...  ...  Rekreačná zóna, Sihoť, Ilava, okres Ilava, Tre...
+
+[1 rows x 11 columns]
+geoname_query: Rekreačná zóna, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.95416 49.18251, 20.95611 49...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.20452 48.99579, 18.20462 48.9958,...  ...  Rekreačná zóna, Sihoť, Ilava, okres Ilava, Tre...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573235/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573235/analysis.json...
+
+--- Časy spracovania dokumentu 573235 ---
+  download_and_text   :   1.73 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.79 s
+  gis_processing      :   5.08 s
+  CELKOVÝ ČAS         :  19.60 s
+------------------------------------------
+Dokument 573235 bol úspešne spracovaný.

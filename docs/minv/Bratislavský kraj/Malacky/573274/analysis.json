@@ -1,0 +1,100 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP-2026/035354-001",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-11",
+  "datum_zverejnenia": "2026-08-11",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 7 pracovných dní odo dňa doručenia oznámenia"
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": "Malacky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Malacky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "404115",
+              "3400/1",
+              "3265/1",
+              "3398",
+              "3270/2",
+              "404112",
+              "3258/37",
+              "3258/60",
+              "1218/12",
+              "2597/1",
+              "172117",
+              "1218/8",
+              "1721/3"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1037/3",
+              "477",
+              "478",
+              "908",
+              "429/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "ulica Pezinská - Radlinského, ŽST Malacky, ul. Kollárova - Duklianskych hrdinov",
+    "nazov_lokality_norm": "Pezinská, Malacky"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "preložka kanalizácie",
+    "odvodnenie podchodu pre peších a cyklistov",
+    "odvodnenie cestného podjazdu"
+  ],
+  "rozsah_zasahu": "preložka kanalizácie DN 300, dĺžka výtlaku 35 m a 13,5 m v rámci modernizácie železničnej trate",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z.z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "Zákon o vodách (vodný zákon)",
+      "cislo": "364/2004 Z.z.",
+      "paragrafy": [
+        "61"
+      ]
+    },
+    {
+      "nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "120",
+        "61"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania na povolenie vodných stavieb súvisiacich s modernizáciou železničnej trate v Malackách. Projekt zahŕňa preložku kanalizácie a vybudovanie odvodňovacích systémov pre podchody a podjazdy v intraviláne mesta. Dokument nešpecifikuje zásah do chránených území ani biotopov.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

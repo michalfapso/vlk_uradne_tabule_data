@@ -1,0 +1,73 @@
+[2026-08-11 18:49:55] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/573237'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/573237/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.026221599999999998}
+LLM_tokens: {"input": 1366, "output": 65535, "total": 66901, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/573237/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 3' zákona '525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z.z. o vodách a o zmene zákona č. 372/1990 Z.z. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. 1' zákona 'SNR č. 50/1976 Z.z. - Stavebného zákona a zmien a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona '50/1976 Z.z. o územnom plánovaní a stavebnom poriadku v účinnosti s ustanoveniami'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona 'stavebného zákona, „Technická infraštruktúra pre obytnú zónu Slamník - Predĺženie verejného vodovodu“, podľa projektovej dokumentácie, ktorú vypracova'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 62 ods. 1 písm. d)' zákona 'stavebného zákona ohlásiť stavebnému úradu zhotoviteľa stavby do 10 dní od jeho výberu a zhotoviteľa zabezpečiť viditeľné umiestnenie stavby. 4. Stave'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66 ods. 2 písm. h)' zákona 'stavebného zákona oznámiť tunajšiemu úradu začatie stavby a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66 ods. 2 písm. g)' zákona 'stavebného zákona použiť na povolenú stavbu vhodné stavebné výrobky. 5. Pred zahájením výkopových prác musí predchádzať presné vytyčenie všetkých exis'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18' zákona '352/2007 Z.z. v znení neskorších predpisov. 10. Západo Slovenská distribučná, a.s.: V záujmovom území sa nachádzajú podzemné vodné sledovacie siete, e'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 45' zákona 'o Energetike č. 251/2012 Z.z. o preložke elektrického zariadenia. Preložka bude realizovaná na základe uzatvorenej Zmluvy o výkonoch preložky elektroe'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona 'Ochranné pásma Zákona o energetike tak, aby nedošlo k poškodeniu alebo ohrozeniu prevádzky elektroenergetických zariadení spoločnosti Západoslovenská'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 79' zákona 'o energetike stavebník nesmie bez súhlasu prevádzkovateľa distribučnej siete v ochrannom pásme plynárenských zariadení vykonávať činnosť, ako ani Umie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80' zákona 'o energetike stavebník nesmie bez súhlasu prevádzkovateľa distribučnej siete v bezpečnostnom pásme plynárenských zariadení umiestňovať stavby. 38. Sta'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23' zákona '452/2021 Z.z.) a zariadenie je potrebné dodržať ustanovenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 108' zákona 'o ochrane proti úrazu. 39. V prípade straty platnosti uplynutia doby platnosti uvedených vo vyjadrení, v prípade prieme vyznačeného polyméru, dovozu'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/573237/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0462595}
+LLM_tokens: {"input": 70205, "output": 3719, "total": 73924, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/573237/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/573237/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Studienka', 'katastralne_uzemia': [{'nazov': 'Studienka', 'parcely': [{'typ': 'C', 'cisla': ['1095/8', '1095/4', '1803/2']}, {'typ': 'E', 'cisla': ['257/1', '4629/1', '835/2', '836/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'obytná zóna Slamník', 'nazov_lokality_norm': 'Slamník, Studienka'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Studienka', 'katastralne_uzemia': [{'nazov': 'Studienka', 'parcely': [{'typ': 'C', 'cisla': ['1095/8', '1095/4', '1803/2']}, {'typ': 'E', 'cisla': ['257/1', '4629/1', '835/2', '836/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'obytná zóna Slamník', 'nazov_lokality_norm': 'Slamník, Studienka'}
+ku_name:Studienka obec:Studienka okres:Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: studienka norm_ku: studienka
+_get_nationalCadastralZoningReferences() found_ids: {'859303'}
+nationalCadastralZoningReferences: ['859303']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.75 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.28 s
+nazov_lokality: Slamník, Studienka
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2091'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2091'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2091'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2091'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.2091'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.2091'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.2091'}
+
+[7 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/573237/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/573237/analysis.json...
+
+--- Časy spracovania dokumentu 573237 ---
+  download_and_text   : 143.81 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  17.74 s
+  gis_processing      :   7.24 s
+  CELKOVÝ ČAS         : 168.80 s
+------------------------------------------
+Dokument 573237 bol úspešne spracovaný.
