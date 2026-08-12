@@ -1,0 +1,48 @@
+[2026-08-12 18:55:03] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573302'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573302/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573302/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573302/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011176}
+LLM_tokens: {"input": 5780, "output": 2762, "total": 8542, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573302/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573302/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lazy pod Makytou', 'katastralne_uzemia': [{'nazov': 'Lazy pod Makytou', 'parcely': [{'typ': 'C', 'cisla': ['2615/1']}, {'typ': 'E', 'cisla': ['11306']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lazy pod Makytou', 'katastralne_uzemia': [{'nazov': 'Lazy pod Makytou', 'parcely': [{'typ': 'C', 'cisla': ['2615/1']}, {'typ': 'E', 'cisla': ['11306']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Lazy pod Makytou obec:Lazy pod Makytou okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: lazy pod makytou norm_ku: lazy pod makytou
+_get_nationalCadastralZoningReferences() found_ids: {'830950'}
+nationalCadastralZoningReferences: ['830950']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.24 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.73 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1285'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1285'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573302/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573302/analysis.json...
+
+--- Časy spracovania dokumentu 573302 ---
+  download_and_text   :   1.52 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.84 s
+  gis_processing      :   6.18 s
+  CELKOVÝ ČAS         :  20.54 s
+------------------------------------------
+Dokument 573302 bol úspešne spracovaný.

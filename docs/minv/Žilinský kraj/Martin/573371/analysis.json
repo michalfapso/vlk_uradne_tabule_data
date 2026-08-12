@@ -1,0 +1,111 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2023/001474-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-01-16",
+  "datum_zverejnenia": "2023-01-16",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 7 dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š. p.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Martin",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Martin",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "tok rieky Turiec a Beliansky potok",
+    "nazov_lokality_norm": "Turiec, Beliansky potok"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "údržba brehových porastov"
+  ],
+  "rozsah_zasahu": "výrub drevín na brehoch vodných tokov",
+  "typ_uzemia": [
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu drevín na brehoch vodných tokov Turiec a Beliansky potok v katastrálnom území Martin. Žiadosť o výrub podal Slovenský vodohospodársky podnik v rámci údržby tokov. Lokalita zasahuje do územia s 2. stupňom ochrany.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Martin",
+          "NAZOV_UEV": "Lúčanská Fatra",
+          "KOD_UEV": "SKUEV0930"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        },
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "SKUEV0930",
+          "SITETITLE_": "Lúčanská Fatra"
+        },
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        },
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,49 @@
+[2026-08-12 18:50:37] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/573370'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/573370/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/573370/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/573370/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010818500000000002}
+LLM_tokens: {"input": 5281, "output": 2726, "total": 8007, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 65 column 1 (char 1654)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0083792}
+LLM_tokens: {"input": 5281, "output": 2215, "total": 7496, "cached": 2014}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/573370/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/573370/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Dolná Lehota', 'katastralne_uzemia': [{'nazov': 'Dolná Lehota', 'parcely': [{'typ': 'C', 'cisla': ['1754/1']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Dolná Lehota', 'katastralne_uzemia': [{'nazov': 'Dolná Lehota', 'parcely': [{'typ': 'C', 'cisla': ['1754/1']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Dolná Lehota obec:Dolná Lehota okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: dolna lehota norm_ku: dolna lehota
+_get_nationalCadastralZoningReferences() found_ids: {'811572'}
+nationalCadastralZoningReferences: ['811572']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.30 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2334'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/573370/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/573370/analysis.json...
+
+--- Časy spracovania dokumentu 573370 ---
+  download_and_text   :   1.21 s
+  laws_excerpts       :   0.10 s
+  llm_analysis        :  19.85 s
+  gis_processing      :   3.53 s
+  CELKOVÝ ČAS         :  24.69 s
+------------------------------------------
+Dokument 573370 bol úspešne spracovaný.

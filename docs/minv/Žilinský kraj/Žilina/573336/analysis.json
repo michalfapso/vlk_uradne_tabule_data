@@ -1,0 +1,105 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP3-2026/055054-021",
+  "cislo_rozhodnutia": "OU-ZA-OSZP3-2026/055054-0145099/2026",
+  "datum_dokumentu": "2026-08-12",
+  "datum_zverejnenia": "2026-08-12",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa zverejnenia záväzného stanoviska zo zisťovacieho konania v centrálnom informačnom systéme"
+  },
+  "ziadatel_navrhovatel": "Národná diaľničná spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": "Višňové",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Višňové",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2764/64"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vrútky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3871/167",
+              "3871/169"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "západný a východný portál existujúceho tunela Višňové",
+    "nazov_lokality_norm": "tunel Višňové"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "prevádzka hybridného napájacieho systému",
+    "inštalovanie 4ks dieselových generátorov",
+    "osadenie kontajnerov",
+    "realizácia spínacej stanice",
+    "realizácia trafostaníc"
+  ],
+  "rozsah_zasahu": "4 diesel generátory (výkon 8,0 MW, tepelný príkon 18,8 MW), 4x 9000 l nádrže na naftu",
+  "typ_uzemia": [
+    "ochranné pásmo I. stupňa vodárenského zdroja"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/technologicke-vybavenie-tunela-visnove-4x-dg",
+  "zakony": [
+    {
+      "nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "2",
+        "3",
+        "18",
+        "24",
+        "29",
+        "30",
+        "38",
+        "56"
+      ]
+    },
+    {
+      "nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "nazov": "zákon o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "27",
+        "39"
+      ]
+    },
+    {
+      "nazov": "zákon o odpadoch",
+      "cislo": "79/2015 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Rozhodnutie zo zisťovacieho konania EIA určujúce, že inštalácia 4 dieselových generátorov ako záložných zdrojov pre tunel Višňové sa nebude ďalej posudzovať. Činnosť sa realizuje na portáloch tunela v k.ú. Višňové a Vrútky mimo zastavaného územia, pričom rešpektuje ochranné pásmo I. stupňa vodárenského zdroja.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

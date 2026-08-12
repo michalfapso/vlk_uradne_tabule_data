@@ -1,0 +1,80 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2026/097805-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-10",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 20. 08. 2026"
+  },
+  "ziadatel_navrhovatel": "SLOV–MART s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Trnava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trnava",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82",
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci vydania súhlasu na výrub drevín v katastrálnom území Trnava, mimo zastavaného územia obce. Žiadateľom je spoločnosť SLOV–MART s. r. o. a lehota na prihlásenie účastníkov je do 20. 08. 2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "175",
+          "SITETITLE_": "CHA Trnavské rybníky"
+        },
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "175",
+          "SITETITLE_": "OP CHA Trnavské rybníky"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

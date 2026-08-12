@@ -1,0 +1,51 @@
+[2026-08-12 18:56:25] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573383'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573383/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573383/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1 písm. b)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573383/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0119875}
+LLM_tokens: {"input": 7241, "output": 2789, "total": 10030, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573383/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573383/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Kostolné', 'katastralne_uzemia': [{'nazov': 'Kostolné', 'parcely': [{'typ': 'C', 'cisla': ['13563', '13562/6', '816/12']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'vodný tok Žadovský potok', 'nazov_lokality_norm': 'Žadovský potok'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Kostolné', 'katastralne_uzemia': [{'nazov': 'Kostolné', 'parcely': [{'typ': 'C', 'cisla': ['13563', '13562/6', '816/12']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'vodný tok Žadovský potok', 'nazov_lokality_norm': 'Žadovský potok'}
+ku_name:Kostolné obec:Kostolné okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: kostolne norm_ku: kostolne
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: kostolne
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: kostolne
+_get_nationalCadastralZoningReferences() found_ids: {'826693'}
+nationalCadastralZoningReferences: ['826693']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.51 s
+nazov_lokality: Žadovský potok
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.318'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.318'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.318'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573383/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573383/analysis.json...
+
+--- Časy spracovania dokumentu 573383 ---
+  download_and_text   :   1.52 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.36 s
+  gis_processing      :   3.75 s
+  CELKOVÝ ČAS         :  17.64 s
+------------------------------------------
+Dokument 573383 bol úspešne spracovaný.

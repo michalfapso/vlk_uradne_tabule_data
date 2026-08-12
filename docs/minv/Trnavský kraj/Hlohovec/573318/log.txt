@@ -1,0 +1,63 @@
+[2026-08-12 18:56:42] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/573318'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/573318/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/573318/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 63' zákona 'je možné v prípade potreby vykonať konzultácie počas celého procesu posudzovania  vplyvov strategického dokumentu na základe vopred dohodnutého termín'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0118235}
+LLM_tokens: {"input": 4195, "output": 3242, "total": 7437, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/573318/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/573318/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Hlohovec', 'obec': 'Ratkovce', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Ratkovce', 'nazov_lokality_norm': 'Ratkovce'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Hlohovec', 'obec': 'Ratkovce', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Ratkovce', 'nazov_lokality_norm': 'Ratkovce'}
+Fallback to OBEC: Ratkovce
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: hlohovec norm_obec: ratkovce norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'851779'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Ratkovce
+get_geometry_of_a_geoname nazov_lokality: Ratkovce
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ratkovce, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.67944 48.49401, 17.67982 48.49354...  ...  Ratkovce, okres Hlohovec, Trnavský kraj, 919 3...
+
+[1 rows x 11 columns]
+geoname_query: Ratkovce, Ratkovce, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.68161 48.49484, 17.68175 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.67944 48.49401, 17.67982 48.49354...  ...  Ratkovce, okres Hlohovec, Trnavský kraj, 919 3...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/573318/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/573318/analysis.json...
+
+--- Časy spracovania dokumentu 573318 ---
+  download_and_text   :   1.02 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.45 s
+  gis_processing      :   1.16 s
+  CELKOVÝ ČAS         :  15.63 s
+------------------------------------------
+Dokument 573318 bol úspešne spracovaný.

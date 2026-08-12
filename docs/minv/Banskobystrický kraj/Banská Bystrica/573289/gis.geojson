@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "place_id": 188960443, "osm_type": "way", "osm_id": 137389763, "place_rank": 30, "category": "building", "type": "yes", "importance": 6.6565194171008127e-05, "addresstype": "building", "name": "", "display_name": "4949/14, Medený Hámor, Karlovo, Banská Bystrica, okres Banská Bystrica, Banskobystrický kraj, 974 01, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 19.1374368, 48.7520923 ], [ 19.1374507, 48.7515238 ], [ 19.1379068, 48.7514424 ], [ 19.1379207, 48.751485 ], [ 19.1379351, 48.7515289 ], [ 19.1377434, 48.7515595 ], [ 19.1376596, 48.7515728 ], [ 19.1376559, 48.7516747 ], [ 19.1376524, 48.7517677 ], [ 19.1377095, 48.7517677 ], [ 19.1377049, 48.7519248 ], [ 19.1376466, 48.7519235 ], [ 19.1376403, 48.7520932 ], [ 19.1374368, 48.7520923 ] ] ] } }
+]
+}

@@ -1,0 +1,60 @@
+[2026-08-12 18:53:46] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/573382'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/573382/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/573382/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1 písm. c)' zákona '525/2003 Z. z. o štátnej správe  starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení zákona č.  180/2013 Z. z. o organ'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe  starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení zákona č.  180/2013 Z. z. o organ'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/573382/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.019909}
+LLM_tokens: {"input": 8684, "output": 5189, "total": 13873, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/573382/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/573382/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Dubnica nad Váhom', 'katastralne_uzemia': [{'nazov': 'Dubnica nad Váhom', 'parcely': [{'typ': 'C', 'cisla': ['4290/78', '4290/73', '4241/8', '4241/7', '4290/72', '4241/6', '4290/81', '4290/82', '4290/80', '4290/15', '4290/16', '4290/17', '4290/20', '4290/100', '4210/10']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Skládka odpadov Luštek', 'nazov_lokality_norm': 'Luštek'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Dubnica nad Váhom', 'katastralne_uzemia': [{'nazov': 'Dubnica nad Váhom', 'parcely': [{'typ': 'C', 'cisla': ['4290/78', '4290/73', '4241/8', '4241/7', '4290/72', '4241/6', '4290/81', '4290/82', '4290/80', '4290/15', '4290/16', '4290/17', '4290/20', '4290/100', '4210/10']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Skládka odpadov Luštek', 'nazov_lokality_norm': 'Luštek'}
+ku_name:Dubnica nad Váhom obec:Dubnica nad Váhom okres:Ilava kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: dubnica nad vahom norm_ku: dubnica nad vahom
+_get_nationalCadastralZoningReferences() found_ids: {'813141'}
+nationalCadastralZoningReferences: ['813141']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.66 s
+nazov_lokality: Luštek
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.106'}
+
+[15 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/573382/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/573382/analysis.json...
+
+--- Časy spracovania dokumentu 573382 ---
+  download_and_text   :   1.23 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  22.26 s
+  gis_processing      :   3.88 s
+  CELKOVÝ ČAS         :  27.39 s
+------------------------------------------
+Dokument 573382 bol úspešne spracovaný.

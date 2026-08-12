@@ -1,0 +1,108 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-07-08",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "PK Metrostav, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Detva",
+    "obec": "Stožok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stožok",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "704/2",
+              "718/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1085/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "dobyvací priestor Stožok",
+    "nazov_lokality_norm": "Stožok"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie súhlasu na využívanie odpadov na spätné zasypávanie",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "využívanie odpadov na spätné zasypávanie",
+    "likvidácia časti lomu",
+    "povrchová úprava terénu",
+    "zhodnocovanie odpadu"
+  ],
+  "rozsah_zasahu": "530 000 ton odpadov na ploche do 2,3 ha",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o odpadoch",
+      "cislo": "79/2015 Z.z.",
+      "paragrafy": [
+        "97 ods. 1 písm. s)"
+      ]
+    },
+    {
+      "nazov": "Vyhláška MŽP SR o vykonaní niektorých ustanovení zákona o odpadoch",
+      "cislo": "371/2015 Z.z.",
+      "paragrafy": [
+        "39"
+      ]
+    },
+    {
+      "nazov": "Vyhláška MŽP SR, ktorou sa ustanovuje Katalóg odpadov",
+      "cislo": "365/2015 Z.z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Vyhláška SBÚ o bezpečnosti a ochrane zdravia pri práci",
+      "cislo": "29/1989 Zb.",
+      "paragrafy": [
+        "7 ods. 1 až 6"
+      ]
+    }
+  ],
+  "zhrnutie": "Spoločnosť PK Metrostav, a.s. žiada o súhlas na využívanie 530 000 ton inertných odpadov na spätné zasypávanie a povrchovú úpravu v rámci likvidácie časti lomu Stožok. Činnosť sa má realizovať v extraviláne obce Stožok na pozemkoch s celkovou výmerou 2,3 ha. Dokument neobsahuje informácie o tom, či sa lokalita nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "704/2",
+          "NATIONALSI": "SKCHVU022",
+          "SITETITLE_": "Poľana"
+        },
+        {
+          "parcel_label": "718/1",
+          "NATIONALSI": "SKCHVU022",
+          "SITETITLE_": "Poľana"
+        },
+        {
+          "parcel_label": "1085/1",
+          "NATIONALSI": "SKCHVU022",
+          "SITETITLE_": "Poľana"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

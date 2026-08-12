@@ -1,0 +1,52 @@
+[2026-08-12 18:57:21] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573311'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573311/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573311/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573311/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009204}
+LLM_tokens: {"input": 5616, "output": 2132, "total": 7748, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 54 column 1 (char 1402)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0086748}
+LLM_tokens: {"input": 5616, "output": 2258, "total": 7874, "cached": 2016}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573311/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573311/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Trnava', 'katastralne_uzemia': [{'nazov': 'Trnava', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Trnava', 'katastralne_uzemia': [{'nazov': 'Trnava', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Trnava obec:Trnava okres:Trnava kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: trnava norm_ku: trnava
+_get_nationalCadastralZoningReferences() found_ids: {'864790'}
+nationalCadastralZoningReferences: ['864790']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.48 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.59282 48.42719, 17.59314 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573311/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'MCHU': [{'parcel_label': 'Trnava', 'NATIONALSI': '175', 'SITETITLE_': 'CHA Trnavské rybníky'}, {'parcel_label': 'Trnava', 'NATIONALSI': '175', 'SITETITLE_': 'OP CHA Trnavské rybníky'}], 'CHVU': [{'parcel_label': 'Trnava', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': 'Trnava', 'NATIONALSI': 'SKCHVU054', 'SITETITLE_': 'Špačinsko-nižnianske polia'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573311/analysis.json...
+
+--- Časy spracovania dokumentu 573311 ---
+  download_and_text   :   1.37 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  16.97 s
+  gis_processing      :   0.71 s
+  CELKOVÝ ČAS         :  19.06 s
+------------------------------------------
+Dokument 573311 bol úspešne spracovaný.
