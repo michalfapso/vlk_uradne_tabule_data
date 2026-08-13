@@ -1,0 +1,67 @@
+{
+  "cislo_konania_spisu": "15347/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-13",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "TAURIS, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Rimavská Sobota",
+    "obec": "Rimavská Sobota",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rimavská Sobota",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "objekte kotolne",
+    "nazov_lokality_norm": "kotolňa, Rimavská Sobota"
+  },
+  "typ_dokumentu": "Informácia o začatom správnom konaní",
+  "kategorie_vlk": [
+    "ZIVOCICHY_USMRCOVANIE"
+  ],
+  "typ_zasahu": [
+    "odstránenie prázdneho hniezda chráneného živočícha"
+  ],
+  "rozsah_zasahu": "1 prázdne hniezdo",
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "bocian biely (Ciconia ciconia)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Spoločnosť TAURIS, a.s. žiada o povolenie výnimky na odstránenie prázdneho hniezda bociana bieleho v Rimavskej Sobote. Hniezdo sa nachádza na objekte kotolne v zastavanom území obce. Záujem o účasť v konaní je potrebné potvrdiť do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Rimavská Sobota",
+          "NATIONALSI": "328",
+          "SITETITLE_": "PR Kurinecká dubina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Rimavská Sobota",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "cislo_konania_spisu": "OU-BB-OOP3-2026/034378-003",
+  "cislo_rozhodnutia": "OU-BB-OOP3-2026/034378-003",
+  "datum_dokumentu": "2026-08-10",
+  "datum_zverejnenia": "2026-08-10",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Psychiatrická nemocnica Profesora Matulaya",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žiar nad Hronom",
+    "obec": "Kremnica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kremnica",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "areál Psychiatrickej nemocnice Profesora Matulaya",
+    "nazov_lokality_norm": "Psychiatrická nemocnica Profesora Matulaya, Kremnica"
+  },
+  "typ_dokumentu": "Rozhodnutie o odvolaní",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "výstavba stravovacieho zariadenia",
+    "technologické zabezpečenie areálu",
+    "odstránenie objektu práčovne a skladov",
+    "výstavba parkoviska"
+  ],
+  "rozsah_zasahu": "stravovacie zariadenie (1230 jedál denne), 24 parkovacích miest, plocha nad 1000 m2",
+  "typ_uzemia": [
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/stravovacie-zariadenie-technologicke-zabezpecenie-arealu-psychiatricke",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "18",
+        "29",
+        "30",
+        "38",
+        "64"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": [
+        "4"
+      ]
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015 Z. z.",
+      "paragrafy": [
+        "177"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o zamietnutí odvolania a potvrdení výsledku zisťovacieho konania, že výstavba stravovacieho zariadenia v areáli Psychiatrickej nemocnice v Kremnici sa nebude posudzovať podľa zákona EIA. Projekt sa realizuje v zastavanom území s prvým stupňom ochrany a nahrádza existujúce objekty práčovne a skladov. Dokument konštatuje, že zásah nepredpokladá výrub drevín ani významný negatívny vplyv na chránené územia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Kremnica",
+          "NAZOV_UEV": "Horná skala",
+          "KOD_UEV": "SKUEV0858"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Kremnica",
+          "NATIONALSI": "SKUEV0858",
+          "SITETITLE_": "Horná skala"
+        },
+        {
+          "parcel_label": "Kremnica",
+          "NATIONALSI": "SKUEV0640",
+          "SITETITLE_": "Bujačia lúka"
+        },
+        {
+          "parcel_label": "Kremnica",
+          "NATIONALSI": "SKUEV0893",
+          "SITETITLE_": "Kunešovské lúky"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Kremnica",
+          "NATIONALSI": "322",
+          "SITETITLE_": "PR Kremnický Štós"
+        },
+        {
+          "parcel_label": "Kremnica",
+          "NATIONALSI": "230",
+          "SITETITLE_": "PR Bujačia lúka"
+        },
+        {
+          "parcel_label": "Kremnica",
+          "NATIONALSI": "1300",
+          "SITETITLE_": "PR Pralesy Slovenska-Horná skala"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

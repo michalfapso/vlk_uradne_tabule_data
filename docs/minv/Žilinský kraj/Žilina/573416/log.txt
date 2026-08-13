@@ -1,0 +1,55 @@
+[2026-08-13 18:56:26] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573416'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573416/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573416/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2' zákona '180/2013 Z. z. o organizácií miestnej štátnej správy a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej starostlivosti o životné pros'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4' zákona '180/2013 Z. z. o organizácií miestnej štátnej správy a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej starostlivosti o životné pros'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a ako príslušný orgán štátnej správy štátn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 1 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 1 písm. a)' zákona 'vodného zákona – povolenie, ktoré je potrebné na stínanie a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 1 písm. a)' zákona 'vodného zákona. Okresný úrad Žilina, v zmysle ustanovenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 1 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona 'vodného zákona dňa 03.07.2026 oznámil účastníkom konania začatie vodoprávneho konania pod spisovým číslom OU-ZA-OSZP3-2026/063357 a nariadenie ústneho'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 1 písm. a)' zákona 'vodného zákona vydal dňa 10.06.2026 správca vodného toku SVP, š.p., Povodie Horného Váhu, OZ Ružomberok, stanovisko č. SVP 11772/2026/2, v ktorom uvie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 1 písm. a)' zákona 'vodného zákona došlo v priebehu konania k zmenám usporiadania vlastníctva k pozemku C-KN 5932 z dôvodu prebiehajúceho procesu ROEP. Na základe týchto'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573416/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0126175}
+LLM_tokens: {"input": 8471, "output": 2794, "total": 11265, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573416/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573416/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Belá', 'katastralne_uzemia': [{'nazov': 'Belá', 'parcely': [{'typ': 'C', 'cisla': ['5932']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok rieky Črchľový potok', 'nazov_lokality_norm': 'Črchľový potok'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Belá', 'katastralne_uzemia': [{'nazov': 'Belá', 'parcely': [{'typ': 'C', 'cisla': ['5932']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok rieky Črchľový potok', 'nazov_lokality_norm': 'Črchľový potok'}
+ku_name:Belá obec:Belá okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: bela norm_ku: bela
+_get_nationalCadastralZoningReferences() found_ids: {'802336'}
+nationalCadastralZoningReferences: ['802336']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.18 s
+nazov_lokality: Črchľový potok
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1178'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573416/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/573416/analysis.json...
+
+--- Časy spracovania dokumentu 573416 ---
+  download_and_text   :   1.74 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.39 s
+  gis_processing      :   3.40 s
+  CELKOVÝ ČAS         :  18.53 s
+------------------------------------------
+Dokument 573416 bol úspešne spracovaný.

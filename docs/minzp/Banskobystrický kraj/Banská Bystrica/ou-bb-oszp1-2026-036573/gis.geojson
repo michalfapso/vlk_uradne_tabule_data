@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "place_id": 188644093, "osm_type": "way", "osm_id": 90237900, "place_rank": 30, "category": "historic", "type": "industrial", "importance": 0.29684236187219576, "addresstype": "historic", "name": "Gápeľ", "display_name": "Gápeľ, Gápľová, Solivar, Prešov 5, Soľná baňa, Prešov, okres Prešov, Prešovský kraj, 080 05, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 21.2770591, 48.9768334 ], [ 21.2775929, 48.9766489 ], [ 21.2784279, 48.9761591 ], [ 21.2787229, 48.9761268 ], [ 21.2788228, 48.9761555 ], [ 21.2796628, 48.9766685 ], [ 21.2803697, 48.9770165 ], [ 21.2806531, 48.9772246 ], [ 21.2803677, 48.9771001 ], [ 21.2796873, 48.9769731 ], [ 21.2793288, 48.9769358 ], [ 21.2790216, 48.9770791 ], [ 21.2787801, 48.9771261 ], [ 21.2779644, 48.9770514 ], [ 21.2770886, 48.9772458 ], [ 21.2770591, 48.9768334 ] ] ] } }
+]
+}

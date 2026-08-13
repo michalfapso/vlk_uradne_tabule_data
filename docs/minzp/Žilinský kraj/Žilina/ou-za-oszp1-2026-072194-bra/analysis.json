@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP1-2026/072194/Bra",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-13",
+  "datum_zverejnenia": "2026-08-13",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie (t. j. do 20. 08. 2026, vrátane)"
+  },
+  "ziadatel_navrhovatel": "Urbárska obec PS Varín",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": "Varín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Varín",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "k. ú. Varín",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "vybudovanie sprístupňovacej cesty"
+  ],
+  "rozsah_zasahu": "2x sprístupňovacia cesta",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Urbárska obec PS Varín požiadala o vydanie súhlasu na vybudovanie dvoch sprístupňovacích ciest v katastrálnom území obce Varín. Verejnosť a dotknuté subjekty môžu potvrdiť svoj záujem byť účastníkom konania do 20. 08. 2026. Dokument nešpecifikuje, či sa lokalita nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Varín",
+          "NAZOV_UEV": "Malá Fatra",
+          "KOD_UEV": "SKUEV0252"
+        },
+        {
+          "parcel_label": "Varín",
+          "NAZOV_UEV": "Malá Fatra",
+          "KOD_UEV": "SKUEV0252"
+        },
+        {
+          "parcel_label": "Varín",
+          "NAZOV_UEV": "Malá Fatra",
+          "KOD_UEV": "SKUEV0252"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Varín",
+          "NATIONALSI": "SKUEV0252",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "Varín",
+          "NATIONALSI": "SKUEV0221",
+          "SITETITLE_": "Varínka"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Varín",
+          "NATIONALSI": "431",
+          "SITETITLE_": "NPR Starý hrad"
+        },
+        {
+          "parcel_label": "Varín",
+          "NATIONALSI": "435",
+          "SITETITLE_": "NPR Suchý"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Varín",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

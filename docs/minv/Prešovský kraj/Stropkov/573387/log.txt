@@ -1,0 +1,53 @@
+[2026-08-13 18:52:08] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/573387'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/573387/orig.docx
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/573387/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/573387/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010808}
+LLM_tokens: {"input": 5182, "output": 2739, "total": 7921, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 58 column 1 (char 1520)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00725015}
+LLM_tokens: {"input": 5182, "output": 1855, "total": 7037, "cached": 2013}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 59 column 1 (char 1554)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00920015}
+LLM_tokens: {"input": 5182, "output": 2505, "total": 7687, "cached": 2013}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/573387/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/573387/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Stropkov', 'obec': 'Stropkov', 'katastralne_uzemia': [{'nazov': 'Stropkov', 'parcely': [{'typ': 'C', 'cisla': ['726/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Stropkov', 'obec': 'Stropkov', 'katastralne_uzemia': [{'nazov': 'Stropkov', 'parcely': [{'typ': 'C', 'cisla': ['726/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Stropkov obec:Stropkov okres:Stropkov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: stropkov norm_obec: stropkov norm_ku: stropkov
+_get_nationalCadastralZoningReferences() found_ids: {'859133'}
+nationalCadastralZoningReferences: ['859133']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.28 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.305'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/573387/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/573387/analysis.json...
+
+--- Časy spracovania dokumentu 573387 ---
+  download_and_text   :   1.31 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  27.27 s
+  gis_processing      :   3.50 s
+  CELKOVÝ ČAS         :  32.10 s
+------------------------------------------
+Dokument 573387 bol úspešne spracovaný.

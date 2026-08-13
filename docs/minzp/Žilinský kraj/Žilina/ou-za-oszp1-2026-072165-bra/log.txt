@@ -1,0 +1,61 @@
+[2026-08-13 18:57:55] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-072165-bra'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-072165-bra/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-072165-bra/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0128415}
+LLM_tokens: {"input": 4563, "output": 3520, "total": 8083, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-072165-bra/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-072165-bra/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Krasňany', 'katastralne_uzemia': [{'nazov': 'Krasňany', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'dolina Prostredná a Kukurišova dolina', 'nazov_lokality_norm': 'Prostredná dolina'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Krasňany', 'katastralne_uzemia': [{'nazov': 'Krasňany', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'dolina Prostredná a Kukurišova dolina', 'nazov_lokality_norm': 'Prostredná dolina'}
+ku_name:Krasňany obec:Krasňany okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: krasnany norm_ku: krasnany
+_get_nationalCadastralZoningReferences() found_ids: {'828459'}
+nationalCadastralZoningReferences: ['828459']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Prostredná dolina
+get_geometry_of_a_geoname nazov_lokality: Prostredná dolina
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** dolina, Krasňany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** dolina, Žilina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** dolina, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** dolina, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.1807471, 'lon': 18.7666049, 'formatted_address': 'Prostredná, 013 22 Rosina, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 013 22 Rosina, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.89797 49.22429, 18.89797 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-072165-bra/gis.geojson...
+Intersections with protected areas...
+Found 36 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}, {'parcel_label': 'Krasňany', 'NAZOV_UEV': 'Varínka', 'KOD_UEV': 'SKUEV0221'}], 'UEV': [{'parcel_label': 'Krasňany', 'NATIONALSI': 'SKUEV0252', 'SITETITLE_': 'Malá Fatra'}, {'parcel_label': 'Krasňany', 'NATIONALSI': 'SKUEV0221', 'SITETITLE_': 'Varínka'}], 'MCHU': [{'parcel_label': 'Krasňany', 'NATIONALSI': '393', 'SITETITLE_': 'NPR Prípor'}, {'parcel_label': 'Krasňany', 'NATIONALSI': '435', 'SITETITLE_': 'NPR Suchý'}, {'parcel_label': 'Krasňany', 'NATIONALSI': '321', 'SITETITLE_': 'PP Krasniansky luh'}], 'CHVU': [{'parcel_label': 'Krasňany', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-072165-bra/analysis.json...
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-072165-bra ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.27 s
+  gis_processing      :   2.46 s
+  CELKOVÝ ČAS         :  17.45 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-072165-bra bol úspešne spracovaný.

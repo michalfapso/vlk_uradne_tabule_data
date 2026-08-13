@@ -1,0 +1,61 @@
+[2026-08-13 18:57:42] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-072194-bra'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-072194-bra/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-072194-bra/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009675000000000001}
+LLM_tokens: {"input": 4476, "output": 2479, "total": 6955, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-072194-bra/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-072194-bra/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Varín', 'katastralne_uzemia': [{'nazov': 'Varín', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k. ú. Varín', 'nazov_lokality_norm': None}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Varín', 'katastralne_uzemia': [{'nazov': 'Varín', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k. ú. Varín', 'nazov_lokality_norm': None}
+ku_name:Varín obec:Varín okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: varin norm_ku: varin
+_get_nationalCadastralZoningReferences() found_ids: {'867446'}
+nationalCadastralZoningReferences: ['867446']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.47 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: k. ú. Varín
+get_geometry_of_a_geoname nazov_lokality: k. ú. Varín
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** ú. Varín, Varín, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** ú. Varín, Žilina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** ú. Varín, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** ú. Varín, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.2000367, 'lon': 18.8690332, 'formatted_address': '013 03 Varín, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 03 Varín, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.88302 49.24088, 18.88329 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-072194-bra/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Varín', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Varín', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Varín', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}], 'UEV': [{'parcel_label': 'Varín', 'NATIONALSI': 'SKUEV0252', 'SITETITLE_': 'Malá Fatra'}, {'parcel_label': 'Varín', 'NATIONALSI': 'SKUEV0221', 'SITETITLE_': 'Varínka'}], 'MCHU': [{'parcel_label': 'Varín', 'NATIONALSI': '431', 'SITETITLE_': 'NPR Starý hrad'}, {'parcel_label': 'Varín', 'NATIONALSI': '435', 'SITETITLE_': 'NPR Suchý'}], 'CHVU': [{'parcel_label': 'Varín', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-072194-bra/analysis.json...
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-072194-bra ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   9.42 s
+  gis_processing      :   2.54 s
+  CELKOVÝ ČAS         :  12.73 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-072194-bra bol úspešne spracovaný.
