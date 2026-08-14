@@ -1,0 +1,65 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Horná Súča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horná Súča",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "9665/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Chránená krajinná oblasť Biele Karpaty",
+    "nazov_lokality_norm": "Biele Karpaty"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "oplotenie pozemku"
+  ],
+  "rozsah_zasahu": "oplotenie pozemku na parcele KN-C 9665/5",
+  "typ_uzemia": [
+    "CHKO",
+    "Biele Karpaty",
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82 ods. 7",
+        "13 ods. 2 písm. k)",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania na vydanie súhlasu na oplotenie pozemku mimo zastavaného územia v obci Horná Súča. Zásah sa nachádza v CHKO Biele Karpaty a na území s 2. stupňom ochrany. Verejnosť má 5 pracovných dní na vyjadrenie záujmu o účasť v konaní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/007728-007",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-13",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 7 pracovných dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Valča",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Valča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Valča",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1003/2",
+              "1004/8",
+              "1359/2"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "346/10",
+              "205/1 - 205/500"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania o stavebnom zámere",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "vodná stavba",
+    "Rozšírenie splaškovej kanalizácie"
+  ],
+  "rozsah_zasahu": "dĺžka 229,0 m (alternatívne 53,7 m pre konkrétny úsek)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "zákon o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "44",
+        "73"
+      ]
+    },
+    {
+      "nazov": "zákon o stavebnom zákone",
+      "cislo": "25/2006",
+      "paragrafy": [
+        "16"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "17",
+        "26"
+      ]
+    },
+    {
+      "nazov": "o stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "10",
+        "51",
+        "53",
+        "79"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania na vodnú stavbu rozšírenia splaškovej kanalizácie v obci Valča v dĺžke 229 metrov. Stavba je určená pre napojenie rodinných domov a prebieha v zastavanom území obce na viacerých parcelách typu C a E. Dokument neobsahuje informáciu o zasahovaní do chránených území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "1003/2",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

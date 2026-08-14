@@ -1,0 +1,98 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Polystar, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nové Zámky",
+    "obec": "Šurany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šurany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3455/7"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "parcela č. KN-C 3455/7, katastrálne územie Šurany",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť k oznámeniu o zmene navrhovanej činnosti",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "Zariadenie na zber a dočasné uloženie odpadov",
+    "navýšenie kapacity zberu a dočasného skladovania odpadov",
+    "rozšírenie zberu o nové druhy odpadov"
+  ],
+  "rozsah_zasahu": "navýšenie kapacity zberu a dočasného skladovania odpadov",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia-sea/informacny-system",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "18",
+        "24",
+        "29",
+        "30",
+        "38",
+        "53",
+        "56",
+        "64"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": [
+        "3"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o odpadoch",
+      "cislo": "79/2015 Z. z.",
+      "paragrafy": [
+        "97"
+      ]
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015 Z. z.",
+      "paragrafy": [
+        "178"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí zisťovacieho konania (EIA) pre zmenu činnosti zariadenia na zber a dočasné uloženie odpadov v meste Šurany. Navrhovateľ Polystar, s.r.o. plánuje navýšiť kapacitu zberu a rozšíriť ho o nové druhy odpadov na parcele 3455/7. Dokument neobsahuje informácie o tom, či sa lokalita nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

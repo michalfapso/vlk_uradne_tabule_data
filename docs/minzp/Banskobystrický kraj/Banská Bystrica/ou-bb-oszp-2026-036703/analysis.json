@@ -1,0 +1,102 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP-2026/036703",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-14",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Šumiac",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Kráľova Hoľa",
+    "nazov_lokality_norm": "Kráľova Hoľa"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "VJAZD_VOZIDLA",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "vjazd a státie s motorovým vozidlom",
+    "let dronom"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "2. stupeň",
+    "3. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "2",
+        "13",
+        "14",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "15a",
+        "19"
+      ]
+    }
+  ],
+  "zhrnutie": "Prebieha konanie o povolenie výnimky na vjazd a státie motorových vozidiel a súhlas na let dronom v lokalite Kráľova Hoľa. Zásah sa týka územia v 2. a 3. stupni ochrany mimo zastavaného územia obce Šumiac.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Šumiac",
+          "NAZOV_UEV": "Kráľovohoľské Tatry",
+          "KOD_UEV": "SKUEV0310"
+        },
+        {
+          "parcel_label": "Šumiac",
+          "NAZOV_UEV": "Kráľovohoľské Tatry",
+          "KOD_UEV": "SKUEV0310"
+        },
+        {
+          "parcel_label": "Šumiac",
+          "NAZOV_UEV": "Kráľovohoľské Tatry",
+          "KOD_UEV": "SKUEV0310"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Šumiac",
+          "NATIONALSI": "SKUEV0310",
+          "SITETITLE_": "Kráľovohoľské Tatry"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Šumiac",
+          "NATIONALSI": "1057",
+          "SITETITLE_": "PR Martalúzka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Šumiac",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

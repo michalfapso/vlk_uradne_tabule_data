@@ -1,0 +1,63 @@
+[2026-08-14 18:45:44] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/573491'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/573491/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/573491/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 140d' zákona 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v platnom znení'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písm. e)' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 140d' zákona 'stavebného zákona a na základe tohto posúdenia vydáva v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 140d' zákona 'stavebného zákona rozhodnutie, ktorým sa potvrdzuje spôsobilosť vodnej stavby „IBV Pod hvezdárňou, Splašková kanalizácia“ postavenej na parcelách KN –'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2' zákona '442/2002 Z. z. o verejných vodovodoch a verejných kanalizáciách v platnom znení'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 2 písm. b)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 1' zákona '200/2022 Z. z. o územnom plánovaní v znení neskorších predpisov a dotknutého orgánu podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 140d ods. 9' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 140a ods. 1 písm. c)' zákona 'zaslal Námietku/ ospravedlnenie neúčasti č. SSC4795/2026/2330/274 zo dňa 08.01.2026, v ktorej sa konštatuje, že stavebník vykonal napojenie na stoku s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58 ods. 4' zákona 'stavebného zákona, t. j. že stavebník podzemných stavieb podliehajúcich tomuto zákonu nepreukazuje vlastníctvo alebo iné právo k pozemku alebo stavbám'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. b)' zákona '145/1995 Z. z. o správnych poplatkoch v platnom znení. Poučenie Proti tomuto rozhodnutiu možno v súlade s'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/573491/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014381499999999998}
+LLM_tokens: {"input": 8567, "output": 3366, "total": 11933, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/573491/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/573491/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Partizánske', 'obec': 'Partizánske', 'katastralne_uzemia': [{'nazov': 'Veľké Bielice', 'parcely': [{'typ': 'C', 'cisla': ['208/4', '213/2', '227/1', '215']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'IBV Pod hvezdárňou, Splašková kanalizácia', 'nazov_lokality_norm': 'Pod hvezdárňou, Partizánske'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Partizánske', 'obec': 'Partizánske', 'katastralne_uzemia': [{'nazov': 'Veľké Bielice', 'parcely': [{'typ': 'C', 'cisla': ['208/4', '213/2', '227/1', '215']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'IBV Pod hvezdárňou, Splašková kanalizácia', 'nazov_lokality_norm': 'Pod hvezdárňou, Partizánske'}
+ku_name:Veľké Bielice obec:Partizánske okres:Partizánske kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: partizanske norm_obec: partizanske norm_ku: velke bielice
+_get_nationalCadastralZoningReferences() found_ids: {'867934'}
+nationalCadastralZoningReferences: ['867934']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.71 s
+nazov_lokality: Pod hvezdárňou, Partizánske
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2700'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2700'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2700'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2700'}
+
+[4 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/573491/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Partizánske/573491/analysis.json...
+
+--- Časy spracovania dokumentu 573491 ---
+  download_and_text   :   1.54 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.83 s
+  gis_processing      :   3.93 s
+  CELKOVÝ ČAS         :  22.30 s
+------------------------------------------
+Dokument 573491 bol úspešne spracovaný.

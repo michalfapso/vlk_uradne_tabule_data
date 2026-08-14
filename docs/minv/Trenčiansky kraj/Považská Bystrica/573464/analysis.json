@@ -1,0 +1,113 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2026/013666 ZJ50",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-12",
+  "datum_zverejnenia": "2026-08-12",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Združenie majiteľov lesov, pozem. spol. KVÁŠOV – MAJER Považská Bystrica",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Praznov",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1463",
+              "1460",
+              "1451/4",
+              "1452/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "JPRL 477c, 478b, 487c, 492a, 492b",
+    "nazov_lokality_norm": "Praznov"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "oplotenie pozemku"
+  ],
+  "rozsah_zasahu": "parcely KN-E 1463, 1460, 1451/4, 1452/1 (JPRL 477c, 478b, 487c, 492a, 492b)",
+  "typ_uzemia": [
+    "2. stupeň",
+    "druhý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82 ods. 7",
+        "13 ods. 2 písm. d)",
+        "82 ods. 3",
+        "82 ods. 6"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti o súhlas na oplotenie pozemkov v katastrálnom území Praznov. Činnosť sa má realizovať v extraviláne na území, kde platí druhý stupeň ochrany prírody. Verejnosť môže potvrdiť záujem o účasť v konaní do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "1452/1",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "1463",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "1451/4",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "1460",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "1452/1",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "1463",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "1451/4",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "1460",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

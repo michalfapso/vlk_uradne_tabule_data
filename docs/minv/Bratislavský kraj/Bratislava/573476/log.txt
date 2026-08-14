@@ -1,0 +1,76 @@
+[2026-08-14 18:44:32] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573476'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573476/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573476/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. (1)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. (1)' zákona 'vedie k ohrozeniu existencie druhov rastlín a živočíchov alebo k ich degenerácii, k narušeniu rozmnožovacích schopností alebo k zániku ich populácie'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573476/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.016287000000000003}
+LLM_tokens: {"input": 9804, "output": 3795, "total": 13599, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573476/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573476/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Svätý Jur', 'katastralne_uzemia': [{'nazov': 'Svätý Jur', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Šúr, ÚEV Šúr', 'nazov_lokality_norm': 'Šúr'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Svätý Jur', 'katastralne_uzemia': [{'nazov': 'Svätý Jur', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Šúr, ÚEV Šúr', 'nazov_lokality_norm': 'Šúr'}
+ku_name:Svätý Jur obec:Svätý Jur okres:Pezinok kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: svaty jur norm_ku: svaty jur
+_get_nationalCadastralZoningReferences() found_ids: {'822884'}
+nationalCadastralZoningReferences: ['822884']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Šúr
+get_geometry_of_a_geoname nazov_lokality: Šúr
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Svätý Jur, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((17.20054 48.22731, 17.20063 48...  ...  Šúr, Svätý Jur, okres Pezinok, Bratislavský kr...
+1  POLYGON ((17.20482 48.23211, 17.20487 48.23196...  ...  Šúr, Svätý Jur, okres Pezinok, Bratislavský kr...
+2  POLYGON ((17.17641 48.21242, 17.1768 48.2098, ...  ...  Šúr, Svätý Jur, okres Pezinok, Bratislavský kr...
+3  POLYGON ((17.20054 48.22731, 17.20063 48.22664...  ...  Šúr, Svätý Jur, okres Pezinok, Bratislavský kr...
+4  MULTIPOLYGON (((17.20066 48.22659, 17.20087 48...  ...  Šúr, Svätý Jur, okres Pezinok, Bratislavský kr...
+
+[5 rows x 11 columns]
+geoname_query: Šúr, Svätý Jur, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.19564 48.2783, 17.19594 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((17.20054 48.22731, 17.20063 48...  ...  Šúr, Svätý Jur, okres Pezinok, Bratislavský kr...
+1  POLYGON ((17.20482 48.23211, 17.20487 48.23196...  ...  Šúr, Svätý Jur, okres Pezinok, Bratislavský kr...
+2  POLYGON ((17.17641 48.21242, 17.1768 48.2098, ...  ...  Šúr, Svätý Jur, okres Pezinok, Bratislavský kr...
+3  POLYGON ((17.20054 48.22731, 17.20063 48.22664...  ...  Šúr, Svätý Jur, okres Pezinok, Bratislavský kr...
+4  MULTIPOLYGON (((17.20066 48.22659, 17.20087 48...  ...  Šúr, Svätý Jur, okres Pezinok, Bratislavský kr...
+
+[5 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573476/gis.geojson...
+Intersections with protected areas...
+Found 39 intersecting parcels with '5st_konsUEV'.
+Found 5 intersecting parcels with 'UEV'.
+Found 10 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}, {'parcel_label': 'Svätý Jur', 'NAZOV_UEV': 'Šúr', 'KOD_UEV': 'SKUEV0279'}], 'UEV': [{'parcel_label': 'Svätý Jur', 'NATIONALSI': 'SKUEV0279', 'SITETITLE_': 'Šúr'}, {'parcel_label': 'Svätý Jur', 'NATIONALSI': 'SKUEV0279', 'SITETITLE_': 'Šúr'}, {'parcel_label': 'Svätý Jur', 'NATIONALSI': 'SKUEV0279', 'SITETITLE_': 'Šúr'}, {'parcel_label': 'Svätý Jur', 'NATIONALSI': 'SKUEV0279', 'SITETITLE_': 'Šúr'}, {'parcel_label': 'Svätý Jur', 'NATIONALSI': 'SKUEV0279', 'SITETITLE_': 'Šúr'}], 'MCHU': [{'parcel_label': 'Svätý Jur', 'NATIONALSI': '168', 'SITETITLE_': 'OP PR Šúr'}, {'parcel_label': 'Svätý Jur', 'NATIONALSI': '168', 'SITETITLE_': 'PR Šúr'}, {'parcel_label': 'Svätý Jur', 'NATIONALSI': '168', 'SITETITLE_': 'OP PR Šúr'}, {'parcel_label': 'Svätý Jur', 'NATIONALSI': '168', 'SITETITLE_': 'PR Šúr'}, {'parcel_label': 'Svätý Jur', 'NATIONALSI': '168', 'SITETITLE_': 'OP PR Šúr'}, {'parcel_label': 'Svätý Jur', 'NATIONALSI': '168', 'SITETITLE_': 'PR Šúr'}, {'parcel_label': 'Svätý Jur', 'NATIONALSI': '168', 'SITETITLE_': 'OP PR Šúr'}, {'parcel_label': 'Svätý Jur', 'NATIONALSI': '168', 'SITETITLE_': 'PR Šúr'}, {'parcel_label': 'Svätý Jur', 'NATIONALSI': '168', 'SITETITLE_': 'OP PR Šúr'}, {'parcel_label': 'Svätý Jur', 'NATIONALSI': '168', 'SITETITLE_': 'PR Šúr'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573476/analysis.json...
+
+--- Časy spracovania dokumentu 573476 ---
+  download_and_text   :   1.84 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  18.36 s
+  gis_processing      :   1.06 s
+  CELKOVÝ ČAS         :  21.26 s
+------------------------------------------
+Dokument 573476 bol úspešne spracovaný.

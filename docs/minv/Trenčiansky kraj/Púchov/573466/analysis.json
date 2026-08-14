@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-PU-OSZP-2026/001396",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-13",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Helena Vyhnátová",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Púchov",
+    "obec": "Lazy pod Makytou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lazy pod Makytou",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3493"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "12594",
+              "12593",
+              "5324"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub náletových drevín"
+  ],
+  "rozsah_zasahu": "náletové dreviny na pozemkoch registra C parcelné číslo 3493 a registra E parcelné čísla 12594, 12593, 5324",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "náletové dreviny",
+    "včely"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82",
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania na výrub náletových drevín v obci Lazy pod Makytou na parcelách evidovaných ako orná pôda a trvalý trávny porast. Účelom je vyčistenie pozemku pre poľnohospodárske využitie a chov včiel. Informácia o stupni ochrany alebo chránenom území nie je v texte uvedená.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}
