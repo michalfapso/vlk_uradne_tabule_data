@@ -1,0 +1,125 @@
+{
+  "cislo_konania_spisu": "0107353/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-03-06",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Vodoohospodárska výstavba, š.p.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava V",
+    "obec": "Bratislava - Jarovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jarovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "904/106",
+              "904/104",
+              "904/68"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Jarovecké rameno, Zemník",
+    "nazov_lokality_norm": "Jarovecké rameno, Zemník"
+  },
+  "typ_dokumentu": "Návrh na začatie stavebného konania a vydanie stavebného povolenia",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "LES_VYRUB",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "vodná stavba",
+    "kanál cieľ",
+    "osobitné užívanie povrchových vôd",
+    "terénne úpravy",
+    "zásah do biotopu európskeho významu",
+    "zmena stavu mokrade",
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "prepojenie vodných plôch Jarovecké rameno a Zemník, výrub drevín v extraviláne, terénne úpravy",
+  "typ_uzemia": [
+    "biotop európskeho významu",
+    "mokraď",
+    "inundované územie rieky Dunaj"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "biotop európskeho významu",
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "60",
+        "26",
+        "21"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "120",
+        "45"
+      ]
+    },
+    {
+      "nazov": "Vyhláška ktorou sa vykonávajú niektoré ustanovenia stavebného zákona",
+      "cislo": "453/2000",
+      "paragrafy": [
+        "8",
+        "9",
+        "12"
+      ]
+    },
+    {
+      "nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Žiadosť o stavebné povolenie na prepojenie Jaroveckého ramena a Zemníka pre Národné centrum rýchlostnej kanoistiky. Projekt zahŕňa terénne úpravy, zásahy do biotopov európskeho významu a mokradí, vrátane výrubu drevín v extraviláne v inundovanom území Dunaja.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "904/104",
+          "NATIONALSI": "SKUEV0064",
+          "SITETITLE_": "Bratislavské luhy"
+        },
+        {
+          "parcel_label": "904/106",
+          "NATIONALSI": "SKUEV0064",
+          "SITETITLE_": "Bratislavské luhy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "904/104",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "904/106",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

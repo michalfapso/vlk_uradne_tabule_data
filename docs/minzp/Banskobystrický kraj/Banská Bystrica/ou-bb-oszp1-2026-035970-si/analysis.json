@@ -1,0 +1,81 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP1-2026-035970-SI",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-17",
+  "datum_zverejnenia": "2026-08-17",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Banský Studenec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Banský Studenec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1316/6"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "k.ú. Banský Studenec",
+    "nazov_lokality_norm": "Banský Studenec"
+  },
+  "typ_dokumentu": "Informácia o začatom konaní",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "vykonávanie technických geologických prác"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "2. stupeň",
+    "druhý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "§ 13 ods. 2 písm. f)",
+        "§ 82 ods. 3",
+        "§ 82 ods. 6",
+        "§ 2 ods. 1"
+      ]
+    },
+    {
+      "nazov": "zákon o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "§ 19",
+        "§ 15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o vydanie súhlasu na vykonávanie technických geologických prác v katastrálnom území Banský Studenec na parcele č. 1316/6. Činnosť sa realizuje v území s druhým stupňom ochrany. Združenia môžu oznámiť svoju účasť v konaní v lehote piatich pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "1316/6",
+          "NATIONALSI": "SKUEV0266",
+          "SITETITLE_": "Skalka"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,68 @@
+[2026-08-17 18:27:34] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573503'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573503/orig.doc
+Converting document to text...
+LibreOffice conversion stdout: convert /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573503/orig.doc as a Writer document -> /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573503/orig.txt using filter : Text
+
+LibreOffice conversion stderr: 
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573503/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§2 ods. 1)' zákona 'a  podalo predbežnú písomnú žiadosť podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 7' zákona 'sa považuje za zúčastnenú osobu na adresu: Okresný úrad Bratislava, odbor starostlivosti o životné prostredie, oddelenie ochrany prírody a vybraných z'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573503/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0099735}
+LLM_tokens: {"input": 5397, "output": 2425, "total": 7822, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573503/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573503/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'Bratislava – Jarovce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'poloha č. 211 v Jarovskom ramene Dunaja', 'nazov_lokality_norm': 'Jarovské rameno'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'Bratislava – Jarovce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'poloha č. 211 v Jarovskom ramene Dunaja', 'nazov_lokality_norm': 'Jarovské rameno'}
+ku_name:Bratislava – Jarovce obec:Bratislava okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: bratislava – jarovce
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: jarovce
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: None norm_ku: jarovce
+_get_nationalCadastralZoningReferences() found_ids: {'822256'}
+nationalCadastralZoningReferences: ['822256']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Jarovské rameno
+get_geometry_of_a_geoname nazov_lokality: Jarovské rameno
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** rameno, Bratislava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** rameno, Bratislava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** rameno, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** rameno, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.0785595, 'lon': 17.1372232, 'formatted_address': 'Jarovské rameno, Bratislava, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** rameno, Bratislava, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.09046 48.09142, 17.09132 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573503/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Jarovce', 'NATIONALSI': 'SKUEV0064', 'SITETITLE_': 'Bratislavské luhy'}], 'MCHU': [{'parcel_label': 'Jarovce', 'NATIONALSI': '1097', 'SITETITLE_': 'CHA Jarovská bažantnica'}], 'CHVU': [{'parcel_label': 'Jarovce', 'NATIONALSI': 'SKCHVU007', 'SITETITLE_': 'Dunajské luhy'}, {'parcel_label': 'Jarovce', 'NATIONALSI': 'SKCHVU029', 'SITETITLE_': 'Sysľovské polia'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573503/analysis.json...
+
+--- Časy spracovania dokumentu 573503 ---
+  download_and_text   :   2.38 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   9.93 s
+  gis_processing      :   2.24 s
+  CELKOVÝ ČAS         :  14.56 s
+------------------------------------------
+Dokument 573503 bol úspešne spracovaný.

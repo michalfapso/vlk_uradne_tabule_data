@@ -1,0 +1,29 @@
+[2026-08-17 18:33:31] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/573553'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/573553/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/573553/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/573553/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009386}
+LLM_tokens: {"input": 5230, "output": 2257, "total": 7487, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 59 column 1 (char 1518)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0073606999999999995}
+LLM_tokens: {"input": 5230, "output": 1884, "total": 7114, "cached": 2014}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Expecting ',' delimiter: line 58 column 2 (char 1520)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010078700000000001}
+LLM_tokens: {"input": 5230, "output": 2790, "total": 8020, "cached": 2014}
+Pokus 3 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 59 column 1 (char 1542)
+Zlyhalo spracovanie dokumentu 573553 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=*** LLM analýza zlyhala po 3 pokusoch alebo nevrátila platný JSON.
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 433, in process_document
+    raise RuntimeError("LLM analýza zlyhala po 3 pokusoch alebo nevrátila platný JSON.")
+RuntimeError: LLM analýza zlyhala po 3 pokusoch alebo nevrátila platný JSON.
+[ERROR]: Zlyhalo spracovanie dokumentu 573553 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=*** LLM analýza zlyhala po 3 pokusoch alebo nevrátila platný JSON.

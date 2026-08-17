@@ -1,0 +1,73 @@
+[2026-08-17 18:32:54] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/573516'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/573516/orig.docx
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/573516/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. (1) písm. b)' zákona 'bod. 1. a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. d)' zákona '364/2004 Z.z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0145725}
+LLM_tokens: {"input": 4401, "output": 4124, "total": 8525, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/573516/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/573516/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Šurany', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ŠURANY INDUSTRIAL PARK, ŽST Bánov', 'nazov_lokality_norm': 'Šurany Industrial Park'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Šurany', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ŠURANY INDUSTRIAL PARK, ŽST Bánov', 'nazov_lokality_norm': 'Šurany Industrial Park'}
+Fallback to OBEC: Šurany
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: surany norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'826804', '861898', '840734'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.42 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Šurany Industrial Park
+get_geometry_of_a_geoname nazov_lokality: Šurany Industrial Park
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Industrial Park, Šurany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Industrial Park, Nové Zámky, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Industrial Park, Nitriansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Industrial Park, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.0885742, 'lon': 18.1848376, 'formatted_address': '942 01 Šurany, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Šurany, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.18971 48.10263, 18.1899 48....
+1  CadastralZoning  ...  MULTIPOLYGON (((18.20953 48.13127, 18.21087 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.21864 48.08837, 18.21865 48...
+
+[3 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/573516/gis.geojson...
+Intersections with protected areas...
+Found 13 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Šurany', 'NAZOV_UEV': 'Veľký les', 'KOD_UEV': 'SKUEV0094'}, {'parcel_label': 'Šurany', 'NAZOV_UEV': 'Veľký les', 'KOD_UEV': 'SKUEV0094'}, {'parcel_label': 'Šurany', 'NAZOV_UEV': 'Veľký les', 'KOD_UEV': 'SKUEV0094'}, {'parcel_label': 'Šurany', 'NAZOV_UEV': 'Veľký les', 'KOD_UEV': 'SKUEV0094'}, {'parcel_label': 'Šurany', 'NAZOV_UEV': 'Veľký les', 'KOD_UEV': 'SKUEV0094'}, {'parcel_label': 'Šurany', 'NAZOV_UEV': 'Veľký les', 'KOD_UEV': 'SKUEV0094'}, {'parcel_label': 'Šurany', 'NAZOV_UEV': 'Veľký les', 'KOD_UEV': 'SKUEV0094'}, {'parcel_label': 'Šurany', 'NAZOV_UEV': 'Veľký les', 'KOD_UEV': 'SKUEV0094'}, {'parcel_label': 'Šurany', 'NAZOV_UEV': 'Veľký les', 'KOD_UEV': 'SKUEV0094'}, {'parcel_label': 'Šurany', 'NAZOV_UEV': 'Veľký les', 'KOD_UEV': 'SKUEV0094'}, {'parcel_label': 'Šurany', 'NAZOV_UEV': 'Veľký les', 'KOD_UEV': 'SKUEV0094'}, {'parcel_label': 'Šurany', 'NAZOV_UEV': 'Veľký les', 'KOD_UEV': 'SKUEV0094'}, {'parcel_label': 'Šurany', 'NAZOV_UEV': 'Veľký les', 'KOD_UEV': 'SKUEV0094'}], 'UEV': [{'parcel_label': 'Šurany', 'NATIONALSI': 'SKUEV0094', 'SITETITLE_': 'Veľký les'}, {'parcel_label': 'Šurany', 'NATIONALSI': 'SKUEV0096', 'SITETITLE_': 'Šurianske slaniská'}], 'MCHU': [{'parcel_label': 'Šurany', 'NATIONALSI': '1217', 'SITETITLE_': 'CHA Šurianske slaniská'}, {'parcel_label': 'Šurany', 'NATIONALSI': '28', 'SITETITLE_': 'PR Čierna voda'}, {'parcel_label': 'Šurany', 'NATIONALSI': '822', 'SITETITLE_': 'PR Veľký les'}], 'CHVU': [{'parcel_label': 'Šurany', 'NATIONALSI': 'SKCHVU005', 'SITETITLE_': 'Dolné Považie'}, {'parcel_label': 'Nitriansky Hrádok', 'NATIONALSI': 'SKCHVU005', 'SITETITLE_': 'Dolné Považie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/573516/analysis.json...
+
+--- Časy spracovania dokumentu 573516 ---
+  download_and_text   :   1.24 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.70 s
+  gis_processing      :   2.77 s
+  CELKOVÝ ČAS         :  20.70 s
+------------------------------------------
+Dokument 573516 bol úspešne spracovaný.

@@ -1,0 +1,153 @@
+[
+  {
+    "cislo_konania_spisu": "OU-DS-OSZP-2026/001660-036",
+    "cislo_rozhodnutia": "OU-DS-OSZP-2026/001660-0054206/2026",
+    "datum_dokumentu": "2026-08-12",
+    "datum_zverejnenia": "2026-08-14",
+    "faza_konania": "ROZHODNUTIE",
+    "ucast_v_konani": {
+      "povolena": false,
+      "lehota_na_vyjadrenie": "15 dní odo dňa oznámenia rozhodnutia (lehota na podanie odvolania)"
+    },
+    "ziadatel_navrhovatel": "XL four s.r.o.",
+    "miesto_realizacie": {
+      "kraj": "Trnavský kraj",
+      "okres": "Dunajská Streda",
+      "obec": "Hviezdoslavov",
+      "katastralne_uzemia": [
+        {
+          "nazov": "Hviezdoslavov",
+          "parcely": [
+            {
+              "typ": "C",
+              "cisla": [
+                "240/131",
+                "329/12",
+                "329/11",
+                "366/9",
+                "366/1",
+                "322/235",
+                "240/2",
+                "173/4",
+                "322/759",
+                "322/388"
+              ]
+            },
+            {
+              "typ": "E",
+              "cisla": [
+                "290",
+                "1132/3",
+                "1196/1",
+                "1199",
+                "1200/1",
+                "1200/2",
+                "1201/1",
+                "1201/2",
+                "1201/3",
+                "1203",
+                "1135/1"
+              ]
+            }
+          ]
+        },
+        {
+          "nazov": "Kvetoslavov",
+          "parcely": [
+            {
+              "typ": "C",
+              "cisla": [
+                "431/3",
+                "420/11"
+              ]
+            },
+            {
+              "typ": "E",
+              "cisla": [
+                "308/24"
+              ]
+            }
+          ]
+        },
+        {
+          "nazov": "Mierovo",
+          "parcely": [
+            {
+              "typ": "C",
+              "cisla": [
+                "312/1"
+              ]
+            }
+          ]
+        }
+      ],
+      "lokalita_zastavane_uzemie": false,
+      "nazov_lokality": "Hviezdoslavov Rozšírenie vodovodnej a stokovej siete – revízia č. 1",
+      "nazov_lokality_norm": null
+    },
+    "typ_dokumentu": "Rozhodnutie (povolenie vodnej stavby)",
+    "kategorie_vlk": [
+      "INZINIERSKE_SIETE"
+    ],
+    "typ_zasahu": [
+      "uskutočnenie vodnej stavby",
+      "rozšírenie vodovodnej siete",
+      "rozšírenie stokovej siete",
+      "vybudovanie automatickej tlakovej stanice",
+      "vybudovanie čerpacích staníc"
+    ],
+    "rozsah_zasahu": "cca 2670 m vodovodného potrubia, 1270 m kanalizačného potrubia, 3432 m výtlačného potrubia, 3 čerpacie stanice a 1 ATS",
+    "typ_uzemia": [
+      "chránená vodohospodárska oblasť"
+    ],
+    "je_v_chranenom_uzemi": true,
+    "dotknute_zivocichy_rastliny": [],
+    "odkaz_enviroportal": null,
+    "zakony": [
+      {
+        "nazov": "o štátnej správe starostlivosti o životné prostredie",
+        "cislo": "525/2003",
+        "paragrafy": []
+      },
+      {
+        "nazov": "o vodách (vodný zákon)",
+        "cislo": "364/2004",
+        "paragrafy": [
+          "26",
+          "61",
+          "73"
+        ]
+      },
+      {
+        "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+        "cislo": "50/1976",
+        "paragrafy": [
+          "120",
+          "66",
+          "58",
+          "139"
+        ]
+      },
+      {
+        "nazov": "o správnom konaní (správny poriadok)",
+        "cislo": "71/1967",
+        "paragrafy": [
+          "33",
+          "53",
+          "54",
+          "59"
+        ]
+      },
+      {
+        "nazov": "o chránených oblastiach prirodzenej akumulácie vôd",
+        "cislo": "305/2018",
+        "paragrafy": []
+      }
+    ],
+    "zhrnutie": "Rozhodnutie o povolení rozsiahlej líniovej vodnej stavby (vodovod a kanalizácia) pre developera XL four s.r.o. v obciach Hviezdoslavov, Kvetoslavov a Mierovo. Činnosť prebieha prevažne v extraviláne na poľnohospodárskej pôde a zasahuje do chránenej vodohospodárskej oblasti Žitný ostrov.",
+    "gis": {
+      "zasiahnute_chranene_uzemia": {},
+      "source_type": "PARCELA"
+    }
+  }
+]

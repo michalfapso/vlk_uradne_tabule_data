@@ -1,0 +1,148 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2026/500664-018",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2026/500664-0358149/2026",
+  "datum_dokumentu": "2026-08-17",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa zverejnenia záväzného stanoviska zo zisťovacieho konania v centrálnom informačnom systéme"
+  },
+  "ziadatel_navrhovatel": "Rakyta Land Development, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava IV",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Devínska Nová Ves",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "2331/98",
+              "2331/99",
+              "2332/76",
+              "2332/77",
+              "2806/201",
+              "2806/202",
+              "3708",
+              "3709",
+              "3710",
+              "3711",
+              "3712",
+              "3974",
+              "3975",
+              "3976",
+              "3978",
+              "3979",
+              "3980/1",
+              "3980/2",
+              "3981",
+              "3987/11",
+              "3995/1",
+              "3997/3",
+              "3997/7",
+              "3997/8",
+              "3997/12",
+              "4063",
+              "4064/3",
+              "4064/4",
+              "4065/1",
+              "4085/1",
+              "4086/3",
+              "4086/4",
+              "4087",
+              "4093",
+              "4103"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "rozvojová lokalita Rakyta",
+    "nazov_lokality_norm": "Rakyta, Bratislava"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výstavba obytného súboru",
+    "výrub drevín",
+    "budovanie dopravnej a technickej infraštruktúry",
+    "vybudovanie parkovacích stojísk",
+    "realizácia sadových úprav",
+    "stavba pešej lávky ponad tok Rakyta"
+  ],
+  "rozsah_zasahu": "49 195 m2 záberu plochy, 83 243,50 m2 hrubej podlažnej plochy, 1 026 parkovacích stojísk, výrub cca 47-52 stromov",
+  "typ_uzemia": [
+    "mokradný biotop",
+    "brehové porasty",
+    "ochranné pásmo železnice"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "brehové porasty",
+    "vlhkomilné rastliny",
+    "vtáky (hniezdenie)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "29",
+        "18",
+        "3",
+        "56",
+        "25",
+        "30",
+        "38"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "1"
+      ]
+    }
+  ],
+  "zhrnutie": "Záväzné stanovisko určuje, že projekt obytného súboru Rakyta Západ na ploche cca 4,9 ha v Devínskej Novej Vsi sa nebude ďalej posudzovať podľa zákona EIA. Projekt zahŕňa výstavbu 526 bytov a 204 ubytovacích jednotiek, pričom si vyžiada výrub približne 50 stromov v blízkosti kanála Rakyta. Hoci sa lokalita nachádza mimo chránených území, dotýka sa ekologicky významných brehových porastov a mokradných biotopov.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "4087",
+          "NAZOV_UEV": "Devínska Kobyla",
+          "KOD_UEV": "SKUEV0280"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "4087",
+          "NATIONALSI": "SKUEV0280",
+          "SITETITLE_": "Devínska Kobyla"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "4087",
+          "NATIONALSI": "32",
+          "SITETITLE_": "NPR Devínska Kobyla"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

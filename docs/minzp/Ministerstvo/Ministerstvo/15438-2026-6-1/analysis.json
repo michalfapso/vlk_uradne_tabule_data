@@ -1,0 +1,106 @@
+{
+  "cislo_konania_spisu": "15438/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-17",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "SLOVNAFT, a.s.",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Prešov",
+    "obec": "Kapušany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kapušany",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "melioračný kanál v katastrálnom území Kapušany",
+    "nazov_lokality_norm": "Kapušany"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "ZIVOCICHY_USMRCOVANIE"
+  ],
+  "typ_zasahu": [
+    "odstránenie hrádzí chráneného živočícha bobor vodný"
+  ],
+  "rozsah_zasahu": "odstránenie hrádzí",
+  "typ_uzemia": [
+    "druhová ochrana"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "bobor vodný (Castor fiber)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Spoločnosť SLOVNAFT, a.s. žiada o výnimku z druhovej ochrany na odstránenie hrádzí bobra vodného na melioračnom kanáli v k.ú. Kapušany. Záujem o účasť v konaní je potrebné doručiť ministerstvu do 5 pracovných dní od zverejnenia informácie. Rozhoduje Ministerstvo životného prostredia SR.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Kapušany",
+          "NAZOV_UEV": "Fintické svahy",
+          "KOD_UEV": "SKUEV0322"
+        },
+        {
+          "parcel_label": "Kapušany",
+          "NAZOV_UEV": "Fintické svahy",
+          "KOD_UEV": "SKUEV0322"
+        },
+        {
+          "parcel_label": "Kapušany",
+          "NAZOV_UEV": "Fintické svahy",
+          "KOD_UEV": "SKUEV0322"
+        },
+        {
+          "parcel_label": "Kapušany",
+          "NAZOV_UEV": "Fintické svahy",
+          "KOD_UEV": "SKUEV0322"
+        },
+        {
+          "parcel_label": "Kapušany",
+          "NAZOV_UEV": "Fintické svahy",
+          "KOD_UEV": "SKUEV0322"
+        },
+        {
+          "parcel_label": "Kapušany",
+          "NAZOV_UEV": "Fintické svahy",
+          "KOD_UEV": "SKUEV0322"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Kapušany",
+          "NATIONALSI": "SKUEV0322",
+          "SITETITLE_": "Fintické svahy"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Kapušany",
+          "NATIONALSI": "581",
+          "SITETITLE_": "PR Kapušiansky hradný vrch"
+        },
+        {
+          "parcel_label": "Kapušany",
+          "NATIONALSI": "530",
+          "SITETITLE_": "PR Fintické svahy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

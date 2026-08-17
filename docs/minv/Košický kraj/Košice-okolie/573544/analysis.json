@@ -1,0 +1,171 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2026/011254-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-12",
+  "datum_zverejnenia": "2026-08-12",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom pojednávaní dňa 28. 08. 2026"
+  },
+  "ziadatel_navrhovatel": "Obec Hodkovce",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Hodkovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hodkovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "240/3",
+              "258/50",
+              "241/1-2",
+              "246/1",
+              "5/1",
+              "9",
+              "12/5",
+              "16/1",
+              "20",
+              "25/1",
+              "23/3",
+              "27/2",
+              "29/2",
+              "29/4",
+              "32/1",
+              "32/5",
+              "35",
+              "38/1",
+              "42",
+              "46/2",
+              "48/1-3",
+              "6",
+              "7",
+              "13/1",
+              "13/3",
+              "14/1",
+              "14/2",
+              "14/5",
+              "21/1-2",
+              "22/1",
+              "22/3",
+              "26",
+              "28/1-2",
+              "31/1",
+              "33",
+              "34/2",
+              "36/1",
+              "37",
+              "39",
+              "40",
+              "44",
+              "45",
+              "47",
+              "55/1",
+              "55/2",
+              "56",
+              "58",
+              "59"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "270/36",
+              "271/29",
+              "271/31"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Kanalizácia Hodkovce, STOKA ,,A (časť 1)“, STOKA ,,B“, STOKA ,,C“, STOKA ,,D (časť 1)“",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania a nariadenie ústneho pojednávania spojeného s miestnou ohliadkou",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "užívanie vodnej stavby",
+    "kanalizácia"
+  ],
+  "rozsah_zasahu": "časti vodnej stavby Kanalizácia Hodkovce (STOKA A, B, C, D)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "73 ods. 4",
+        "61",
+        "73 ods. 6"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "120",
+        "80",
+        "61",
+        "61 ods. 4"
+      ]
+    },
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Správny poriadok",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "17",
+        "26",
+        "26 ods. 2"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania o vydaní povolenia na užívanie časti vodnej stavby kanalizácie v obci Hodkovce. Realizácia sa týka viacerých parciel v katastrálnom území Hodkovce, pričom ústne pojednávanie je naplánované na 28. 08. 2026. Dokument neuvádza informáciu o zásahu do chráneného územia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "240/3",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "258/50",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "271/31",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "270/36",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "271/29",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

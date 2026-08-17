@@ -1,0 +1,91 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2026/014165-2",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-14",
+  "datum_zverejnenia": "2026-08-14",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Stará Turá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stará Turá",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "10900"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "10898"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín rastúcich mimo lesa"
+  ],
+  "rozsah_zasahu": "5 ks drevín (3 ks dub letný, 2 ks jaseň štíhly)",
+  "typ_uzemia": [
+    "1. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dub letný",
+    "jaseň štíhly"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "18 ods. 3",
+        "19 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z.z.",
+      "paragrafy": [
+        "5 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "64 ods. 1 písm. d)",
+        "68 písm. c)",
+        "47 ods. 3",
+        "12",
+        "82 ods. 7",
+        "82 ods. 3",
+        "82 ods. 6"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci výrubu 5 ks drevín (duby a jasene) v katastrálnom území Stará Turá na parcelách C-KN 10900 a E-KN 10898. Lokalita sa nachádza v extraviláne v prvom stupni ochrany, pričom dôvodom výrubu je zlý zdravotný stav stromov a hrozba pádu.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

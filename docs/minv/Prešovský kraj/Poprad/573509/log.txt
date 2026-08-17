@@ -1,0 +1,63 @@
+[2026-08-17 18:34:34] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/573509'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/573509/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/573509/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011241000000000001}
+LLM_tokens: {"input": 4518, "output": 2994, "total": 7512, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/573509/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/573509/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Poprad', 'obec': 'Spišské Bystré', 'katastralne_uzemia': [{'nazov': 'Spišské Bystré', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Ul. Vodárenská', 'nazov_lokality_norm': 'Vodárenská, Spišské Bystré'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Poprad', 'obec': 'Spišské Bystré', 'katastralne_uzemia': [{'nazov': 'Spišské Bystré', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Ul. Vodárenská', 'nazov_lokality_norm': 'Vodárenská, Spišské Bystré'}
+ku_name:Spišské Bystré obec:Spišské Bystré okres:Poprad kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: poprad norm_obec: spisske bystre norm_ku: spisske bystre
+_get_nationalCadastralZoningReferences() found_ids: {'857611'}
+nationalCadastralZoningReferences: ['857611']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.58 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Vodárenská, Spišské Bystré
+get_geometry_of_a_geoname nazov_lokality: Vodárenská, Spišské Bystré
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Spišské Bystré, Spišské Bystré, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Spišské Bystré, Poprad, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Spišské Bystré, Prešovský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Spišské Bystré, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.989657, 'lon': 20.2384903, 'formatted_address': 'Vodárenská, 059 18 Spišské Bystré, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 059 18 Spišské Bystré, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.21173 49.01719, 20.21196 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/573509/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+Found 1 intersecting parcels with 'UNESCO'.
+intersections: {'UEV': [{'parcel_label': 'Spišské Bystré', 'NATIONALSI': 'SKUEV0112', 'SITETITLE_': 'Slovenský raj'}, {'parcel_label': 'Spišské Bystré', 'NATIONALSI': 'SKUEV0290', 'SITETITLE_': 'Horný tok Hornádu'}], 'MCHU': [{'parcel_label': 'Spišské Bystré', 'NATIONALSI': '554', 'SITETITLE_': 'NPR Hranovnická dubina'}], 'CHVU': [{'parcel_label': 'Spišské Bystré', 'NATIONALSI': 'SKCHVU053', 'SITETITLE_': 'Slovenský raj'}], 'UNESCO': [{'parcel_label': 'Spišské Bystré', 'Nazov_chra': 'Jaskyne Slovenského a Aggteleckého krasu', 'Kod_chrane': 'UN01'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Poprad/573509/analysis.json...
+
+--- Časy spracovania dokumentu 573509 ---
+  download_and_text   :   3.28 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.73 s
+  gis_processing      :   2.72 s
+  CELKOVÝ ČAS         :  18.73 s
+------------------------------------------
+Dokument 573509 bol úspešne spracovaný.

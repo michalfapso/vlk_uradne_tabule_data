@@ -1,0 +1,120 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP2-2026/316167",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-07",
+  "datum_zverejnenia": "2026-08-14",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "VODOHOSPODÁRSKA VÝSTAVBA, ŠTÁTNY PODNIK",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava-Jarovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jarovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "904/84",
+              "904/104",
+              "904/106"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Národné centrum rýchlostnej kanoistiky a veslovania",
+    "nazov_lokality_norm": "Národné centrum rýchlostnej kanoistiky a veslovania"
+  },
+  "typ_dokumentu": "Zverejnenie údajov o žiadosti (vodoprávne konanie)",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "objekty vodných stavieb SO 301 Kanál Cieľ",
+    "SO 601 Príprava územia",
+    "terénne úpravy",
+    "osobitné užívanie povrchových vôd"
+  ],
+  "rozsah_zasahu": "stavebné objekty SO 301 a SO 601 na parcelách 904/84, 904/104, 904/106",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "21",
+        "26"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "58a",
+        "71"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": [
+        "84"
+      ]
+    },
+    {
+      "nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "38"
+      ]
+    }
+  ],
+  "zhrnutie": "Ide o zverejnenie informácií k vodoprávnemu konaniu pre stavbu Národného centra rýchlostnej kanoistiky v k. ú. Jarovce. Predmetom je povolenie pre vodné stavby Kanál Cieľ, prípravu územia a terénne úpravy. Žiadateľom je štátny podnik Vodohospodárska výstavba.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "904/104",
+          "NATIONALSI": "SKUEV0064",
+          "SITETITLE_": "Bratislavské luhy"
+        },
+        {
+          "parcel_label": "904/106",
+          "NATIONALSI": "SKUEV0064",
+          "SITETITLE_": "Bratislavské luhy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "904/84",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "904/104",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "904/106",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

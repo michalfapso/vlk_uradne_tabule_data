@@ -1,0 +1,82 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-01",
+  "datum_zverejnenia": null,
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Spišské Bystré",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Poprad",
+    "obec": "Spišské Bystré",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Spišské Bystré",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Ul. Vodárenská",
+    "nazov_lokality_norm": "Vodárenská, Spišské Bystré"
+  },
+  "typ_dokumentu": "Situácia stavby na podklade katastrálnej mapy",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "rozšírenie verejnej splaškovej kanalizácie",
+    "výstavba kanalizačnej vetvy",
+    "kanalizačná prípojka"
+  ],
+  "rozsah_zasahu": "379,81 m (PP D315x11,0 mm SN 10)",
+  "typ_uzemia": [
+    "ochranné pásmo kanalizácie"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [],
+  "zhrnutie": "Projektová dokumentácia k rozšíreniu verejnej splaškovej kanalizácie v obci Spišské Bystré na ulici Vodárenská. Rozsah zásahu predstavuje výstavbu kanalizačnej vetvy v dĺžke takmer 380 metrov. Činnosť sa realizuje v zastavanom území obce mimo chránených území ochrany prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Spišské Bystré",
+          "NATIONALSI": "SKUEV0112",
+          "SITETITLE_": "Slovenský raj"
+        },
+        {
+          "parcel_label": "Spišské Bystré",
+          "NATIONALSI": "SKUEV0290",
+          "SITETITLE_": "Horný tok Hornádu"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Spišské Bystré",
+          "NATIONALSI": "554",
+          "SITETITLE_": "NPR Hranovnická dubina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Spišské Bystré",
+          "NATIONALSI": "SKCHVU053",
+          "SITETITLE_": "Slovenský raj"
+        }
+      ],
+      "UNESCO": [
+        {
+          "parcel_label": "Spišské Bystré",
+          "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
+          "Kod_chrane": "UN01"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

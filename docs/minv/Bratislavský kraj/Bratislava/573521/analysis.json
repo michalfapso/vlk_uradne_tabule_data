@@ -1,0 +1,112 @@
+{
+  "cislo_konania_spisu": "1998/2015/65/112374",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-03-28",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenská kanoistika, o. z.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava V",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jarovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "904/106",
+              "904/104",
+              "904/84"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Jarovecké rameno, Zemník, rieka Dunaj",
+    "nazov_lokality_norm": "Jarovecké rameno"
+  },
+  "typ_dokumentu": "Návrh na začatie stavebného konania a vydanie stavebného povolenia",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "výstavba vodnej stavby",
+    "kanál Cieľ",
+    "príprava územia",
+    "terénne úpravy",
+    "zdvíhanie terénu"
+  ],
+  "rozsah_zasahu": "výstavba vodnej stavby kanál Cieľ a terénne úpravy v inundačnom území rieky Dunaj",
+  "typ_uzemia": [
+    "inundačné územie"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "60",
+        "26",
+        "21"
+      ]
+    },
+    {
+      "nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "120"
+      ]
+    },
+    {
+      "nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Návrh na začatie stavebného konania pre výstavbu Národného centra rýchlostnej kanoistiky v Bratislave, časť Jarovce. Projekt zahŕňa vybudovanie vodného kanála a rozsiahle terénne úpravy v inundačnom území rieky Dunaj (lokality Jarovecké rameno a Zemník). Činnosť má už vydané právoplatné EIA rozhodnutie z roku 2020.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "904/104",
+          "NATIONALSI": "SKUEV0064",
+          "SITETITLE_": "Bratislavské luhy"
+        },
+        {
+          "parcel_label": "904/106",
+          "NATIONALSI": "SKUEV0064",
+          "SITETITLE_": "Bratislavské luhy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "904/84",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "904/104",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "904/106",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

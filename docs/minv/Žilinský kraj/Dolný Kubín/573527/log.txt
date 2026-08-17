@@ -1,0 +1,45 @@
+[2026-08-17 18:37:41] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573527'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573527/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573527/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z.z.  o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov  v znení neskorších predpisov a podľa'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573527/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011673}
+LLM_tokens: {"input": 6102, "output": 2874, "total": 8976, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573527/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573527/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Dolný Kubín', 'obec': 'Osádka', 'katastralne_uzemia': [{'nazov': 'Osádka', 'parcely': [{'typ': 'E', 'cisla': ['498']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'parc. E-KN č. 498 – orná pôda v k.ú. Osádka', 'nazov_lokality_norm': None}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Dolný Kubín', 'obec': 'Osádka', 'katastralne_uzemia': [{'nazov': 'Osádka', 'parcely': [{'typ': 'E', 'cisla': ['498']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'parc. E-KN č. 498 – orná pôda v k.ú. Osádka', 'nazov_lokality_norm': None}
+ku_name:Osádka obec:Osádka okres:Dolný Kubín kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: dolny kubin norm_obec: osadka norm_ku: osadka
+_get_nationalCadastralZoningReferences() found_ids: {'844438'}
+nationalCadastralZoningReferences: ['844438']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.71 s
+nazov_lokality: parc. E-KN č. 498 – orná pôda v k.ú. Osádka
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1812'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573527/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573527/analysis.json...
+
+--- Časy spracovania dokumentu 573527 ---
+  download_and_text   :   1.22 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.92 s
+  gis_processing      :   2.93 s
+  CELKOVÝ ČAS         :  16.08 s
+------------------------------------------
+Dokument 573527 bol úspešne spracovaný.

@@ -1,0 +1,44 @@
+[2026-08-17 18:33:15] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/573535'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/573535/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/573535/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/573535/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011897500000000002}
+LLM_tokens: {"input": 5309, "output": 3081, "total": 8390, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/573535/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/573535/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Šaľa', 'obec': 'Žihárec', 'katastralne_uzemia': [{'nazov': 'Žihárec', 'parcely': [{'typ': 'C', 'cisla': ['1121/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'pred rodinným domom č. 521 žiadateľa v obci Žihárec', 'nazov_lokality_norm': '521, Žihárec'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Šaľa', 'obec': 'Žihárec', 'katastralne_uzemia': [{'nazov': 'Žihárec', 'parcely': [{'typ': 'C', 'cisla': ['1121/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'pred rodinným domom č. 521 žiadateľa v obci Žihárec', 'nazov_lokality_norm': '521, Žihárec'}
+ku_name:Žihárec obec:Žihárec okres:Šaľa kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: sala norm_obec: ziharec norm_ku: ziharec
+_get_nationalCadastralZoningReferences() found_ids: {'874574'}
+nationalCadastralZoningReferences: ['874574']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.09 s
+nazov_lokality: 521, Žihárec
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1184'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/573535/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/573535/analysis.json...
+
+--- Časy spracovania dokumentu 573535 ---
+  download_and_text   :   1.46 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.06 s
+  gis_processing      :   3.30 s
+  CELKOVÝ ČAS         :  16.84 s
+------------------------------------------
+Dokument 573535 bol úspešne spracovaný.

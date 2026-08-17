@@ -1,0 +1,128 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2020/008346-055",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2020/008346-053",
+  "datum_dokumentu": "2020-10-08",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa oznámenia doručením písomného vyhotovenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Slovenská kanoistika",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava V",
+    "obec": "Bratislava - Jarovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jarovce",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "904/84",
+              "904/106",
+              "5555/13",
+              "5555/14",
+              "5555/18",
+              "5555/31",
+              "5555/32",
+              "5555/33",
+              "3022/1",
+              "3022/51",
+              "3020/9"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "pravobrežná inundácia Dunaja, Jarovecké rameno, Veľký Zemník",
+    "nazov_lokality_norm": "Veľký Zemník"
+  },
+  "typ_dokumentu": "Záverečné stanovisko z posudzovania vplyvov na životné prostredie (EIA)",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "výstavba športového areálu",
+    "výrub drevín",
+    "hĺbenie kanálov",
+    "prehĺbenie koryta Jaroveckého ramena",
+    "výstavba mostov a lávok",
+    "terénne úpravy"
+  ],
+  "rozsah_zasahu": "Plocha územia 531 829 m2, 3 kanály, prehĺbenie o 2,5 m, výrub vŕb, báz a agátov",
+  "typ_uzemia": [
+    "SKCHVU007 Dunajské luhy",
+    "SKUEV2064 Bratislavské luhy",
+    "2. stupeň ochrany",
+    "RAMSAR Dunajské luhy",
+    "nadregionálne biocentrum Bratislavské luhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "bobor euroázijský",
+    "jazýčkovec jadranský (Himantoglossum adriaticum)",
+    "bučiačik",
+    "orliak morský",
+    "brehule",
+    "ichtyofauna"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/sk/eia/detail/centrum-rychlostnej-kanoistiky-veslovania",
+  "zakony": [
+    {
+      "nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "3",
+        "37",
+        "56"
+      ]
+    },
+    {
+      "nazov": "Zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "46",
+        "47",
+        "33"
+      ]
+    },
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "13",
+        "127"
+      ]
+    }
+  ],
+  "zhrnutie": "Ide o záverečné stanovisko k výstavbe profesionálneho športového areálu v záplavovom území Dunaja pri Jarovciach. Projekt zahŕňa hĺbenie kanálov, prehĺbenie Jaroveckého ramena a výrub brehových porastov v chránených územiach NATURA 2000 a Ramsarskej lokalite. Konanie identifikovalo negatívne vplyvy na chránené druhy ako bobor, orliak morský a kriticky ohrozenú orchideu jazýčkovec jadranský.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "904/106",
+          "NATIONALSI": "SKUEV0064",
+          "SITETITLE_": "Bratislavské luhy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "904/84",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "904/106",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

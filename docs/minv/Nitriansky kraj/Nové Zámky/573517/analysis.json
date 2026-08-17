@@ -1,0 +1,96 @@
+{
+  "cislo_konania_spisu": "OU-NZ-OSZP-2026/011508",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "MH Invest, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nové Zámky",
+    "obec": "Bánov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bánov",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Šurany Industrial Park, ZST Bánov",
+    "nazov_lokality_norm": "Šurany Industrial Park"
+  },
+  "typ_dokumentu": "Žiadosť o vylúčenie odkladného účinku prípadného odvolania vo vodoprávnom konaní",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "odber podzemných vôd",
+    "vypúšťanie vôd z povrchového odtoku",
+    "výstavba priemyselného parku",
+    "stavba železničnej infraštruktúry"
+  ],
+  "rozsah_zasahu": "odber podzemnej vody 0,305 m3/d, priemyselný park s výmerou najmenej 30 ha",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "21",
+        "73"
+      ]
+    },
+    {
+      "nazov": "Zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "55"
+      ]
+    },
+    {
+      "nazov": "Zákon o mimoriadnych opatreniach pre strategické investície",
+      "cislo": "142/2024 Z. z.",
+      "paragrafy": [
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o vylúčenie odkladného účinku odvolania v rámci vodoprávneho konania pre strategickú investíciu Šurany Industrial Park. Predmetom konania je povolenie na odber podzemných vôd a vypúšťanie zrážkových vôd v k.ú. Bánov. Cieľom je urýchlenie výstavby priemyselného parku a súvisiacej železničnej infraštruktúry s výmerou nad 30 ha.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Bánov",
+          "NATIONALSI": "SKUEV0084",
+          "SITETITLE_": "Zátoň"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Bánov",
+          "NATIONALSI": "137",
+          "SITETITLE_": "PP Potok Chrenovka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Bánov",
+          "NATIONALSI": "SKCHVU005",
+          "SITETITLE_": "Dolné Považie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}
