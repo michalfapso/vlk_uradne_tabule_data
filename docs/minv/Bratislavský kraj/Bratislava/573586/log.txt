@@ -1,0 +1,41 @@
+[2026-08-18 18:26:49] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573586'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573586/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.026221599999999998}
+LLM_tokens: {"input": 1366, "output": 65535, "total": 66901, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573586/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58a' zákona '50/1976 Zb'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. 1 písm. b)' zákona 'bod 1'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. 1 písm. e)' zákona 'vodného zákona  Stavebník: Mlynárka Land Development s. r. o., Svätoplukova 2A, 821 08 Bratislava, IČO: 55 834 736, zastúpený spoločnosťou Antwork s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. 1 písm. d)' zákona 'vodného zákona  Stavebník: Mlynárka Land Development s. r. o., Svätoplukova 2A, 821 08 Bratislava, IČO: 55 834 736, zastúpený spoločnosťou Antwork s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. 1 písm. g)' zákona 'vodného zákona  Stavebník: Mlynárka Land Development s. r. o., Svätoplukova 2A, 821 08 Bratislava, IČO: 55 834 736, zastúpený spoločnosťou Antwork s'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0362675}
+LLM_tokens: {"input": 69421, "output": 519, "total": 69940, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573586/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/573586/analysis.json...
+Getting geometry of parcel set...
+place_info:{}
+data: {}
+No geometries were found.
+nazov_lokality: 
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 573586 ---
+  download_and_text   : 148.52 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   5.29 s
+  gis_processing      :   0.00 s
+  CELKOVÝ ČAS         : 153.81 s
+------------------------------------------
+Dokument 573586 bol úspešne spracovaný.

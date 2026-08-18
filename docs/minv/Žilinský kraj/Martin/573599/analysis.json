@@ -1,0 +1,165 @@
+{
+  "cislo_konania_spisu": "DU-MT-OSZP-2026/003528-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-18",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "Do 7 pracovných dní odo dňa doručenia oznámenia."
+  },
+  "ziadatel_navrhovatel": "ECO SPOL, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Martin",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Turčianska Štiavnička",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "138/54",
+              "139/52",
+              "145/88",
+              "145/92",
+              "145/54"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "144/1",
+              "144/3",
+              "146/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Martin",
+        "parcely": []
+      },
+      {
+        "nazov": "Koštany nad Turcom",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Lyž. koštany nad Turcom - Záhumňa",
+    "nazov_lokality_norm": "Záhumňa"
+  },
+  "typ_dokumentu": "Oznámenie o začatí stavebného - vodoprávna konania",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "rozšírenie verejného vodovodu",
+    "pripojenie na kanalizačnú stokovú sieť"
+  ],
+  "rozsah_zasahu": "rozšírenie vodovodu a kanalizácie (cca 50 m) pre 4 rodinné domy",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "Zákon o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "49"
+      ]
+    },
+    {
+      "nazov": "Zákon o pozemných komunikáciách (cestný zákon)",
+      "cislo": "135/1961",
+      "paragrafy": [
+        "6"
+      ]
+    },
+    {
+      "nazov": "Správny poriadok",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "73",
+        "49",
+        "26"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí stavebno-vodoprávneho konania pre rozšírenie verejného vodovodu a kanalizácie v lokalite Záhumňa. Projekt rieši infraštruktúru pre 4 rodinné domy v katastrálnych územiach Martin, Koštany nad Turcom a Turčianska Štiavnička. V dokumente nie je zmienka o tom, že by sa činnosť realizovala v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Martin",
+          "NAZOV_UEV": "Lúčanská Fatra",
+          "KOD_UEV": "SKUEV0930"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        },
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "SKUEV0930",
+          "SITETITLE_": "Lúčanská Fatra"
+        },
+        {
+          "parcel_label": "Košťany nad Turcom",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        },
+        {
+          "parcel_label": "Košťany nad Turcom",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Košťany nad Turcom",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

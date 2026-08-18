@@ -1,0 +1,150 @@
+[2026-08-18 18:31:07] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573613'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573613/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573613/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 1' zákona 'a oznámenie o predložení oznámenia                     o strategickom dokumente podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'Oznámenie o strategickom dokumente „Zmeny a doplnky č.  16 Územného plánu sídelného útvaru'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6' zákona 'informuje verejnosť, že oznámenie o strategickom dokumente „Zmeny a doplnky č. 16  Územného plánu sídelného útvaru'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 6' zákona 'do 15 dní odo dňa, keď bolo Oznámenie zverejnené dotknutou obcou'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 3' zákona 'Vám oznamujeme, že na uvedenej adrese je možné vykonať konzultácie  podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 63' zákona 'k uvedenému strategickému dokumentu počas celého procesu zisťovacieho  konania o posudzovaní strategického dokumentu v pracovných dňoch na Okresnom úr'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01269}
+LLM_tokens: {"input": 4926, "output": 3409, "total": 8335, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573613/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573613/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Nové Mesto nad Váhom', 'katastralne_uzemia': [{'nazov': 'Nové Mesto nad Váhom', 'parcely': []}, {'nazov': 'Dolné Srnie', 'parcely': []}, {'nazov': 'Bzince pod Javorinou', 'parcely': []}, {'nazov': 'Čachtice', 'parcely': []}, {'nazov': 'Považany', 'parcely': []}, {'nazov': 'Nová Ves nad Váhom', 'parcely': []}, {'nazov': 'Kočovce', 'parcely': []}, {'nazov': 'Beckov', 'parcely': []}, {'nazov': 'Trenčianske Bohuslavice', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Nové Mesto nad Váhom', 'nazov_lokality_norm': 'Nové Mesto nad Váhom'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Nové Mesto nad Váhom', 'katastralne_uzemia': [{'nazov': 'Nové Mesto nad Váhom', 'parcely': []}, {'nazov': 'Dolné Srnie', 'parcely': []}, {'nazov': 'Bzince pod Javorinou', 'parcely': []}, {'nazov': 'Čachtice', 'parcely': []}, {'nazov': 'Považany', 'parcely': []}, {'nazov': 'Nová Ves nad Váhom', 'parcely': []}, {'nazov': 'Kočovce', 'parcely': []}, {'nazov': 'Beckov', 'parcely': []}, {'nazov': 'Trenčianske Bohuslavice', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Nové Mesto nad Váhom', 'nazov_lokality_norm': 'Nové Mesto nad Váhom'}
+ku_name:Nové Mesto nad Váhom obec:Nové Mesto nad Váhom okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: nove mesto nad vahom norm_ku: nove mesto nad vahom
+_get_nationalCadastralZoningReferences() found_ids: {'842044'}
+nationalCadastralZoningReferences: ['842044']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.47 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dolné Srnie obec:Nové Mesto nad Váhom okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: nove mesto nad vahom norm_ku: dolne srnie
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: None norm_ku: dolne srnie
+_get_nationalCadastralZoningReferences() found_ids: {'812145'}
+nationalCadastralZoningReferences: ['812145']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.52 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Bzince pod Javorinou obec:Nové Mesto nad Váhom okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: nove mesto nad vahom norm_ku: bzince pod javorinou
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: None norm_ku: bzince pod javorinou
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: bzince pod javorinou
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: bzince pod javorinou
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+ku_name:Čachtice obec:Nové Mesto nad Váhom okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: nove mesto nad vahom norm_ku: cachtice
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: None norm_ku: cachtice
+_get_nationalCadastralZoningReferences() found_ids: {'808555'}
+nationalCadastralZoningReferences: ['808555']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Považany obec:Nové Mesto nad Váhom okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: nove mesto nad vahom norm_ku: povazany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: None norm_ku: povazany
+_get_nationalCadastralZoningReferences() found_ids: {'848808'}
+nationalCadastralZoningReferences: ['848808']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Nová Ves nad Váhom obec:Nové Mesto nad Váhom okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: nove mesto nad vahom norm_ku: nova ves nad vahom
+Fuzzy match found: 'Nová Ves nad Váhom' -> 'Nové Mesto nad Váhom' (ID: 842044)
+nationalCadastralZoningReferences: ['842044']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Kočovce obec:Nové Mesto nad Váhom okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: nove mesto nad vahom norm_ku: kocovce
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: None norm_ku: kocovce
+_get_nationalCadastralZoningReferences() found_ids: {'825093'}
+nationalCadastralZoningReferences: ['825093']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Beckov obec:Nové Mesto nad Váhom okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: nove mesto nad vahom norm_ku: beckov
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: None norm_ku: beckov
+_get_nationalCadastralZoningReferences() found_ids: {'802255'}
+nationalCadastralZoningReferences: ['802255']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.37 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Trenčianske Bohuslavice obec:Nové Mesto nad Váhom okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: nove mesto nad vahom norm_ku: trencianske bohuslavice
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: None norm_ku: trencianske bohuslavice
+_get_nationalCadastralZoningReferences() found_ids: {'864404'}
+nationalCadastralZoningReferences: ['864404']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Nové Mesto nad Váhom
+get_geometry_of_a_geoname nazov_lokality: Nové Mesto nad Váhom
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Mesto nad Váhom, Nové Mesto nad Váhom, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.77427 48.75594, 17.77428 48.75579...  ...  Nové Mesto nad Váhom - Okrajová časť mesta, No...
+1  POLYGON ((17.77427 48.75594, 17.77428 48.75579...  ...  Nové Mesto nad Váhom, okres Nové Mesto nad Váh...
+
+[2 rows x 11 columns]
+geoname_query: Nové Mesto nad Váhom, Nové Mesto nad Váhom, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.84474 48.79164, 17.84476 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((17.82021 48.81627, 17.82031 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((17.77795 48.77061, 17.77852 48...
+3  CadastralZoning  ...  MULTIPOLYGON (((17.84656 48.72571, 17.84677 48...
+4  CadastralZoning  ...  MULTIPOLYGON (((17.84474 48.79164, 17.84476 48...
+5  CadastralZoning  ...  MULTIPOLYGON (((17.86403 48.74849, 17.86403 48...
+6  CadastralZoning  ...  MULTIPOLYGON (((17.89137 48.81425, 17.89139 48...
+7  CadastralZoning  ...  MULTIPOLYGON (((17.86027 48.81109, 17.86085 48...
+
+[8 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.77427 48.75594, 17.77428 48.75579...  ...  Nové Mesto nad Váhom - Okrajová časť mesta, No...
+1  POLYGON ((17.77427 48.75594, 17.77428 48.75579...  ...  Nové Mesto nad Váhom, okres Nové Mesto nad Váh...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573613/gis.geojson...
+Intersections with protected areas...
+Found 5 intersecting parcels with 'UEV'.
+Found 11 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': 'SKUEV0379', 'SITETITLE_': 'Kobela'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': 'SKUEV0567', 'SITETITLE_': 'Turecký vrch'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': 'SKUEV0379', 'SITETITLE_': 'Kobela'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': 'SKUEV0567', 'SITETITLE_': 'Turecký vrch'}, {'parcel_label': 'Trenčianske Bohuslavice', 'NATIONALSI': 'SKUEV0567', 'SITETITLE_': 'Turecký vrch'}], 'MCHU': [{'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': '19', 'SITETITLE_': 'OP NPP Čachtická jaskyňa'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': '19', 'SITETITLE_': 'OP NPP Čachtická jaskyňa'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': '76', 'SITETITLE_': 'PR Kobela'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': '179', 'SITETITLE_': 'PR Turecký vrch'}, {'parcel_label': 'Čachtice', 'NATIONALSI': '19', 'SITETITLE_': 'OP NPP Čachtická jaskyňa'}, {'parcel_label': 'Čachtice', 'NATIONALSI': '19', 'SITETITLE_': 'OP NPP Čachtická jaskyňa'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': '19', 'SITETITLE_': 'OP NPP Čachtická jaskyňa'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': '19', 'SITETITLE_': 'OP NPP Čachtická jaskyňa'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': '76', 'SITETITLE_': 'PR Kobela'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': '179', 'SITETITLE_': 'PR Turecký vrch'}, {'parcel_label': 'Trenčianske Bohuslavice', 'NATIONALSI': '179', 'SITETITLE_': 'PR Turecký vrch'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573613/analysis.json...
+
+--- Časy spracovania dokumentu 573613 ---
+  download_and_text   :   1.01 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.07 s
+  gis_processing      :   3.69 s
+  CELKOVÝ ČAS         :  18.77 s
+------------------------------------------
+Dokument 573613 bol úspešne spracovaný.

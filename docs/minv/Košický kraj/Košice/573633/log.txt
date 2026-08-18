@@ -1,0 +1,60 @@
+[2026-08-18 18:29:54] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/573633'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/573633/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0003276}
+LLM_tokens: {"input": 334, "output": 800, "total": 1134, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/573633/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'okresný úrad v sídle kraja určuje na potvrdenie záujmu byť zúčastnenou osobou v uvedenom správnom konaní písomnou alebo elektronickou formou'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/573633/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0104095}
+LLM_tokens: {"input": 5255, "output": 2594, "total": 7849, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/573633/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/573633/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'PR Kloptan, od turistického smerníku Kúpele Štós po areál Čičky v Košiciach', 'nazov_lokality_norm': 'Kloptan'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'PR Kloptan, od turistického smerníku Kúpele Štós po areál Čičky v Košiciach', 'nazov_lokality_norm': 'Kloptan'}
+Fallback to OBEC: Košice
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: kosice norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: kosice norm_ku: None
+Fallback to OBEC failed: Nenašlo sa žiadne katastrálne uzemie pre zadané parametre kraj:None, okres:None, obec:Košice, katastralneUzemie:None
+No geometries were found.
+nazov_lokality: Kloptan
+get_geometry_of_a_geoname nazov_lokality: Kloptan
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Košice, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.85124 48.77276, 20.85131 48.77227...  ...  Kloptaň, Vyšný Medzev, okres Košice-okolie, Ko...
+
+[1 rows x 11 columns]
+geoname_query: Kloptan, Košice, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.85124 48.77276, 20.85131 48.77227...  ...  Kloptaň, Vyšný Medzev, okres Košice-okolie, Ko...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/573633/gis.geojson...
+Intersections with protected areas...
+Found 4 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Kloptaň, Vyšný Medzev, okres Košice-okolie, Košický kraj, Slovensko', 'NAZOV_UEV': 'Kloptaň', 'KOD_UEV': 'SKUEV0919'}, {'parcel_label': 'Kloptaň, Vyšný Medzev, okres Košice-okolie, Košický kraj, Slovensko', 'NAZOV_UEV': 'Kloptaň', 'KOD_UEV': 'SKUEV0919'}, {'parcel_label': 'Kloptaň, Vyšný Medzev, okres Košice-okolie, Košický kraj, Slovensko', 'NAZOV_UEV': 'Kloptaň', 'KOD_UEV': 'SKUEV0919'}, {'parcel_label': 'Kloptaň, Vyšný Medzev, okres Košice-okolie, Košický kraj, Slovensko', 'NAZOV_UEV': 'Kloptaň', 'KOD_UEV': 'SKUEV0919'}], 'UEV': [{'parcel_label': 'Kloptaň, Vyšný Medzev, okres Košice-okolie, Košický kraj, Slovensko', 'NATIONALSI': 'SKUEV0919', 'SITETITLE_': 'Kloptaň'}], 'MCHU': [{'parcel_label': 'Kloptaň, Vyšný Medzev, okres Košice-okolie, Košický kraj, Slovensko', 'NATIONALSI': '857', 'SITETITLE_': 'PR Kloptaň'}], 'CHVU': [{'parcel_label': 'Kloptaň, Vyšný Medzev, okres Košice-okolie, Košický kraj, Slovensko', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/573633/analysis.json...
+
+--- Časy spracovania dokumentu 573633 ---
+  download_and_text   :   5.19 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   9.87 s
+  gis_processing      :   0.54 s
+  CELKOVÝ ČAS         :  15.61 s
+------------------------------------------
+Dokument 573633 bol úspešne spracovaný.
