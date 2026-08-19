@@ -1,0 +1,119 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2026/000627",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-18",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskoršie na ústnom pojednávaní dňa 16. septembra (streda) 2026 o 10.30 h"
+  },
+  "ziadatel_navrhovatel": "Obec Prečín",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Prečín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prečín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "904/4",
+              "911/17",
+              "911/2",
+              "305/1",
+              "911/1",
+              "306",
+              "308/1",
+              "260/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "126/2",
+              "451/1",
+              "113"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Vetva „K7“ pri pošte",
+    "nazov_lokality_norm": "pri pošte, Prečín"
+  },
+  "typ_dokumentu": "Oznámenie verejnou vyhláškou o pokračovaní v kolaudačnom konaní",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "kolaudácia vodnej stavby",
+    "splašková kanalizácia"
+  ],
+  "rozsah_zasahu": "prevádzky schopná časť vodnej stavby (Vetva K7)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "Zákon o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "61",
+        "71",
+        "73"
+      ]
+    },
+    {
+      "nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "120",
+        "80"
+      ]
+    },
+    {
+      "nazov": "Zákon o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "26"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o pokračovaní kolaudačného konania pre časť splaškovej kanalizácie v obci Prečín (vetva K7 pri pošte). Ústne pojednávanie spojené s miestnym zisťovaním je nariadené na 16. 9. 2026. Ide o líniovú stavbu v zastavanom území obce bez zmienky o chránených územiach.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "904/4",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "911/1",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "126/2",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "cislo_konania_spisu": "OU-TR-OSZP-2026/000581-012",
+  "cislo_rozhodnutia": "OU-TR-OSZP-2026/000581/012-vod. Sá",
+  "datum_dokumentu": "2026-08-19",
+  "datum_zverejnenia": "2026-08-19",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa oznámenia rozhodnutia (lehota na odvolanie)"
+  },
+  "ziadatel_navrhovatel": "PROXIMA, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Turčianske Teplice",
+    "obec": "Jazernica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jazernica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "274",
+              "352",
+              "335/15",
+              "355/3",
+              "355/2",
+              "357",
+              "273"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "67",
+              "58",
+              "53/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "IBV Jazernica západ",
+    "nazov_lokality_norm": "Jazernica"
+  },
+  "typ_dokumentu": "Rozhodnutie - vodoprávne povolenie",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "uskutočnenie líniovej vodnej stavby",
+    "rozšírenie verejného vodovodu",
+    "výkopové práce",
+    "odňatie poľnohospodárskej pôdy"
+  ],
+  "rozsah_zasahu": "vodovodný rad HDPE dĺžky 696,0 bm pre zásobovanie 24 rodinných domov",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "26",
+        "61",
+        "39"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "61",
+        "62",
+        "66",
+        "120",
+        "46d",
+        "43i",
+        "68",
+        "69",
+        "139"
+      ]
+    },
+    {
+      "nazov": "Správny poriadok",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "46",
+        "47",
+        "53",
+        "54",
+        "26",
+        "33"
+      ]
+    },
+    {
+      "nazov": "Zákon o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": [
+        "4"
+      ]
+    },
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "Zákon o verejných vodovodoch a verejných kanalizáciách",
+      "cislo": "442/2002 Z. z.",
+      "paragrafy": [
+        "36"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon (nový)",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": [
+        "84"
+      ]
+    },
+    {
+      "nazov": "Zákon o územnom plánovaní",
+      "cislo": "200/2022 Z. z.",
+      "paragrafy": [
+        "11"
+      ]
+    },
+    {
+      "nazov": "Zákon o odpadoch",
+      "cislo": "79/2015 Z. z.",
+      "paragrafy": [
+        "6",
+        "14",
+        "77",
+        "99"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o povolení vodnej stavby na rozšírenie verejného vodovodu pre novú obytnú zónu 24 rodinných domov v obci Jazernica. Stavba v dĺžke 696 metrov zahŕňa výkopové práce a uloženie potrubia na pozemkoch, ktoré boli pôvodne poľnohospodárskou pôdou. Dokument nešpecifikuje, či sa zásah nachádza v chránenom území, hoci k nemu vydal stanovisko aj úsek ochrany prírody a krajiny.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "67",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "67",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "67",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}
