@@ -1,0 +1,101 @@
+[2026-08-20 18:27:52] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573806'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573806/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573806/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 12' zákona '409/2011 Z.z. o niektorých opatreniach na úseku environmentálnej záťaže a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 7' zákona 'o environmentálnych záťažiach určuje na vyjadrenie účastníkom konania lehotu 30 dní odo dňa doručenia tohto oznámenia. Okresný úrad v sídle kraja môže'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 10' zákona 'o environmentálnych záťažiach). V uvedenej veci zároveň v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 9' zákona 'o environmentálnych záťažiach a v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 13' zákona 'o environmentálnych záťažiach z dôvodu viac ako 20 účastníkov konania'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573806/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014207500000000001}
+LLM_tokens: {"input": 8021, "output": 3399, "total": 11420, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573806/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573806/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky', 'okres': 'Komárno', 'obec': 'Komárno', 'katastralne_uzemia': [{'nazov': 'Komárno', 'parcely': [{'typ': 'C', 'cisla': ['10239', '10236', '10244', '10234/2', '10203/3', '10203/4', '10204/3', '10235', '10237', '10240', '10243', '10245', '10189/8', '10189/9', '10233', '10238/1', '10238/14', '10238/16', '10238/17', '10238/18', '10238/19', '10238/20', '10238/21', '10238/22', '10238/23', '10238/24', '10238/25', '10238/26', '10238/27', '10238/28', '10238/29', '10238/30', '10238/31', '10238/32', '10238/33', '10238/34', '10238/35', '10238/36', '10238/37', '10238/38', '10238/39', '10238/40', '10238/41', '10238/43', '10238/57', '10238/54', '10238/55', '10238/56', '10238/61', '10238/63']}, {'typ': 'E', 'cisla': ['2507/2']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Komárno – Harčáš – skládka TKO', 'nazov_lokality_norm': 'Harčáš'}
+data: {'kraj': 'Nitriansky', 'okres': 'Komárno', 'obec': 'Komárno', 'katastralne_uzemia': [{'nazov': 'Komárno', 'parcely': [{'typ': 'C', 'cisla': ['10239', '10236', '10244', '10234/2', '10203/3', '10203/4', '10204/3', '10235', '10237', '10240', '10243', '10245', '10189/8', '10189/9', '10233', '10238/1', '10238/14', '10238/16', '10238/17', '10238/18', '10238/19', '10238/20', '10238/21', '10238/22', '10238/23', '10238/24', '10238/25', '10238/26', '10238/27', '10238/28', '10238/29', '10238/30', '10238/31', '10238/32', '10238/33', '10238/34', '10238/35', '10238/36', '10238/37', '10238/38', '10238/39', '10238/40', '10238/41', '10238/43', '10238/57', '10238/54', '10238/55', '10238/56', '10238/61', '10238/63']}, {'typ': 'E', 'cisla': ['2507/2']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Komárno – Harčáš – skládka TKO', 'nazov_lokality_norm': 'Harčáš'}
+ku_name:Komárno obec:Komárno okres:Komárno kraj:Nitriansky
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: komarno norm_obec: komarno norm_ku: komarno
+_get_nationalCadastralZoningReferences() found_ids: {'825883'}
+nationalCadastralZoningReferences: ['825883']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.74 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.72 s
+nazov_lokality: Harčáš
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+39  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+40  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+41  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+42  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+43  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+44  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+45  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+46  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+47  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+48  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+49  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+
+[50 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573806/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573806/analysis.json...
+
+--- Časy spracovania dokumentu 573806 ---
+  download_and_text   :   1.52 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.19 s
+  gis_processing      :   6.71 s
+  CELKOVÝ ČAS         :  21.42 s
+------------------------------------------
+Dokument 573806 bol úspešne spracovaný.

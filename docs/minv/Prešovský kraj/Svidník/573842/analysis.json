@@ -1,0 +1,111 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Východoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Svidník",
+    "obec": "Humkovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Humkovce",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "tok rieky Ladomírka",
+    "nazov_lokality_norm": "Ladomírka"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "skúšobná prevádzka vodnej stavby",
+    "vypúšťanie odpadových vôd",
+    "užívanie vodnej stavby"
+  ],
+  "rozsah_zasahu": "Qmax = 217,00 m³/deň; Qt = 79 205 m³/rok",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "§ 5 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": [
+        "§ 2 ods. 3",
+        "§ 3 ods. 1 písm. c)"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "§ 61 písm. a)",
+        "§ 71 ods. 1",
+        "§ 73 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "§ 120 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "§ 46",
+        "§ 47"
+      ]
+    },
+    {
+      "nazov": "o metrológii",
+      "cislo": "157/2018 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "nariadenie vlády SR",
+      "cislo": "269/2010 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "nariadenie vlády SR",
+      "cislo": "359/2022 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o povolení na dočasné užívanie vodnej stavby ČOV Humkovce počas skúšobnej prevádzky a vypúšťanie vyčistených odpadových vôd do toku Ladomírka. Skúšobná prevádzka a vypúšťanie sú povolené do 30.04.2028 s maximálnym denným prietokom 217 m3. Dokument nešpecifikuje, či sa zásah nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "Hunkovce",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

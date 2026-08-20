@@ -1,0 +1,81 @@
+[2026-08-20 18:28:43] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573842'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573842/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0010559999999999999}
+LLM_tokens: {"input": 1366, "output": 2621, "total": 3987, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573842/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v nadväznosti'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný orgán štátnej'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písm. c)' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný orgán štátnej'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71 ods. 1' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120 ods. 1' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 1' zákona 'vodného zákona, v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v nadväznosti'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný orgán štátnej'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písm. c)' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný orgán štátnej'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71 ods. 1' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120 ods. 1' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 1' zákona 'vodného zákona, v súlade s ustanovením'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573842/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014465}
+LLM_tokens: {"input": 7294, "output": 3606, "total": 10900, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573842/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573842/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Humkovce', 'katastralne_uzemia': [{'nazov': 'Humkovce', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'tok rieky Ladomírka', 'nazov_lokality_norm': 'Ladomírka'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Humkovce', 'katastralne_uzemia': [{'nazov': 'Humkovce', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'tok rieky Ladomírka', 'nazov_lokality_norm': 'Ladomírka'}
+ku_name:Humkovce obec:Humkovce okres:Svidník kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: svidnik norm_obec: humkovce norm_ku: humkovce
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: svidnik norm_obec: None norm_ku: humkovce
+Fuzzy match found: 'Humkovce' -> 'Hunkovce' (ID: 820393)
+nationalCadastralZoningReferences: ['820393']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Ladomírka
+get_geometry_of_a_geoname nazov_lokality: Ladomírka
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Humkovce, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Svidník, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Prešovský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.3602837, 'lon': 21.6520114, 'formatted_address': '090 03 Hunkovce, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 03 Hunkovce, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.65965 49.37753, 21.65957 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573842/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Hunkovce', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573842/analysis.json...
+
+--- Časy spracovania dokumentu 573842 ---
+  download_and_text   :  13.49 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.21 s
+  gis_processing      :   3.32 s
+  CELKOVÝ ČAS         :  33.02 s
+------------------------------------------
+Dokument 573842 bol úspešne spracovaný.

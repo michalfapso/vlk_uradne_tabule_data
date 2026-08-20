@@ -1,0 +1,108 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote určenej podľa § 29 ods. 5 prvej vety zákona o posudzovaní"
+  },
+  "ziadatel_navrhovatel": "RDV 2 s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava III",
+    "obec": "Bratislava - mestská časť Nové Mesto",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vinohrady",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "4846",
+              "4847",
+              "4848/1",
+              "4849",
+              "4853/1",
+              "4853/2",
+              "4853/3",
+              "4854/7"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ul. Frankovská",
+    "nazov_lokality_norm": "Frankovská, Bratislava - mestská časť Nové Mesto"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť k zámeru navrhovanej činnosti",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "výstavba dvoch bytových domov",
+    "spevnené plochy",
+    "pešie komunikácie",
+    "sadové úpravy",
+    "technická infraštruktúra",
+    "terénne úpravy"
+  ],
+  "rozsah_zasahu": "plocha 15 590 m2, 2 bytové domy, 79 bytových jednotiek",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "náletová vegetácia",
+    "ruderálna vegetácia"
+  ],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "24",
+        "18",
+        "3",
+        "56",
+        "29",
+        "30",
+        "64",
+        "38"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "nazov": "stavebný zákon",
+      "cislo": "25/2025",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015",
+      "paragrafy": [
+        "178"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí zisťovacieho konania pre výstavbu dvoch bytových domov (79 bytov) na nevyužívanej poľnohospodárskej pôde v k.ú. Vinohrady. Projekt s rozlohou vyše 1,5 ha sa nachádza v extraviláne na Frankovskej ulici a zahŕňa aj podzemné garáže a terénne úpravy. Dokument neuvádza príslušnosť k chránenému územiu, no konštatuje absenciu lesných pozemkov.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

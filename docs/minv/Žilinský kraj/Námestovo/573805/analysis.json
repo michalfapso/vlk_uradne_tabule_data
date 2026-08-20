@@ -1,0 +1,76 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2026/019580",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-08-20",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia oznámenia"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Lokca",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lokca",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "7360",
+              "7361"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu drevín na parcelách registra E v katastrálnom území Lokca. Žiadosť bola podaná 18. 08. 2026 a lehota na potvrdenie záujmu byť účastníkom je 5 pracovných dní od zverejnenia. Dokument neuvádza počet ani druh drevín, ani či sa lokalita nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "7360",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        },
+        {
+          "parcel_label": "7361",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

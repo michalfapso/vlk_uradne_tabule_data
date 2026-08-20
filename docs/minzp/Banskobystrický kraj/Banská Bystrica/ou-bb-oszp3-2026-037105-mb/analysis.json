@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2026/037105-MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-20",
+  "datum_zverejnenia": "2026-08-20",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Moštenica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Moštenica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "535/1",
+              "539/8"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Žiadosť o vydanie súhlasu na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "2 ks drevín",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47",
+        "2",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19",
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť fyzickej osoby o súhlas na výrub 2 kusov drevín v katastrálnom území Moštenica z dôvodu ohrozenia a zlého zdravotného stavu. Konanie sa týka parciel registra C 535/1 a 539/8. Združenia s predmetom činnosti ochrana prírody môžu oznámiť svoju účasť do 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "539/8",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        },
+        {
+          "parcel_label": "535/1",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "535/1",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

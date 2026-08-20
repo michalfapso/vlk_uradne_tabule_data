@@ -1,0 +1,94 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP1-2026/557395/LAJ",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-08-20",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní"
+  },
+  "ziadatel_navrhovatel": "FirstFarms Agra M, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Plavecký Štvrtok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Plavecký Štvrtok",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "4538/2",
+              "4537/11-6",
+              "4552/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "kanály v k. ú. Plavecký Štvrtok",
+    "nazov_lokality_norm": "Plavecký Štvrtok"
+  },
+  "typ_dokumentu": "Informácia o začatom správnom konaní",
+  "kategorie_vlk": [
+    "POLNOHOSPODARSTVO",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "údržba kanálov",
+    "povolenie výnimiek zo zakázaných činností",
+    "zmena stavu mokrade"
+  ],
+  "rozsah_zasahu": "údržba kanálov na parcelách E-KN 4538/2, 4537/11-6 a 4552/2",
+  "typ_uzemia": [
+    "3. stupeň",
+    "mokraď"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "82 ods. 3",
+        "82 ods. 6",
+        "6 ods. 5",
+        "14 ods. 1 písm. a)",
+        "14 ods. 1 písm. c)"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19 ods. 1"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania na žiadosť FirstFarms Agra M, s.r.o. vo veci údržby kanálov v k. ú. Plavecký Štvrtok. Konanie sa týka zásahu do mokradí a udelenia výnimiek zo zákazov v 3. stupni ochrany prírody. Lehota na potvrdenie záujmu o účasť je 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "4538/2",
+          "NATIONALSI": "SKUEV0116",
+          "SITETITLE_": "Jakubovské rybníky"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "4538/2",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

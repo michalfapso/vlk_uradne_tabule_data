@@ -1,0 +1,116 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/004027",
+  "cislo_rozhodnutia": "OU-MT-OSZP-2026/004027-035-Ha",
+  "datum_dokumentu": "2026-08-20",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "CT Park Martin, spol. s r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Martin",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Priekopa",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Martin-Priekopa",
+    "nazov_lokality_norm": "Priekopa, Martin"
+  },
+  "typ_dokumentu": "Záväzné stanovisko zo zisťovacieho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "výstavba výrobnoskladových hál",
+    "sadové úpravy",
+    "dopravné napojenie",
+    "úprava rastlinných spoločenstiev"
+  ],
+  "rozsah_zasahu": "Výrobnoskladové haly",
+  "typ_uzemia": [
+    "ornitologické OP letiska",
+    "OP vedenia VN",
+    "OP vedenia VVN"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vtáctvo",
+    "existujúce rastlinné spoločenstvá",
+    "dreviny",
+    "bylinná zložka"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "3",
+        "56",
+        "59",
+        "29",
+        "2"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "1"
+      ]
+    },
+    {
+      "nazov": "o ochrane, podpore a rozvoji verejného zdravia",
+      "cislo": "355/2007",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "39"
+      ]
+    }
+  ],
+  "zhrnutie": "Záväzné stanovisko zo zisťovacieho konania určuje, že projekt výstavby výrobnoskladových hál CT Park Martin v mestskej časti Priekopa sa nebude ďalej posudzovať podľa zákona EIA. Rozhodnutie ukladá opatrenia na ochranu ornitologického ochranného pásma letiska, realizáciu sadových úprav a obmedzenie nákladnej dopravy. Činnosť zasahuje do ochranných pásiem leteckej prevádzky a elektrických vedení.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Priekopa",
+          "NAZOV_UEV": "Lúčanská Fatra",
+          "KOD_UEV": "SKUEV0930"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Priekopa",
+          "NATIONALSI": "SKUEV0930",
+          "SITETITLE_": "Lúčanská Fatra"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Priekopa",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}
