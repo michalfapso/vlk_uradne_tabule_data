@@ -1,0 +1,40 @@
+[2026-08-21 18:32:20] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573903'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573903/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573903/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573903/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010957499999999998}
+LLM_tokens: {"input": 5937, "output": 2663, "total": 8600, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 65 column 1 (char 1771)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0153924}
+LLM_tokens: {"input": 5937, "output": 4444, "total": 10381, "cached": 2018}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573903/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573903/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': None, 'katastralne_uzemia': [{'nazov': None, 'parcely': [{'typ': 'C', 'cisla': ['3814/40', '3814/39']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': None, 'katastralne_uzemia': [{'nazov': None, 'parcely': [{'typ': 'C', 'cisla': ['3814/40', '3814/39']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:None obec:None okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (33), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 573903 ---
+  download_and_text   :   1.90 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  35.15 s
+  gis_processing      :   0.01 s
+  CELKOVÝ ČAS         :  37.06 s
+------------------------------------------
+Dokument 573903 bol úspešne spracovaný.

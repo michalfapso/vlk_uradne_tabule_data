@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 21 dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "Obec Pavlice",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Pavlice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pavlice",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Pavlice",
+    "nazov_lokality_norm": "Pavlice"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o predložení správy o hodnotení strategického dokumentu a návrhu strategického dokumentu",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "Územný plán obce"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/uzemny-plan-obce-pavlice",
+  "zakony": [
+    {
+      "nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006 Z.z.",
+      "paragrafy": [
+        "§ 9",
+        "§ 63"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o predložení správy o hodnotení a návrhu Územného plánu obce Pavlice v rámci procesu SEA. Verejnosť môže podávať stanoviská do 21 dní od zverejnenia a konzultovať dokument na Okresnom úrade Trnava.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "Pavlice",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Pavlice",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Pavlice",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "cislo_konania_spisu": "SVP 1384/2026/8",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-11",
+  "datum_zverejnenia": "2026-08-19",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SVP, š. p., Povodie Bodrogu, odštepný závod Trebišov",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Lúčky, Zalužice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lúčky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "520/2",
+              "523/1",
+              "523/4"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Zalužice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1129/2",
+              "1137/7",
+              "1146/2",
+              "1197/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "pobrežné pozemky VS Zemplínska Šírava",
+    "nazov_lokality_norm": "Zemplínska Šírava"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie brehových porastov"
+  ],
+  "rozsah_zasahu": "33 ks stromov (agát, slivka, vŕba, topoľ, jelša, jaseň)",
+  "typ_uzemia": [
+    "CHKO Vihorlat",
+    "pobrežný pozemok"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "agát biely",
+    "slivka čerešňoplodová",
+    "vŕba biela",
+    "topoľ osikový",
+    "jelša lepkavá",
+    "jaseň štíhly",
+    "vŕba rakytová"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "Zákon o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "48 ods. 5 písm. c)",
+        "49 ods. 1 písm. b)"
+      ]
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje výrub 33 ks drevín na pobrežných pozemkoch vodnej nádrže Zemplínska Šírava v k. ú. Lúčky a Zalužice. Výrub sa plánuje v období vegetačného pokoja (2026-2028) za účelom údržby a prevádzky vodnej stavby. Oznámenie bolo zaslané na vedomie aj Správe CHKO Vihorlat.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

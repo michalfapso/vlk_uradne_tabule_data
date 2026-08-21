@@ -1,0 +1,64 @@
+[2026-08-21 18:29:06] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/573865'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/573865/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/573865/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/573865/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008338}
+LLM_tokens: {"input": 5192, "output": 1914, "total": 7106, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/573865/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/573865/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Michalovce', 'obec': 'Vinné', 'katastralne_uzemia': [{'nazov': 'Vinné', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodná nádrž Zemplínska šírava', 'nazov_lokality_norm': 'Zemplínska šírava'}
+data: {'kraj': 'Košický kraj', 'okres': 'Michalovce', 'obec': 'Vinné', 'katastralne_uzemia': [{'nazov': 'Vinné', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodná nádrž Zemplínska šírava', 'nazov_lokality_norm': 'Zemplínska šírava'}
+ku_name:Vinné obec:Vinné okres:Michalovce kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: vinne norm_ku: vinne
+_get_nationalCadastralZoningReferences() found_ids: {'869503'}
+nationalCadastralZoningReferences: ['869503']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Zemplínska šírava
+get_geometry_of_a_geoname nazov_lokality: Zemplínska šírava
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** šírava, Vinné, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.94634 48.78896, 21.94637 48.78885...  ...  Zemplínska šírava, Kaluža, okres Michalovce, K...
+
+[1 rows x 11 columns]
+geoname_query: Zemplínska šírava, Vinné, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.94988 48.85141, 21.95003 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.94634 48.78896, 21.94637 48.78885...  ...  Zemplínska šírava, Kaluža, okres Michalovce, K...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/573865/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'MCHU': [{'parcel_label': 'Vinné', 'NATIONALSI': '722', 'SITETITLE_': 'OP CHA Zemplínska šírava'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/573865/analysis.json...
+
+--- Časy spracovania dokumentu 573865 ---
+  download_and_text   :   1.17 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   8.47 s
+  gis_processing      :   0.67 s
+  CELKOVÝ ČAS         :  10.33 s
+------------------------------------------
+Dokument 573865 bol úspešne spracovaný.

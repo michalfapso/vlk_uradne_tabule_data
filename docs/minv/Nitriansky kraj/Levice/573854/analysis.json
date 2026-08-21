@@ -1,0 +1,116 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2026/020812",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-21",
+  "datum_zverejnenia": "2026-08-21",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Šahy",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šahy",
+        "parcely": []
+      },
+      {
+        "nazov": "Tešmák",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "k. ú. Šahy a k. ú. Tešmák",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín a krovitého porastu"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82",
+        "47",
+        "2"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub drevín a krovitého porastu v extraviláne katastrálnych území Šahy a Tešmák. Lehota na potvrdenie záujmu byť účastníkom konania je 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Tešmák",
+          "NAZOV_UEV": "Alúvium Ipľa",
+          "KOD_UEV": "SKUEV0257"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Šahy",
+          "NATIONALSI": "SKUEV0257",
+          "SITETITLE_": "Alúvium Ipľa"
+        },
+        {
+          "parcel_label": "Tešmák",
+          "NATIONALSI": "SKUEV0257",
+          "SITETITLE_": "Alúvium Ipľa"
+        },
+        {
+          "parcel_label": "Tešmák",
+          "NATIONALSI": "SKUEV0865",
+          "SITETITLE_": "Rataj"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Šahy",
+          "NATIONALSI": "1105",
+          "SITETITLE_": "PP Zlepencová terasa"
+        },
+        {
+          "parcel_label": "Tešmák",
+          "NATIONALSI": "1092",
+          "SITETITLE_": "PR Ryžovisko"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Šahy",
+          "NATIONALSI": "SKCHVU021",
+          "SITETITLE_": "Poiplie"
+        },
+        {
+          "parcel_label": "Tešmák",
+          "NATIONALSI": "SKCHVU021",
+          "SITETITLE_": "Poiplie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

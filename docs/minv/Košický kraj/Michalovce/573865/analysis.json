@@ -1,0 +1,65 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2026/017011",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-19",
+  "datum_zverejnenia": "2026-08-19",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "ZVD s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Vinné",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vinné",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "vodná nádrž Zemplínska šírava",
+    "nazov_lokality_norm": "Zemplínska šírava"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "umiestnenie plávajúceho zariadenia",
+    "plávajúca vodná fontána"
+  ],
+  "rozsah_zasahu": "plávajúca vodná fontána",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82",
+        "82 ods. 7",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Začatie správneho konania o umiestnení plávajúceho zariadenia (vodná fontána) na Zemplínskej šírave v k. ú. Vinné. Žiadateľom je spoločnosť ZVD s.r.o. Záujem byť účastníkom konania je potrebné potvrdiť do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Vinné",
+          "NATIONALSI": "722",
+          "SITETITLE_": "OP CHA Zemplínska šírava"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

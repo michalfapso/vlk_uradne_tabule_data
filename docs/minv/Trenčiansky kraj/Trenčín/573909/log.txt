@@ -1,0 +1,63 @@
+[2026-08-21 18:32:57] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573909'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573909/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573909/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18' zákona 'zák. č. 71/1967 Zb. o správnom konaní'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona '25/2025 Z. z. „Ak ide o stavbu, pre ktorú je vydané územné rozhodnutie podľa doterajších predpisov, použijú sa doterajšie predpisy v znení účinnom do'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a o doplnení niektorých zákonov v znení neskorších predpisov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a o doplnení niektorých zákonov v znení neskorších predpisov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 1' zákona 'stavebného zákona začatie vodoprávneho konania na povolenie líniovej vodnej stavby „REZIDENCIE ODEVNÁ, TRENČÍN – 1. ETAPA časť: SO 411.1 Predĺženie ve'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona 'stavebného zákona od ústneho pojednávania a miestneho zisťovania. Účastníci konania môžu v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods.5' zákona 'vodného zákona uplatniť svoje námietky ku konaniu o povolení vodných stavieb písomne doručením na Okresný úrad Trenčín, odbor starostlivosti o životné'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona doručuje verejnou vyhláškou – líniová stavba. Oznámenie bude vyvesené na úradnej tabuli a webovom sídle Okresného úradu Trenčín. Pos'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. a' zákona ''.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013662}
+LLM_tokens: {"input": 7326, "output": 3333, "total": 10659, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573909/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573909/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Trenčín', 'katastralne_uzemia': [{'nazov': 'Zlatovce', 'parcely': [{'typ': 'C', 'cisla': ['231/25', '229/95', '229/1', '229/66', '229/341', '229/83', '231/18', '231/140', '231/40']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. Veľkomoravská', 'nazov_lokality_norm': 'Veľkomoravská, Trenčín'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Trenčín', 'katastralne_uzemia': [{'nazov': 'Zlatovce', 'parcely': [{'typ': 'C', 'cisla': ['231/25', '229/95', '229/1', '229/66', '229/341', '229/83', '231/18', '231/140', '231/40']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. Veľkomoravská', 'nazov_lokality_norm': 'Veľkomoravská, Trenčín'}
+ku_name:Zlatovce obec:Trenčín okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: trencin norm_ku: zlatovce
+_get_nationalCadastralZoningReferences() found_ids: {'873551'}
+nationalCadastralZoningReferences: ['873551']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.82 s
+nazov_lokality: Veľkomoravská, Trenčín
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+
+[8 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573909/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/573909/analysis.json...
+
+--- Časy spracovania dokumentu 573909 ---
+  download_and_text   :   1.49 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.57 s
+  gis_processing      :   4.05 s
+  CELKOVÝ ČAS         :  19.10 s
+------------------------------------------
+Dokument 573909 bol úspešne spracovaný.

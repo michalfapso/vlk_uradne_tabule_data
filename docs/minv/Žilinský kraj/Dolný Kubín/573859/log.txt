@@ -1,0 +1,46 @@
+[2026-08-21 18:33:48] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573859'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573859/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573859/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z.z.  o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov  v znení neskorších predpisov a podľa'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573859/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013487500000000001}
+LLM_tokens: {"input": 6269, "output": 3451, "total": 9720, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573859/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573859/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Dolný Kubín', 'obec': 'Oravská Poruba', 'katastralne_uzemia': [{'nazov': 'Poruba-Geceľ', 'parcely': [{'typ': 'C', 'cisla': ['523/1', '523/5']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'v parku, k.ú. Poruba-Geceľ', 'nazov_lokality_norm': 'Poruba-Geceľ'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Dolný Kubín', 'obec': 'Oravská Poruba', 'katastralne_uzemia': [{'nazov': 'Poruba-Geceľ', 'parcely': [{'typ': 'C', 'cisla': ['523/1', '523/5']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'v parku, k.ú. Poruba-Geceľ', 'nazov_lokality_norm': 'Poruba-Geceľ'}
+ku_name:Poruba-Geceľ obec:Oravská Poruba okres:Dolný Kubín kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: dolny kubin norm_obec: oravska poruba norm_ku: poruba-gecel
+_get_nationalCadastralZoningReferences() found_ids: {'844144'}
+nationalCadastralZoningReferences: ['844144']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.50 s
+nazov_lokality: Poruba-Geceľ
+gdf_parcelset:       @featureType  ...           administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.94'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.94'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573859/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/573859/analysis.json...
+
+--- Časy spracovania dokumentu 573859 ---
+  download_and_text   :   1.47 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  18.98 s
+  gis_processing      :   3.73 s
+  CELKOVÝ ČAS         :  24.18 s
+------------------------------------------
+Dokument 573859 bol úspešne spracovaný.

@@ -1,0 +1,57 @@
+[2026-08-21 18:33:30] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573860'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573860/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573860/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 6' zákona '25/2025 Z. z. v znení neskorších predpisov, keďže sa nevyžadovalo územné rozhodnutie podľa predchádzajúcich predpisov. OÚ TT – ŠVS ako príslušný orgán'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80 ods. 1' zákona 'stavebného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18' zákona 'vyhlášky MŽP SR č. 453/2000 Z. z., ktorou sa vykonávajú niektoré ustanovenia stavebného zákona, a podmienok stavebného povolenia. Toto oznámenie má po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573860/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012981}
+LLM_tokens: {"input": 7062, "output": 3150, "total": 10212, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573860/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573860/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Trnava', 'katastralne_uzemia': [{'nazov': 'Trnava', 'parcely': [{'typ': 'C', 'cisla': ['8743/1', '8746', '8745/2', '8796/1', '8794/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulica Študentská, Hospodárska, Š. C. Parráka, Kalinčiakova, Jána Sambucusa, A. Hlinku, Komenského', 'nazov_lokality_norm': 'Študentská, Trnava'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Trnava', 'katastralne_uzemia': [{'nazov': 'Trnava', 'parcely': [{'typ': 'C', 'cisla': ['8743/1', '8746', '8745/2', '8796/1', '8794/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulica Študentská, Hospodárska, Š. C. Parráka, Kalinčiakova, Jána Sambucusa, A. Hlinku, Komenského', 'nazov_lokality_norm': 'Študentská, Trnava'}
+ku_name:Trnava obec:Trnava okres:Trnava kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: trnava norm_ku: trnava
+_get_nationalCadastralZoningReferences() found_ids: {'864790'}
+nationalCadastralZoningReferences: ['864790']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.85 s
+nazov_lokality: Študentská, Trnava
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1831'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1831'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1831'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1831'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.1831'}
+
+[5 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573860/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/573860/analysis.json...
+
+--- Časy spracovania dokumentu 573860 ---
+  download_and_text   :   1.41 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.08 s
+  gis_processing      :   4.08 s
+  CELKOVÝ ČAS         :  18.58 s
+------------------------------------------
+Dokument 573860 bol úspešne spracovaný.

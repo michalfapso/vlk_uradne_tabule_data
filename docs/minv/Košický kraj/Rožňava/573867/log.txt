@@ -1,0 +1,74 @@
+[2026-08-21 18:29:35] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573867'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573867/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.00025760000000000003}
+LLM_tokens: {"input": 592, "output": 625, "total": 1217, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573867/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573867/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010085}
+LLM_tokens: {"input": 5290, "output": 2480, "total": 7770, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 52 column 1 (char 1424)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0124727}
+LLM_tokens: {"input": 5290, "output": 3578, "total": 8868, "cached": 2014}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573867/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573867/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Rožňava', 'katastralne_uzemia': [{'nazov': 'Nadabula', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'k. ú. Nadabula', 'nazov_lokality_norm': 'Nadabula'}
+data: {'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Rožňava', 'katastralne_uzemia': [{'nazov': 'Nadabula', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'k. ú. Nadabula', 'nazov_lokality_norm': 'Nadabula'}
+ku_name:Nadabula obec:Rožňava okres:Rožňava kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: roznava norm_obec: roznava norm_ku: nadabula
+_get_nationalCadastralZoningReferences() found_ids: {'853151'}
+nationalCadastralZoningReferences: ['853151']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Nadabula
+get_geometry_of_a_geoname nazov_lokality: Nadabula
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Rožňava, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.47978 48.68488, 20.48014 48.68436...  ...  Nadabula, Rožňava, okres Rožňava, Košický kraj...
+1  POLYGON ((20.47978 48.68488, 20.48014 48.68436...  ...  Nadabula, Rožňava, okres Rožňava, Košický kraj...
+
+[2 rows x 11 columns]
+geoname_query: Nadabula, Rožňava, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.53416 48.6946, 20.53419 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.47978 48.68488, 20.48014 48.68436...  ...  Nadabula, Rožňava, okres Rožňava, Košický kraj...
+1  POLYGON ((20.47978 48.68488, 20.48014 48.68436...  ...  Nadabula, Rožňava, okres Rožňava, Košický kraj...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573867/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573867/analysis.json...
+
+--- Časy spracovania dokumentu 573867 ---
+  download_and_text   :   4.86 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  26.12 s
+  gis_processing      :   0.87 s
+  CELKOVÝ ČAS         :  31.86 s
+------------------------------------------
+Dokument 573867 bol úspešne spracovaný.

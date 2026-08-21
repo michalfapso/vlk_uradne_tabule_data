@@ -1,0 +1,60 @@
+[2026-08-21 18:30:23] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573887'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573887/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0007555999999999999}
+LLM_tokens: {"input": 592, "output": 1870, "total": 2462, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573887/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 4' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v nadväznosti'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona '120/2019 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný orgán štátnej'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 8 ods. 1 písm. c)' zákona '120/2019 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný orgán štátnej'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona 'vodného zákona, ako špeciálny stavebný úrad podľa ustanovenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71 ods. 1' zákona 'vodného zákona, ako špeciálny stavebný úrad podľa ustanovenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120 ods. 1' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 60' zákona 'stavebného zákona a'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573887/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010197}
+LLM_tokens: {"input": 6480, "output": 2319, "total": 8799, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573887/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573887/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Vagrinec', 'katastralne_uzemia': [{'nazov': 'Vagrinec', 'parcely': [{'typ': 'C', 'cisla': ['330/3', '330/4', '330/6', '330/7']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Vagrinec - rekonštrukcia vodojemu', 'nazov_lokality_norm': 'Vagrinec'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Svidník', 'obec': 'Vagrinec', 'katastralne_uzemia': [{'nazov': 'Vagrinec', 'parcely': [{'typ': 'C', 'cisla': ['330/3', '330/4', '330/6', '330/7']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Vagrinec - rekonštrukcia vodojemu', 'nazov_lokality_norm': 'Vagrinec'}
+ku_name:Vagrinec obec:Vagrinec okres:Svidník kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: svidnik norm_obec: vagrinec norm_ku: vagrinec
+_get_nationalCadastralZoningReferences() found_ids: {'866695'}
+nationalCadastralZoningReferences: ['866695']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.77 s
+nazov_lokality: Vagrinec
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1017'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1017'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1017'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1017'}
+
+[4 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573887/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Svidník/573887/analysis.json...
+
+--- Časy spracovania dokumentu 573887 ---
+  download_and_text   :  10.64 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.69 s
+  gis_processing      :   3.99 s
+  CELKOVÝ ČAS         :  30.32 s
+------------------------------------------
+Dokument 573887 bol úspešne spracovaný.

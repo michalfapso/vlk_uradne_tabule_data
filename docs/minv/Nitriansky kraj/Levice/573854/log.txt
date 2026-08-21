@@ -1,0 +1,77 @@
+[2026-08-21 18:30:07] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/573854'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/573854/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/573854/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 7' zákona 'sa považuje  za zúčastnenú osobu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'uvedie  v písomnom oznámení  o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie,  meno a priezvisko osoby oprávnenej konať v je'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 20h' zákona 'Občianskeho zákonníka, ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 2 písm.c)' zákona '83/1990 Zb.), ktoré  preukazujú, že jeho predmetom  činnosti  je ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/573854/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009876}
+LLM_tokens: {"input": 6228, "output": 2254, "total": 8482, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/573854/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/573854/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Šahy', 'katastralne_uzemia': [{'nazov': 'Šahy', 'parcely': []}, {'nazov': 'Tešmák', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k. ú. Šahy a k. ú. Tešmák', 'nazov_lokality_norm': None}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Šahy', 'katastralne_uzemia': [{'nazov': 'Šahy', 'parcely': []}, {'nazov': 'Tešmák', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k. ú. Šahy a k. ú. Tešmák', 'nazov_lokality_norm': None}
+ku_name:Šahy obec:Šahy okres:Levice kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: levice norm_obec: sahy norm_ku: sahy
+_get_nationalCadastralZoningReferences() found_ids: {'860158'}
+nationalCadastralZoningReferences: ['860158']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.41 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Tešmák obec:Šahy okres:Levice kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: levice norm_obec: sahy norm_ku: tesmak
+_get_nationalCadastralZoningReferences() found_ids: {'863165'}
+nationalCadastralZoningReferences: ['863165']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.43 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: k. ú. Šahy a k. ú. Tešmák
+get_geometry_of_a_geoname nazov_lokality: k. ú. Šahy a k. ú. Tešmák
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** ú. Šahy a k. ú. Tešmák, Šahy, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** ú. Šahy a k. ú. Tešmák, Levice, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** ú. Šahy a k. ú. Tešmák, Nitriansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** ú. Šahy a k. ú. Tešmák, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.0632798, 'lon': 18.9844632, 'formatted_address': 'Tešmák, 936 01 Šahy, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 936 01 Šahy, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.92638 48.09671, 18.92782 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.99713 48.11953, 18.99778 48...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/573854/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Tešmák', 'NAZOV_UEV': 'Alúvium Ipľa', 'KOD_UEV': 'SKUEV0257'}], 'UEV': [{'parcel_label': 'Šahy', 'NATIONALSI': 'SKUEV0257', 'SITETITLE_': 'Alúvium Ipľa'}, {'parcel_label': 'Tešmák', 'NATIONALSI': 'SKUEV0257', 'SITETITLE_': 'Alúvium Ipľa'}, {'parcel_label': 'Tešmák', 'NATIONALSI': 'SKUEV0865', 'SITETITLE_': 'Rataj'}], 'MCHU': [{'parcel_label': 'Šahy', 'NATIONALSI': '1105', 'SITETITLE_': 'PP Zlepencová terasa'}, {'parcel_label': 'Tešmák', 'NATIONALSI': '1092', 'SITETITLE_': 'PR Ryžovisko'}], 'CHVU': [{'parcel_label': 'Šahy', 'NATIONALSI': 'SKCHVU021', 'SITETITLE_': 'Poiplie'}, {'parcel_label': 'Tešmák', 'NATIONALSI': 'SKCHVU021', 'SITETITLE_': 'Poiplie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/573854/analysis.json...
+
+--- Časy spracovania dokumentu 573854 ---
+  download_and_text   :   1.52 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  10.75 s
+  gis_processing      :   3.48 s
+  CELKOVÝ ČAS         :  15.76 s
+------------------------------------------
+Dokument 573854 bol úspešne spracovaný.

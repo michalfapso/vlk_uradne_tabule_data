@@ -1,0 +1,71 @@
+[2026-08-21 18:31:19] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573882'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573882/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573882/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0139425}
+LLM_tokens: {"input": 5751, "output": 3689, "total": 9440, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573882/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573882/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Nové Mesto nad Váhom', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ZO SZZ DOPRASTAV 15-38', 'nazov_lokality_norm': 'DOPRASTAV 15-38, Nové Mesto nad Váhom'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Nové Mesto nad Váhom', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ZO SZZ DOPRASTAV 15-38', 'nazov_lokality_norm': 'DOPRASTAV 15-38, Nové Mesto nad Váhom'}
+Fallback to OBEC: Nové Mesto nad Váhom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: nove mesto nad vahom norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'842044'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.35 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: DOPRASTAV 15-38, Nové Mesto nad Váhom
+get_geometry_of_a_geoname nazov_lokality: DOPRASTAV 15-38, Nové Mesto nad Váhom
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 15-38, Nové Mesto nad Váhom, Nové Mesto nad Váhom, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 15-38, Nové Mesto nad Váhom, Nové Mesto nad Váhom, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 15-38, Nové Mesto nad Váhom, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 15-38, Nové Mesto nad Váhom, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.7483082, 'lon': 17.8231546, 'formatted_address': 'Nová 717/15, 915 01 Nové Mesto nad Váhom, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 717/15, 915 01 Nové Mesto nad Váhom, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.82308 48.74832, 17.82309 48.74829...  ...  717/15, Nová, Sídlisko Hájovky, Nové Mesto nad...
+
+[1 rows x 11 columns]
+geoname_query: Nová 717/15, 915 01 Nové Mesto nad Váhom, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.84474 48.79164, 17.84476 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.82308 48.74832, 17.82309 48.74829...  ...  717/15, Nová, Sídlisko Hájovky, Nové Mesto nad...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573882/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/573882/analysis.json...
+
+--- Časy spracovania dokumentu 573882 ---
+  download_and_text   :   1.60 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  21.99 s
+  gis_processing      :   4.01 s
+  CELKOVÝ ČAS         :  27.59 s
+------------------------------------------
+Dokument 573882 bol úspešne spracovaný.

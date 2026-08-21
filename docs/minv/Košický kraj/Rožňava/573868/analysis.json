@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": "OU-RV-OSZP-2026/010457-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-19",
+  "datum_zverejnenia": "2026-08-19",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "PZ Silická Brezová",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Rožňava",
+    "obec": "Silická Brezová",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "vnadenie alebo prikrmovanie zveri"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "3. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "zver"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82",
+        "14"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci súhlasu na vnadenie a prikrmovanie zveri (okrem sena a siláže) v území s 3. stupňom ochrany. Žiadateľom je Poľovnícke združenie Silická Brezová v okrese Rožňava.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Silická Brezová",
+          "NATIONALSI": "SKUEV4000",
+          "SITETITLE_": "Silickobrezovské lúky"
+        },
+        {
+          "parcel_label": "Silická Brezová",
+          "NATIONALSI": "SKUEV0922",
+          "SITETITLE_": "Bubeník"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Silická Brezová",
+          "NATIONALSI": "569",
+          "SITETITLE_": "NPP Milada"
+        },
+        {
+          "parcel_label": "Silická Brezová",
+          "NATIONALSI": "569",
+          "SITETITLE_": "OP NPP Milada"
+        },
+        {
+          "parcel_label": "Silická Brezová",
+          "NATIONALSI": "669",
+          "SITETITLE_": "NPP Silická ľadnica"
+        },
+        {
+          "parcel_label": "Silická Brezová",
+          "NATIONALSI": "536",
+          "SITETITLE_": "OP NPP Gombasecká jaskyňa"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Silická Brezová",
+          "NATIONALSI": "SKCHVU027",
+          "SITETITLE_": "Slovenský kras"
+        }
+      ],
+      "UNESCO": [
+        {
+          "parcel_label": "Silická Brezová",
+          "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
+          "Kod_chrane": "UN01"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

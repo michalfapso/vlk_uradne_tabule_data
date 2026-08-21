@@ -1,0 +1,52 @@
+[2026-08-21 18:29:17] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573868'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573868/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0002476}
+LLM_tokens: {"input": 334, "output": 600, "total": 934, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573868/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573868/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011347}
+LLM_tokens: {"input": 5198, "output": 2916, "total": 8114, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573868/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573868/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Silická Brezová', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Silická Brezová', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+Fallback to OBEC: Silická Brezová
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: roznava norm_obec: silicka brezova norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'855502'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.48426 48.55719, 20.48525 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573868/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+Found 1 intersecting parcels with 'UNESCO'.
+intersections: {'UEV': [{'parcel_label': 'Silická Brezová', 'NATIONALSI': 'SKUEV4000', 'SITETITLE_': 'Silickobrezovské lúky'}, {'parcel_label': 'Silická Brezová', 'NATIONALSI': 'SKUEV0922', 'SITETITLE_': 'Bubeník'}], 'MCHU': [{'parcel_label': 'Silická Brezová', 'NATIONALSI': '569', 'SITETITLE_': 'NPP Milada'}, {'parcel_label': 'Silická Brezová', 'NATIONALSI': '569', 'SITETITLE_': 'OP NPP Milada'}, {'parcel_label': 'Silická Brezová', 'NATIONALSI': '669', 'SITETITLE_': 'NPP Silická ľadnica'}, {'parcel_label': 'Silická Brezová', 'NATIONALSI': '536', 'SITETITLE_': 'OP NPP Gombasecká jaskyňa'}], 'CHVU': [{'parcel_label': 'Silická Brezová', 'NATIONALSI': 'SKCHVU027', 'SITETITLE_': 'Slovenský kras'}], 'UNESCO': [{'parcel_label': 'Silická Brezová', 'Nazov_chra': 'Jaskyne Slovenského a Aggteleckého krasu', 'Kod_chrane': 'UN01'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/573868/analysis.json...
+
+--- Časy spracovania dokumentu 573868 ---
+  download_and_text   :   4.54 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  13.18 s
+  gis_processing      :   0.56 s
+  CELKOVÝ ČAS         :  18.29 s
+------------------------------------------
+Dokument 573868 bol úspešne spracovaný.
