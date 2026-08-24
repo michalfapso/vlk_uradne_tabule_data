@@ -1,0 +1,72 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-11",
+  "datum_zverejnenia": "2026-08-13",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "PRES GREEN, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Nováky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nováky",
+        "parcely": []
+      },
+      {
+        "nazov": "Koš",
+        "parcely": []
+      },
+      {
+        "nazov": "Sebedražie",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo vedenia 22 kV č. VN 292 klO",
+    "nazov_lokality_norm": "292 klO"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "odstránenie a okliesnenie drevín a iných porastov"
+  ],
+  "rozsah_zasahu": "ochranné pásmo vedenia 22 kV",
+  "typ_uzemia": [
+    "ochranné pásmo vedenia",
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom odstránení a okliesnení drevín pod 22 kV elektrickým vedením č. VN 292 klO v katastroch Nováky, Koš a Sebedražie. Práce sú naplánované na obdobie od augusta do decembra 2026 kvôli ohrozeniu bezpečnosti prevádzky siete. Zásah sa realizuje v ochrannom pásme inžinierskych sietí.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

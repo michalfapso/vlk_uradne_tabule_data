@@ -1,0 +1,63 @@
+[2026-08-24 18:35:29] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573946'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573946/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573946/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573946/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013260999999999998}
+LLM_tokens: {"input": 5990, "output": 3422, "total": 9412, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 69 column 1 (char 1796)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009901899999999998}
+LLM_tokens: {"input": 5990, "output": 2605, "total": 8595, "cached": 2018}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573946/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/573946/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Púchov', 'katastralne_uzemia': [{'nazov': 'Púchov', 'parcely': [{'typ': 'C', 'cisla': ['3837/1', '3837/7', '3837/16']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'miesto rekonštrukcie ČOV', 'nazov_lokality_norm': 'ČOV, Púchov'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Púchov', 'katastralne_uzemia': [{'nazov': 'Púchov', 'parcely': [{'typ': 'C', 'cisla': ['3837/1', '3837/7', '3837/16']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'miesto rekonštrukcie ČOV', 'nazov_lokality_norm': 'ČOV, Púchov'}
+ku_name:Púchov obec:Púchov okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: puchov norm_ku: puchov
+_get_nationalCadastralZoningReferences() found_ids: {'850462'}
+nationalCadastralZoningReferences: ['850462']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.69 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['3837/1', '3837/7', '3837/16']}' v KU 'Púchov' sa nenašli dáta.
+Fallback to OBEC: Púchov
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: puchov norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (6), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: ČOV, Púchov
+get_geometry_of_a_geoname nazov_lokality: ČOV, Púchov
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Púchov, Púchov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Púchov, Púchov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Púchov, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Púchov, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.1235654, 'lon': 18.3241203, 'formatted_address': '020 01 Púchov, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Púchov, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 573946 ---
+  download_and_text   :   1.52 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  27.55 s
+  gis_processing      :   5.95 s
+  CELKOVÝ ČAS         :  35.04 s
+------------------------------------------
+Dokument 573946 bol úspešne spracovaný.

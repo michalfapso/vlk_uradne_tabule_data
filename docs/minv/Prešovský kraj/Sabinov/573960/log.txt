@@ -1,0 +1,87 @@
+[2026-08-24 18:31:56] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573960'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573960/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573960/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573960/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012549999999999999}
+LLM_tokens: {"input": 6884, "output": 3036, "total": 9920, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573960/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573960/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Sabinov', 'obec': 'Sabinov', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ČOV Sabinov', 'nazov_lokality_norm': 'Sabinov'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Sabinov', 'obec': 'Sabinov', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ČOV Sabinov', 'nazov_lokality_norm': 'Sabinov'}
+Fallback to OBEC: Sabinov
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: sabinov norm_obec: sabinov norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'854212', '844349', '854298'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.35 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Sabinov
+get_geometry_of_a_geoname nazov_lokality: Sabinov
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Sabinov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Sabinov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Prešovský kraj, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((21.06654 49.107, 21.06704 49.1...  ...  Sabinov, okres Sabinov, Prešovský kraj, 083 01...
+1  POLYGON ((20.6522 49.15503, 20.65242 49.15486,...  ...           okres Sabinov, Prešovský kraj, Slovensko
+
+[2 rows x 11 columns]
+geoname_query: Sabinov, Prešovský kraj, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.09796 49.13276, 21.09807 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((21.12332 49.10451, 21.12385 49...
+2  CadastralZoning  ...  MULTIPOLYGON (((21.113 49.16977, 21.11324 49.1...
+
+[3 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((21.06654 49.107, 21.06704 49.1...  ...  Sabinov, okres Sabinov, Prešovský kraj, 083 01...
+1  POLYGON ((20.6522 49.15503, 20.65242 49.15486,...  ...           okres Sabinov, Prešovský kraj, Slovensko
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573960/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Zálesie', 'NATIONALSI': 'SKUEV0332', 'SITETITLE_': 'Čergov'}, {'parcel_label': 'Zálesie', 'NATIONALSI': 'SKUEV0332', 'SITETITLE_': 'Čergov'}], 'CHVU': [{'parcel_label': 'Sabinov', 'NATIONALSI': 'SKCHVU052', 'SITETITLE_': 'Čergov'}, {'parcel_label': 'Sabinov', 'NATIONALSI': 'SKCHVU052', 'SITETITLE_': 'Čergov'}, {'parcel_label': 'Zálesie', 'NATIONALSI': 'SKCHVU052', 'SITETITLE_': 'Čergov'}, {'parcel_label': 'Zálesie', 'NATIONALSI': 'SKCHVU052', 'SITETITLE_': 'Čergov'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Sabinov/573960/analysis.json...
+
+--- Časy spracovania dokumentu 573960 ---
+  download_and_text   :   2.84 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.37 s
+  gis_processing      :   2.40 s
+  CELKOVÝ ČAS         :  19.60 s
+------------------------------------------
+Dokument 573960 bol úspešne spracovaný.

@@ -1,0 +1,202 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-17",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "u s.r.o, Zelemi 19, 038 61 Martin",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Diviaky nad Nitricou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Mačov",
+        "parcely": []
+      },
+      {
+        "nazov": "Vrbany",
+        "parcely": []
+      },
+      {
+        "nazov": "Diviaky nad Nitricou",
+        "parcely": []
+      },
+      {
+        "nazov": "Diviacka Nová Ves",
+        "parcely": []
+      },
+      {
+        "nazov": "Nitrianske Sučany",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "VN vedenie č. 259",
+    "nazov_lokality_norm": "vedenie 259"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "odstránenie a okliesnenie stromov a iných porastov",
+    "odlesňovanie",
+    "vstup na cudzie pozemky"
+  ],
+  "rozsah_zasahu": "porast pod vedením č. 259 a v ochrannom pásme",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "stromy",
+    "iné porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11"
+      ]
+    }
+  ],
+  "zhrnutie": "Spoločnosť u s.r.o. oznamuje plánovaný výrub a okliesnenie stromov a porastov pod VN vedením č. 259 v k.ú. Mačov, Vrbany, Diviaky nad Nitricou, Diviacka Nová Ves a Nitrianske Sučany. Práce sú plánované na september až november 2026 (pravdepodobne preklep v roku) v ochrannom pásme vedenia z dôvodu bezpečnosti prevádzky.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviacka Nová Ves",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviacka Nová Ves",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviacka Nová Ves",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviacka Nová Ves",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Nitrianske Sučany",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Nitrianske Sučany",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NATIONALSI": "SKUEV0128",
+          "SITETITLE_": "Rokoš"
+        },
+        {
+          "parcel_label": "Diviacka Nová Ves",
+          "NATIONALSI": "SKUEV0128",
+          "SITETITLE_": "Rokoš"
+        },
+        {
+          "parcel_label": "Nitrianske Sučany",
+          "NATIONALSI": "SKUEV0128",
+          "SITETITLE_": "Rokoš"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NATIONALSI": "147",
+          "SITETITLE_": "NPR Rokoš"
+        },
+        {
+          "parcel_label": "Diviacka Nová Ves",
+          "NATIONALSI": "147",
+          "SITETITLE_": "NPR Rokoš"
+        },
+        {
+          "parcel_label": "Nitrianske Sučany",
+          "NATIONALSI": "1160",
+          "SITETITLE_": "PP Brloh"
+        },
+        {
+          "parcel_label": "Nitrianske Sučany",
+          "NATIONALSI": "147",
+          "SITETITLE_": "NPR Rokoš"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Diviacka Nová Ves",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Nitrianske Sučany",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

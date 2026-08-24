@@ -1,0 +1,107 @@
+[2026-08-24 18:31:26] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573944'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573944/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573944/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona '364/2004 Z. z. o vodách a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v nadväznosti na'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84' zákona '25/2025 Z. z. Stavebného zákona a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona 'vodného zákona v súčinnosti s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'stavebného zákona: „Golianovská – technická infraštruktúra a výstavba RD“ V rozsahu: Stavebné objekty: • SO 02 Splašková kanalizácia a kanalizačné prí'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, ako príslušný orgán štátnej vodnej správy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v nadväznosti na'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84' zákona '25/2025 Z. z. Stavebného zákona a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 1' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov a v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona 'upúšťa od miestneho zisťovania a ústneho pojednávania. Toto oznámenie má povahu verejnej vyhlášky podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona – líniová stavba, stavba s veľkým počtom účastníkom konania -Stavebníkovi PONS LEONUM s.r.o., Antolská 6, 851 07 Bratislava, IČO: 51'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573944/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0205255}
+LLM_tokens: {"input": 10895, "output": 5026, "total": 15921, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573944/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573944/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Nitra', 'katastralne_uzemia': [{'nazov': 'Veľké Janíkovce', 'parcely': [{'typ': 'E', 'cisla': ['537']}, {'typ': 'C', 'cisla': ['1064/658', '1064/659', '1064/660', '1064/661', '1064/662', '1064/663', '1064/664', '1064/665', '1064/666', '1064/667', '1064/668', '1064/669', '1064/670', '1064/671', '1064/672', '1064/673', '1064/674', '1064/675', '1064/676', '1064/677', '1064/678', '1064/679', '1064/680', '1064/681', '1064/960', '1064/961', '1064/62', '1064/980', '1064/975', '1064/956', '1064/967', '1064/977', '1064/979', '1064/981', '1064/957', '1064/964', '1064/972', '1064/970', '1064/958', '1064/955', '1064/959', '1064/963', '1064/965', '1064/968', '1064/976', '1064/978', '1064/974']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Golianovská – technická infraštruktúra a výstavba RD', 'nazov_lokality_norm': 'Golianovská, Nitra'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Nitra', 'katastralne_uzemia': [{'nazov': 'Veľké Janíkovce', 'parcely': [{'typ': 'E', 'cisla': ['537']}, {'typ': 'C', 'cisla': ['1064/658', '1064/659', '1064/660', '1064/661', '1064/662', '1064/663', '1064/664', '1064/665', '1064/666', '1064/667', '1064/668', '1064/669', '1064/670', '1064/671', '1064/672', '1064/673', '1064/674', '1064/675', '1064/676', '1064/677', '1064/678', '1064/679', '1064/680', '1064/681', '1064/960', '1064/961', '1064/62', '1064/980', '1064/975', '1064/956', '1064/967', '1064/977', '1064/979', '1064/981', '1064/957', '1064/964', '1064/972', '1064/970', '1064/958', '1064/955', '1064/959', '1064/963', '1064/965', '1064/968', '1064/976', '1064/978', '1064/974']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Golianovská – technická infraštruktúra a výstavba RD', 'nazov_lokality_norm': 'Golianovská, Nitra'}
+ku_name:Veľké Janíkovce obec:Nitra okres:Nitra kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nitra norm_obec: nitra norm_ku: velke janikovce
+_get_nationalCadastralZoningReferences() found_ids: {'868035'}
+nationalCadastralZoningReferences: ['868035']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.95 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.81 s
+nazov_lokality: Golianovská, Nitra
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+39  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+40  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+41  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+42  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+43  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+44  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+45  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+46  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+47  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+
+[48 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573944/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/573944/analysis.json...
+
+--- Časy spracovania dokumentu 573944 ---
+  download_and_text   :   1.47 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  21.39 s
+  gis_processing      :   7.00 s
+  CELKOVÝ ČAS         :  29.87 s
+------------------------------------------
+Dokument 573944 bol úspešne spracovaný.

@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": "OU-SB-OSZP-2026/000879-015",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-24",
+  "datum_zverejnenia": null,
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do 10 kalendárnych dní od doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Východoslovenská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Sabinov",
+    "obec": "Sabinov",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "ČOV Sabinov",
+    "nazov_lokality_norm": "Sabinov"
+  },
+  "typ_dokumentu": "Oznámenie o oboznámení účastníkov konania a dotknutých organizácií s námietkami",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "modernizácia a inovácia technologického zariadenia ČOV"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "vodný zákon",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "26",
+        "61",
+        "71",
+        "73"
+      ]
+    },
+    {
+      "nazov": "zákon o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "26"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o doručení námietok v rámci kolaudačného konania pre stavbu modernizácie a inovácie technologického zariadenia ČOV Sabinov. Účastníci konania a dotknuté organizácie majú možnosť vyjadriť sa k námietkam v lehote 10 dní. Dokument nešpecifikuje zásah do chráneného územia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Zálesie",
+          "NATIONALSI": "SKUEV0332",
+          "SITETITLE_": "Čergov"
+        },
+        {
+          "parcel_label": "Zálesie",
+          "NATIONALSI": "SKUEV0332",
+          "SITETITLE_": "Čergov"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Sabinov",
+          "NATIONALSI": "SKCHVU052",
+          "SITETITLE_": "Čergov"
+        },
+        {
+          "parcel_label": "Sabinov",
+          "NATIONALSI": "SKCHVU052",
+          "SITETITLE_": "Čergov"
+        },
+        {
+          "parcel_label": "Zálesie",
+          "NATIONALSI": "SKCHVU052",
+          "SITETITLE_": "Čergov"
+        },
+        {
+          "parcel_label": "Zálesie",
+          "NATIONALSI": "SKCHVU052",
+          "SITETITLE_": "Čergov"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}
