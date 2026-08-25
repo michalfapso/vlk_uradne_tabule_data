@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2026/008462-025",
+  "cislo_rozhodnutia": "OU-NM-OSZP-2026/008462-025",
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": "v lehote desať dní odo dňa doručenia výzvy"
+  },
+  "ziadatel_navrhovatel": "COOPBOX Eastern, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Nové Mesto nad Váhom",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o podanom odvolaní",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "Automatizovaný sklad plastových výrobkov"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/automatizovany-sklad-plastovych-vyrobkov",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "24",
+        "3",
+        "55",
+        "30"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "1",
+        "5"
+      ]
+    }
+  ],
+  "zhrnutie": "Informácia o podanom odvolaní proti záväznému stanovisku zo zisťovacieho konania pre projekt Automatizovaný sklad plastových výrobkov v Novom Meste nad Váhom. Odvolanie podal navrhovateľ COOPBOX Eastern, s.r.o. Dokument oznamuje procesné kroky a lehoty v rámci odvolacieho konania podľa zákona o EIA.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "SKUEV0379",
+          "SITETITLE_": "Kobela"
+        },
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "SKUEV0567",
+          "SITETITLE_": "Turecký vrch"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "19",
+          "SITETITLE_": "OP NPP Čachtická jaskyňa"
+        },
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "76",
+          "SITETITLE_": "PR Kobela"
+        },
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "179",
+          "SITETITLE_": "PR Turecký vrch"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

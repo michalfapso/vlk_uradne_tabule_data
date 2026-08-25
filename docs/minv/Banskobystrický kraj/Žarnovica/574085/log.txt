@@ -1,0 +1,110 @@
+[2026-08-25 18:27:59] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574085'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574085/orig.zip
+Converting document to text...
+text extracted via fitz
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0019003999999999998}
+LLM_tokens: {"input": 1366, "output": 4732, "total": 6098, "cached": null}
+Info: Received OCR text from LLM.
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574085/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2' zákona 'územnoplánovacej dokumentácii obce'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3' zákona 'územnoplánovacej dokumentácii obce'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '. na záverečnú úpravu, doplnenie a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 2' zákona '). Zároveň je vytváranie a udrţiavanie územného systému ekologickej stability  povaţované za verejný záujem. Podnikatelia a právnické osoby, ktorých č'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 3)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 4)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 4)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 5)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 6)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 7)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§  6 ods. 1' zákona ').    Zákon zároveň ukladá vlastníkom, správcom a nájomcom pozemkov povinnosť'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 95' zákona ').    Zákon zároveň ukladá vlastníkom, správcom a nájomcom pozemkov povinnosť'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 7 ods. 3)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie a o  zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53 písm. c)' zákona ', oznámenie strategického dokumentu:  PROGRAM HOSPODÁRSKEHO ROZVOJA A SOCIÁLNEHO ROZVOJA OBCE  HODRUŠA - HÁMRE na programové obdobie 2026 - 2031“'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 6' zákona 'o posudzovaní vplyvov najneskôr  do 15 dní odo dňa zverejnenia  oznámenia podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 5' zákona 'o posudzovaní vplyvov.    Adresa na predkladanie stanovísk:     Okresný úrad Žarnovica  Odbor starostlivosti o životné prostredie  Bystrická 53, 966 8'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 63 ods. 1' zákona 'je možné vykonať  počas celého procesu posudzovania vplyvov. Predmetom konzultácií sú najmä doplňujúce  informácie o strategickom dokumente, informáci'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574085/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0752595}
+LLM_tokens: {"input": 130287, "output": 3372, "total": 133659, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574085/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574085/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Žarnovica', 'obec': 'Hodruša-Hámre', 'katastralne_uzemia': [{'nazov': 'Banská Hodruša', 'parcely': []}, {'nazov': 'Dolné Hámre', 'parcely': []}, {'nazov': 'Kopanice', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Obec Hodruša - Hámre', 'nazov_lokality_norm': 'Hodruša-Hámre'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Žarnovica', 'obec': 'Hodruša-Hámre', 'katastralne_uzemia': [{'nazov': 'Banská Hodruša', 'parcely': []}, {'nazov': 'Dolné Hámre', 'parcely': []}, {'nazov': 'Kopanice', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Obec Hodruša - Hámre', 'nazov_lokality_norm': 'Hodruša-Hámre'}
+ku_name:Banská Hodruša obec:Hodruša-Hámre okres:Žarnovica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: zarnovica norm_obec: hodrusa-hamre norm_ku: banska hodrusa
+_get_nationalCadastralZoningReferences() found_ids: {'801461'}
+nationalCadastralZoningReferences: ['801461']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dolné Hámre obec:Hodruša-Hámre okres:Žarnovica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: zarnovica norm_obec: hodrusa-hamre norm_ku: dolne hamre
+_get_nationalCadastralZoningReferences() found_ids: {'811971'}
+nationalCadastralZoningReferences: ['811971']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Kopanice obec:Hodruša-Hámre okres:Žarnovica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: zarnovica norm_obec: hodrusa-hamre norm_ku: kopanice
+_get_nationalCadastralZoningReferences() found_ids: {'826189'}
+nationalCadastralZoningReferences: ['826189']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Hodruša-Hámre
+get_geometry_of_a_geoname nazov_lokality: Hodruša-Hámre
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hodruša-Hámre, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žarnovica, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.71839 48.46199, 18.719 48.46142, ...  ...  Hodruša-Hámre, okres Žarnovica, Banskobystrick...
+
+[1 rows x 11 columns]
+geoname_query: Hodruša-Hámre, Žarnovica, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.80875 48.48427, 18.80903 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.76948 48.48078, 18.77038 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.7799 48.4531, 18.78033 48.4...
+
+[3 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.71839 48.46199, 18.719 48.46142, ...  ...  Hodruša-Hámre, okres Žarnovica, Banskobystrick...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574085/gis.geojson...
+Intersections with protected areas...
+Found 6 intersecting parcels with '5st_konsUEV'.
+Found 5 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Dolné Hámre', 'NAZOV_UEV': 'Hodrušská hornatina', 'KOD_UEV': 'SKUEV0263'}, {'parcel_label': 'Dolné Hámre', 'NAZOV_UEV': 'Hodrušská hornatina', 'KOD_UEV': 'SKUEV0263'}, {'parcel_label': 'Dolné Hámre', 'NAZOV_UEV': 'Klokoč', 'KOD_UEV': 'SKUEV0264'}, {'parcel_label': 'Dolné Hámre', 'NAZOV_UEV': 'Klokoč', 'KOD_UEV': 'SKUEV0264'}, {'parcel_label': 'Dolné Hámre', 'NAZOV_UEV': 'Klokoč', 'KOD_UEV': 'SKUEV0264'}, {'parcel_label': 'Dolné Hámre', 'NAZOV_UEV': 'Klokoč', 'KOD_UEV': 'SKUEV0264'}], 'UEV': [{'parcel_label': 'Banská Hodruša', 'NATIONALSI': 'SKUEV0264', 'SITETITLE_': 'Klokoč'}, {'parcel_label': 'Banská Hodruša', 'NATIONALSI': 'SKUEV0265', 'SITETITLE_': 'Suť'}, {'parcel_label': 'Dolné Hámre', 'NATIONALSI': 'SKUEV0263', 'SITETITLE_': 'Hodrušská hornatina'}, {'parcel_label': 'Dolné Hámre', 'NATIONALSI': 'SKUEV0264', 'SITETITLE_': 'Klokoč'}, {'parcel_label': 'Kopanice', 'NATIONALSI': 'SKUEV0263', 'SITETITLE_': 'Hodrušská hornatina'}], 'MCHU': [{'parcel_label': 'Dolné Hámre', 'NATIONALSI': '1023', 'SITETITLE_': 'PR Kojatín'}, {'parcel_label': 'Dolné Hámre', 'NATIONALSI': '298', 'SITETITLE_': 'NPR Kašivárová'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574085/analysis.json...
+
+--- Časy spracovania dokumentu 574085 ---
+  download_and_text   :  23.52 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  16.46 s
+  gis_processing      :   2.03 s
+  CELKOVÝ ČAS         :  42.04 s
+------------------------------------------
+Dokument 574085 bol úspešne spracovaný.
