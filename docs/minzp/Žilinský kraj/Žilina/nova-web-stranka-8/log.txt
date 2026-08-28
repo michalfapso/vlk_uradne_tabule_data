@@ -1,0 +1,89 @@
+[2026-08-28 01:58:32] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/nova-web-stranka-8'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/nova-web-stranka-8/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/nova-web-stranka-8/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009385000000000001}
+LLM_tokens: {"input": 4070, "output": 2450, "total": 6520, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/nova-web-stranka-8/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/nova-web-stranka-8/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Liptovská Sielnica', 'katastralne_uzemia': [{'nazov': 'Liptovská Sielnica', 'parcely': [{'typ': 'C', 'cisla': ['2016/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Suchá dolina', 'nazov_lokality_norm': 'Suchá dolina'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Liptovská Sielnica', 'katastralne_uzemia': [{'nazov': 'Liptovská Sielnica', 'parcely': [{'typ': 'C', 'cisla': ['2016/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Suchá dolina', 'nazov_lokality_norm': 'Suchá dolina'}
+ku_name:Liptovská Sielnica obec:Liptovská Sielnica okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: liptovska sielnica norm_ku: liptovska sielnica
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: liptovska sielnica
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: liptovska sielnica
+_get_nationalCadastralZoningReferences() found_ids: {'832472'}
+nationalCadastralZoningReferences: ['832472']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.21 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['2016/1']}' v KU 'Liptovská Sielnica' sa nenašli dáta.
+Fallback to OBEC: Liptovská Sielnica
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: liptovska sielnica norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: liptovska sielnica norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'832472', '950092', '832499', '832481'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Suchá dolina
+get_geometry_of_a_geoname nazov_lokality: Suchá dolina
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** dolina, Liptovská Sielnica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** dolina, Žilina, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.57392 49.17276, 19.57408 49.17246...  ...  Suchá dolina, Liptovský Trnovec, okres Liptovs...
+
+[1 rows x 11 columns]
+geoname_query: Suchá dolina, Žilina, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.51714 49.15757, 19.51744 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.43077 49.1775, 19.43119 49....
+2  CadastralZoning  ...  MULTIPOLYGON (((19.48489 49.11152, 19.48579 49...
+3  CadastralZoning  ...  MULTIPOLYGON (((19.50869 49.11821, 19.5088 49....
+
+[4 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.57392 49.17276, 19.57408 49.17246...  ...  Suchá dolina, Liptovský Trnovec, okres Liptovs...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/nova-web-stranka-8/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/nova-web-stranka-8/analysis.json...
+
+--- Časy spracovania dokumentu nova-web-stranka-8 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   8.90 s
+  gis_processing      :   5.43 s
+  CELKOVÝ ČAS         :  14.88 s
+------------------------------------------
+Dokument nova-web-stranka-8 bol úspešne spracovaný.

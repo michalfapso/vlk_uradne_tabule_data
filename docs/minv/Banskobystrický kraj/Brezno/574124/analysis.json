@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-27",
+  "datum_zverejnenia": "2026-08-27",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Pohorelá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pohorelá",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2476/3",
+              "2476/4",
+              "2476/15",
+              "2476/1",
+              "2476/2",
+              "2479/1",
+              "2479/2",
+              "2479/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatých správnych konaniach",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zásah do biotopov"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "biotop európskeho významu",
+    "biotop národného významu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "6 ods. 2",
+        "82 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19 ods. 1"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o súhlas na zásah do biotopov v katastrálnom území Pohorelá. Konanie sa týka viacerých parciel typu C a biotopov národného alebo európskeho významu. Verejnosť môže potvrdiť záujem byť zúčastnenou osobou v lehote 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "2476/1",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,48 @@
+[2026-08-28 01:55:15] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/574147'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/574147/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/574147/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/574147/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012062000000000002}
+LLM_tokens: {"input": 5104, "output": 3170, "total": 8274, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/574147/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/574147/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'lesný celok Jesenské 2017 – 2026, JPRL č. 194A', 'nazov_lokality_norm': 'Jesenské'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'lesný celok Jesenské 2017 – 2026, JPRL č. 194A', 'nazov_lokality_norm': 'Jesenské'}
+No geometries were found.
+nazov_lokality: Jesenské
+get_geometry_of_a_geoname nazov_lokality: Jesenské
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Rimavská Sobota, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.02715 48.26654, 20.02722 48.26643...  ...  Jesenské, okres Rimavská Sobota, Banskobystric...
+
+[1 rows x 11 columns]
+geoname_query: Jesenské, Rimavská Sobota, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.02715 48.26654, 20.02722 48.26643...  ...  Jesenské, okres Rimavská Sobota, Banskobystric...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/574147/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Jesenské, okres Rimavská Sobota, Banskobystrický kraj, 980 02, Slovensko', 'NATIONALSI': 'SKUEV4003', 'SITETITLE_': 'Cifra'}], 'CHVU': [{'parcel_label': 'Jesenské, okres Rimavská Sobota, Banskobystrický kraj, 980 02, Slovensko', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/574147/analysis.json...
+
+--- Časy spracovania dokumentu 574147 ---
+  download_and_text   :   1.66 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.28 s
+  gis_processing      :   0.43 s
+  CELKOVÝ ČAS         :  14.38 s
+------------------------------------------
+Dokument 574147 bol úspešne spracovaný.

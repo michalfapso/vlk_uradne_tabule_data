@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": "15759/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-26",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Lesy Slovenskej republiky, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Topoľčianky",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Zubria zvernica Topoľčianky",
+    "nazov_lokality_norm": "Zubria zvernica, Topoľčianky"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "ZIVOCICHY_USMRCOVANIE"
+  ],
+  "typ_zasahu": [
+    "úmyselné usmrtenie 2 jedincov chráneného živočícha"
+  ],
+  "rozsah_zasahu": "2 jedince (zubor európsky)",
+  "typ_uzemia": [
+    "ochrana prírody"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "zubor európsky (Bison bonasus)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Štátny podnik Lesy SR žiada o výnimku na úmyselné usmrtenie 2 jedincov chráneného zubra európskeho v lokalite Zubria zvernica Topoľčianky. Verejnosť môže potvrdiť záujem o účasť v konaní do 5 pracovných dní od zverejnenia informácie. Konanie vedie Ministerstvo životného prostredia SR.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Topoľčianky",
+          "NATIONALSI": "SKUEV0133",
+          "SITETITLE_": "Hôrky"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Topoľčianky",
+          "NATIONALSI": "981",
+          "SITETITLE_": "CHA Topoľčiansky park"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}
