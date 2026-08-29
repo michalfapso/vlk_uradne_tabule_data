@@ -1,0 +1,73 @@
+[2026-08-29 01:23:16] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/574318'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/574318/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/574318/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods.  1' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení  niektorých zákonov a ako príslušný orgán štátnej sp'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/574318/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011380999999999999}
+LLM_tokens: {"input": 5980, "output": 2797, "total": 8777, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/574318/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/574318/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lazy pod Makytou', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'značené turistické trasy a účelové komunikácie v území CHKO Kysuce', 'nazov_lokality_norm': 'Kysuce'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lazy pod Makytou', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'značené turistické trasy a účelové komunikácie v území CHKO Kysuce', 'nazov_lokality_norm': 'Kysuce'}
+Fallback to OBEC: Lazy pod Makytou
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: lazy pod makytou norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'830917', '830950'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.21 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Kysuce
+get_geometry_of_a_geoname nazov_lokality: Kysuce
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Lazy pod Makytou, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Púchov, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((18.14441 49.22924, 18.14443 49...  ...  Chránená krajinná oblasť Kysuce, okres Čadca, ...
+
+[1 rows x 11 columns]
+geoname_query: Kysuce, Púchov, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.2124 49.22726, 18.2125 49.2...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.22248 49.2954, 18.22299 49....
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((18.14441 49.22924, 18.14443 49...  ...  Chránená krajinná oblasť Kysuce, okres Čadca, ...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/574318/gis.geojson...
+Intersections with protected areas...
+Found 14 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Lazy pod Makytou', 'NAZOV_UEV': 'Čertov', 'KOD_UEV': 'SKUEV0102'}, {'parcel_label': 'Lazy pod Makytou', 'NAZOV_UEV': 'Čertov', 'KOD_UEV': 'SKUEV0102'}, {'parcel_label': 'Lazy pod Makytou', 'NAZOV_UEV': 'Čertov', 'KOD_UEV': 'SKUEV0102'}, {'parcel_label': 'Lazy pod Makytou', 'NAZOV_UEV': 'Čertov', 'KOD_UEV': 'SKUEV0102'}, {'parcel_label': 'Lazy pod Makytou', 'NAZOV_UEV': 'Čertov', 'KOD_UEV': 'SKUEV0102'}, {'parcel_label': 'Lazy pod Makytou', 'NAZOV_UEV': 'Čertov', 'KOD_UEV': 'SKUEV0102'}, {'parcel_label': 'Lazy pod Makytou', 'NAZOV_UEV': 'Čertov', 'KOD_UEV': 'SKUEV0102'}, {'parcel_label': 'Lazy pod Makytou', 'NAZOV_UEV': 'Čertov', 'KOD_UEV': 'SKUEV0102'}, {'parcel_label': 'Lazy pod Makytou', 'NAZOV_UEV': 'Čertov', 'KOD_UEV': 'SKUEV0102'}, {'parcel_label': 'Lazy pod Makytou', 'NAZOV_UEV': 'Čertov', 'KOD_UEV': 'SKUEV0102'}, {'parcel_label': 'Lazy pod Makytou', 'NAZOV_UEV': 'Čertov', 'KOD_UEV': 'SKUEV0102'}, {'parcel_label': 'Lazy pod Makytou', 'NAZOV_UEV': 'Čertov', 'KOD_UEV': 'SKUEV0102'}, {'parcel_label': 'Lazy pod Makytou', 'NAZOV_UEV': 'Čertov', 'KOD_UEV': 'SKUEV0102'}, {'parcel_label': 'Lazy pod Makytou', 'NAZOV_UEV': 'Čertov', 'KOD_UEV': 'SKUEV0102'}], 'UEV': [{'parcel_label': 'Lazy pod Makytou', 'NATIONALSI': 'SKUEV0102', 'SITETITLE_': 'Čertov'}], 'MCHU': [{'parcel_label': 'Lazy pod Makytou', 'NATIONALSI': '829', 'SITETITLE_': 'PR Čertov'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/574318/analysis.json...
+
+--- Časy spracovania dokumentu 574318 ---
+  download_and_text   :   1.04 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.64 s
+  gis_processing      :   1.54 s
+  CELKOVÝ ČAS         :  13.22 s
+------------------------------------------
+Dokument 574318 bol úspešne spracovaný.

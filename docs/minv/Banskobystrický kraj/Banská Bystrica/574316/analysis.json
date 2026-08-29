@@ -1,0 +1,100 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2026/038114-MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "VELE, spol. s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Donovaly",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Donovaly",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "ochranné pásmo vedení 22kV: č. VN linke č. 209",
+    "nazov_lokality_norm": "VN linka 209"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o plánovanom výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "plánovaný výrub drevín"
+  ],
+  "rozsah_zasahu": "v ochrannom pásme vedení 22kV: č. VN linke č. 209",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "81"
+      ]
+    }
+  ],
+  "zhrnutie": "Spoločnosť VELE, spol. s. r. o. oznámila plánovaný výrub drevín v ochrannom pásme 22kV elektrického vedenia (VN linka č. 209) v katastrálnom území Donovaly. Výrub je naplánovaný na september 2026. Účasť verejnosti v konaní nie je v tomto prípade zo zákona možná.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Donovaly",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Donovaly",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Donovaly",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        },
+        {
+          "parcel_label": "Donovaly",
+          "NATIONALSI": "SKUEV0198",
+          "SITETITLE_": "Zvolen"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Donovaly",
+          "NATIONALSI": "1065",
+          "SITETITLE_": "PR Štrosy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Donovaly",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        },
+        {
+          "parcel_label": "Donovaly",
+          "NATIONALSI": "SKCHVU033",
+          "SITETITLE_": "Veľká Fatra"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

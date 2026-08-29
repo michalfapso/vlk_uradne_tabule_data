@@ -1,0 +1,82 @@
+[2026-08-29 01:18:42] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574352'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574352/orig.zip
+Converting document to text...
+text extracted via fitz
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0024272}
+LLM_tokens: {"input": 1366, "output": 6049, "total": 7415, "cached": null}
+Info: Received OCR text from LLM.
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574352/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2' zákona 'územnoplánovacej dokumentácii obce'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3' zákona 'územnoplánovacej dokumentácii obce'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '. na záverečnú úpravu, doplnenie a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§20 ods. 2' zákona 'stavebného zákona.  Následne bolo posúdené Okresným úradom Banská Bystrica a bolo schválené uznesením  zastupiteľstva v Ostrom Grúni 18/2025 zo dňa 18'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '3' zákona 'stavebného zákona.  Následne bolo posúdené Okresným úradom Banská Bystrica a bolo schválené uznesením  zastupiteľstva v Ostrom Grúni 18/2025 zo dňa 18'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '4' zákona 'stavebného zákona.  Následne bolo posúdené Okresným úradom Banská Bystrica a bolo schválené uznesením  zastupiteľstva v Ostrom Grúni 18/2025 zo dňa 18'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '251/2012 Z. z. o energetike a o zmene a doplnení niektorých zákonov),  vymedzené zvislými rovinami po oboch stranách vedenia vo vodorovnej  vzdialenos'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods.  1' zákona '24/2006 Z.z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení  niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53 písm. c)' zákona ', oznámenie strategického dokumentu: PROGRAM  HOSPODÁRSKEHO ROZVOJA A SOCIÁLNEHO ROZVOJA OBCE OSTRÝ GRÚŇ na  programové obdobie 2026 - 2031“'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 6' zákona 'najneskôr  do 15 dní odo dňa zverejnenia oznámenia podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 5' zákona '.    Adresa na predkladanie stanovísk:     Okresný úrad Žarnovica  Odbor starostlivosti o životné prostredie  Bystrická 53, 966 81 Žarnovica        Zá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 63 ods. 1' zákona 'je možné vykonať  počas celého procesu posudzovania vplyvov. Predmetom konzultácií sú najmä doplňujúce  informácie o strategickom dokumente, informáci'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0654155}
+LLM_tokens: {"input": 113815, "output": 2836, "total": 116651, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574352/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574352/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Žarnovica', 'obec': 'Ostrý Grúň', 'katastralne_uzemia': [{'nazov': 'Ostrý Grúň', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Obec Ostrý Grúň', 'nazov_lokality_norm': 'Ostrý Grúň'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Žarnovica', 'obec': 'Ostrý Grúň', 'katastralne_uzemia': [{'nazov': 'Ostrý Grúň', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Obec Ostrý Grúň', 'nazov_lokality_norm': 'Ostrý Grúň'}
+ku_name:Ostrý Grúň obec:Ostrý Grúň okres:Žarnovica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: zarnovica norm_obec: ostry grun norm_ku: ostry grun
+_get_nationalCadastralZoningReferences() found_ids: {'844624'}
+nationalCadastralZoningReferences: ['844624']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Ostrý Grúň
+get_geometry_of_a_geoname nazov_lokality: Ostrý Grúň
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Grúň, Ostrý Grúň, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.60003 48.57924, 18.60077 48.57915...  ...  Ostrý Grúň, okres Žarnovica, Banskobystrický k...
+
+[1 rows x 11 columns]
+geoname_query: Ostrý Grúň, Ostrý Grúň, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.66902 48.61461, 18.66908 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.60003 48.57924, 18.60077 48.57915...  ...  Ostrý Grúň, okres Žarnovica, Banskobystrický k...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574352/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': 'Ostrý Grúň', 'NATIONALSI': 'SKUEV0273', 'SITETITLE_': 'Vtáčnik'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žarnovica/574352/analysis.json...
+
+--- Časy spracovania dokumentu 574352 ---
+  download_and_text   :  26.58 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  13.35 s
+  gis_processing      :   0.97 s
+  CELKOVÝ ČAS         :  40.91 s
+------------------------------------------
+Dokument 574352 bol úspešne spracovaný.

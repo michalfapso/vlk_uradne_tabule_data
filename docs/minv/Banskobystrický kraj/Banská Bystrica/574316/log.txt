@@ -1,0 +1,63 @@
+[2026-08-29 01:17:58] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574316'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574316/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574316/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574316/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012366499999999999}
+LLM_tokens: {"input": 4801, "output": 3322, "total": 8123, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574316/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574316/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Donovaly', 'katastralne_uzemia': [{'nazov': 'Donovaly', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo vedení 22kV: č. VN linke č. 209', 'nazov_lokality_norm': 'VN linka 209'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Donovaly', 'katastralne_uzemia': [{'nazov': 'Donovaly', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo vedení 22kV: č. VN linke č. 209', 'nazov_lokality_norm': 'VN linka 209'}
+ku_name:Donovaly obec:Donovaly okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: donovaly norm_ku: donovaly
+_get_nationalCadastralZoningReferences() found_ids: {'812641'}
+nationalCadastralZoningReferences: ['812641']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.94 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VN linka 209
+get_geometry_of_a_geoname nazov_lokality: VN linka 209
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka 209, Donovaly, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka 209, Banská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka 209, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka 209, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.864393, 'lon': 19.2200764, 'formatted_address': 'Donovaly 209, 976 39 Donovaly, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 209, 976 39 Donovaly, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.24358 48.89517, 19.24384 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574316/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Donovaly', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Donovaly', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}], 'UEV': [{'parcel_label': 'Donovaly', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': 'Donovaly', 'NATIONALSI': 'SKUEV0198', 'SITETITLE_': 'Zvolen'}], 'MCHU': [{'parcel_label': 'Donovaly', 'NATIONALSI': '1065', 'SITETITLE_': 'PR Štrosy'}], 'CHVU': [{'parcel_label': 'Donovaly', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Donovaly', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574316/analysis.json...
+
+--- Časy spracovania dokumentu 574316 ---
+  download_and_text   :   1.26 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.82 s
+  gis_processing      :   3.70 s
+  CELKOVÝ ČAS         :  17.79 s
+------------------------------------------
+Dokument 574316 bol úspešne spracovaný.

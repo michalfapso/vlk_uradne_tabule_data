@@ -1,0 +1,69 @@
+[2026-08-29 01:24:59] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15834-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15834-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15834-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.007952}
+LLM_tokens: {"input": 4240, "output": 1944, "total": 6184, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Expecting ',' delimiter: line 45 column 1 (char 1414)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0107963}
+LLM_tokens: {"input": 4240, "output": 3193, "total": 7433, "cached": 2006}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15834-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15834-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': None, 'obec': 'Bodíky', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'v blízkosti rodinného domu žiadateľa v obci Bodíky', 'nazov_lokality_norm': 'Bodíky'}
+data: {'kraj': None, 'okres': None, 'obec': 'Bodíky', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'v blízkosti rodinného domu žiadateľa v obci Bodíky', 'nazov_lokality_norm': 'Bodíky'}
+Fallback to OBEC: Bodíky
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: bodiky norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'818330'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.37 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Bodíky
+get_geometry_of_a_geoname nazov_lokality: Bodíky
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bodíky, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.4129 47.93403, 17.41325 47.93378,...  ...  Bodíky, okres Dunajská Streda, Trnavský kraj, ...
+
+[1 rows x 11 columns]
+geoname_query: Bodíky, Bodíky, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.42978 47.94969, 17.43052 47...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.4129 47.93403, 17.41325 47.93378,...  ...  Bodíky, okres Dunajská Streda, Trnavský kraj, ...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15834-2026-6-1/gis.geojson...
+Intersections with protected areas...
+Found 15 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}, {'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}, {'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}, {'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}, {'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}, {'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}, {'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}, {'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}, {'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}, {'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}, {'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}, {'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}, {'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}, {'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}, {'parcel_label': 'Bodíky', 'NAZOV_UEV': 'Dunajské luhy', 'KOD_UEV': 'SKUEV0090'}], 'UEV': [{'parcel_label': 'Bodíky', 'NATIONALSI': 'SKUEV0090', 'SITETITLE_': 'Dunajské luhy'}, {'parcel_label': 'Bodíky', 'NATIONALSI': 'SKUEV0093', 'SITETITLE_': 'Severný Bodícky kanál'}], 'MCHU': [{'parcel_label': 'Bodíky', 'NATIONALSI': '1145', 'SITETITLE_': 'PR Foráš'}, {'parcel_label': 'Bodíky', 'NATIONALSI': '82', 'SITETITLE_': 'PP Kráľovská lúka'}], 'CHVU': [{'parcel_label': 'Bodíky', 'NATIONALSI': 'SKCHVU007', 'SITETITLE_': 'Dunajské luhy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15834-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 15834-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  22.01 s
+  gis_processing      :   1.08 s
+  CELKOVÝ ČAS         :  23.63 s
+------------------------------------------
+Dokument 15834-2026-6-1 bol úspešne spracovaný.
