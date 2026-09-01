@@ -1,0 +1,75 @@
+[2026-09-01 20:28:46] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/574492'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/574492/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/574492/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58 písm. c)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a podľa ustanovenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods.3' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov a ako špeciálny stavebný úrad podľa ustanovenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písm. e)' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov a ako špeciálny stavebný úrad podľa ustanovenia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'vodného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 3' zákona 'vodného zákona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. 1' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v nadväznosti na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v nadväznosti na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 81 ods. 3' zákona 'stavebného zákona v nadväznosti na ustanovenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 1' zákona 'vodného zákona). Okresný úrad Bardejov, OSŽP oznámil začatie konania listom č. OU-BJ-OSZP-2026/006102-003 zo dňa 15.07.2026 a pozval všetkých známych'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80 ods. 2' zákona 'stavebného zákona). Súčasne boli účastníci konania oboznámení s možnosťou nahliadnuť do podkladov rozhodnutia v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 2' zákona 'vodného zákona vyplýva, že, žiadosť o vydanie rozhodnutia sa musí doložiť prílohami obsahujúcimi údaje a podklady, ktoré vyplývajú z jednotlivých usta'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 81b' zákona 'stavebného zákona. Podľa'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/574492/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011890000000000001}
+LLM_tokens: {"input": 8378, "output": 2567, "total": 10945, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/574492/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/574492/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Lopúchov', 'katastralne_uzemia': [{'nazov': 'Lopúchov', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Lopúchov - vodovod II. etapa', 'nazov_lokality_norm': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Lopúchov', 'katastralne_uzemia': [{'nazov': 'Lopúchov', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Lopúchov - vodovod II. etapa', 'nazov_lokality_norm': None}
+ku_name:Lopúchov obec:Lopúchov okres:Bardejov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: lopuchov norm_ku: lopuchov
+_get_nationalCadastralZoningReferences() found_ids: {'833118'}
+nationalCadastralZoningReferences: ['833118']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Lopúchov - vodovod II. etapa
+get_geometry_of_a_geoname nazov_lokality: Lopúchov - vodovod II. etapa
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** - vodovod II. etapa, Lopúchov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** - vodovod II. etapa, Bardejov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** - vodovod II. etapa, Prešovský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** - vodovod II. etapa, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.1390646, 'lon': 21.3705331, 'formatted_address': '086 41 Lopúchov, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 41 Lopúchov, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.3766 49.14838, 21.37752 49....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/574492/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/574492/analysis.json...
+
+--- Časy spracovania dokumentu 574492 ---
+  download_and_text   :   2.21 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.59 s
+  gis_processing      :   2.76 s
+  CELKOVÝ ČAS         :  17.56 s
+------------------------------------------
+Dokument 574492 bol úspešne spracovaný.

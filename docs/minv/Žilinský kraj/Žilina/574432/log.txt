@@ -1,0 +1,89 @@
+[2026-09-01 20:36:41] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574432'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574432/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574432/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona verejnou vyhláškou. Výrok Okresný úrad Žilina, odbor starostlivosti o životné prostredie, oddelenie ochrany prírody a vybraných zlož'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2' zákona '180/2013 Z.z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej starostlivosti o životné prost'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4' zákona '180/2013 Z.z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej starostlivosti o životné prost'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako špeciál'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'číslo 50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'číslo 364/2004 Z.z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona 'číslo 364/2004 Z.z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67' zákona 'stavebného zákona p r e d l ž u j e platnosť stavebného povolenia vydaného rozhodnutím Okresným úradom Žilina, odbor starostlivosti o životné prostred'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69' zákona 'stavebného zákona p r e d l ž u j e platnosť stavebného povolenia vydaného rozhodnutím Okresným úradom Žilina, odbor starostlivosti o životné prostred'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66 ods. 2' zákona 'stavebného zákona určuje lehotu na dokončenie stavby v termíne: do 31.12.2030. Ostatné podmienky rozhodnutia sp. číslo spis. č. OU-ZA-OSZP3-2023/03759'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. a)' zákona 'bod 1. Sadzobníka správnych poplatkov bol zaplatený správny poplatok vo výške vo výške 100,00.- € uhradený bezhotovostne – prevodom na účet. Poučenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574432/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014008}
+LLM_tokens: {"input": 8516, "output": 3250, "total": 11766, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574432/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574432/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Turie', 'katastralne_uzemia': [{'nazov': 'Rosina', 'parcely': []}, {'nazov': 'Turie', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodárenský zdroj Turie', 'nazov_lokality_norm': 'Turie'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Turie', 'katastralne_uzemia': [{'nazov': 'Rosina', 'parcely': []}, {'nazov': 'Turie', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodárenský zdroj Turie', 'nazov_lokality_norm': 'Turie'}
+ku_name:Rosina obec:Turie okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: turie norm_ku: rosina
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: rosina
+_get_nationalCadastralZoningReferences() found_ids: {'852767'}
+nationalCadastralZoningReferences: ['852767']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.42 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Turie obec:Turie okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: turie norm_ku: turie
+_get_nationalCadastralZoningReferences() found_ids: {'865982'}
+nationalCadastralZoningReferences: ['865982']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Turie
+get_geometry_of_a_geoname nazov_lokality: Turie
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Turie, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.71929 49.13976, 18.71932 49.13975...  ...  Turie, okres Žilina, Žilinský kraj, 013 12, Sl...
+
+[1 rows x 11 columns]
+geoname_query: Turie, Turie, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.77215 49.20084, 18.77219 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.75822 49.17145, 18.75837 49...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.71929 49.13976, 18.71932 49.13975...  ...  Turie, okres Žilina, Žilinský kraj, 013 12, Sl...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574432/gis.geojson...
+Intersections with protected areas...
+Found 11 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Turie', 'NAZOV_UEV': 'Kozol', 'KOD_UEV': 'SKUEV0239'}, {'parcel_label': 'Turie', 'NAZOV_UEV': 'Kozol', 'KOD_UEV': 'SKUEV0239'}, {'parcel_label': 'Turie', 'NAZOV_UEV': 'Kozol', 'KOD_UEV': 'SKUEV0239'}, {'parcel_label': 'Turie', 'NAZOV_UEV': 'Kozol', 'KOD_UEV': 'SKUEV0239'}, {'parcel_label': 'Turie', 'NAZOV_UEV': 'Kozol', 'KOD_UEV': 'SKUEV0239'}, {'parcel_label': 'Turie', 'NAZOV_UEV': 'Kozol', 'KOD_UEV': 'SKUEV0239'}, {'parcel_label': 'Turie', 'NAZOV_UEV': 'Lúčanská Fatra', 'KOD_UEV': 'SKUEV0930'}, {'parcel_label': 'Turie', 'NAZOV_UEV': 'Lúčanská Fatra', 'KOD_UEV': 'SKUEV0930'}, {'parcel_label': 'Turie', 'NAZOV_UEV': 'Lúčanská Fatra', 'KOD_UEV': 'SKUEV0930'}, {'parcel_label': 'Turie', 'NAZOV_UEV': 'Lúčanská Fatra', 'KOD_UEV': 'SKUEV0930'}, {'parcel_label': 'Turie', 'NAZOV_UEV': 'Lúčanská Fatra', 'KOD_UEV': 'SKUEV0930'}], 'UEV': [{'parcel_label': 'Turie', 'NATIONALSI': 'SKUEV0930', 'SITETITLE_': 'Lúčanská Fatra'}, {'parcel_label': 'Turie', 'NATIONALSI': 'SKUEV0239', 'SITETITLE_': 'Kozol'}], 'MCHU': [{'parcel_label': 'Turie', 'NATIONALSI': '835', 'SITETITLE_': 'NPR Kozol'}, {'parcel_label': 'Turie', 'NATIONALSI': '1334', 'SITETITLE_': 'PR Pralesy Slovenska-Skalnatá'}, {'parcel_label': 'Turie', 'NATIONALSI': '460', 'SITETITLE_': 'PP Turská skala'}], 'CHVU': [{'parcel_label': 'Turie', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574432/analysis.json...
+
+--- Časy spracovania dokumentu 574432 ---
+  download_and_text   :   1.38 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.28 s
+  gis_processing      :   1.38 s
+  CELKOVÝ ČAS         :  17.04 s
+------------------------------------------
+Dokument 574432 bol úspešne spracovaný.

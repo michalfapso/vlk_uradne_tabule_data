@@ -1,0 +1,57 @@
+[2026-09-01 20:19:59] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/574505'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/574505/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/574505/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/574505/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014472}
+LLM_tokens: {"input": 5484, "output": 3910, "total": 9394, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/574505/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/574505/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'GPS 48.863844, 20.134482', 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'GPS 48.863844, 20.134482', 'nazov_lokality_norm': None}
+No geometries were found.
+nazov_lokality: GPS 48.863844, 20.134482
+get_geometry_of_a_geoname nazov_lokality: GPS 48.863844, 20.134482
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 48.863844, 20.134482, Brezno, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 48.863844, 20.134482, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 48.863844, 20.134482, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.8063034, 'lon': 19.6442479, 'formatted_address': 'Brezno, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.59344 48.78721, 19.59467 48.78639...  ...  Brezno, okres Brezno, Banskobystrický kraj, Sl...
+
+[1 rows x 11 columns]
+geoname_query: Brezno, Slovakia
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.59344 48.78721, 19.59467 48.78639...  ...  Brezno, okres Brezno, Banskobystrický kraj, Sl...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/574505/gis.geojson...
+Intersections with protected areas...
+Found 10 intersecting parcels with '5st_konsUEV'.
+Found 4 intersecting parcels with 'UEV'.
+Found 6 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NAZOV_UEV': 'Rohoznianska jelšina', 'KOD_UEV': 'SKUEV0695'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}], 'UEV': [{'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NATIONALSI': 'SKUEV0695', 'SITETITLE_': 'Rohoznianska jelšina'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NATIONALSI': 'SKUEV0153', 'SITETITLE_': 'Horné lazy'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}], 'MCHU': [{'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NATIONALSI': '403', 'SITETITLE_': 'PR Rohoznianska jelšina'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NATIONALSI': '260', 'SITETITLE_': 'PR Horné lazy'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NATIONALSI': '225', 'SITETITLE_': 'PR Breznianska skalka'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NATIONALSI': '1287', 'SITETITLE_': 'PR Pralesy Slovenska-Bystrá dolina'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NATIONALSI': '1359', 'SITETITLE_': 'NPP Jaskyňa mŕtvych netopierov'}, {'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NATIONALSI': '246', 'SITETITLE_': 'NPR Ďumbier'}], 'CHVU': [{'parcel_label': 'Brezno, okres Brezno, Banskobystrický kraj, Slovensko', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/574505/analysis.json...
+
+--- Časy spracovania dokumentu 574505 ---
+  download_and_text   :   1.28 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  14.26 s
+  gis_processing      :   2.00 s
+  CELKOVÝ ČAS         :  17.54 s
+------------------------------------------
+Dokument 574505 bol úspešne spracovaný.

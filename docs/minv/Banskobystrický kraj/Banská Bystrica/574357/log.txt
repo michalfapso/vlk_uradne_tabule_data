@@ -1,0 +1,54 @@
+[2026-09-01 20:19:39] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574357'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574357/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0002592}
+LLM_tokens: {"input": 334, "output": 629, "total": 963, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574357/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 38 ods. 2' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov  Názov Zariadenie na zb'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012329}
+LLM_tokens: {"input": 4498, "output": 3360, "total": 7858, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574357/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574357/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Banská Bystrica', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Zvolenská cesta 14A', 'nazov_lokality_norm': 'Zvolenská cesta, Banská Bystrica'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Banská Bystrica', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Zvolenská cesta 14A', 'nazov_lokality_norm': 'Zvolenská cesta, Banská Bystrica'}
+Fallback to OBEC: Banská Bystrica
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: banska bystrica norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (9), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Zvolenská cesta, Banská Bystrica
+get_geometry_of_a_geoname nazov_lokality: Zvolenská cesta, Banská Bystrica
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** cesta, Banská Bystrica, Banská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** cesta, Banská Bystrica, Banská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** cesta, Banská Bystrica, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** cesta, Banská Bystrica, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.7084755, 'lon': 19.1379725, 'formatted_address': 'Zvolenská cesta, 974 05 Banská Bystrica, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** cesta, 974 05 Banská Bystrica, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 574357 ---
+  download_and_text   :   4.40 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.85 s
+  gis_processing      :   2.49 s
+  CELKOVÝ ČAS         :  19.74 s
+------------------------------------------
+Dokument 574357 bol úspešne spracovaný.

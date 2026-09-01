@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "OU-IL-OSZP-2026/000947",
+  "cislo_rozhodnutia": "OU-IL-OSZP-2026/000947-006",
+  "datum_dokumentu": "2026-09-01",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Ing. Iveta Vácslavová",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Ilava",
+    "obec": "Dubnica nad Váhom",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "historické centrum Dubnice nad Váhom",
+    "nazov_lokality_norm": "Dubnica nad Váhom"
+  },
+  "typ_dokumentu": "Záznam o odložení petície",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zachovanie pôvodného rázu historického centra"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o petičnom práve",
+      "cislo": "85/1990 Zb.",
+      "paragrafy": [
+        "5",
+        "4a",
+        "6a"
+      ]
+    }
+  ],
+  "zhrnutie": "Okresný úrad Ilava odložil petíciu za zachovanie pôvodného rázu historického centra Dubnice nad Váhom. Dôvodom bolo neodstránenie formálnych nedostatkov podania, konkrétne chýbajúce náležitosti podpisových hárkov a nepredloženie originálu petície v stanovenej lehote.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Dubnica nad Váhom",
+          "NAZOV_UEV": "Omšenská Baba",
+          "KOD_UEV": "SKUEV0811"
+        },
+        {
+          "parcel_label": "Dubnica nad Váhom",
+          "NAZOV_UEV": "Omšenská Baba",
+          "KOD_UEV": "SKUEV0811"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Dubnica nad Váhom",
+          "NATIONALSI": "SKUEV0811",
+          "SITETITLE_": "Omšenská Baba"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Dubnica nad Váhom",
+          "NATIONALSI": "SKCHVU006",
+          "SITETITLE_": "Dubnické štrkovisko"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

@@ -1,0 +1,46 @@
+[2026-09-01 20:38:19] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-076873-buk'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-076873-buk/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-076873-buk/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0094085}
+LLM_tokens: {"input": 4465, "output": 2392, "total": 6857, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-076873-buk/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-076873-buk/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Kláštorské lúky', 'nazov_lokality_norm': 'Kláštorské lúky'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Kláštorské lúky', 'nazov_lokality_norm': 'Kláštorské lúky'}
+No geometries were found.
+nazov_lokality: Kláštorské lúky
+get_geometry_of_a_geoname nazov_lokality: Kláštorské lúky
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** lúky, Žilina, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((18.85617 48.95541, 18.85778 48...  ...  Kláštorské lúky, Kláštor pod Znievom, okres Ma...
+
+[1 rows x 11 columns]
+geoname_query: Kláštorské lúky, Žilina, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((18.85617 48.95541, 18.85778 48...  ...  Kláštorské lúky, Kláštor pod Znievom, okres Ma...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-076873-buk/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Kláštorské lúky, Kláštor pod Znievom, okres Martin, Žilinský kraj, Slovensko', 'NATIONALSI': 'SKUEV0382', 'SITETITLE_': 'Turiec a Blatnický potok'}], 'MCHU': [{'parcel_label': 'Kláštorské lúky, Kláštor pod Znievom, okres Martin, Žilinský kraj, Slovensko', 'NATIONALSI': '458', 'SITETITLE_': 'OP NPR Turiec'}, {'parcel_label': 'Kláštorské lúky, Kláštor pod Znievom, okres Martin, Žilinský kraj, Slovensko', 'NATIONALSI': '458', 'SITETITLE_': 'NPR Turiec'}, {'parcel_label': 'Kláštorské lúky, Kláštor pod Znievom, okres Martin, Žilinský kraj, Slovensko', 'NATIONALSI': '305', 'SITETITLE_': 'NPR Kláštorské lúky'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-076873-buk/analysis.json...
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-076873-buk ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.97 s
+  gis_processing      :   0.65 s
+  CELKOVÝ ČAS         :  12.26 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-076873-buk bol úspešne spracovaný.

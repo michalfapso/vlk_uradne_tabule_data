@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "place_id": 186601982, "osm_type": "way", "osm_id": 61397227, "place_rank": 30, "category": "building", "type": "yes", "importance": 7.7273975738109671e-05, "addresstype": "building", "name": "", "display_name": "1256/7, Oravská, Kalmárka, Nivy, Bratislava-Ružinov, okres Bratislava II, Bratislava, Borinka, Bratislavský kraj, 821 09, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 17.1350563, 48.1478941 ], [ 17.1350659, 48.1477856 ], [ 17.1353725, 48.1477957 ], [ 17.1353618, 48.1479396 ], [ 17.1352566, 48.147937 ], [ 17.135257, 48.1479292 ], [ 17.1352394, 48.147928 ], [ 17.1352389, 48.147937 ], [ 17.1352095, 48.1479362 ], [ 17.1352009, 48.1479367 ], [ 17.1352044, 48.1478974 ], [ 17.1350563, 48.1478941 ] ] ] } }
+]
+}

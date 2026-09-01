@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": "2026/04/278",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-18",
+  "datum_zverejnenia": "2026-08-21",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "LESY Slovenskej republiky štátny podnik organizačná zložka OZ Považie",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Opatová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4081"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "DVT Opatovský p.",
+    "nazov_lokality_norm": "Opatovský"
+  },
+  "typ_dokumentu": "Oznámenie výrubu drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub dreviny",
+    "výrub jelša lepkavá",
+    "výrub vrba"
+  ],
+  "rozsah_zasahu": "4 ks jelša lepkavá (obvod 122, 160, 168 cm) a 1 ks vrba (obvod 68 cm)",
+  "typ_uzemia": [
+    "ochranné pásmo DVT"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "jelša lepkavá",
+    "vrba"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o vodách",
+      "cislo": "264/2004",
+      "paragrafy": [
+        "§ 49 ods. 1 písm. b"
+      ]
+    },
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "§ 47 ods. 7",
+        "§ 47 ods. 4 písm. c",
+        "§ 47 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie výrubu 4 jelší a 1 vŕby v ochrannom pásme drobného vodného toku Opatovský p. v katastrálnom území Opatová. Výrub sa realizuje v intraviláne obce z dôvodu vyschnutia drevín, ktoré predstavujú bezpečnostné riziko. Lokalita nespadá do CHKO Biele Karpaty.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

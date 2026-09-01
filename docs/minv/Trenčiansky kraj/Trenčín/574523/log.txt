@@ -1,0 +1,65 @@
+[2026-09-01 20:31:17] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574523'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574523/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 3 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0004108}
+LLM_tokens: {"input": 850, "output": 1008, "total": 1858, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574523/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 49' zákona 'o vodách č. 264/2004 Z.z.  LESY Slovenskej republiky státny podnik organizacna zložka OZ ,,Dvaie- OZ Povazie" ako spracovad drobného vodného toku ,,da'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odst. 1' zákona 'o vodách č. 264/2004 Z.z.  LESY Slovenskej republiky státny podnik organizacna zložka OZ ,,Dvaie- OZ Povazie" ako spracovad drobného vodného toku ,,da'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. b' zákona 'o vodách č. 264/2004 Z.z.  LESY Slovenskej republiky státny podnik organizacna zložka OZ ,,Dvaie- OZ Povazie" ako spracovad drobného vodného toku ,,da'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47' zákona 'c. 543/2002 Z.z. o ochrane prírody a krajiny, oznamuje výrub dreviny - 4 ks jelša lepkavá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odst. 7' zákona 'c. 543/2002 Z.z. o ochrane prírody a krajiny, oznamuje výrub dreviny - 4 ks jelša lepkavá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47' zákona '- citovaného zákona.  S pozdravom  Ing. Stanislav Paučin  riaditeľ organizačnej zložky OZ Povazie  _Prílepky:_ OUŽP Trenčín - štátna vodná správa Lesn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 3' zákona '- citovaného zákona.  S pozdravom  Ing. Stanislav Paučin  riaditeľ organizačnej zložky OZ Povazie  _Prílepky:_ OUŽP Trenčín - štátna vodná správa Lesn'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574523/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0136305}
+LLM_tokens: {"input": 5889, "output": 3562, "total": 9451, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 71 column 1 (char 1790)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01430385}
+LLM_tokens: {"input": 5889, "output": 4089, "total": 9978, "cached": 2017}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 70 column 1 (char 1778)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010457850000000001}
+LLM_tokens: {"input": 5889, "output": 2807, "total": 8696, "cached": 2017}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574523/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574523/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Trenčín', 'katastralne_uzemia': [{'nazov': 'Opatová', 'parcely': [{'typ': 'C', 'cisla': ['4081']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'DVT Opatovský p.', 'nazov_lokality_norm': 'Opatovský'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Trenčín', 'katastralne_uzemia': [{'nazov': 'Opatová', 'parcely': [{'typ': 'C', 'cisla': ['4081']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'DVT Opatovský p.', 'nazov_lokality_norm': 'Opatovský'}
+ku_name:Opatová obec:Trenčín okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: trencin norm_ku: opatova
+_get_nationalCadastralZoningReferences() found_ids: {'843865'}
+nationalCadastralZoningReferences: ['843865']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.15 s
+nazov_lokality: Opatovský
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574523/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574523/analysis.json...
+
+--- Časy spracovania dokumentu 574523 ---
+  download_and_text   :   8.47 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  47.03 s
+  gis_processing      :   3.30 s
+  CELKOVÝ ČAS         :  58.80 s
+------------------------------------------
+Dokument 574523 bol úspešne spracovaný.

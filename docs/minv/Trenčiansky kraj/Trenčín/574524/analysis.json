@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": "0098625/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-18",
+  "datum_zverejnenia": "2026-08-21",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "LESY Slovenskej republiky, štátny podnik, organizačná zložka OZ Považie",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Ľuborča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ľuborča",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "641/7"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "drobný vodný tok Ľuborča",
+    "nazov_lokality_norm": "Ľuborča"
+  },
+  "typ_dokumentu": "Oznámenie výrubu drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub krov - vŕba",
+    "odstránenie náletových drevín"
+  ],
+  "rozsah_zasahu": "výrub krov - vŕba o ploche cca 500 m²",
+  "typ_uzemia": [
+    "CHKO Biele Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vŕba"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o vodách",
+      "cislo": "364/2004 Z.z.",
+      "paragrafy": [
+        "49"
+      ]
+    },
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie štátneho podniku LESY SR o plánovanom výrube vŕbových krov na ploche cca 500 m2 v k.ú. Ľuborča. Výrub je plánovaný v intraviláne na parcele C-KN 641/7 z dôvodu čistenia prietočného profilu vodného toku v rámci CHKO Biele Karpaty.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,39 @@
+[2026-09-01 20:27:19] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/574462'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/574462/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.00034480000000000003}
+LLM_tokens: {"input": 334, "output": 843, "total": 1177, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/574462/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/574462/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012981000000000001}
+LLM_tokens: {"input": 5496, "output": 3411, "total": 8907, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/574462/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/574462/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Spišská Nová Ves', 'obec': None, 'katastralne_uzemia': [{'nazov': None, 'parcely': [{'typ': 'C', 'cisla': ['7730/188']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Košický kraj', 'okres': 'Spišská Nová Ves', 'obec': None, 'katastralne_uzemia': [{'nazov': None, 'parcely': [{'typ': 'C', 'cisla': ['7730/188']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:None obec:None okres:Spišská Nová Ves kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (38), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 574462 ---
+  download_and_text   :   4.94 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  15.16 s
+  gis_processing      :   0.00 s
+  CELKOVÝ ČAS         :  20.11 s
+------------------------------------------
+Dokument 574462 bol úspešne spracovaný.

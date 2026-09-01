@@ -1,0 +1,76 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2026/001022",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-31",
+  "datum_zverejnenia": "2026-08-31",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "päť pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba (vlastník predmetného pozemku)",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Detva",
+    "obec": "Korytárky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Korytárky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2712"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1-2713"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub krovín"
+  ],
+  "rozsah_zasahu": "kroviny rastúce na pozemku parc. KN-C č. 2712",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "47 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci vydania súhlasu na výrub krovín v katastrálnom území Korytárky. Žiadosť podala fyzická osoba ako vlastník pozemku. Z dokumentu nie je zrejmé, či sa pozemok nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "2712",
+          "NATIONALSI": "SKCHVU022",
+          "SITETITLE_": "Poľana"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,83 @@
+[2026-09-01 20:29:43] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574525'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574525/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 3 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0006355999999999999}
+LLM_tokens: {"input": 850, "output": 1570, "total": 2420, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574525/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 4' zákona '85/1990 Zb. o petičnom práve'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'petičného zákona dňa 22. 05. 2026 doručená listom záznam č. 0004953/2026 „petícia za zachovanie pôvodného rázu historického centra Dubnice nad Váhom“'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4a ods. 5' zákona 'petičného zákona sa osobám podporujúcim petíciu musí umožniť, aby sa s obsahom petície riadne oboznámili pred jej podpísaním. Ak podpisové hárky neobs'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4a ods. 6' zákona 'petičného zákona ak petícia obsahuje podpisové hárky, musí osoba podávajúca petíciu uviesť pod jej textom počet priložených podpisových hárkov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona 'petičného zákona petícia musí byť písomná. Nie je možné predložiť ju v kópii, musí to byť originál. Nakoľko predložená petícia vykazovala uvedené nedo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 4' zákona 'petičného zákona vyzval zástupcu petičného výboru listom č. OU-IL-OSZP-2026/000947-002 zo dňa 29. 05. 2026, aby'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6a ods. 1' zákona 'petičného zákona vyzval zástupcu petičného výboru listom č. OU-IL-OSZP-2026/000947-005 zo dňa 07. 07. 2026 na  petíciu odkladá.  Toto odloženie znamen'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010891999999999999}
+LLM_tokens: {"input": 5434, "output": 2725, "total": 8159, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574525/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574525/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Dubnica nad Váhom', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'historické centrum Dubnice nad Váhom', 'nazov_lokality_norm': 'Dubnica nad Váhom'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Dubnica nad Váhom', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'historické centrum Dubnice nad Váhom', 'nazov_lokality_norm': 'Dubnica nad Váhom'}
+Fallback to OBEC: Dubnica nad Váhom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: dubnica nad vahom norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'813141', '849430'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Dubnica nad Váhom
+get_geometry_of_a_geoname nazov_lokality: Dubnica nad Váhom
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** nad Váhom, Dubnica nad Váhom, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** nad Váhom, Ilava, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.13326 48.95835, 18.1336 48.95754,...  ...  Dubnica nad Váhom, okres Ilava, Trenčiansky kr...
+
+[1 rows x 11 columns]
+geoname_query: Dubnica nad Váhom, Ilava, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.17476 48.9844, 18.17551 48....
+1  CadastralZoning  ...  MULTIPOLYGON (((18.19438 48.99342, 18.19474 48...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.13326 48.95835, 18.1336 48.95754,...  ...  Dubnica nad Váhom, okres Ilava, Trenčiansky kr...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574525/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Dubnica nad Váhom', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}, {'parcel_label': 'Dubnica nad Váhom', 'NAZOV_UEV': 'Omšenská Baba', 'KOD_UEV': 'SKUEV0811'}], 'UEV': [{'parcel_label': 'Dubnica nad Váhom', 'NATIONALSI': 'SKUEV0811', 'SITETITLE_': 'Omšenská Baba'}], 'CHVU': [{'parcel_label': 'Dubnica nad Váhom', 'NATIONALSI': 'SKCHVU006', 'SITETITLE_': 'Dubnické štrkovisko'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574525/analysis.json...
+
+--- Časy spracovania dokumentu 574525 ---
+  download_and_text   :   7.69 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.71 s
+  gis_processing      :   2.06 s
+  CELKOVÝ ČAS         :  21.47 s
+------------------------------------------
+Dokument 574525 bol úspešne spracovaný.

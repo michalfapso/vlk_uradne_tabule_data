@@ -1,0 +1,235 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP-2026/035483-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-26",
+  "datum_zverejnenia": "2026-08-27",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 7 pracovných dní odo dňa doručenia oznámenia"
+  },
+  "ziadatel_navrhovatel": "Bratislavská vodárenská spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": "Plavecký Mikuláš",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Plavecký Mikuláš",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5426/2",
+              "5426/3",
+              "5426/4",
+              "5426/5",
+              "5426/6",
+              "5426/7",
+              "5426/10"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "5426/23"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Rozšírenie vodojemu Plavecký Mikuláš",
+    "nazov_lokality_norm": "Plavecký Mikuláš"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania a upustenie od ústneho pojednávania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "vodná stavba",
+    "stavebné objekty",
+    "preložka vodovodu",
+    "objekt vodojemu",
+    "potrubné rozvody",
+    "elektrické káblové rozvody",
+    "spevnené plochy",
+    "terénne a sadové úpravy",
+    "oplotenie",
+    "šachta",
+    "elektrická prípojka"
+  ],
+  "rozsah_zasahu": "2x 3500 m3 (objekt vodojemu) a súvisiace potrubné a káblové rozvody",
+  "typ_uzemia": [
+    "CHKO Malé Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "61"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025",
+      "paragrafy": [
+        "16",
+        "84"
+      ]
+    },
+    {
+      "nazov": "o územnom plánovaní a stavebnom poriadku",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "61"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania pre projekt 'Rozšírenie vodojemu Plavecký Mikuláš', ktorý zahŕňa výstavbu dvoch nových nádrží s objemom 3500 m3 a súvisiacich rozvodov. Realizácia prebieha v extraviláne obce Plavecký Mikuláš a zasahuje do CHKO Malé Karpaty. Verejnosť môže uplatniť námietky do 7 pracovných dní od doručenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "5426/2",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        },
+        {
+          "parcel_label": "5426/2",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        },
+        {
+          "parcel_label": "5426/2",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        },
+        {
+          "parcel_label": "5426/2",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        },
+        {
+          "parcel_label": "5426/23",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        },
+        {
+          "parcel_label": "5426/23",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        },
+        {
+          "parcel_label": "5426/23",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        },
+        {
+          "parcel_label": "5426/23",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "5426/2",
+          "NATIONALSI": "SKUEV0267",
+          "SITETITLE_": "Biele hory"
+        },
+        {
+          "parcel_label": "5426/4",
+          "NATIONALSI": "SKUEV0267",
+          "SITETITLE_": "Biele hory"
+        },
+        {
+          "parcel_label": "5426/5",
+          "NATIONALSI": "SKUEV0267",
+          "SITETITLE_": "Biele hory"
+        },
+        {
+          "parcel_label": "5426/7",
+          "NATIONALSI": "SKUEV0267",
+          "SITETITLE_": "Biele hory"
+        },
+        {
+          "parcel_label": "5426/23",
+          "NATIONALSI": "SKUEV0267",
+          "SITETITLE_": "Biele hory"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "5426/2",
+          "NATIONALSI": "84",
+          "SITETITLE_": "NPR Kršlenica"
+        },
+        {
+          "parcel_label": "5426/23",
+          "NATIONALSI": "84",
+          "SITETITLE_": "NPR Kršlenica"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "5426/2",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "5426/4",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "5426/10",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "5426/3",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "5426/6",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "5426/5",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "5426/7",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        },
+        {
+          "parcel_label": "5426/23",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

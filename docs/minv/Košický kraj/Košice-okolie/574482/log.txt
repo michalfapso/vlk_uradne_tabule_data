@@ -1,0 +1,86 @@
+[2026-09-01 20:26:38] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574482'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574482/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574482/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'číslo 364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov /vodný zákon/, v znení neskorších predp'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80' zákona 'stavebného zákona začaté vodoprávne konanie vo veci vydania povolenia na užívanie časti vodnej stavby ,,Valaliky – rozšírenie kanalizácie a vodovodu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80' zákona 'stavebného zákona ____________________________________________________________________________________ Telefón +421556004127 E-mail oszp.ks@minv.sk In'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona. Toto oznámenie bude vyvesené po dobu 15 dní na úradnej tabuli Okresného úradu Košice-okolie, odboru starostlivosti o životné prostredi'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574482/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014668500000000001}
+LLM_tokens: {"input": 6939, "output": 3733, "total": 10672, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574482/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574482/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Valaliky', 'katastralne_uzemia': [{'nazov': 'Valaliky', 'parcely': [{'typ': 'C', 'cisla': ['1302/4', '1302/175', '1302/173', '1302/171', '1302/10', '1302/169', '1302/166', '1302/164', '1302/162', '407/7', '408/4', '409/4', '412/5', '413/2', '1302/158', '1302/156', '1302/146', '1302/144', '1302/142', '1302/140', '1302/117', '1302/116', '1302/115', '1302/114', '1302/34', '1302/59', '1302/150', '1302/148', '1302/138']}, {'typ': 'E', 'cisla': ['2-170/102', '2-170/101', '2-165/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. Poľná', 'nazov_lokality_norm': 'Poľná, Valaliky'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Valaliky', 'katastralne_uzemia': [{'nazov': 'Valaliky', 'parcely': [{'typ': 'C', 'cisla': ['1302/4', '1302/175', '1302/173', '1302/171', '1302/10', '1302/169', '1302/166', '1302/164', '1302/162', '407/7', '408/4', '409/4', '412/5', '413/2', '1302/158', '1302/156', '1302/146', '1302/144', '1302/142', '1302/140', '1302/117', '1302/116', '1302/115', '1302/114', '1302/34', '1302/59', '1302/150', '1302/148', '1302/138']}, {'typ': 'E', 'cisla': ['2-170/102', '2-170/101', '2-165/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. Poľná', 'nazov_lokality_norm': 'Poľná, Valaliky'}
+ku_name:Valaliky obec:Valaliky okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: valaliky norm_ku: valaliky
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: valaliky
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: valaliky
+_get_nationalCadastralZoningReferences() found_ids: {'866725'}
+nationalCadastralZoningReferences: ['866725']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.54 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.03 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'E', 'cisla': ['2-170/102', '2-170/101', '2-165/1']}' v KU 'Valaliky' sa nenašli dáta.
+nazov_lokality: Poľná, Valaliky
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.910'}
+
+[29 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574482/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574482/analysis.json...
+
+--- Časy spracovania dokumentu 574482 ---
+  download_and_text   :   1.16 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.71 s
+  gis_processing      :   6.75 s
+  CELKOVÝ ČAS         :  22.63 s
+------------------------------------------
+Dokument 574482 bol úspešne spracovaný.

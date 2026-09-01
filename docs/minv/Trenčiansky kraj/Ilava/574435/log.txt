@@ -1,0 +1,81 @@
+[2026-09-01 20:30:05] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574435'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574435/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574435/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1 písm. c)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, na základe žiadosti občianskeho združenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, na základe žiadosti občianskeho združenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 15 ods. 2' zákona 'v znení'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574435/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013168}
+LLM_tokens: {"input": 5972, "output": 3394, "total": 9366, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574435/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574435/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Zliechov, Horná Poruba', 'katastralne_uzemia': [{'nazov': 'Zliechov', 'parcely': []}, {'nazov': 'Horná Poruba', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Strážov a NPR Vápeč', 'nazov_lokality_norm': 'Strážov, Vápeč'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Zliechov, Horná Poruba', 'katastralne_uzemia': [{'nazov': 'Zliechov', 'parcely': []}, {'nazov': 'Horná Poruba', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Strážov a NPR Vápeč', 'nazov_lokality_norm': 'Strážov, Vápeč'}
+ku_name:Zliechov obec:Zliechov, Horná Poruba okres:Ilava kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: zliechov norm_ku: zliechov
+_get_nationalCadastralZoningReferences() found_ids: {'873578'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: horna poruba norm_ku: zliechov
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: None norm_ku: zliechov
+_get_nationalCadastralZoningReferences() found_ids: {'873578'}
+nationalCadastralZoningReferences: ['873578']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Horná Poruba obec:Zliechov, Horná Poruba okres:Ilava kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: zliechov norm_ku: horna poruba
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: None norm_ku: horna poruba
+_get_nationalCadastralZoningReferences() found_ids: {'817465'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: horna poruba norm_ku: horna poruba
+_get_nationalCadastralZoningReferences() found_ids: {'817465'}
+nationalCadastralZoningReferences: ['817465']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Strážov, Vápeč
+get_geometry_of_a_geoname nazov_lokality: Strážov, Vápeč
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Vápeč, Zliechov, Horná Poruba, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Vápeč, Ilava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Vápeč, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Vápeč, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.9555555, 'lon': 18.4625, 'formatted_address': 'Strážov, 018 32 Zliechov, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 018 32 Zliechov, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.44216 48.98402, 18.44292 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.27716 48.97506, 18.27736 48...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574435/gis.geojson...
+Intersections with protected areas...
+Found 28 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Zliechov', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Horná Poruba', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Horná Poruba', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}], 'UEV': [{'parcel_label': 'Zliechov', 'NATIONALSI': 'SKUEV0256', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': 'Horná Poruba', 'NATIONALSI': 'SKUEV0256', 'SITETITLE_': 'Strážovské vrchy'}], 'MCHU': [{'parcel_label': 'Zliechov', 'NATIONALSI': '1101', 'SITETITLE_': 'PP Zliechovský močiar'}, {'parcel_label': 'Zliechov', 'NATIONALSI': '432', 'SITETITLE_': 'NPR Strážov'}, {'parcel_label': 'Horná Poruba', 'NATIONALSI': '847', 'SITETITLE_': 'NPR Vápeč'}], 'CHVU': [{'parcel_label': 'Zliechov', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': 'Horná Poruba', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574435/analysis.json...
+
+--- Časy spracovania dokumentu 574435 ---
+  download_and_text   :   1.12 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.91 s
+  gis_processing      :   3.59 s
+  CELKOVÝ ČAS         :  18.63 s
+------------------------------------------
+Dokument 574435 bol úspešne spracovaný.

@@ -1,0 +1,128 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP-2026/007363-005",
+  "cislo_rozhodnutia": "OU-MA-OSZP-2026/007363-0041813/2026",
+  "datum_dokumentu": "2026-08-31",
+  "datum_zverejnenia": "2026-08-31",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "REAL 78 s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": "Rohožník",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rohožník",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3030/10",
+              "3030/9"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Bytový dom \"OBORA\"",
+    "nazov_lokality_norm": "OBORA, Rohožník"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE",
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "vybudovanie vodnej stavby",
+    "preložka verejného vodovodu",
+    "predĺženie verejnej kanalizácie",
+    "dažďová kanalizácia",
+    "vsakovací systém"
+  ],
+  "rozsah_zasahu": "vodovod 69,67 m, kanalizácia 175,6 m, dažďová kan. 198 m, vsakovanie 39 m3",
+  "typ_uzemia": [
+    "ochranné pásmo vodárenského zdroja",
+    "ochranné pásmo plynárenských zariadení",
+    "ochranné pásmo VN vedenia",
+    "ochranné pásmo NN vedenia",
+    "pásmo ochrany vodovodu",
+    "pásmo ochrany verejnej kanalizácie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "21",
+        "26",
+        "61",
+        "73"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025",
+      "paragrafy": [
+        "16",
+        "84"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "61",
+        "66",
+        "76"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "46",
+        "47",
+        "53",
+        "54"
+      ]
+    },
+    {
+      "nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "cislo": "442/2002",
+      "paragrafy": [
+        "19",
+        "22",
+        "23",
+        "35"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Povolenie vodnej stavby pre bytový dom OBORA v Rohožníku, zahŕňajúce preložku vodovodu, predĺženie kanalizácie a vsakovací systém dažďových vôd. Projekt zasahuje do ochranných pásiem inžinierskych sietí a potenciálne vyžaduje výrub drevín. Rozhodnutie ukladá povinnosť dodržania limitov znečistenia pre odlučovač ropných látok a ochranu podzemných vôd.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

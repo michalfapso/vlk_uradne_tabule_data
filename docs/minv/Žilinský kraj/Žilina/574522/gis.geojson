@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "place_id": 184914385, "osm_type": "way", "osm_id": 734160331, "place_rank": 24, "category": "landuse", "type": "industrial", "importance": 0.080051876859693269, "addresstype": "industrial", "name": "Betonáreň TBG Slovensko", "display_name": "Betonáreň TBG Slovensko, U Jozefíkov, Krásno nad Kysucou, okres Čadca, Žilinský kraj, 023 02, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 18.8398449, 49.4104788 ], [ 18.8399036, 49.4104423 ], [ 18.8401304, 49.4101255 ], [ 18.8403346, 49.4097892 ], [ 18.8404036, 49.4090981 ], [ 18.8404959, 49.408636 ], [ 18.8409642, 49.4086468 ], [ 18.8409452, 49.4088439 ], [ 18.8409323, 49.4089172 ], [ 18.8408842, 49.4091902 ], [ 18.8408448, 49.4094138 ], [ 18.8408027, 49.4095908 ], [ 18.8407244, 49.4099936 ], [ 18.8406993, 49.4101228 ], [ 18.8405409, 49.4105416 ], [ 18.84051, 49.4105376 ], [ 18.8399453, 49.4104961 ], [ 18.8398449, 49.4104788 ] ] ] } }
+]
+}

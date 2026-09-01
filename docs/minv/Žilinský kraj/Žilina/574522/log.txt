@@ -1,0 +1,49 @@
+[2026-09-01 20:36:27] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574522'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574522/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574522/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene  a doplnení niektorých zákonov v znení neskorších predpisov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43 ods. 1 písm. d)' zákona '146/2023 Z. z. o ochrane ovzdušia a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 8' zákona '„Program na zlepšenie kvality ovzdušia                pre zónu Žilinský kraj“ zverejnením:   na svojom webovom sídle https://www.minv.sk/?Ochrana_ovzd'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010195}
+LLM_tokens: {"input": 4340, "output": 2675, "total": 7015, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574522/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574522/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': None, 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'zóna Žilinský kraj', 'nazov_lokality_norm': 'Žilinský kraj'}
+data: {'kraj': 'Žilinský kraj', 'okres': None, 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'zóna Žilinský kraj', 'nazov_lokality_norm': 'Žilinský kraj'}
+No geometries were found.
+nazov_lokality: Žilinský kraj
+get_geometry_of_a_geoname nazov_lokality: Žilinský kraj
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** kraj, Žilinský kraj, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.83984 49.41048, 18.8399 49.41044,...  ...  Betonáreň TBG Slovensko, U Jozefíkov, Krásno n...
+
+[1 rows x 11 columns]
+geoname_query: Žilinský kraj, Žilinský kraj, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.83984 49.41048, 18.8399 49.41044,...  ...  Betonáreň TBG Slovensko, U Jozefíkov, Krásno n...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574522/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/574522/analysis.json...
+
+--- Časy spracovania dokumentu 574522 ---
+  download_and_text   :   1.22 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.10 s
+  gis_processing      :   0.60 s
+  CELKOVÝ ČAS         :  13.91 s
+------------------------------------------
+Dokument 574522 bol úspešne spracovaný.

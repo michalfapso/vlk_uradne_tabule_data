@@ -1,0 +1,72 @@
+[2026-09-01 20:33:58] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574366'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574366/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574366/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13 ods.1 písm. a)' zákona 'na vjazd a státie s motorovými vozidlami  v Chránenej krajinnej oblasti Záhorie, kde platí 2. stupeň územnej ochrany v zmysle  zákona. Dôvodom je stav'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie písomného alebo elektronického  potvrdenia záujmu byť zúčastnenou osobou, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ', v začatom správnom  konaní je do: 07.09.2026.                      Ing. Rudolf Kormúth                         vedúci odboru'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574366/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0081125}
+LLM_tokens: {"input": 5167, "output": 1843, "total": 7010, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574366/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574366/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Jablonica', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Chránená krajinná oblasť Záhorie', 'nazov_lokality_norm': 'Záhorie'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Jablonica', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Chránená krajinná oblasť Záhorie', 'nazov_lokality_norm': 'Záhorie'}
+Fallback to OBEC: Jablonica
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: jablonica norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: None norm_obec: jablonica norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'821586'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.38 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Záhorie
+get_geometry_of_a_geoname nazov_lokality: Záhorie
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Jablonica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Trnava, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((16.83319 48.38052, 16.83322 48.38021...  ...                  Záhorie, Trnavský kraj, Slovensko
+1  MULTIPOLYGON (((16.83319 48.38052, 16.83322 48...  ...  Chránená krajinná oblasť Záhorie, okres Senica...
+
+[2 rows x 11 columns]
+geoname_query: Záhorie, Trnava, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.40577 48.63473, 17.40599 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((16.83319 48.38052, 16.83322 48.38021...  ...                  Záhorie, Trnavský kraj, Slovensko
+1  MULTIPOLYGON (((16.83319 48.38052, 16.83322 48...  ...  Chránená krajinná oblasť Záhorie, okres Senica...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574366/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Jablonica', 'NATIONALSI': 'SKUEV0520', 'SITETITLE_': 'Horný tok Myjavy'}], 'MCHU': [{'parcel_label': 'Jablonica', 'NATIONALSI': '872', 'SITETITLE_': 'PP Zrubánka'}, {'parcel_label': 'Jablonica', 'NATIONALSI': '1011', 'SITETITLE_': 'PP Rieka Myjava'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574366/analysis.json...
+
+--- Časy spracovania dokumentu 574366 ---
+  download_and_text   :   2.71 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   8.24 s
+  gis_processing      :   1.75 s
+  CELKOVÝ ČAS         :  12.71 s
+------------------------------------------
+Dokument 574366 bol úspešne spracovaný.

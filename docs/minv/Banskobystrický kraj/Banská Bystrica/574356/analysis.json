@@ -1,0 +1,82 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2026/017576",
+  "cislo_rozhodnutia": "OU-BB-OSZP3-2026/021619",
+  "datum_dokumentu": "2026-08-28",
+  "datum_zverejnenia": "2026-08-28",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ELEKTRO RECYCLING s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Slovenská Ľupča",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Príboj 549",
+    "nazov_lokality_norm": "Príboj, Slovenská Ľupča"
+  },
+  "typ_dokumentu": "Zverejnenie informácií podľa § 38 ods. 2 zákona č. 24/2006 Z. z. o posudzovaní vplyvov na životné prostredie",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zmena umiestnenia zariadenia na orezávanie kompresorov",
+    "prevádzkovanie zariadenia na zhodnocovanie odpadov"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia",
+  "zakony": [
+    {
+      "nazov": "Zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "38"
+      ]
+    }
+  ],
+  "zhrnutie": "Ide o zverejnenie informácií o prebiehajúcom konaní ohľadom zmeny umiestnenia zariadenia na orezávanie kompresorov v rámci zhodnocovania odpadov v obci Slovenská Ľupča. Dokument potvrdzuje účasť verejnosti v konaní, ktoré momentálne prebieha. Navrhovateľom je spoločnosť ELEKTRO RECYCLING s.r.o.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Slovenská Ľupča",
+          "NAZOV_UEV": "Príboj",
+          "KOD_UEV": "SKUEV0062"
+        },
+        {
+          "parcel_label": "Slovenská Ľupča",
+          "NAZOV_UEV": "Príboj",
+          "KOD_UEV": "SKUEV0062"
+        },
+        {
+          "parcel_label": "Slovenská Ľupča",
+          "NAZOV_UEV": "Príboj",
+          "KOD_UEV": "SKUEV0062"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Slovenská Ľupča",
+          "NATIONALSI": "SKUEV0062",
+          "SITETITLE_": "Príboj"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Slovenská Ľupča",
+          "NATIONALSI": "389",
+          "SITETITLE_": "NPR Príboj"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

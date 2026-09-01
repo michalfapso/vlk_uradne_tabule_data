@@ -1,0 +1,74 @@
+[2026-09-01 20:36:59] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15929-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15929-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15929-2026-6-1/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15929-2026-6-1/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011319}
+LLM_tokens: {"input": 4710, "output": 2988, "total": 7698, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15929-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15929-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': 'Žarnovica', 'obec': 'Hodruša-Hámre', 'katastralne_uzemia': [{'nazov': 'Banská Hodruša', 'parcely': []}, {'nazov': 'Dolné Hámre', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'baňa Schöpfer', 'nazov_lokality_norm': 'Schöpfer'}
+data: {'kraj': None, 'okres': 'Žarnovica', 'obec': 'Hodruša-Hámre', 'katastralne_uzemia': [{'nazov': 'Banská Hodruša', 'parcely': []}, {'nazov': 'Dolné Hámre', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'baňa Schöpfer', 'nazov_lokality_norm': 'Schöpfer'}
+ku_name:Banská Hodruša obec:Hodruša-Hámre okres:Žarnovica kraj:None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: zarnovica norm_obec: hodrusa-hamre norm_ku: banska hodrusa
+_get_nationalCadastralZoningReferences() found_ids: {'801461'}
+nationalCadastralZoningReferences: ['801461']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dolné Hámre obec:Hodruša-Hámre okres:Žarnovica kraj:None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: zarnovica norm_obec: hodrusa-hamre norm_ku: dolne hamre
+_get_nationalCadastralZoningReferences() found_ids: {'811971'}
+nationalCadastralZoningReferences: ['811971']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Schöpfer
+get_geometry_of_a_geoname nazov_lokality: Schöpfer
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hodruša-Hámre, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žarnovica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.11454 48.1703, 17.11479 48.16996,...  ...  Tvorenec, Vtáčnik, Bratislava, okres Bratislav...
+
+[1 rows x 11 columns]
+geoname_query: Schöpfer, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.80875 48.48427, 18.80903 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.76948 48.48078, 18.77038 48...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.11454 48.1703, 17.11479 48.16996,...  ...  Tvorenec, Vtáčnik, Bratislava, okres Bratislav...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15929-2026-6-1/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/15929-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 15929-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.22 s
+  gis_processing      :   1.86 s
+  CELKOVÝ ČAS         :  15.74 s
+------------------------------------------
+Dokument 15929-2026-6-1 bol úspešne spracovaný.

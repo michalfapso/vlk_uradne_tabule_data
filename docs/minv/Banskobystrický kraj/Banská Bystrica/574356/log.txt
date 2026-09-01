@@ -1,0 +1,70 @@
+[2026-09-01 20:19:25] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574356'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574356/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0002584}
+LLM_tokens: {"input": 334, "output": 627, "total": 961, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574356/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 38 ods. 2' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov  Názov Zmena umiestneni'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008506}
+LLM_tokens: {"input": 4496, "output": 2086, "total": 6582, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574356/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574356/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Slovenská Ľupča', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Príboj 549', 'nazov_lokality_norm': 'Príboj, Slovenská Ľupča'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Slovenská Ľupča', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Príboj 549', 'nazov_lokality_norm': 'Príboj, Slovenská Ľupča'}
+Fallback to OBEC: Slovenská Ľupča
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: slovenska lupca norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'856525'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 1.37 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Príboj, Slovenská Ľupča
+get_geometry_of_a_geoname nazov_lokality: Príboj, Slovenská Ľupča
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovenská Ľupča, Slovenská Ľupča, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.22349 48.74372, 19.22452 48.74362...  ...  Príboj, Šalková, Banská Bystrica, okres Banská...
+
+[1 rows x 11 columns]
+geoname_query: Príboj, Slovenská Ľupča, Slovenská Ľupča, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.28818 48.79673, 19.28849 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.22349 48.74372, 19.22452 48.74362...  ...  Príboj, Šalková, Banská Bystrica, okres Banská...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574356/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Slovenská Ľupča', 'NAZOV_UEV': 'Príboj', 'KOD_UEV': 'SKUEV0062'}, {'parcel_label': 'Slovenská Ľupča', 'NAZOV_UEV': 'Príboj', 'KOD_UEV': 'SKUEV0062'}, {'parcel_label': 'Slovenská Ľupča', 'NAZOV_UEV': 'Príboj', 'KOD_UEV': 'SKUEV0062'}], 'UEV': [{'parcel_label': 'Slovenská Ľupča', 'NATIONALSI': 'SKUEV0062', 'SITETITLE_': 'Príboj'}], 'MCHU': [{'parcel_label': 'Slovenská Ľupča', 'NATIONALSI': '389', 'SITETITLE_': 'NPR Príboj'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/574356/analysis.json...
+
+--- Časy spracovania dokumentu 574356 ---
+  download_and_text   :   5.08 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   7.76 s
+  gis_processing      :   2.04 s
+  CELKOVÝ ČAS         :  14.88 s
+------------------------------------------
+Dokument 574356 bol úspešne spracovaný.

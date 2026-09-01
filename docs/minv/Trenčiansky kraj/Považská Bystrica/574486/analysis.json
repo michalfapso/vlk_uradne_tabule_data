@@ -1,0 +1,95 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2026/014501 ZJ30",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-01",
+  "datum_zverejnenia": "2026-09-01",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Mesto Považská Bystrica",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horný Moštenec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1010"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Horný Moštenec",
+    "nazov_lokality_norm": "Horný Moštenec"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín rastúcich mimo les",
+    "výrub drevín za hranicami zastavaného územia"
+  ],
+  "rozsah_zasahu": "41 ks drevín (borovica, smrek)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "borovica",
+    "smrek"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82",
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Mesto Považská Bystrica podalo žiadosť o súhlas na výrub 41 kusov borovíc a smrekov v katastrálnom území Horný Moštenec. Výrub sa nachádza mimo lesa a mimo zastavaného územia na parcele C 1010, z dôvodu zosúladenia spôsobu využívania pozemku s inžinierskou stavbou (cesta).",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "1010",
+          "NAZOV_UEV": "Strážovské vrchy",
+          "KOD_UEV": "SKUEV0256"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "1010",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "1010",
+          "NATIONALSI": "841",
+          "SITETITLE_": "NPR Podskalský Roháč"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "1010",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}
