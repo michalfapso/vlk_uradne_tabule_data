@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2026/018256-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-01",
+  "datum_zverejnenia": "2026-09-01",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní na potvrdenie záujmu byť zúčastnenou osobou v uvedenom správnom konaní"
+  },
+  "ziadatel_navrhovatel": "Štátna ochrana prírody Slovenskej republiky, Regionálne centrum ochrany prírody v Prešove",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Slanec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Slanec",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "lesný dielec - JPRL 220/_/1 v PSL/PSLP Slanec",
+    "nazov_lokality_norm": "Slanec"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "určenie podmienok, obmedzenia / zákazu náhodnej ťažby"
+  ],
+  "rozsah_zasahu": "lesný dielec - JPRL 220/_/1",
+  "typ_uzemia": [
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 82 ods. 7",
+        "§ 13 ods. 6",
+        "§ 13 ods. 7",
+        "§ 65a ods. 2 písm. i)",
+        "§ 82 ods. 6"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania na podnet ŠOP SR vo veci určenia podmienok alebo zákazu náhodnej ťažby v lesnom dielci JPRL 220/_/1 v lokalite Slanec. Zásah sa týka územia v 2. stupni ochrany a lehota na prihlásenie účastníkov je 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Slanec",
+          "NATIONALSI": "SKUEV0327",
+          "SITETITLE_": "Milič"
+        },
+        {
+          "parcel_label": "Slanec",
+          "NATIONALSI": "SKUEV0326",
+          "SITETITLE_": "Strahuľka"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Slanec",
+          "NATIONALSI": "675",
+          "SITETITLE_": "PR Slanský hradný vrch"
+        },
+        {
+          "parcel_label": "Slanec",
+          "NATIONALSI": "697",
+          "SITETITLE_": "PP Trstinové jazero"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Slanec",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,98 @@
+[2026-09-02 20:21:44] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574547'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574547/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 4 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0006343999999999999}
+LLM_tokens: {"input": 1108, "output": 1567, "total": 2675, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574547/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 odst. 7' zákona 'Vám oznamujeme nevyhnutný výrub náletových drevín v existujúcom ochrannom pásme elektrického vedenia. Výrub bude prevedený pod el. vedením:  200 KV, v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '251/2012 Z.z. je definované u ............................... KV vedení, ako kolmá vzdialenosť ........... m od krajného vodiča na obe strany.  Predpo'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011151499999999998}
+LLM_tokens: {"input": 5431, "output": 2812, "total": 8243, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574547/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574547/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Košecké Podhradie', 'katastralne_uzemia': [{'nazov': 'Lošejce', 'parcely': []}, {'nazov': 'B.B.loška', 'parcely': []}, {'nazov': "L'uboruša", 'parcely': []}, {'nazov': "L'ubora", 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Pod Soklom, Plánčie, Radošovec, Sokol, Jamy, Záhum, Lipoviny, Záchrastlie, Háj, Štyri lipy, Galovec, Pod Vlčíncom, Oslikoviny, Na Púckovom, Za Štefancom, Lazy, Kamenioc, Výšovec, Kozinec', 'nazov_lokality_norm': 'Košecké Podhradie'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Košecké Podhradie', 'katastralne_uzemia': [{'nazov': 'Lošejce', 'parcely': []}, {'nazov': 'B.B.loška', 'parcely': []}, {'nazov': "L'uboruša", 'parcely': []}, {'nazov': "L'ubora", 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Pod Soklom, Plánčie, Radošovec, Sokol, Jamy, Záhum, Lipoviny, Záchrastlie, Háj, Štyri lipy, Galovec, Pod Vlčíncom, Oslikoviny, Na Púckovom, Za Štefancom, Lazy, Kamenioc, Výšovec, Kozinec', 'nazov_lokality_norm': 'Košecké Podhradie'}
+ku_name:Lošejce obec:Košecké Podhradie okres:Ilava kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: kosecke podhradie norm_ku: losejce
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: None norm_ku: losejce
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: losejce
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: losejce
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+ku_name:B.B.loška obec:Košecké Podhradie okres:Ilava kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: kosecke podhradie norm_ku: b.b.loska
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: None norm_ku: b.b.loska
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: b.b.loska
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: b.b.loska
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+ku_name:L'uboruša obec:Košecké Podhradie okres:Ilava kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: kosecke podhradie norm_ku: l'uborusa
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: None norm_ku: l'uborusa
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: l'uborusa
+Fuzzy match found: 'L'uboruša' -> 'Ľuborča' (ID: 833533)
+nationalCadastralZoningReferences: ['833533']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.38 s
+get_cadastral_zone() features retrieved successfully
+ku_name:L'ubora obec:Košecké Podhradie okres:Ilava kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: kosecke podhradie norm_ku: l'ubora
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: None norm_ku: l'ubora
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: l'ubora
+Fuzzy match found: 'L'ubora' -> 'Ľuborča' (ID: 833533)
+nationalCadastralZoningReferences: ['833533']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Košecké Podhradie
+get_geometry_of_a_geoname nazov_lokality: Košecké Podhradie
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Podhradie, Košecké Podhradie, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Podhradie, Ilava, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.27628 48.98355, 18.27805 48.98315...  ...  Košecké Podhradie, okres Ilava, Trenčiansky kr...
+
+[1 rows x 11 columns]
+geoname_query: Košecké Podhradie, Ilava, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.01614 49.02134, 18.01731 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.01614 49.02134, 18.01731 49...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.27628 48.98355, 18.27805 48.98315...  ...  Košecké Podhradie, okres Ilava, Trenčiansky kr...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574547/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574547/analysis.json...
+
+--- Časy spracovania dokumentu 574547 ---
+  download_and_text   :  15.36 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.28 s
+  gis_processing      :   2.01 s
+  CELKOVÝ ČAS         :  29.64 s
+------------------------------------------
+Dokument 574547 bol úspešne spracovaný.

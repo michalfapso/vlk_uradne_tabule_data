@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-02-16",
+  "datum_zverejnenia": "2026-08-01",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Ilava",
+    "obec": "Košecké Podhradie",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lošejce",
+        "parcely": []
+      },
+      {
+        "nazov": "B.B.loška",
+        "parcely": []
+      },
+      {
+        "nazov": "L'uboruša",
+        "parcely": []
+      },
+      {
+        "nazov": "L'ubora",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Pod Soklom, Plánčie, Radošovec, Sokol, Jamy, Záhum, Lipoviny, Záchrastlie, Háj, Štyri lipy, Galovec, Pod Vlčíncom, Oslikoviny, Na Púckovom, Za Štefancom, Lazy, Kamenioc, Výšovec, Kozinec",
+    "nazov_lokality_norm": "Košecké Podhradie"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub náletových drevín",
+    "odstraňovanie stromov",
+    "okliesňovanie stromov"
+  ],
+  "rozsah_zasahu": "náletové dreviny v ochrannom pásme 200 KV vedenia č. TR: 447748",
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "náletové dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47 odst. 7"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a okliesňovaní náletových drevín v ochrannom pásme 200 KV elektrického vedenia v okrese Ilava. Zásah sa dotýka viacerých katastrálnych území a lokalít (napr. Sokol, Pod Vlčíncom, Lazy) v okolí obcí Košecké Podhradie a Horná/Dolná Poruba. Ide o činnosť vo verejnom záujme na zabezpečenie prevádzkyschopnosti energetického zariadenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP3-2026/042176",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-28",
+  "datum_zverejnenia": "2026-09-01",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "PROENERGS s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Horná Súča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horná Súča",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "5894/3",
+              "5876",
+              "5839",
+              "5840",
+              "5812/8",
+              "5842",
+              "5843",
+              "15286",
+              "5873",
+              "5670",
+              "5671",
+              "5669",
+              "5668"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "5668/1",
+              "5674"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dolná Súča",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "lokalita Dúbrava",
+    "nazov_lokality_norm": "Dúbrava"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "odstraňovanie náletových drevín",
+    "orez náletových drevín"
+  ],
+  "rozsah_zasahu": "v zákonnom ochrannom pásme elektroenergetického vedenia",
+  "typ_uzemia": [
+    "ochranné pásmo el. vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47 ods. 4 písm. a)",
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012 Z.z.",
+      "paragrafy": [
+        "11"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom odstraňovaní a oreze náletových drevín v ochrannom pásme elektrického vedenia v k.ú. Horná Súča, lokalita Dúbrava. Práce budú prebiehať v termíne od 1.10.2026 do 31.12.2026 z dôvodu rekonštrukcie vedenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Horná Súča",
+          "NATIONALSI": "SKUEV0375",
+          "SITETITLE_": "Krasín"
+        },
+        {
+          "parcel_label": "Horná Súča",
+          "NATIONALSI": "SKUEV0778",
+          "SITETITLE_": "Lipníkovské"
+        },
+        {
+          "parcel_label": "Horná Súča",
+          "NATIONALSI": "SKUEV0588",
+          "SITETITLE_": "Stehlíkovské"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Horná Súča",
+          "NATIONALSI": "1036",
+          "SITETITLE_": "PP Podsalašie"
+        },
+        {
+          "parcel_label": "Horná Súča",
+          "NATIONALSI": "181",
+          "SITETITLE_": "PP Včelíny"
+        },
+        {
+          "parcel_label": "Horná Súča",
+          "NATIONALSI": "46",
+          "SITETITLE_": "PR Hornozávrská mokraď"
+        },
+        {
+          "parcel_label": "Horná Súča",
+          "NATIONALSI": "30",
+          "SITETITLE_": "PR Debšín"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,65 @@
+[2026-09-02 20:22:58] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574582'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574582/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 3 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0007043999999999999}
+LLM_tokens: {"input": 850, "output": 1742, "total": 2592, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574582/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 odst. 7' zákona 'Vám oznamujeme nevyhnutný výrub náletových drevín v existujúcim ochrannom pásme elektrického vedenia. Výrub bude prevedený pod el. vedením : 100 kV, v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 odst. 1' zákona 'tohto zákona držiteľ povolenia na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '251/2012 sa, je definované na el. vedení, ako kontrola vzdialenosť......... krajského vodiča na oboch stran. Predpokladané : - začatie výrobu : - ukon'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1' zákona '251/2012 Z. z. o energetike a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§11' zákona 'o energetike  poveruje spoločnosť ENZA, s.r.o. Májová 1098 022 01 ČADCA  výkonom činností súvisiacich s výrubom porastov podľ'a ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1' zákona 'o energetike v rozsahu stanovenom v Rámcovej dohode č. 2021-0435-1121210.  V7001 Suchany - VE Suchany, V270 Považská Bystrica - p.b.č.203'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0139395}
+LLM_tokens: {"input": 5607, "output": 3712, "total": 9319, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574582/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574582/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Kožinec, Homolka, Mokrišov, Šenkovci', 'nazov_lokality_norm': 'Homolka'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Kožinec, Homolka, Mokrišov, Šenkovci', 'nazov_lokality_norm': 'Homolka'}
+No geometries were found.
+nazov_lokality: Homolka
+get_geometry_of_a_geoname nazov_lokality: Homolka
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Trenčín, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.884936, 'lon': 18.0335209, 'formatted_address': 'Trenčín, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.94997 48.93352, 17.95022 48.93327...  ...  Trenčín, okres Trenčín, Trenčiansky kraj, Slov...
+
+[1 rows x 11 columns]
+geoname_query: Trenčín, Slovakia
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.94997 48.93352, 17.95022 48.93327...  ...  Trenčín, okres Trenčín, Trenčiansky kraj, Slov...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574582/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Trenčín, okres Trenčín, Trenčiansky kraj, Slovensko', 'NATIONALSI': 'SKUEV0397', 'SITETITLE_': 'Váh pri Zamarovciach'}], 'MCHU': [{'parcel_label': 'Trenčín, okres Trenčín, Trenčiansky kraj, Slovensko', 'NATIONALSI': '177', 'SITETITLE_': 'PR Trubárka'}, {'parcel_label': 'Trenčín, okres Trenčín, Trenčiansky kraj, Slovensko', 'NATIONALSI': '193', 'SITETITLE_': 'PR Zamarovské jamy'}, {'parcel_label': 'Trenčín, okres Trenčín, Trenčiansky kraj, Slovensko', 'NATIONALSI': '1163', 'SITETITLE_': 'PP Opatovská jaskyňa'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574582/analysis.json...
+
+--- Časy spracovania dokumentu 574582 ---
+  download_and_text   :  12.17 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.65 s
+  gis_processing      :   2.88 s
+  CELKOVÝ ČAS         :  30.70 s
+------------------------------------------
+Dokument 574582 bol úspešne spracovaný.

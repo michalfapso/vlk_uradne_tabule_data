@@ -1,0 +1,88 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP1-2026/041919-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-01",
+  "datum_zverejnenia": "2026-09-01",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "päť pracovných dní od zverejnenia informácie na internetovej stránke orgánu ochrany prírody"
+  },
+  "ziadatel_navrhovatel": "LESY SR, š.p. organizačná zložka OZ Považie",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Haluzice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Haluzice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "206",
+              "207"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "PP Haluzická tiesňava",
+    "nazov_lokality_norm": "Haluzická tiesňava"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "umiestnenie informačného, reklamného alebo propagačného zariadenia",
+    "organizovanie verejného podujatia"
+  ],
+  "rozsah_zasahu": "verejné podujatie pri príležitosti 100. výročia realizácie technického projektu hradenia Haluzického potoka",
+  "typ_uzemia": [
+    "Prírodná pamiatka",
+    "4. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "67",
+        "15",
+        "14",
+        "82"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti LESY SR o povolenie výnimiek na umiestnenie reklamných zariadení a organizovanie verejného podujatia v 4. stupni ochrany. Činnosti majú byť realizované v území prírodnej pamiatky Haluzická tiesňava na parcelách C-KN 206 a 207.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "207",
+          "NATIONALSI": "43",
+          "SITETITLE_": "PP Haluzická tiesňava"
+        },
+        {
+          "parcel_label": "206",
+          "NATIONALSI": "43",
+          "SITETITLE_": "PP Haluzická tiesňava"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP1-2026/041853-2/SD",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-28",
+  "datum_zverejnenia": "2026-09-01",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia (pre zúčastnenú osobu), do 10 dní od doručenia tohto oznámenia (pre námietky)"
+  },
+  "ziadatel_navrhovatel": "Ing. Gabriela Václavková",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Myjava",
+    "obec": "Stará Myjava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stará Myjava",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "29527/2",
+              "40125/34",
+              "29603/1",
+              "29603/8",
+              "29589/7"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "prírodná pamiatka Rieka Myjava",
+    "nazov_lokality_norm": "Myjava"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "výstavba nového chodníka",
+    "zmena stavu mokrade",
+    "úprava koryta vodného toku",
+    "umiestnenie stavby",
+    "rušenie pokoja a ticha",
+    "vjazd motorovým vozidlom mimo cesty",
+    "pohyb mimo vyznačeného chodníka"
+  ],
+  "rozsah_zasahu": "šírka 1,5 m, dĺžka 363 m",
+  "typ_uzemia": [
+    "prírodná pamiatka",
+    "ochranné pásmo",
+    "5. stupeň",
+    "3. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "mokraď"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "14",
+        "16",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "nazov": "o správnych poplatkoch",
+      "cislo": "145/1995 Z. z.",
+      "paragrafy": [
+        "4"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci povolenia výnimiek na výstavbu 363 m dlhého chodníka v obci Stará Myjava. Činnosť priamo zasahuje do prírodnej pamiatky Rieka Myjava (5. stupeň ochrany) a jej ochranného pásma (3. stupeň), pričom zahŕňa úpravu koryta toku a zmenu stavu mokrade. Projekt nepočíta s výrubom drevín.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "40125/34",
+          "NATIONALSI": "1011",
+          "SITETITLE_": "PP Rieka Myjava"
+        },
+        {
+          "parcel_label": "29603/8",
+          "NATIONALSI": "1011",
+          "SITETITLE_": "PP Rieka Myjava"
+        },
+        {
+          "parcel_label": "29603/1",
+          "NATIONALSI": "1011",
+          "SITETITLE_": "PP Rieka Myjava"
+        },
+        {
+          "parcel_label": "29589/7",
+          "NATIONALSI": "1011",
+          "SITETITLE_": "PP Rieka Myjava"
+        },
+        {
+          "parcel_label": "29527/2",
+          "NATIONALSI": "1011",
+          "SITETITLE_": "PP Rieka Myjava"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "place_id": 188131853, "osm_type": "way", "osm_id": 474619003, "place_rank": 24, "category": "landuse", "type": "residential", "importance": 0.08007727397573812, "addresstype": "residential", "name": "Bytové domy pre zamestnancov pošty", "display_name": "Bytové domy pre zamestnancov pošty, Slovany, Bratislava, okres Bratislava III, Bratislava, Bratislavský kraj, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 17.1324384, 48.1755148 ], [ 17.1332817, 48.1751481 ], [ 17.1337693, 48.1756603 ], [ 17.1333527, 48.1758592 ], [ 17.1328831, 48.1760492 ], [ 17.1324623, 48.1755537 ], [ 17.1324384, 48.1755148 ] ] ] } }
+]
+}

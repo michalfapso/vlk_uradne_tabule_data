@@ -1,0 +1,115 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP1-2026-038771-SI",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-02",
+  "datum_zverejnenia": "2026-09-02",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Donovaly",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Donovaly",
+    "nazov_lokality_norm": "Donovaly"
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "usporiadanie športového verejného podujatia Hornonitrianska enduro séria Donovaly"
+  ],
+  "rozsah_zasahu": "športové verejné podujatie",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "2",
+        "2 ods. 1",
+        "82",
+        "82 ods. 3",
+        "82 ods. 6"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "15a",
+        "19"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti o povolenie výnimky na usporiadanie športového podujatia 'Hornonitrianska enduro séria Donovaly'. Podujatie sa koná v okrese Banská Bystrica a vyžaduje výnimku zo zákazov podľa zákona o ochrane prírody. Verejnosť a združenia môžu oznámiť svoju účasť v konaní do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Donovaly",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Donovaly",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Donovaly",
+          "NATIONALSI": "SKUEV0198",
+          "SITETITLE_": "Zvolen"
+        },
+        {
+          "parcel_label": "Donovaly",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        },
+        {
+          "parcel_label": "Donovaly",
+          "NATIONALSI": "SKUEV0198",
+          "SITETITLE_": "Zvolen"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Donovaly",
+          "NATIONALSI": "1065",
+          "SITETITLE_": "PR Štrosy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Donovaly",
+          "NATIONALSI": "SKCHVU033",
+          "SITETITLE_": "Veľká Fatra"
+        },
+        {
+          "parcel_label": "Donovaly",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        },
+        {
+          "parcel_label": "Donovaly",
+          "NATIONALSI": "SKCHVU033",
+          "SITETITLE_": "Veľká Fatra"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

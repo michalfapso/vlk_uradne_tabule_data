@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "place_id": 188739864, "osm_type": "way", "osm_id": 769488049, "place_rank": 30, "category": "building", "type": "train_station", "importance": 5.2073701075715535e-05, "addresstype": "building", "name": "Pstruša", "display_name": "Pstruša, 16, Pstruša, Vígľaš, okres Detva, Banskobystrický kraj, 962 02, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 19.312416, 48.5532174 ], [ 19.312571, 48.5531866 ], [ 19.3126838, 48.553165 ], [ 19.3126907, 48.5531438 ], [ 19.3127858, 48.5531236 ], [ 19.3128166, 48.5531961 ], [ 19.3128294, 48.553226 ], [ 19.3127332, 48.5532519 ], [ 19.3127226, 48.5532366 ], [ 19.3124558, 48.5532972 ], [ 19.3124474, 48.553281 ], [ 19.312416, 48.5532174 ] ] ] } }
+]
+}

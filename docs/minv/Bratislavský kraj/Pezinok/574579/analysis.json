@@ -1,0 +1,111 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2026/004047-008",
+  "cislo_rozhodnutia": "OU-PK-OSZP-2026/004047-0029611/2026",
+  "datum_dokumentu": "2026-09-02",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa jeho oznámenia na podanie odvolania"
+  },
+  "ziadatel_navrhovatel": "SENPET s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Pezinok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Grinava",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "756/11",
+              "756/22",
+              "756/30",
+              "756/83",
+              "760/3"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Pezinok",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5242/4",
+              "5242/21",
+              "5242/27"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Obchodná ulica",
+    "nazov_lokality_norm": "Obchodná, Pezinok"
+  },
+  "typ_dokumentu": "Rozhodnutie - povolenie na uskutočnenie vodnej stavby",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "Areálová dažďová kanalizácia",
+    "kanalizačné prípojky",
+    "Odlučovač ropných látok - ORL"
+  ],
+  "rozsah_zasahu": "Areálová dažďová kanalizácia s retenčnými nádržami (objem cca 171 m3 a 95-220 m3) a odlučovačom ropných látok (150 l/s).",
+  "typ_uzemia": [
+    "1. stupeň",
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004 Z.z.",
+      "paragrafy": [
+        "§ 26 ods. 1",
+        "§ 61",
+        "§ 73"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "§ 66",
+        "§ 120",
+        "§ 140b"
+      ]
+    },
+    {
+      "nazov": "Zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "§ 46",
+        "§ 47",
+        "§ 53",
+        "§ 54",
+        "§ 33",
+        "§ 26"
+      ]
+    },
+    {
+      "nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "§ 38 ods. 4"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o povolení vodnej stavby zahŕňajúcej dažďovú kanalizáciu, retenčné nádrže a odlučovač ropných látok pre polyfunkčný objekt. Realizácia je v zastavanom území mesta Pezinok (k.ú. Grinava a Pezinok) v 1. stupni ochrany a nezasahuje do chránených území. Projekt rieši odvod dažďových vôd z komunikácií a striech s následným napojením na verejnú sieť.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

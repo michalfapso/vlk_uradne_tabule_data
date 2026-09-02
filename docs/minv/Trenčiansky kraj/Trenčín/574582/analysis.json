@@ -1,0 +1,86 @@
+{
+  "cislo_konania_spisu": "2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-01",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Kožinec, Homolka, Mokrišov, Šenkovci",
+    "nazov_lokality_norm": "Homolka"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín pod el. vedením",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub náletových drevín",
+    "odstraňovanie a okliesňovanie stromov"
+  ],
+  "rozsah_zasahu": "náletové dreviny pod el. vedením V271 (p.b.č. 106-113)",
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "náletové dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o nevyhnutnom výrube náletových drevín v ochrannom pásme elektrického vedenia V271 (p.b.č. 106 - 113). Výrub realizuje spoločnosť ENZA s.r.o. v lokalitách ako Homolka a Kožinec v okrese Trenčín. Práce sú plánované na rok 2026 za účelom zabezpečenia prevádzky vedenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Trenčín, okres Trenčín, Trenčiansky kraj, Slovensko",
+          "NATIONALSI": "SKUEV0397",
+          "SITETITLE_": "Váh pri Zamarovciach"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Trenčín, okres Trenčín, Trenčiansky kraj, Slovensko",
+          "NATIONALSI": "177",
+          "SITETITLE_": "PR Trubárka"
+        },
+        {
+          "parcel_label": "Trenčín, okres Trenčín, Trenčiansky kraj, Slovensko",
+          "NATIONALSI": "193",
+          "SITETITLE_": "PR Zamarovské jamy"
+        },
+        {
+          "parcel_label": "Trenčín, okres Trenčín, Trenčiansky kraj, Slovensko",
+          "NATIONALSI": "1163",
+          "SITETITLE_": "PP Opatovská jaskyňa"
+        }
+      ]
+    },
+    "source_type": "GEONAME"
+  }
+}

@@ -1,0 +1,64 @@
+[2026-09-02 20:25:47] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-038772-si'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-038772-si/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-038772-si/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods.3' zákona 'účastníkom konania o vydanie súhlasu alebo výnimky je len žiadateľ. Združenie s právnou subjektivitou, ktorého predmetom činnosti je najmenej jeden ro'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-038772-si/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012106}
+LLM_tokens: {"input": 6008, "output": 3034, "total": 9042, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-038772-si/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-038772-si/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Jarabá', 'katastralne_uzemia': [{'nazov': 'Jarabá', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'chata Jarabatá (obec Jarabá)', 'nazov_lokality_norm': 'chata Jarabatá, Jarabá'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Jarabá', 'katastralne_uzemia': [{'nazov': 'Jarabá', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'chata Jarabatá (obec Jarabá)', 'nazov_lokality_norm': 'chata Jarabatá, Jarabá'}
+ku_name:Jarabá obec:Jarabá okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: jaraba norm_ku: jaraba
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: None norm_ku: jaraba
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: jaraba
+_get_nationalCadastralZoningReferences() found_ids: {'822213'}
+nationalCadastralZoningReferences: ['822213']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: chata Jarabatá, Jarabá
+get_geometry_of_a_geoname nazov_lokality: chata Jarabatá, Jarabá
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Jarabatá, Jarabá, Jarabá, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.70144 48.89294, 19.70147 48.89285...  ...  Chata Jarabatá, 39, Jarabá, okres Brezno, Bans...
+
+[1 rows x 11 columns]
+geoname_query: chata Jarabatá, Jarabá, Jarabá, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.69969 48.91716, 19.70039 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.70144 48.89294, 19.70147 48.89285...  ...  Chata Jarabatá, 39, Jarabá, okres Brezno, Bans...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-038772-si/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-038772-si/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp1-2026-038772-si ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  14.06 s
+  gis_processing      :   1.11 s
+  CELKOVÝ ČAS         :  16.13 s
+------------------------------------------
+Dokument ou-bb-oszp1-2026-038772-si bol úspešne spracovaný.

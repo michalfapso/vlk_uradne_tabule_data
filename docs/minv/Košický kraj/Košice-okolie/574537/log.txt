@@ -1,0 +1,72 @@
+[2026-09-02 20:20:38] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574537'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574537/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574537/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13 ods. 6' zákona 'v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '7' zákona 'v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13 ods. 6' zákona 'v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '7' zákona 'v spojení s'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574537/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009545}
+LLM_tokens: {"input": 6358, "output": 2122, "total": 8480, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574537/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574537/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Slanec', 'katastralne_uzemia': [{'nazov': 'Slanec', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'lesný dielec - JPRL 220/_/1 v PSL/PSLP Slanec', 'nazov_lokality_norm': 'Slanec'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Slanec', 'katastralne_uzemia': [{'nazov': 'Slanec', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'lesný dielec - JPRL 220/_/1 v PSL/PSLP Slanec', 'nazov_lokality_norm': 'Slanec'}
+ku_name:Slanec obec:Slanec okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: slanec norm_ku: slanec
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: slanec
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: slanec
+_get_nationalCadastralZoningReferences() found_ids: {'856002'}
+nationalCadastralZoningReferences: ['856002']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.42 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Slanec
+get_geometry_of_a_geoname nazov_lokality: Slanec
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slanec, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.43663 48.61833, 21.4393 48.6179, ...  ...  Slanec, okres Košice-okolie, Košický kraj, 044...
+
+[1 rows x 11 columns]
+geoname_query: Slanec, Slanec, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.47233 48.66958, 21.47236 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.43663 48.61833, 21.4393 48.6179, ...  ...  Slanec, okres Košice-okolie, Košický kraj, 044...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574537/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Slanec', 'NATIONALSI': 'SKUEV0327', 'SITETITLE_': 'Milič'}, {'parcel_label': 'Slanec', 'NATIONALSI': 'SKUEV0326', 'SITETITLE_': 'Strahuľka'}], 'MCHU': [{'parcel_label': 'Slanec', 'NATIONALSI': '675', 'SITETITLE_': 'PR Slanský hradný vrch'}, {'parcel_label': 'Slanec', 'NATIONALSI': '697', 'SITETITLE_': 'PP Trstinové jazero'}], 'CHVU': [{'parcel_label': 'Slanec', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/574537/analysis.json...
+
+--- Časy spracovania dokumentu 574537 ---
+  download_and_text   :   1.58 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   8.54 s
+  gis_processing      :   1.46 s
+  CELKOVÝ ČAS         :  11.58 s
+------------------------------------------
+Dokument 574537 bol úspešne spracovaný.

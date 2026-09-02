@@ -1,0 +1,115 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-02",
+  "datum_zverejnenia": "2026-09-02",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "KTL SLOVAKIA, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Trnava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trnava",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Coburgova 2263/84",
+    "nazov_lokality_norm": "Coburgova, Trnava"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť k oznámeniu o zmene navrhovanej činnosti",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "Inštalácia zariadenia RTO",
+    "likvidácia emisií prchavých organických látok"
+  ],
+  "rozsah_zasahu": "nové koncové oxidačné zariadenie",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "24 ods. 1",
+        "18 ods. 2 písm. d)",
+        "3 písm. l)",
+        "56 písm. b)",
+        "29 ods. 1 písm. b)",
+        "29 ods. 6",
+        "64 písm. f)",
+        "29",
+        "30",
+        "30 ods. 1",
+        "30 ods. 2",
+        "30 ods. 7",
+        "29 ods. 3",
+        "38 ods. 3",
+        "38 ods. 4",
+        "3 písm. t)"
+      ]
+    },
+    {
+      "nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1 ods. 1 písm. c)",
+        "5 ods. 1"
+      ]
+    },
+    {
+      "nazov": "zákon o integrovanej prevencii a kontrole znečisťovania",
+      "cislo": "39/2013 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015 Z. z.",
+      "paragrafy": [
+        "178 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí zisťovacieho konania vo veci inštalácie oxidačného zariadenia RTO pre likvidáciu emisií VOC v existujúcej priemyselnej prevádzke KTL SLOVAKIA v Trnave. Zásah sa realizuje v zastavanom území mesta a nepôsobí priamo na lesné porasty či chránené druhy. Dokument definuje proces zisťovacieho konania a možnosti odvolania pre verejnosť.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "175",
+          "SITETITLE_": "CHA Trnavské rybníky"
+        },
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "175",
+          "SITETITLE_": "OP CHA Trnavské rybníky"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Trnava",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

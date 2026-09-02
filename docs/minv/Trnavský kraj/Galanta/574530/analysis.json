@@ -1,0 +1,93 @@
+{
+  "cislo_konania_spisu": "OU-GA-OSZP-2026/000147-012",
+  "cislo_rozhodnutia": "OU-GA-OSZP-2026/000147-012",
+  "datum_dokumentu": "2026-08-31",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "v lehote do 15 dní od jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "AUTOVRAKOVISKO s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Galanta",
+    "obec": "Sereď",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Jesenského ulica",
+    "nazov_lokality_norm": "Jesenského, Sereď"
+  },
+  "typ_dokumentu": "Rozhodnutie",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "určenie starého vozidla",
+    "odstránenie vozidla z pozemnej komunikácie"
+  ],
+  "rozsah_zasahu": "1 osobné vozidlo (Fiat Bravo)",
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o odpadoch",
+      "cislo": "79/2015 Z. z.",
+      "paragrafy": [
+        "67 ods. 5",
+        "67 ods. 6",
+        "108 ods. 1 písm. h)",
+        "67 ods. 1 písm. a)",
+        "67 ods. 3 písm. b)",
+        "60 ods. 8",
+        "66",
+        "63 ods. 1"
+      ]
+    },
+    {
+      "nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "46",
+        "47",
+        "18 ods. 3",
+        "26 ods. 1",
+        "26 ods. 2",
+        "33 ods. 2",
+        "53",
+        "54"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o tom, že opustené vozidlo Fiat Bravo na Jesenského ulici v Seredi sa stáva starým vozidlom (odpadom). Vlastník vozidla ho neodstránil napriek výzvam, preto bude po nadobudnutí právoplatnosti rozhodnutia spracované autorizovaným zariadením. Konanie sa realizuje v intraviláne a netýka sa chránených území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Sereď",
+          "NATIONALSI": "971",
+          "SITETITLE_": "CHA Seredsky park"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Sereď",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}
