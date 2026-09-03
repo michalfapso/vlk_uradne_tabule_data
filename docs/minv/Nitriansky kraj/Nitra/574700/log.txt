@@ -1,0 +1,88 @@
+[2026-09-03 20:26:24] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/574700'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/574700/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/574700/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a ako príslušný orgán štátnej vodnej správ'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80' zákona 'stavebného zákona , v nadväznosti na'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84' zákona '25/2025 Z. z. Stavebného zákona a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona n a r i a ď u j e k predloženému návrhu ústne konanie spojené s miestnym zisťovaním na deň 29.09.2026 o 09 00 h so stretnutím účastníko'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80 ods. 1' zákona '50/1976 Zb. stavebný zákon : -Stavebníkovi -Vlastníkom pozemkom v ktorých je stavba umiestnená: parcela register “C” : 3023/3, 3023/16, 3023/15, 3023/'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/574700/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.015881}
+LLM_tokens: {"input": 9766, "output": 3666, "total": 13432, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/574700/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/574700/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Nitra', 'katastralne_uzemia': [{'nazov': 'Dražovce', 'parcely': [{'typ': 'C', 'cisla': ['3023/3', '3023/16', '3023/15', '3023/14', '1265/17', '1265/18', '1265/19', '1265/20', '1265/21', '1265/3', '1265/22', '1265/23', '1065/34', '1065/33', '1065/32', '1065/31', '1065/30', '1065/29', '1065/28', '1065/36', '1066/7', '3023/13']}]}, {'nazov': 'Zobor', 'parcely': [{'typ': 'C', 'cisla': ['4787/2', '4790/5', '4791/2', '4794/16', '4794/15', '4794/14', '4770/8', '4770/9', '4798/2']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok Dobrotka', 'nazov_lokality_norm': 'Dobrotka'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Nitra', 'katastralne_uzemia': [{'nazov': 'Dražovce', 'parcely': [{'typ': 'C', 'cisla': ['3023/3', '3023/16', '3023/15', '3023/14', '1265/17', '1265/18', '1265/19', '1265/20', '1265/21', '1265/3', '1265/22', '1265/23', '1065/34', '1065/33', '1065/32', '1065/31', '1065/30', '1065/29', '1065/28', '1065/36', '1066/7', '3023/13']}]}, {'nazov': 'Zobor', 'parcely': [{'typ': 'C', 'cisla': ['4787/2', '4790/5', '4791/2', '4794/16', '4794/15', '4794/14', '4770/8', '4770/9', '4798/2']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok Dobrotka', 'nazov_lokality_norm': 'Dobrotka'}
+ku_name:Dražovce obec:Nitra okres:Nitra kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nitra norm_obec: nitra norm_ku: drazovce
+_get_nationalCadastralZoningReferences() found_ids: {'812854'}
+nationalCadastralZoningReferences: ['812854']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.57 s
+ku_name:Zobor obec:Nitra okres:Nitra kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nitra norm_obec: nitra norm_ku: zobor
+_get_nationalCadastralZoningReferences() found_ids: {'840319'}
+nationalCadastralZoningReferences: ['840319']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.44 s
+nazov_lokality: Dobrotka
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.1810'}
+
+[31 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/574700/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/574700/analysis.json...
+
+--- Časy spracovania dokumentu 574700 ---
+  download_and_text   :   1.04 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.79 s
+  gis_processing      :   7.25 s
+  CELKOVÝ ČAS         :  25.08 s
+------------------------------------------
+Dokument 574700 bol úspešne spracovaný.

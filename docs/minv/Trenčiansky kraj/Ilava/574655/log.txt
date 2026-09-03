@@ -1,0 +1,52 @@
+[2026-09-03 20:29:30] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574655'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574655/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0004112}
+LLM_tokens: {"input": 592, "output": 1009, "total": 1601, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574655/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 odst. 7' zákona 'Vám oznamujeme nevyhnutný výrub náletových drevín v existujúcom ochrannom pásme elektrického vedenia. Výrub bude prevedený pod el. vedením.  400 kV, v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11' zákona 'tohto zákona držíteľ povolení na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odst. 1' zákona 'tohto zákona držíteľ povolení na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '251/2012 Z.z. je definované u ... 400 .... KV vedení, ako kolmá vzdialenosť 25 .... m od krajného vodiča na obe strany.  Predpokladané : - začatie výr'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0178775}
+LLM_tokens: {"input": 4873, "output": 5147, "total": 10020, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574655/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574655/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod el. vedením 400 kV, vedenie č. 455C TR: Jossco-Varia, Krivoklátska dolina', 'nazov_lokality_norm': 'Krivoklátska dolina'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod el. vedením 400 kV, vedenie č. 455C TR: Jossco-Varia, Krivoklátska dolina', 'nazov_lokality_norm': 'Krivoklátska dolina'}
+No geometries were found.
+nazov_lokality: Krivoklátska dolina
+get_geometry_of_a_geoname nazov_lokality: Krivoklátska dolina
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** dolina, Ilava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** dolina, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** dolina, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.9962271, 'lon': 18.2332775, 'formatted_address': '019 01 Ilava, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Ilava, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 574655 ---
+  download_and_text   :   9.82 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  23.68 s
+  gis_processing      :   1.52 s
+  CELKOVÝ ČAS         :  35.02 s
+------------------------------------------
+Dokument 574655 bol úspešne spracovaný.

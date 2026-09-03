@@ -1,0 +1,84 @@
+[2026-09-03 20:30:18] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16016-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16016-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16016-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010055500000000002}
+LLM_tokens: {"input": 4247, "output": 2644, "total": 6891, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16016-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16016-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Ministerstvo', 'okres': 'Trenčín', 'obec': 'Trenčianska Turná', 'katastralne_uzemia': [{'nazov': 'Trenčianska Turná', 'parcely': []}, {'nazov': 'Hámre', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Turniansky potok', 'nazov_lokality_norm': 'Turniansky'}
+data: {'kraj': 'Ministerstvo', 'okres': 'Trenčín', 'obec': 'Trenčianska Turná', 'katastralne_uzemia': [{'nazov': 'Trenčianska Turná', 'parcely': []}, {'nazov': 'Hámre', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Turniansky potok', 'nazov_lokality_norm': 'Turniansky'}
+ku_name:Trenčianska Turná obec:Trenčianska Turná okres:Trenčín kraj:Ministerstvo
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: trencin norm_obec: trencianska turna norm_ku: trencianska turna
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: trencin norm_obec: None norm_ku: trencianska turna
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: None norm_obec: None norm_ku: trencianska turna
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: trencianska turna
+_get_nationalCadastralZoningReferences() found_ids: {'864391'}
+nationalCadastralZoningReferences: ['864391']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.46 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Hámre obec:Trenčianska Turná okres:Trenčín kraj:Ministerstvo
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: trencin norm_obec: trencianska turna norm_ku: hamre
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: trencin norm_obec: None norm_ku: hamre
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: None norm_obec: None norm_ku: hamre
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: hamre
+_get_nationalCadastralZoningReferences() found_ids: {'815586'}
+nationalCadastralZoningReferences: ['815586']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Turniansky
+get_geometry_of_a_geoname nazov_lokality: Turniansky
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Trenčianska Turná, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Trenčín, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ministerstvo, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.86789 48.61021, 20.86817 48.60974...  ...  Turniansky hradný vrch, Turňa nad Bodvou, okre...
+1  POLYGON ((20.86124 48.60434, 20.86132 48.60407...  ...  Turniansky rybník, Turňa nad Bodvou, okres Koš...
+
+[2 rows x 11 columns]
+geoname_query: Turniansky, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.00457 48.86319, 18.00523 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.03015 48.85096, 18.03019 48...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.86789 48.61021, 20.86817 48.60974...  ...  Turniansky hradný vrch, Turňa nad Bodvou, okre...
+1  POLYGON ((20.86124 48.60434, 20.86132 48.60407...  ...  Turniansky rybník, Turňa nad Bodvou, okres Koš...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16016-2026-6-1/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16016-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 16016-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.83 s
+  gis_processing      :   2.76 s
+  CELKOVÝ ČAS         :  15.14 s
+------------------------------------------
+Dokument 16016-2026-6-1 bol úspešne spracovaný.

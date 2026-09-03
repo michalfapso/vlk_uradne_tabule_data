@@ -1,0 +1,79 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2026/028521",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-03",
+  "datum_zverejnenia": "2026-09-03",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SPP – distribúcie, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Senec",
+    "obec": "Senec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Senec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4244"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "ochranné pásmo plynovodov",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub dreviny",
+    "výrub v ochrannom pásme plynovodov"
+  ],
+  "rozsah_zasahu": "v rozsahu 1 m na každú stranu od osi plynovodu",
+  "typ_uzemia": [
+    "ochranné pásmo plynovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "68",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "64",
+        "11",
+        "79"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube dreviny na parcele C 4244 v k.ú. Senec spoločnosťou SPP – distribúcia, a.s. Výrub sa realizuje v ochrannom pásme plynovodov z dôvodu bezpečnosti. Dokument uvádza, že na toto konanie sa nevzťahujú predpisy o správnom konaní a nie je možné v ňom uplatniť účasť verejnosti podľa § 82 ods. 7.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

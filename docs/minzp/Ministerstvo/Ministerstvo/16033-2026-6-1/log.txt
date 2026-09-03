@@ -1,0 +1,60 @@
+[2026-09-03 20:30:33] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16033-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16033-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16033-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0089595}
+LLM_tokens: {"input": 4305, "output": 2269, "total": 6574, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16033-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16033-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Ministerstvo', 'okres': 'Ministerstvo', 'obec': 'Trenčianska Teplá', 'katastralne_uzemia': [{'nazov': 'Trenčianska Teplá', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'budova Požiarnej zbrojnice na adrese ulica SNP č. 422/1', 'nazov_lokality_norm': 'SNP, Trenčianska Teplá'}
+data: {'kraj': 'Ministerstvo', 'okres': 'Ministerstvo', 'obec': 'Trenčianska Teplá', 'katastralne_uzemia': [{'nazov': 'Trenčianska Teplá', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'budova Požiarnej zbrojnice na adrese ulica SNP č. 422/1', 'nazov_lokality_norm': 'SNP, Trenčianska Teplá'}
+ku_name:Trenčianska Teplá obec:Trenčianska Teplá okres:Ministerstvo kraj:Ministerstvo
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: ministerstvo norm_obec: trencianska tepla norm_ku: trencianska tepla
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: ministerstvo norm_obec: None norm_ku: trencianska tepla
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: None norm_obec: None norm_ku: trencianska tepla
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: trencianska tepla
+_get_nationalCadastralZoningReferences() found_ids: {'864374'}
+nationalCadastralZoningReferences: ['864374']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: SNP, Trenčianska Teplá
+get_geometry_of_a_geoname nazov_lokality: SNP, Trenčianska Teplá
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Trenčianska Teplá, Trenčianska Teplá, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Trenčianska Teplá, Ministerstvo, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Trenčianska Teplá, Ministerstvo, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Trenčianska Teplá, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.9357565, 'lon': 18.1222149, 'formatted_address': 'Slovenského národného povstania, 914 01 Trenčianska Teplá, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** národného povstania, 914 01 Trenčianska Teplá, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.13367 48.9562, 18.13399 48....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16033-2026-6-1/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16033-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 16033-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.10 s
+  gis_processing      :   2.62 s
+  CELKOVÝ ČAS         :  13.22 s
+------------------------------------------
+Dokument 16033-2026-6-1 bol úspešne spracovaný.

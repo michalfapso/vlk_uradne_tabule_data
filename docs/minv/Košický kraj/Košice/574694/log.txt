@@ -1,0 +1,64 @@
+[2026-09-03 20:24:56] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/574694'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/574694/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/574694/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'okresný úrad v sídle kraja určuje na potvrdenie záujmu byt' zúčastnenou osobou v uvedenom správnom konaní lehotu 5 pracovných dní od zverejnenia tohto'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona 'združenie s právnou subjektivitou uvedie v písomnom oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno a priezvi'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/574694/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011999}
+LLM_tokens: {"input": 5236, "output": 3127, "total": 8363, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 49 column 1 (char 1555)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010990699999999999}
+LLM_tokens: {"input": 5236, "output": 3093, "total": 8329, "cached": 2014}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/574694/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/574694/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Optická trasa Rožňava - Telgárt', 'nazov_lokality_norm': 'Rožňava - Telgárt'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Optická trasa Rožňava - Telgárt', 'nazov_lokality_norm': 'Rožňava - Telgárt'}
+No geometries were found.
+nazov_lokality: Rožňava - Telgárt
+get_geometry_of_a_geoname nazov_lokality: Rožňava - Telgárt
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** - Telgárt, Košice, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** - Telgárt, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** - Telgárt, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.7163857, 'lon': 21.2610746, 'formatted_address': 'Košice, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                     display_name
+0  POLYGON ((21.11996 48.76344, 21.12101 48.76179...  ...  Košice, Košický kraj, Slovensko
+
+[1 rows x 11 columns]
+geoname_query: Košice, Slovakia
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                     display_name
+0  POLYGON ((21.11996 48.76344, 21.12101 48.76179...  ...  Košice, Košický kraj, Slovensko
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/574694/gis.geojson...
+Intersections with protected areas...
+Found 9 intersecting parcels with '5st_konsUEV'.
+Found 5 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Košice, Košický kraj, Slovensko', 'NAZOV_UEV': 'Stredné Pohornádie', 'KOD_UEV': 'SKUEV0328'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NAZOV_UEV': 'Stredné Pohornádie', 'KOD_UEV': 'SKUEV0328'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NAZOV_UEV': 'Stredné Pohornádie', 'KOD_UEV': 'SKUEV0328'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NAZOV_UEV': 'Stredné Pohornádie', 'KOD_UEV': 'SKUEV0328'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NAZOV_UEV': 'Stredné Pohornádie', 'KOD_UEV': 'SKUEV0328'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NAZOV_UEV': 'Stredné Pohornádie', 'KOD_UEV': 'SKUEV0328'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NAZOV_UEV': 'Stredné Pohornádie', 'KOD_UEV': 'SKUEV0328'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NAZOV_UEV': 'Stredné Pohornádie', 'KOD_UEV': 'SKUEV0328'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NAZOV_UEV': 'Stredné Pohornádie', 'KOD_UEV': 'SKUEV0328'}], 'UEV': [{'parcel_label': 'Košice, Košický kraj, Slovensko', 'NATIONALSI': 'SKUEV0935', 'SITETITLE_': 'Haništiansky les'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NATIONALSI': 'SKUEV4010', 'SITETITLE_': 'Dolný tok Hornádu'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NATIONALSI': 'SKUEV4011', 'SITETITLE_': 'Črmeľ'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NATIONALSI': 'SKUEV4007', 'SITETITLE_': 'Dolný tok Torysy'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NATIONALSI': 'SKUEV0328', 'SITETITLE_': 'Stredné Pohornádie'}], 'MCHU': [{'parcel_label': 'Košice, Košický kraj, Slovensko', 'NATIONALSI': '1114', 'SITETITLE_': 'CHA Košická botanická záhrada'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NATIONALSI': '1074', 'SITETITLE_': 'PP Kavečianska stráň'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NATIONALSI': '869', 'SITETITLE_': 'PR Vysoký vrch'}], 'CHVU': [{'parcel_label': 'Košice, Košický kraj, Slovensko', 'NATIONALSI': 'SKCHVU009', 'SITETITLE_': 'Košická kotlina'}, {'parcel_label': 'Košice, Košický kraj, Slovensko', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/574694/analysis.json...
+
+--- Časy spracovania dokumentu 574694 ---
+  download_and_text   :   1.23 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  26.53 s
+  gis_processing      :   1.62 s
+  CELKOVÝ ČAS         :  29.38 s
+------------------------------------------
+Dokument 574694 bol úspešne spracovaný.
