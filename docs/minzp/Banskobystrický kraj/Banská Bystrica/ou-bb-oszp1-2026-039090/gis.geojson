@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "place_id": 188701338, "osm_type": "way", "osm_id": 71661228, "place_rank": 30, "category": "tourism", "type": "hotel", "importance": 0.3891971053939251, "addresstype": "tourism", "name": "Kráľova studňa", "display_name": "Kráľova studňa, 92, Dolný Harmanec, okres Banská Bystrica, Banskobystrický kraj, 976 03, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 19.0406955, 48.8762351 ], [ 19.0407071, 48.8762203 ], [ 19.0407939, 48.8761818 ], [ 19.0407619, 48.8761487 ], [ 19.0407887, 48.8761378 ], [ 19.0408161, 48.8761266 ], [ 19.0408482, 48.8761597 ], [ 19.0409518, 48.8761165 ], [ 19.0409766, 48.8761425 ], [ 19.0411771, 48.87606 ], [ 19.0412664, 48.876157 ], [ 19.0410441, 48.8762439 ], [ 19.0410745, 48.876277 ], [ 19.040962, 48.8763221 ], [ 19.0409338, 48.8762914 ], [ 19.0408463, 48.8763253 ], [ 19.0407729, 48.8762462 ], [ 19.0407305, 48.876261 ], [ 19.0407088, 48.8762564 ], [ 19.0406955, 48.8762351 ] ] ] } }
+]
+}

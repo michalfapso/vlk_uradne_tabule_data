@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": "OU-BJ-OSZP-2026/012393",
+  "cislo_rozhodnutia": "OU-BJ-OSZP-2025/001132-013",
+  "datum_dokumentu": "2026-09-03",
+  "datum_zverejnenia": "2026-09-03",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Zborov",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Bardejov",
+    "obec": "Zborov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zborov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "584/1",
+              "584/2",
+              "584/3",
+              "584/4",
+              "584/5",
+              "584"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "areál ČOV, pri vodnom toku Kamenec",
+    "nazov_lokality_norm": "Kamenec"
+  },
+  "typ_dokumentu": "Zverejnenie údajov podľa § 38 zákona č. 24/2006 Z. z.",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "Intenzifikácia prečerpávania na prítoku do ČOV",
+    "Intenzifikácia biologického stupňa ČOV",
+    "Intenzifikácia mechanického predčistenia",
+    "modernizácia technológie"
+  ],
+  "rozsah_zasahu": "zvýšenie kapacity ČOV o 500 EO na celkovo 3 500 EO",
+  "typ_uzemia": [
+    "ochranné pásmo vodného toku"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/cov-zborov-intenzifikacia-precerpavania-na-pritoku-do-cov-biologickeho",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "38",
+        "29",
+        "18",
+        "24"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "46",
+        "47"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o ochrane ovzdušia",
+      "cislo": "146/2023 Z. z.",
+      "paragrafy": [
+        "46"
+      ]
+    }
+  ],
+  "zhrnutie": "Projekt modernizácie a intenzifikácie existujúcej čistiarne odpadových vôd (ČOV) v obci Zborov s cieľom zvýšiť kapacitu na 3500 EO. Činnosť sa realizuje v existujúcom areáli v blízkosti toku Kamenec a podľa zisťovacieho konania sa nebude ďalej posudzovať podľa zákona EIA. Projekt sa nachádza v ochrannom pásme vodného toku v intraviláne obce.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

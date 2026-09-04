@@ -1,0 +1,154 @@
+{
+  "cislo_konania_spisu": "OU-SV-OSZP-2026/000222",
+  "cislo_rozhodnutia": "OU-SV-OSZP-2026/000222-011",
+  "datum_dokumentu": "2026-09-04",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom pojednávaní dňa 13.10.2026"
+  },
+  "ziadatel_navrhovatel": "Obec Ulič",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Snina",
+    "obec": "Ulič",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ulič",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "k.ú. Ulič",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Verejná vyhláška - upovedomenie o začatí spoločného vodoprávneho správneho konania",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "rozšírenie kanalizácie",
+    "užívanie stavby",
+    "osobitné užívanie vôd"
+  ],
+  "rozsah_zasahu": "líniová stavba",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "vodný zákon",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "21",
+        "26",
+        "61",
+        "71",
+        "73"
+      ]
+    },
+    {
+      "nazov": "stavebný zákon",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "77",
+        "80",
+        "120"
+      ]
+    },
+    {
+      "nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "správny poriadok",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "23"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí spoločného vodoprávneho konania vo veci kolaudácie líniovej stavby rozšírenia kanalizácie v obci Ulič. Konanie zahŕňa povolenie na užívanie stavby a na osobitné užívanie vôd. Ústne pojednávanie s možnosťou uplatniť námietky je nariadené na 13.10.2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Ulič",
+          "NAZOV_UEV": "Stinská",
+          "KOD_UEV": "SKUEV0210"
+        },
+        {
+          "parcel_label": "Ulič",
+          "NAZOV_UEV": "Stinská",
+          "KOD_UEV": "SKUEV0210"
+        },
+        {
+          "parcel_label": "Ulič",
+          "NAZOV_UEV": "Stinská",
+          "KOD_UEV": "SKUEV0210"
+        },
+        {
+          "parcel_label": "Ulič",
+          "NAZOV_UEV": "Stinská",
+          "KOD_UEV": "SKUEV0210"
+        },
+        {
+          "parcel_label": "Ulič",
+          "NAZOV_UEV": "Bukovské vrchy",
+          "KOD_UEV": "SKUEV0229"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Ulič",
+          "NATIONALSI": "SKUEV0210",
+          "SITETITLE_": "Stinská"
+        },
+        {
+          "parcel_label": "Ulič",
+          "NATIONALSI": "SKUEV0234",
+          "SITETITLE_": "Ulička"
+        },
+        {
+          "parcel_label": "Ulič",
+          "NATIONALSI": "SKUEV0229",
+          "SITETITLE_": "Bukovské vrchy"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Ulič",
+          "NATIONALSI": "665",
+          "SITETITLE_": "NPR Rožok"
+        },
+        {
+          "parcel_label": "Ulič",
+          "NATIONALSI": "868",
+          "SITETITLE_": "PR Uličská Ostrá"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Ulič",
+          "NATIONALSI": "SKCHVU002",
+          "SITETITLE_": "Bukovské vrchy"
+        }
+      ],
+      "UNESCO": [
+        {
+          "parcel_label": "Ulič",
+          "Nazov_chra": "Karpatske bukove pralesy a stare bukove lesy Nemecka",
+          "Kod_chrane": "UN02"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

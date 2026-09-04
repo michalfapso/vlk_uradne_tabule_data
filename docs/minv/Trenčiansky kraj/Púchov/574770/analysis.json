@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": "DS/PRIJ /2002/2026/11",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-03",
+  "datum_zverejnenia": "2026-09-01",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Púchov",
+    "obec": "Beluša",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zálužie",
+        "parcely": []
+      },
+      {
+        "nazov": "Beluša",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "vodná nádrž Dolné Kočkovce, Polackých laz, Markov laz, pod el. vedením č. 485 Bošáca - Varín",
+    "nazov_lokality_norm": "Dolné Kočkovce"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub náletových drevín",
+    "odstraňovanie a okliešťovanie stromov",
+    "výrub porastov v ochrannom pásme"
+  ],
+  "rozsah_zasahu": "náletové dreviny pod elektrickým vedením",
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube náletových drevín v ochrannom pásme elektrického vedenia č. 485 (Bošáca - Varín) v katastrálnych územiach Zálužie a Beluša. Výrub realizuje spoločnosť ENZA s.r.o. na základe poverenia od SEPS, a.s. z dôvodu bezpečnosti prevádzky vedenia s predpokladaným ukončením prác do 10.12.2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

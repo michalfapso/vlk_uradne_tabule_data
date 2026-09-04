@@ -1,0 +1,63 @@
+[2026-09-04 20:06:07] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/574764'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/574764/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/574764/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 104 písm. d)' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 108 ods.1 písm. h)' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 6' zákona '79/2015 Z. z. o odpadoch, že dňom nadobudnutia právoplatnosti tohto rozhodnutia vlastníctvo motorového vozidla zn. Mazda 323 červenej farby s evidenčn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67' zákona 'o odpadoch, nakoľko vozidlo zn. Mazda 323 červenej farby s evidenčným číslom AA5279CE'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 10' zákona 'o odpadoch, aby vlastník vozidla do 60 dní od vyvesenia výzvy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '11' zákona 'o odpadoch, aby vlastník vozidla do 60 dní od vyvesenia výzvy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 4' zákona 'o odpadoch spoločnosti Daniel Laluch AUTOLALUCH, 951 32 Horná Kráľová 181/118. V prípade, keď účastník konania alebo ich pobyt nie sú známi správny or'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 4' zákona 'o odpadoch spoločnosti Daniel Laluch AUTOLALUCH, 951 32 Horná Kráľova 181/118. Správny orgán na základe predmetného upovedomenia oznámil listom verejn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 5' zákona 'o odpadoch vo veci posúdenia technického stavu vozidla a prítomnosť všetkých jednoznačných identifikačných znakov, ktorými sú: - evidenčné číslo vozid'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 6' zákona 'o odpadoch v rozhodnutí zároveň určil, že vozidlo je starým vozidlom. Držiteľom predmetného starého vozidla sa po nadobudnutí právoplatnosti vydaného'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 60 ods. 8' zákona 'o odpadoch, stáva prevádzkovateľ určeného parkoviska Daniel Laluch AUTOLALUCH, 951 32 Horná Kráľova 181, ktorý je povinný spracovať predmetné staré vo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 97' zákona 'o odpadoch. Ku konaniu boli od Mesta Nitra doložené nasledovné podklady: - Oznámenie o dlhodobo parkujúcom vozidle Mestu Nitra od Mestskej polície v N'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/574764/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012824499999999999}
+LLM_tokens: {"input": 10469, "output": 2530, "total": 12999, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/574764/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/574764/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Nitra', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. Alexyho č.2, Nitra', 'nazov_lokality_norm': 'Alexyho, Nitra'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Nitra', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. Alexyho č.2, Nitra', 'nazov_lokality_norm': 'Alexyho, Nitra'}
+Fallback to OBEC: Nitra
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nitra norm_obec: nitra norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (11), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Alexyho, Nitra
+get_geometry_of_a_geoname nazov_lokality: Alexyho, Nitra
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Nitra, Nitra, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Nitra, Nitra, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Nitra, Nitriansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Nitra, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.306404, 'lon': 18.0616165, 'formatted_address': 'Alexyho, 949 11 Nitra, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 949 11 Nitra, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 574764 ---
+  download_and_text   :   1.44 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.93 s
+  gis_processing      :   1.28 s
+  CELKOVÝ ČAS         :  13.65 s
+------------------------------------------
+Dokument 574764 bol úspešne spracovaný.

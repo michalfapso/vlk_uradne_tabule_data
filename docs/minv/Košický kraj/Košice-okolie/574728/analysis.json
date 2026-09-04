@@ -1,0 +1,120 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2026/000110-012",
+  "cislo_rozhodnutia": "OU-KS-OSZP-2026/000110-0050473/2026",
+  "datum_dokumentu": "2026-09-02",
+  "datum_zverejnenia": "2026-09-03",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa oznámenia tohto rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Obec Ždaňa",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Ždaňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ždaňa",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "533/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "areál ČOV, recipient Turecký potok (rameno vodného toku Marovka)",
+    "nazov_lokality_norm": "Marovka"
+  },
+  "typ_dokumentu": "Rozhodnutie (povolenie zmeny vodnej stavby pred dokončením a vypúšťania odpadových vôd)",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE",
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "zmena vodnej stavby Kanalizácia a ČOV Ždaňa",
+    "vypúšťanie odpadových vôd",
+    "stavebné a technologické úpravy ČOV",
+    "výstavba nových objektov",
+    "prípadný výrub drevín"
+  ],
+  "rozsah_zasahu": "ČOV pre 1680 EO, vypúšťanie 226,8 m3/deň odpadových vôd",
+  "typ_uzemia": [
+    "1. stupeň"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "stromy",
+    "krovie",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "21",
+        "24",
+        "26",
+        "47",
+        "61",
+        "73"
+      ]
+    },
+    {
+      "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "43i",
+        "61",
+        "66",
+        "67",
+        "68",
+        "120"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "46",
+        "53"
+      ]
+    },
+    {
+      "nazov": "o odpadoch",
+      "cislo": "79/2015 Z. z.",
+      "paragrafy": [
+        "13",
+        "14",
+        "77",
+        "99"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o povolení modernizácie a dostavby ČOV v obci Ždaňa na kapacitu 1680 EO a súhlas s vypúšťaním vyčistených vôd do toku Marovka. Projekt zahŕňa výstavbu nových technologických objektov v existujúcom areáli ČOV a prípadný výrub drevín riešený samostatným konaním. Stanovené sú prísne limitné hodnoty znečistenia a monitoring kvality vody počas 12-mesačnej skúšobnej prevádzky.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "533/2",
+          "NATIONALSI": "SKCHVU009",
+          "SITETITLE_": "Košická kotlina"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

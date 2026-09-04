@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": "0008139/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-03",
+  "datum_zverejnenia": "2026-09-03",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Ilava",
+    "obec": "Bolešov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bolešov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "195/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo dráhy",
+    "nazov_lokality_norm": "Bolešov"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 9 ks drevín"
+  ],
+  "rozsah_zasahu": "9 ks drevín (jaseň, orech)",
+  "typ_uzemia": [
+    "ochranné pásmo dráhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "jaseň",
+    "orech"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o Železniciach Slovenskej republiky",
+      "cislo": "258/1993",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o dráhach a o zmene a doplnení niektorých zákonov",
+      "cislo": "513/2009",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Železnice Slovenskej republiky oznamujú plánovaný výrub 9 kusov drevín (jaseň, orech) v katastrálnom území Bolešov na parcele C-KN 195/2. Výrub sa uskutoční v ochrannom pásme dráhy v období od októbra 2026 do februára 2027 z dôvodu bezpečnosti železničnej prevádzky.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

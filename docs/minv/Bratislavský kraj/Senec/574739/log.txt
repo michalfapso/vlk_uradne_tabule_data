@@ -1,0 +1,76 @@
+[2026-09-04 20:04:39] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/574739'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/574739/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/574739/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 24 ods. 1 písm. i)' zákona '24/2006 Z. z. o posudzovaní  vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1 písm. a)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení  niektorých zákonov v znení neskorších predpisov, ako správny'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 1 písm. c)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení  niektorých zákonov v znení neskorších predpisov, ako správny'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 písm. l)' zákona ', oznamuje podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 56 písm. b)' zákona ', oznamuje podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 3 písm. a)' zákona ', že proti záväznému stanovisku zo zisťovacieho konania č. OU-SC-OSZP- 2026/007488-020 zo dňa 22. 07. 2026 pre oznámenie o zmene navrhovanej činnosti'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 15' zákona 'o posudzovaní má odvolateľ právo nahliadať do spisu, robiť si z  neho výpisy, odpisy a kópie.    Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 4' zákona 'o posudzovaní príslušný orgán po uplynutí lehoty podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 odseku  3 písm. c)' zákona 'o posudzovaní predloží bezodkladne, najneskôr však do desiatich dní, podané  odvolanie spolu s administratívnym spisom vrátane doručených vyjadrení sv'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 8' zákona 'o posudzovaní odvolací orgán preskúma napadnuté rozhodnutie v  celom rozsahu; ak je to nevyhnutné, doterajšie konanie doplní, prípadne zistené vady'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/574739/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014629000000000001}
+LLM_tokens: {"input": 4898, "output": 4060, "total": 8958, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/574739/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/574739/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Boldog', 'katastralne_uzemia': [{'nazov': 'Boldog', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Rekreačná lokalita Boldog – 2. etapa', 'nazov_lokality_norm': 'Boldog'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Boldog', 'katastralne_uzemia': [{'nazov': 'Boldog', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Rekreačná lokalita Boldog – 2. etapa', 'nazov_lokality_norm': 'Boldog'}
+ku_name:Boldog obec:Boldog okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: boldog norm_ku: boldog
+_get_nationalCadastralZoningReferences() found_ids: {'803570'}
+nationalCadastralZoningReferences: ['803570']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Boldog
+get_geometry_of_a_geoname nazov_lokality: Boldog
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Boldog, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.42373 48.23533, 17.42422 48.23442...  ...  Boldog, okres Senec, Bratislavský kraj, Slovensko
+1  POLYGON ((17.41146 48.22458, 17.41155 48.22455...  ...  Boldog, okres Senec, Bratislavský kraj, Slovensko
+
+[2 rows x 11 columns]
+geoname_query: Boldog, Boldog, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.42446 48.2488, 17.42462 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.42373 48.23533, 17.42422 48.23442...  ...  Boldog, okres Senec, Bratislavský kraj, Slovensko
+1  POLYGON ((17.41146 48.22458, 17.41155 48.22455...  ...  Boldog, okres Senec, Bratislavský kraj, Slovensko
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/574739/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Boldog', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/574739/analysis.json...
+
+--- Časy spracovania dokumentu 574739 ---
+  download_and_text   :   0.89 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  18.18 s
+  gis_processing      :   0.88 s
+  CELKOVÝ ČAS         :  19.95 s
+------------------------------------------
+Dokument 574739 bol úspešne spracovaný.

@@ -1,0 +1,81 @@
+[2026-09-04 20:07:40] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Snina/574756'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Snina/574756/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Snina/574756/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. 1 písm. c)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona '364/2004 Z. z. o vodách a o zmene zákona č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 77' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71 ods. 1' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. c)' zákona 'vodného zákona, v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120 ods. 1' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '6' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 77' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '80' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 1' zákona 'stavebného zákona u p o v e d o m u j e účastníkov konania a dotknuté orgány o začatí spoločného vodoprávneho správneho konania vo veci návrhu na vyda'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. 1 písm. c)' zákona 'vodného zákona a zároveň nariaďuje ústne pojednávanie, ktoré sa uskutoční ____________________________________________________________________________'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80 ods. 2' zákona 'stavebného zákona, stavebný úrad upozorňuje, že účastníci konania a dotknuté orgány môžu svoje námietky a stanoviská týkajúce sa skutočností, ktoré sa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80 ods. 1' zákona 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona. Táto verejná vyhláška - upovedomenie o začatí spoločného vodoprávneho správneho konania sa vyvesí na úradnej tabuli obce Ulič, Ulič 89'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Snina/574756/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014662499999999998}
+LLM_tokens: {"input": 7305, "output": 3670, "total": 10975, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Snina/574756/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Snina/574756/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Snina', 'obec': 'Ulič', 'katastralne_uzemia': [{'nazov': 'Ulič', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'k.ú. Ulič', 'nazov_lokality_norm': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Snina', 'obec': 'Ulič', 'katastralne_uzemia': [{'nazov': 'Ulič', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'k.ú. Ulič', 'nazov_lokality_norm': None}
+ku_name:Ulič obec:Ulič okres:Snina kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: snina norm_obec: ulic norm_ku: ulic
+_get_nationalCadastralZoningReferences() found_ids: {'866440'}
+nationalCadastralZoningReferences: ['866440']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: k.ú. Ulič
+get_geometry_of_a_geoname nazov_lokality: k.ú. Ulič
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ulič, Ulič, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ulič, Snina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ulič, Prešovský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ulič, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.9631913, 'lon': 22.4236834, 'formatted_address': '067 67 Ulič, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 67 Ulič, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((22.41258 48.99221, 22.41211 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Snina/574756/gis.geojson...
+Intersections with protected areas...
+Found 5 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+Found 1 intersecting parcels with 'UNESCO'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Ulič', 'NAZOV_UEV': 'Stinská', 'KOD_UEV': 'SKUEV0210'}, {'parcel_label': 'Ulič', 'NAZOV_UEV': 'Stinská', 'KOD_UEV': 'SKUEV0210'}, {'parcel_label': 'Ulič', 'NAZOV_UEV': 'Stinská', 'KOD_UEV': 'SKUEV0210'}, {'parcel_label': 'Ulič', 'NAZOV_UEV': 'Stinská', 'KOD_UEV': 'SKUEV0210'}, {'parcel_label': 'Ulič', 'NAZOV_UEV': 'Bukovské vrchy', 'KOD_UEV': 'SKUEV0229'}], 'UEV': [{'parcel_label': 'Ulič', 'NATIONALSI': 'SKUEV0210', 'SITETITLE_': 'Stinská'}, {'parcel_label': 'Ulič', 'NATIONALSI': 'SKUEV0234', 'SITETITLE_': 'Ulička'}, {'parcel_label': 'Ulič', 'NATIONALSI': 'SKUEV0229', 'SITETITLE_': 'Bukovské vrchy'}], 'MCHU': [{'parcel_label': 'Ulič', 'NATIONALSI': '665', 'SITETITLE_': 'NPR Rožok'}, {'parcel_label': 'Ulič', 'NATIONALSI': '868', 'SITETITLE_': 'PR Uličská Ostrá'}], 'CHVU': [{'parcel_label': 'Ulič', 'NATIONALSI': 'SKCHVU002', 'SITETITLE_': 'Bukovské vrchy'}], 'UNESCO': [{'parcel_label': 'Ulič', 'Nazov_chra': 'Karpatske bukove pralesy a stare bukove lesy Nemecka', 'Kod_chrane': 'UN02'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Snina/574756/analysis.json...
+
+--- Časy spracovania dokumentu 574756 ---
+  download_and_text   :   0.96 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.56 s
+  gis_processing      :   3.10 s
+  CELKOVÝ ČAS         :  18.62 s
+------------------------------------------
+Dokument 574756 bol úspešne spracovaný.

@@ -1,0 +1,126 @@
+{
+  "cislo_konania_spisu": "OU-PD-OSZP-2026/023955",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-01",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Urbárska spoločnosť PS Banky",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Diviaky nad Nitricou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Banky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "207",
+              "208"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Žiadosť o vydanie súhlasu na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "158 ks stromov (najmä borovica, dub, topoľ osikový)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o výrub 158 kusov drevín (prevažne borovice a duby) v extraviláne obce Diviaky nad Nitricou v katastrálnom území Banky. Účelom výrubu je úprava pozemkov pre prípravu krmiva pre dobytok. Ide o začiatok konania s lehotou 5 pracovných dní na potvrdenie záujmu o účasť.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NATIONALSI": "SKUEV0128",
+          "SITETITLE_": "Rokoš"
+        },
+        {
+          "parcel_label": "Ješkova Ves",
+          "NATIONALSI": "SKUEV0128",
+          "SITETITLE_": "Rokoš"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NATIONALSI": "147",
+          "SITETITLE_": "NPR Rokoš"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Ješkova Ves",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

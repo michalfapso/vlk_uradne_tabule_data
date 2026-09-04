@@ -1,0 +1,59 @@
+[2026-09-04 20:04:22] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/574772'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/574772/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/574772/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 24 ods. 1 písm. i)' zákona '24/2006 Z. z. o  posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v  znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1' zákona '525/2003 Z. z.  o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v  znení neskorších predpisov, ako správn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z.  o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v  znení neskorších predpisov, ako správn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 písm. l)' zákona 'b)  zákona oznamuje podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 56' zákona 'b)  zákona oznamuje podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 2' zákona ', že proti záväznému  stanovisku zo zisťovacieho konania č. OU-MA-OSZP-2026/033655-015 zo dňa 20. 08. 2026  pre zámer navrhovanej činnosti „OC Stupava'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 písm. t)' zákona ', ktorá podala  odvolanie podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 2' zákona ', navrhovateľ a dotknutá obec, na ktorej území sa má  navrhovaná činnosť alebo jej zmena realizovať, vyjadriť v lehote 10 dní od doručenia a svoje  vy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3  písm. t)' zákona ', ktorá podala odvolanie podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 2' zákona 'nahliadať do  spisového materiálu ohľadom navrhovanej činnosti'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/574772/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011924}
+LLM_tokens: {"input": 4900, "output": 3158, "total": 8058, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/574772/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/574772/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Stupava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'OC Stupava', 'nazov_lokality_norm': 'OC Stupava'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Stupava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'OC Stupava', 'nazov_lokality_norm': 'OC Stupava'}
+Fallback to OBEC: Stupava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: stupava norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (6), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: OC Stupava
+get_geometry_of_a_geoname nazov_lokality: OC Stupava
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Stupava, Stupava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Stupava, Malacky, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Stupava, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Stupava, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.27491610000001, 'lon': 17.0318828, 'formatted_address': '900 31 Stupava, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 31 Stupava, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 574772 ---
+  download_and_text   :   0.82 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.47 s
+  gis_processing      :   1.88 s
+  CELKOVÝ ČAS         :  17.18 s
+------------------------------------------
+Dokument 574772 bol úspešne spracovaný.

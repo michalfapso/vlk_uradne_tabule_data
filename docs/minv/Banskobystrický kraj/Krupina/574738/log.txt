@@ -1,0 +1,56 @@
+[2026-09-04 20:03:12] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/574738'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/574738/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/574738/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/574738/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0076556}
+LLM_tokens: {"input": 4966, "output": 2026, "total": 6992, "cached": 2012}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/574738/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/574738/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Krupina', 'obec': 'Krupina', 'katastralne_uzemia': [{'nazov': 'Krupina', 'parcely': [{'typ': 'E', 'cisla': ['6137/3', '6137/7']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Krupina', 'obec': 'Krupina', 'katastralne_uzemia': [{'nazov': 'Krupina', 'parcely': [{'typ': 'E', 'cisla': ['6137/3', '6137/7']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Krupina obec:Krupina okres:Krupina kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: krupina norm_obec: krupina norm_ku: krupina
+_get_nationalCadastralZoningReferences() found_ids: {'829498'}
+nationalCadastralZoningReferences: ['829498']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.97 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'E', 'cisla': ['6137/3', '6137/7']}' v KU 'Krupina' sa nenašli dáta.
+Fallback to OBEC: Krupina
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: krupina norm_obec: krupina norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'829498'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.03726 48.44051, 19.03731 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/574738/gis.geojson...
+Intersections with protected areas...
+Found 19 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}, {'parcel_label': 'Krupina', 'NAZOV_UEV': 'Mäsiarsky bok', 'KOD_UEV': 'SKUEV0260'}], 'UEV': [{'parcel_label': 'Krupina', 'NATIONALSI': 'SKUEV0260', 'SITETITLE_': 'Mäsiarsky bok'}, {'parcel_label': 'Krupina', 'NATIONALSI': 'SKUEV0266', 'SITETITLE_': 'Skalka'}], 'MCHU': [{'parcel_label': 'Krupina', 'NATIONALSI': '349', 'SITETITLE_': 'NPR Masiarsky bok'}, {'parcel_label': 'Krupina', 'NATIONALSI': '444', 'SITETITLE_': 'PP Krupinské bralce'}, {'parcel_label': 'Krupina', 'NATIONALSI': '416', 'SITETITLE_': 'PP Sixova stráň'}, {'parcel_label': 'Krupina', 'NATIONALSI': '259', 'SITETITLE_': 'PR Holý vrch'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/574738/analysis.json...
+
+--- Časy spracovania dokumentu 574738 ---
+  download_and_text   :   0.72 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   8.84 s
+  gis_processing      :   3.52 s
+  CELKOVÝ ČAS         :  13.09 s
+------------------------------------------
+Dokument 574738 bol úspešne spracovaný.

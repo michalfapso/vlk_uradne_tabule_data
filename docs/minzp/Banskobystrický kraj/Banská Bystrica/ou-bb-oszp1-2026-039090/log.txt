@@ -1,0 +1,47 @@
+[2026-09-04 20:12:49] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039090'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039090/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039090/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 2 písm. e)' zákona ', a povolenie výnimky na organizovanie verejného podujatia pri príležitosti Svetového dňa cestovného ruchu v bezprostrednom okolí Horského hotela Kráľ'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039090/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0103625}
+LLM_tokens: {"input": 5821, "output": 2484, "total": 8305, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039090/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039090/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'v bezprostrednom okolí Horského hotela Kráľova studňa', 'nazov_lokality_norm': 'Kráľova studňa'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'v bezprostrednom okolí Horského hotela Kráľova studňa', 'nazov_lokality_norm': 'Kráľova studňa'}
+No geometries were found.
+nazov_lokality: Kráľova studňa
+get_geometry_of_a_geoname nazov_lokality: Kráľova studňa
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** studňa, Banská Bystrica, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.0407 48.87624, 19.04071 48.87622,...  ...  Kráľova studňa, 92, Dolný Harmanec, okres Bans...
+
+[1 rows x 11 columns]
+geoname_query: Kráľova studňa, Banská Bystrica, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.0407 48.87624, 19.04071 48.87622,...  ...  Kráľova studňa, 92, Dolný Harmanec, okres Bans...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039090/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Kráľova studňa, 92, Dolný Harmanec, okres Banská Bystrica, Banskobystrický kraj, 976 03, Slovensko', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}], 'CHVU': [{'parcel_label': 'Kráľova studňa, 92, Dolný Harmanec, okres Banská Bystrica, Banskobystrický kraj, 976 03, Slovensko', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039090/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp1-2026-039090 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.39 s
+  gis_processing      :   0.59 s
+  CELKOVÝ ČAS         :  12.50 s
+------------------------------------------
+Dokument ou-bb-oszp1-2026-039090 bol úspešne spracovaný.
