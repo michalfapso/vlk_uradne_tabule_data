@@ -1,0 +1,135 @@
+{
+  "cislo_konania_spisu": "OU-SK-OSZP-2026/005720-008",
+  "cislo_rozhodnutia": "OU-SK-OSZP-2026/005720-008",
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Svidníčka",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Svidník",
+    "obec": "Svidníčka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Svidníčka",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "311",
+              "315",
+              "444",
+              "452/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1016"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "recipient Svidníčanka v rkm 3,80",
+    "nazov_lokality_norm": "Svidníčanka"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom zámere",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "novostavba ČOV",
+    "výpustný objekt",
+    "NN prípojka",
+    "oplotenie",
+    "vypúšťanie vyčistených odpadových vôd"
+  ],
+  "rozsah_zasahu": "kapacita ČOV 150 EO, množstvo odpadových vôd 22,5 m3 na deň",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5",
+        "16"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "183/2013 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "58",
+        "61",
+        "73"
+      ]
+    },
+    {
+      "nazov": "o priestupkoch",
+      "cislo": "372/1990 Zb.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "46",
+        "47"
+      ]
+    },
+    {
+      "nazov": "o štruktúre prevádzke informačného systému územného plánovania a výstavby",
+      "cislo": "60/2025 Z. z.",
+      "paragrafy": [
+        "14"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o povolení stavby obecnej čistiarne odpadových vôd (ČOV) v obci Svidníčka pre 150 ekvivalentných obyvateľov. Areál sa nachádza v extraviláne a zahŕňa výstavbu technologických objektov, oplotenie a výpustný objekt do toku Svidníčanka. Ide o technickú inštaláciu s denným prietokom 22,5 m3.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "444",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        },
+        {
+          "parcel_label": "452/1",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        },
+        {
+          "parcel_label": "311",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        },
+        {
+          "parcel_label": "1016",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

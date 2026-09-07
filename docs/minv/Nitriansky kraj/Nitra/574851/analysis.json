@@ -1,0 +1,130 @@
+{
+  "cislo_konania_spisu": "OU-NR-OSŽP3-2026/046884",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-25",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Západoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nitra",
+    "obec": "Nitra",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dražovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2138",
+              "2158/2",
+              "2163/1",
+              "2196/2",
+              "2137/1",
+              "2161/1",
+              "2173",
+              "2178/1",
+              "2174/1",
+              "2136/4",
+              "2176",
+              "2159/2",
+              "2177"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "OP 22 kV vzdušného elektrického vedenia",
+    "nazov_lokality_norm": "22 kV vzdušné elektrické vedenie"
+  },
+  "typ_dokumentu": "Oznámenie o výrube stromov mimo správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "orezy a výrub drevín po veternej smršti",
+    "výrub v OP 22 kV vzdušného elektrického vedenia"
+  ],
+  "rozsah_zasahu": "orezy a výrub drevín v ochrannom pásme 22 kV elektrického vedenia na 13 parcelách",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47 ods. 7",
+        "47 ods. 8",
+        "81 ods. 2 písm. m)"
+      ]
+    },
+    {
+      "nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "cislo": "251/2012 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o výrube a oreze drevín po veternej smršti v katastrálnom území Dražovce (Nitra). Zásah realizuje Západoslovenská distribučná, a.s. v ochrannom pásme 22 kV elektrického vedenia. Konanie prebieha v zjednodušenom režime mimo správneho konania podľa zákona o ochrane prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "2174/1",
+          "NATIONALSI": "SKUEV0130",
+          "SITETITLE_": "Zobor"
+        },
+        {
+          "parcel_label": "2173",
+          "NATIONALSI": "SKUEV0130",
+          "SITETITLE_": "Zobor"
+        },
+        {
+          "parcel_label": "2163/1",
+          "NATIONALSI": "SKUEV0130",
+          "SITETITLE_": "Zobor"
+        },
+        {
+          "parcel_label": "2161/1",
+          "NATIONALSI": "SKUEV0130",
+          "SITETITLE_": "Zobor"
+        },
+        {
+          "parcel_label": "2159/2",
+          "NATIONALSI": "SKUEV0130",
+          "SITETITLE_": "Zobor"
+        },
+        {
+          "parcel_label": "2178/1",
+          "NATIONALSI": "SKUEV0130",
+          "SITETITLE_": "Zobor"
+        },
+        {
+          "parcel_label": "2177",
+          "NATIONALSI": "SKUEV0130",
+          "SITETITLE_": "Zobor"
+        },
+        {
+          "parcel_label": "2176",
+          "NATIONALSI": "SKUEV0130",
+          "SITETITLE_": "Zobor"
+        },
+        {
+          "parcel_label": "2138",
+          "NATIONALSI": "SKUEV0130",
+          "SITETITLE_": "Zobor"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

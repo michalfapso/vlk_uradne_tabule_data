@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-SN-OSZP-2026/017995-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-02",
+  "datum_zverejnenia": "2026-09-02",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Ing. Silvester Hradiský",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Spišská Nová Ves",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "národnej kultúrnej pamiatky Spišský hrad a jeho bezprostrednom okolí",
+    "nazov_lokality_norm": "Spišský hrad"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "vykonanie letu bezpilotným prostriedkom (dronom)"
+  ],
+  "rozsah_zasahu": "let dronom za účelom zhotovenia vizuálneho záznamu pamiatky",
+  "typ_uzemia": [
+    "3. stupeň",
+    "tretí stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "82 ods. 3",
+        "15 ods. 2 písm. a)",
+        "14 ods. 2 písm. d)"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti o súhlas na let dronom v lokalite Spišský hrad. Činnosť sa má realizovať v území s 3. stupňom ochrany za účelom vizuálneho záznamu. Verejnosť môže potvrdiť záujem byť účastníkom konania do 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Spišský hrad, 18, Spišská Kapitula, Spišské Podhradie, okres Levoča, Prešovský kraj, 053 06, Slovensko",
+          "NATIONALSI": "SKUEV0105",
+          "SITETITLE_": "Spišskopodhradské travertíny"
+        },
+        {
+          "parcel_label": "Spišský Hrad, 3215, Spišské Podhradie, okres Levoča, Prešovský kraj, 053 04, Slovensko",
+          "NATIONALSI": "SKUEV0105",
+          "SITETITLE_": "Spišskopodhradské travertíny"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Spišský hrad, 18, Spišská Kapitula, Spišské Podhradie, okres Levoča, Prešovský kraj, 053 06, Slovensko",
+          "NATIONALSI": "682",
+          "SITETITLE_": "NPP Spišský hradný vrch"
+        }
+      ]
+    },
+    "source_type": "GEONAME"
+  }
+}

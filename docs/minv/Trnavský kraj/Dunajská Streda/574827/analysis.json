@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Dan-Slovakia Agrar a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Dunajská Streda",
+    "obec": "Veľký Meder",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Veľký Meder",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "472/90"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Nový Dvor",
+    "nazov_lokality_norm": "Nový Dvor"
+  },
+  "typ_dokumentu": "Žiadosť o výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "minimálne 3 stromy (breza, topoľ, orech)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "Breza",
+    "Topoľ",
+    "Orech"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [],
+  "zhrnutie": "Žiadosť spoločnosti Dan-Slovakia Agrar a.s. o výrub stromov (breza, topoľ, orech) v lokalite Nový Dvor, Veľký Meder. Dôvodom je ohrozenie zdravia a majetku kvôli suchému alebo nalomenému stavu drevín na parcele 472/90.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "OBEC"
+  }
+}

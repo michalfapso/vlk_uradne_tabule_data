@@ -1,0 +1,64 @@
+[2026-09-07 21:00:26] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574847'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574847/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574847/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58a' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 4' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.015442500000000001}
+LLM_tokens: {"input": 4635, "output": 4375, "total": 9010, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574847/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574847/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Trenčín', 'katastralne_uzemia': [{'nazov': 'Nozdrkovce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Obytná zóna Bobrovnícka sihoť, Nozdrkovce', 'nazov_lokality_norm': 'Bobrovnícka sihoť, Nozdrkovce'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Trenčín', 'katastralne_uzemia': [{'nazov': 'Nozdrkovce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Obytná zóna Bobrovnícka sihoť, Nozdrkovce', 'nazov_lokality_norm': 'Bobrovnícka sihoť, Nozdrkovce'}
+ku_name:Nozdrkovce obec:Trenčín okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: trencin norm_ku: nozdrkovce
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: nozdrkovce
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: nozdrkovce
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: nozdrkovce
+Fuzzy match found: 'Nozdrkovce' -> 'Norovce' (ID: 841226)
+nationalCadastralZoningReferences: ['841226']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Bobrovnícka sihoť, Nozdrkovce
+get_geometry_of_a_geoname nazov_lokality: Bobrovnícka sihoť, Nozdrkovce
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** sihoť, Nozdrkovce, Trenčín, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** sihoť, Nozdrkovce, Trenčín, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** sihoť, Nozdrkovce, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** sihoť, Nozdrkovce, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.87611, 'lon': 18.00494, 'formatted_address': 'Nozdrkovce, 911 01 Trenčín, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 911 01 Trenčín, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.18125 48.6465, 18.18132 48....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574847/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574847/analysis.json...
+
+--- Časy spracovania dokumentu 574847 ---
+  download_and_text   :   1.98 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.86 s
+  gis_processing      :   2.03 s
+  CELKOVÝ ČAS         :  20.88 s
+------------------------------------------
+Dokument 574847 bol úspešne spracovaný.

@@ -1,0 +1,49 @@
+[2026-09-07 21:06:17] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-080015-buk'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-080015-buk/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-080015-buk/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009221}
+LLM_tokens: {"input": 4480, "output": 2327, "total": 6807, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-080015-buk/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-080015-buk/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'poľovný revír Babia Hora', 'nazov_lokality_norm': 'Babia Hora'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'poľovný revír Babia Hora', 'nazov_lokality_norm': 'Babia Hora'}
+No geometries were found.
+nazov_lokality: Babia Hora
+get_geometry_of_a_geoname nazov_lokality: Babia Hora
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hora, Žilina, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.46791 49.59179, 19.46798 49.59113...  ...  Babia hora, Oravská Polhora, okres Námestovo, ...
+1  POLYGON ((19.48464 49.58549, 19.48473 49.58503...  ...  Babia hora, Oravská Polhora, okres Námestovo, ...
+
+[2 rows x 11 columns]
+geoname_query: Babia Hora, Žilina, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.46791 49.59179, 19.46798 49.59113...  ...  Babia hora, Oravská Polhora, okres Námestovo, ...
+1  POLYGON ((19.48464 49.58549, 19.48473 49.58503...  ...  Babia hora, Oravská Polhora, okres Námestovo, ...
+
+[2 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-080015-buk/gis.geojson...
+Intersections with protected areas...
+Found 6 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Babia hora, Oravská Polhora, okres Námestovo, Žilinský kraj, Slovensko', 'NAZOV_UEV': 'Babia hora', 'KOD_UEV': 'SKUEV0189'}, {'parcel_label': 'Babia hora, Oravská Polhora, okres Námestovo, Žilinský kraj, Slovensko', 'NAZOV_UEV': 'Babia hora', 'KOD_UEV': 'SKUEV0189'}, {'parcel_label': 'Babia hora, Oravská Polhora, okres Námestovo, Žilinský kraj, Slovensko', 'NAZOV_UEV': 'Babia hora', 'KOD_UEV': 'SKUEV0189'}, {'parcel_label': 'Babia hora, Oravská Polhora, okres Námestovo, Žilinský kraj, Slovensko', 'NAZOV_UEV': 'Babia hora', 'KOD_UEV': 'SKUEV0189'}, {'parcel_label': 'Babia hora, Oravská Polhora, okres Námestovo, Žilinský kraj, Slovensko', 'NAZOV_UEV': 'Babia hora', 'KOD_UEV': 'SKUEV0189'}, {'parcel_label': 'Babia hora, Oravská Polhora, okres Námestovo, Žilinský kraj, Slovensko', 'NAZOV_UEV': 'Babia hora', 'KOD_UEV': 'SKUEV0189'}], 'UEV': [{'parcel_label': 'Babia hora, Oravská Polhora, okres Námestovo, Žilinský kraj, Slovensko', 'NATIONALSI': 'SKUEV0189', 'SITETITLE_': 'Babia hora'}, {'parcel_label': 'Babia hora, Oravská Polhora, okres Námestovo, Žilinský kraj, Slovensko', 'NATIONALSI': 'SKUEV0189', 'SITETITLE_': 'Babia hora'}], 'CHVU': [{'parcel_label': 'Babia hora, Oravská Polhora, okres Námestovo, Žilinský kraj, Slovensko', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': 'Babia hora, Oravská Polhora, okres Námestovo, Žilinský kraj, Slovensko', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-080015-buk/analysis.json...
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-080015-buk ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   9.01 s
+  gis_processing      :   0.50 s
+  CELKOVÝ ČAS         :  10.27 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-080015-buk bol úspešne spracovaný.

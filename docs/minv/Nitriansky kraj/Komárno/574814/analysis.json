@@ -1,0 +1,72 @@
+{
+  "cislo_konania_spisu": "OU-KN-OSŽP-2026/019862",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-09-03",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Ivan Schuster",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Komárno",
+    "obec": "Komárno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Komárno",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "12071/13"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "pri pravom brehu Váh rkm 3920 - 3900",
+    "nazov_lokality_norm": "Váh, Komárno"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "státie plávajúceho zariadenia",
+    "umiestnenie zariadenia na vodnom toku"
+  ],
+  "rozsah_zasahu": "1 plávajúce zariadenie",
+  "typ_uzemia": [
+    "2. stupeň",
+    "chránené územie alebo jeho ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "68 písm. w)",
+        "13 ods. 2 písm. m)"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci súhlasu na predĺženie povolenia na státie plávajúceho zariadenia. Zásah sa nachádza na rieke Váh v katastrálnom území Komárno v chránenom území s druhým stupňom ochrany.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "12071/13",
+          "NATIONALSI": "SKUEV0819",
+          "SITETITLE_": "Vážsky Dunaj"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

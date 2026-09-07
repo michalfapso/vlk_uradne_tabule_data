@@ -1,0 +1,63 @@
+[2026-09-07 21:05:56] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039232'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039232/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039232/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039232/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.015307499999999998}
+LLM_tokens: {"input": 5805, "output": 4135, "total": 9940, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039232/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039232/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Hriňová', 'katastralne_uzemia': [{'nazov': 'Hriňová', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'k.ú. Hriňová', 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Hriňová', 'katastralne_uzemia': [{'nazov': 'Hriňová', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'k.ú. Hriňová', 'nazov_lokality_norm': None}
+ku_name:Hriňová obec:Hriňová okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: hrinova norm_ku: hrinova
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: None norm_ku: hrinova
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: hrinova
+_get_nationalCadastralZoningReferences() found_ids: {'819298'}
+nationalCadastralZoningReferences: ['819298']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.52 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: k.ú. Hriňová
+get_geometry_of_a_geoname nazov_lokality: k.ú. Hriňová
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hriňová, Hriňová, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hriňová, Banská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hriňová, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hriňová, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.7370622, 'lon': 19.1566127, 'formatted_address': '7, Námestie Slobody 6283, 974 01 Banská Bystrica, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Námestie Slobody 6283, 974 01 Banská Bystrica, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.52302 48.66095, 19.52385 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039232/gis.geojson...
+Intersections with protected areas...
+Found 33 intersecting parcels with '5st_konsUEV'.
+Found 4 intersecting parcels with 'UEV'.
+Found 8 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Koryto', 'KOD_UEV': 'SKUEV0009'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Hriňová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}], 'UEV': [{'parcel_label': 'Hriňová', 'NATIONALSI': 'SKUEV0046', 'SITETITLE_': 'Javorinka'}, {'parcel_label': 'Hriňová', 'NATIONALSI': 'SKUEV0009', 'SITETITLE_': 'Koryto'}, {'parcel_label': 'Hriňová', 'NATIONALSI': 'SKUEV0045', 'SITETITLE_': 'Kopa'}, {'parcel_label': 'Hriňová', 'NATIONALSI': 'SKUEV0319', 'SITETITLE_': 'Poľana'}], 'MCHU': [{'parcel_label': 'Hriňová', 'NATIONALSI': '1315', 'SITETITLE_': 'PR Pralesy Slovenska-Kútik'}, {'parcel_label': 'Hriňová', 'NATIONALSI': '1288', 'SITETITLE_': 'PR Pralesy Slovenska-Bystrý potok'}, {'parcel_label': 'Hriňová', 'NATIONALSI': '1309', 'SITETITLE_': 'PR Pralesy Slovenska-Koryto'}, {'parcel_label': 'Hriňová', 'NATIONALSI': '476', 'SITETITLE_': 'NPP Vodopád Bystrého potoka'}, {'parcel_label': 'Hriňová', 'NATIONALSI': '1279', 'SITETITLE_': 'PR Pralesy Slovenska-Bartkovo'}, {'parcel_label': 'Hriňová', 'NATIONALSI': '1326', 'SITETITLE_': 'PR Pralesy Slovenska-Poľana'}, {'parcel_label': 'Hriňová', 'NATIONALSI': '383', 'SITETITLE_': 'NPR Zadná Poľana'}, {'parcel_label': 'Hriňová', 'NATIONALSI': '379', 'SITETITLE_': 'PR Pod Dudášom'}], 'CHVU': [{'parcel_label': 'Hriňová', 'NATIONALSI': 'SKCHVU022', 'SITETITLE_': 'Poľana'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-039232/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp1-2026-039232 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  16.72 s
+  gis_processing      :   3.18 s
+  CELKOVÝ ČAS         :  20.48 s
+------------------------------------------
+Dokument ou-bb-oszp1-2026-039232 bol úspešne spracovaný.

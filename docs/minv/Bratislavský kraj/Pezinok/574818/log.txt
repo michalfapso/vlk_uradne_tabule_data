@@ -1,0 +1,77 @@
+[2026-09-07 20:57:17] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/574818'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/574818/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/574818/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm.  b)' zákona '251/2012 Z.z.  o energetike a o zmene a doplnení niektorých zákonov.     Orgán ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 16 písm. d)' zákona '251/2012 Z.z.  o energetike a o zmene a doplnení niektorých zákonov.     Orgán ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 64 ods. 6 písm. a)' zákona '251/2012 Z.z.  o energetike a o zmene a doplnení niektorých zákonov.     Orgán ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 79 ods. 1' zákona '251/2012 Z.z.  o energetike a o zmene a doplnení niektorých zákonov.     Orgán ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '6' zákona '251/2012 Z.z.  o energetike a o zmene a doplnení niektorých zákonov.     Orgán ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'a) vydá súhlasné stanovisko k oznámenému výrubu,   b) výrub obmedzí, zakáže alebo určí podmienky jeho uskutočnenia, ak si to vyžadujú záujmy  ochrany'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/574818/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010418}
+LLM_tokens: {"input": 5980, "output": 2476, "total": 8456, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/574818/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/574818/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Modra', 'katastralne_uzemia': [{'nazov': 'Modra', 'parcely': [{'typ': 'C', 'cisla': ['3209/1016112']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'trasa plynovodu a jeho ochranné pásmo', 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Modra', 'katastralne_uzemia': [{'nazov': 'Modra', 'parcely': [{'typ': 'C', 'cisla': ['3209/1016112']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'trasa plynovodu a jeho ochranné pásmo', 'nazov_lokality_norm': None}
+ku_name:Modra obec:Modra okres:Pezinok kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: modra norm_ku: modra
+_get_nationalCadastralZoningReferences() found_ids: {'838039'}
+nationalCadastralZoningReferences: ['838039']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.98 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['3209/1016112']}' v KU 'Modra' sa nenašli dáta.
+Fallback to OBEC: Modra
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: modra norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'838039'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: trasa plynovodu a jeho ochranné pásmo
+get_geometry_of_a_geoname nazov_lokality: trasa plynovodu a jeho ochranné pásmo
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** plynovodu a jeho ochranné pásmo, Modra, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** plynovodu a jeho ochranné pásmo, Pezinok, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** plynovodu a jeho ochranné pásmo, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** plynovodu a jeho ochranné pásmo, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.3344706, 'lon': 17.3072873, 'formatted_address': '900 01 Modra, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Modra, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.25675 48.4043, 17.2568 48.4...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/574818/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Modra', 'NATIONALSI': 'SKUEV0967', 'SITETITLE_': 'Modransko- tŕňanské pustáky'}, {'parcel_label': 'Modra', 'NATIONALSI': 'SKUEV0276', 'SITETITLE_': 'Kuchynská hornatina'}, {'parcel_label': 'Modra', 'NATIONALSI': 'SKUEV0503', 'SITETITLE_': 'Predhorie'}], 'MCHU': [{'parcel_label': 'Modra', 'NATIONALSI': '170', 'SITETITLE_': 'PP Tisové skaly'}], 'CHVU': [{'parcel_label': 'Modra', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/574818/analysis.json...
+
+--- Časy spracovania dokumentu 574818 ---
+  download_and_text   :   1.54 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   9.59 s
+  gis_processing      :   6.03 s
+  CELKOVÝ ČAS         :  17.17 s
+------------------------------------------
+Dokument 574818 bol úspešne spracovaný.

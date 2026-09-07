@@ -1,0 +1,59 @@
+[2026-09-07 20:58:00] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/574877'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/574877/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0003388}
+LLM_tokens: {"input": 334, "output": 828, "total": 1162, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/574877/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 15 ods. 2 písm. a)' zákona 'na vykonávanie činnosti uvedených v'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/574877/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011059500000000002}
+LLM_tokens: {"input": 5451, "output": 2778, "total": 8229, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/574877/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/574877/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Spišská Nová Ves', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'národnej kultúrnej pamiatky Spišský hrad a jeho bezprostrednom okolí', 'nazov_lokality_norm': 'Spišský hrad'}
+data: {'kraj': 'Košický kraj', 'okres': 'Spišská Nová Ves', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'národnej kultúrnej pamiatky Spišský hrad a jeho bezprostrednom okolí', 'nazov_lokality_norm': 'Spišský hrad'}
+No geometries were found.
+nazov_lokality: Spišský hrad
+get_geometry_of_a_geoname nazov_lokality: Spišský hrad
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** hrad, Spišská Nová Ves, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** hrad, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** hrad, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.76575 48.99854, 20.76592 48.99839...  ...  Spišský hrad, 18, Spišská Kapitula, Spišské Po...
+1  POLYGON ((20.77018 48.99859, 20.77033 48.9984,...  ...  Spišský Hrad, 3215, Spišské Podhradie, okres L...
+
+[2 rows x 11 columns]
+geoname_query: Spišský hrad, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.76575 48.99854, 20.76592 48.99839...  ...  Spišský hrad, 18, Spišská Kapitula, Spišské Po...
+1  POLYGON ((20.77018 48.99859, 20.77033 48.9984,...  ...  Spišský Hrad, 3215, Spišské Podhradie, okres L...
+
+[2 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/574877/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Spišský hrad, 18, Spišská Kapitula, Spišské Podhradie, okres Levoča, Prešovský kraj, 053 06, Slovensko', 'NATIONALSI': 'SKUEV0105', 'SITETITLE_': 'Spišskopodhradské travertíny'}, {'parcel_label': 'Spišský Hrad, 3215, Spišské Podhradie, okres Levoča, Prešovský kraj, 053 04, Slovensko', 'NATIONALSI': 'SKUEV0105', 'SITETITLE_': 'Spišskopodhradské travertíny'}], 'MCHU': [{'parcel_label': 'Spišský hrad, 18, Spišská Kapitula, Spišské Podhradie, okres Levoča, Prešovský kraj, 053 06, Slovensko', 'NATIONALSI': '682', 'SITETITLE_': 'NPP Spišský hradný vrch'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/574877/analysis.json...
+
+--- Časy spracovania dokumentu 574877 ---
+  download_and_text   :   5.35 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  10.62 s
+  gis_processing      :   1.46 s
+  CELKOVÝ ČAS         :  17.44 s
+------------------------------------------
+Dokument 574877 bol úspešne spracovaný.

@@ -1,0 +1,50 @@
+[2026-09-07 20:58:18] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/574814'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/574814/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/574814/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68 písm. w)' zákona 'v súlade'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/574814/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0077005}
+LLM_tokens: {"input": 4343, "output": 1843, "total": 6186, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/574814/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/574814/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Komárno', 'obec': 'Komárno', 'katastralne_uzemia': [{'nazov': 'Komárno', 'parcely': [{'typ': None, 'cisla': ['12071/13']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pri pravom brehu Váh rkm 3920 - 3900', 'nazov_lokality_norm': 'Váh, Komárno'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Komárno', 'obec': 'Komárno', 'katastralne_uzemia': [{'nazov': 'Komárno', 'parcely': [{'typ': None, 'cisla': ['12071/13']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pri pravom brehu Váh rkm 3920 - 3900', 'nazov_lokality_norm': 'Váh, Komárno'}
+ku_name:Komárno obec:Komárno okres:Komárno kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: komarno norm_obec: komarno norm_ku: komarno
+_get_nationalCadastralZoningReferences() found_ids: {'825883'}
+nationalCadastralZoningReferences: ['825883']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.02 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.68 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+nazov_lokality: Váh, Komárno
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2480'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/574814/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': '12071/13', 'NATIONALSI': 'SKUEV0819', 'SITETITLE_': 'Vážsky Dunaj'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Komárno/574814/analysis.json...
+
+--- Časy spracovania dokumentu 574814 ---
+  download_and_text   :   0.95 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   7.47 s
+  gis_processing      :   5.91 s
+  CELKOVÝ ČAS         :  14.33 s
+------------------------------------------
+Dokument 574814 bol úspešne spracovaný.

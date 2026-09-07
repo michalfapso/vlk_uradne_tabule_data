@@ -1,0 +1,113 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2026/012161",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-04",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SPP- distribúcia, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Modra",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Modra",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3209/1016112"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "trasa plynovodu a jeho ochranné pásmo",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube dreviny",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "písomné oznámenie o výrube dreviny"
+  ],
+  "rozsah_zasahu": "2 ks smrek obyčajný",
+  "typ_uzemia": [
+    "ochranné pásmo plynovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 68 písm. g) a h)",
+        "§ 47 ods. 7",
+        "§ 47 ods. 8",
+        "§ 82 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správe",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012 Z.z.",
+      "paragrafy": [
+        "§ 11 ods. 1 písm. b)",
+        "§ 11 ods. 16 písm. d)",
+        "§ 64 ods. 6 písm. a)",
+        "§ 79 ods. 1 a 6"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube 2 kusov smreka obyčajného v ochrannom pásme plynovodu v katastrálnom území Modra. Žiadateľom je SPP-distribúcia, a.s. a orgán ochrany prírody má 15-dňovú lehotu na vydanie stanoviska k tomuto oznámenému výrubu.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Modra",
+          "NATIONALSI": "SKUEV0967",
+          "SITETITLE_": "Modransko- tŕňanské pustáky"
+        },
+        {
+          "parcel_label": "Modra",
+          "NATIONALSI": "SKUEV0276",
+          "SITETITLE_": "Kuchynská hornatina"
+        },
+        {
+          "parcel_label": "Modra",
+          "NATIONALSI": "SKUEV0503",
+          "SITETITLE_": "Predhorie"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Modra",
+          "NATIONALSI": "170",
+          "SITETITLE_": "PP Tisové skaly"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Modra",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-01",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Dan-Slovakia Agrar, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Dunajská Streda",
+    "obec": "Veľký Meder",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolný Šál",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "472/92"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Dan-Slovakia Agrar, a.s. - Nový Dvor",
+    "nazov_lokality_norm": "Nový Dvor"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 7 ks drevín",
+    "výrub orechov"
+  ],
+  "rozsah_zasahu": "7 ks drevín (orech)",
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "orech"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "47 ods. 6",
+        "47 ods. 4 písm. c"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie spoločnosti Dan-Slovakia Agrar o plánovanom výrube 7 kusov orechov v areáli Nový Dvor v katastrálnom území Dolný Šál. Dôvodom výrubu je zlý zdravotný stav stromov (suché stromy) a ohrozenie zdravia a majetku, pričom výrub sa má uskutočniť 15 dní po doručení oznámenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "OBEC"
+  }
+}
