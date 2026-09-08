@@ -1,0 +1,257 @@
+[2026-09-08 20:36:34] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574897'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574897/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574897/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1 písm. b)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, na základe žiadosti Technickej univerzity'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, na základe žiadosti Technickej univerzity'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. 1 písm. a)' zákona 'v znení'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 15 ods. 1 písm. a)' zákona 'v znení'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 1 písm. a)' zákona 'podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'c)' zákona 'podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 15 ods. 1 písm. a)' zákona 'v znení'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 1 písm. a)' zákona 'podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'c)' zákona 'podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 1 písm. a)' zákona 'podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'c)' zákona 'podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574897/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.016119500000000002}
+LLM_tokens: {"input": 8557, "output": 3947, "total": 12504, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574897/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574897/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza, Žarnovica, Partizánske', 'obec': 'Lehota pod Vtáčnikom, Kamenec pod Vtáčnikom, Kľak, Čereňany, Oslany, Malé Kršteňany', 'katastralne_uzemia': [{'nazov': 'Lehota pod Vtáčnikom', 'parcely': []}, {'nazov': 'Kamenec pod Vtáčnikom', 'parcely': []}, {'nazov': 'Kľak', 'parcely': []}, {'nazov': 'Čereňany', 'parcely': []}, {'nazov': 'Oslany', 'parcely': []}, {'nazov': 'Malé Kršteňany', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Vtáčnik, PR Buchlov, PR Makovište, PR Veľký vrch a ich OP', 'nazov_lokality_norm': 'Vtáčnik, Buchlov, Makovište, Veľký vrch'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza, Žarnovica, Partizánske', 'obec': 'Lehota pod Vtáčnikom, Kamenec pod Vtáčnikom, Kľak, Čereňany, Oslany, Malé Kršteňany', 'katastralne_uzemia': [{'nazov': 'Lehota pod Vtáčnikom', 'parcely': []}, {'nazov': 'Kamenec pod Vtáčnikom', 'parcely': []}, {'nazov': 'Kľak', 'parcely': []}, {'nazov': 'Čereňany', 'parcely': []}, {'nazov': 'Oslany', 'parcely': []}, {'nazov': 'Malé Kršteňany', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Vtáčnik, PR Buchlov, PR Makovište, PR Veľký vrch a ich OP', 'nazov_lokality_norm': 'Vtáčnik, Buchlov, Makovište, Veľký vrch'}
+ku_name:Lehota pod Vtáčnikom obec:Lehota pod Vtáčnikom, Kamenec pod Vtáčnikom, Kľak, Čereňany, Oslany, Malé Kršteňany okres:Prievidza, Žarnovica, Partizánske kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: lehota pod vtacnikom norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() found_ids: {'831191'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: kamenec pod vtacnikom norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() found_ids: {'831191'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: klak norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() found_ids: {'831191'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: cerenany norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() found_ids: {'831191'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: oslany norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() found_ids: {'831191'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: male krstenany norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: lehota pod vtacnikom
+_get_nationalCadastralZoningReferences() found_ids: {'831191'}
+nationalCadastralZoningReferences: ['831191']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.52 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Kamenec pod Vtáčnikom obec:Lehota pod Vtáčnikom, Kamenec pod Vtáčnikom, Kľak, Čereňany, Oslany, Malé Kršteňany okres:Prievidza, Žarnovica, Partizánske kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: lehota pod vtacnikom norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() found_ids: {'823261'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: kamenec pod vtacnikom norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() found_ids: {'823261'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: klak norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() found_ids: {'823261'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: cerenany norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() found_ids: {'823261'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: oslany norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() found_ids: {'823261'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: male krstenany norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: kamenec pod vtacnikom
+_get_nationalCadastralZoningReferences() found_ids: {'823261'}
+nationalCadastralZoningReferences: ['823261']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Kľak obec:Lehota pod Vtáčnikom, Kamenec pod Vtáčnikom, Kľak, Čereňany, Oslany, Malé Kršteňany okres:Prievidza, Žarnovica, Partizánske kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: lehota pod vtacnikom norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() found_ids: {'824038'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: kamenec pod vtacnikom norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() found_ids: {'824038'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: klak norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() found_ids: {'824038'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: cerenany norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() found_ids: {'824038'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: oslany norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() found_ids: {'824038'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: male krstenany norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: klak
+_get_nationalCadastralZoningReferences() found_ids: {'824038'}
+nationalCadastralZoningReferences: ['824038']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Čereňany obec:Lehota pod Vtáčnikom, Kamenec pod Vtáčnikom, Kľak, Čereňany, Oslany, Malé Kršteňany okres:Prievidza, Žarnovica, Partizánske kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: lehota pod vtacnikom norm_ku: cerenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: cerenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: cerenany
+_get_nationalCadastralZoningReferences() found_ids: {'809241'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: kamenec pod vtacnikom norm_ku: cerenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: cerenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: cerenany
+_get_nationalCadastralZoningReferences() found_ids: {'809241'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: klak norm_ku: cerenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: cerenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: cerenany
+_get_nationalCadastralZoningReferences() found_ids: {'809241'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: cerenany norm_ku: cerenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: cerenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: cerenany
+_get_nationalCadastralZoningReferences() found_ids: {'809241'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: oslany norm_ku: cerenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: cerenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: cerenany
+_get_nationalCadastralZoningReferences() found_ids: {'809241'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: male krstenany norm_ku: cerenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: cerenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: cerenany
+_get_nationalCadastralZoningReferences() found_ids: {'809241'}
+nationalCadastralZoningReferences: ['809241']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Oslany obec:Lehota pod Vtáčnikom, Kamenec pod Vtáčnikom, Kľak, Čereňany, Oslany, Malé Kršteňany okres:Prievidza, Žarnovica, Partizánske kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: lehota pod vtacnikom norm_ku: oslany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: oslany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: oslany
+_get_nationalCadastralZoningReferences() found_ids: {'844489'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: kamenec pod vtacnikom norm_ku: oslany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: oslany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: oslany
+_get_nationalCadastralZoningReferences() found_ids: {'844489'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: klak norm_ku: oslany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: oslany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: oslany
+_get_nationalCadastralZoningReferences() found_ids: {'844489'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: cerenany norm_ku: oslany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: oslany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: oslany
+_get_nationalCadastralZoningReferences() found_ids: {'844489'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: oslany norm_ku: oslany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: oslany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: oslany
+_get_nationalCadastralZoningReferences() found_ids: {'844489'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: male krstenany norm_ku: oslany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: oslany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: oslany
+_get_nationalCadastralZoningReferences() found_ids: {'844489'}
+nationalCadastralZoningReferences: ['844489']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Malé Kršteňany obec:Lehota pod Vtáčnikom, Kamenec pod Vtáčnikom, Kľak, Čereňany, Oslany, Malé Kršteňany okres:Prievidza, Žarnovica, Partizánske kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: lehota pod vtacnikom norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() found_ids: {'835595'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: kamenec pod vtacnikom norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() found_ids: {'835595'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: klak norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() found_ids: {'835595'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: cerenany norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() found_ids: {'835595'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: oslany norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() found_ids: {'835595'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: male krstenany norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza, zarnovica, partizanske norm_obec: None norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: male krstenany
+_get_nationalCadastralZoningReferences() found_ids: {'835595'}
+nationalCadastralZoningReferences: ['835595']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Vtáčnik, Buchlov, Makovište, Veľký vrch
+get_geometry_of_a_geoname nazov_lokality: Vtáčnik, Buchlov, Makovište, Veľký vrch
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Buchlov, Makovište, Veľký vrch, Lehota pod Vtáčnikom, Kamenec pod Vtáčnikom, Kľak, Čereňany, Oslany, Malé Kršteňany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Buchlov, Makovište, Veľký vrch, Prievidza, Žarnovica, Partizánske, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Buchlov, Makovište, Veľký vrch, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Buchlov, Makovište, Veľký vrch, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.625, 'lon': 18.6347222, 'formatted_address': 'Vtáčnik, 972 44 Kamenec pod Vtáčnikom, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 972 44 Kamenec pod Vtáčnikom, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.569 48.72113, 18.56916 48.7...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.56332 48.69207, 18.56343 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.64383 48.63315, 18.64386 48...
+3  CadastralZoning  ...  MULTIPOLYGON (((18.49089 48.65957, 18.49114 48...
+4  CadastralZoning  ...  MULTIPOLYGON (((18.46048 48.64766, 18.46064 48...
+5  CadastralZoning  ...  MULTIPOLYGON (((18.4376 48.65965, 18.4377 48.6...
+
+[6 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574897/gis.geojson...
+Intersections with protected areas...
+Found 30 intersecting parcels with '5st_konsUEV'.
+Found 6 intersecting parcels with 'UEV'.
+Found 15 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Lehota pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Lehota pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Lehota pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Lehota pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Kamenec pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Kamenec pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Kamenec pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Kamenec pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Kamenec pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Kamenec pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Kamenec pod Vtáčnikom', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Kľak', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Čereňany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Čereňany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Čereňany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Čereňany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Čereňany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Čereňany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Čereňany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Čereňany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Oslany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Oslany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Oslany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Oslany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Oslany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Oslany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Oslany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Oslany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Oslany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}, {'parcel_label': 'Oslany', 'NAZOV_UEV': 'Vtáčnik', 'KOD_UEV': 'SKUEV0273'}], 'UEV': [{'parcel_label': 'Lehota pod Vtáčnikom', 'NATIONALSI': 'SKUEV0273', 'SITETITLE_': 'Vtáčnik'}, {'parcel_label': 'Kamenec pod Vtáčnikom', 'NATIONALSI': 'SKUEV0273', 'SITETITLE_': 'Vtáčnik'}, {'parcel_label': 'Kľak', 'NATIONALSI': 'SKUEV0273', 'SITETITLE_': 'Vtáčnik'}, {'parcel_label': 'Čereňany', 'NATIONALSI': 'SKUEV0273', 'SITETITLE_': 'Vtáčnik'}, {'parcel_label': 'Oslany', 'NATIONALSI': 'SKUEV0273', 'SITETITLE_': 'Vtáčnik'}, {'parcel_label': 'Malé Kršteňany', 'NATIONALSI': 'SKUEV0883', 'SITETITLE_': 'Nitrické vrchy'}], 'MCHU': [{'parcel_label': 'Lehota pod Vtáčnikom', 'NATIONALSI': '483', 'SITETITLE_': 'NPR Vtáčnik'}, {'parcel_label': 'Lehota pod Vtáčnikom', 'NATIONALSI': '1349', 'SITETITLE_': 'PR Pralesy Slovenska-Vtáčnik'}, {'parcel_label': 'Lehota pod Vtáčnikom', 'NATIONALSI': '213', 'SITETITLE_': 'PR Biely kameň'}, {'parcel_label': 'Lehota pod Vtáčnikom', 'NATIONALSI': '414', 'SITETITLE_': 'PP Sivý kameň'}, {'parcel_label': 'Kamenec pod Vtáčnikom', 'NATIONALSI': '483', 'SITETITLE_': 'NPR Vtáčnik'}, {'parcel_label': 'Kamenec pod Vtáčnikom', 'NATIONALSI': '311', 'SITETITLE_': 'OP PP Končitá'}, {'parcel_label': 'Kamenec pod Vtáčnikom', 'NATIONALSI': '311', 'SITETITLE_': 'PP Končitá'}, {'parcel_label': 'Kamenec pod Vtáčnikom', 'NATIONALSI': '342', 'SITETITLE_': 'PR Makovište'}, {'parcel_label': 'Kľak', 'NATIONALSI': '778', 'SITETITLE_': 'PP Ostrovica'}, {'parcel_label': 'Kľak', 'NATIONALSI': '483', 'SITETITLE_': 'NPR Vtáčnik'}, {'parcel_label': 'Kľak', 'NATIONALSI': '1349', 'SITETITLE_': 'PR Pralesy Slovenska-Vtáčnik'}, {'parcel_label': 'Kľak', 'NATIONALSI': '1085', 'SITETITLE_': 'CHA Ivanov salaš'}, {'parcel_label': 'Čereňany', 'NATIONALSI': '229', 'SITETITLE_': 'PR Buchlov'}, {'parcel_label': 'Oslany', 'NATIONALSI': '229', 'SITETITLE_': 'PR Buchlov'}, {'parcel_label': 'Malé Kršteňany', 'NATIONALSI': '186', 'SITETITLE_': 'PR Veľký vrch'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/574897/analysis.json...
+
+--- Časy spracovania dokumentu 574897 ---
+  download_and_text   :   1.27 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  15.67 s
+  gis_processing      :   5.84 s
+  CELKOVÝ ČAS         :  22.79 s
+------------------------------------------
+Dokument 574897 bol úspešne spracovaný.

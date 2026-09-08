@@ -1,0 +1,87 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP1-2026/105084 -002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-07",
+  "datum_zverejnenia": "2026-09-07",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 14.09.2026"
+  },
+  "ziadatel_navrhovatel": "BALUNKY, družstvo",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "hrad Ostrý Kameň, NPR Záruby",
+    "nazov_lokality_norm": "Ostrý Kameň"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "VYSTAVBA_V_PRIRODE",
+    "VJAZD_VOZIDLA"
+  ],
+  "typ_zasahu": [
+    "jazdiť a stáť s motorovým vozidlom",
+    "rúbať dreviny",
+    "zasiahnuť do lesného porastu",
+    "narušiť vegetačný a pôdny kryt",
+    "rušiť pokoj a ticho",
+    "umiestniť stavbu"
+  ],
+  "rozsah_zasahu": "záchranné práce na hrade Ostrý Kameň",
+  "typ_uzemia": [
+    "NPR Záruby",
+    "5. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82",
+        "16"
+      ]
+    }
+  ],
+  "zhrnutie": "Začalo sa konanie vo veci udelenia výnimiek pre záchranné práce na hrade Ostrý Kameň v 5. stupni ochrany na území NPR Záruby. Plánované činnosti zahŕňajú výrub drevín, zásah do lesného porastu, vjazd motorových vozidiel a umiestnenie stavby. Verejnosť môže potvrdiť záujem byť účastníkom konania do 14.09.2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Ostrý Kameň, 1291, Buková, okres Trnava, Trnavský kraj, 906 34, Slovensko",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Ostrý Kameň, 1291, Buková, okres Trnava, Trnavský kraj, 906 34, Slovensko",
+          "NATIONALSI": "SKUEV0267",
+          "SITETITLE_": "Biele hory"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Ostrý Kameň, 1291, Buková, okres Trnava, Trnavský kraj, 906 34, Slovensko",
+          "NATIONALSI": "194",
+          "SITETITLE_": "NPR Záruby"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Ostrý Kameň, 1291, Buková, okres Trnava, Trnavský kraj, 906 34, Slovensko",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "GEONAME"
+  }
+}

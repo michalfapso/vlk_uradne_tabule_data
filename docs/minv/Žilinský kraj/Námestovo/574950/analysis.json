@@ -1,0 +1,114 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2026/020351-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-08",
+  "datum_zverejnenia": "2026-09-08",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom pojednávaní dňa 02. 10. 2026"
+  },
+  "ziadatel_navrhovatel": "Marek Dudášik",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Breza",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Breza",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "7306/1",
+              "7306/2",
+              "7307/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "k. ú. Breza na parc. č. E-KN 7306/1, 7306/2, 7307/1",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania vo veci vydania súhlasu na výrub drevín verejnou vyhláškou a nariadenie ústneho pojednávania spojené s miestnym zisťovaním",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 40 ks drevín",
+    "druh smrek obyčajný"
+  ],
+  "rozsah_zasahu": "40 ks drevín (smrek obyčajný) s obvodom kmeňa od 90 do 250 cm",
+  "typ_uzemia": [
+    "CHKO Horná Orava"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "68 písm. c)",
+        "18 ods.1",
+        "47 ods. 3",
+        "82 ods. 5"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "21",
+        "38",
+        "32",
+        "18",
+        "33 ods. 2",
+        "26 ods. 2"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania na výrub 40 ks smrekov v katastrálnom území Breza z dôvodu ich zlého zdravotného stavu po napadnutí kôrovcom. Výrub sa plánuje v extraviláne na parcelách registra E a dotýka sa územia v pôsobnosti Správy CHKO Horná Orava.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "7306/2",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        },
+        {
+          "parcel_label": "7307/1",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        },
+        {
+          "parcel_label": "7306/1",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

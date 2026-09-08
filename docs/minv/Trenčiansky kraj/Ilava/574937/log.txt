@@ -1,0 +1,71 @@
+[2026-09-08 20:34:15] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574937'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574937/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0005007999999999999}
+LLM_tokens: {"input": 334, "output": 1233, "total": 1567, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574937/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 1' zákona '135/1961'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0101055}
+LLM_tokens: {"input": 5097, "output": 2519, "total": 7616, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574937/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574937/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Ilava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'D1 Ilava – D1 Križovatka Beluša od km 145 po km 157 obojsmerne', 'nazov_lokality_norm': 'D1, Ilava'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Ilava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'D1 Ilava – D1 Križovatka Beluša od km 145 po km 157 obojsmerne', 'nazov_lokality_norm': 'D1, Ilava'}
+Fallback to OBEC: Ilava
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: ilava norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'821187', '824402'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+get_cadastral_zone() request duration: 1.25 s
+Server vrátil chybu 500. Opakujem pokus o 5 sekúnd... (Pokus 1/5)
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: D1, Ilava
+get_geometry_of_a_geoname nazov_lokality: D1, Ilava
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ilava, Ilava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ilava, Ilava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ilava, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ilava, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.9997341, 'lon': 18.2198171, 'formatted_address': 'D1, Ilava, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ilava, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.23953 49.01326, 18.23958 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.19695 48.99691, 18.19745 48...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574937/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/574937/analysis.json...
+
+--- Časy spracovania dokumentu 574937 ---
+  download_and_text   :   6.10 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.48 s
+  gis_processing      :   9.93 s
+  CELKOVÝ ČAS         :  26.51 s
+------------------------------------------
+Dokument 574937 bol úspešne spracovaný.

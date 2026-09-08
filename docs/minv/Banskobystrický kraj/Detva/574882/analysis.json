@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "OU-DT-OSZP-2026/001049",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-09-07",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15.09.2026"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Detva",
+    "obec": "Detva",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Detva",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "8900/2",
+              "8902"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "47 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu drevín na pozemkoch v katastrálnom území Detva pre fyzickú osobu. Verejnosť môže potvrdiť záujem byť účastníkom konania do 15.09.2026. Dokument nešpecifikuje presný počet stromov ani či sa pozemky nachádzajú v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "8900/2",
+          "NATIONALSI": "SKUEV0045",
+          "SITETITLE_": "Kopa"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "8902",
+          "NATIONALSI": "SKCHVU022",
+          "SITETITLE_": "Poľana"
+        },
+        {
+          "parcel_label": "8900/2",
+          "NATIONALSI": "SKCHVU022",
+          "SITETITLE_": "Poľana"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

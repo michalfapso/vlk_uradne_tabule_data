@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2026/019032-009",
+  "cislo_rozhodnutia": "OU-SC-OSZP-2026/019032/VY-54/Ke",
+  "datum_dokumentu": "2026-09-08",
+  "datum_zverejnenia": "2026-09-08",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 8 dní odo dňa doručenia oznámenia"
+  },
+  "ziadatel_navrhovatel": "Burgundy Ventures Slovakia s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Senec",
+    "obec": "Senec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Senec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "5483/1",
+              "5483/19"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "areál firmy ADHEX Technologies Slovakia",
+    "nazov_lokality_norm": "Poľná, Senec"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania Verejnou vyhláškou",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výstavba dažďovej kanalizácie",
+    "povolenie na osobitné užívanie vôd",
+    "vsakovanie"
+  ],
+  "rozsah_zasahu": "dažďová kanalizácia pre spevnenú plochu (potrubie PVC DN300 cca 57 m, odlučovač ropných látok, vsakovací objekt)",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "21 ods. 1 písm. d)"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "61 odst. 5"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania pre stavbu dažďovej kanalizácie a vsakovania v areáli firmy ADHEX Technologies v Senci. Projekt rieši odvodnenie spevnených plôch cez odlučovač ropných látok na parcelách 5483/1 a 5483/19. Konanie prebieha v zastavanom území mesta s prítomnosťou ochranného pásma elektrického vedenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}
