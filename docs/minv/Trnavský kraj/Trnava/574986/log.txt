@@ -1,0 +1,90 @@
+[2026-09-09 20:17:02] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574986'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574986/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574986/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie písomného alebo elektronického  potvrdenia záujmu byť zúčastnenou osobou, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ', v začatom správnom  konaní je do 15.09.2026.                        Ing. Rudolf Kormúth                         vedúci odboru'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574986/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0092782}
+LLM_tokens: {"input": 5231, "output": 2523, "total": 7754, "cached": 2014}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574986/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574986/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Smolenice', 'parcely': []}, {'nazov': 'Dechtice', 'parcely': []}, {'nazov': 'Dobrá Voda', 'parcely': []}, {'nazov': 'Lošonec', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Záruby, PR Hlboča, CHA Katarínka, okolie historického kláštora, PR Dobrovodský kras, okolie hradu Dobrá Voda, PR Čierna Skala', 'nazov_lokality_norm': 'Záruby, Hlboča, Katarínka, Dobrovodský kras, Dobrá Voda, Čierna Skala'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Smolenice', 'parcely': []}, {'nazov': 'Dechtice', 'parcely': []}, {'nazov': 'Dobrá Voda', 'parcely': []}, {'nazov': 'Lošonec', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Záruby, PR Hlboča, CHA Katarínka, okolie historického kláštora, PR Dobrovodský kras, okolie hradu Dobrá Voda, PR Čierna Skala', 'nazov_lokality_norm': 'Záruby, Hlboča, Katarínka, Dobrovodský kras, Dobrá Voda, Čierna Skala'}
+ku_name:Smolenice obec:None okres:Trnava kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: None norm_ku: smolenice
+_get_nationalCadastralZoningReferences() found_ids: {'856771'}
+nationalCadastralZoningReferences: ['856771']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.55 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dechtice obec:None okres:Trnava kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: None norm_ku: dechtice
+_get_nationalCadastralZoningReferences() found_ids: {'810223'}
+nationalCadastralZoningReferences: ['810223']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.46 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dobrá Voda obec:None okres:Trnava kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: None norm_ku: dobra voda
+_get_nationalCadastralZoningReferences() found_ids: {'811220'}
+nationalCadastralZoningReferences: ['811220']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.41 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Lošonec obec:None okres:Trnava kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: None norm_ku: losonec
+_get_nationalCadastralZoningReferences() found_ids: {'833142'}
+nationalCadastralZoningReferences: ['833142']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Záruby, Hlboča, Katarínka, Dobrovodský kras, Dobrá Voda, Čierna Skala
+get_geometry_of_a_geoname nazov_lokality: Záruby, Hlboča, Katarínka, Dobrovodský kras, Dobrá Voda, Čierna Skala
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hlboča, Katarínka, Dobrovodský kras, Dobrá Voda, Čierna Skala, Trnava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hlboča, Katarínka, Dobrovodský kras, Dobrá Voda, Čierna Skala, Trnavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hlboča, Katarínka, Dobrovodský kras, Dobrá Voda, Čierna Skala, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.6097067, 'lon': 17.5289172, 'formatted_address': '919 54 Dobrá Voda, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 54 Dobrá Voda, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.44117 48.52972, 17.44148 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((17.5727 48.57603, 17.57275 48....
+2  CadastralZoning  ...  MULTIPOLYGON (((17.5617 48.64486, 17.56203 48....
+3  CadastralZoning  ...  MULTIPOLYGON (((17.35601 48.50633, 17.35705 48...
+
+[4 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574986/gis.geojson...
+Intersections with protected areas...
+Found 25 intersecting parcels with '5st_konsUEV'.
+Found 4 intersecting parcels with 'UEV'.
+Found 13 intersecting parcels with 'MCHU'.
+Found 4 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Smolenice', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Dobrá Voda', 'NAZOV_UEV': 'Brezovské Karpaty', 'KOD_UEV': 'SKUEV0278'}, {'parcel_label': 'Dobrá Voda', 'NAZOV_UEV': 'Brezovské Karpaty', 'KOD_UEV': 'SKUEV0278'}, {'parcel_label': 'Dobrá Voda', 'NAZOV_UEV': 'Brezovské Karpaty', 'KOD_UEV': 'SKUEV0278'}, {'parcel_label': 'Dobrá Voda', 'NAZOV_UEV': 'Brezovské Karpaty', 'KOD_UEV': 'SKUEV0278'}, {'parcel_label': 'Dobrá Voda', 'NAZOV_UEV': 'Brezovské Karpaty', 'KOD_UEV': 'SKUEV0278'}, {'parcel_label': 'Lošonec', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Lošonec', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Lošonec', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}, {'parcel_label': 'Lošonec', 'NAZOV_UEV': 'Biele hory', 'KOD_UEV': 'SKUEV0267'}], 'UEV': [{'parcel_label': 'Smolenice', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}, {'parcel_label': 'Smolenice', 'NATIONALSI': 'SKUEV0277', 'SITETITLE_': 'Nad vinicami'}, {'parcel_label': 'Dobrá Voda', 'NATIONALSI': 'SKUEV0278', 'SITETITLE_': 'Brezovské Karpaty'}, {'parcel_label': 'Lošonec', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}], 'MCHU': [{'parcel_label': 'Smolenice', 'NATIONALSI': '60', 'SITETITLE_': 'OP NPP Driny'}, {'parcel_label': 'Smolenice', 'NATIONALSI': '60', 'SITETITLE_': 'NPP Driny'}, {'parcel_label': 'Smolenice', 'NATIONALSI': '34', 'SITETITLE_': 'NPR Hlboča'}, {'parcel_label': 'Smolenice', 'NATIONALSI': '1383', 'SITETITLE_': 'PP Mníchova diera 1'}, {'parcel_label': 'Smolenice', 'NATIONALSI': '1348', 'SITETITLE_': 'PR Pralesy Slovenska-Veterlín'}, {'parcel_label': 'Smolenice', 'NATIONALSI': '782', 'SITETITLE_': 'PP Čertov žľab'}, {'parcel_label': 'Smolenice', 'NATIONALSI': '194', 'SITETITLE_': 'NPR Záruby'}, {'parcel_label': 'Dechtice', 'NATIONALSI': '72', 'SITETITLE_': 'PR Katarína'}, {'parcel_label': 'Dobrá Voda', 'NATIONALSI': '1014', 'SITETITLE_': 'PP Ľahký kameň'}, {'parcel_label': 'Dobrá Voda', 'NATIONALSI': '816', 'SITETITLE_': 'PR Slopy'}, {'parcel_label': 'Dobrá Voda', 'NATIONALSI': '115', 'SITETITLE_': 'PP Vyvieračka pod Bachárkou'}, {'parcel_label': 'Lošonec', 'NATIONALSI': '1013', 'SITETITLE_': 'PR Klokoč'}, {'parcel_label': 'Lošonec', 'NATIONALSI': '1015', 'SITETITLE_': 'PR Čierna skala'}], 'CHVU': [{'parcel_label': 'Smolenice', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': 'Dechtice', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': 'Dobrá Voda', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': 'Lošonec', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574986/analysis.json...
+
+--- Časy spracovania dokumentu 574986 ---
+  download_and_text   :   1.39 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   9.46 s
+  gis_processing      :   3.76 s
+  CELKOVÝ ČAS         :  14.62 s
+------------------------------------------
+Dokument 574986 bol úspešne spracovaný.

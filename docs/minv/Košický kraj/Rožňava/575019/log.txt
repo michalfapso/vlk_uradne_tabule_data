@@ -1,0 +1,68 @@
+[2026-09-09 20:14:16] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/575019'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/575019/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0002492}
+LLM_tokens: {"input": 334, "output": 604, "total": 938, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/575019/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/575019/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.016607}
+LLM_tokens: {"input": 6946, "output": 4378, "total": 11324, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/575019/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/575019/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Dobšiná', 'katastralne_uzemia': [{'nazov': 'Dobšiná', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'k. ú. Dobšiná', 'nazov_lokality_norm': None}
+data: {'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Dobšiná', 'katastralne_uzemia': [{'nazov': 'Dobšiná', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'k. ú. Dobšiná', 'nazov_lokality_norm': None}
+ku_name:Dobšiná obec:Dobšiná okres:Rožňava kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: roznava norm_obec: dobsina norm_ku: dobsina
+_get_nationalCadastralZoningReferences() found_ids: {'811378'}
+nationalCadastralZoningReferences: ['811378']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: k. ú. Dobšiná
+get_geometry_of_a_geoname nazov_lokality: k. ú. Dobšiná
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** ú. Dobšiná, Dobšiná, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** ú. Dobšiná, Rožňava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** ú. Dobšiná, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** ú. Dobšiná, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.81962499999999, 'lon': 20.3747868, 'formatted_address': '049 25 Dobšiná, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 25 Dobšiná, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.3139 48.88556, 20.31419 48....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/575019/gis.geojson...
+Intersections with protected areas...
+Found 47 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+Found 1 intersecting parcels with 'UNESCO'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}, {'parcel_label': 'Dobšiná', 'NAZOV_UEV': 'Slovenský raj', 'KOD_UEV': 'SKUEV0112'}], 'UEV': [{'parcel_label': 'Dobšiná', 'NATIONALSI': 'SKUEV0112', 'SITETITLE_': 'Slovenský raj'}], 'MCHU': [{'parcel_label': 'Dobšiná', 'NATIONALSI': '1227', 'SITETITLE_': 'PP Zelená jaskyňa'}, {'parcel_label': 'Dobšiná', 'NATIONALSI': '520', 'SITETITLE_': 'NPP Dobšinská ľadová jaskyňa'}, {'parcel_label': 'Dobšiná', 'NATIONALSI': '257', 'SITETITLE_': 'NPR Hnilecká jelšina'}], 'CHVU': [{'parcel_label': 'Dobšiná', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Dobšiná', 'NATIONALSI': 'SKCHVU053', 'SITETITLE_': 'Slovenský raj'}], 'UNESCO': [{'parcel_label': 'Dobšiná', 'Nazov_chra': 'Jaskyne Slovenského a Aggteleckého krasu', 'Kod_chrane': 'UN01'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/575019/analysis.json...
+
+--- Časy spracovania dokumentu 575019 ---
+  download_and_text   :   4.16 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  16.89 s
+  gis_processing      :   3.25 s
+  CELKOVÝ ČAS         :  24.31 s
+------------------------------------------
+Dokument 575019 bol úspešne spracovaný.

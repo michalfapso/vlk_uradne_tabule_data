@@ -1,0 +1,107 @@
+[2026-09-09 20:15:13] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/575077'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/575077/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/575077/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona 'stavebného zákona nepovolil zmenu stavby pred dokončením, zamietol žiadosť o predĺženie termínu na dokončenie vodnej stavby, nezmenil lehotu na dokonč'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 60 ods. 2' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 14' zákona 'NR SR č. 364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'vodného zákona v platnom znení a ako špeciálny stavebný úrad podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'stavebného zákona upovedomuje účastníkov konania a dotknuté orgány v konaní o nových podkladoch rozhodnutia, dáva podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/575077/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0191925}
+LLM_tokens: {"input": 10845, "output": 4590, "total": 15435, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/575077/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/575077/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Košecké Podhradie', 'katastralne_uzemia': [{'nazov': 'Veľké Košecké Podhradie', 'parcely': [{'typ': 'C', 'cisla': ['1009/1', '1039', '405/1', '405/2', '405/3', '406/1', '406/2', '406/3', '407/1', '407/2', '407/3', '408/6', '408/1', '408/18', '412/1', '413', '414/3', '430', '443/1', '442', '433', '434/1', '434/2', '435/5', '435/6', '439', '438', '437', '436/4', '436/5', '436/6', '829/65', '829/39']}, {'typ': 'E', 'cisla': ['7196/509', '2252/501', '7113/502', '2292', '2273', '7186/501', '2179/15', '187/26', '7185/501', '187/24', '187/231', '187/23', '2179/3', '2179/2', '2180', '2179/1', '2174', '2175', '2176']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Malá vodná elektráreň – Košecké Podhradie', 'nazov_lokality_norm': 'Košecké Podhradie'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Košecké Podhradie', 'katastralne_uzemia': [{'nazov': 'Veľké Košecké Podhradie', 'parcely': [{'typ': 'C', 'cisla': ['1009/1', '1039', '405/1', '405/2', '405/3', '406/1', '406/2', '406/3', '407/1', '407/2', '407/3', '408/6', '408/1', '408/18', '412/1', '413', '414/3', '430', '443/1', '442', '433', '434/1', '434/2', '435/5', '435/6', '439', '438', '437', '436/4', '436/5', '436/6', '829/65', '829/39']}, {'typ': 'E', 'cisla': ['7196/509', '2252/501', '7113/502', '2292', '2273', '7186/501', '2179/15', '187/26', '7185/501', '187/24', '187/231', '187/23', '2179/3', '2179/2', '2180', '2179/1', '2174', '2175', '2176']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Malá vodná elektráreň – Košecké Podhradie', 'nazov_lokality_norm': 'Košecké Podhradie'}
+ku_name:Veľké Košecké Podhradie obec:Košecké Podhradie okres:Ilava kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: kosecke podhradie norm_ku: velke kosecke podhradie
+_get_nationalCadastralZoningReferences() found_ids: {'868167'}
+nationalCadastralZoningReferences: ['868167']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.87 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.30 s
+nazov_lokality: Košecké Podhradie
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+39  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+40  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+41  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+42  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+43  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+44  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+45  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+46  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+47  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+48  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+49  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+50  CadastralParcel  ...  {'@href': '#auAdmUnitS.314'}
+
+[51 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/575077/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': '1009/1', 'NATIONALSI': 'SKUEV0256', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': '7196/509', 'NATIONALSI': 'SKUEV0256', 'SITETITLE_': 'Strážovské vrchy'}], 'CHVU': [{'parcel_label': '1009/1', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': '7196/509', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/575077/analysis.json...
+
+--- Časy spracovania dokumentu 575077 ---
+  download_and_text   :   1.41 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  19.67 s
+  gis_processing      :   7.48 s
+  CELKOVÝ ČAS         :  28.55 s
+------------------------------------------
+Dokument 575077 bol úspešne spracovaný.

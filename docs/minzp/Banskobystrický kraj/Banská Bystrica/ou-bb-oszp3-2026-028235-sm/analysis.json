@@ -1,0 +1,117 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2026/028235-ŠM",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-09",
+  "datum_zverejnenia": "2026-09-09",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do šiestich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Banská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šalková",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "MVE Šalková, rkm 180,68",
+    "nazov_lokality_norm": "MVE Šalková"
+  },
+  "typ_dokumentu": "Konanie vo veci uloženia nápravných opatrení",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "obnova migračnej priechodnosti",
+    "uloženie nápravných opatrení na vodnej stavbe"
+  ],
+  "rozsah_zasahu": "malá vodná elektráreň (rkm 180,68)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "4 ods. 7",
+        "2 ods. 1",
+        "82 ods. 6"
+      ]
+    },
+    {
+      "nazov": "zákon o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19",
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Konanie o uložení nápravných opatrení na Malej vodnej elektrárni Šalková za účelom obnovy migračnej priechodnosti pre živočíchy. Dôvodom sú zistené nedostatky spôsobujúce nedostatočnú priechodnosť na 180,68 riečnom kilometri. Združenia sa môžu do konania prihlásiť v lehote 6 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Šalková",
+          "NAZOV_UEV": "Plavno",
+          "KOD_UEV": "SKUEV0199"
+        },
+        {
+          "parcel_label": "Šalková",
+          "NAZOV_UEV": "Plavno",
+          "KOD_UEV": "SKUEV0199"
+        },
+        {
+          "parcel_label": "Šalková",
+          "NAZOV_UEV": "Príboj",
+          "KOD_UEV": "SKUEV0062"
+        },
+        {
+          "parcel_label": "Šalková",
+          "NAZOV_UEV": "Príboj",
+          "KOD_UEV": "SKUEV0062"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Šalková",
+          "NATIONALSI": "SKUEV0199",
+          "SITETITLE_": "Plavno"
+        },
+        {
+          "parcel_label": "Šalková",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Šalková",
+          "NATIONALSI": "SKUEV0062",
+          "SITETITLE_": "Príboj"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Šalková",
+          "NATIONALSI": "378",
+          "SITETITLE_": "NPR Plavno"
+        },
+        {
+          "parcel_label": "Šalková",
+          "NATIONALSI": "389",
+          "SITETITLE_": "NPR Príboj"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

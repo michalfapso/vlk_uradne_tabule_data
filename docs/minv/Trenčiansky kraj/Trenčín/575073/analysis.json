@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP2-2026/036831-002",
+  "cislo_rozhodnutia": "OU-TN-OSZP2-2026/036831-0106230/2026",
+  "datum_dokumentu": "2026-09-08",
+  "datum_zverejnenia": "2026-09-08",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "PHZ real, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kubrá",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "1175/14"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "priemyselná zóna Trenčín – Pod Sokolicami",
+    "nazov_lokality_norm": "Pod Sokolicami, Trenčín"
+  },
+  "typ_dokumentu": "Záväzné stanovisko",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "vŕtaná studňa",
+    "prípojka vody",
+    "odber podzemnej vody"
+  ],
+  "rozsah_zasahu": "vŕtaná studňa PHZ-1 (hĺbka 8,5 m), odber podzemnej vody 2,0 l.s-1",
+  "typ_uzemia": [
+    "ochranné pásmo 2. stupňa vodárenského zdroja Sihoť",
+    "zraniteľné územie",
+    "CHVO Strážovské vrchy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "16a ods. 1",
+        "16 ods. 6 písm. b)",
+        "60 ods. 1 písm. i)",
+        "26",
+        "73 ods. 21"
+      ]
+    },
+    {
+      "nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1 ods.1 písm. b)",
+        "4 ods. 1"
+      ]
+    }
+  ],
+  "zhrnutie": "Záväzné stanovisko k vybudovaniu vŕtanej studne PHZ-1 a odberu podzemnej vody v priemyselnej zóne Trenčína, k. ú. Kubrá. Dokument potvrdzuje, že pre stavbu nie je potrebná výnimka z environmentálnych cieľov, hoci sa nachádza v ochrannom pásme 2. stupňa vodárenského zdroja. Zásah zahŕňa vrt do hĺbky 8,5 m s uvažovaným odberom 2,0 l/s pre technologické účely.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

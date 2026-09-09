@@ -1,0 +1,70 @@
+[2026-09-09 20:16:48] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574987'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574987/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574987/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§6 ods. 5' zákona 'k realizácií činnosti podľa projektu – „SVD G-N, st. Gabčíkovo –'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie písomného alebo elektronického  potvrdenia záujmu byť zúčastnenou osobou, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ', v začatom správnom  konaní je do 15.09.2026.                        Ing. Rudolf Kormúth                         vedúci odboru'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574987/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0117435}
+LLM_tokens: {"input": 5301, "output": 3031, "total": 8332, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574987/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574987/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Gabčíkovo', 'katastralne_uzemia': [{'nazov': 'Gabčíkovo', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok Dunaja, lokalita pod dolnou rejdou PLK', 'nazov_lokality_norm': 'Dunaj'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Gabčíkovo', 'katastralne_uzemia': [{'nazov': 'Gabčíkovo', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok Dunaja, lokalita pod dolnou rejdou PLK', 'nazov_lokality_norm': 'Dunaj'}
+ku_name:Gabčíkovo obec:Gabčíkovo okres:Trnava kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: gabcikovo norm_ku: gabcikovo
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: None norm_ku: gabcikovo
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: None norm_obec: None norm_ku: gabcikovo
+_get_nationalCadastralZoningReferences() found_ids: {'814440'}
+nationalCadastralZoningReferences: ['814440']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Dunaj
+get_geometry_of_a_geoname nazov_lokality: Dunaj
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Gabčíkovo, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.57919 47.83824, 17.5796 47.83803,...  ...  Išpánsky Dunaj, Sap, okres Dunajská Streda, Tr...
+
+[1 rows x 11 columns]
+geoname_query: Dunaj, Gabčíkovo, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.5542 47.92116, 17.55505 47....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.57919 47.83824, 17.5796 47.83803,...  ...  Išpánsky Dunaj, Sap, okres Dunajská Streda, Tr...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574987/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Gabčíkovo', 'NATIONALSI': 'SKUEV0090', 'SITETITLE_': 'Dunajské luhy'}], 'CHVU': [{'parcel_label': 'Gabčíkovo', 'NATIONALSI': 'SKCHVU007', 'SITETITLE_': 'Dunajské luhy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/574987/analysis.json...
+
+--- Časy spracovania dokumentu 574987 ---
+  download_and_text   :   1.21 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.31 s
+  gis_processing      :   1.43 s
+  CELKOVÝ ČAS         :  13.96 s
+------------------------------------------
+Dokument 574987 bol úspešne spracovaný.

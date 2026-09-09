@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP1-2026/105748-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-09",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15.09.2026"
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Gabčíkovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Gabčíkovo",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "tok Dunaja, lokalita pod dolnou rejdou PLK",
+    "nazov_lokality_norm": "Dunaj"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "odstraňovanie riečnych sedimentov"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "6 ods. 5",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Začatie správneho konania o udelenie súhlasu na odstraňovanie riečnych sedimentov z toku Dunaja v k. ú. Gabčíkovo. Činnosť realizuje Slovenský vodohospodársky podnik za účelom údržby vodnej cesty a stavby Gabčíkovo. Podľa dokumentu lokalita nezasahuje do chránených území ani do území Natura 2000.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Gabčíkovo",
+          "NATIONALSI": "SKUEV0090",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Gabčíkovo",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}
