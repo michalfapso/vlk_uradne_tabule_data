@@ -1,0 +1,102 @@
+[2026-09-10 20:22:54] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/575176'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/575176/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0003216}
+LLM_tokens: {"input": 592, "output": 785, "total": 1377, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/575176/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§43' zákona 'o energetike č. 251/2012.  Druhové zloženie drevín: agát, trnka, lieska, javor, breh, topoľ, vŕba, jelša, čerešňa, jabloň, orech, buk, hrab, borovica'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods.2' zákona 'o energetike č. 251/2012.  Druhové zloženie drevín: agát, trnka, lieska, javor, breh, topoľ, vŕba, jelša, čerešňa, jabloň, orech, buk, hrab, borovica'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. a)' zákona 'o energetike č. 251/2012.  Druhové zloženie drevín: agát, trnka, lieska, javor, breh, topoľ, vŕba, jelša, čerešňa, jabloň, orech, buk, hrab, borovica'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§11' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. b' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/575176/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011443}
+LLM_tokens: {"input": 5030, "output": 2976, "total": 8006, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/575176/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/575176/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Lúbeľa', 'katastralne_uzemia': [{'nazov': 'Kráľovská Lúbeľa', 'parcely': []}, {'nazov': 'Dúbrava', 'parcely': []}, {'nazov': 'Lipt. Kľačany', 'parcely': []}, {'nazov': 'Svätý Križ', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 22 kV vedenia V3.167.131', 'nazov_lokality_norm': 'V3.167.131'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Lúbeľa', 'katastralne_uzemia': [{'nazov': 'Kráľovská Lúbeľa', 'parcely': []}, {'nazov': 'Dúbrava', 'parcely': []}, {'nazov': 'Lipt. Kľačany', 'parcely': []}, {'nazov': 'Svätý Križ', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 22 kV vedenia V3.167.131', 'nazov_lokality_norm': 'V3.167.131'}
+ku_name:Kráľovská Lúbeľa obec:Lúbeľa okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: lubela norm_ku: kralovska lubela
+_get_nationalCadastralZoningReferences() found_ids: {'833266'}
+nationalCadastralZoningReferences: ['833266']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.37 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dúbrava obec:Lúbeľa okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: lubela norm_ku: dubrava
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: None norm_ku: dubrava
+_get_nationalCadastralZoningReferences() found_ids: {'813401'}
+nationalCadastralZoningReferences: ['813401']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Lipt. Kľačany obec:Lúbeľa okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: lubela norm_ku: lipt. klacany
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: None norm_ku: lipt. klacany
+Fuzzy match found: 'Lipt. Kľačany' -> 'Liptovské Kľačany' (ID: 832553)
+nationalCadastralZoningReferences: ['832553']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Svätý Križ obec:Lúbeľa okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: lubela norm_ku: svaty kriz
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: None norm_ku: svaty kriz
+_get_nationalCadastralZoningReferences() found_ids: {'859656'}
+nationalCadastralZoningReferences: ['859656']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: V3.167.131
+get_geometry_of_a_geoname nazov_lokality: V3.167.131
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Lúbeľa, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Liptovský Mikuláš, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0497005, 'lon': 19.4767713, 'formatted_address': 'v3 167, Ľubeľa 131, 032 14 Ľubeľa, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 167, Ľubeľa 131, 032 14 Ľubeľa, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.47803 49.07626, 19.47841 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.4949 49.06133, 19.49511 49....
+2  CadastralZoning  ...  MULTIPOLYGON (((19.4579 49.04896, 19.4585 49.0...
+3  CadastralZoning  ...  MULTIPOLYGON (((19.53165 49.06721, 19.53168 49...
+
+[4 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/575176/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with '5st_konsUEV'.
+Found 5 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Dúbrava', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Dúbrava', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Dúbrava', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}], 'UEV': [{'parcel_label': 'Kráľovská Ľubeľa', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': 'Dúbrava', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': 'Dúbrava', 'NATIONALSI': 'SKUEV0060', 'SITETITLE_': 'Chraste'}, {'parcel_label': 'Liptovské Kľačany', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': 'Svätý Kríž', 'NATIONALSI': 'SKUEV0060', 'SITETITLE_': 'Chraste'}], 'MCHU': [{'parcel_label': 'Dúbrava', 'NATIONALSI': '1024', 'SITETITLE_': 'NPR Skalka'}], 'CHVU': [{'parcel_label': 'Kráľovská Ľubeľa', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Dúbrava', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Liptovské Kľačany', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/575176/analysis.json...
+
+--- Časy spracovania dokumentu 575176 ---
+  download_and_text   :   7.28 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.00 s
+  gis_processing      :   5.50 s
+  CELKOVÝ ČAS         :  25.79 s
+------------------------------------------
+Dokument 575176 bol úspešne spracovaný.

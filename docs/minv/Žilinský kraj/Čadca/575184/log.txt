@@ -1,0 +1,72 @@
+[2026-09-10 20:22:25] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/575184'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/575184/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/575184/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 50' zákona 'stavebného zákona vo veci realizácie vodnej stavby: názov stavby: „Vodovod Nová Bystrica – Vychylovka – 1. etapa“ členenie stavby: stavbu bude tvoriť'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, orgán štátnej vodnej správy podľ'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods. 3' zákona 'stavebného zákona týmto oznamuje začatie konania o stavebnom zámere dotknutým orgánom, dotknutým právnickým osobám a účastníkom konania. Keďže stavebn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53 ods. 2' zákona 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 5' zákona 'vodného zákona upúšťa od ústneho pojednávania a miestneho zisťovania. Účastníci konania, dotknuté orgány a dotknuté právnické osoby môžu nahliadnuť do'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 6 písm. d)' zákona 'stavebného zákona neprihliadne. Ak sa niektorý z účastníkov konania nechá v konaní zastupovať, musí jeho zástupca predložiť písomnú plnú moc toho účas'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 32' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '33' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/575184/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0229325}
+LLM_tokens: {"input": 9889, "output": 5996, "total": 15885, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/575184/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/575184/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Čadca', 'obec': 'Nová Bystrica', 'katastralne_uzemia': [{'nazov': 'Nová Bystrica', 'parcely': [{'typ': 'E', 'cisla': ['11200', '11186/26', '11241/5', '6834/1', '11186/29', '6559/1', '11186/90', '6559/2', '6426/2', '6560', '11222/1', '6616', '11220', '11222/3', '11186/82', '6529', '6528', '6521', '6520', '6308/1', '6307', '6306', '3317/1', '6289', '6288', '6283', '6282', '6281/1', '6280/1', '6218/1', '6216/2', '6215/2', '6214/2', '11186/61', '6052', '6051', '6050/102', '11236/2', '6071/3', '11236/3', '1827/1', '1824', '1818/1', '11186/93', '1818/2', '1817/3', '1815', '1808/2', '11236/8', '11186/105', '11241/6', '11186/80', '1828', '1856/2', '1829', '1830', '11236/4', '6521', '6304', '6303/2', '6320', '6276/1', '6269/5', '6214/1', '6062/3', '6053/103', '5836/2', '1809/1', '1816', '1798/4', '1835/1', '9-5805/5']}, {'typ': 'C', 'cisla': ['4663/2', '3600/27', '3574/1', '3195', '1913/6', '3082', '3015/1', '2559/1', '2758/2', '2763/2', '2631/18', '2791', '2812', '2790/5', '2790/4', '2631/6', '2631/13', '2631/10', '2631/5', '2843/5', '2697/2', '2632', '3599/2', '3599/1', '3599/5', '3598/1', '3597', '3593/3', '3585', '3600/23', '3583', '3600/24', '3579/1', '3577', '3449', '3510/1', '3453', '3454', '3507/1', '3511/1', '3499/2', '3553', '3573', '3517/1', '3522', '3552/1', '3524', '3533/1', '3532/3', '3530', '4144/1', '3445/1', '3443', '3440', '3381/1', '3376/1', '3374/2', '3373/3', '3372', '3365/1', '3364', '3360/1', '3254', '3256/3', '3242', '3237', '3236', '3234', '3227', '3224', '3178', '3203', '3194', '3143', '3141', '3142', '3111', '3096', '3094/3', '3093', '3088', '3091', '3090', '3089', '3074/2', '3070', '3067/2', '3071/2', '2988', '3073', '3075/1', '3076/1', '2996', '3011', '3014/1', '3005/1', '3004', '2998', '2986', '2983/1', '2974', '2962/1', '2962/2', '2907', '2905', '2847/1', '2630/2', '2589/1', '2630/3', '2626/5', '2697/1', '2795/1', '2821', '2789/2', '2773/1', '2738', '2631/9', '2804', '2843/6', '2953', '2693', '2700', '2698', '2679', '2633/1', '2636/2', '2625']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Vychylovka', 'nazov_lokality_norm': 'Vychylovka'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Čadca', 'obec': 'Nová Bystrica', 'katastralne_uzemia': [{'nazov': 'Nová Bystrica', 'parcely': [{'typ': 'E', 'cisla': ['11200', '11186/26', '11241/5', '6834/1', '11186/29', '6559/1', '11186/90', '6559/2', '6426/2', '6560', '11222/1', '6616', '11220', '11222/3', '11186/82', '6529', '6528', '6521', '6520', '6308/1', '6307', '6306', '3317/1', '6289', '6288', '6283', '6282', '6281/1', '6280/1', '6218/1', '6216/2', '6215/2', '6214/2', '11186/61', '6052', '6051', '6050/102', '11236/2', '6071/3', '11236/3', '1827/1', '1824', '1818/1', '11186/93', '1818/2', '1817/3', '1815', '1808/2', '11236/8', '11186/105', '11241/6', '11186/80', '1828', '1856/2', '1829', '1830', '11236/4', '6521', '6304', '6303/2', '6320', '6276/1', '6269/5', '6214/1', '6062/3', '6053/103', '5836/2', '1809/1', '1816', '1798/4', '1835/1', '9-5805/5']}, {'typ': 'C', 'cisla': ['4663/2', '3600/27', '3574/1', '3195', '1913/6', '3082', '3015/1', '2559/1', '2758/2', '2763/2', '2631/18', '2791', '2812', '2790/5', '2790/4', '2631/6', '2631/13', '2631/10', '2631/5', '2843/5', '2697/2', '2632', '3599/2', '3599/1', '3599/5', '3598/1', '3597', '3593/3', '3585', '3600/23', '3583', '3600/24', '3579/1', '3577', '3449', '3510/1', '3453', '3454', '3507/1', '3511/1', '3499/2', '3553', '3573', '3517/1', '3522', '3552/1', '3524', '3533/1', '3532/3', '3530', '4144/1', '3445/1', '3443', '3440', '3381/1', '3376/1', '3374/2', '3373/3', '3372', '3365/1', '3364', '3360/1', '3254', '3256/3', '3242', '3237', '3236', '3234', '3227', '3224', '3178', '3203', '3194', '3143', '3141', '3142', '3111', '3096', '3094/3', '3093', '3088', '3091', '3090', '3089', '3074/2', '3070', '3067/2', '3071/2', '2988', '3073', '3075/1', '3076/1', '2996', '3011', '3014/1', '3005/1', '3004', '2998', '2986', '2983/1', '2974', '2962/1', '2962/2', '2907', '2905', '2847/1', '2630/2', '2589/1', '2630/3', '2626/5', '2697/1', '2795/1', '2821', '2789/2', '2773/1', '2738', '2631/9', '2804', '2843/6', '2953', '2693', '2700', '2698', '2679', '2633/1', '2636/2', '2625']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Vychylovka', 'nazov_lokality_norm': 'Vychylovka'}
+ku_name:Nová Bystrica obec:Nová Bystrica okres:Čadca kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: cadca norm_obec: nova bystrica norm_ku: nova bystrica
+_get_nationalCadastralZoningReferences() found_ids: {'841633'}
+nationalCadastralZoningReferences: ['841633']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.65 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 0.42 s
+get_geometry_of_cadastral_zone_parcels() request duration: 0.42 s
+get_geometry_of_cadastral_zone_parcels() Neočakávaná chyba pri sťahovaní dát: Expecting value: line 1 column 1 (char 0)
+get_geometry_of_cadastral_zone_parcels() data is None
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['4663/2', '3600/27', '3574/1', '3195', '1913/6', '3082', '3015/1', '2559/1', '2758/2', '2763/2', '2631/18', '2791', '2812', '2790/5', '2790/4', '2631/6', '2631/13', '2631/10', '2631/5', '2843/5', '2697/2', '2632', '3599/2', '3599/1', '3599/5', '3598/1', '3597', '3593/3', '3585', '3600/23', '3583', '3600/24', '3579/1', '3577', '3449', '3510/1', '3453', '3454', '3507/1', '3511/1', '3499/2', '3553', '3573', '3517/1', '3522', '3552/1', '3524', '3533/1', '3532/3', '3530', '4144/1', '3445/1', '3443', '3440', '3381/1', '3376/1', '3374/2', '3373/3', '3372', '3365/1', '3364', '3360/1', '3254', '3256/3', '3242', '3237', '3236', '3234', '3227', '3224', '3178', '3203', '3194', '3143', '3141', '3142', '3111', '3096', '3094/3', '3093', '3088', '3091', '3090', '3089', '3074/2', '3070', '3067/2', '3071/2', '2988', '3073', '3075/1', '3076/1', '2996', '3011', '3014/1', '3005/1', '3004', '2998', '2986', '2983/1', '2974', '2962/1', '2962/2', '2907', '2905', '2847/1', '2630/2', '2589/1', '2630/3', '2626/5', '2697/1', '2795/1', '2821', '2789/2', '2773/1', '2738', '2631/9', '2804', '2843/6', '2953', '2693', '2700', '2698', '2679', '2633/1', '2636/2', '2625']}' v KU 'Nová Bystrica' sa nenašli dáta.
+nazov_lokality: Vychylovka
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2367'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2367'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2367'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2367'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2367'}
+..              ...  ...                            ...
+64  CadastralParcel  ...  {'@href': '#auAdmUnitS.2367'}
+65  CadastralParcel  ...  {'@href': '#auAdmUnitS.2367'}
+66  CadastralParcel  ...  {'@href': '#auAdmUnitS.2367'}
+67  CadastralParcel  ...  {'@href': '#auAdmUnitS.2367'}
+68  CadastralParcel  ...  {'@href': '#auAdmUnitS.2367'}
+
+[69 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/575184/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'MCHU': [{'parcel_label': '11236/2', 'NATIONALSI': '485', 'SITETITLE_': 'PP Vychylovské prahy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Čadca/575184/analysis.json...
+
+--- Časy spracovania dokumentu 575184 ---
+  download_and_text   :   1.42 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  23.72 s
+  gis_processing      :   4.31 s
+  CELKOVÝ ČAS         :  29.46 s
+------------------------------------------
+Dokument 575184 bol úspešne spracovaný.

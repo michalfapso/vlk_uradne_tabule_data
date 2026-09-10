@@ -1,0 +1,97 @@
+[2026-09-10 20:23:20] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575140'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575140/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is garbled. Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0020992}
+LLM_tokens: {"input": 1366, "output": 5229, "total": 6595, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575140/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2' zákona '180/2013 Z. z. o organizácii miestnej správy v zmysle a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej správy starostlivosti o živo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4' zákona '180/2013 Z. z. o organizácii miestnej správy v zmysle a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej správy starostlivosti o živo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako prísluš'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako prísluš'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61a ods. 1 písm. c)' zákona '364/2004 Z. z. o vodách a o zmene a doplnení zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 1' zákona '50/2010 Z. z. Stavebný zákon v znení a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 60' zákona 'Stavebného zákona v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14' zákona 'vyhlášky č. 60/2023 Z. z. o štruktúre predkladania informácií technického systému územného plánovania a výstavby a obsahu podaní a obsahu v rozhodovac'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 6' zákona 'oprávneného poriadku môže úrad bez použitia oprávneného prvostupňový výkon vykonať nápravu, ak ide o chyby v písaní, počítaní alebo iné zrejmé nespráv'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 6' zákona 'oprávneného poriadku môže úrad bez použitia oprávneného prvostupňový výkon vykonať nápravu, ak ide o chyby v písaní, počítaní alebo iné zrejmé nespráv'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky Spôsob autorizácie: SK IČO 00151866 kvalifikovanou elektronickou pečaťou kval'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575140/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.017835}
+LLM_tokens: {"input": 10152, "output": 4253, "total": 14405, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575140/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575140/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Námestovo', 'obec': 'Rabča', 'katastralne_uzemia': [{'nazov': 'Rabča', 'parcely': [{'typ': 'C', 'cisla': ['15479/82', '15479/87', '15479/238', '15479/249', '15479/259', '15479/256', '15479/276', '15479/280', '15479/15', '15479/10', '15665/11', '15480/30', '15480/26', '15480/27', '15480/16', '15480/18', '15663/7', '15480/8', '15680/35', '15680/33', '15680/31', '15479/270', '15479/196', '30/2027', '30/201', '3045/1', '3026/1', '1878/101', '1878/244', '3045/11', '1878/50', '1878/49', '3045/50', '1878/51']}, {'typ': 'E', 'cisla': ['6876/1', '1065', '1066', '1064']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Rabča Pod Hájkom II, ul. Ružová I., II.', 'nazov_lokality_norm': 'Ružová, Rabča'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Námestovo', 'obec': 'Rabča', 'katastralne_uzemia': [{'nazov': 'Rabča', 'parcely': [{'typ': 'C', 'cisla': ['15479/82', '15479/87', '15479/238', '15479/249', '15479/259', '15479/256', '15479/276', '15479/280', '15479/15', '15479/10', '15665/11', '15480/30', '15480/26', '15480/27', '15480/16', '15480/18', '15663/7', '15480/8', '15680/35', '15680/33', '15680/31', '15479/270', '15479/196', '30/2027', '30/201', '3045/1', '3026/1', '1878/101', '1878/244', '3045/11', '1878/50', '1878/49', '3045/50', '1878/51']}, {'typ': 'E', 'cisla': ['6876/1', '1065', '1066', '1064']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Rabča Pod Hájkom II, ul. Ružová I., II.', 'nazov_lokality_norm': 'Ružová, Rabča'}
+ku_name:Rabča obec:Rabča okres:Námestovo kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: namestovo norm_obec: rabca norm_ku: rabca
+_get_nationalCadastralZoningReferences() found_ids: {'850772'}
+nationalCadastralZoningReferences: ['850772']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.90 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.22 s
+nazov_lokality: Ružová, Rabča
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.2002'}
+
+[34 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575140/gis.geojson...
+Intersections with protected areas...
+Found 22 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '15479/87', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15479/82', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15480/16', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15480/18', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15665/11', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15479/238', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15479/276', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15479/270', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15479/259', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15479/256', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15479/249', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15663/7', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15480/8', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15479/196', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15479/15', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15479/10', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15680/35', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15680/31', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15480/30', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15479/280', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '15680/33', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '6876/1', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575140/analysis.json...
+
+--- Časy spracovania dokumentu 575140 ---
+  download_and_text   :  21.95 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.90 s
+  gis_processing      :   7.37 s
+  CELKOVÝ ČAS         :  46.23 s
+------------------------------------------
+Dokument 575140 bol úspešne spracovaný.

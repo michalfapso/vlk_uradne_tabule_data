@@ -1,0 +1,80 @@
+{
+  "cislo_konania_spisu": "OU-TO-OSZP-2026/003197-012",
+  "cislo_rozhodnutia": "OU-TO-OSZP-2026/003197-0034706/2026",
+  "datum_dokumentu": "2026-08-27",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa doručenia tohto rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Mesto Topoľčany",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Topoľčany",
+    "obec": "Topoľčany",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "ul. Skýcovská 1683, Topoľčany",
+    "nazov_lokality_norm": "Skýcovská, Topoľčany"
+  },
+  "typ_dokumentu": "Rozhodnutie o zastavení konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "posudzovanie vozidla vykazujúceho znaky starého vozidla",
+    "zastavenie konania"
+  ],
+  "rozsah_zasahu": "1 vozidlo (Volkswagen Bora)",
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o odpadoch",
+      "cislo": "79/2015",
+      "paragrafy": [
+        "104",
+        "108",
+        "67"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "30",
+        "3",
+        "32",
+        "19",
+        "26",
+        "53",
+        "54"
+      ]
+    }
+  ],
+  "zhrnutie": "Okresný úrad Topoľčany zastavil konanie vo veci vozidla Volkswagen Bora na Skýcovskej ulici, ktoré bolo nahlásené ako staré vozidlo. Rozhodnutie bolo vydané z dôvodu nepreukázania znakov starého vozidla a nedoplnenia podkladov zo strany mesta. Konanie sa týka zastavaného územia obce a nezasahuje do chránených území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "Topoľčany",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

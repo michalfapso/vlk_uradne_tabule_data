@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": "SVP 1384/2026/10",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-04",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Klokočov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Klokočov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "576/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "pobrežné pozemky VS Zemplínska Šírava",
+    "nazov_lokality_norm": "Zemplínska Šírava"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub krovitého porastu"
+  ],
+  "rozsah_zasahu": "krovitý porast o výmere cca 16000 m2",
+  "typ_uzemia": [
+    "SCHKO Vihorlat"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "krovitý porast",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "48 ods. 5 písm. c)",
+        "49 ods. 1 písm. b)"
+      ]
+    }
+  ],
+  "zhrnutie": "SVP oznamuje plánovaný výrub krovitého porastu na ploche cca 16 000 m2 na pobrežných pozemkoch vodnej nádrže Zemplínska Šírava v k.ú. Klokočov. Výrub sa plánuje realizovať v období vegetačného pokoja od októbra 2026 do decembra 2028 za účelom údržby brehových porastov. Lokalita spadá pod pôsobnosť SCHKO Vihorlat.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "576/1",
+          "NATIONALSI": "722",
+          "SITETITLE_": "OP CHA Zemplínska šírava"
+        },
+        {
+          "parcel_label": "576/1",
+          "NATIONALSI": "722",
+          "SITETITLE_": "CHA Zemplínska šírava"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

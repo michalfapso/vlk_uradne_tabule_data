@@ -1,0 +1,166 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-02",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Lúbeľa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kráľovská Lúbeľa",
+        "parcely": []
+      },
+      {
+        "nazov": "Dúbrava",
+        "parcely": []
+      },
+      {
+        "nazov": "Lipt. Kľačany",
+        "parcely": []
+      },
+      {
+        "nazov": "Svätý Križ",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo 22 kV vedenia V3.167.131",
+    "nazov_lokality_norm": "V3.167.131"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "odstránenie a okliesnenie stromov a iných porastov"
+  ],
+  "rozsah_zasahu": "úsek údržby 7,5 km",
+  "typ_uzemia": [
+    "ochranné pásmo podzemného vedenia",
+    "ochranné pásmo 22 kV vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "agát",
+    "trnka",
+    "lieska",
+    "javor",
+    "breh",
+    "topoľ",
+    "vŕba",
+    "jelša",
+    "čerešňa",
+    "jabloň",
+    "orech",
+    "buk",
+    "hrab",
+    "borovica",
+    "smrek",
+    "smrekovec",
+    "jaseň"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "43",
+        "43 ods. 2 písm. a)",
+        "11",
+        "11 ods. 1 písm. b)"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a okliesnení stromov v dĺžke 7,5 km v ochrannom pásme 22 kV elektrického vedenia. Práce sa dotknú katastrálnych území obcí Lúbeľa, Dúbrava, Liptovské Kľačany a Svätý Kríž v termíne od 22.9.2026 do 28.2.2027. Ide o údržbu energetických zariadení podľa zákona o energetike.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Dúbrava",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Dúbrava",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Dúbrava",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Kráľovská Ľubeľa",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        },
+        {
+          "parcel_label": "Dúbrava",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        },
+        {
+          "parcel_label": "Dúbrava",
+          "NATIONALSI": "SKUEV0060",
+          "SITETITLE_": "Chraste"
+        },
+        {
+          "parcel_label": "Liptovské Kľačany",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        },
+        {
+          "parcel_label": "Svätý Kríž",
+          "NATIONALSI": "SKUEV0060",
+          "SITETITLE_": "Chraste"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Dúbrava",
+          "NATIONALSI": "1024",
+          "SITETITLE_": "NPR Skalka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Kráľovská Ľubeľa",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        },
+        {
+          "parcel_label": "Dúbrava",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        },
+        {
+          "parcel_label": "Liptovské Kľačany",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

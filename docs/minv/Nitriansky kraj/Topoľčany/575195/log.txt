@@ -1,0 +1,54 @@
+[2026-09-10 20:18:24] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/575195'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/575195/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/575195/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 50' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, v zhode s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51' zákona 'stavebného zákona a v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona 'vodného zákona, oznamuje začatie vodoprávneho konania účastníkom konania, dotknutým orgánom a dotknutým právnickým osobám. Účastníci konania môžu upla'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 4' zákona 'Stavebného zákona návrhy, pripomienky a námietky účastníkov konania musia obsahovať údaj o tom, kto ich podáva, akého konania sa týkajú a v čom vidí ú'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 5' zákona 'Stavebného zákona správny orgán neprihliadne na návrhy, pripomienky a námietky účastníkov konania, ktoré sledujú iný cieľ ako ochranu práv a právom ch'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/575195/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0132135}
+LLM_tokens: {"input": 7845, "output": 3097, "total": 10942, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/575195/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/575195/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Topoľčany', 'obec': 'Solčany', 'katastralne_uzemia': [{'nazov': 'Solčany', 'parcely': [{'typ': 'C', 'cisla': ['2967/19', '4725']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'miestna komunikácia, k. ú. Solčany', 'nazov_lokality_norm': 'Solčany'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Topoľčany', 'obec': 'Solčany', 'katastralne_uzemia': [{'nazov': 'Solčany', 'parcely': [{'typ': 'C', 'cisla': ['2967/19', '4725']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'miestna komunikácia, k. ú. Solčany', 'nazov_lokality_norm': 'Solčany'}
+ku_name:Solčany obec:Solčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: solcany norm_ku: solcany
+_get_nationalCadastralZoningReferences() found_ids: {'857289'}
+nationalCadastralZoningReferences: ['857289']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.48 s
+nazov_lokality: Solčany
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1994'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1994'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/575195/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '4725', 'NATIONALSI': 'SKCHVU031', 'SITETITLE_': 'Tribeč'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/575195/analysis.json...
+
+--- Časy spracovania dokumentu 575195 ---
+  download_and_text   :   1.70 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.94 s
+  gis_processing      :   3.70 s
+  CELKOVÝ ČAS         :  17.34 s
+------------------------------------------
+Dokument 575195 bol úspešne spracovaný.
