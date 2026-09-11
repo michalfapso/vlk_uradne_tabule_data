@@ -1,0 +1,80 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-09",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "mesto Trenčín",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3488/97",
+              "3488/96",
+              "3488/105",
+              "3488/106",
+              "3488/95",
+              "2286/3",
+              "3435"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "2286/21",
+              "2287",
+              "2496/2",
+              "2288/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Cintorín s krematóriom Trenčín – 1. etapa",
+    "nazov_lokality_norm": "Cintorín, Trenčín"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania na vydanie súhlasu na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub stromov",
+    "výrub krovitých porastov"
+  ],
+  "rozsah_zasahu": "127 ks stromov a 1821 m2 krovitých porastov",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82",
+        "47",
+        "83",
+        "68"
+      ]
+    }
+  ],
+  "zhrnutie": "Mesto Trenčín žiada o súhlas na výrub 127 kusov stromov a 1821 m2 krovitých porastov v katastrálnom území Trenčín. Dôvodom výrubu je realizácia 1. etapy stavby 'Cintorín s krematóriom Trenčín'. Konanie sa začalo 09.09.2026 a verejnosť má 5 pracovných dní na prihlásenie sa do konania.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,75 @@
+[2026-09-11 20:16:19] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/575261'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/575261/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0013391999999999998}
+LLM_tokens: {"input": 1366, "output": 3329, "total": 4695, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/575261/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov ako príslušný'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 104 ods. 2' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 108 ods. 1 písm. h)' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 6' zákona '79/2015 Z. z. o odpadoch, že dňom nadobudnutia právoplatnosti tohto rozhodnutia vlastníctvo vnútorného vozidla značky Volkswagen 9N Polo, farby zelená'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'o odpadoch sa týkali vozidlo zn. Volkswagen 9N Polo, farby zelená metalíza, s evidenčným číslom NR 482 MH, ktoré vlastníkmi,dr.Jozefom je spoločnosť J'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 2' zákona 'o odpadoch na určené parkovisko prevádzkované spoločnosťou Daniel Laluch, AUTOLALUCH, Malá Kráľová č.1, 951 32 Horná Kráľová z dôvodu, že sa vo vlastn'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 1' zákona 'o odpadoch, pričom vozidlo dlhodobo nachádzajúce sa na ulici Štúrovej v Nitre'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 6' zákona 'o odpadoch v rozhodnutí zároveň určil, že vozidlo je starým vozidlom.  Držiteľom predmetného starého vozidla sa po nadobudnutí právoplatnosti daného r'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 60 ods. 8' zákona 'o odpadov, stáva prevádzkovateľ““ určeného parkoviska Daniel Laluch AUTOLALUCH, 951 32 Horná Kráľová, v ktorého miera správcovské predmete staré vozid'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 97' zákona 'o odpadoch. Ku konaniu boli od Mesta Nitra doložené nasledovné podklady: - Oznámenie o dlhodobom parkujúcom vozidle od Mestskej polície Mestu Nitra dň'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky Spôsob autorizácie: SK IČO 00151866 kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/575261/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011415999999999999}
+LLM_tokens: {"input": 8552, "output": 2380, "total": 10932, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/575261/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/575261/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Nitra', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulica Štúrova v Nitre (parkovisko vedľa veľkého kruhového objazdu)', 'nazov_lokality_norm': 'Štúrova, Nitra'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nitra', 'obec': 'Nitra', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulica Štúrova v Nitre (parkovisko vedľa veľkého kruhového objazdu)', 'nazov_lokality_norm': 'Štúrova, Nitra'}
+Fallback to OBEC: Nitra
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nitra norm_obec: nitra norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (11), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Štúrova, Nitra
+get_geometry_of_a_geoname nazov_lokality: Štúrova, Nitra
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Nitra, Nitra, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Nitra, Nitra, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Nitra, Nitriansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Nitra, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.30894600000001, 'lon': 18.079741, 'formatted_address': 'Nitra,,Štúrova, 949 01 Nitra, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 949 01 Nitra, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.06218 48.31103, 18.06268 48.31091...  ...  OO PZ Nitra - západ, 40/72, Štúrova, Predná ho...
+1  POLYGON ((18.06278 48.31089, 18.0632 48.31079,...  ...  ARRIVA NITRA, Štúrova, Klokočina I, Mlynárce, ...
+
+[2 rows x 11 columns]
+geoname_query: Nitra,,Štúrova, 949 01 Nitra, Slovakia
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.06218 48.31103, 18.06268 48.31091...  ...  OO PZ Nitra - západ, 40/72, Štúrova, Predná ho...
+1  POLYGON ((18.06278 48.31089, 18.0632 48.31079,...  ...  ARRIVA NITRA, Štúrova, Klokočina I, Mlynárce, ...
+
+[2 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/575261/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nitra/575261/analysis.json...
+
+--- Časy spracovania dokumentu 575261 ---
+  download_and_text   :  15.48 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.99 s
+  gis_processing      :   2.78 s
+  CELKOVÝ ČAS         :  29.24 s
+------------------------------------------
+Dokument 575261 bol úspešne spracovaný.

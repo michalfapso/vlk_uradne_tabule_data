@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "apríl 2026",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa, keď bolo Oznámenie zverejnené dotknutou obcou"
+  },
+  "ziadatel_navrhovatel": "Obec Trenčianske Bohuslavice",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Trenčianske Bohuslavice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčianske Bohuslavice",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Trenčianske Bohuslavice",
+    "nazov_lokality_norm": "Trenčianske Bohuslavice"
+  },
+  "typ_dokumentu": "Oznámenie o strategickom dokumente",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "územné plánovanie",
+    "Zmeny a doplnky územného plánu"
+  ],
+  "rozsah_zasahu": "Zmeny a doplnky č. 2",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia-sea/informacny-system",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "4",
+        "5",
+        "6",
+        "63"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí zisťovacieho konania pre strategický dokument 'Územný plán obce Trenčianske Bohuslavice Zmeny a doplnky č. 2'. Verejnosť môže predkladať stanoviská do 15 dní od zverejnenia. Dokument rieši územné plánovanie a nadväzuje na upravený návrh, z ktorého boli na základe predchádzajúcich námietok vypustené problematické lokality.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Trenčianske Bohuslavice",
+          "NATIONALSI": "SKUEV0567",
+          "SITETITLE_": "Turecký vrch"
+        },
+        {
+          "parcel_label": "Trenčianske Bohuslavice",
+          "NATIONALSI": "SKUEV0805",
+          "SITETITLE_": "Hájnica"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Trenčianske Bohuslavice",
+          "NATIONALSI": "179",
+          "SITETITLE_": "PR Turecký vrch"
+        },
+        {
+          "parcel_label": "Trenčianske Bohuslavice",
+          "NATIONALSI": "42",
+          "SITETITLE_": "PR Hájnica"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

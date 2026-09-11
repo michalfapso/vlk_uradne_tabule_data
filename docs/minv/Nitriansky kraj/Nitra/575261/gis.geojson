@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "place_id": 187491230, "osm_type": "way", "osm_id": 137945161, "place_rank": 30, "category": "amenity", "type": "police", "importance": 6.5107957579873616e-05, "addresstype": "amenity", "name": "OO PZ Nitra - západ", "display_name": "OO PZ Nitra - západ, 40/72, Štúrova, Predná hora, Mlynárce, Nitra, okres Nitra, Nitriansky kraj, 949 01, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 18.0621846, 48.311033 ], [ 18.0626834, 48.310914 ], [ 18.0627785, 48.3108913 ], [ 18.0628432, 48.311011 ], [ 18.0627497, 48.3110334 ], [ 18.0622492, 48.3111528 ], [ 18.0621846, 48.311033 ] ] ] } },
+{ "type": "Feature", "properties": { "place_id": 187089805, "osm_type": "way", "osm_id": 137945166, "place_rank": 30, "category": "building", "type": "yes", "importance": 6.5107957579873616e-05, "addresstype": "building", "name": "ARRIVA NITRA", "display_name": "ARRIVA NITRA, Štúrova, Klokočina I, Mlynárce, Nitra, okres Nitra, Nitriansky kraj, 949 01, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 18.0627785, 48.3108913 ], [ 18.0632011, 48.3107903 ], [ 18.0632648, 48.3109091 ], [ 18.0630823, 48.3109525 ], [ 18.0631051, 48.3109934 ], [ 18.0630459, 48.3110067 ], [ 18.0630231, 48.3109671 ], [ 18.0628432, 48.311011 ], [ 18.0627785, 48.3108913 ] ] ] } }
+]
+}

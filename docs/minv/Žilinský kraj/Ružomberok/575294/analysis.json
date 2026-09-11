@@ -1,0 +1,111 @@
+{
+  "cislo_konania_spisu": "OU-RK-OSZP-2026/011855",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-09-11",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Gustáv Hatiar",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Ružomberok",
+    "obec": "Ivachnová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ivachnová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "614",
+              "639",
+              "641/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "621",
+              "625"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Lazy",
+    "nazov_lokality_norm": "Lazy"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín rastúcich mimo lesa"
+  ],
+  "rozsah_zasahu": "2 ks topoľ, 3 ks borovica, 2 ks vŕba",
+  "typ_uzemia": [
+    "prvý stupeň územnej ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "topoľ",
+    "borovica",
+    "vŕba"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47 ods. 3",
+        "82 ods. 3",
+        "82 ods. 6",
+        "82 ods. 7"
+      ]
+    },
+    {
+      "nazov": "zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19 ods. 1"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o vydanie súhlasu na výrub 7 kusov drevín (topoľ, borovica, vŕba) v lokalite Lazy v katastrálnom území Ivachnová. Konanie prebieha v prvom stupni územnej ochrany a lehota na potvrdenie záujmu byť účastníkom konania je 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "621",
+          "NAZOV_UEV": "Váh",
+          "KOD_UEV": "SKUEV0253"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "621",
+          "NATIONALSI": "SKUEV0253",
+          "SITETITLE_": "Váh"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "614",
+          "NATIONALSI": "276",
+          "SITETITLE_": "PR Ivachnovský luh"
+        },
+        {
+          "parcel_label": "621",
+          "NATIONALSI": "276",
+          "SITETITLE_": "PR Ivachnovský luh"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

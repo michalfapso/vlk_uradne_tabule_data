@@ -1,0 +1,52 @@
+[2026-09-11 20:15:05] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/575308'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/575308/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0003556}
+LLM_tokens: {"input": 334, "output": 870, "total": 1204, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/575308/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 3' zákona 'zák. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov v k. ú. Gelnica nasledovne: 20 m² krovitých porastov slivka trnková a sví'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'uvedie v písomnom oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno a priezvisko osoby oprávnenej konať v jeho'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/575308/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0148895}
+LLM_tokens: {"input": 5461, "output": 4053, "total": 9514, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/575308/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/575308/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Gelnica', 'obec': 'Gelnica', 'katastralne_uzemia': [{'nazov': 'Gelnica', 'parcely': [{'typ': 'E', 'cisla': ['2487/1', '2488']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Košický kraj', 'okres': 'Gelnica', 'obec': 'Gelnica', 'katastralne_uzemia': [{'nazov': 'Gelnica', 'parcely': [{'typ': 'E', 'cisla': ['2487/1', '2488']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Gelnica obec:Gelnica okres:Gelnica kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: gelnica norm_ku: gelnica
+_get_nationalCadastralZoningReferences() found_ids: {'814741'}
+nationalCadastralZoningReferences: ['814741']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.99 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.877'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.877'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/575308/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/575308/analysis.json...
+
+--- Časy spracovania dokumentu 575308 ---
+  download_and_text   :   8.31 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  16.67 s
+  gis_processing      :   3.20 s
+  CELKOVÝ ČAS         :  28.19 s
+------------------------------------------
+Dokument 575308 bol úspešne spracovaný.

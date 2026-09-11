@@ -1,0 +1,44 @@
+[2026-09-11 20:17:44] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/575225'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/575225/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/575225/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/575225/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009053499999999999}
+LLM_tokens: {"input": 5219, "output": 2148, "total": 7367, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/575225/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/575225/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Bardejov', 'katastralne_uzemia': [{'nazov': 'Bardejov', 'parcely': [{'typ': 'C', 'cisla': ['4791/2']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'k. ú. Bardejov', 'nazov_lokality_norm': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Bardejov', 'katastralne_uzemia': [{'nazov': 'Bardejov', 'parcely': [{'typ': 'C', 'cisla': ['4791/2']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'k. ú. Bardejov', 'nazov_lokality_norm': None}
+ku_name:Bardejov obec:Bardejov okres:Bardejov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: bardejov norm_ku: bardejov
+_get_nationalCadastralZoningReferences() found_ids: {'801712'}
+nationalCadastralZoningReferences: ['801712']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.00 s
+nazov_lokality: k. ú. Bardejov
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2044'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/575225/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/575225/analysis.json...
+
+--- Časy spracovania dokumentu 575225 ---
+  download_and_text   :   0.99 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   9.19 s
+  gis_processing      :   3.22 s
+  CELKOVÝ ČAS         :  13.41 s
+------------------------------------------
+Dokument 575225 bol úspešne spracovaný.

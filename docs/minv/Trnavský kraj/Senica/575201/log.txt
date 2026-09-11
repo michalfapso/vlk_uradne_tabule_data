@@ -1,0 +1,80 @@
+[2026-09-11 20:21:04] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/575201'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/575201/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/575201/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona '543/202 Z.z. o ochrane prírody a krajiny v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13  ods. 2 písm. k)' zákona ':     - o udelenie súhlasu požiadalo Mesto Šaštín Stráže, Alej 549, 908 41  Šaštín Stráže na usporiadanie  verejného športového podujatia „Night Run 2'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13' zákona 'platí druhý stupeň ochrany.       V zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie písomného alebo elektronického potvrdenia záujmu byť  účastníkom konania,  podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ', v začatom správnom konaní je do: 17.09.2026'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.007863}
+LLM_tokens: {"input": 4620, "output": 1851, "total": 6471, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 56 column 1 (char 1625)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011103}
+LLM_tokens: {"input": 4620, "output": 2931, "total": 7551, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/575201/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/575201/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Senica', 'obec': 'Šaštín-Stráže', 'katastralne_uzemia': [{'nazov': 'Šaštín', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Chránená krajinná oblasť Záhorie', 'nazov_lokality_norm': 'Záhorie'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Senica', 'obec': 'Šaštín-Stráže', 'katastralne_uzemia': [{'nazov': 'Šaštín', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Chránená krajinná oblasť Záhorie', 'nazov_lokality_norm': 'Záhorie'}
+ku_name:Šaštín obec:Šaštín-Stráže okres:Senica kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: senica norm_obec: sastin-straze norm_ku: sastin
+_get_nationalCadastralZoningReferences() found_ids: {'860689'}
+nationalCadastralZoningReferences: ['860689']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Záhorie
+get_geometry_of_a_geoname nazov_lokality: Záhorie
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Šaštín-Stráže, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Senica, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.36841 48.67798, 17.36845 48.67775...  ...  Záhorská knižnica Senica, 28/2, Vajanského, So...
+1  MULTIPOLYGON (((16.83319 48.38052, 16.83322 48...  ...  Chránená krajinná oblasť Záhorie, okres Senica...
+
+[2 rows x 11 columns]
+geoname_query: Záhorie, Senica, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.09922 48.64502, 17.09988 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.36841 48.67798, 17.36845 48.67775...  ...  Záhorská knižnica Senica, 28/2, Vajanského, So...
+1  MULTIPOLYGON (((16.83319 48.38052, 16.83322 48...  ...  Chránená krajinná oblasť Záhorie, okres Senica...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/575201/gis.geojson...
+Intersections with protected areas...
+Found 4 intersecting parcels with '5st_konsUEV'.
+Found 4 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Šaštín', 'NAZOV_UEV': 'Vanišovec', 'KOD_UEV': 'SKUEV0226'}, {'parcel_label': 'Šaštín', 'NAZOV_UEV': 'Vanišovec', 'KOD_UEV': 'SKUEV0226'}, {'parcel_label': 'Šaštín', 'NAZOV_UEV': 'Vanišovec', 'KOD_UEV': 'SKUEV0226'}, {'parcel_label': 'Šaštín', 'NAZOV_UEV': 'Vanišovec', 'KOD_UEV': 'SKUEV0226'}], 'UEV': [{'parcel_label': 'Šaštín', 'NATIONALSI': 'SKUEV0171', 'SITETITLE_': 'Zelienka'}, {'parcel_label': 'Šaštín', 'NATIONALSI': 'SKUEV0220', 'SITETITLE_': 'Šaštínsky potok'}, {'parcel_label': 'Šaštín', 'NATIONALSI': 'SKUEV0226', 'SITETITLE_': 'Vanišovec'}, {'parcel_label': 'Šaštín', 'NATIONALSI': 'SKUEV0213', 'SITETITLE_': 'Kazarka'}], 'MCHU': [{'parcel_label': 'Šaštín', 'NATIONALSI': '195', 'SITETITLE_': 'NPR Zelienka'}, {'parcel_label': 'Šaštín', 'NATIONALSI': '1210', 'SITETITLE_': 'PR Vanišovec'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/575201/analysis.json...
+
+--- Časy spracovania dokumentu 575201 ---
+  download_and_text   :   1.06 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  21.53 s
+  gis_processing      :   1.08 s
+  CELKOVÝ ČAS         :  23.68 s
+------------------------------------------
+Dokument 575201 bol úspešne spracovaný.

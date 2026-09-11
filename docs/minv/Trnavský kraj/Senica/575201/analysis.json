@@ -1,0 +1,115 @@
+{
+  "cislo_konania_spisu": "OU-SE-OSZP-2026/018180-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-10",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 17.09.2026 (vrátane)"
+  },
+  "ziadatel_navrhovatel": "Mesto Šaštín Stráže",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Senica",
+    "obec": "Šaštín-Stráže",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šaštín",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Chránená krajinná oblasť Záhorie",
+    "nazov_lokality_norm": "Záhorie"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "usporiadanie verejného športového podujatia „Night Run 2026“"
+  ],
+  "rozsah_zasahu": "podujatie dňa 24.10.2026 v čase od 17:00 – 21:00 hod.",
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Záhorie",
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "13 ods. 2 písm. k)",
+        "82 ods. 3",
+        "13"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci udelenia súhlasu na usporiadanie športového podujatia „Night Run 2026“. Podujatie sa má uskutočniť v extraviláne obce v katastrálnom území Šaštín. Lokalita sa nachádza v CHKO Záhorie, kde platí 2. stupeň ochrany.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Šaštín",
+          "NAZOV_UEV": "Vanišovec",
+          "KOD_UEV": "SKUEV0226"
+        },
+        {
+          "parcel_label": "Šaštín",
+          "NAZOV_UEV": "Vanišovec",
+          "KOD_UEV": "SKUEV0226"
+        },
+        {
+          "parcel_label": "Šaštín",
+          "NAZOV_UEV": "Vanišovec",
+          "KOD_UEV": "SKUEV0226"
+        },
+        {
+          "parcel_label": "Šaštín",
+          "NAZOV_UEV": "Vanišovec",
+          "KOD_UEV": "SKUEV0226"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Šaštín",
+          "NATIONALSI": "SKUEV0171",
+          "SITETITLE_": "Zelienka"
+        },
+        {
+          "parcel_label": "Šaštín",
+          "NATIONALSI": "SKUEV0220",
+          "SITETITLE_": "Šaštínsky potok"
+        },
+        {
+          "parcel_label": "Šaštín",
+          "NATIONALSI": "SKUEV0226",
+          "SITETITLE_": "Vanišovec"
+        },
+        {
+          "parcel_label": "Šaštín",
+          "NATIONALSI": "SKUEV0213",
+          "SITETITLE_": "Kazarka"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Šaštín",
+          "NATIONALSI": "195",
+          "SITETITLE_": "NPR Zelienka"
+        },
+        {
+          "parcel_label": "Šaštín",
+          "NATIONALSI": "1210",
+          "SITETITLE_": "PR Vanišovec"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

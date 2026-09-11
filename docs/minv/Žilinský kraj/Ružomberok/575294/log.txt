@@ -1,0 +1,60 @@
+[2026-09-11 20:22:36] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575294'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575294/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575294/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'Vás upovedomujeme o začatom správnom  konaní, v ktorom môžu byť dotknuté záujmy ochrany prírody a krajiny.       Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'je orgán ochrany prírody  povinný zverejniť na svojej internetovej  stránke informáciu o začatí každého správneho konania, v ktorom môžu byť dotknuté'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 8' zákona ', a to najneskôr do  troch pracovných dní od začatia konania; súčasťou uvedenej informácie je údaj o lehote, ktorú určil na  doručenie potvrdenia záuj'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods.3' zákona ', ktorá nesmie byť kratšia ako päť pracovných dní od zverejnenia informácie.         Združenie s právnou subjektivitou, ktorého predmetom činnosti naj'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona ', je  zúčastnenou osobou konania, ak spôsobom podľa osobitného predpisu potvrdilo svoj záujem byť  zúčastnenou osobou v začatom správnom konaní; potvr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona '.       Potvrdenie záujmu byť zúčastnenou osobou v konkrétnom správnom konaní je potrebné doručiť  príslušnému orgánu ochrany prírody nasledovným spôs'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575294/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013158000000000001}
+LLM_tokens: {"input": 5388, "output": 3488, "total": 8876, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575294/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575294/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Ivachnová', 'katastralne_uzemia': [{'nazov': 'Ivachnová', 'parcely': [{'typ': 'C', 'cisla': ['614', '639', '641/1']}, {'typ': 'E', 'cisla': ['621', '625']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Lazy', 'nazov_lokality_norm': 'Lazy'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Ivachnová', 'katastralne_uzemia': [{'nazov': 'Ivachnová', 'parcely': [{'typ': 'C', 'cisla': ['614', '639', '641/1']}, {'typ': 'E', 'cisla': ['621', '625']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Lazy', 'nazov_lokality_norm': 'Lazy'}
+ku_name:Ivachnová obec:Ivachnová okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: ivachnova norm_ku: ivachnova
+_get_nationalCadastralZoningReferences() found_ids: {'821403'}
+nationalCadastralZoningReferences: ['821403']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.42 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.93 s
+nazov_lokality: Lazy
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2761'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2761'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2761'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2761'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.2761'}
+
+[5 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575294/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': '621', 'NAZOV_UEV': 'Váh', 'KOD_UEV': 'SKUEV0253'}], 'UEV': [{'parcel_label': '621', 'NATIONALSI': 'SKUEV0253', 'SITETITLE_': 'Váh'}], 'MCHU': [{'parcel_label': '614', 'NATIONALSI': '276', 'SITETITLE_': 'PR Ivachnovský luh'}, {'parcel_label': '621', 'NATIONALSI': '276', 'SITETITLE_': 'PR Ivachnovský luh'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575294/analysis.json...
+
+--- Časy spracovania dokumentu 575294 ---
+  download_and_text   :   1.06 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  15.12 s
+  gis_processing      :   6.57 s
+  CELKOVÝ ČAS         :  22.76 s
+------------------------------------------
+Dokument 575294 bol úspešne spracovaný.

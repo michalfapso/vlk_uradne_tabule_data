@@ -1,0 +1,72 @@
+[2026-09-11 20:20:20] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575291'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575291/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575291/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 1' zákona 'a oznámenie o predložení oznámenia o  strategickom dokumente podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'Oznámenie o strategickom dokumente „Územný plán obce Trenčianske Bohuslavice  Zmeny a doplnky č. 2“. Prílohou Oznámenia je návrh riešenia Územného plá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6' zákona 'informuje verejnosť, že oznámenie o strategickom dokumente „Územný plán obce  Trenčianske Bohuslavice Zmeny a doplnky č. 2“ je sprístupnené na informa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 6' zákona 'do 15 dní  odo dňa, keď bolo Oznámenie zverejnené dotknutou obcou'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 3' zákona 'Vám oznamujeme, že na uvedenej adrese okresného úradu je možné  vykonať konzultácie podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 63' zákona 'k uvedenému strategickému dokumentu počas celého  procesu zisťovacieho konania o posudzovaní strategického dokumentu v pracovných dňoch počas  úradnýc'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012625}
+LLM_tokens: {"input": 5066, "output": 3364, "total": 8430, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575291/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575291/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Trenčianske Bohuslavice', 'katastralne_uzemia': [{'nazov': 'Trenčianske Bohuslavice', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Trenčianske Bohuslavice', 'nazov_lokality_norm': 'Trenčianske Bohuslavice'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Trenčianske Bohuslavice', 'katastralne_uzemia': [{'nazov': 'Trenčianske Bohuslavice', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Trenčianske Bohuslavice', 'nazov_lokality_norm': 'Trenčianske Bohuslavice'}
+ku_name:Trenčianske Bohuslavice obec:Trenčianske Bohuslavice okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: trencianske bohuslavice norm_ku: trencianske bohuslavice
+_get_nationalCadastralZoningReferences() found_ids: {'864404'}
+nationalCadastralZoningReferences: ['864404']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Trenčianske Bohuslavice
+get_geometry_of_a_geoname nazov_lokality: Trenčianske Bohuslavice
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bohuslavice, Trenčianske Bohuslavice, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.83979 48.80484, 17.84041 48.80428...  ...  Trenčianske Bohuslavice, okres Nové Mesto nad ...
+
+[1 rows x 11 columns]
+geoname_query: Trenčianske Bohuslavice, Trenčianske Bohuslavice, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.86027 48.81109, 17.86085 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.83979 48.80484, 17.84041 48.80428...  ...  Trenčianske Bohuslavice, okres Nové Mesto nad ...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575291/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Trenčianske Bohuslavice', 'NATIONALSI': 'SKUEV0567', 'SITETITLE_': 'Turecký vrch'}, {'parcel_label': 'Trenčianske Bohuslavice', 'NATIONALSI': 'SKUEV0805', 'SITETITLE_': 'Hájnica'}], 'MCHU': [{'parcel_label': 'Trenčianske Bohuslavice', 'NATIONALSI': '179', 'SITETITLE_': 'PR Turecký vrch'}, {'parcel_label': 'Trenčianske Bohuslavice', 'NATIONALSI': '42', 'SITETITLE_': 'PR Hájnica'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575291/analysis.json...
+
+--- Časy spracovania dokumentu 575291 ---
+  download_and_text   :   1.60 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.43 s
+  gis_processing      :   0.93 s
+  CELKOVÝ ČAS         :  16.96 s
+------------------------------------------
+Dokument 575291 bol úspešne spracovaný.
