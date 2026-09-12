@@ -1,0 +1,114 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2026/039894-MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-11",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "právnická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Staré Hory",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Staré Hory",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2030"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "3734"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "1 ks dreviny",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47",
+        "2",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19",
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o vydanie súhlasu na výrub 1 ks dreviny v k. ú. Staré Hory z dôvodu zhoršeného stavu. Konanie bolo začaté na základe žiadosti právnickej osoby a verejnosť má 5 dní na oznámenie účasti v konaní. Zásah sa týka parciel KN-C 2030 a KN-E 3734.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "2030",
+          "NAZOV_UEV": "Veľká Fatra",
+          "KOD_UEV": "SKUEV0238"
+        },
+        {
+          "parcel_label": "3734",
+          "NAZOV_UEV": "Veľká Fatra",
+          "KOD_UEV": "SKUEV0238"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "2030",
+          "NATIONALSI": "SKUEV0238",
+          "SITETITLE_": "Veľká Fatra"
+        },
+        {
+          "parcel_label": "3734",
+          "NATIONALSI": "SKUEV0238",
+          "SITETITLE_": "Veľká Fatra"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "2030",
+          "NATIONALSI": "SKCHVU033",
+          "SITETITLE_": "Veľká Fatra"
+        },
+        {
+          "parcel_label": "3734",
+          "NATIONALSI": "SKCHVU033",
+          "SITETITLE_": "Veľká Fatra"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

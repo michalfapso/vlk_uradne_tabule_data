@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": "16313/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-11",
+  "datum_zverejnenia": "2026-09-11",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Spoločenstvo vlastníkov bytov Stará Lesná",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Stará Lesná",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stará Lesná",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Hlavná 71/138",
+    "nazov_lokality_norm": "Hlavná, Stará Lesná"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "ZIVOCICHY_USMRCOVANIE"
+  ],
+  "typ_zasahu": [
+    "odstránenie hniezd chráneného živočícha"
+  ],
+  "rozsah_zasahu": "hniezda na fasáde bytového domu",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "belorítka obyčajná (Delichon urbicum)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Žiadosť o povolenie výnimky na odstránenie hniezd chráneného živočícha belorítka obyčajná (Delichon urbicum) z fasády bytového domu. Zásah sa realizuje v zastavanom území obce Stará Lesná. Konanie sa týka druhovej ochrany živočíchov.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Stará Lesná",
+          "NATIONALSI": "SKUEV0709",
+          "SITETITLE_": "Poš"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Stará Lesná",
+          "NATIONALSI": "751",
+          "SITETITLE_": "PR Poš"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}
