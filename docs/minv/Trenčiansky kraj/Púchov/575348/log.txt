@@ -1,0 +1,81 @@
+[2026-09-14 21:15:09] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/575348'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/575348/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/575348/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 1' zákona '135/1961'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011036500000000001}
+LLM_tokens: {"input": 5381, "output": 2782, "total": 8163, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/575348/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/575348/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Púchov', 'katastralne_uzemia': [{'nazov': 'Beluša', 'parcely': []}, {'nazov': 'Dolné Kočkovce', 'parcely': []}, {'nazov': 'Púchov', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'R6 Križovatka Beluša - križovatka Dolné Kočkovce od km 0,000 po km 2,000 a na ceste 1/49 križovatka Dolné Kočkovce - kruhový objazd Púchov', 'nazov_lokality_norm': 'R6, Beluša'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Púchov', 'katastralne_uzemia': [{'nazov': 'Beluša', 'parcely': []}, {'nazov': 'Dolné Kočkovce', 'parcely': []}, {'nazov': 'Púchov', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'R6 Križovatka Beluša - križovatka Dolné Kočkovce od km 0,000 po km 2,000 a na ceste 1/49 križovatka Dolné Kočkovce - kruhový objazd Púchov', 'nazov_lokality_norm': 'R6, Beluša'}
+ku_name:Beluša obec:Púchov okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: puchov norm_ku: belusa
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: None norm_ku: belusa
+_get_nationalCadastralZoningReferences() found_ids: {'802506'}
+nationalCadastralZoningReferences: ['802506']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.42 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dolné Kočkovce obec:Púchov okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: puchov norm_ku: dolne kockovce
+Fuzzy match found: 'Dolné Kočkovce' -> 'Horné Kočkovce' (ID: 850501)
+nationalCadastralZoningReferences: ['850501']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Púchov obec:Púchov okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: puchov norm_ku: puchov
+_get_nationalCadastralZoningReferences() found_ids: {'850462'}
+nationalCadastralZoningReferences: ['850462']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: R6, Beluša
+get_geometry_of_a_geoname nazov_lokality: R6, Beluša
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Beluša, Púchov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Beluša, Púchov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Beluša, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Beluša, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.074986, 'lon': 18.3372755, 'formatted_address': 'R6, 018 61 Beluša, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 018 61 Beluša, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.38275 49.10321, 18.38273 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.33466 49.1257, 18.33479 49....
+2  CadastralZoning  ...  MULTIPOLYGON (((18.32962 49.15153, 18.33003 49...
+
+[3 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/575348/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Beluša', 'NATIONALSI': 'SKUEV0256', 'SITETITLE_': 'Strážovské vrchy'}], 'CHVU': [{'parcel_label': 'Beluša', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/575348/analysis.json...
+
+--- Časy spracovania dokumentu 575348 ---
+  download_and_text   :   2.58 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.15 s
+  gis_processing      :   3.53 s
+  CELKOVÝ ČAS         :  17.26 s
+------------------------------------------
+Dokument 575348 bol úspešne spracovaný.

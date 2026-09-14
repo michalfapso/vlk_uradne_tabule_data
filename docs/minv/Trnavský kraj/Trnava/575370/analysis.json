@@ -1,0 +1,116 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP1-2026/107212-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-14",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 21.09.2026"
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Chránený areál Sĺňava",
+    "nazov_lokality_norm": "Sĺňava"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub krovitých porastov"
+  ],
+  "rozsah_zasahu": "krovité porasty",
+  "typ_uzemia": [
+    "Chránený areál",
+    "4. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 82 ods. 7",
+        "§ 15 ods.1 písm. e)",
+        "§ 82 ods. 3"
+      ]
+    },
+    {
+      "nazov": "zákon o vodách",
+      "cislo": "364/2004 Z .z.",
+      "paragrafy": [
+        "§ 48 ods. 4 písm. b) c) a e)"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti SVP o výnimku na výrub krovitých porastov v Chránenom areáli Sĺňava (4. stupeň ochrany). Zásah je odôvodnený údržbou vodných tokov a protipovodňovými opatreniami. Verejnosť môže potvrdiť záujem byť účastníkom konania do 21.09.2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Sĺňava, Sokolovce, okres Piešťany, Trnavský kraj, Slovensko",
+          "NATIONALSI": "SKUEV0852",
+          "SITETITLE_": "Váh pri Hlohovci"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Sĺňava, Piešťany, okres Piešťany, Trnavský kraj, Slovensko",
+          "NATIONALSI": "155",
+          "SITETITLE_": "OP CHA Sĺňava"
+        },
+        {
+          "parcel_label": "Sĺňava, Piešťany, okres Piešťany, Trnavský kraj, Slovensko",
+          "NATIONALSI": "155",
+          "SITETITLE_": "CHA Sĺňava"
+        },
+        {
+          "parcel_label": "Sĺňava, Piešťany, okres Piešťany, Trnavský kraj, Slovensko",
+          "NATIONALSI": "155",
+          "SITETITLE_": "OP CHA Sĺňava"
+        },
+        {
+          "parcel_label": "Sĺňava, Piešťany, okres Piešťany, Trnavský kraj, Slovensko",
+          "NATIONALSI": "155",
+          "SITETITLE_": "CHA Sĺňava"
+        },
+        {
+          "parcel_label": "Sĺňava, Sokolovce, okres Piešťany, Trnavský kraj, Slovensko",
+          "NATIONALSI": "155",
+          "SITETITLE_": "OP CHA Sĺňava"
+        },
+        {
+          "parcel_label": "Sĺňava, Sokolovce, okres Piešťany, Trnavský kraj, Slovensko",
+          "NATIONALSI": "155",
+          "SITETITLE_": "CHA Sĺňava"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Sĺňava, Piešťany, okres Piešťany, Trnavský kraj, Slovensko",
+          "NATIONALSI": "SKCHVU026",
+          "SITETITLE_": "Sĺňava"
+        },
+        {
+          "parcel_label": "Sĺňava, Piešťany, okres Piešťany, Trnavský kraj, Slovensko",
+          "NATIONALSI": "SKCHVU026",
+          "SITETITLE_": "Sĺňava"
+        },
+        {
+          "parcel_label": "Sĺňava, Sokolovce, okres Piešťany, Trnavský kraj, Slovensko",
+          "NATIONALSI": "SKCHVU026",
+          "SITETITLE_": "Sĺňava"
+        }
+      ]
+    },
+    "source_type": "GEONAME"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP1-2026/082450/Bra",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-14",
+  "datum_zverejnenia": "2026-09-14",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie (t. j. do 21. 09. 2026, vrátane)"
+  },
+  "ziadatel_navrhovatel": "EcoLom s.r.o",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Lom Bystrička II",
+    "nazov_lokality_norm": "Bystrička"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie súhlasu",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "Plán využívania ložiska nevyhradeného nerastu - granodioritu"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Žiadosť spoločnosti EcoLom s.r.o. o súhlas na využívanie ložiska nerastu granodiorit v lokalite Lom Bystrička II. Konanie je v počiatočnej fáze a verejnosť môže potvrdiť záujem o účasť do 21. 09. 2026. Dokument nešpecifikuje presnú obec ani stupeň ochrany dotknutého územia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Bystrička, okres Martin, Žilinský kraj, 038 04, Slovensko",
+          "NAZOV_UEV": "Lúčanská Fatra",
+          "KOD_UEV": "SKUEV0930"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Bystrička, okres Martin, Žilinský kraj, 038 04, Slovensko",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        },
+        {
+          "parcel_label": "Bystrička, okres Martin, Žilinský kraj, 038 04, Slovensko",
+          "NATIONALSI": "SKUEV0930",
+          "SITETITLE_": "Lúčanská Fatra"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Bystrička, okres Martin, Žilinský kraj, 038 04, Slovensko",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Bystrička, okres Martin, Žilinský kraj, 038 04, Slovensko",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        },
+        {
+          "parcel_label": "Bystrička, okres Martin, Žilinský kraj, 038 04, Slovensko",
+          "NATIONALSI": "1335",
+          "SITETITLE_": "PR Pralesy Slovenska-Slatiny"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Bystrička, okres Martin, Žilinský kraj, 038 04, Slovensko",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "GEONAME"
+  }
+}

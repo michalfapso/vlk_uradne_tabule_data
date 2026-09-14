@@ -1,0 +1,453 @@
+[2026-09-14 21:13:29] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/575404'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/575404/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/575404/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/575404/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0160895}
+LLM_tokens: {"input": 6595, "output": 4264, "total": 10859, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/575404/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/575404/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'viaceré obce v okrese Košice-okolie', 'katastralne_uzemia': [{'nazov': 'Herľany', 'parcely': []}, {'nazov': 'Nižná Kamenica', 'parcely': []}, {'nazov': 'Rozhanovce', 'parcely': []}, {'nazov': 'Vajkovce', 'parcely': []}, {'nazov': 'Mokrance', 'parcely': []}, {'nazov': 'Buzica', 'parcely': []}, {'nazov': 'Moldava nad Bodvou', 'parcely': []}, {'nazov': 'Vyšná Myšľa', 'parcely': []}, {'nazov': 'Sady nad Torysou', 'parcely': []}, {'nazov': 'Slanec', 'parcely': []}, {'nazov': 'Čaňa', 'parcely': []}, {'nazov': 'Ždaňa', 'parcely': []}, {'nazov': 'Budimír', 'parcely': []}, {'nazov': 'Družstevná pri Hornáde', 'parcely': []}, {'nazov': 'Čižatice', 'parcely': []}, {'nazov': 'Nová Polhora', 'parcely': []}, {'nazov': 'Trebejov', 'parcely': []}, {'nazov': 'Obišovce', 'parcely': []}, {'nazov': 'Štós', 'parcely': []}, {'nazov': 'Medzev', 'parcely': []}, {'nazov': 'Šemša', 'parcely': []}, {'nazov': 'Rudník', 'parcely': []}, {'nazov': 'Nováčany', 'parcely': []}, {'nazov': 'Rešica', 'parcely': []}, {'nazov': 'Paňovce', 'parcely': []}, {'nazov': 'Turnianska Nová Ves', 'parcely': []}, {'nazov': 'Komárovce', 'parcely': []}, {'nazov': 'Bukovec', 'parcely': []}, {'nazov': 'Malá Ida', 'parcely': []}, {'nazov': 'Baška', 'parcely': []}, {'nazov': 'Zlatá Idka', 'parcely': []}, {'nazov': 'Nižný Klátov', 'parcely': []}, {'nazov': 'Hýľov', 'parcely': []}, {'nazov': 'Veľká Ida', 'parcely': []}, {'nazov': 'Košický Klečenov', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'pri cestách II. a III. triedy v okrese Košice-okolie', 'nazov_lokality_norm': None}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'viaceré obce v okrese Košice-okolie', 'katastralne_uzemia': [{'nazov': 'Herľany', 'parcely': []}, {'nazov': 'Nižná Kamenica', 'parcely': []}, {'nazov': 'Rozhanovce', 'parcely': []}, {'nazov': 'Vajkovce', 'parcely': []}, {'nazov': 'Mokrance', 'parcely': []}, {'nazov': 'Buzica', 'parcely': []}, {'nazov': 'Moldava nad Bodvou', 'parcely': []}, {'nazov': 'Vyšná Myšľa', 'parcely': []}, {'nazov': 'Sady nad Torysou', 'parcely': []}, {'nazov': 'Slanec', 'parcely': []}, {'nazov': 'Čaňa', 'parcely': []}, {'nazov': 'Ždaňa', 'parcely': []}, {'nazov': 'Budimír', 'parcely': []}, {'nazov': 'Družstevná pri Hornáde', 'parcely': []}, {'nazov': 'Čižatice', 'parcely': []}, {'nazov': 'Nová Polhora', 'parcely': []}, {'nazov': 'Trebejov', 'parcely': []}, {'nazov': 'Obišovce', 'parcely': []}, {'nazov': 'Štós', 'parcely': []}, {'nazov': 'Medzev', 'parcely': []}, {'nazov': 'Šemša', 'parcely': []}, {'nazov': 'Rudník', 'parcely': []}, {'nazov': 'Nováčany', 'parcely': []}, {'nazov': 'Rešica', 'parcely': []}, {'nazov': 'Paňovce', 'parcely': []}, {'nazov': 'Turnianska Nová Ves', 'parcely': []}, {'nazov': 'Komárovce', 'parcely': []}, {'nazov': 'Bukovec', 'parcely': []}, {'nazov': 'Malá Ida', 'parcely': []}, {'nazov': 'Baška', 'parcely': []}, {'nazov': 'Zlatá Idka', 'parcely': []}, {'nazov': 'Nižný Klátov', 'parcely': []}, {'nazov': 'Hýľov', 'parcely': []}, {'nazov': 'Veľká Ida', 'parcely': []}, {'nazov': 'Košický Klečenov', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'pri cestách II. a III. triedy v okrese Košice-okolie', 'nazov_lokality_norm': None}
+ku_name:Herľany obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: herlany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: herlany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: herlany
+_get_nationalCadastralZoningReferences() found_ids: {'816060'}
+nationalCadastralZoningReferences: ['816060']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Nižná Kamenica obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: nizna kamenica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: nizna kamenica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: nizna kamenica
+_get_nationalCadastralZoningReferences() found_ids: {'840823'}
+nationalCadastralZoningReferences: ['840823']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Rozhanovce obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() found_ids: {'852899'}
+nationalCadastralZoningReferences: ['852899']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Vajkovce obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: vajkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: vajkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: vajkovce
+_get_nationalCadastralZoningReferences() found_ids: {'866717'}
+nationalCadastralZoningReferences: ['866717']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Mokrance obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: mokrance
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: mokrance
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: mokrance
+_get_nationalCadastralZoningReferences() found_ids: {'838268'}
+nationalCadastralZoningReferences: ['838268']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.41 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Buzica obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: buzica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: buzica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: buzica
+_get_nationalCadastralZoningReferences() found_ids: {'807486'}
+nationalCadastralZoningReferences: ['807486']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Moldava nad Bodvou obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: moldava nad bodvou
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: moldava nad bodvou
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: moldava nad bodvou
+_get_nationalCadastralZoningReferences() found_ids: {'838322'}
+nationalCadastralZoningReferences: ['838322']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.41 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Vyšná Myšľa obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: vysna mysla
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: vysna mysla
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: vysna mysla
+_get_nationalCadastralZoningReferences() found_ids: {'871231'}
+nationalCadastralZoningReferences: ['871231']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Sady nad Torysou obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: sady nad torysou
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: sady nad torysou
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: sady nad torysou
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: sady nad torysou
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+ku_name:Slanec obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: slanec
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: slanec
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: slanec
+_get_nationalCadastralZoningReferences() found_ids: {'856002'}
+nationalCadastralZoningReferences: ['856002']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Čaňa obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: cana
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: cana
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: cana
+_get_nationalCadastralZoningReferences() found_ids: {'808750'}
+nationalCadastralZoningReferences: ['808750']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.41 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Ždaňa obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: zdana
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: zdana
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: zdana
+_get_nationalCadastralZoningReferences() found_ids: {'874060'}
+nationalCadastralZoningReferences: ['874060']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Budimír obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: budimir
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: budimir
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: budimir
+_get_nationalCadastralZoningReferences() found_ids: {'807150'}
+nationalCadastralZoningReferences: ['807150']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Družstevná pri Hornáde obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: druzstevna pri hornade
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: druzstevna pri hornade
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: druzstevna pri hornade
+Fuzzy match found: 'Družstevná pri Hornáde' -> 'Trstené pri Hornáde' (ID: 865508)
+nationalCadastralZoningReferences: ['865508']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Čižatice obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: cizatice
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: cizatice
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: cizatice
+_get_nationalCadastralZoningReferences() found_ids: {'809934'}
+nationalCadastralZoningReferences: ['809934']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Nová Polhora obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: nova polhora
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: nova polhora
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: nova polhora
+_get_nationalCadastralZoningReferences() found_ids: {'841854'}
+nationalCadastralZoningReferences: ['841854']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Trebejov obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: trebejov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: trebejov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: trebejov
+_get_nationalCadastralZoningReferences() found_ids: {'864137'}
+nationalCadastralZoningReferences: ['864137']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Obišovce obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: obisovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: obisovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: obisovce
+_get_nationalCadastralZoningReferences() found_ids: {'843041'}
+nationalCadastralZoningReferences: ['843041']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Štós obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: stos
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: stos
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: stos
+_get_nationalCadastralZoningReferences() found_ids: {'861359'}
+nationalCadastralZoningReferences: ['861359']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Medzev obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: medzev
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: medzev
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: medzev
+_get_nationalCadastralZoningReferences() found_ids: {'836567'}
+nationalCadastralZoningReferences: ['836567']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Šemša obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: semsa
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: semsa
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: semsa
+_get_nationalCadastralZoningReferences() found_ids: {'860751'}
+nationalCadastralZoningReferences: ['860751']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Rudník obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: rudnik
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: rudnik
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: rudnik
+_get_nationalCadastralZoningReferences() found_ids: {'853518'}
+nationalCadastralZoningReferences: ['853518']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.42 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Nováčany obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: novacany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: novacany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: novacany
+_get_nationalCadastralZoningReferences() found_ids: {'841978'}
+nationalCadastralZoningReferences: ['841978']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Rešica obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: resica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: resica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: resica
+_get_nationalCadastralZoningReferences() found_ids: {'852058'}
+nationalCadastralZoningReferences: ['852058']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Paňovce obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: panovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: panovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: panovce
+_get_nationalCadastralZoningReferences() found_ids: {'845302'}
+nationalCadastralZoningReferences: ['845302']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Turnianska Nová Ves obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: turnianska nova ves
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: turnianska nova ves
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: turnianska nova ves
+_get_nationalCadastralZoningReferences() found_ids: {'841471'}
+nationalCadastralZoningReferences: ['841471']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Komárovce obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: komarovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: komarovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: komarovce
+_get_nationalCadastralZoningReferences() found_ids: {'826057', '826049'}
+nationalCadastralZoningReferences: ['826057', '826049']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Bukovec obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: bukovec
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: bukovec
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: bukovec
+_get_nationalCadastralZoningReferences() found_ids: {'807389'}
+nationalCadastralZoningReferences: ['807389']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Malá Ida obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: mala ida
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: mala ida
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: mala ida
+_get_nationalCadastralZoningReferences() found_ids: {'835030'}
+nationalCadastralZoningReferences: ['835030']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Baška obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: baska
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: baska
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: baska
+_get_nationalCadastralZoningReferences() found_ids: {'802123'}
+nationalCadastralZoningReferences: ['802123']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Zlatá Idka obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: zlata idka
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: zlata idka
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: zlata idka
+_get_nationalCadastralZoningReferences() found_ids: {'873322'}
+nationalCadastralZoningReferences: ['873322']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.46 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Nižný Klátov obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: nizny klatov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: nizny klatov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: nizny klatov
+_get_nationalCadastralZoningReferences() found_ids: {'841129'}
+nationalCadastralZoningReferences: ['841129']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Hýľov obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: hylov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: hylov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: hylov
+_get_nationalCadastralZoningReferences() found_ids: {'820636'}
+nationalCadastralZoningReferences: ['820636']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Veľká Ida obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: velka ida
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: velka ida
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: velka ida
+_get_nationalCadastralZoningReferences() found_ids: {'867748'}
+nationalCadastralZoningReferences: ['867748']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Košický Klečenov obec:viaceré obce v okrese Košice-okolie okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: viacere obce v okrese kosice-okolie norm_ku: kosicky klecenov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: kosicky klecenov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: kosicky klecenov
+_get_nationalCadastralZoningReferences() found_ids: {'827673'}
+nationalCadastralZoningReferences: ['827673']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.39 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: pri cestách II. a III. triedy v okrese Košice-okolie
+get_geometry_of_a_geoname nazov_lokality: pri cestách II. a III. triedy v okrese Košice-okolie
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** cestách II. a III. triedy v okrese Košice-okolie, viaceré obce v okrese Košice-okolie, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** cestách II. a III. triedy v okrese Košice-okolie, Košice-okolie, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** cestách II. a III. triedy v okrese Košice-okolie, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** cestách II. a III. triedy v okrese Košice-okolie, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.6846407, 'lon': 21.0565535, 'formatted_address': 'Košice-okolie District, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** District, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                  display_name
+0  POLYGON ((20.73673 48.67134, 20.73759 48.67077...  ...  okres Košice-okolie, Košický kraj, Slovensko
+
+[1 rows x 11 columns]
+geoname_query: Košice-okolie District, Slovakia
+gdf_parcelset:        @featureType  ...                                           geometry
+0   CadastralZoning  ...  MULTIPOLYGON (((21.5284 48.81997, 21.52918 48....
+1   CadastralZoning  ...  MULTIPOLYGON (((21.54001 48.78718, 21.54013 48...
+2   CadastralZoning  ...  MULTIPOLYGON (((21.37218 48.7913, 21.3728 48.7...
+3   CadastralZoning  ...  MULTIPOLYGON (((21.33149 48.79701, 21.33182 48...
+4   CadastralZoning  ...  MULTIPOLYGON (((21.03418 48.65459, 21.03419 48...
+5   CadastralZoning  ...  MULTIPOLYGON (((21.0683 48.56212, 21.06861 48....
+6   CadastralZoning  ...  MULTIPOLYGON (((21.01601 48.64339, 21.01603 48...
+7   CadastralZoning  ...  MULTIPOLYGON (((21.3783 48.6529, 21.37845 48.6...
+8   CadastralZoning  ...  MULTIPOLYGON (((21.47233 48.66958, 21.47236 48...
+9   CadastralZoning  ...  MULTIPOLYGON (((21.34004 48.62556, 21.3401 48....
+10  CadastralZoning  ...  MULTIPOLYGON (((21.36756 48.61405, 21.3676 48....
+11  CadastralZoning  ...  MULTIPOLYGON (((21.30346 48.81592, 21.30361 48...
+12  CadastralZoning  ...  MULTIPOLYGON (((21.3277 48.59325, 21.32771 48....
+13  CadastralZoning  ...  MULTIPOLYGON (((21.38262 48.81243, 21.38276 48...
+14  CadastralZoning  ...  MULTIPOLYGON (((21.31683 48.83712, 21.31721 48...
+15  CadastralZoning  ...  MULTIPOLYGON (((21.22945 48.85843, 21.22947 48...
+16  CadastralZoning  ...  MULTIPOLYGON (((21.19708 48.88448, 21.19718 48...
+17  CadastralZoning  ...  MULTIPOLYGON (((20.825 48.74331, 20.82573 48.7...
+18  CadastralZoning  ...  MULTIPOLYGON (((20.84315 48.75435, 20.84316 48...
+19  CadastralZoning  ...  MULTIPOLYGON (((21.1176 48.70661, 21.11842 48....
+20  CadastralZoning  ...  MULTIPOLYGON (((21.01649 48.74299, 21.01653 48...
+21  CadastralZoning  ...  MULTIPOLYGON (((21.03589 48.72306, 21.03626 48...
+22  CadastralZoning  ...  MULTIPOLYGON (((21.03274 48.56068, 21.03296 48...
+23  CadastralZoning  ...  MULTIPOLYGON (((21.0464 48.68379, 21.0464 48.6...
+24  CadastralZoning  ...  MULTIPOLYGON (((20.90977 48.59511, 20.90983 48...
+25  CadastralZoning  ...  MULTIPOLYGON (((22.17015 48.73664, 22.17078 48...
+26  CadastralZoning  ...  MULTIPOLYGON (((21.1239 48.58947, 21.12397 48....
+27  CadastralZoning  ...  MULTIPOLYGON (((21.1253 48.73386, 21.12556 48....
+28  CadastralZoning  ...  MULTIPOLYGON (((21.17309 48.70187, 21.17312 48...
+29  CadastralZoning  ...  MULTIPOLYGON (((21.17428 48.72434, 21.17484 48...
+30  CadastralZoning  ...  MULTIPOLYGON (((20.97067 48.77881, 20.97143 48...
+31  CadastralZoning  ...  MULTIPOLYGON (((21.1466 48.74999, 21.14678 48....
+32  CadastralZoning  ...  MULTIPOLYGON (((21.06143 48.76343, 21.06162 48...
+33  CadastralZoning  ...  MULTIPOLYGON (((21.11662 48.65671, 21.11692 48...
+34  CadastralZoning  ...  MULTIPOLYGON (((21.53802 48.7667, 21.53834 48....
+
+[35 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                  display_name
+0  POLYGON ((20.73673 48.67134, 20.73759 48.67077...  ...  okres Košice-okolie, Košický kraj, Slovensko
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/575404/gis.geojson...
+Intersections with protected areas...
+Found 17 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+Found 27 intersecting parcels with 'CHVU'.
+Found 2 intersecting parcels with 'UNESCO'.
+intersections: {'UEV': [{'parcel_label': 'Rozhanovce', 'NATIONALSI': 'SKUEV4007', 'SITETITLE_': 'Dolný tok Torysy'}, {'parcel_label': 'Vajkovce', 'NATIONALSI': 'SKUEV4007', 'SITETITLE_': 'Dolný tok Torysy'}, {'parcel_label': 'Vyšná Myšľa', 'NATIONALSI': 'SKUEV4009', 'SITETITLE_': 'Dolný tok Oľšavy'}, {'parcel_label': 'Slanec', 'NATIONALSI': 'SKUEV0327', 'SITETITLE_': 'Milič'}, {'parcel_label': 'Slanec', 'NATIONALSI': 'SKUEV0326', 'SITETITLE_': 'Strahuľka'}, {'parcel_label': 'Čaňa', 'NATIONALSI': 'SKUEV0944', 'SITETITLE_': 'Hornádske meandre'}, {'parcel_label': 'Čaňa', 'NATIONALSI': 'SKUEV4010', 'SITETITLE_': 'Dolný tok Hornádu'}, {'parcel_label': 'Ždaňa', 'NATIONALSI': 'SKUEV0944', 'SITETITLE_': 'Hornádske meandre'}, {'parcel_label': 'Ždaňa', 'NATIONALSI': 'SKUEV4009', 'SITETITLE_': 'Dolný tok Oľšavy'}, {'parcel_label': 'Ždaňa', 'NATIONALSI': 'SKUEV4010', 'SITETITLE_': 'Dolný tok Hornádu'}, {'parcel_label': 'Trstené pri Hornáde', 'NATIONALSI': 'SKUEV0944', 'SITETITLE_': 'Hornádske meandre'}, {'parcel_label': 'Trebejov', 'NATIONALSI': 'SKUEV0941', 'SITETITLE_': 'Trebejovské skaly'}, {'parcel_label': 'Obišovce', 'NATIONALSI': 'SKUEV4007', 'SITETITLE_': 'Dolný tok Torysy'}, {'parcel_label': 'Štós', 'NATIONALSI': 'SKUEV0348', 'SITETITLE_': 'Čierna Moldava'}, {'parcel_label': 'Medzev', 'NATIONALSI': 'SKUEV0356', 'SITETITLE_': 'Horný vrch'}, {'parcel_label': 'Medzev', 'NATIONALSI': 'SKUEV0348', 'SITETITLE_': 'Čierna Moldava'}, {'parcel_label': 'Turnianska Nová Ves', 'NATIONALSI': 'SKUEV0954', 'SITETITLE_': 'Stredný tok Bodvy'}], 'MCHU': [{'parcel_label': 'Herľany', 'NATIONALSI': '542', 'SITETITLE_': 'NPP Herliansky gejzír'}, {'parcel_label': 'Herľany', 'NATIONALSI': '604', 'SITETITLE_': 'PR Malé brdo'}, {'parcel_label': 'Slanec', 'NATIONALSI': '675', 'SITETITLE_': 'PR Slanský hradný vrch'}, {'parcel_label': 'Slanec', 'NATIONALSI': '697', 'SITETITLE_': 'PP Trstinové jazero'}], 'CHVU': [{'parcel_label': 'Herľany', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}, {'parcel_label': 'Nižná Kamenica', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}, {'parcel_label': 'Buzica', 'NATIONALSI': 'SKCHVU009', 'SITETITLE_': 'Košická kotlina'}, {'parcel_label': 'Moldava nad Bodvou', 'NATIONALSI': 'SKCHVU027', 'SITETITLE_': 'Slovenský kras'}, {'parcel_label': 'Vyšná Myšľa', 'NATIONALSI': 'SKCHVU009', 'SITETITLE_': 'Košická kotlina'}, {'parcel_label': 'Vyšná Myšľa', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}, {'parcel_label': 'Slanec', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}, {'parcel_label': 'Čaňa', 'NATIONALSI': 'SKCHVU009', 'SITETITLE_': 'Košická kotlina'}, {'parcel_label': 'Ždaňa', 'NATIONALSI': 'SKCHVU009', 'SITETITLE_': 'Košická kotlina'}, {'parcel_label': 'Ždaňa', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}, {'parcel_label': 'Trstené pri Hornáde', 'NATIONALSI': 'SKCHVU009', 'SITETITLE_': 'Košická kotlina'}, {'parcel_label': 'Trstené pri Hornáde', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}, {'parcel_label': 'Trebejov', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Štós', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Medzev', 'NATIONALSI': 'SKCHVU027', 'SITETITLE_': 'Slovenský kras'}, {'parcel_label': 'Medzev', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Šemša', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Rudník', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Nováčany', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Komárovce', 'NATIONALSI': 'SKCHVU009', 'SITETITLE_': 'Košická kotlina'}, {'parcel_label': 'Bukovec', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Malá Ida', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Zlatá Idka', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Nižný Klátov', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Hýľov', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Veľká Ida', 'NATIONALSI': 'SKCHVU009', 'SITETITLE_': 'Košická kotlina'}, {'parcel_label': 'Košický Klečenov', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}], 'UNESCO': [{'parcel_label': 'Štós', 'Nazov_chra': 'Jaskyne Slovenského a Aggteleckého krasu', 'Kod_chrane': 'UN01'}, {'parcel_label': 'Medzev', 'Nazov_chra': 'Jaskyne Slovenského a Aggteleckého krasu', 'Kod_chrane': 'UN01'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/575404/analysis.json...
+
+--- Časy spracovania dokumentu 575404 ---
+  download_and_text   :   1.95 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.37 s
+  gis_processing      :  15.42 s
+  CELKOVÝ ČAS         :  33.75 s
+------------------------------------------
+Dokument 575404 bol úspešne spracovaný.

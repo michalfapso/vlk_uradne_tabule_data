@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": "OU-BR-OSZP-2026/011668",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 15 dní od zverejnenia"
+  },
+  "ziadatel_navrhovatel": "Obec Predajná",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Predajná",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zmena strategického dokumentu",
+    "Územný plán obce Predajná, Zmeny a doplnky č. 7"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "http://enviroportal.sk/sk/eia",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006 Z.z.",
+      "paragrafy": [
+        "§ 6 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Informácia pre verejnosť o možnosti predkladať stanoviská k zmene strategického dokumentu „Územný plán obce Predajná, Zmeny a doplnky č. 7“. Verejnosť môže predkladať pripomienky do 15 dní od zverejnenia na Okresný úrad Brezno. Dokumentácia je dostupná na webovom sídle Enviroportal.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Predajná",
+          "NAZOV_UEV": "Predajnianska slatina",
+          "KOD_UEV": "SKUEV0862"
+        },
+        {
+          "parcel_label": "Predajná",
+          "NAZOV_UEV": "Predajnianska slatina",
+          "KOD_UEV": "SKUEV0862"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "SKUEV0862",
+          "SITETITLE_": "Predajnianska slatina"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "772",
+          "SITETITLE_": "PP Predajnianske vodopády"
+        },
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "1050",
+          "SITETITLE_": "PP Jajkovská sutina"
+        },
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "386",
+          "SITETITLE_": "PR Predajnianska slatina"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

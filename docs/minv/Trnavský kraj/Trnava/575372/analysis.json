@@ -1,0 +1,103 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-14",
+  "datum_zverejnenia": "2026-09-14",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote určenej podľa § 29 ods. 5 prvej vety zákona o posudzovaní vplyvov"
+  },
+  "ziadatel_navrhovatel": "Lifetrade s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Špačince",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Špačince",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "lokalita A1-21 – 22 RD",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia pre verejnosť k zámeru navrhovanej činnosti",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výstavba 22 rodinných domov",
+    "dopravná a technická infraštruktúra",
+    "ochrana VTL plynovodu",
+    "sadové úpravy"
+  ],
+  "rozsah_zasahu": "výstavba 22 rodinných domov",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "24",
+        "18",
+        "3",
+        "56",
+        "29",
+        "30",
+        "64",
+        "38"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o ochrane a využívaní poľnohospodárskej pôdy",
+      "cislo": "220/2004",
+      "paragrafy": [
+        "17"
+      ]
+    },
+    {
+      "nazov": "o integrovanej prevencii a kontrole znečisťovania životného prostredia",
+      "cislo": "245/2003",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "V obci Špačince sa začalo zisťovacie konanie pre zámer výstavby 22 rodinných domov vrátane technickej infraštruktúry v lokalite A1-21. Projekt vyžaduje odňatie poľnohospodárskej pôdy a posúdenie vplyvov na životné prostredie. Dokument neuvádza, či sa lokalita nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "Špačince",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

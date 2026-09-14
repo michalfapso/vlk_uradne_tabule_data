@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "02163/2026/0R",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-03",
+  "datum_zverejnenia": "2026-09-03",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Púchov",
+    "obec": "Lednické Rovne",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lednické Rovne",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1290/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "železničná stanica Lednické Rovne",
+    "nazov_lokality_norm": "železničná stanica, Lednické Rovne"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 5 ks drevín"
+  ],
+  "rozsah_zasahu": "5 ks drevín (tuja)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "tuja"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o Železniciach Slovenskej republiky",
+      "cislo": "258/1993 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o dráhach a o zmene a doplnení niektorých zákonov",
+      "cislo": "513/2009 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Železnice Slovenskej republiky oznamujú plánovaný výrub 5 kusov tují v areáli železničnej stanice Lednické Rovne. Výrub bude realizovaný v období od októbra 2026 do februára 2027 z dôvodu ohrozenia bezpečnosti železničnej prevádzky. Dokument neuvádza, či sa lokalita nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

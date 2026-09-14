@@ -1,0 +1,99 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2026/017156",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-01",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": "Drňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Drňa",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "2105",
+              "2110",
+              "2111",
+              "2112",
+              "2113"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "160 ks (jelša lepkavá, agát biely, vŕba rakytová)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "jelša lepkavá",
+    "agát biely",
+    "vŕba rakytová"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "47 ods. 3",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci výrubu 160 kusov drevín (jelša, agát, vŕba) v katastrálnom území Drňa na poľnohospodárskych pozemkoch registra E. Dôvodom výrubu je poškodenie stromov veternou smršťou, ktoré ohrozuje bezpečnosť pri obhospodarovaní. Účastníci môžu potvrdiť záujem o vstup do konania do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "2105",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        },
+        {
+          "parcel_label": "2110",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        },
+        {
+          "parcel_label": "2111",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        },
+        {
+          "parcel_label": "2112",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        },
+        {
+          "parcel_label": "2113",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

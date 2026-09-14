@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": "41753/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-04",
+  "datum_zverejnenia": "2026-09-08",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Národná diaľničná spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Púchov",
+    "obec": "Púchov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Beluša",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Kočkovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Púchov",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "R6 Križovatka Beluša - križovatka Dolné Kočkovce od km 0,000 po km 2,000 a na ceste 1/49 križovatka Dolné Kočkovce - kruhový objazd Púchov",
+    "nazov_lokality_norm": "R6, Beluša"
+  },
+  "typ_dokumentu": "Oznámenie o vykonávaní prác na vegetačných krytoch",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "prerezávky drevinných porastov",
+    "odstraňovanie suchých vetiev",
+    "odstraňovanie vyvrátených stromov",
+    "rezy konárov",
+    "odstraňovanie mladých stromových náletových druhov",
+    "odstraňovanie inváznych rastlinných druhov"
+  ],
+  "rozsah_zasahu": "úseky R6 (2 km) a I/49 (4,5 km), stromy s obvodom do 90 cm a nálety",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "hniezdiace vtáky",
+    "invázne rastlinné druhy",
+    "chránené živočíchy"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Cestný zákon",
+      "cislo": "135/1961",
+      "paragrafy": [
+        "14"
+      ]
+    },
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Novela zákona o ochrane prírody a krajiny",
+      "cislo": "202/2024",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Zákon o odpadoch",
+      "cislo": "79/2015",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "NDS oznamuje údržbu cestnej zelene a výrub náletových drevín na úsekoch R6 a I/49 medzi Belušou a Púchovom v termíne od 1.10.2026 do 28.2.2027. Práce zahŕňajú prerezávky, odstraňovanie vývratov, náletov do obvodu 90 cm a inváznych druhov. Činnosť je odôvodnená bezpečnosťou dopravy a údržbou komunikácií.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Beluša",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Beluša",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

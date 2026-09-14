@@ -1,0 +1,66 @@
+[2026-09-14 21:18:17] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-082579-bra'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-082579-bra/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-082579-bra/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0119615}
+LLM_tokens: {"input": 4543, "output": 3230, "total": 7773, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 51 column 1 (char 1679)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011219449999999999}
+LLM_tokens: {"input": 4543, "output": 3284, "total": 7827, "cached": 2009}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-082579-bra/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-082579-bra/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Terchová', 'katastralne_uzemia': [{'nazov': 'Terchová', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'exist. TZT č. 8666, 5669 a cyklochodníku č. 8480', 'nazov_lokality_norm': 'TZT 8666, Terchová'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Terchová', 'katastralne_uzemia': [{'nazov': 'Terchová', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'exist. TZT č. 8666, 5669 a cyklochodníku č. 8480', 'nazov_lokality_norm': 'TZT 8666, Terchová'}
+ku_name:Terchová obec:Terchová okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: terchova norm_ku: terchova
+_get_nationalCadastralZoningReferences() found_ids: {'863041'}
+nationalCadastralZoningReferences: ['863041']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.56 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: TZT 8666, Terchová
+get_geometry_of_a_geoname nazov_lokality: TZT 8666, Terchová
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 8666, Terchová, Terchová, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 8666, Terchová, Žilina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 8666, Terchová, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 8666, Terchová, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.2577041, 'lon': 19.0315262, 'formatted_address': '013 06 Terchová, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 06 Terchová, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.09809 49.31174, 19.09836 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-082579-bra/gis.geojson...
+Intersections with protected areas...
+Found 64 intersecting parcels with '5st_konsUEV'.
+Found 4 intersecting parcels with 'UEV'.
+Found 6 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Terchová', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}], 'UEV': [{'parcel_label': 'Terchová', 'NATIONALSI': 'SKUEV0252', 'SITETITLE_': 'Malá Fatra'}, {'parcel_label': 'Terchová', 'NATIONALSI': 'SKUEV0221', 'SITETITLE_': 'Varínka'}, {'parcel_label': 'Terchová', 'NATIONALSI': 'SKUEV0251', 'SITETITLE_': 'Zázrivské lazy'}, {'parcel_label': 'Terchová', 'NATIONALSI': 'SKUEV0288', 'SITETITLE_': 'Kysucké Beskydy'}], 'MCHU': [{'parcel_label': 'Terchová', 'NATIONALSI': '393', 'SITETITLE_': 'NPR Prípor'}, {'parcel_label': 'Terchová', 'NATIONALSI': '274', 'SITETITLE_': 'NPR Chleb'}, {'parcel_label': 'Terchová', 'NATIONALSI': '465', 'SITETITLE_': 'NPR Veľká Bránica'}, {'parcel_label': 'Terchová', 'NATIONALSI': '408', 'SITETITLE_': 'NPR Rozsutec'}, {'parcel_label': 'Terchová', 'NATIONALSI': '451', 'SITETITLE_': 'NPR Tiesňavy'}, {'parcel_label': 'Terchová', 'NATIONALSI': '1099', 'SITETITLE_': 'CHA Hate'}], 'CHVU': [{'parcel_label': 'Terchová', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-082579-bra/analysis.json...
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-082579-bra ---
+  download_and_text   :   0.09 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  26.11 s
+  gis_processing      :   4.13 s
+  CELKOVÝ ČAS         :  31.05 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-082579-bra bol úspešne spracovaný.

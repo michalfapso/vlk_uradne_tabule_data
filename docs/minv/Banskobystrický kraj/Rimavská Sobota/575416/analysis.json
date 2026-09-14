@@ -1,0 +1,77 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2026/017362",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-04",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": "Jestice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jestice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "371/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Katastrálne územie Jestice, pozemok parcely registra C KN č. 371/1",
+    "nazov_lokality_norm": "Jestice"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "POLNOHOSPODARSTVO"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "vyčistenie pozemku",
+    "riadne poľnohospodárske obhospodarovanie"
+  ],
+  "rozsah_zasahu": "400ks (borovica, hrab, cer)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "borovica",
+    "hrab",
+    "cer"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82",
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Začaté správne konanie vo veci výrubu 400 ks drevín (borovica, hrab, cer) v katastrálnom území Jestice na parcele C-KN 371/1. Účelom výrubu je vyčistenie pozemku pre následné poľnohospodárske obhospodarovanie. Dokument neuvádza informáciu o tom, či sa dotknuté územie nachádza v chránenej oblasti.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "371/1",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

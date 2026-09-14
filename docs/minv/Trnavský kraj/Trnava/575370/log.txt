@@ -1,0 +1,57 @@
+[2026-09-14 21:16:51] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575370'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575370/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575370/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 15 ods.1 písm. e)' zákona 'na výrub krovitých porastov v Chránenom  areáli Sĺňava, kde platí 4. stupeň ochrany prírody. Dôvodom je údržba vodných tokov  a vykonanie preventívnyc'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 48 ods. 4 písm. b)' zákona 'c) a e) zákona č. 364/2004 Z .z. o vodách.      V zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie písomného alebo elektronického  potvrdenia záujmu byť zúčastnenou osobou, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ', v začatom správnom  konaní je do: 21.09.2026.                      Ing. Rudolf Kormúth                         vedúci odboru'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575370/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009558}
+LLM_tokens: {"input": 5262, "output": 2309, "total": 7571, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575370/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575370/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Chránený areál Sĺňava', 'nazov_lokality_norm': 'Sĺňava'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Chránený areál Sĺňava', 'nazov_lokality_norm': 'Sĺňava'}
+No geometries were found.
+nazov_lokality: Sĺňava
+get_geometry_of_a_geoname nazov_lokality: Sĺňava
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Trnava, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.81418 48.5523, 17.81418 48.55199,...  ...  Sĺňava, Piešťany, okres Piešťany, Trnavský kra...
+1  POLYGON ((17.81405 48.55221, 17.81426 48.55117...  ...  Sĺňava, Piešťany, okres Piešťany, Trnavský kra...
+2  POLYGON ((17.81682 48.54426, 17.81701 48.54418...  ...  Sĺňava, Sokolovce, okres Piešťany, Trnavský kr...
+
+[3 rows x 11 columns]
+geoname_query: Sĺňava, Trnava, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.81418 48.5523, 17.81418 48.55199,...  ...  Sĺňava, Piešťany, okres Piešťany, Trnavský kra...
+1  POLYGON ((17.81405 48.55221, 17.81426 48.55117...  ...  Sĺňava, Piešťany, okres Piešťany, Trnavský kra...
+2  POLYGON ((17.81682 48.54426, 17.81701 48.54418...  ...  Sĺňava, Sokolovce, okres Piešťany, Trnavský kr...
+
+[3 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575370/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 6 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Sĺňava, Sokolovce, okres Piešťany, Trnavský kraj, Slovensko', 'NATIONALSI': 'SKUEV0852', 'SITETITLE_': 'Váh pri Hlohovci'}], 'MCHU': [{'parcel_label': 'Sĺňava, Piešťany, okres Piešťany, Trnavský kraj, Slovensko', 'NATIONALSI': '155', 'SITETITLE_': 'OP CHA Sĺňava'}, {'parcel_label': 'Sĺňava, Piešťany, okres Piešťany, Trnavský kraj, Slovensko', 'NATIONALSI': '155', 'SITETITLE_': 'CHA Sĺňava'}, {'parcel_label': 'Sĺňava, Piešťany, okres Piešťany, Trnavský kraj, Slovensko', 'NATIONALSI': '155', 'SITETITLE_': 'OP CHA Sĺňava'}, {'parcel_label': 'Sĺňava, Piešťany, okres Piešťany, Trnavský kraj, Slovensko', 'NATIONALSI': '155', 'SITETITLE_': 'CHA Sĺňava'}, {'parcel_label': 'Sĺňava, Sokolovce, okres Piešťany, Trnavský kraj, Slovensko', 'NATIONALSI': '155', 'SITETITLE_': 'OP CHA Sĺňava'}, {'parcel_label': 'Sĺňava, Sokolovce, okres Piešťany, Trnavský kraj, Slovensko', 'NATIONALSI': '155', 'SITETITLE_': 'CHA Sĺňava'}], 'CHVU': [{'parcel_label': 'Sĺňava, Piešťany, okres Piešťany, Trnavský kraj, Slovensko', 'NATIONALSI': 'SKCHVU026', 'SITETITLE_': 'Sĺňava'}, {'parcel_label': 'Sĺňava, Piešťany, okres Piešťany, Trnavský kraj, Slovensko', 'NATIONALSI': 'SKCHVU026', 'SITETITLE_': 'Sĺňava'}, {'parcel_label': 'Sĺňava, Sokolovce, okres Piešťany, Trnavský kraj, Slovensko', 'NATIONALSI': 'SKCHVU026', 'SITETITLE_': 'Sĺňava'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575370/analysis.json...
+
+--- Časy spracovania dokumentu 575370 ---
+  download_and_text   :   1.03 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   9.03 s
+  gis_processing      :   0.49 s
+  CELKOVÝ ČAS         :  10.56 s
+------------------------------------------
+Dokument 575370 bol úspešne spracovaný.
