@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-11",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "FO",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Horná Súča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horná Súča",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "15171/4",
+              "8040",
+              "8083"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania na vydanie súhlasu na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub krovín"
+  ],
+  "rozsah_zasahu": "dreviny a kroviny neuvedených druhov na p. č. KN-E 15171/4, 8040, 8083",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "kroviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "47 ods. 3",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Začatie správneho konania vo veci výrubu drevín a krovín v obci Horná Súča (extravilán) na parcelách KN-E 15171/4, 8040 a 8083. Účelom výrubu je spriechodnenie prístupovej cesty a obnova pôvodného ovocného sadu. Záujemcovia o účasť v konaní sa musia prihlásiť do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

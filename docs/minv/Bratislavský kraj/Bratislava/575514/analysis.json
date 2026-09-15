@@ -1,0 +1,99 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2026/173842-016",
+  "cislo_rozhodnutia": "OU-BA-OSZP3-2026/173842-0396291/2026",
+  "datum_dokumentu": "2026-09-10",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Mestská časť Bratislava-Ružinov",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava-Ružinov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ružinov",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Parkovací dom u Deda",
+    "nazov_lokality_norm": "Parkovací dom u Deda, Bratislava-Ružinov"
+  },
+  "typ_dokumentu": "Rozhodnutie o zastavení zisťovacieho konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "výstavba parkovacieho domu"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "1 ods. 2"
+      ]
+    },
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "3 písm. k)",
+        "20 ods. 3",
+        "23 ods. 4",
+        "29 ods. 1 písm. a)",
+        "64 písm. b)",
+        "65i"
+      ]
+    }
+  ],
+  "zhrnutie": "Okresný úrad Bratislava zastavil zisťovacie konanie pre zámer 'Parkovací dom u Deda' v mestskej časti Ružinov. Konanie bolo zastavené na žiadosť navrhovateľa (MČ Ružinov), ktorý vzal návrh späť z dôvodu zmeny koncepcie projektu. Dokument nešpecifikuje zásah do chránených území ani lesných porastov.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Ružinov",
+          "NATIONALSI": "SKUEV0295",
+          "SITETITLE_": "Biskupické luhy"
+        },
+        {
+          "parcel_label": "Ružinov",
+          "NATIONALSI": "SKUEV0822",
+          "SITETITLE_": "Malý Dunaj"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Ružinov",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

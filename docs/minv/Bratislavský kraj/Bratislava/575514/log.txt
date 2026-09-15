@@ -1,0 +1,71 @@
+[2026-09-15 20:37:24] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575514'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575514/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575514/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, v spojení so'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 písm. k)' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 20 ods. 3' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení účinnom od 01.04.2023 do 31.03.2024 zastavuj'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 29 ods. 1 písm. a)' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení účinnom od 01.04.2023 do 31.03.2024'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 4' zákona 'o posudzovaní doručili v rámci zisťovacieho konania písomné stanoviská nasledovní účastníci konania a dotknuté orgány: Združenie domových samospráv, M'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 20 ods. 3' zákona 'o posudzovaní, príslušný orgán konanie zastaví, ak do vydania rozhodnutia navrhovateľ vezme späť návrh na začatie zisťovacieho konania alebo návrh na'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 65i' zákona 'o posudzovaní, podľa ktorého sa konania začaté do 31. marca 2024 dokončia podľa zákona o posudzovaní v znení účinnom do 31. marca 2024. Vzhľadom na vy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 20 ods. 3' zákona 'o posudzovaní, v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 64 písm. b)' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení účinnom do 31.03.2024. Mgr. Jaroslava Grambl'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575514/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011848500000000001}
+LLM_tokens: {"input": 7605, "output": 2682, "total": 10287, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575514/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575514/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava-Ružinov', 'katastralne_uzemia': [{'nazov': 'Ružinov', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Parkovací dom u Deda', 'nazov_lokality_norm': 'Parkovací dom u Deda, Bratislava-Ružinov'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava-Ružinov', 'katastralne_uzemia': [{'nazov': 'Ružinov', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Parkovací dom u Deda', 'nazov_lokality_norm': 'Parkovací dom u Deda, Bratislava-Ružinov'}
+ku_name:Ružinov obec:Bratislava-Ružinov okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava-ruzinov norm_ku: ruzinov
+_get_nationalCadastralZoningReferences() found_ids: {'805556'}
+nationalCadastralZoningReferences: ['805556']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.37 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Parkovací dom u Deda, Bratislava-Ružinov
+get_geometry_of_a_geoname nazov_lokality: Parkovací dom u Deda, Bratislava-Ružinov
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** dom u Deda, Bratislava-Ružinov, Bratislava-Ružinov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** dom u Deda, Bratislava-Ružinov, Bratislava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** dom u Deda, Bratislava-Ružinov, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** dom u Deda, Bratislava-Ružinov, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.1618801, 'lon': 17.1549893, 'formatted_address': 'Zálužická 49, 821 01 Bratislava-Ružinov, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 49, 821 01 Bratislava-Ružinov, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.15227 48.1658, 17.15233 48....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575514/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Ružinov', 'NATIONALSI': 'SKUEV0295', 'SITETITLE_': 'Biskupické luhy'}, {'parcel_label': 'Ružinov', 'NATIONALSI': 'SKUEV0822', 'SITETITLE_': 'Malý Dunaj'}], 'CHVU': [{'parcel_label': 'Ružinov', 'NATIONALSI': 'SKCHVU007', 'SITETITLE_': 'Dunajské luhy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575514/analysis.json...
+
+--- Časy spracovania dokumentu 575514 ---
+  download_and_text   :   1.39 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.03 s
+  gis_processing      :   2.95 s
+  CELKOVÝ ČAS         :  16.37 s
+------------------------------------------
+Dokument 575514 bol úspešne spracovaný.

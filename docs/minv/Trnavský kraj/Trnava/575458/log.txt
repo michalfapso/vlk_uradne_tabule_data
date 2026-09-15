@@ -1,0 +1,69 @@
+[2026-09-15 20:45:22] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575458'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575458/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575458/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 1' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'o posudzovaní vplyvov  oznámenie o strategickom dokumente „Program hospodárskeho rozvoja a sociálneho rozvoja obce  Voderady na roky 2027 - 2032“'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6' zákona 'o posudzovaní vplyvov informuje verejnosť, že  oznámenie o strategickom dokumente „Program hospodárskeho rozvoja a sociálneho rozvoja obce  Voderady n'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 6' zákona 'o posudzovaní vplyvov najneskôr do 15 dní od zverejnenia oznámenia  dotknutou obcou na adresu:    Okresný úrad Trnava, odbor starostlivosti o životné'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 5' zákona 'o posudzovaní vplyvov informuje do troch pracovných  dní odo dňa doručenia oznámenia Okresným úradom Trnava verejnosť spôsobom v mieste obvyklým a  zá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 63' zákona 'o posudzovaní vplyvov je možné v prípade potreby vykonať konzultácie počas  celého procesu posudzovania vplyvov k uvedenému strategického dokumentu na'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01}
+LLM_tokens: {"input": 4760, "output": 2540, "total": 7300, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575458/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575458/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Voderady', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Voderady', 'nazov_lokality_norm': 'Voderady'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Voderady', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Voderady', 'nazov_lokality_norm': 'Voderady'}
+Fallback to OBEC: Voderady
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: voderady norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'869961'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.22 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Voderady
+get_geometry_of_a_geoname nazov_lokality: Voderady
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Voderady, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.52837 48.26972, 17.53057 48.26782...  ...  Voderady, okres Trnava, Trnavský kraj, 919 42,...
+
+[1 rows x 11 columns]
+geoname_query: Voderady, Voderady, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.58978 48.30971, 17.58979 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.52837 48.26972, 17.53057 48.26782...  ...  Voderady, okres Trnava, Trnavský kraj, 919 42,...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575458/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Voderady', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575458/analysis.json...
+
+--- Časy spracovania dokumentu 575458 ---
+  download_and_text   :   3.39 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.08 s
+  gis_processing      :   0.66 s
+  CELKOVÝ ČAS         :  15.13 s
+------------------------------------------
+Dokument 575458 bol úspešne spracovaný.

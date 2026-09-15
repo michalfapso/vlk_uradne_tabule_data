@@ -1,0 +1,177 @@
+{
+  "cislo_konania_spisu": "OU-TO-OSZP-2026/011871-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-15",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 7 pracovných dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Miroslav Blanár",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Topoľčany",
+    "obec": "Solčany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Solčany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2967/19",
+              "4725",
+              "1447/2",
+              "1440/141",
+              "1435/34",
+              "1435/53",
+              "1435/8",
+              "1435/36",
+              "1435/9",
+              "1435/17",
+              "1437/5",
+              "1435/18",
+              "1435/48",
+              "1435/47",
+              "1435/46"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1437/101"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "ul. Záhradná",
+    "nazov_lokality_norm": "Záhradná, Solčany"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "stavba vodovodu",
+    "stavba splaškovej kanalizácie",
+    "rekonštrukcia čerpacej stanice"
+  ],
+  "rozsah_zasahu": "vodovod dĺžka 2,1 m a 264,4 m; kanalizácia dĺžka 107,0 m a 163,0 m; čerpacia šachta 10 m3",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": [
+        "50",
+        "51",
+        "52"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "26",
+        "61",
+        "73"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "26",
+        "33"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania pre výstavbu vodovodu a splaškovej kanalizácie v rámci projektu SOLČANY RESIDENCE (15 rodinných domov). Projekt sa realizuje v zastavanom území obce Solčany, pričom dokument neuvádza žiadny zásah do chránených území ani vplyv na chránené druhy.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "1435/36",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "4725",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/34",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/9",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/48",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1437/5",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/17",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/47",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/46",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/18",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/8",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/53",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1437/101",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

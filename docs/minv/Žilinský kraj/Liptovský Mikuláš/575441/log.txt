@@ -1,0 +1,42 @@
+[2026-09-15 20:46:06] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/575441'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/575441/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/575441/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/575441/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0103305}
+LLM_tokens: {"input": 5337, "output": 2554, "total": 7891, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 54 column 1 (char 1462)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0088512}
+LLM_tokens: {"input": 5337, "output": 2363, "total": 7700, "cached": 2014}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 54 column 1 (char 1534)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0082272}
+LLM_tokens: {"input": 5337, "output": 2155, "total": 7492, "cached": 2014}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/575441/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/575441/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Liptovský Mikuláš', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Liptovský Mikuláš', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+No geometries were found.
+nazov_lokality: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 575441 ---
+  download_and_text   :   0.96 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  30.03 s
+  gis_processing      :   0.00 s
+  CELKOVÝ ČAS         :  31.00 s
+------------------------------------------
+Dokument 575441 bol úspešne spracovaný.

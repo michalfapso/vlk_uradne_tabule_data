@@ -1,0 +1,54 @@
+[2026-09-15 20:36:30] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/575511'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/575511/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/575511/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/575511/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009499500000000001}
+LLM_tokens: {"input": 4941, "output": 2343, "total": 7284, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 59 column 1 (char 1579)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0092121}
+LLM_tokens: {"input": 4941, "output": 2549, "total": 7490, "cached": 2012}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 59 column 1 (char 1671)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011429100000000001}
+LLM_tokens: {"input": 4941, "output": 3288, "total": 8229, "cached": 2012}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/575511/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/575511/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Revúca', 'obec': 'Revúca', 'katastralne_uzemia': [{'nazov': 'Revúca', 'parcely': [{'typ': 'C', 'cisla': ['3348/25']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Revúca', 'obec': 'Revúca', 'katastralne_uzemia': [{'nazov': 'Revúca', 'parcely': [{'typ': 'C', 'cisla': ['3348/25']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Revúca obec:Revúca okres:Revúca kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: revuca norm_obec: revuca norm_ku: revuca
+_get_nationalCadastralZoningReferences() found_ids: {'852104'}
+nationalCadastralZoningReferences: ['852104']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.78 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.124'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/575511/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/575511/analysis.json...
+
+--- Časy spracovania dokumentu 575511 ---
+  download_and_text   :   1.17 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  36.65 s
+  gis_processing      :   4.09 s
+  CELKOVÝ ČAS         :  41.93 s
+------------------------------------------
+Dokument 575511 bol úspešne spracovaný.

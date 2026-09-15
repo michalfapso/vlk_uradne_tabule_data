@@ -1,0 +1,115 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2026/107235-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-15",
+  "datum_zverejnenia": "2026-09-15",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 8 pracovných dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Jaslovské Bohunice",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Jaslovské Bohunice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bohunice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "258/19",
+              "258/192",
+              "258/169",
+              "258/226",
+              "258/189"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "obec Jaslovské Bohunice",
+    "nazov_lokality_norm": "Jaslovské Bohunice"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "predĺženie verejnej splaškovej kanalizácie",
+    "predĺženie verejného vodovodu"
+  ],
+  "rozsah_zasahu": "gravitačná kanalizácia 363,5 m, výtlačné potrubie 183,0 m, verejný vodovod 376,0 m",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "26",
+        "61",
+        "73"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": [
+        "60",
+        "65",
+        "16",
+        "51",
+        "52",
+        "53"
+      ]
+    },
+    {
+      "nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania pre výstavbu predĺženia splaškovej kanalizácie a vodovodu v obci Jaslovské Bohunice. Projekt slúži pre novú výstavbu rodinných domov v k. ú. Bohunice s celkovou dĺžkou potrubí presahujúcou 900 metrov. Realizácia prebieha v zastavanom území obce bez indikácie zásahu do chránených území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "258/192",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        },
+        {
+          "parcel_label": "258/189",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        },
+        {
+          "parcel_label": "258/169",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        },
+        {
+          "parcel_label": "258/19",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        },
+        {
+          "parcel_label": "258/226",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "cislo_konania_spisu": null,
+    "cislo_rozhodnutia": null,
+    "datum_dokumentu": "2026-08-26",
+    "datum_zverejnenia": null,
+    "faza_konania": "ZACIATOK",
+    "ucast_v_konani": {
+      "povolena": true,
+      "lehota_na_vyjadrenie": null
+    },
+    "ziadatel_navrhovatel": "Obec Margecany",
+    "miesto_realizacie": {
+      "kraj": "Košický kraj",
+      "okres": "Gelnica",
+      "obec": "Margecany",
+      "katastralne_uzemia": [
+        {
+          "nazov": "Margecany",
+          "parcely": [
+            {
+              "typ": "C",
+              "cisla": [
+                "244/1",
+                "2347/2",
+                "2389/1"
+              ]
+            }
+          ]
+        }
+      ],
+      "lokalita_zastavane_uzemie": false,
+      "nazov_lokality": "lokalita Obec, ochranné pásmo ŽSR železničnej trate Košice – Žilina",
+      "nazov_lokality_norm": "Margecany"
+    },
+    "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania vo veci vydania stavebného povolenia na uskutočnenie vodnej stavby",
+    "kategorie_vlk": [
+      "INZINIERSKE_SIETE",
+      "VYSTAVBA_V_PRIRODE"
+    ],
+    "typ_zasahu": [
+      "rozšírenie vodovodnej siete",
+      "výstavba čerpacej stanice ATS",
+      "výstavba elektrickej prípojky NN",
+      "výstavba vodovodného potrubia"
+    ],
+    "rozsah_zasahu": "787,55 m potrubia, akumulačná nádrž 26,0 m3, automatická tlaková stanica",
+    "typ_uzemia": [
+      "ochranné pásmo železničnej trate"
+    ],
+    "je_v_chranenom_uzemi": true,
+    "dotknute_zivocichy_rastliny": [
+      "trvalý trávnatý porast"
+    ],
+    "odkaz_enviroportal": null,
+    "zakony": [],
+    "zhrnutie": "Obec Margecany podala žiadosť o stavebné povolenie na rozšírenie vodovodnej siete v dĺžke takmer 788 metrov a výstavbu čerpacej stanice. Projekt sa realizuje v extraviláne obce na trávnatých porastoch a čiastočne zasahuje do ochranného pásma železničnej trate. Dokument oznamuje začatie vodoprávneho konania.",
+    "gis": {
+      "zasiahnute_chranene_uzemia": {},
+      "source_type": "PARCELA"
+    }
+  }
+]
