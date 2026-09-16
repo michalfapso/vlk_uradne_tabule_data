@@ -1,0 +1,70 @@
+[2026-09-16 20:47:05] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/575543'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/575543/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0004088}
+LLM_tokens: {"input": 592, "output": 1003, "total": 1595, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/575543/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 odst. 7' zákona 'Vám oznamujeme nevyhnutný výrub halstovych drevín v existujúcich ochrannom pásme elektrického vedenia. Výrub bude prevedený pod el. vedením:  *400* kV'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 odst. 5' zákona 'tohto zákona držiteľ povolenia na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '251/2012 ZZ je definované u *400* kV vedeni, ako kolmá vzdialenosť *25* m od krajného vodiča na oboch stran. Predpokladané: - začatie výrubu: 2.2026 -'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01133}
+LLM_tokens: {"input": 4870, "output": 2965, "total": 7835, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/575543/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/575543/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Považská Bystrica', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Horny Montava', 'parcely': [{'typ': None, 'cisla': ['186', '187']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo elektrického vedenia 400 kV, vedenie č. 485 TR: Bašca-Vrania', 'nazov_lokality_norm': 'Bašca-Vrania'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Považská Bystrica', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Horny Montava', 'parcely': [{'typ': None, 'cisla': ['186', '187']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo elektrického vedenia 400 kV, vedenie č. 485 TR: Bašca-Vrania', 'nazov_lokality_norm': 'Bašca-Vrania'}
+ku_name:Horny Montava obec:None okres:Považská Bystrica kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: None norm_ku: horny montava
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: horny montava
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: horny montava
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Bašca-Vrania
+get_geometry_of_a_geoname nazov_lokality: Bašca-Vrania
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Považská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.1161264, 'lon': 18.4419739, 'formatted_address': 'Považská Bystrica, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bystrica, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.37628 49.13806, 18.37634 49.13795...  ...  Považská Bystrica, okres Považská Bystrica, Tr...
+
+[1 rows x 11 columns]
+geoname_query: Považská Bystrica, Slovakia
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.37628 49.13806, 18.37634 49.13795...  ...  Považská Bystrica, okres Považská Bystrica, Tr...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/575543/gis.geojson...
+Intersections with protected areas...
+Found 21 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 5 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}], 'UEV': [{'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NATIONALSI': 'SKUEV0256', 'SITETITLE_': 'Strážovské vrchy'}], 'MCHU': [{'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NATIONALSI': '841', 'SITETITLE_': 'NPR Podskalský Roháč'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NATIONALSI': '1372', 'SITETITLE_': 'Malá temná jaskyňa'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NATIONALSI': '1373', 'SITETITLE_': 'Humno'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NATIONALSI': '346', 'SITETITLE_': 'OP NPR Manínska tiesňava'}, {'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NATIONALSI': '346', 'SITETITLE_': 'NPR Manínska tiesňava'}], 'CHVU': [{'parcel_label': 'Považská Bystrica, okres Považská Bystrica, Trenčiansky kraj, Slovensko', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/575543/analysis.json...
+
+--- Časy spracovania dokumentu 575543 ---
+  download_and_text   :   9.49 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.73 s
+  gis_processing      :   2.69 s
+  CELKOVÝ ČAS         :  25.92 s
+------------------------------------------
+Dokument 575543 bol úspešne spracovaný.

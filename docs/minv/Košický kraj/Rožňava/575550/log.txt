@@ -1,0 +1,49 @@
+[2026-09-16 20:42:12] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/575550'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/575550/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.000332}
+LLM_tokens: {"input": 334, "output": 811, "total": 1145, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/575550/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 8' zákona 'v spojení s'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/575550/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009286}
+LLM_tokens: {"input": 5978, "output": 2099, "total": 8077, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/575550/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/575550/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'traťový úsek ŽST Margecany – ŽST Červená Skala', 'nazov_lokality_norm': 'Margecany – Červená Skala'}
+data: {'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'traťový úsek ŽST Margecany – ŽST Červená Skala', 'nazov_lokality_norm': 'Margecany – Červená Skala'}
+No geometries were found.
+nazov_lokality: Margecany – Červená Skala
+get_geometry_of_a_geoname nazov_lokality: Margecany – Červená Skala
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** – Červená Skala, Rožňava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** – Červená Skala, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** – Červená Skala, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.8927968, 'lon': 21.0140176, 'formatted_address': '055 01 Margecany, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Margecany, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 575550 ---
+  download_and_text   :   6.05 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   8.80 s
+  gis_processing      :   2.10 s
+  CELKOVÝ ČAS         :  16.97 s
+------------------------------------------
+Dokument 575550 bol úspešne spracovaný.

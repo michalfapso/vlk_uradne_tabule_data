@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": "SVP - 62,0202",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-08",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SVP, š. p., Povodie Bodrogu, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Medzilaborce",
+    "obec": "Medzilaborce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Medzilaborce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "15/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Borovský potok",
+    "nazov_lokality_norm": "Borovský"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub krovitého porastu"
+  ],
+  "rozsah_zasahu": "krovitých porastov o výmere cca 150 m²",
+  "typ_uzemia": [
+    "CHKO Východné Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "§ 47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "§ 48 ods. 5 písm. a)",
+        "§ 49 ods. 1 písm. b)"
+      ]
+    },
+    {
+      "nazov": "o priestupkoch",
+      "cislo": "372/1990",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje plánovaný výrub krovitých porastov na ploche 150 m2 v blízkosti Borovského potoka v obci Medzilaborce. Výrub sa má realizovať v zimnom období z dôvodu zabezpečenia prietoku vody a týka sa územia v pôsobnosti SCHKO Východné Karpaty.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "OBEC"
+  }
+}

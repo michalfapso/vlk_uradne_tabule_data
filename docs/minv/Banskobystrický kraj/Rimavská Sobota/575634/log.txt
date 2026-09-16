@@ -1,0 +1,120 @@
+[2026-09-16 20:37:25] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575634'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575634/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575634/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13 ods. 2 písm. h)' zákona 'c) zákona č.  543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov o vydanie súhlasu  alebo výnimky na aplikáciu prípravkov na ochr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 2' zákona 'c) zákona č.  543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov o vydanie súhlasu  alebo výnimky na aplikáciu prípravkov na ochr'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575634/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010926}
+LLM_tokens: {"input": 5286, "output": 2761, "total": 8047, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575634/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575634/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Rimavská Sobota', 'katastralne_uzemia': [{'nazov': 'Gemerský Jablonec', 'parcely': []}, {'nazov': 'Nižná Pokoradz', 'parcely': []}, {'nazov': 'Nová Bašta', 'parcely': []}, {'nazov': 'Rimavská Sobota', 'parcely': []}, {'nazov': 'Studená', 'parcely': []}, {'nazov': 'Tomášová', 'parcely': []}, {'nazov': 'Vyšná Pokoradz', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pôdne diely LPIS 0401/1, 1301/1, 1303/1, 1502/1, 1602/1, 1607/1, 2404/1, 4003/1, 4105/1, 4106/1, 5301/1, 5703/1, 5803/1, 6001/1, 6015/1, 6401/1, 6802/1, 6902/1, 7202/1, 7203/1, 72061, 7207/1, 7210/1, 7304/1, 9101/1', 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Rimavská Sobota', 'katastralne_uzemia': [{'nazov': 'Gemerský Jablonec', 'parcely': []}, {'nazov': 'Nižná Pokoradz', 'parcely': []}, {'nazov': 'Nová Bašta', 'parcely': []}, {'nazov': 'Rimavská Sobota', 'parcely': []}, {'nazov': 'Studená', 'parcely': []}, {'nazov': 'Tomášová', 'parcely': []}, {'nazov': 'Vyšná Pokoradz', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pôdne diely LPIS 0401/1, 1301/1, 1303/1, 1502/1, 1602/1, 1607/1, 2404/1, 4003/1, 4105/1, 4106/1, 5301/1, 5703/1, 5803/1, 6001/1, 6015/1, 6401/1, 6802/1, 6902/1, 7202/1, 7203/1, 72061, 7207/1, 7210/1, 7304/1, 9101/1', 'nazov_lokality_norm': None}
+ku_name:Gemerský Jablonec obec:Rimavská Sobota okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: rimavska sobota norm_ku: gemersky jablonec
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: gemersky jablonec
+_get_nationalCadastralZoningReferences() found_ids: {'815021'}
+nationalCadastralZoningReferences: ['815021']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Nižná Pokoradz obec:Rimavská Sobota okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: rimavska sobota norm_ku: nizna pokoradz
+_get_nationalCadastralZoningReferences() found_ids: {'840874'}
+nationalCadastralZoningReferences: ['840874']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Nová Bašta obec:Rimavská Sobota okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: rimavska sobota norm_ku: nova basta
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: nova basta
+_get_nationalCadastralZoningReferences() found_ids: {'841447'}
+nationalCadastralZoningReferences: ['841447']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Rimavská Sobota obec:Rimavská Sobota okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: rimavska sobota norm_ku: rimavska sobota
+_get_nationalCadastralZoningReferences() found_ids: {'852422'}
+nationalCadastralZoningReferences: ['852422']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.58 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Studená obec:Rimavská Sobota okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: rimavska sobota norm_ku: studena
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: studena
+_get_nationalCadastralZoningReferences() found_ids: {'859281'}
+nationalCadastralZoningReferences: ['859281']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Tomášová obec:Rimavská Sobota okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: rimavska sobota norm_ku: tomasova
+_get_nationalCadastralZoningReferences() found_ids: {'852473'}
+nationalCadastralZoningReferences: ['852473']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Vyšná Pokoradz obec:Rimavská Sobota okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: rimavska sobota norm_ku: vysna pokoradz
+_get_nationalCadastralZoningReferences() found_ids: {'871265'}
+nationalCadastralZoningReferences: ['871265']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: pôdne diely LPIS 0401/1, 1301/1, 1303/1, 1502/1, 1602/1, 1607/1, 2404/1, 4003/1, 4105/1, 4106/1, 5301/1, 5703/1, 5803/1, 6001/1, 6015/1, 6401/1, 6802/1, 6902/1, 7202/1, 7203/1, 72061, 7207/1, 7210/1, 7304/1, 9101/1
+get_geometry_of_a_geoname nazov_lokality: pôdne diely LPIS 0401/1, 1301/1, 1303/1, 1502/1, 1602/1, 1607/1, 2404/1, 4003/1, 4105/1, 4106/1, 5301/1, 5703/1, 5803/1, 6001/1, 6015/1, 6401/1, 6802/1, 6902/1, 7202/1, 7203/1, 72061, 7207/1, 7210/1, 7304/1, 9101/1
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** diely LPIS 0401/1, 1301/1, 1303/1, 1502/1, 1602/1, 1607/1, 2404/1, 4003/1, 4105/1, 4106/1, 5301/1, 5703/1, 5803/1, 6001/1, 6015/1, 6401/1, 6802/1, 6902/1, 7202/1, 7203/1, 72061, 7207/1, 7210/1, 7304/1, 9101/1, Rimavská Sobota, Slovensko
+response: <Response [400]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** diely LPIS 0401/1, 1301/1, 1303/1, 1502/1, 1602/1, 1607/1, 2404/1, 4003/1, 4105/1, 4106/1, 5301/1, 5703/1, 5803/1, 6001/1, 6015/1, 6401/1, 6802/1, 6902/1, 7202/1, 7203/1, 72061, 7207/1, 7210/1, 7304/1, 9101/1, Rimavská Sobota, Slovensko
+response: <Response [400]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** diely LPIS 0401/1, 1301/1, 1303/1, 1502/1, 1602/1, 1607/1, 2404/1, 4003/1, 4105/1, 4106/1, 5301/1, 5703/1, 5803/1, 6001/1, 6015/1, 6401/1, 6802/1, 6902/1, 7202/1, 7203/1, 72061, 7207/1, 7210/1, 7304/1, 9101/1, Banskobystrický kraj, Slovensko
+response: <Response [400]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** diely LPIS 0401/1, 1301/1, 1303/1, 1502/1, 1602/1, 1607/1, 2404/1, 4003/1, 4105/1, 4106/1, 5301/1, 5703/1, 5803/1, 6001/1, 6015/1, 6401/1, 6802/1, 6902/1, 7202/1, 7203/1, 72061, 7207/1, 7210/1, 7304/1, 9101/1, Slovensko
+response: <Response [400]>
+normalized: None
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.98757 48.21835, 19.98781 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((20.02834 48.43241, 20.02894 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((19.89345 48.19549, 19.89464 48...
+3  CadastralZoning  ...  MULTIPOLYGON (((20.02266 48.41091, 20.02321 48...
+4  CadastralZoning  ...  MULTIPOLYGON (((19.96631 48.17084, 19.96632 48...
+5  CadastralZoning  ...  MULTIPOLYGON (((19.99752 48.38534, 19.99754 48...
+6  CadastralZoning  ...  MULTIPOLYGON (((20.00118 48.4562, 20.00176 48....
+
+[7 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575634/gis.geojson...
+Intersections with protected areas...
+Found 6 intersecting parcels with '5st_konsUEV'.
+Found 7 intersecting parcels with 'UEV'.
+Found 6 intersecting parcels with 'MCHU'.
+Found 5 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Nižná Pokoradz', 'NAZOV_UEV': 'Pokoradzské jazierka', 'KOD_UEV': 'SKUEV0364'}, {'parcel_label': 'Nižná Pokoradz', 'NAZOV_UEV': 'Pokoradzské jazierka', 'KOD_UEV': 'SKUEV0364'}, {'parcel_label': 'Nižná Pokoradz', 'NAZOV_UEV': 'Pokoradzské jazierka', 'KOD_UEV': 'SKUEV0364'}, {'parcel_label': 'Nižná Pokoradz', 'NAZOV_UEV': 'Pokoradzské jazierka', 'KOD_UEV': 'SKUEV0364'}, {'parcel_label': 'Vyšná Pokoradz', 'NAZOV_UEV': 'Pokoradzské jazierka', 'KOD_UEV': 'SKUEV0364'}, {'parcel_label': 'Vyšná Pokoradz', 'NAZOV_UEV': 'Pokoradzské jazierka', 'KOD_UEV': 'SKUEV0364'}], 'UEV': [{'parcel_label': 'Gemerský Jablonec', 'NATIONALSI': 'SKUEV0360', 'SITETITLE_': 'Beležír'}, {'parcel_label': 'Gemerský Jablonec', 'NATIONALSI': 'SKUEV0357', 'SITETITLE_': 'Cerová vrchovina'}, {'parcel_label': 'Gemerský Jablonec', 'NATIONALSI': 'SKUEV0361', 'SITETITLE_': 'Vodokáš'}, {'parcel_label': 'Nižná Pokoradz', 'NATIONALSI': 'SKUEV0364', 'SITETITLE_': 'Pokoradzské jazierka'}, {'parcel_label': 'Nová Bašta', 'NATIONALSI': 'SKUEV0360', 'SITETITLE_': 'Beležír'}, {'parcel_label': 'Nová Bašta', 'NATIONALSI': 'SKUEV0357', 'SITETITLE_': 'Cerová vrchovina'}, {'parcel_label': 'Vyšná Pokoradz', 'NATIONALSI': 'SKUEV0364', 'SITETITLE_': 'Pokoradzské jazierka'}], 'MCHU': [{'parcel_label': 'Gemerský Jablonec', 'NATIONALSI': '1218', 'SITETITLE_': 'CHA Beležír'}, {'parcel_label': 'Gemerský Jablonec', 'NATIONALSI': '1091', 'SITETITLE_': 'PR Vodná nádrž Gemerský Jablonec'}, {'parcel_label': 'Nižná Pokoradz', 'NATIONALSI': '842', 'SITETITLE_': 'PR Pokoradzské jazierka'}, {'parcel_label': 'Nová Bašta', 'NATIONALSI': '1218', 'SITETITLE_': 'CHA Beležír'}, {'parcel_label': 'Rimavská Sobota', 'NATIONALSI': '328', 'SITETITLE_': 'PR Kurinecká dubina'}, {'parcel_label': 'Vyšná Pokoradz', 'NATIONALSI': '842', 'SITETITLE_': 'PR Pokoradzské jazierka'}], 'CHVU': [{'parcel_label': 'Gemerský Jablonec', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': 'Nižná Pokoradz', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': 'Nová Bašta', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': 'Rimavská Sobota', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': 'Vyšná Pokoradz', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575634/analysis.json...
+
+--- Časy spracovania dokumentu 575634 ---
+  download_and_text   :   1.55 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.45 s
+  gis_processing      :  10.11 s
+  CELKOVÝ ČAS         :  23.12 s
+------------------------------------------
+Dokument 575634 bol úspešne spracovaný.

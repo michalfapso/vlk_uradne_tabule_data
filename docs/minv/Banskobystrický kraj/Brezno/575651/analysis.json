@@ -1,0 +1,144 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-14",
+  "datum_zverejnenia": "2026-09-17",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ŽELEZNICE SLOVENSKEJ REPUBLIKY, Oblastné riaditeľstvo Košice",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Telgárt",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Telgárt",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4164/1",
+              "4166"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "žst. Margecany – Červená Skala, žkm 76,930 – 82,980",
+    "nazov_lokality_norm": "Margecany – Červená Skala"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "odstránenie drevín",
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "56 kusov drevín (36 ks smrek obyčajný, 20 ks topoľ osikový)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný",
+    "topoľ osikový"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "47 ods. 4 písm. e)",
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o dráhach",
+      "cislo": "513/2009",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "ŽSR oznamujú výrub 56 kusov drevín (smreky a topole) v katastrálnom území Telgárt pozdĺž trate Margecany – Červená Skala. Výrub sa realizuje na parcelách C-KN 4164/1 a 4166 z dôvodu bezpečnosti železničnej dopravy. Dokument neuvádza informáciu o tom, či sa dotknuté územie nachádza v chránenej oblasti.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "4164/1",
+          "NAZOV_UEV": "Slovenský raj",
+          "KOD_UEV": "SKUEV0112"
+        },
+        {
+          "parcel_label": "4164/1",
+          "NAZOV_UEV": "Slovenský raj",
+          "KOD_UEV": "SKUEV0112"
+        },
+        {
+          "parcel_label": "4164/1",
+          "NAZOV_UEV": "Slovenský raj",
+          "KOD_UEV": "SKUEV0112"
+        },
+        {
+          "parcel_label": "4164/1",
+          "NAZOV_UEV": "Slovenský raj",
+          "KOD_UEV": "SKUEV0112"
+        },
+        {
+          "parcel_label": "4164/1",
+          "NAZOV_UEV": "Slovenský raj",
+          "KOD_UEV": "SKUEV0112"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "4164/1",
+          "NATIONALSI": "SKUEV0112",
+          "SITETITLE_": "Slovenský raj"
+        },
+        {
+          "parcel_label": "4166",
+          "NATIONALSI": "SKUEV0310",
+          "SITETITLE_": "Kráľovohoľské Tatry"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "4164/1",
+          "NATIONALSI": "257",
+          "SITETITLE_": "NPR Hnilecká jelšina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "4164/1",
+          "NATIONALSI": "SKCHVU053",
+          "SITETITLE_": "Slovenský raj"
+        },
+        {
+          "parcel_label": "4166",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ],
+      "UNESCO": [
+        {
+          "parcel_label": "4164/1",
+          "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
+          "Kod_chrane": "UN01"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

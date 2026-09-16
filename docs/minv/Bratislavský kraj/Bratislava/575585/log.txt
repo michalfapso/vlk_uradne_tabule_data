@@ -1,0 +1,60 @@
+[2026-09-16 20:38:46] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575585'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575585/orig.docx
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575585/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 1)' zákona 'môže písomne oznámiť svoj záujem byť zúčastnenou osobou v začatom správnom konaní, pričom uvedie názov združenia, sídlo, identifikačné číslo organizác'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 odsek 3' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '6' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575585/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00834495}
+LLM_tokens: {"input": 6243, "output": 2347, "total": 8590, "cached": 4039}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575585/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575585/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'ZB – Podkerepušky', 'parcely': [{'typ': 'C', 'cisla': ['698/4']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ZB – Podkerepušky', 'nazov_lokality_norm': 'Podkerepušky, Bratislava'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'ZB – Podkerepušky', 'parcely': [{'typ': 'C', 'cisla': ['698/4']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ZB – Podkerepušky', 'nazov_lokality_norm': 'Podkerepušky, Bratislava'}
+ku_name:ZB – Podkerepušky obec:Bratislava okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: zb – podkerepusky
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: None norm_ku: zb – podkerepusky
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: None norm_ku: zb – podkerepusky
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: zb – podkerepusky
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+Fallback to OBEC: Bratislava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: bratislava norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: bratislava norm_ku: None
+Fallback to OBEC failed: Nenašlo sa žiadne katastrálne uzemie pre zadané parametre kraj:None, okres:None, obec:Bratislava, katastralneUzemie:None
+No geometries were found.
+nazov_lokality: Podkerepušky, Bratislava
+get_geometry_of_a_geoname nazov_lokality: Podkerepušky, Bratislava
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bratislava, Bratislava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bratislava, Bratislava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bratislava, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bratislava, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.2226989, 'lon': 17.0371876, 'formatted_address': 'Podkerepušky, 841 06 Bratislava-Záhorská Bystrica, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 841 06 Bratislava-Záhorská Bystrica, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 575585 ---
+  download_and_text   :   1.08 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   9.25 s
+  gis_processing      :   0.79 s
+  CELKOVÝ ČAS         :  11.13 s
+------------------------------------------
+Dokument 575585 bol úspešne spracovaný.

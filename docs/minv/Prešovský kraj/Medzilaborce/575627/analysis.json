@@ -1,0 +1,79 @@
+{
+  "cislo_konania_spisu": "SVP 1382/2026/12",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-09",
+  "datum_zverejnenia": "2026-10-06",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Medzilaborce",
+    "obec": "Habura",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Habura",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2567"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "tok rieky Laborec",
+    "nazov_lokality_norm": "Laborec"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie brehových porastov"
+  ],
+  "rozsah_zasahu": "14 ks smrek obyčajný (obvod kmeňov 50-80 cm)",
+  "typ_uzemia": [
+    "CHKO Východné Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "48"
+      ]
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje plánovaný výrub 14 kusov smreka obyčajného na pobrežnom pozemku rieky Laborec v katastri obce Habura. Výrub sa má realizovať v zimnom období 2026/2027 z dôvodu údržby koryta a ochrany pred povodňami v chránenom území CHKO Východné Karpaty.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "2567",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

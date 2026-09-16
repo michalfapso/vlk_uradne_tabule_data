@@ -1,0 +1,118 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2026/014383-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-16",
+  "datum_zverejnenia": "2026-09-16",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 7 pracovných dní odo dňa jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Pobodim",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pobodim",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "152",
+              "153"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "299/1",
+              "297/1",
+              "2191/3",
+              "2248/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "tok rieky Dubná",
+    "nazov_lokality_norm": "Dubná"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania a upustenie od ústneho pojednávania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "predĺženie platnosti vodoprávneho povolenia",
+    "odstraňovanie bariér vo vodnom toku",
+    "vodná stavba"
+  ],
+  "rozsah_zasahu": "úsek v HKM 1-6,020, objekt: N.O.H. Rybníkovod vodohospodár",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "vodný zákon",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "20",
+        "26",
+        "61"
+      ]
+    },
+    {
+      "nazov": "stavebný zákon",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "61",
+        "66",
+        "69",
+        "120"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "48"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania vo veci predĺženia platnosti povolenia pre vodnú stavbu zameranú na odstraňovanie bariér v toku Dubná. Zásah sa realizuje v katastrálnom území Pobodim na viacerých parcelách typu C a E. Verejnosť a účastníci môžu podať námietky do 7 pracovných dní od doručenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "299/1",
+          "NATIONALSI": "SKUEV0564",
+          "SITETITLE_": "Dubová"
+        },
+        {
+          "parcel_label": "2248/1",
+          "NATIONALSI": "SKUEV0564",
+          "SITETITLE_": "Dubová"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "299/1",
+          "NATIONALSI": "16",
+          "SITETITLE_": "PP Brehové porasty Dubovej"
+        },
+        {
+          "parcel_label": "2248/1",
+          "NATIONALSI": "16",
+          "SITETITLE_": "PP Brehové porasty Dubovej"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

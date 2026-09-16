@@ -1,0 +1,62 @@
+[2026-09-16 20:42:29] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/575525'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/575525/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0262208}
+LLM_tokens: {"input": 1366, "output": 65533, "total": 66899, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/575525/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov  Okresný úrad Levice, odbor starostlivosti o životné pro'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 108 písm. h)' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 60' zákona '372/1990 o priestupkoch od Mestskej polície v Leviciach, evidovaný pod č. jednania: 244/2024, ktoré súčasťou je záznam z zisťovaní priestupku, fotodok'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 3' zákona '372/1990 o priestupkoch od Mestskej polície v Leviciach, evidovaný pod č. jednania: 244/2024, ktoré súčasťou je záznam z zisťovaní priestupku, fotodok'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. c)' zákona '372/1990 o priestupkoch od Mestskej polície v Leviciach, evidovaný pod č. jednania: 244/2024, ktoré súčasťou je záznam z zisťovaní priestupku, fotodok'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 1' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov, kde sa uvádza, že držiteľ vozidla je povinný zabezpečiť na vlastné náklady'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. a)' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov, kde sa uvádza, že držiteľ vozidla je povinný zabezpečiť na vlastné náklady'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 3' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov.  Oznámenie o'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.043257000000000004}
+LLM_tokens: {"input": 69396, "output": 2853, "total": 72249, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/575525/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/575525/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Levice', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. L. Šúra 490/57, 934 01 Levice', 'nazov_lokality_norm': 'L. Šúra, Levice'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Levice', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. L. Šúra 490/57, 934 01 Levice', 'nazov_lokality_norm': 'L. Šúra, Levice'}
+Fallback to OBEC: Levice
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: levice norm_obec: levice norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (5), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: L. Šúra, Levice
+get_geometry_of_a_geoname nazov_lokality: L. Šúra, Levice
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Šúra, Levice, Levice, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Šúra, Levice, Levice, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Šúra, Levice, Nitriansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Šúra, Levice, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.2146382, 'lon': 18.6008968, 'formatted_address': 'Ľudovíta Štúra, 934 05 Levice, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Štúra, 934 05 Levice, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 575525 ---
+  download_and_text   : 123.86 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.14 s
+  gis_processing      :   1.35 s
+  CELKOVÝ ČAS         : 139.36 s
+------------------------------------------
+Dokument 575525 bol úspešne spracovaný.

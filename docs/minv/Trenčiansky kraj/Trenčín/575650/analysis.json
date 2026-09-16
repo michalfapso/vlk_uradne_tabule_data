@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-14",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "FO",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3678/561"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania na vydanie súhlasu na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 1 ks dreviny druhu smrek",
+    "výrub 1 ks dreviny druhu borovica"
+  ],
+  "rozsah_zasahu": "2 ks drevín (1 ks smrek, 1 ks borovica, oba obvod 110 cm)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "smrek",
+    "borovica"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82",
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Začatie konania o výrub 1 ks smreka a 1 ks borovice (obvod 110 cm) v k. ú. Trenčín na parcele 3678/561. Stromy rastú mimo zastavaného územia a dôvodom výrubu je ohrozovanie osôb a majetku. Verejnosť môže prejaviť záujem o účasť v konaní do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

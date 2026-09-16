@@ -1,0 +1,112 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2026/017652",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-10",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "Eko Farma Tachty s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": "Petrovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Petrovce",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "7101/1",
+              "7202/1",
+              "7205/1",
+              "8108/1",
+              "8202/1",
+              "8204/1",
+              "8205/1",
+              "8303/2",
+              "8314/1",
+              "8321,1",
+              "9244/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "lúky, v k.ú. Petrovce",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "kategorie_vlk": [
+    "POLNOHOSPODARSTVO"
+  ],
+  "typ_zasahu": [
+    "pasenie, napájanie, preháňanie hospodárskych zvierat",
+    "odstraňovanie nedopaskov"
+  ],
+  "rozsah_zasahu": "11 pôdnych dielov LPIS",
+  "typ_uzemia": [
+    "2. stupeň",
+    "3. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82",
+        "13",
+        "14"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania na vydanie súhlasu na pasenie, napájanie a preháňanie hospodárskych zvierat v k.ú. Petrovce. Zásah sa týka území v 2. a 3. stupni ochrany na vybraných dieloch pôdnych blokov LPIS. Žiadateľom je spoločnosť Eko Farma Tachty s.r.o.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Petrovce",
+          "NATIONALSI": "SKUEV0360",
+          "SITETITLE_": "Beležír"
+        },
+        {
+          "parcel_label": "Petrovce",
+          "NATIONALSI": "SKUEV0669",
+          "SITETITLE_": "Drieňové"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Petrovce",
+          "NATIONALSI": "875",
+          "SITETITLE_": "CHA Fenek"
+        },
+        {
+          "parcel_label": "Petrovce",
+          "NATIONALSI": "1218",
+          "SITETITLE_": "CHA Beležír"
+        },
+        {
+          "parcel_label": "Petrovce",
+          "NATIONALSI": "1091",
+          "SITETITLE_": "PR Vodná nádrž Gemerský Jablonec"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Petrovce",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

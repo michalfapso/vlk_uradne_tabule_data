@@ -1,0 +1,41 @@
+[2026-09-16 20:38:57] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575552'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575552/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.026222}
+LLM_tokens: {"input": 1366, "output": 65536, "total": 66902, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575552/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.039838}
+LLM_tokens: {"input": 69422, "output": 1709, "total": 71131, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575552/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575552/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+Fallback to OBEC: Bratislava
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: bratislava norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: bratislava norm_ku: None
+Fallback to OBEC failed: Nenašlo sa žiadne katastrálne uzemie pre zadané parametre kraj:None, okres:None, obec:Bratislava, katastralneUzemie:None
+No geometries were found.
+nazov_lokality: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 575552 ---
+  download_and_text   : 126.60 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   8.57 s
+  gis_processing      :   0.02 s
+  CELKOVÝ ČAS         : 135.19 s
+------------------------------------------
+Dokument 575552 bol úspešne spracovaný.

@@ -1,0 +1,114 @@
+[2026-09-16 20:36:38] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575636'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575636/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575636/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13 ods. 2 písm. h)' zákona 'c) zákona č.  543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov o vydanie súhlasu  alebo výnimky na aplikáciu prípravkov na ochr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 2' zákona 'c) zákona č.  543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov o vydanie súhlasu  alebo výnimky na aplikáciu prípravkov na ochr'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575636/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012390500000000002}
+LLM_tokens: {"input": 5497, "output": 3214, "total": 8711, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575636/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575636/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Tachty', 'katastralne_uzemia': [{'nazov': 'Blhovce', 'parcely': []}, {'nazov': 'Dubno', 'parcely': []}, {'nazov': 'Gemerský Jablonec', 'parcely': []}, {'nazov': 'Hajnáčka', 'parcely': []}, {'nazov': 'Nová Bašta', 'parcely': []}, {'nazov': 'Stará Bašta', 'parcely': []}, {'nazov': 'Tachty', 'parcely': [{'typ': None, 'cisla': ['0302/1', '0502/1', '1018/2', '1120/1', '1208/5', '1208/6', '1503/1', '1601/1', '1601/3', '2004/1', '2006/1', '2102/1', '2304/1', '2307/1', '2401/1', '2404/1', '2414/1', '3401/1', '3404/1', '3407/1', '3702/1', '3703/1', '3707/1', '3709/2', '3710/1', '3712/1', '3801/1', '3803/1', '3808/1', '4316/1', '4801/1', '4905/1', '5902/1', '5905/1', '6404/1', '7302/1', '7402/1', '7404/1', '7407/1', '7410/1', '8204/3', '8401/1', '8403/1', '8404/1', '8406/1', '9201/1', '9207/1', '9210/1', '9244/1', '9302/2', '9302/3', '9302/8']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pôdne diely LPIS', 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Tachty', 'katastralne_uzemia': [{'nazov': 'Blhovce', 'parcely': []}, {'nazov': 'Dubno', 'parcely': []}, {'nazov': 'Gemerský Jablonec', 'parcely': []}, {'nazov': 'Hajnáčka', 'parcely': []}, {'nazov': 'Nová Bašta', 'parcely': []}, {'nazov': 'Stará Bašta', 'parcely': []}, {'nazov': 'Tachty', 'parcely': [{'typ': None, 'cisla': ['0302/1', '0502/1', '1018/2', '1120/1', '1208/5', '1208/6', '1503/1', '1601/1', '1601/3', '2004/1', '2006/1', '2102/1', '2304/1', '2307/1', '2401/1', '2404/1', '2414/1', '3401/1', '3404/1', '3407/1', '3702/1', '3703/1', '3707/1', '3709/2', '3710/1', '3712/1', '3801/1', '3803/1', '3808/1', '4316/1', '4801/1', '4905/1', '5902/1', '5905/1', '6404/1', '7302/1', '7402/1', '7404/1', '7407/1', '7410/1', '8204/3', '8401/1', '8403/1', '8404/1', '8406/1', '9201/1', '9207/1', '9210/1', '9244/1', '9302/2', '9302/3', '9302/8']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pôdne diely LPIS', 'nazov_lokality_norm': None}
+ku_name:Blhovce obec:Tachty okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: tachty norm_ku: blhovce
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: blhovce
+_get_nationalCadastralZoningReferences() found_ids: {'803171'}
+nationalCadastralZoningReferences: ['803171']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.41 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dubno obec:Tachty okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: tachty norm_ku: dubno
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: dubno
+_get_nationalCadastralZoningReferences() found_ids: {'813281'}
+nationalCadastralZoningReferences: ['813281']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.45 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Gemerský Jablonec obec:Tachty okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: tachty norm_ku: gemersky jablonec
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: gemersky jablonec
+_get_nationalCadastralZoningReferences() found_ids: {'815021'}
+nationalCadastralZoningReferences: ['815021']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Hajnáčka obec:Tachty okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: tachty norm_ku: hajnacka
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: hajnacka
+_get_nationalCadastralZoningReferences() found_ids: {'815411'}
+nationalCadastralZoningReferences: ['815411']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Nová Bašta obec:Tachty okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: tachty norm_ku: nova basta
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: nova basta
+_get_nationalCadastralZoningReferences() found_ids: {'841447'}
+nationalCadastralZoningReferences: ['841447']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Stará Bašta obec:Tachty okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: tachty norm_ku: stara basta
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: stara basta
+_get_nationalCadastralZoningReferences() found_ids: {'857858'}
+nationalCadastralZoningReferences: ['857858']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Tachty obec:Tachty okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: tachty norm_ku: tachty
+_get_nationalCadastralZoningReferences() found_ids: {'862452'}
+nationalCadastralZoningReferences: ['862452']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.62 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.32 s
+nazov_lokality: pôdne diely LPIS
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralZoning  ...                           NaN
+1  CadastralZoning  ...                           NaN
+2  CadastralZoning  ...                           NaN
+3  CadastralZoning  ...                           NaN
+4  CadastralZoning  ...                           NaN
+5  CadastralZoning  ...                           NaN
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.113'}
+
+[7 rows x 17 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575636/gis.geojson...
+Intersections with protected areas...
+Found 51 intersecting parcels with '5st_konsUEV'.
+Found 9 intersecting parcels with 'UEV'.
+Found 13 intersecting parcels with 'MCHU'.
+Found 7 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Hajnáčka', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Stará Bašta', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Stará Bašta', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Stará Bašta', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Stará Bašta', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Stará Bašta', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Stará Bašta', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Stará Bašta', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}, {'parcel_label': 'Stará Bašta', 'NAZOV_UEV': 'Cerová vrchovina', 'KOD_UEV': 'SKUEV0357'}], 'UEV': [{'parcel_label': 'Dubno', 'NATIONALSI': 'SKUEV0360', 'SITETITLE_': 'Beležír'}, {'parcel_label': 'Dubno', 'NATIONALSI': 'SKUEV0361', 'SITETITLE_': 'Vodokáš'}, {'parcel_label': 'Gemerský Jablonec', 'NATIONALSI': 'SKUEV0360', 'SITETITLE_': 'Beležír'}, {'parcel_label': 'Gemerský Jablonec', 'NATIONALSI': 'SKUEV0357', 'SITETITLE_': 'Cerová vrchovina'}, {'parcel_label': 'Gemerský Jablonec', 'NATIONALSI': 'SKUEV0361', 'SITETITLE_': 'Vodokáš'}, {'parcel_label': 'Hajnáčka', 'NATIONALSI': 'SKUEV0357', 'SITETITLE_': 'Cerová vrchovina'}, {'parcel_label': 'Nová Bašta', 'NATIONALSI': 'SKUEV0360', 'SITETITLE_': 'Beležír'}, {'parcel_label': 'Nová Bašta', 'NATIONALSI': 'SKUEV0357', 'SITETITLE_': 'Cerová vrchovina'}, {'parcel_label': 'Stará Bašta', 'NATIONALSI': 'SKUEV0357', 'SITETITLE_': 'Cerová vrchovina'}], 'MCHU': [{'parcel_label': 'Dubno', 'NATIONALSI': '1218', 'SITETITLE_': 'CHA Beležír'}, {'parcel_label': 'Dubno', 'NATIONALSI': '1091', 'SITETITLE_': 'PR Vodná nádrž Gemerský Jablonec'}, {'parcel_label': 'Gemerský Jablonec', 'NATIONALSI': '1218', 'SITETITLE_': 'CHA Beležír'}, {'parcel_label': 'Gemerský Jablonec', 'NATIONALSI': '1091', 'SITETITLE_': 'PR Vodná nádrž Gemerský Jablonec'}, {'parcel_label': 'Hajnáčka', 'NATIONALSI': '382', 'SITETITLE_': 'NPR Pohanský hrad'}, {'parcel_label': 'Hajnáčka', 'NATIONALSI': '888', 'SITETITLE_': 'NPP Kostná dolina'}, {'parcel_label': 'Hajnáčka', 'NATIONALSI': '251', 'SITETITLE_': 'PR Hajnáčsky hradný vrch'}, {'parcel_label': 'Hajnáčka', 'NATIONALSI': '399', 'SITETITLE_': 'NPR Ragáč'}, {'parcel_label': 'Hajnáčka', 'NATIONALSI': '1069', 'SITETITLE_': 'PP Zaboda'}, {'parcel_label': 'Hajnáčka', 'NATIONALSI': '1093', 'SITETITLE_': 'PR Ostrá skala'}, {'parcel_label': 'Hajnáčka', 'NATIONALSI': '1088', 'SITETITLE_': 'PR Steblová skala'}, {'parcel_label': 'Nová Bašta', 'NATIONALSI': '1218', 'SITETITLE_': 'CHA Beležír'}, {'parcel_label': 'Stará Bašta', 'NATIONALSI': '382', 'SITETITLE_': 'NPR Pohanský hrad'}], 'CHVU': [{'parcel_label': 'Blhovce', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': 'Dubno', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': 'Gemerský Jablonec', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': 'Hajnáčka', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': 'Nová Bašta', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': 'Stará Bašta', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': '1120/1', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/575636/analysis.json...
+
+--- Časy spracovania dokumentu 575636 ---
+  download_and_text   :   1.34 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.52 s
+  gis_processing      :   9.64 s
+  CELKOVÝ ČAS         :  23.51 s
+------------------------------------------
+Dokument 575636 bol úspešne spracovaný.
