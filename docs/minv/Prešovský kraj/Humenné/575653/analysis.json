@@ -1,0 +1,142 @@
+{
+  "cislo_konania_spisu": "OU-HE-OSZP-2026/014313-011",
+  "cislo_rozhodnutia": "OU-HE-OSZP-2026/014313-011",
+  "datum_dokumentu": "2026-09-14",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Kamenica nad Cirochou",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Humenné",
+    "obec": "Kamenica nad Cirochou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kamenica nad Cirochou",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Ul. Partizánska, Ul. Gaštanová, Ul. Za koľajou, k.ú. Kamenica nad Cirochou",
+    "nazov_lokality_norm": "Kamenica nad Cirochou"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zmena územného plánu",
+    "plocha rodinných domov",
+    "bioplynová stanica",
+    "plocha výroby a skladov",
+    "plocha verejnej zelene",
+    "zmena funkčného využitia lokality"
+  ],
+  "rozsah_zasahu": "Zmeny a doplnky č. 6 územného plánu (7 špecifických lokalít)",
+  "typ_uzemia": [
+    "1. stupeň",
+    "ochranné pásmo VTL plynovodu",
+    "ochranné pásmo letiska",
+    "ochranné pásmo NKP - KAŠTIEĽ A PARK",
+    "archeologické nálezisko"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "biotopy",
+    "voľne žijúce živočíchy",
+    "voľne rastúce rastliny"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/spolocny-uzemny-plan-obci-kamenica-nad-cirochou-kamienka-zmeny-doplnky-2",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "7",
+        "4",
+        "53",
+        "56",
+        "6",
+        "63",
+        "6a"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "12"
+      ]
+    },
+    {
+      "nazov": "o civilnom letectve (letecký zákon)",
+      "cislo": "143/1998 Z. z.",
+      "paragrafy": [
+        "28"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o ochrane pred povodňami",
+      "cislo": "7/2010 Z. z.",
+      "paragrafy": [
+        "20",
+        "6"
+      ]
+    },
+    {
+      "nazov": "geologický zákon",
+      "cislo": "569/2007 Z. z.",
+      "paragrafy": [
+        "20"
+      ]
+    },
+    {
+      "nazov": "o ochrane pamiatkového fondu",
+      "cislo": "49/2002 Z. z.",
+      "paragrafy": [
+        "27"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o tom, že zmeny územného plánu obce Kamenica nad Cirochou sa nebudú ďalej posudzovať podľa EIA. Navrhované zmeny zahŕňajú výstavbu rodinných domov, občianskej vybavenosti a bioplynovej stanice, pričom časť lokalít sa nachádza v extraviláne v 1. stupni ochrany. Orgány stanovili podmienky na ochranu pamiatok (kaštieľ a kostol), ochranu pred povodňami a rešpektovanie ochranných pásiem inžinierskych sietí.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Kamenica nad Cirochou",
+          "NATIONALSI": "SKUEV0005",
+          "SITETITLE_": "Drieňová"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Kamenica nad Cirochou",
+          "NATIONALSI": "SKCHVU035",
+          "SITETITLE_": "Vihorlatské vrchy"
+        },
+        {
+          "parcel_label": "Kamenica nad Cirochou",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "cislo_konania_spisu": "0821 8022/00429",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-09",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "EKOREM s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Trenčianske Bohuslavice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčianske Bohuslavice",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Srnie",
+        "parcely": []
+      },
+      {
+        "nazov": "Nové Mesto nad Váhom",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo pod vonkajšími elektrickými vedeniami - VVN 8573/8758, VVN 8740/8750, VVN 8507/8746, VVN 8505/8506, VVN 8504/8508 a VVN 8501/8502",
+    "nazov_lokality_norm": "VVN 8573/8758, 8740/8750, 8507/8746, 8505/8506, 8504/8508, 8501/8502"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "odstránenie náletových porastov",
+    "okliesňovanie stromov",
+    "výruby drevín"
+  ],
+  "rozsah_zasahu": "odstránenie náletových porastov a okliesňovanie stromov v ochrannom pásme vedení VVN",
+  "typ_uzemia": [
+    "ochranné pásmo pod vonkajšími elektrickými vedeniami"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "náletové porasty",
+    "stromy"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012 Z.z.",
+      "paragrafy": [
+        "11"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o výrube náletových porastov a orezávaní stromov v ochrannom pásme vysokonapäťových elektrických vedení v katastroch Trenčianske Bohuslavice, Dolné Srnie a Nové Mesto nad Váhom. Zásah je realizovaný spoločnosťou EKOREM s.r.o. za účelom údržby elektrických vedení na pozemkoch mimo lesného fondu. Výruby sú plánované v období vegetačného pokoja.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Trenčianske Bohuslavice",
+          "NATIONALSI": "SKUEV0567",
+          "SITETITLE_": "Turecký vrch"
+        },
+        {
+          "parcel_label": "Trenčianske Bohuslavice",
+          "NATIONALSI": "SKUEV0805",
+          "SITETITLE_": "Hájnica"
+        },
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "SKUEV0379",
+          "SITETITLE_": "Kobela"
+        },
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "SKUEV0567",
+          "SITETITLE_": "Turecký vrch"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Trenčianske Bohuslavice",
+          "NATIONALSI": "179",
+          "SITETITLE_": "PR Turecký vrch"
+        },
+        {
+          "parcel_label": "Trenčianske Bohuslavice",
+          "NATIONALSI": "42",
+          "SITETITLE_": "PR Hájnica"
+        },
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "19",
+          "SITETITLE_": "OP NPP Čachtická jaskyňa"
+        },
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "76",
+          "SITETITLE_": "PR Kobela"
+        },
+        {
+          "parcel_label": "Nové Mesto nad Váhom",
+          "NATIONALSI": "179",
+          "SITETITLE_": "PR Turecký vrch"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

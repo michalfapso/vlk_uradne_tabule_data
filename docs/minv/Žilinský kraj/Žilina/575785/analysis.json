@@ -1,0 +1,53 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "MOBIS Slovakia, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": "Gbeľany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Gbeľany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "851/141",
+              "851/149",
+              "825/6"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Údaje o sprístupnení záväzného stanoviska vydaného v zisťovacom konaní",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "EPP (Výroba elektronických súčiastok)"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [],
+  "zhrnutie": "Oznámenie o sprístupnení už vydaného záväzného stanoviska zo zisťovacieho konania pre stavbu továrne na výrobu elektronických súčiastok. Činnosť sa realizuje v katastrálnom území obce Gbeľany na parcelách registra C. Dokument nespomína zásah do chráneného územia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

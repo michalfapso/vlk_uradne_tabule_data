@@ -1,0 +1,92 @@
+[2026-09-17 20:54:34] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575697'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575697/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575697/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'Vás upovedomujeme o začatom správnom  konaní, v ktorom môžu byť dotknuté záujmy ochrany prírody a krajiny.       Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'je orgán ochrany prírody  povinný zverejniť na svojej internetovej  stránke informáciu o začatí každého správneho konania, v ktorom môžu byť dotknuté'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 8' zákona ', a to najneskôr do  troch pracovných dní od začatia konania; súčasťou uvedenej informácie je údaj o lehote, ktorú určil na  doručenie potvrdenia záuj'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods.3' zákona ', ktorá nesmie byť kratšia ako päť pracovných dní od zverejnenia informácie.         Združenie s právnou subjektivitou, ktorého predmetom činnosti naj'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona ', je  zúčastnenou osobou konania, ak spôsobom podľa osobitného predpisu potvrdilo svoj záujem byť  zúčastnenou osobou v začatom správnom konaní; potvr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona '.       Potvrdenie záujmu byť zúčastnenou osobou v konkrétnom správnom konaní je potrebné doručiť  príslušnému orgánu ochrany prírody nasledovným spôs'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575697/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01272}
+LLM_tokens: {"input": 5436, "output": 3334, "total": 8770, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575697/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575697/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Ľubochňa', 'katastralne_uzemia': [{'nazov': 'Ľubochňa', 'parcely': [{'typ': 'C', 'cisla': ['1482']}, {'typ': 'E', 'cisla': ['8238', '8239', '8240', '8241', '8242', '8243', '8244', '8245', '8246', '8247', '8248', '8249', '8250', '8251', '8252', '8253', '8254', '8255', '8256', '8257', '8258', '8259', '8260', '8261', '8262', '8263', '8264', '8265', '8266', '8267/1', '8267/2', '8268', '8269', '8270', '8271', '8272']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Švošovská hoľa', 'nazov_lokality_norm': 'Švošovská hoľa'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Ľubochňa', 'katastralne_uzemia': [{'nazov': 'Ľubochňa', 'parcely': [{'typ': 'C', 'cisla': ['1482']}, {'typ': 'E', 'cisla': ['8238', '8239', '8240', '8241', '8242', '8243', '8244', '8245', '8246', '8247', '8248', '8249', '8250', '8251', '8252', '8253', '8254', '8255', '8256', '8257', '8258', '8259', '8260', '8261', '8262', '8263', '8264', '8265', '8266', '8267/1', '8267/2', '8268', '8269', '8270', '8271', '8272']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Švošovská hoľa', 'nazov_lokality_norm': 'Švošovská hoľa'}
+ku_name:Ľubochňa obec:Ľubochňa okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: lubochna norm_ku: lubochna
+_get_nationalCadastralZoningReferences() found_ids: {'833509'}
+nationalCadastralZoningReferences: ['833509']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.99 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.11 s
+nazov_lokality: Švošovská hoľa
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.2038'}
+
+[37 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575697/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with '5st_konsUEV'.
+Found 37 intersecting parcels with 'UEV'.
+Found 37 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': '1482', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': '8240', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}], 'UEV': [{'parcel_label': '1482', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8238', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8239', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8240', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8241', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8243', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8244', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8245', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8246', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8247', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8248', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8249', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8250', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8251', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8252', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8253', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8254', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8255', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8256', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8257', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8258', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8259', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8263', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8266', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8260', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8261', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8262', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8264', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8265', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8267/1', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8267/2', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8268', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8269', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8270', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8271', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8272', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8242', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}], 'CHVU': [{'parcel_label': '1482', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8238', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8239', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8240', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8241', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8243', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8244', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8245', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8246', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8247', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8248', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8249', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8250', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8251', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8252', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8253', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8254', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8255', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8256', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8257', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8258', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8259', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8263', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8266', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8260', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8261', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8262', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8264', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8265', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8267/1', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8267/2', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8268', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8269', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8270', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8271', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8272', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '8242', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/575697/analysis.json...
+
+--- Časy spracovania dokumentu 575697 ---
+  download_and_text   :   0.93 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.56 s
+  gis_processing      :   6.37 s
+  CELKOVÝ ČAS         :  18.87 s
+------------------------------------------
+Dokument 575697 bol úspešne spracovaný.

@@ -1,0 +1,60 @@
+[2026-09-17 20:54:09] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575652'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575652/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575652/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona 'do          5 pracovných dní od zverejnenia oznámenia na Okresnom úrade Námestove, odbore  starostlivosti o životné prostredie, Miestneho priemyslu 57'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575652/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0076335}
+LLM_tokens: {"input": 4797, "output": 1745, "total": 6542, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 63 column 1 (char 1646)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0072235500000000005}
+LLM_tokens: {"input": 4797, "output": 1910, "total": 6707, "cached": 2011}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 63 column 1 (char 1660)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00656355}
+LLM_tokens: {"input": 4797, "output": 1690, "total": 6487, "cached": 2011}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575652/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575652/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Námestovo', 'obec': 'Breza', 'katastralne_uzemia': [{'nazov': 'Breza', 'parcely': [{'typ': 'E', 'cisla': ['7697', '7698', '7699', '7700', '7701']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Námestovo', 'obec': 'Breza', 'katastralne_uzemia': [{'nazov': 'Breza', 'parcely': [{'typ': 'E', 'cisla': ['7697', '7698', '7699', '7700', '7701']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Breza obec:Breza okres:Námestovo kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: namestovo norm_obec: breza norm_ku: breza
+_get_nationalCadastralZoningReferences() found_ids: {'806404'}
+nationalCadastralZoningReferences: ['806404']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.36 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1976'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1976'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1976'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1976'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.1976'}
+
+[5 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575652/gis.geojson...
+Intersections with protected areas...
+Found 5 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '7697', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '7698', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '7699', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '7700', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}, {'parcel_label': '7701', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Námestovo/575652/analysis.json...
+
+--- Časy spracovania dokumentu 575652 ---
+  download_and_text   :   0.91 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  21.04 s
+  gis_processing      :   3.59 s
+  CELKOVÝ ČAS         :  25.56 s
+------------------------------------------
+Dokument 575652 bol úspešne spracovaný.

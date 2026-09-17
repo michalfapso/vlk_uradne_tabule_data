@@ -1,0 +1,86 @@
+[2026-09-17 20:51:52] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575755'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575755/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0006268}
+LLM_tokens: {"input": 592, "output": 1548, "total": 2140, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575755/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11' zákona 'o energetike č. 251/2012 Z.z. v platnom znení. Výkon prác sa zrealizuje na základe objednávky a podľa požiadaviek objednávateľa ZSDIS a.s., Tlm SEZ Se'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575755/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01548}
+LLM_tokens: {"input": 5574, "output": 4231, "total": 9805, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575755/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575755/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Trenčianske Bohuslavice', 'katastralne_uzemia': [{'nazov': 'Trenčianske Bohuslavice', 'parcely': []}, {'nazov': 'Dolné Srnie', 'parcely': []}, {'nazov': 'Nové Mesto nad Váhom', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo pod vonkajšími elektrickými vedeniami - VVN 8573/8758, VVN 8740/8750, VVN 8507/8746, VVN 8505/8506, VVN 8504/8508 a VVN 8501/8502', 'nazov_lokality_norm': 'VVN 8573/8758, 8740/8750, 8507/8746, 8505/8506, 8504/8508, 8501/8502'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Trenčianske Bohuslavice', 'katastralne_uzemia': [{'nazov': 'Trenčianske Bohuslavice', 'parcely': []}, {'nazov': 'Dolné Srnie', 'parcely': []}, {'nazov': 'Nové Mesto nad Váhom', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo pod vonkajšími elektrickými vedeniami - VVN 8573/8758, VVN 8740/8750, VVN 8507/8746, VVN 8505/8506, VVN 8504/8508 a VVN 8501/8502', 'nazov_lokality_norm': 'VVN 8573/8758, 8740/8750, 8507/8746, 8505/8506, 8504/8508, 8501/8502'}
+ku_name:Trenčianske Bohuslavice obec:Trenčianske Bohuslavice okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: trencianske bohuslavice norm_ku: trencianske bohuslavice
+_get_nationalCadastralZoningReferences() found_ids: {'864404'}
+nationalCadastralZoningReferences: ['864404']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dolné Srnie obec:Trenčianske Bohuslavice okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: trencianske bohuslavice norm_ku: dolne srnie
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: None norm_ku: dolne srnie
+_get_nationalCadastralZoningReferences() found_ids: {'812145'}
+nationalCadastralZoningReferences: ['812145']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Nové Mesto nad Váhom obec:Trenčianske Bohuslavice okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: trencianske bohuslavice norm_ku: nove mesto nad vahom
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: None norm_ku: nove mesto nad vahom
+_get_nationalCadastralZoningReferences() found_ids: {'842044'}
+nationalCadastralZoningReferences: ['842044']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.43 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VVN 8573/8758, 8740/8750, 8507/8746, 8505/8506, 8504/8508, 8501/8502
+get_geometry_of_a_geoname nazov_lokality: VVN 8573/8758, 8740/8750, 8507/8746, 8505/8506, 8504/8508, 8501/8502
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 8573/8758, 8740/8750, 8507/8746, 8505/8506, 8504/8508, 8501/8502, Trenčianske Bohuslavice, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 8573/8758, 8740/8750, 8507/8746, 8505/8506, 8504/8508, 8501/8502, Nové Mesto nad Váhom, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 8573/8758, 8740/8750, 8507/8746, 8505/8506, 8504/8508, 8501/8502, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 8573/8758, 8740/8750, 8507/8746, 8505/8506, 8504/8508, 8501/8502, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.8027004, 'lon': 17.8580673, 'formatted_address': '913 07 Trenčianske Bohuslavice, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 07 Trenčianske Bohuslavice, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.86027 48.81109, 17.86085 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((17.82021 48.81627, 17.82031 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((17.84474 48.79164, 17.84476 48...
+
+[3 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575755/gis.geojson...
+Intersections with protected areas...
+Found 4 intersecting parcels with 'UEV'.
+Found 5 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Trenčianske Bohuslavice', 'NATIONALSI': 'SKUEV0567', 'SITETITLE_': 'Turecký vrch'}, {'parcel_label': 'Trenčianske Bohuslavice', 'NATIONALSI': 'SKUEV0805', 'SITETITLE_': 'Hájnica'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': 'SKUEV0379', 'SITETITLE_': 'Kobela'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': 'SKUEV0567', 'SITETITLE_': 'Turecký vrch'}], 'MCHU': [{'parcel_label': 'Trenčianske Bohuslavice', 'NATIONALSI': '179', 'SITETITLE_': 'PR Turecký vrch'}, {'parcel_label': 'Trenčianske Bohuslavice', 'NATIONALSI': '42', 'SITETITLE_': 'PR Hájnica'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': '19', 'SITETITLE_': 'OP NPP Čachtická jaskyňa'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': '76', 'SITETITLE_': 'PR Kobela'}, {'parcel_label': 'Nové Mesto nad Váhom', 'NATIONALSI': '179', 'SITETITLE_': 'PR Turecký vrch'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/575755/analysis.json...
+
+--- Časy spracovania dokumentu 575755 ---
+  download_and_text   :   9.90 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  16.35 s
+  gis_processing      :   4.39 s
+  CELKOVÝ ČAS         :  30.65 s
+------------------------------------------
+Dokument 575755 bol úspešne spracovaný.

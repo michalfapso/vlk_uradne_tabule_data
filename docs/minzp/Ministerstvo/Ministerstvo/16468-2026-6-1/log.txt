@@ -1,0 +1,46 @@
+[2026-09-17 20:56:01] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16468-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16468-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16468-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012203}
+LLM_tokens: {"input": 4204, "output": 3367, "total": 7571, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16468-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16468-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': None, 'obec': 'Pribylina', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': None, 'okres': None, 'obec': 'Pribylina', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+Fallback to OBEC: Pribylina
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: pribylina norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'849774'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.80911 49.20498, 19.81066 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16468-2026-6-1/gis.geojson...
+Intersections with protected areas...
+Found 51 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}, {'parcel_label': 'Pribylina', 'NAZOV_UEV': 'Tatry', 'KOD_UEV': 'SKUEV0307'}], 'UEV': [{'parcel_label': 'Pribylina', 'NATIONALSI': 'SKUEV0141', 'SITETITLE_': 'Belá'}, {'parcel_label': 'Pribylina', 'NATIONALSI': 'SKUEV0306', 'SITETITLE_': 'Pod Suchým hrádkom'}, {'parcel_label': 'Pribylina', 'NATIONALSI': 'SKUEV0307', 'SITETITLE_': 'Tatry'}], 'MCHU': [{'parcel_label': 'Pribylina', 'NATIONALSI': '759', 'SITETITLE_': 'NPR Tichá dolina'}], 'CHVU': [{'parcel_label': 'Pribylina', 'NATIONALSI': 'SKCHVU030', 'SITETITLE_': 'Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16468-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 16468-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.62 s
+  gis_processing      :   0.58 s
+  CELKOVÝ ČAS         :  14.72 s
+------------------------------------------
+Dokument 16468-2026-6-1 bol úspešne spracovaný.

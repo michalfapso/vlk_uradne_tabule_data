@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2020-08-24",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "MOBIS SLOVAKIA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": "Gbeľany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Gbeľany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "851/141",
+              "851/149",
+              "825/6"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "areál MOBIS, hala CPP2",
+    "nazov_lokality_norm": "MOBIS, Gbeľany"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie stavebného povolenia",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE",
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "výstavba dažďovej kanalizácie",
+    "rozšírenie parkoviska pre osobné automobily",
+    "stavebné úpravy spevnených plôch"
+  ],
+  "rozsah_zasahu": "stavebný objekt S31 Dažďová kanalizácia zo spevnených plôch",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "26"
+      ]
+    },
+    {
+      "nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "58",
+        "44",
+        "62"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o stavebné povolenie na výstavbu dažďovej kanalizácie a rozšírenie parkoviska v priemyselnom areáli spoločnosti MOBIS SLOVAKIA v obci Gbeľany. Ide o inžiniersku stavbu určenú na odvádzanie dažďových vôd zo spevnených plôch. Dokument neuvádza, či sa lokalita nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

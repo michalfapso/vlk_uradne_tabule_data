@@ -1,0 +1,55 @@
+[2026-09-17 20:43:27] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/575716'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/575716/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/575716/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/575716/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01102865}
+LLM_tokens: {"input": 5077, "output": 3132, "total": 8209, "cached": 2013}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/575716/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/575716/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Krupina', 'obec': 'Cerovo', 'katastralne_uzemia': [{'nazov': 'Cerovo', 'parcely': [{'typ': 'E', 'cisla': ['1500', '1149', '2963']}, {'typ': 'C', 'cisla': ['1500/1', '1500/2', '1500/3', '1109/1', '1109/2', '2963']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Krupina', 'obec': 'Cerovo', 'katastralne_uzemia': [{'nazov': 'Cerovo', 'parcely': [{'typ': 'E', 'cisla': ['1500', '1149', '2963']}, {'typ': 'C', 'cisla': ['1500/1', '1500/2', '1500/3', '1109/1', '1109/2', '2963']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Cerovo obec:Cerovo okres:Krupina kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: krupina norm_obec: cerovo norm_ku: cerovo
+_get_nationalCadastralZoningReferences() found_ids: {'808032'}
+nationalCadastralZoningReferences: ['808032']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.20 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.83 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2553'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2553'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2553'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2553'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.2553'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.2553'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.2553'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.2553'}
+8  CadastralParcel  ...  {'@href': '#auAdmUnitS.2553'}
+
+[9 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/575716/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Krupina/575716/analysis.json...
+
+--- Časy spracovania dokumentu 575716 ---
+  download_and_text   :   1.04 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.85 s
+  gis_processing      :   7.28 s
+  CELKOVÝ ČAS         :  20.18 s
+------------------------------------------
+Dokument 575716 bol úspešne spracovaný.

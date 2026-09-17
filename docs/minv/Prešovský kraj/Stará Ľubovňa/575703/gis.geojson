@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "place_id": 188626278, "osm_type": "way", "osm_id": 52025111, "place_rank": 30, "category": "building", "type": "yes", "importance": 5.933546959635336e-05, "addresstype": "building", "name": "", "display_name": "543/5, J. G. Tajovského, Píly, Prievidza, okres Prievidza, Trenčiansky kraj, 971 01, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 18.6117217, 48.7752281 ], [ 18.6118463, 48.7751976 ], [ 18.6118901, 48.7752744 ], [ 18.611765, 48.775306 ], [ 18.6117217, 48.7752281 ] ] ] } }
+]
+}

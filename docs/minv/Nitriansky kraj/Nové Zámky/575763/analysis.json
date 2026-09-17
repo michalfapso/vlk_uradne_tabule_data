@@ -1,0 +1,105 @@
+{
+  "cislo_konania_spisu": "OU-NZ-OSZP-2026/028219",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-10",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "Do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nové Zámky",
+    "obec": "Štúrovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nána",
+        "parcely": []
+      },
+      {
+        "nazov": "Štúrovo",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "82 ods. 3"
+      ]
+    },
+    {
+      "nazov": "Zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Okresný úrad Nové Zámky informuje o začatí konania vo veci žiadosti o súhlas na výrub drevín v katastrálnych územiach Nána a Štúrovo. Záujem o účasť v konaní je potrebné potvrdiť do 5 pracovných dní od zverejnenia informácie. Presný rozsah výrubu ani žiadateľ v dokumente nie sú špecifikovaní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Štúrovo",
+          "NAZOV_UEV": "Dunaj",
+          "KOD_UEV": "SKUEV0393"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Nána",
+          "NATIONALSI": "SKUEV0158",
+          "SITETITLE_": "Modrý vrch"
+        },
+        {
+          "parcel_label": "Nána",
+          "NATIONALSI": "SKUEV0820",
+          "SITETITLE_": "Dolný tok Hrona"
+        },
+        {
+          "parcel_label": "Štúrovo",
+          "NATIONALSI": "SKUEV0393",
+          "SITETITLE_": "Dunaj"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Nána",
+          "NATIONALSI": "190",
+          "SITETITLE_": "PR Vŕšok"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Štúrovo",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

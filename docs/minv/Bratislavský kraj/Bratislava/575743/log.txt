@@ -1,0 +1,86 @@
+[2026-09-17 20:45:10] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575743'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575743/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0262224}
+LLM_tokens: {"input": 1366, "output": 65537, "total": 66903, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575743/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 8' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, v s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, v s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13 ods. 1)' zákona 'v spravnej'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 35 písm. b)' zákona '24/2006 o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 29 ods. 1 písm. a)' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 1' zákona 'o posudzovaní zaslal predložený zámer v prílohe.  Zámer OÚ BA bezodkladne zverejnil na webovom sídle Ministerstva životného prostredia SR https:// www'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 3' zákona 'o posudzovaní a verejnosti informoval aj na úradnej tabuli, čím zároveň oznámil účastníkom konania a zúčastneným osobám, že v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 33 ods. 2' zákona 'Originál tohto dokumentu obsahuje ďalších 1 strán, ktoré ale neboli prevedené do textu'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575743/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0434355}
+LLM_tokens: {"input": 69771, "output": 2850, "total": 72621, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575743/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575743/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava III', 'obec': 'Bratislava - Nové Mesto', 'katastralne_uzemia': [{'nazov': 'Nové Mesto', 'parcely': [{'typ': None, 'cisla': ['4846', '4847', '4848/1', '4849', '4853/1', '4853/2', '4853/3', '4854/7']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Rezidencia Horizont Bratislava', 'nazov_lokality_norm': 'Horizont, Bratislava'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava III', 'obec': 'Bratislava - Nové Mesto', 'katastralne_uzemia': [{'nazov': 'Nové Mesto', 'parcely': [{'typ': None, 'cisla': ['4846', '4847', '4848/1', '4849', '4853/1', '4853/2', '4853/3', '4854/7']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Rezidencia Horizont Bratislava', 'nazov_lokality_norm': 'Horizont, Bratislava'}
+ku_name:Nové Mesto obec:Bratislava - Nové Mesto okres:Bratislava III kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iii norm_obec: bratislava - nove mesto norm_ku: nove mesto
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iii norm_obec: None norm_ku: nove mesto
+_get_nationalCadastralZoningReferences() found_ids: {'804690'}
+nationalCadastralZoningReferences: ['804690']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.18 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.67 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': None, 'cisla': ['4846', '4847', '4848/1', '4849', '4853/1', '4853/2', '4853/3', '4854/7']}' v KU 'Nové Mesto' sa nenašli dáta.
+Fallback to OBEC: Bratislava - Nové Mesto
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava iii norm_obec: bratislava - nove mesto norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: bratislava - nove mesto norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: bratislava - nove mesto norm_ku: None
+Fallback to OBEC failed: Nenašlo sa žiadne katastrálne uzemie pre zadané parametre kraj:None, okres:None, obec:Bratislava - Nové Mesto, katastralneUzemie:None
+No geometries were found.
+nazov_lokality: Horizont, Bratislava
+get_geometry_of_a_geoname nazov_lokality: Horizont, Bratislava
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bratislava, Bratislava - Nové Mesto, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bratislava, Bratislava III, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bratislava, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bratislava, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.1589412, 'lon': 17.0525753, 'formatted_address': 'Námestie sv. Františka 18B, 841 04 Bratislava-Karlova Ves, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** sv. Františka 18B, 841 04 Bratislava-Karlova Ves, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.05138 48.15939, 17.05144 48.15931...  ...  Námestie svätého Františka, Lackova dráha, Kút...
+
+[1 rows x 11 columns]
+geoname_query: Námestie sv. Františka 18B, 841 04 Bratislava-Karlova Ves, Slovakia
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.05138 48.15939, 17.05144 48.15931...  ...  Námestie svätého Františka, Lackova dráha, Kút...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575743/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/575743/analysis.json...
+
+--- Časy spracovania dokumentu 575743 ---
+  download_and_text   : 186.21 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  15.80 s
+  gis_processing      :  10.43 s
+  CELKOVÝ ČAS         : 212.45 s
+------------------------------------------
+Dokument 575743 bol úspešne spracovaný.

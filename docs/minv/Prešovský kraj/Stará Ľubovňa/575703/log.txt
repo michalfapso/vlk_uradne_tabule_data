@@ -1,0 +1,50 @@
+[2026-09-17 20:50:37] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/575703'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/575703/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/575703/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/575703/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012374999999999999}
+LLM_tokens: {"input": 5442, "output": 3218, "total": 8660, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/575703/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/575703/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Stará Ľubovňa', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'cesta II/543', 'nazov_lokality_norm': 'II/543'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Stará Ľubovňa', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'cesta II/543', 'nazov_lokality_norm': 'II/543'}
+No geometries were found.
+nazov_lokality: II/543
+get_geometry_of_a_geoname nazov_lokality: II/543
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Stará Ľubovňa, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Prešovský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.61172 48.77523, 18.61185 48.7752,...  ...  543/5, J. G. Tajovského, Píly, Prievidza, okre...
+
+[1 rows x 11 columns]
+geoname_query: II/543, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.61172 48.77523, 18.61185 48.7752,...  ...  543/5, J. G. Tajovského, Píly, Prievidza, okre...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/575703/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/575703/analysis.json...
+
+--- Časy spracovania dokumentu 575703 ---
+  download_and_text   :   2.37 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.07 s
+  gis_processing      :   3.21 s
+  CELKOVÝ ČAS         :  17.65 s
+------------------------------------------
+Dokument 575703 bol úspešne spracovaný.

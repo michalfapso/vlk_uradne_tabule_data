@@ -1,0 +1,68 @@
+[2026-09-17 20:49:03] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/575763'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/575763/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/575763/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ': Do 5 pracovných dní od zverejnenia informácie, písomne na vyššie uvedenú adresu alebo  elektronicky cez  www.slovensko.sk.    S poukazom na ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona 'združenie s právnou subjektivitou, ktorého predmetom  činnosti je najmenej jeden rok ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 1' zákona 'a ktoré písomne oznámi  svoju účasť v konaní v lehote určenej orgánom ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'sa považuje za  zúčastnenú osobu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona 'združenie podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'uvedie v písomnom  oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno a  priezvisko osoby oprávnenej konať v jeh'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 20h' zákona 'Občianskeho zákonníka, ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 2 písm. c)' zákona '83/1990 Zb.), ktoré preukazujú, že  jeho predmetom činnosti je ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/575763/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009149999999999998}
+LLM_tokens: {"input": 5250, "output": 2175, "total": 7425, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/575763/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/575763/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Štúrovo', 'katastralne_uzemia': [{'nazov': 'Nána', 'parcely': []}, {'nazov': 'Štúrovo', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Nové Zámky', 'obec': 'Štúrovo', 'katastralne_uzemia': [{'nazov': 'Nána', 'parcely': []}, {'nazov': 'Štúrovo', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Nána obec:Štúrovo okres:Nové Zámky kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: sturovo norm_ku: nana
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: None norm_ku: nana
+_get_nationalCadastralZoningReferences() found_ids: {'861545'}
+nationalCadastralZoningReferences: ['861545']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Štúrovo obec:Štúrovo okres:Nové Zámky kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: nove zamky norm_obec: sturovo norm_ku: sturovo
+_get_nationalCadastralZoningReferences() found_ids: {'861553'}
+nationalCadastralZoningReferences: ['861553']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.67834 47.84405, 18.67849 47...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.73836 47.81933, 18.73909 47...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/575763/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Štúrovo', 'NAZOV_UEV': 'Dunaj', 'KOD_UEV': 'SKUEV0393'}], 'UEV': [{'parcel_label': 'Nána', 'NATIONALSI': 'SKUEV0158', 'SITETITLE_': 'Modrý vrch'}, {'parcel_label': 'Nána', 'NATIONALSI': 'SKUEV0820', 'SITETITLE_': 'Dolný tok Hrona'}, {'parcel_label': 'Štúrovo', 'NATIONALSI': 'SKUEV0393', 'SITETITLE_': 'Dunaj'}], 'MCHU': [{'parcel_label': 'Nána', 'NATIONALSI': '190', 'SITETITLE_': 'PR Vŕšok'}], 'CHVU': [{'parcel_label': 'Štúrovo', 'NATIONALSI': 'SKCHVU007', 'SITETITLE_': 'Dunajské luhy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Nové Zámky/575763/analysis.json...
+
+--- Časy spracovania dokumentu 575763 ---
+  download_and_text   :   0.92 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   8.44 s
+  gis_processing      :   0.75 s
+  CELKOVÝ ČAS         :  10.12 s
+------------------------------------------
+Dokument 575763 bol úspešne spracovaný.

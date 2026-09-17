@@ -1,0 +1,151 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2026/000625",
+  "cislo_rozhodnutia": "OU-PB-OSZP-2026/000625-008",
+  "datum_dokumentu": "2026-09-17",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa oznámenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Obec Prečín",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Púchov",
+    "obec": "Prečín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prečín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "703/1",
+              "703/5",
+              "713",
+              "711/1",
+              "708/1",
+              "709/4",
+              "702",
+              "697",
+              "693",
+              "687/1",
+              "729",
+              "731/1",
+              "734",
+              "735",
+              "784/1",
+              "753/1",
+              "517/2"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "619/2",
+              "618/1",
+              "617/1",
+              "616/1",
+              "590/1",
+              "616/10",
+              "500/2",
+              "40",
+              "583",
+              "616/9",
+              "30/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Kanalizačný zberač K9 – Líščie",
+    "nazov_lokality_norm": "Líščie, Prečín"
+  },
+  "typ_dokumentu": "Rozhodnutie - Povolenie na užívanie vodnej stavby",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "užívanie prevádzky schopnej časti líniovej vodnej stavby",
+    "verejná kanalizácia",
+    "kanalizačný zberač"
+  ],
+  "rozsah_zasahu": "kanalizačné potrubie PVC DN 300 dĺžky 503,06 m, 20 ks kanalizačných šácht, 28 ks kanalizačných prípojok",
+  "typ_uzemia": [
+    "vodný tok"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "26",
+        "53",
+        "54"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "61",
+        "71",
+        "26"
+      ]
+    },
+    {
+      "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "120",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnych poplatkoch",
+      "cislo": "145/1995 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Rozhodnutie povoľujúce užívanie líniovej vodnej stavby 'Kanalizačný zberač K9 – Líščie' v obci Prečín, ktorá má charakter verejnej kanalizácie. Stavba pozostáva z viac ako 500 metrov potrubia a 20 šácht, pričom niektoré časti zasahujú do parcely vodného toku. Povolenie na prevádzku vybraných prípojok je podmienené ich preložením mimo koryto toku.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "697",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "702",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "590/1",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "693",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}
