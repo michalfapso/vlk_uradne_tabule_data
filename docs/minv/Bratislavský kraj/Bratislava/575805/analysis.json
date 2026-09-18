@@ -1,0 +1,99 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote určenej podľa § 29 ods. 5 prvej vety zákona č. 24/2006 Z. z."
+  },
+  "ziadatel_navrhovatel": "FUXTON, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava - Ružinov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nivy",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "15324/1",
+              "15324/10",
+              "15344/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "v lokalite medzi Bajkalskou ulicou a ulicou Mlynské nivy",
+    "nazov_lokality_norm": "Bajkalská, Bratislava"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť k oznámeniu o zmene navrhovanej činnosti",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "výstavba bytových domov",
+    "podzemné parkovanie",
+    "úprava parkovacích miest",
+    "sadové úpravy"
+  ],
+  "rozsah_zasahu": "2 osempodlažné bytové objekty, podzemná garáž so 152 parkovacími miestami",
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "18 ods. 2 písm. d)",
+        "24 ods. 1",
+        "29 ods. 1 písm. b)",
+        "29 ods. 3",
+        "29 ods. 5",
+        "29 ods. 6",
+        "29 ods. 16",
+        "30 ods. 1",
+        "30 ods. 2",
+        "30 ods. 7",
+        "38 ods. 3",
+        "38 ods. 4",
+        "56 písm. b)",
+        "64 písm. f)"
+      ]
+    },
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1 ods. 1 písm. c)",
+        "5 ods. 1"
+      ]
+    },
+    {
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015 Z. z.",
+      "paragrafy": [
+        "178 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí zisťovacieho konania (EIA) pre výstavbu II. etapy polyfunkčného súboru Bajkalská v Bratislave (k.ú. Nivy). Projekt zahŕňa dva osempodlažné bytové domy a podzemnú garáž so 152 miestami v zastavanom území mesta. Dokument neuvádza zásah do žiadneho chráneného územia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

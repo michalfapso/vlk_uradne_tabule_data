@@ -1,0 +1,57 @@
+[2026-09-18 20:09:18] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/575895'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/575895/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/575895/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/575895/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0142745}
+LLM_tokens: {"input": 5437, "output": 3852, "total": 9289, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/575895/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/575895/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Žiar nad Hronom', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vegetačných krytoch pri rýchlostných cestách R1 a R2 v úseku Žiar nad Hronom-Zvolen-Banská Bystrica', 'nazov_lokality_norm': 'R1, R2, Žiar nad Hronom, Zvolen, Banská Bystrica'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Žiar nad Hronom', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vegetačných krytoch pri rýchlostných cestách R1 a R2 v úseku Žiar nad Hronom-Zvolen-Banská Bystrica', 'nazov_lokality_norm': 'R1, R2, Žiar nad Hronom, Zvolen, Banská Bystrica'}
+No geometries were found.
+nazov_lokality: R1, R2, Žiar nad Hronom, Zvolen, Banská Bystrica
+get_geometry_of_a_geoname nazov_lokality: R1, R2, Žiar nad Hronom, Zvolen, Banská Bystrica
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** R2, Žiar nad Hronom, Zvolen, Banská Bystrica, Žiar nad Hronom, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** R2, Žiar nad Hronom, Zvolen, Banská Bystrica, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** R2, Žiar nad Hronom, Zvolen, Banská Bystrica, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.5883406, 'lon': 18.8967442, 'formatted_address': 'R1 & R2, 965 01 Žiar nad Hronom, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** & R2, 965 01 Žiar nad Hronom, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((149.15146 -35.29652, 149.15151 -35.2...  ...  R1, Constitution Avenue, Parliamentary Triangl...
+1  POLYGON ((3.048 36.71486, 3.048 36.71477, 3.04...  ...  la poste, 01, Birkhadem ⴱⵉⵔ ⵅⴰⴷⴻⵎ بئر خادم, Bi...
+2  POLYGON ((0.00514 51.50154, 0.00528 51.50126, ...  ...  Ravensbourne University London, 6, Penrose Way...
+
+[3 rows x 11 columns]
+geoname_query: R1 & R2, 965 01 Žiar nad Hronom, Slovakia
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((149.15146 -35.29652, 149.15151 -35.2...  ...  R1, Constitution Avenue, Parliamentary Triangl...
+1  POLYGON ((3.048 36.71486, 3.048 36.71477, 3.04...  ...  la poste, 01, Birkhadem ⴱⵉⵔ ⵅⴰⴷⴻⵎ بئر خادم, Bi...
+2  POLYGON ((0.00514 51.50154, 0.00528 51.50126, ...  ...  Ravensbourne University London, 6, Penrose Way...
+
+[3 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/575895/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/575895/analysis.json...
+
+--- Časy spracovania dokumentu 575895 ---
+  download_and_text   :   1.35 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.81 s
+  gis_processing      :   2.78 s
+  CELKOVÝ ČAS         :  19.95 s
+------------------------------------------
+Dokument 575895 bol úspešne spracovaný.

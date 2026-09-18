@@ -1,0 +1,67 @@
+[2026-09-18 20:13:09] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/575832'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/575832/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/575832/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/575832/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0141965}
+LLM_tokens: {"input": 6697, "output": 3616, "total": 10313, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/575832/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/575832/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Trebišov', 'obec': 'Čierna nad Tisou, Michaľany', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'železničná trať Čierna nad Tisou - Michaľany v žkm 0,000 – 50,525', 'nazov_lokality_norm': 'Čierna nad Tisou - Michaľany'}
+data: {'kraj': 'Košický kraj', 'okres': 'Trebišov', 'obec': 'Čierna nad Tisou, Michaľany', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'železničná trať Čierna nad Tisou - Michaľany v žkm 0,000 – 50,525', 'nazov_lokality_norm': 'Čierna nad Tisou - Michaľany'}
+Fallback to OBEC: Čierna nad Tisou, Michaľany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: trebisov norm_obec: cierna nad tisou norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'809594'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: trebisov norm_obec: michalany norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'836842'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.42 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Čierna nad Tisou - Michaľany
+get_geometry_of_a_geoname nazov_lokality: Čierna nad Tisou - Michaľany
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** nad Tisou - Michaľany, Čierna nad Tisou, Michaľany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** nad Tisou - Michaľany, Trebišov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** nad Tisou - Michaľany, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** nad Tisou - Michaľany, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.417655, 'lon': 22.0886586, 'formatted_address': '076 43 Čierna nad Tisou, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 43 Čierna nad Tisou, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.64347 48.52973, 21.64349 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((22.09408 48.43257, 22.09409 48...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/575832/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Čierna nad Tisou', 'NATIONALSI': 'SKCHVU015', 'SITETITLE_': 'Medzibodrožie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Trebišov/575832/analysis.json...
+
+--- Časy spracovania dokumentu 575832 ---
+  download_and_text   :   2.90 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  15.27 s
+  gis_processing      :   3.58 s
+  CELKOVÝ ČAS         :  21.75 s
+------------------------------------------
+Dokument 575832 bol úspešne spracovaný.

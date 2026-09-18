@@ -1,0 +1,154 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2026/019203-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-18",
+  "datum_zverejnenia": "2026-09-18",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, Oblastné riaditeľstvo Košice",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kostoľany nad Hornádom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "532/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Sokoľ",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1397",
+              "517/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Veľká Lodina",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "941/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Malá Lodina",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "773/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Ružín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "354/3",
+              "354/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Malá Vieska",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "621/69",
+              "621/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "traťový úsek ŽST Košice – ŽST Margecany",
+    "nazov_lokality_norm": "ŽST Košice – ŽST Margecany"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub stromov",
+    "výrub krovitých porastov"
+  ],
+  "rozsah_zasahu": "31 ks stromov a krovité porasty vo výmere 2 840,80 m²",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "dub",
+    "vŕba",
+    "osika",
+    "vŕba rakyta",
+    "javor",
+    "orech",
+    "oľha",
+    "topoľ",
+    "borovica",
+    "čerešňa"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o dráhach",
+      "cislo": "513/2009",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "ŽSR oznamujú plánovaný výrub 31 kusov stromov a krovitých porastov na ploche viac ako 2800 m2 pozdĺž železničnej trate Košice – Margecany. Zásah prebieha vo viacerých katastrálnych územiach v extraviláne z dôvodu bezpečnosti dráhy. Dokument nešpecifikuje, či sa dotknuté parcely nachádzajú v chránených územiach.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "773/1",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "354/1",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "354/3",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

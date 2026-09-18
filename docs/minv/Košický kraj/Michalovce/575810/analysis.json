@@ -1,0 +1,93 @@
+{
+  "cislo_konania_spisu": "50/2026/SMSÚ ŽTSTO PO",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-11",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Strážske",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Strážske",
+        "parcely": []
+      },
+      {
+        "nazov": "Nižný Hrabovec",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "úsek trate Strážske - Prešov",
+    "nazov_lokality_norm": "Strážske - Prešov"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub stromov"
+  ],
+  "rozsah_zasahu": "výrub v úsekoch žst. Nižný Hrabovec, Strážske - Nižný Hrabovec a žst. Strážske",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o Železniciach Slovenskej republiky",
+      "cislo": "258/1993",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o dráhach",
+      "cislo": "513/2009",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "ŽSR oznamujú plánovaný výrub stromov v úseku trate Strážske – Nižný Hrabovec z dôvodu zaistenia bezpečnosti a plynulosti železničnej dopravy. Výrub sa má realizovať v období od 1.10.2026 do 31.12.2029 v blízkosti koľajiska. Zásah sa dotýka katastrálnych území Strážske a Nižný Hrabovec.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Strážske",
+          "NATIONALSI": "SKUEV0250",
+          "SITETITLE_": "Krivoštianka"
+        },
+        {
+          "parcel_label": "Strážske",
+          "NATIONALSI": "SKUEV0895",
+          "SITETITLE_": "Stredný tok Laborca"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Strážske",
+          "NATIONALSI": "SKCHVU035",
+          "SITETITLE_": "Vihorlatské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

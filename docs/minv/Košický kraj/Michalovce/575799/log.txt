@@ -1,0 +1,71 @@
+[2026-09-18 20:11:30] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/575799'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/575799/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/575799/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58a ods. 4' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení jeho noviel o začatí správneho konania. V súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 58a ods. 4' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení jeho noviel informujeme o začatí nasledovného správneho konania: Žiadatel': Združenie obc'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona o povolenie na uskutočnenie vodnej stavby: Združenie obcí čierna voda - Uh - Kanalizácia - pre časť stavby Kanalizácia obce Stretávka v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 140b' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0107495}
+LLM_tokens: {"input": 7867, "output": 2272, "total": 10139, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/575799/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/575799/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Michalovce', 'obec': 'Stretávka', 'katastralne_uzemia': [{'nazov': 'Stretávka', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'obec Stretávka', 'nazov_lokality_norm': 'Stretávka'}
+data: {'kraj': 'Košický kraj', 'okres': 'Michalovce', 'obec': 'Stretávka', 'katastralne_uzemia': [{'nazov': 'Stretávka', 'parcely': []}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'obec Stretávka', 'nazov_lokality_norm': 'Stretávka'}
+ku_name:Stretávka obec:Stretávka okres:Michalovce kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: stretavka norm_ku: stretavka
+_get_nationalCadastralZoningReferences() found_ids: {'859079'}
+nationalCadastralZoningReferences: ['859079']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.46 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Stretávka
+get_geometry_of_a_geoname nazov_lokality: Stretávka
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Stretávka, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.98825 48.60257, 21.98829 48.60232...  ...  Stretavka, okres Michalovce, Košický kraj, Slo...
+1  POLYGON ((21.95838 48.61642, 21.95845 48.61634...  ...  Stretavka, okres Michalovce, Košický kraj, 072...
+
+[2 rows x 11 columns]
+geoname_query: Stretávka, Stretávka, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.99354 48.6302, 21.99357 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.98825 48.60257, 21.98829 48.60232...  ...  Stretavka, okres Michalovce, Košický kraj, Slo...
+1  POLYGON ((21.95838 48.61642, 21.95845 48.61634...  ...  Stretavka, okres Michalovce, Košický kraj, 072...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/575799/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Stretavka', 'NATIONALSI': 'SKUEV0235', 'SITETITLE_': 'Stretavka'}, {'parcel_label': 'Stretavka', 'NATIONALSI': 'SKUEV0235', 'SITETITLE_': 'Stretavka'}], 'MCHU': [{'parcel_label': 'Stretavka', 'NATIONALSI': '1183', 'SITETITLE_': 'CHA Stretavka'}, {'parcel_label': 'Stretavka', 'NATIONALSI': '1183', 'SITETITLE_': 'CHA Stretavka'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/575799/analysis.json...
+
+--- Časy spracovania dokumentu 575799 ---
+  download_and_text   :   1.92 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   9.68 s
+  gis_processing      :   2.21 s
+  CELKOVÝ ČAS         :  13.81 s
+------------------------------------------
+Dokument 575799 bol úspešne spracovaný.

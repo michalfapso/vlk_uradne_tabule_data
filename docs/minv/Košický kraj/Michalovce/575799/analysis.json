@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2026/0018902-003",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-15",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Združenie obcí Čierna voda - Uh",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Stretávka",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Stretávka",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "obec Stretávka",
+    "nazov_lokality_norm": "Stretávka"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "uskutočnenie vodnej stavby",
+    "kanalizácia obce",
+    "kanalizačné prípojky",
+    "čerpacia stanica",
+    "el. prípojky"
+  ],
+  "rozsah_zasahu": "kanalizácia obce v rozsahu stavebných objektov SO 201, SO 202, SO 203, SO 204 a PS 201",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/zdruzenie-obci-cierna-voda-uh-kanalizacia-cov-",
+  "zakony": [
+    {
+      "nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "58a"
+      ]
+    },
+    {
+      "nazov": "Zákon o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "26"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci povolenia vodnej stavby 'Kanalizácia obce Stretávka'. Žiadateľom je Združenie obcí Čierna voda - Uh a projekt zahŕňa výstavbu splaškovej kanalizácie, prípojok a čerpacej stanice. K činnosti bolo vydané právoplatné rozhodnutie zo zisťovacieho konania EIA.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Stretavka",
+          "NATIONALSI": "SKUEV0235",
+          "SITETITLE_": "Stretavka"
+        },
+        {
+          "parcel_label": "Stretavka",
+          "NATIONALSI": "SKUEV0235",
+          "SITETITLE_": "Stretavka"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Stretavka",
+          "NATIONALSI": "1183",
+          "SITETITLE_": "CHA Stretavka"
+        },
+        {
+          "parcel_label": "Stretavka",
+          "NATIONALSI": "1183",
+          "SITETITLE_": "CHA Stretavka"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

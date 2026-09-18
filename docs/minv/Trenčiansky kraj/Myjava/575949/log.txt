@@ -1,0 +1,82 @@
+[2026-09-18 20:17:49] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/575949'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/575949/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.00141}
+LLM_tokens: {"input": 1366, "output": 3506, "total": 4872, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/575949/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 2' zákona '135/1961 Zb. o pozemných komunikáciách'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 4 písm. e)' zákona 'vyhlášky Ministerstva životného prostredia Slovenskej republiky č. 170/2021 Z. z.. Obec žiada aj o vydanie orgánu životného prostredia na účely postup'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 3' zákona 'cestného zákona.  Záverečné oznámenie o plánovanom orezoch a výrube verejnej zelene orezanie drevín ako súčasť starostlivosti o dreviny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 4 písm. e)' zákona 'vyhlášky Ministerstva životného prostredia Slovenskej republiky č. 170/2021 Z. z.. Obec žiada aj o vydanie orgánu životného prostredia na účely postup'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 3' zákona 'cestného zákona.  Záverečné oznámenie o plánovanom orezoch a výrube verejnej zelene ako súčasť starostlivosti o dreviny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 4 písm. e)' zákona 'vyhlášky Ministerstva životného prostredia Slovenskej republiky č. 170/2021 Z. z.. Obec žiada aj o vydanie orgánu životného prostredia na účely postup'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 3' zákona 'cestného zákona.  Záverečné oznámenie o plánovanom orezoch a výrube verejnej zelene ako súčasť starostlivosti o dreviny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 4 písm. e)' zákona 'vyhlášky Ministerstva životného prostredia Slovenskej republiky č. 170/2021 Z. z.. Obec žiada aj o vydanie orgánu životného prostredia na účely postup'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 3' zákona 'cestného zákona.  **Užívateľský rozsah**  Oznámenie sa vzťahuje na cestnú zeleň pozdĺž miestnych častí vo vlastníctve alebo správe Obce Priepasné celo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3d ods. 11' zákona '135/1961 Z. z. o pozemných komunikáciách'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§22 ods. 14' zákona 'vyhlášky č. 170/2021 Z. z. t.: * poranclé listy a podklad umožňujúci identifikáciu stromu  **Osobitosť odhladenia výhodna**  * Roziahlejšie orezy, prí'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 8 písm. b)' zákona 'o vyjadrenie na účely dohody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 3' zákona 'cestného zákona.  Ak prílohy mapový podklad nebude na posúdenie niektorého druhu zásahu dostatočný, žiadame o oznámenie rozsahu potrebne doplnenie ide'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 8' zákona 'zákonom č. 543/2002 Z. z. z. o orezy sa vykonajú ako iná starostlivost o dreviny v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '9' zákona 'zákonom č. 543/2002 Z. z. z. o orezy sa vykonajú ako iná starostlivost o dreviny v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 1' zákona 'uvedného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '2' zákona 'uvedného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 22' zákona 'vyhlášky č. 170/2021 Z. z. .  S úctou  Mgr. Peter Czere starosta obce Priepasné  **Priloha**  1. Mapový podklad miestnych ciest v katastrálnom území P'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3d ods. 11' zákona '135/1961 Z. z.) je dostupná v tomto odkaze: https://is.google.com/view/mapviewer/views?viewid=*** 3.254'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/575949/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0152405}
+LLM_tokens: {"input": 8035, "output": 3741, "total": 11776, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/575949/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/575949/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Myjava', 'obec': 'Priepasné', 'katastralne_uzemia': [{'nazov': 'Priepasné', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'miestne cesty v celom katastrálnom území Priepasné, prístupová cesta k Mohyle R. Štefánika', 'nazov_lokality_norm': 'Mohyla M. R. Štefánika, Priepasné'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Myjava', 'obec': 'Priepasné', 'katastralne_uzemia': [{'nazov': 'Priepasné', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'miestne cesty v celom katastrálnom území Priepasné, prístupová cesta k Mohyle R. Štefánika', 'nazov_lokality_norm': 'Mohyla M. R. Štefánika, Priepasné'}
+ku_name:Priepasné obec:Priepasné okres:Myjava kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: myjava norm_obec: priepasne norm_ku: priepasne
+_get_nationalCadastralZoningReferences() found_ids: {'849901'}
+nationalCadastralZoningReferences: ['849901']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.51 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Mohyla M. R. Štefánika, Priepasné
+get_geometry_of_a_geoname nazov_lokality: Mohyla M. R. Štefánika, Priepasné
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** M. R. Štefánika, Priepasné, Priepasné, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** M. R. Štefánika, Priepasné, Myjava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** M. R. Štefánika, Priepasné, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** M. R. Štefánika, Priepasné, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.6793983, 'lon': 17.5637366, 'formatted_address': '906 13 Brezová pod Bradlom, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 13 Brezová pod Bradlom, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.56793 48.71515, 17.56814 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/575949/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Myjava/575949/analysis.json...
+
+--- Časy spracovania dokumentu 575949 ---
+  download_and_text   :  18.05 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  14.54 s
+  gis_processing      :   4.15 s
+  CELKOVÝ ČAS         :  36.75 s
+------------------------------------------
+Dokument 575949 bol úspešne spracovaný.

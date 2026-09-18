@@ -1,0 +1,86 @@
+{
+  "cislo_konania_spisu": "OU-MI-OSZP-2026/018566",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-17",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Ing. Jaroslav Saxun",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Klokočov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Klokočov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "523/541"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 19 ks drevín rastúcich mimo lesa"
+  ],
+  "rozsah_zasahu": "19 ks drevín (8 ks hrab obyčajný, 7 ks javor poľný, 4 ks borovica lesná)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "hrab obyčajný",
+    "javor poľný",
+    "borovica lesná"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "82",
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu 19 ks drevín (hrab, javor, borovica) v katastrálnom území Klokočov. Výrub sa má realizovať v extraviláne na parcele C 523/541 z dôvodu nevyhovujúceho stavu stromov. Záujem o účasť v konaní je potrebné potvrdiť do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Klokočov",
+          "NATIONALSI": "722",
+          "SITETITLE_": "OP CHA Zemplínska šírava"
+        },
+        {
+          "parcel_label": "Klokočov",
+          "NATIONALSI": "722",
+          "SITETITLE_": "CHA Zemplínska šírava"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Klokočov",
+          "NATIONALSI": "SKCHVU035",
+          "SITETITLE_": "Vihorlatské vrchy"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

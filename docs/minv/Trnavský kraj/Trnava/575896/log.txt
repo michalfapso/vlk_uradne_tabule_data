@@ -1,0 +1,69 @@
+[2026-09-18 20:20:50] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575896'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575896/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575896/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575896/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013080000000000001}
+LLM_tokens: {"input": 5580, "output": 3430, "total": 9010, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575896/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575896/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Dobrá Voda', 'katastralne_uzemia': [{'nazov': 'Dobrá Voda', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Dobrá Voda', 'nazov_lokality_norm': 'Dobrá Voda'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Dobrá Voda', 'katastralne_uzemia': [{'nazov': 'Dobrá Voda', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Dobrá Voda', 'nazov_lokality_norm': 'Dobrá Voda'}
+ku_name:Dobrá Voda obec:Dobrá Voda okres:Trnava kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: dobra voda norm_ku: dobra voda
+_get_nationalCadastralZoningReferences() found_ids: {'811220'}
+nationalCadastralZoningReferences: ['811220']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.50 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Dobrá Voda
+get_geometry_of_a_geoname nazov_lokality: Dobrá Voda
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Voda, Dobrá Voda, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.52776 48.60948, 17.52784 48.60928...  ...  Dobrá voda, 513, Dobrá Voda, okres Trnava, Trn...
+1  POLYGON ((17.49584 48.58917, 17.49606 48.58846...  ...  Dobrá Voda, okres Trnava, Trnavský kraj, 919 5...
+
+[2 rows x 11 columns]
+geoname_query: Dobrá Voda, Dobrá Voda, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.5617 48.64486, 17.56203 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.52776 48.60948, 17.52784 48.60928...  ...  Dobrá voda, 513, Dobrá Voda, okres Trnava, Trn...
+1  POLYGON ((17.49584 48.58917, 17.49606 48.58846...  ...  Dobrá Voda, okres Trnava, Trnavský kraj, 919 5...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575896/gis.geojson...
+Intersections with protected areas...
+Found 7 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Dobrá Voda', 'NAZOV_UEV': 'Brezovské Karpaty', 'KOD_UEV': 'SKUEV0278'}, {'parcel_label': 'Dobrá Voda', 'NAZOV_UEV': 'Brezovské Karpaty', 'KOD_UEV': 'SKUEV0278'}, {'parcel_label': 'Dobrá Voda', 'NAZOV_UEV': 'Brezovské Karpaty', 'KOD_UEV': 'SKUEV0278'}, {'parcel_label': 'Dobrá Voda', 'NAZOV_UEV': 'Brezovské Karpaty', 'KOD_UEV': 'SKUEV0278'}, {'parcel_label': 'Dobrá Voda', 'NAZOV_UEV': 'Brezovské Karpaty', 'KOD_UEV': 'SKUEV0278'}, {'parcel_label': 'Dobrá Voda', 'NAZOV_UEV': 'Brezovské Karpaty', 'KOD_UEV': 'SKUEV0278'}, {'parcel_label': 'Dobrá Voda', 'NAZOV_UEV': 'Brezovské Karpaty', 'KOD_UEV': 'SKUEV0278'}], 'UEV': [{'parcel_label': 'Dobrá Voda', 'NATIONALSI': 'SKUEV0278', 'SITETITLE_': 'Brezovské Karpaty'}, {'parcel_label': 'Dobrá Voda', 'NATIONALSI': 'SKUEV0278', 'SITETITLE_': 'Brezovské Karpaty'}], 'MCHU': [{'parcel_label': 'Dobrá Voda', 'NATIONALSI': '816', 'SITETITLE_': 'PR Slopy'}, {'parcel_label': 'Dobrá Voda', 'NATIONALSI': '1014', 'SITETITLE_': 'PP Ľahký kameň'}, {'parcel_label': 'Dobrá Voda', 'NATIONALSI': '816', 'SITETITLE_': 'PR Slopy'}, {'parcel_label': 'Dobrá Voda', 'NATIONALSI': '115', 'SITETITLE_': 'PP Vyvieračka pod Bachárkou'}], 'CHVU': [{'parcel_label': 'Dobrá Voda', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': 'Dobrá Voda', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/575896/analysis.json...
+
+--- Časy spracovania dokumentu 575896 ---
+  download_and_text   :   1.23 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.95 s
+  gis_processing      :   5.64 s
+  CELKOVÝ ČAS         :  19.83 s
+------------------------------------------
+Dokument 575896 bol úspešne spracovaný.
