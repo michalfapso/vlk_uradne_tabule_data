@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": "Z-LSR-033567/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-17",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 15 pracovných dní od doručenia oznámenia"
+  },
+  "ziadatel_navrhovatel": "Lesy Slovenskej republiky, štátny podnik, organizačná zložka OZ Považie",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Hôrka nad Váhom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hôrka nad Váhom",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "465/1",
+              "465/2",
+              "468/1",
+              "468/2",
+              "466/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Hôrčanský potok",
+    "nazov_lokality_norm": "Hôrčanský"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub krov – vŕba",
+    "odstránenie náletových drevín"
+  ],
+  "rozsah_zasahu": "výrub krov – vŕba o ploche cca 100 m²",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "vŕba"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o vodách",
+      "cislo": "364/2004 Z.z.",
+      "paragrafy": [
+        "49"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube krovitých porastov vŕby na ploche cca 100 m2 v koryte Hôrčanského potoka. Zásah sa nachádza v intraviláne obce Hôrka nad Váhom a je odôvodnený potrebou zabezpečiť plynulý odtok vody. Výrub realizujú Lesy SR ako správca toku podľa osobitného predpisu.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

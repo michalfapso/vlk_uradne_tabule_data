@@ -1,0 +1,81 @@
+[2026-09-21 21:25:57] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/576006'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/576006/orig.docx
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/576006/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 1)' zákona 'môže písomne oznámiť svoj záujem byť zúčastnenou osobou v začatom správnom konaní, pričom uvedie názov združenia, sídlo, identifikačné číslo organizác'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 odsek 3' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '6' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/576006/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010401999999999998}
+LLM_tokens: {"input": 6308, "output": 2416, "total": 8724, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/576006/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/576006/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'Karlova Ves', 'parcely': []}, {'nazov': 'Dúbravka', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Devínska Kobyla', 'nazov_lokality_norm': 'Devínska Kobyla'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'Karlova Ves', 'parcely': []}, {'nazov': 'Dúbravka', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Devínska Kobyla', 'nazov_lokality_norm': 'Devínska Kobyla'}
+ku_name:Karlova Ves obec:Bratislava okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: karlova ves
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: None norm_ku: karlova ves
+_get_nationalCadastralZoningReferences() found_ids: {'805211'}
+nationalCadastralZoningReferences: ['805211']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.35 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dúbravka obec:Bratislava okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: dubravka
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: None norm_ku: dubravka
+_get_nationalCadastralZoningReferences() found_ids: {'806099'}
+nationalCadastralZoningReferences: ['806099']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.47 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Devínska Kobyla
+get_geometry_of_a_geoname nazov_lokality: Devínska Kobyla
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kobyla, Bratislava, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((16.97102 48.20215, 16.97121 48.20192...  ...  Devínska Kobyla, okres Bratislava IV, Bratisla...
+1  POLYGON ((16.97093 48.20382, 16.97109 48.20287...  ...  Devínska Kobyla, okres Bratislava IV, Bratisla...
+
+[2 rows x 11 columns]
+geoname_query: Devínska Kobyla, Bratislava, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.06467 48.17842, 17.06469 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((17.00761 48.20395, 17.0078 48....
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((16.97102 48.20215, 16.97121 48.20192...  ...  Devínska Kobyla, okres Bratislava IV, Bratisla...
+1  POLYGON ((16.97093 48.20382, 16.97109 48.20287...  ...  Devínska Kobyla, okres Bratislava IV, Bratisla...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/576006/gis.geojson...
+Intersections with protected areas...
+Found 96 intersecting parcels with '5st_konsUEV'.
+Found 4 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}, {'parcel_label': 'Dúbravka', 'NAZOV_UEV': 'Devínska Kobyla', 'KOD_UEV': 'SKUEV0280'}], 'UEV': [{'parcel_label': 'Dúbravka', 'NATIONALSI': 'SKUEV0280', 'SITETITLE_': 'Devínska Kobyla'}, {'parcel_label': 'Dúbravka', 'NATIONALSI': 'SKUEV0502', 'SITETITLE_': 'Štokeravská vápenka'}, {'parcel_label': 'Dúbravka', 'NATIONALSI': 'SKUEV0280', 'SITETITLE_': 'Devínska Kobyla'}, {'parcel_label': 'Dúbravka', 'NATIONALSI': 'SKUEV0502', 'SITETITLE_': 'Štokeravská vápenka'}], 'MCHU': [{'parcel_label': 'Dúbravka', 'NATIONALSI': '32', 'SITETITLE_': 'NPR Devínska Kobyla'}, {'parcel_label': 'Dúbravka', 'NATIONALSI': '819', 'SITETITLE_': 'PR Štokeravská vápenka'}, {'parcel_label': 'Dúbravka', 'NATIONALSI': '32', 'SITETITLE_': 'NPR Devínska Kobyla'}, {'parcel_label': 'Dúbravka', 'NATIONALSI': '819', 'SITETITLE_': 'PR Štokeravská vápenka'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/576006/analysis.json...
+
+--- Časy spracovania dokumentu 576006 ---
+  download_and_text   :   1.05 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  10.70 s
+  gis_processing      :   1.84 s
+  CELKOVÝ ČAS         :  13.60 s
+------------------------------------------
+Dokument 576006 bol úspešne spracovaný.

@@ -1,0 +1,57 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 10 dní od jeho zverejnenia"
+  },
+  "ziadatel_navrhovatel": "obec Ratkovce",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Hlohovec",
+    "obec": "Ratkovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ratkovce",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "obec Ratkovce",
+    "nazov_lokality_norm": "Ratkovce"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť k rozsahu hodnotenia",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "posudzovanie vplyvov strategického dokumentu",
+    "Územný plán obce"
+  ],
+  "rozsah_zasahu": "Územný plán obce Ratkovce",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "http://enviroportal.sk",
+  "zakony": [
+    {
+      "nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "8",
+        "63"
+      ]
+    }
+  ],
+  "zhrnutie": "Informácia pre verejnosť o určení rozsahu hodnotenia pre strategický dokument 'Územný plán obce Ratkovce'. Verejnosť môže predkladať pripomienky do 10 dní od zverejnenia na Okresný úrad Hlohovec. Dokument sa týka územného plánovania v obci Ratkovce a podlieha posudzovaniu vplyvov na životné prostredie (SEA).",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "cislo_konania_spisu": "0036789/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-21",
+  "datum_zverejnenia": "2026-09-20",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "FRATRIK, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Liptovský Mikuláš",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Liptovský Mikuláš",
+        "parcely": []
+      },
+      {
+        "nazov": "Smrečany",
+        "parcely": []
+      },
+      {
+        "nazov": "Beňadiková",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "ochranné pásmo 22 kV vedenia na linke č. 266",
+    "nazov_lokality_norm": "linka č. 266"
+  },
+  "typ_dokumentu": "Oznámenie o výrube porastov",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub porastov",
+    "pravidelná údržba elektrických vedení"
+  ],
+  "rozsah_zasahu": "7 m pri 22 kV vedení od krajného vodiča na obidve strany",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o energetike",
+      "cislo": "251/2012 Z.z.",
+      "paragrafy": [
+        "11"
+      ]
+    },
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "vyhláška",
+      "cislo": "170/2021 Z. Z.",
+      "paragrafy": [
+        "22"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube porastov v ochrannom pásme 22 kV elektrického vedenia (linka č. 266) v katastrálnych územiach Liptovský Mikuláš, Smrečany a Beňadiková. Výrub bude prebiehať v rozsahu 7 metrov od krajného vodiča na obe strany v rámci údržby vedenia. Zásah sa realizuje v ochrannom pásme energetického zariadenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

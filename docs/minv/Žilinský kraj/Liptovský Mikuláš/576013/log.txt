@@ -1,0 +1,95 @@
+[2026-09-21 21:30:05] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/576013'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/576013/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/576013/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm. b)' zákona 'o  energetike č. 251/2012 Z.z. a v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona '506/2013 Z. z., ktorým sa mení  a dopĺňa zákon č. 543/2002 Z.z. o ochrane prírody a krajiny Vám oznamujeme, že z dôvodu  ohrozenia bezpečnosti alebo s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 22 ods. 11' zákona 'vyhlášky č. 170/2021 Z. Z., najmä v období vegetačného pokoja. • na linke č. 266 v KÚ: Liptovský Mikuláš, Smrečany, Beňadiková Výrub sa dotýka porasto'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/576013/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0133195}
+LLM_tokens: {"input": 5159, "output": 3580, "total": 8739, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/576013/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/576013/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Liptovský Mikuláš', 'katastralne_uzemia': [{'nazov': 'Liptovský Mikuláš', 'parcely': []}, {'nazov': 'Smrečany', 'parcely': []}, {'nazov': 'Beňadiková', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo 22 kV vedenia na linke č. 266', 'nazov_lokality_norm': 'linka č. 266'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Liptovský Mikuláš', 'katastralne_uzemia': [{'nazov': 'Liptovský Mikuláš', 'parcely': []}, {'nazov': 'Smrečany', 'parcely': []}, {'nazov': 'Beňadiková', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo 22 kV vedenia na linke č. 266', 'nazov_lokality_norm': 'linka č. 266'}
+ku_name:Liptovský Mikuláš obec:Liptovský Mikuláš okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: liptovsky mikulas norm_ku: liptovsky milas
+Fuzzy match found: 'Liptovský Mikuláš' -> 'Liptovský Mikuláš' (ID: 832707)
+nationalCadastralZoningReferences: ['832707']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.50 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Smrečany obec:Liptovský Mikuláš okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: liptovsky mikulas norm_ku: smrecany
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: None norm_ku: smrecany
+_get_nationalCadastralZoningReferences() found_ids: {'856886'}
+nationalCadastralZoningReferences: ['856886']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Beňadiková obec:Liptovský Mikuláš okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: liptovsky mikulas norm_ku: benadikova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: None norm_ku: benadikova
+_get_nationalCadastralZoningReferences() found_ids: {'802573'}
+nationalCadastralZoningReferences: ['802573']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: linka č. 266
+get_geometry_of_a_geoname nazov_lokality: linka č. 266
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** č. 266, Liptovský Mikuláš, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** č. 266, Liptovský Mikuláš, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** č. 266, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** č. 266, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0811487, 'lon': 19.6192067, 'formatted_address': 'Liptovský Mikuláš, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Mikuláš, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((19.54079 49.06129, 19.54095 49...  ...  Liptovský Mikuláš, okres Liptovský Mikuláš, Ži...
+
+[1 rows x 11 columns]
+geoname_query: Liptovský Mikuláš, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.62968 49.10297, 19.62999 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.69162 49.17198, 19.69126 49...
+2  CadastralZoning  ...  MULTIPOLYGON (((19.69316 49.09616, 19.69318 49...
+
+[3 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((19.54079 49.06129, 19.54095 49...  ...  Liptovský Mikuláš, okres Liptovský Mikuláš, Ži...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/576013/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/576013/analysis.json...
+
+--- Časy spracovania dokumentu 576013 ---
+  download_and_text   :   1.36 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.56 s
+  gis_processing      :   4.90 s
+  CELKOVÝ ČAS         :  20.82 s
+------------------------------------------
+Dokument 576013 bol úspešne spracovaný.

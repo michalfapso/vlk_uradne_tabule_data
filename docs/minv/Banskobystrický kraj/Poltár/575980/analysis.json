@@ -1,0 +1,93 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-18",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "HYDRO.MELIORÁCIE, š. p.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Poltár",
+    "obec": "Rovňany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rovňany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "158/3",
+              "228/4",
+              "228/3",
+              "267/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "odvodňovací kanál „kanál“, ev. č. 5305 055 001",
+    "nazov_lokality_norm": "kanál, Rovňany"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube drevín a odstránení krovín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie krovín",
+    "údržba odvodňovacieho kanála",
+    "odstránenie nánosov"
+  ],
+  "rozsah_zasahu": "336 ks drevín (z toho 13 ks nad 90 cm obvodu) a 5 400 m2 krovín",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "Topoľ biely",
+    "Dub",
+    "Čerešňa",
+    "Vŕba",
+    "Jabloň",
+    "Hruška",
+    "Orech",
+    "Agát",
+    "trnka",
+    "šípka"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "52",
+        "53"
+      ]
+    },
+    {
+      "nazov": "ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "cislo": "170/2021 Z. z.",
+      "paragrafy": [
+        "22"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube 336 ks drevín a 5 400 m2 krovín v obci Rovňany za účelom údržby odvodňovacieho kanála v havarijnom stave. Zásah zahŕňa najmä vŕby a topole na štyroch parcelách registra C. Dokument neuvádza, či sa lokalita nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

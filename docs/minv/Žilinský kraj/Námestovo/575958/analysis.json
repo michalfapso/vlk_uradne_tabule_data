@@ -1,0 +1,140 @@
+[
+  {
+    "cislo_konania_spisu": "OU-NO-OSZP-2026/014527-004",
+    "cislo_rozhodnutia": null,
+    "datum_dokumentu": "2026-09-18",
+    "datum_zverejnenia": null,
+    "faza_konania": "ROZHODNUTIE",
+    "ucast_v_konani": {
+      "povolena": false,
+      "lehota_na_vyjadrenie": null
+    },
+    "ziadatel_navrhovatel": "Obec Lomná",
+    "miesto_realizacie": {
+      "kraj": "Žilinský kraj",
+      "okres": "Námestovo",
+      "obec": "Lomná",
+      "katastralne_uzemia": [
+        {
+          "nazov": "Lomná",
+          "parcely": [
+            {
+              "typ": "C",
+              "cisla": [
+                "21965",
+                "22167",
+                "21872",
+                "12813/21",
+                "12813/1",
+                "12813/20",
+                "12858/2"
+              ]
+            }
+          ]
+        }
+      ],
+      "lokalita_zastavane_uzemie": true,
+      "nazov_lokality": "Pálenice",
+      "nazov_lokality_norm": "Pálenice, Lomná"
+    },
+    "typ_dokumentu": "rozhodnutie o stavebnom zámere",
+    "kategorie_vlk": [
+      "INZINIERSKE_SIETE"
+    ],
+    "typ_zasahu": [
+      "rozšírenie vodovodu",
+      "rozšírenie kanalizácie",
+      "automatická tlaková stanica",
+      "elektrická prípojka"
+    ],
+    "rozsah_zasahu": "rozšírenie vodovodu a kanalizácie v celkovej dĺžke cca 480 m pre 41 ks odberných prípojok",
+    "typ_uzemia": [
+      "neviem"
+    ],
+    "je_v_chranenom_uzemi": null,
+    "dotknute_zivocichy_rastliny": [],
+    "odkaz_enviroportal": null,
+    "zakony": [
+      {
+        "nazov": "o organizácii miestnej štátnej správy",
+        "cislo": "180/2013 Z. z.",
+        "paragrafy": [
+          "2"
+        ]
+      },
+      {
+        "nazov": "o štátnej správe starostlivosti o životné prostredie",
+        "cislo": "325/2003 Z. z.",
+        "paragrafy": [
+          "2"
+        ]
+      },
+      {
+        "nazov": "o vodách (vodný zákon)",
+        "cislo": "364/2004 Z. z.",
+        "paragrafy": [
+          "33",
+          "61"
+        ]
+      },
+      {
+        "nazov": "Stavebný zákon",
+        "cislo": "25/2005 Z. z.",
+        "paragrafy": [
+          "16"
+        ]
+      },
+      {
+        "nazov": "o správnom konaní (správny poriadok)",
+        "cislo": "71/1967 Zb.",
+        "paragrafy": [
+          "46",
+          "47"
+        ]
+      }
+    ],
+    "zhrnutie": "Rozhodnutie o stavebnom zámere pre rozšírenie verejného vodovodu a kanalizácie v obci Lomná, lokalita Pálenice. Projekt zahŕňa výstavbu inžinierskych sietí v dĺžke 480 m, tlakovú stanicu a NN prípojky pre zásobovanie rodinných domov. Dokument neuvádza informácie o zásahu do lesných porastov alebo chránených území.",
+    "gis": {
+      "zasiahnute_chranene_uzemia": {
+        "CHVU": [
+          {
+            "parcel_label": "12813/20",
+            "NATIONALSI": "SKCHVU008",
+            "SITETITLE_": "Horná Orava"
+          },
+          {
+            "parcel_label": "12858/2",
+            "NATIONALSI": "SKCHVU008",
+            "SITETITLE_": "Horná Orava"
+          },
+          {
+            "parcel_label": "22167",
+            "NATIONALSI": "SKCHVU008",
+            "SITETITLE_": "Horná Orava"
+          },
+          {
+            "parcel_label": "21872",
+            "NATIONALSI": "SKCHVU008",
+            "SITETITLE_": "Horná Orava"
+          },
+          {
+            "parcel_label": "12813/21",
+            "NATIONALSI": "SKCHVU008",
+            "SITETITLE_": "Horná Orava"
+          },
+          {
+            "parcel_label": "12813/1",
+            "NATIONALSI": "SKCHVU008",
+            "SITETITLE_": "Horná Orava"
+          },
+          {
+            "parcel_label": "21965",
+            "NATIONALSI": "SKCHVU008",
+            "SITETITLE_": "Horná Orava"
+          }
+        ]
+      },
+      "source_type": "PARCELA"
+    }
+  }
+]

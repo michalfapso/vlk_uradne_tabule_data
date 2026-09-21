@@ -1,0 +1,76 @@
+{
+  "cislo_konania_spisu": "OU-PP-OSZP-2026/027190",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-18",
+  "datum_zverejnenia": "2026-09-21",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní"
+  },
+  "ziadatel_navrhovatel": "BHP Tatry, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Poprad",
+    "obec": "Štrba",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Štrba",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3553/1",
+              "3552"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatých správnych konaniach",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "47 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti spoločnosti BHP Tatry, s.r.o. o vydanie súhlasu na výrub drevín v k. ú. Štrba na parcelách registra C č. 3553/1 a 3552. Verejnosť môže potvrdiť záujem byť zúčastnenou osobou v lehote 5 pracovných dní od zverejnenia informácie.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "3552",
+          "NATIONALSI": "735",
+          "SITETITLE_": "NPR Furkotská dolina"
+        },
+        {
+          "parcel_label": "3553/1",
+          "NATIONALSI": "735",
+          "SITETITLE_": "NPR Furkotská dolina"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

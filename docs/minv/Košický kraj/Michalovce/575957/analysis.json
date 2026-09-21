@@ -1,0 +1,88 @@
+{
+  "cislo_konania_spisu": "0052984/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-10",
+  "datum_zverejnenia": "2026-09-18",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "HYDROMELIORÁCIE, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Poruba pod Vihorlatom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Poruba pod Vihorlatom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "561"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "kanál Žľabiny 1",
+    "nazov_lokality_norm": "Žľabiny 1"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube drevín a odstránení krovín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie krovitých porastov",
+    "údržba odvodňovacieho kanála"
+  ],
+  "rozsah_zasahu": "výmera 3000 m2 krovín a náletov; 2 ks solitérnych drevín s obvodom nad 90 cm (jelša, vŕba) a ďalšie dreviny do 90 cm",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "javor poľný",
+    "vŕba biela",
+    "orech čierny",
+    "čerešňa vtáčia",
+    "jelša lepkavá",
+    "slivka tŕnková",
+    "ruža šípová",
+    "svíb krvavý",
+    "baza čierna"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "52",
+        "53"
+      ]
+    },
+    {
+      "nazov": "ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "cislo": "170/2021 Z. z.",
+      "paragrafy": [
+        "22"
+      ]
+    }
+  ],
+  "zhrnutie": "Štátny podnik Hydromeliorácie oznamuje plánovaný výrub drevín a krovín na ploche 3000 m2 v k. ú. Poruba pod Vihorlatom z dôvodu údržby odvodňovacieho kanála Žľabiny 1. Zásah je odôvodnený potrebou obnoviť funkčnosť kanála a prístup pre mechanizáciu. Oznámenie zahŕňa rôzne druhy drevín vrátane jelší a vŕb s obvodom nad 90 cm.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}
