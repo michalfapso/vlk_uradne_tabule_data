@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "place_id": 188074763, "osm_type": "way", "osm_id": 1157788895, "place_rank": 24, "category": "landuse", "type": "construction", "importance": 0.08007727397573812, "addresstype": "construction", "name": "Obytný súbor Fazuľová", "display_name": "Obytný súbor Fazuľová, Oblasť Obchodná, Bratislava, okres Bratislava I, Bratislava, Bratislavský kraj, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 17.1155243, 48.1531824 ], [ 17.1159414, 48.1529535 ], [ 17.1160562, 48.1528912 ], [ 17.1161762, 48.1528248 ], [ 17.1165096, 48.1526407 ], [ 17.1165707, 48.1526143 ], [ 17.1165979, 48.1526003 ], [ 17.1166482, 48.1525705 ], [ 17.1166762, 48.1526308 ], [ 17.1167581, 48.1526823 ], [ 17.1168429, 48.1526941 ], [ 17.1169547, 48.1526724 ], [ 17.1171357, 48.1527965 ], [ 17.1173859, 48.1529859 ], [ 17.1173939, 48.153023 ], [ 17.117506, 48.1531133 ], [ 17.1164953, 48.1535379 ], [ 17.1160782, 48.1531176 ], [ 17.1156453, 48.1533058 ], [ 17.1155243, 48.1531824 ] ] ] } }
+]
+}

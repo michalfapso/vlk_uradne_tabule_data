@@ -1,0 +1,129 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/004027-035-Ha",
+  "cislo_rozhodnutia": "OU-MT-OSZP-2026/004027-035-Ha",
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "CTPark Martin, spol. s r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Martin",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "CTPark Martin",
+    "nazov_lokality_norm": "CTPark Martin"
+  },
+  "typ_dokumentu": "Informácia o podanom odvolaní",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "výstavba výrobno-skladových hál"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/vyrobno-skladove-haly-ctpark-martin",
+  "zakony": [
+    {
+      "nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "24 ods. 1 písm. i)",
+        "3 písm. l)",
+        "56 písm. b)",
+        "30 ods. 3 písm. a)",
+        "30 ods. 1",
+        "30 ods. 15",
+        "30 ods. 4",
+        "30 ods. 3 písm. c)",
+        "30 ods. 8"
+      ]
+    },
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1 ods. 1 písm. c)",
+        "5 ods. 1"
+      ]
+    },
+    {
+      "nazov": "Správny poriadok",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "1 ods. 2"
+      ]
+    }
+  ],
+  "zhrnutie": "Informácia o podaní odvolania pánom Jurajom Lipkom a Ing. Jánom Topercerom, CSc. voči záväznému stanovisku zo zisťovacieho konania pre navrhovanú činnosť „Výrobno-skladové haly CTPark Martin“. Odvolanie bolo postúpené nadriadenému orgánu na preskúmanie.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Martin",
+          "NAZOV_UEV": "Lúčanská Fatra",
+          "KOD_UEV": "SKUEV0930"
+        },
+        {
+          "parcel_label": "Priekopa",
+          "NAZOV_UEV": "Lúčanská Fatra",
+          "KOD_UEV": "SKUEV0930"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        },
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "SKUEV0930",
+          "SITETITLE_": "Lúčanská Fatra"
+        },
+        {
+          "parcel_label": "Priekopa",
+          "NATIONALSI": "SKUEV0930",
+          "SITETITLE_": "Lúčanská Fatra"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Martin",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "Záturčie",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "Priekopa",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

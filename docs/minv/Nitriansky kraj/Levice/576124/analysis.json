@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2026/022771",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-22",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Levice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Levice",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 82 ods. 7",
+        "§ 47 ods. 3",
+        "§ 82 ods. 3",
+        "§ 2 ods. 1",
+        "§ 82 ods. 6"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "§ 15a"
+      ]
+    },
+    {
+      "nazov": "Občiansky zákonník",
+      "cislo": "40/1964 Zb.",
+      "paragrafy": [
+        "§ 20h"
+      ]
+    },
+    {
+      "nazov": "o združovaní občanov",
+      "cislo": "83/1990 Zb.",
+      "paragrafy": [
+        "§ 6 ods. 2 písm. c)"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub drevín rastúcich v extraviláne katastrálneho územia Levice. Verejnosť a združenia môžu potvrdiť záujem byť účastníkom konania v lehote 5 pracovných dní od zverejnenia. Presný počet drevín ani špecifická lokalita v dokumente nie sú uvedené.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Levice",
+          "NATIONALSI": "89",
+          "SITETITLE_": "CHA Levické rybníky"
+        },
+        {
+          "parcel_label": "Levice",
+          "NATIONALSI": "950",
+          "SITETITLE_": "CHA Levický park"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

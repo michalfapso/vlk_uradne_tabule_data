@@ -1,0 +1,93 @@
+[2026-09-22 20:53:11] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576076'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576076/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576076/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 24 ods. 1 písm. i)' zákona '24/2006 Z. z. o posudzovaní  vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších  predpisov    Okresný úrad Marti'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§  1 ods. 1 písm. c)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako správny'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako správny'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 písm. l)' zákona 'v spojení'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 56 písm. b)' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých  zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 3 písm. a)' zákona 'o posudzovaní vplyvov na ŽP, že proti záväznému  stanovisku zo zisťovacieho konania č. OU-MT-OSZP-2026/004027-035-Ha zo dňa 20.08.2026  pre navrhovanú'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 1' zákona 'o posudzovaní vplyvov na ŽP od  pána Juraja Lipku a Ing. Jána Topercera, CSc.     Okresný úrad Martin, odbor starostlivosti o životné prostredie infor'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 15' zákona 'o posudzovaní vplyvov na ŽP má odvolateľ právo nahliadať do spisu,  robiť si z neho výpisy, odpisy a kópie.    Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 4' zákona 'o posudzovaní vplyvov na ŽP Okresný úrad Martin, odbor  starostlivosti o životné prostredie po uplynutí lehoty podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3 písm. c)' zákona 'o posudzovaní vplyvov na ŽP predloží bezodkladne, najneskôr však do desiatich dní podané  odvolanie spolu s administratívnym spisom vrátane doručených'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 30 ods. 8' zákona 'o posudzovaní vplyvov na ŽP odvolací orgán preskúma napadnuté  rozhodnutie v celom rozsahu; ak je to nevyhnutné, doterajšie konanie doplní, prípadne z'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576076/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.015054999999999999}
+LLM_tokens: {"input": 5036, "output": 4179, "total": 9215, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 64 column 1 (char 1986)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0110746}
+LLM_tokens: {"input": 5036, "output": 3154, "total": 8190, "cached": 2012}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576076/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576076/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': 'Martin', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'CTPark Martin', 'nazov_lokality_norm': 'CTPark Martin'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': 'Martin', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'CTPark Martin', 'nazov_lokality_norm': 'CTPark Martin'}
+Fallback to OBEC: Martin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: martin norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'836168', '872407', '849839', '836273'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.52 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.47 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: CTPark Martin
+get_geometry_of_a_geoname nazov_lokality: CTPark Martin
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Martin, Martin, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Martin, Martin, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Martin, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Martin, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.2083739, 'lon': 18.836626, 'formatted_address': '013 02 Gbeľany, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 02 Gbeľany, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.82092 49.09836, 18.82094 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.84145 49.10051, 18.84209 49...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.83687 49.12703, 18.83794 49...
+3  CadastralZoning  ...  MULTIPOLYGON (((18.94319 49.06667, 18.94386 49...
+
+[4 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576076/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Martin', 'NAZOV_UEV': 'Lúčanská Fatra', 'KOD_UEV': 'SKUEV0930'}, {'parcel_label': 'Priekopa', 'NAZOV_UEV': 'Lúčanská Fatra', 'KOD_UEV': 'SKUEV0930'}], 'UEV': [{'parcel_label': 'Martin', 'NATIONALSI': 'SKUEV0382', 'SITETITLE_': 'Turiec a Blatnický potok'}, {'parcel_label': 'Martin', 'NATIONALSI': 'SKUEV0930', 'SITETITLE_': 'Lúčanská Fatra'}, {'parcel_label': 'Priekopa', 'NATIONALSI': 'SKUEV0930', 'SITETITLE_': 'Lúčanská Fatra'}], 'MCHU': [{'parcel_label': 'Martin', 'NATIONALSI': '458', 'SITETITLE_': 'OP NPR Turiec'}, {'parcel_label': 'Martin', 'NATIONALSI': '458', 'SITETITLE_': 'NPR Turiec'}], 'CHVU': [{'parcel_label': 'Martin', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}, {'parcel_label': 'Záturčie', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}, {'parcel_label': 'Priekopa', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576076/analysis.json...
+
+--- Časy spracovania dokumentu 576076 ---
+  download_and_text   :   4.35 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  30.90 s
+  gis_processing      :   3.92 s
+  CELKOVÝ ČAS         :  39.17 s
+------------------------------------------
+Dokument 576076 bol úspešne spracovaný.

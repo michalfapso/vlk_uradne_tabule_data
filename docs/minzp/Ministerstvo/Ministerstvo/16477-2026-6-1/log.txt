@@ -1,0 +1,79 @@
+[2026-09-22 20:57:06] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16477-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16477-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16477-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008505500000000001}
+LLM_tokens: {"input": 4249, "output": 2127, "total": 6376, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16477-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16477-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': 'Trenčín', 'obec': 'Horňany', 'katastralne_uzemia': [{'nazov': 'Horňany', 'parcely': []}, {'nazov': 'Bobot', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'potok Machnáč', 'nazov_lokality_norm': 'Machnáč'}
+data: {'kraj': None, 'okres': 'Trenčín', 'obec': 'Horňany', 'katastralne_uzemia': [{'nazov': 'Horňany', 'parcely': []}, {'nazov': 'Bobot', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'potok Machnáč', 'nazov_lokality_norm': 'Machnáč'}
+ku_name:Horňany obec:Horňany okres:Trenčín kraj:None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: trencin norm_obec: hornany norm_ku: hornany
+_get_nationalCadastralZoningReferences() found_ids: {'817856'}
+nationalCadastralZoningReferences: ['817856']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Bobot obec:Horňany okres:Trenčín kraj:None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: trencin norm_obec: hornany norm_ku: bobot
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: trencin norm_obec: None norm_ku: bobot
+_get_nationalCadastralZoningReferences() found_ids: {'803197'}
+nationalCadastralZoningReferences: ['803197']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Machnáč
+get_geometry_of_a_geoname nazov_lokality: Machnáč
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Horňany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Trenčín, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.77929470000001, 'lon': 18.1983244, 'formatted_address': '913 24 Horňany, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 24 Horňany, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.17903 48.77904, 18.17953 48.77862...  ...  Horňany, okres Trenčín, Trenčiansky kraj, Slov...
+
+[1 rows x 11 columns]
+geoname_query: 913 24 Horňany, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.22187 48.79712, 18.22209 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.21482 48.87323, 18.21598 48...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.17903 48.77904, 18.17953 48.77862...  ...  Horňany, okres Trenčín, Trenčiansky kraj, Slov...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16477-2026-6-1/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'MCHU': [{'parcel_label': 'Horňany', 'NATIONALSI': '138', 'SITETITLE_': 'PP Potok Machnáč'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/16477-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 16477-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   8.98 s
+  gis_processing      :   3.67 s
+  CELKOVÝ ČAS         :  14.31 s
+------------------------------------------
+Dokument 16477-2026-6-1 bol úspešne spracovaný.

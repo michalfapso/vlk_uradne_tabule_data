@@ -1,0 +1,68 @@
+[2026-09-22 20:57:33] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-085147-kub'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-085147-kub/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-085147-kub/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0092355}
+LLM_tokens: {"input": 4425, "output": 2341, "total": 6766, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-085147-kub/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-085147-kub/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Oščadnica', 'katastralne_uzemia': [{'nazov': 'Oščadnica', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Veľká Rača', 'nazov_lokality_norm': 'Veľká Rača'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Oščadnica', 'katastralne_uzemia': [{'nazov': 'Oščadnica', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Veľká Rača', 'nazov_lokality_norm': 'Veľká Rača'}
+ku_name:Oščadnica obec:Oščadnica okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: oscadnica norm_ku: oscadnica
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: oscadnica
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: oscadnica
+_get_nationalCadastralZoningReferences() found_ids: {'844748'}
+nationalCadastralZoningReferences: ['844748']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.52 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Veľká Rača
+get_geometry_of_a_geoname nazov_lokality: Veľká Rača
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Rača, Oščadnica, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.91426 49.41385, 18.92979 49.40678...  ...  Veľká Rača, Oščadnica, okres Čadca, Žilinský k...
+1  POLYGON ((18.94074 49.41162, 18.94139 49.41126...  ...  Veľká Rača, Klubina, okres Čadca, Žilinský kra...
+
+[2 rows x 11 columns]
+geoname_query: Veľká Rača, Oščadnica, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.96338 49.48134, 18.96418 49...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.91426 49.41385, 18.92979 49.40678...  ...  Veľká Rača, Oščadnica, okres Čadca, Žilinský k...
+1  POLYGON ((18.94074 49.41162, 18.94139 49.41126...  ...  Veľká Rača, Klubina, okres Čadca, Žilinský kra...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-085147-kub/gis.geojson...
+Intersections with protected areas...
+Found 27 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}, {'parcel_label': 'Oščadnica', 'NAZOV_UEV': 'Kysucké Beskydy', 'KOD_UEV': 'SKUEV0288'}], 'UEV': [{'parcel_label': 'Oščadnica', 'NATIONALSI': 'SKUEV0288', 'SITETITLE_': 'Kysucké Beskydy'}, {'parcel_label': 'Oščadnica', 'NATIONALSI': 'SKUEV0648', 'SITETITLE_': 'Príslop'}, {'parcel_label': 'Oščadnica', 'NATIONALSI': 'SKUEV0288', 'SITETITLE_': 'Kysucké Beskydy'}], 'MCHU': [{'parcel_label': 'Oščadnica', 'NATIONALSI': '467', 'SITETITLE_': 'OP NPR Veľká Rača'}, {'parcel_label': 'Oščadnica', 'NATIONALSI': '467', 'SITETITLE_': 'NPR Veľká Rača'}, {'parcel_label': 'Oščadnica', 'NATIONALSI': '467', 'SITETITLE_': 'OP NPR Veľká Rača'}, {'parcel_label': 'Oščadnica', 'NATIONALSI': '467', 'SITETITLE_': 'NPR Veľká Rača'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-085147-kub/analysis.json...
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-085147-kub ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   9.81 s
+  gis_processing      :   1.09 s
+  CELKOVÝ ČAS         :  12.63 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-085147-kub bol úspešne spracovaný.

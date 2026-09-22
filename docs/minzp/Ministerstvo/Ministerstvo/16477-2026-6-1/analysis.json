@@ -1,0 +1,67 @@
+{
+  "cislo_konania_spisu": "16477/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-22",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Obec Horňany",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": "Trenčín",
+    "obec": "Horňany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horňany",
+        "parcely": []
+      },
+      {
+        "nazov": "Bobot",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "potok Machnáč",
+    "nazov_lokality_norm": "Machnáč"
+  },
+  "typ_dokumentu": "Informácia o začatom správnom konaní",
+  "kategorie_vlk": [
+    "ZIVOCICHY_USMRCOVANIE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "odstránenie hrádzí chráneného živočícha bobor vodný (Castor fiber)"
+  ],
+  "rozsah_zasahu": "odstránenie hrádzí",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "bobor vodný (Castor fiber)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Obec Horňany žiada o výnimku na odstránenie bobrích hrádzí na potoku Machnáč v k. ú. Horňany a Bobot. Konanie sa týka zásahu do biotopu chráneného živočícha bobra vodného v rámci druhovej ochrany. Verejnosť môže potvrdiť záujem byť účastníkom konania do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Horňany",
+          "NATIONALSI": "138",
+          "SITETITLE_": "PP Potok Machnáč"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

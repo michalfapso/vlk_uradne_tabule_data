@@ -1,0 +1,79 @@
+[2026-09-22 20:55:51] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576140'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576140/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576140/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný orgán štátnej'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, ako príslušný orgán štátnej'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako prísluš'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona 'v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. 1 písm. a)' zákona 'vodného zákona – povolenie, ktoré je potrebné na stínanie a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 14' zákona 'vodného zákona. OU-ZA-OSZP3-2026/050763-0177434/2026 1 Odôvodnenie Správny orgán zaevidoval dňa 11. 05. 2026 žiadosť o výrub drevín vo veci vydania sú'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 14' zákona 'vodného zákona. Splnením tejto výzvy nie je dotknuté právo správneho orgánu vyžiadať si ďalší podklad, v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona v súlade s ustanovením'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576140/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014635}
+LLM_tokens: {"input": 8132, "output": 3523, "total": 11655, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576140/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576140/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Žilina', 'katastralne_uzemia': [{'nazov': 'Brodno', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'D3 ŽILINA, BRODNO – KYSUCKÉ NOVÉ MESTO, lokalita D9 a D10', 'nazov_lokality_norm': 'Brodno, Žilina'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Žilina', 'katastralne_uzemia': [{'nazov': 'Brodno', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'D3 ŽILINA, BRODNO – KYSUCKÉ NOVÉ MESTO, lokalita D9 a D10', 'nazov_lokality_norm': 'Brodno, Žilina'}
+ku_name:Brodno obec:Žilina okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: zilina norm_ku: brodno
+_get_nationalCadastralZoningReferences() found_ids: {'806951'}
+nationalCadastralZoningReferences: ['806951']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+get_cadastral_zone() request duration: 1.31 s
+Server vrátil chybu 500. Opakujem pokus o 5 sekúnd... (Pokus 1/5)
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.35 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Brodno, Žilina
+get_geometry_of_a_geoname nazov_lokality: Brodno, Žilina
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilina, Žilina, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.74311 49.24932, 18.74326 49.24834...  ...  Brodno, Žilina, okres Žilina, Žilinský kraj, 0...
+1  POLYGON ((18.74311 49.24932, 18.74326 49.24834...  ...  Brodno, Žilina, okres Žilina, Žilinský kraj, 0...
+
+[2 rows x 11 columns]
+geoname_query: Brodno, Žilina, Žilina, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.76001 49.27797, 18.76011 49...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.74311 49.24932, 18.74326 49.24834...  ...  Brodno, Žilina, okres Žilina, Žilinský kraj, 0...
+1  POLYGON ((18.74311 49.24932, 18.74326 49.24834...  ...  Brodno, Žilina, okres Žilina, Žilinský kraj, 0...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576140/gis.geojson...
+Intersections with protected areas...
+Found 6 intersecting parcels with 'MCHU'.
+intersections: {'MCHU': [{'parcel_label': 'Brodno', 'NATIONALSI': '227', 'SITETITLE_': 'OP PR Brodnianka'}, {'parcel_label': 'Brodno', 'NATIONALSI': '227', 'SITETITLE_': 'PR Brodnianka'}, {'parcel_label': 'Brodno', 'NATIONALSI': '330', 'SITETITLE_': 'PP Kysucká brána'}, {'parcel_label': 'Brodno', 'NATIONALSI': '227', 'SITETITLE_': 'OP PR Brodnianka'}, {'parcel_label': 'Brodno', 'NATIONALSI': '227', 'SITETITLE_': 'PR Brodnianka'}, {'parcel_label': 'Brodno', 'NATIONALSI': '330', 'SITETITLE_': 'PP Kysucká brána'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576140/analysis.json...
+
+--- Časy spracovania dokumentu 576140 ---
+  download_and_text   :   2.28 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  16.33 s
+  gis_processing      :   7.15 s
+  CELKOVÝ ČAS         :  25.77 s
+------------------------------------------
+Dokument 576140 bol úspešne spracovaný.

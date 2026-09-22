@@ -1,0 +1,139 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2026/016011-006",
+  "cislo_rozhodnutia": "OU-KS-OSZP-2026/016011-0053180/2026",
+  "datum_dokumentu": "2026-09-18",
+  "datum_zverejnenia": "2026-09-21",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa oznámenia (doručenia) tohto rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Obec Haniska",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Haniska",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Haniska",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "934/15",
+              "934/346",
+              "934/142",
+              "934/428",
+              "934/405"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "IBV Zamajer, Haniska",
+    "nazov_lokality_norm": "Zamajer"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom zámere",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE",
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "zhotovenie vodnej stavby",
+    "rozšírenie obecného vodovodu",
+    "výrub stromov alebo krovia"
+  ],
+  "rozsah_zasahu": "vodovod dĺžky cca 1161 m (vetvy A, B, C a prepojenie) pre zásobovanie 50 rodinných domov",
+  "typ_uzemia": [
+    "ochranné pásmo vonkajšieho nadzemného elektrického vedenia",
+    "ochranné pásmo vonkajšieho podzemného elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "invázne druhy rastlín",
+    "stromy",
+    "krovie"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "26 ods. 1",
+        "61 písm. a)",
+        "26 ods. 8",
+        "26 ods. 9",
+        "73 ods. 4",
+        "73 ods. 9",
+        "26 ods. 4"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": [
+        "16",
+        "60",
+        "50",
+        "51 ods. 3",
+        "6 ods. 3",
+        "66",
+        "61 ods. 1",
+        "65 ods. 6",
+        "61 ods. 4",
+        "21 ods. 5",
+        "61 ods. 2",
+        "61 ods. 3"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "46",
+        "47",
+        "53"
+      ]
+    },
+    {
+      "nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "cislo": "442/2002 Z. z.",
+      "paragrafy": [
+        "20"
+      ]
+    },
+    {
+      "nazov": "o odpadoch",
+      "cislo": "79/2015 Z. z.",
+      "paragrafy": [
+        "13 písm. a)",
+        "13 písm. b)",
+        "14 ods. 1 písm. e)",
+        "77",
+        "99 ods. 1 písm. b)"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o povolení stavby vodovodu 'IBV Zamajer' v obci Haniska v celkovej dĺžke presahujúcej 1,1 km. Realizácia prebieha v extraviláne a v ochranných pásmach elektrických vedení, pričom v prípade nutnosti výrubu drevín je vyžadované samostatné konanie. Stavba je určená pre zásobovanie 50 plánovaných rodinných domov.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Haniska",
+          "NATIONALSI": "SKUEV0935",
+          "SITETITLE_": "Haništiansky les"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Haniska",
+          "NATIONALSI": "SKCHVU009",
+          "SITETITLE_": "Košická kotlina"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

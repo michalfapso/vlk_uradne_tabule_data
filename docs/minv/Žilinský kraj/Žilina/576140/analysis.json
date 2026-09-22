@@ -1,0 +1,129 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP3-2026/050763-008",
+  "cislo_rozhodnutia": "OU-ZA-OSZP3-2026/050763-0177434/2026",
+  "datum_dokumentu": "2026-09-22",
+  "datum_zverejnenia": null,
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Národná diaľničná spoločnosť, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": "Žilina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brodno",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "D3 ŽILINA, BRODNO – KYSUCKÉ NOVÉ MESTO, lokalita D9 a D10",
+    "nazov_lokality_norm": "Brodno, Žilina"
+  },
+  "typ_dokumentu": "Rozhodnutie o predĺžení lehoty na doplnenie podkladov",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "stínanie a odstraňovanie stromov a krov",
+    "výrub brehovej zelene",
+    "zásah do mokrade"
+  ],
+  "rozsah_zasahu": "78 ks stromov a 1300 m2 krovitého porastu",
+  "typ_uzemia": [
+    "mokraď",
+    "koryto vodného toku",
+    "pobrežný pozemok",
+    "inundačné územie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "brehová zeleň"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "23",
+        "61",
+        "73"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "6"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "26",
+        "29",
+        "32",
+        "46"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013",
+      "paragrafy": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o predĺžení lehoty na doplnenie podkladov v konaní o výrub 78 stromov a 1300 m2 krov pri výstavbe diaľnice D3. Zásah sa nachádza v korytách vodných tokov v k.ú. Brodno a zahŕňa dotknuté mokrade. Vodoprávne konanie ostáva prerušené až do konca roka 2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Brodno",
+          "NATIONALSI": "227",
+          "SITETITLE_": "OP PR Brodnianka"
+        },
+        {
+          "parcel_label": "Brodno",
+          "NATIONALSI": "227",
+          "SITETITLE_": "PR Brodnianka"
+        },
+        {
+          "parcel_label": "Brodno",
+          "NATIONALSI": "330",
+          "SITETITLE_": "PP Kysucká brána"
+        },
+        {
+          "parcel_label": "Brodno",
+          "NATIONALSI": "227",
+          "SITETITLE_": "OP PR Brodnianka"
+        },
+        {
+          "parcel_label": "Brodno",
+          "NATIONALSI": "227",
+          "SITETITLE_": "PR Brodnianka"
+        },
+        {
+          "parcel_label": "Brodno",
+          "NATIONALSI": "330",
+          "SITETITLE_": "PP Kysucká brána"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

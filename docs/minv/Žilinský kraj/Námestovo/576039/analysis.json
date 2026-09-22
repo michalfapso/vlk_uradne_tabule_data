@@ -1,0 +1,101 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2026/021893",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š. p.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lokca",
+        "parcely": []
+      },
+      {
+        "nazov": "Lomná",
+        "parcely": []
+      },
+      {
+        "nazov": "Novoť",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "vodné toky v k. ú. Lokca, Lomná, Novoť",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub brehových porastov",
+    "výrub náletových drevín"
+  ],
+  "rozsah_zasahu": "výrub v prietočnom profile korýt v období október 2026 – marec 2027",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje výrub drevín, brehových porastov a náletových drevín na vodných tokoch v katastrálnych územiach Lokca, Lomná a Novoť. Výrub sa bude realizovať v období október 2026 až marec 2027 za účelom údržby prietočného profilu korýt.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Lomná",
+          "NATIONALSI": "SKUEV0661",
+          "SITETITLE_": "Hruštínska hoľa"
+        },
+        {
+          "parcel_label": "Lomná",
+          "NATIONALSI": "SKUEV0826",
+          "SITETITLE_": "Lomnianska hoľa"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Lokca",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        },
+        {
+          "parcel_label": "Lomná",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "Lomná",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        },
+        {
+          "parcel_label": "Novoť",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

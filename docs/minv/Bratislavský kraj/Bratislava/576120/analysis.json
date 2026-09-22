@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2024-03-25",
+  "datum_zverejnenia": "2024-04-24",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Florian Residence s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava - Staré mesto",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Staré mesto",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "821871"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Školská / Fazulová ulica",
+    "nazov_lokality_norm": "Fazulová, Bratislava"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie stavebného povolenia a povolenia na osobitné užívanie vôd",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "vrtaná studňa na úžitkovú vodu",
+    "areálová dažďová kanalizácia",
+    "osobitné užívanie vôd"
+  ],
+  "rozsah_zasahu": "vrtaná studňa, dažďová kanalizácia v dĺžkach 49,80m, 67,60m a 31,60m",
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "stavebný zákon",
+      "cislo": "50/1976",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "21"
+      ]
+    },
+    {
+      "nazov": "o priestupkoch",
+      "cislo": "372/1990",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Žiadosť o stavebné povolenie pre vŕtanú studňu na úžitkovú vodu a areálovú dažďovú kanalizáciu pre projekt „Obytný súbor Fazulova“ v Bratislave. Projekt zahŕňa odbery podzemných vôd a zasakovanie dažďových vôd do terénu v zastavanej časti Starého mesta. Nejde o zásah do chráneného územia prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "GEONAME"
+  }
+}

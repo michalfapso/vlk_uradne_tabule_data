@@ -1,0 +1,86 @@
+[2026-09-22 20:48:44] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/576091'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/576091/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/576091/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/576091/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0137515}
+LLM_tokens: {"input": 5327, "output": 3696, "total": 9023, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 47 column 1 (char 1420)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0134272}
+LLM_tokens: {"input": 5327, "output": 3890, "total": 9217, "cached": 2014}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/576091/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/576091/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Bardejov', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'úsek trate Kapušany pri Prešove – Bardejov', 'nazov_lokality_norm': 'Kapušany pri Prešove – Bardejov'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Bardejov', 'obec': 'Bardejov', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'úsek trate Kapušany pri Prešove – Bardejov', 'nazov_lokality_norm': 'Kapušany pri Prešove – Bardejov'}
+Fallback to OBEC: Bardejov
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: bardejov norm_obec: bardejov norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'802077', '810886', '801712'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.37 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.74 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Kapušany pri Prešove – Bardejov
+get_geometry_of_a_geoname nazov_lokality: Kapušany pri Prešove – Bardejov
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** pri Prešove – Bardejov, Bardejov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** pri Prešove – Bardejov, Bardejov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** pri Prešove – Bardejov, Prešovský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** pri Prešove – Bardejov, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.045226, 'lon': 21.345536, 'formatted_address': 'Kapusany pri Presove, 082 12 Kapušany, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** pri Presove, 082 12 Kapušany, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.33121 49.04465, 21.33129 49.04457...  ...  Kapušany pri Prešove, 365/1, Poštová, Kapušany...
+
+[1 rows x 11 columns]
+geoname_query: Kapusany pri Presove, 082 12 Kapušany, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.31389 49.32162, 21.31398 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((21.25952 49.35098, 21.26107 49...
+2  CadastralZoning  ...  MULTIPOLYGON (((21.23945 49.35971, 21.24 49.35...
+
+[3 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.33121 49.04465, 21.33129 49.04457...  ...  Kapušany pri Prešove, 365/1, Poštová, Kapušany...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/576091/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Bardejov/576091/analysis.json...
+
+--- Časy spracovania dokumentu 576091 ---
+  download_and_text   :   1.28 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  32.19 s
+  gis_processing      :   3.85 s
+  CELKOVÝ ČAS         :  37.32 s
+------------------------------------------
+Dokument 576091 bol úspešne spracovaný.
