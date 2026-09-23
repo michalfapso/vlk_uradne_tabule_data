@@ -1,0 +1,71 @@
+[2026-09-23 20:54:12] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576241'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576241/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.000342}
+LLM_tokens: {"input": 334, "output": 836, "total": 1170, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576241/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 3' zákona '513/2009 Z. z. o dráhach.  Dôvodom výrubu je: - zaistenie bezpečnosti a plynulosti železničnej dopravy - v uvedených úsekoch sa nachádzajú nahnuté dre'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576241/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0112105}
+LLM_tokens: {"input": 5681, "output": 2790, "total": 8471, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576241/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576241/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Gelnica', 'obec': 'Margecany', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'traťový úsek ŽST Košice – ŽST Margecany, traťový úsek ŽST Margecany – ŽST Červená Skala', 'nazov_lokality_norm': 'Košice – Margecany, Margecany – Červená Skala'}
+data: {'kraj': 'Košický kraj', 'okres': 'Gelnica', 'obec': 'Margecany', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'traťový úsek ŽST Košice – ŽST Margecany, traťový úsek ŽST Margecany – ŽST Červená Skala', 'nazov_lokality_norm': 'Košice – Margecany, Margecany – Červená Skala'}
+Fallback to OBEC: Margecany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: margecany norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'836044', '836052'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Košice – Margecany, Margecany – Červená Skala
+get_geometry_of_a_geoname nazov_lokality: Košice – Margecany, Margecany – Červená Skala
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** – Margecany, Margecany – Červená Skala, Margecany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** – Margecany, Margecany – Červená Skala, Gelnica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** – Margecany, Margecany – Červená Skala, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** – Margecany, Margecany – Červená Skala, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.8927968, 'lon': 21.0140176, 'formatted_address': '055 01 Margecany, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Margecany, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.00192 48.92791, 21.00364 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((21.05782 48.90572, 21.05805 48...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576241/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Margecany', 'NATIONALSI': 'SKUEV0928', 'SITETITLE_': 'Stredný tok Hornádu'}], 'MCHU': [{'parcel_label': 'Margecany', 'NATIONALSI': '607', 'SITETITLE_': 'PP Margecianska línia'}, {'parcel_label': 'Rolova Huta', 'NATIONALSI': '510', 'SITETITLE_': 'OP NPR Bujanovská dubina'}], 'CHVU': [{'parcel_label': 'Margecany', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Rolova Huta', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576241/analysis.json...
+
+--- Časy spracovania dokumentu 576241 ---
+  download_and_text   :   5.91 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.21 s
+  gis_processing      :   2.66 s
+  CELKOVÝ ČAS         :  19.78 s
+------------------------------------------
+Dokument 576241 bol úspešne spracovaný.

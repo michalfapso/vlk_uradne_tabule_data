@@ -1,0 +1,74 @@
+[2026-09-23 20:54:32] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576240'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576240/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.026222}
+LLM_tokens: {"input": 592, "output": 65536, "total": 66128, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576240/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0411045}
+LLM_tokens: {"input": 69399, "output": 2135, "total": 71534, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576240/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576240/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Gelnica', 'obec': 'Margecany', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'úsek ŽST Kolice - ŽST Margécany', 'nazov_lokality_norm': 'Margecany'}
+data: {'kraj': 'Košický kraj', 'okres': 'Gelnica', 'obec': 'Margecany', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'úsek ŽST Kolice - ŽST Margécany', 'nazov_lokality_norm': 'Margecany'}
+Fallback to OBEC: Margecany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: margecany norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'836044', '836052'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.38 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Margecany
+get_geometry_of_a_geoname nazov_lokality: Margecany
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Margecany, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.96754 48.89232, 20.96758 48.89212...  ...  Margecany, okres Gelnica, Košický kraj, 055 01...
+
+[1 rows x 11 columns]
+geoname_query: Margecany, Margecany, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.00192 48.92791, 21.00364 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((21.05782 48.90572, 21.05805 48...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.96754 48.89232, 20.96758 48.89212...  ...  Margecany, okres Gelnica, Košický kraj, 055 01...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576240/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Margecany', 'NATIONALSI': 'SKUEV0928', 'SITETITLE_': 'Stredný tok Hornádu'}], 'MCHU': [{'parcel_label': 'Margecany', 'NATIONALSI': '607', 'SITETITLE_': 'PP Margecianska línia'}], 'CHVU': [{'parcel_label': 'Margecany', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Rolova Huta', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576240/analysis.json...
+
+--- Časy spracovania dokumentu 576240 ---
+  download_and_text   : 125.65 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.60 s
+  gis_processing      :   1.21 s
+  CELKOVÝ ČAS         : 138.47 s
+------------------------------------------
+Dokument 576240 bol úspešne spracovaný.

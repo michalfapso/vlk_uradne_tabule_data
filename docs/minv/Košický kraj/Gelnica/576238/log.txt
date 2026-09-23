@@ -1,0 +1,167 @@
+[2026-09-23 20:59:15] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576238'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576238/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0003108}
+LLM_tokens: {"input": 592, "output": 758, "total": 1350, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576238/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0114785}
+LLM_tokens: {"input": 4621, "output": 3056, "total": 7677, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576238/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576238/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Gelnica', 'obec': 'Margecany, Jaklovce, Gelnica, Helcmanovce, Švedlár', 'katastralne_uzemia': [{'nazov': 'Margécany', 'parcely': [{'typ': None, 'cisla': ['7901', '790']}]}, {'nazov': 'Jaklovce', 'parcely': [{'typ': None, 'cisla': ['3758/3', '116/3/2', '116/3', '790/4']}]}, {'nazov': 'Gelnica', 'parcely': [{'typ': None, 'cisla': ['2955', '3903', '3904']}]}, {'nazov': 'Helcmanovce', 'parcely': [{'typ': None, 'cisla': ['4838', '4886', '4895']}]}, {'nazov': 'Švedlár', 'parcely': [{'typ': None, 'cisla': ['5728', '5729', '5731/1', '250/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': '1.koľaj', 'nazov_lokality_norm': '1.koľaj'}
+data: {'kraj': 'Košický kraj', 'okres': 'Gelnica', 'obec': 'Margecany, Jaklovce, Gelnica, Helcmanovce, Švedlár', 'katastralne_uzemia': [{'nazov': 'Margécany', 'parcely': [{'typ': None, 'cisla': ['7901', '790']}]}, {'nazov': 'Jaklovce', 'parcely': [{'typ': None, 'cisla': ['3758/3', '116/3/2', '116/3', '790/4']}]}, {'nazov': 'Gelnica', 'parcely': [{'typ': None, 'cisla': ['2955', '3903', '3904']}]}, {'nazov': 'Helcmanovce', 'parcely': [{'typ': None, 'cisla': ['4838', '4886', '4895']}]}, {'nazov': 'Švedlár', 'parcely': [{'typ': None, 'cisla': ['5728', '5729', '5731/1', '250/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': '1.koľaj', 'nazov_lokality_norm': '1.koľaj'}
+ku_name:Margécany obec:Margecany, Jaklovce, Gelnica, Helcmanovce, Švedlár okres:Gelnica kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: margecany norm_ku: margecany
+_get_nationalCadastralZoningReferences() found_ids: {'836044'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: jaklovce norm_ku: margecany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: margecany
+_get_nationalCadastralZoningReferences() found_ids: {'836044'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: gelnica norm_ku: margecany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: margecany
+_get_nationalCadastralZoningReferences() found_ids: {'836044'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: helcmanovce norm_ku: margecany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: margecany
+_get_nationalCadastralZoningReferences() found_ids: {'836044'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: svedlar norm_ku: margecany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: margecany
+_get_nationalCadastralZoningReferences() found_ids: {'836044'}
+nationalCadastralZoningReferences: ['836044']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.34 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.95 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': None, 'cisla': ['7901', '790']}' v KU 'Margécany' sa nenašli dáta.
+ku_name:Jaklovce obec:Margecany, Jaklovce, Gelnica, Helcmanovce, Švedlár okres:Gelnica kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: margecany norm_ku: jaklovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: jaklovce
+_get_nationalCadastralZoningReferences() found_ids: {'821845'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: jaklovce norm_ku: jaklovce
+_get_nationalCadastralZoningReferences() found_ids: {'821845'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: gelnica norm_ku: jaklovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: jaklovce
+_get_nationalCadastralZoningReferences() found_ids: {'821845'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: helcmanovce norm_ku: jaklovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: jaklovce
+_get_nationalCadastralZoningReferences() found_ids: {'821845'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: svedlar norm_ku: jaklovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: jaklovce
+_get_nationalCadastralZoningReferences() found_ids: {'821845'}
+nationalCadastralZoningReferences: ['821845']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.60 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.29 s
+ku_name:Gelnica obec:Margecany, Jaklovce, Gelnica, Helcmanovce, Švedlár okres:Gelnica kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: margecany norm_ku: gelnica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: gelnica
+_get_nationalCadastralZoningReferences() found_ids: {'814741'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: jaklovce norm_ku: gelnica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: gelnica
+_get_nationalCadastralZoningReferences() found_ids: {'814741'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: gelnica norm_ku: gelnica
+_get_nationalCadastralZoningReferences() found_ids: {'814741'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: helcmanovce norm_ku: gelnica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: gelnica
+_get_nationalCadastralZoningReferences() found_ids: {'814741'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: svedlar norm_ku: gelnica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: gelnica
+_get_nationalCadastralZoningReferences() found_ids: {'814741'}
+nationalCadastralZoningReferences: ['814741']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.49 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.06 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+ku_name:Helcmanovce obec:Margecany, Jaklovce, Gelnica, Helcmanovce, Švedlár okres:Gelnica kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: margecany norm_ku: helcmanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: helcmanovce
+_get_nationalCadastralZoningReferences() found_ids: {'816001'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: jaklovce norm_ku: helcmanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: helcmanovce
+_get_nationalCadastralZoningReferences() found_ids: {'816001'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: gelnica norm_ku: helcmanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: helcmanovce
+_get_nationalCadastralZoningReferences() found_ids: {'816001'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: helcmanovce norm_ku: helcmanovce
+_get_nationalCadastralZoningReferences() found_ids: {'816001'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: svedlar norm_ku: helcmanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: helcmanovce
+_get_nationalCadastralZoningReferences() found_ids: {'816001'}
+nationalCadastralZoningReferences: ['816001']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.45 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.09 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+ku_name:Švedlár obec:Margecany, Jaklovce, Gelnica, Helcmanovce, Švedlár okres:Gelnica kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: margecany norm_ku: svedlar
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: svedlar
+_get_nationalCadastralZoningReferences() found_ids: {'862401'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: jaklovce norm_ku: svedlar
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: svedlar
+_get_nationalCadastralZoningReferences() found_ids: {'862401'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: gelnica norm_ku: svedlar
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: svedlar
+_get_nationalCadastralZoningReferences() found_ids: {'862401'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: helcmanovce norm_ku: svedlar
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: svedlar
+_get_nationalCadastralZoningReferences() found_ids: {'862401'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: svedlar norm_ku: svedlar
+_get_nationalCadastralZoningReferences() found_ids: {'862401'}
+nationalCadastralZoningReferences: ['862401']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.60 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.18 s
+nazov_lokality: 1.koľaj
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1404'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1404'}
+2   CadastralParcel  ...   {'@href': '#auAdmUnitS.877'}
+3   CadastralParcel  ...   {'@href': '#auAdmUnitS.877'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2362'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2362'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2362'}
+7   CadastralParcel  ...   {'@href': '#auAdmUnitS.835'}
+8   CadastralParcel  ...   {'@href': '#auAdmUnitS.835'}
+9   CadastralParcel  ...   {'@href': '#auAdmUnitS.835'}
+10  CadastralParcel  ...   {'@href': '#auAdmUnitS.835'}
+
+[11 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576238/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '5731/1', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': '5728', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': '5729', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576238/analysis.json...
+
+--- Časy spracovania dokumentu 576238 ---
+  download_and_text   :   5.88 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.10 s
+  gis_processing      :  33.43 s
+  CELKOVÝ ČAS         :  52.42 s
+------------------------------------------
+Dokument 576238 bol úspešne spracovaný.

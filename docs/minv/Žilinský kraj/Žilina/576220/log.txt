@@ -1,0 +1,65 @@
+[2026-09-23 21:06:01] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576220'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576220/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576220/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2' zákona '180/2013 Z.z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej vodnej správy podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§4' zákona '180/2013 Z.z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej vodnej správy podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z.z. o vodách a o zmene zákona SNR číslo 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona '364/2004 Z.z. o vodách a o zmene zákona SNR číslo 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'číslo 50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 69' zákona 'číslo 50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona 'stavebného zákona, nakoľko sú mu dobre známe pomery staveniska a žiadosť poskytuje dostatočný podklad pre posúdenie povolenej vodnej stavby, ktorých z'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 3' zákona 'stavebného zákona stavebný úrad upozorňuje, že známi účastníci konania a dotknuté orgány môžu svoje námietky a pripomienky uplatniť najneskôr do 7 dní'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 1' zákona 'stavebného zákona neprihliada. ____________________________________________________________________________________ Telefón +421417335688 E-mail darin'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 5' zákona 'stavebného zákona, ak dotknutý orgán potrebuje na riadne posúdenie dlhší čas, stavebný úrad na jeho žiadosť určenú lehotu pred jej uplynutím primerane'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576220/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0121355}
+LLM_tokens: {"input": 7705, "output": 2761, "total": 10466, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576220/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576220/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Žilina', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'stredisko Žilina', 'nazov_lokality_norm': 'Žilina'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Žilina', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'stredisko Žilina', 'nazov_lokality_norm': 'Žilina'}
+Fallback to OBEC: Žilina
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: zilina norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (14), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Žilina
+get_geometry_of_a_geoname nazov_lokality: Žilina
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilinský kraj, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                    display_name
+0  MULTIPOLYGON (((18.66151 49.24235, 18.66152 49...  ...  Žilina, okres Žilina, Žilinský kraj, Slovensko
+
+[1 rows x 11 columns]
+geoname_query: Žilina, Žilinský kraj, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                    display_name
+0  MULTIPOLYGON (((18.66151 49.24235, 18.66152 49...  ...  Žilina, okres Žilina, Žilinský kraj, Slovensko
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576220/gis.geojson...
+Intersections with protected areas...
+Found 5 intersecting parcels with 'MCHU'.
+intersections: {'MCHU': [{'parcel_label': 'Žilina, okres Žilina, Žilinský kraj, Slovensko', 'NATIONALSI': '227', 'SITETITLE_': 'OP PR Brodnianka'}, {'parcel_label': 'Žilina, okres Žilina, Žilinský kraj, Slovensko', 'NATIONALSI': '405', 'SITETITLE_': 'OP PR Rochovica'}, {'parcel_label': 'Žilina, okres Žilina, Žilinský kraj, Slovensko', 'NATIONALSI': '227', 'SITETITLE_': 'PR Brodnianka'}, {'parcel_label': 'Žilina, okres Žilina, Žilinský kraj, Slovensko', 'NATIONALSI': '405', 'SITETITLE_': 'PR Rochovica'}, {'parcel_label': 'Žilina, okres Žilina, Žilinský kraj, Slovensko', 'NATIONALSI': '330', 'SITETITLE_': 'PP Kysucká brána'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/576220/analysis.json...
+
+--- Časy spracovania dokumentu 576220 ---
+  download_and_text   :   2.30 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.92 s
+  gis_processing      :   1.41 s
+  CELKOVÝ ČAS         :  14.63 s
+------------------------------------------
+Dokument 576220 bol úspešne spracovaný.

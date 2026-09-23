@@ -1,0 +1,126 @@
+{
+  "cislo_konania_spisu": "0003678/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-14",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Gelnica",
+    "obec": "Margecany, Jaklovce, Gelnica, Helcmanovce, Švedlár",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Margécany",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "7901",
+              "790"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Jaklovce",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "3758/3",
+              "116/3/2",
+              "116/3",
+              "790/4"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Gelnica",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "2955",
+              "3903",
+              "3904"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Helcmanovce",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "4838",
+              "4886",
+              "4895"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Švedlár",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "5728",
+              "5729",
+              "5731/1",
+              "250/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "1.koľaj",
+    "nazov_lokality_norm": "1.koľaj"
+  },
+  "typ_dokumentu": "Zoznam plánovaných výrubov",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub krovia"
+  ],
+  "rozsah_zasahu": "výrub krovín na viacerých parcelách pozdĺž železničnej trate",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [],
+  "zhrnutie": "Oznámenie o plánovanom výrube krovín v rokoch 2026-2027 z dôvodu zlých rozhľadových pomerov a prevádzkových dôvodov. Zásah sa týka 1. koľaje a prebieha na viacerých parcelách v katastroch obcí Margecany, Jaklovce, Gelnica, Helcmanovce a Švedlár v okrese Gelnica.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "5731/1",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "5728",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "5729",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

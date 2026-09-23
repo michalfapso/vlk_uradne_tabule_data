@@ -1,0 +1,89 @@
+{
+  "cislo_konania_spisu": "OU-GL-OSZP-2026/001221",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-17",
+  "datum_zverejnenia": "2026-09-17",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Gelnica",
+    "obec": "Margecany",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "traťový úsek ŽST Košice – ŽST Margecany, traťový úsek ŽST Margecany – ŽST Červená Skala",
+    "nazov_lokality_norm": "Košice – Margecany, Margecany – Červená Skala"
+  },
+  "typ_dokumentu": "Upozornenie o doručení oznámenia o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín a krovitých porastov"
+  ],
+  "rozsah_zasahu": "po obidvoch stranách vedľa koľaje (podľa tabuľky pasportu výrubu)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82",
+        "47"
+      ]
+    },
+    {
+      "nazov": "Zákon o dráhach",
+      "cislo": "513/2009 Z. z.",
+      "paragrafy": [
+        "4"
+      ]
+    }
+  ],
+  "zhrnutie": "Železnice Slovenskej republiky oznámili plánovaný výrub drevín a krovín v traťových úsekoch Košice – Margecany a Margecany – Červená Skala z dôvodu bezpečnosti dopravy. Výrub je naplánovaný od 1. 10. 2026 do 28. 2. 2027. Orgán ochrany prírody informuje, že sa nejedná o správne konanie, do ktorého je možné sa prihlásiť ako účastník.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Margecany",
+          "NATIONALSI": "SKUEV0928",
+          "SITETITLE_": "Stredný tok Hornádu"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Margecany",
+          "NATIONALSI": "607",
+          "SITETITLE_": "PP Margecianska línia"
+        },
+        {
+          "parcel_label": "Rolova Huta",
+          "NATIONALSI": "510",
+          "SITETITLE_": "OP NPR Bujanovská dubina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Margecany",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "Rolova Huta",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

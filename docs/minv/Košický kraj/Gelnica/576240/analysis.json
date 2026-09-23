@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ŽTS TO Margécany",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Gelnica",
+    "obec": "Margecany",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "úsek ŽST Kolice - ŽST Margécany",
+    "nazov_lokality_norm": "Margecany"
+  },
+  "typ_dokumentu": "Inventarizácia drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "inventarizácia drevín",
+    "výrub stromov"
+  ],
+  "rozsah_zasahu": "plocha 132.8 ha, súpis jednotlivých stromov (priemer cca 30 cm, výška 20 m)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [],
+  "zhrnutie": "Dokument predstavuje podrobnú inventarizáciu drevín plánovanú na roky 2026 – 2027 v železničnom obvode Margecany. Súpis sa týka úseku medzi stanicami Kolice a Margecany na celkovej ploche presahujúcej 132 hektárov. Ide o technický podkladový materiál pravdepodobne slúžiaci ako príprava na budúci výrub v okolí železničnej trate.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Margecany",
+          "NATIONALSI": "SKUEV0928",
+          "SITETITLE_": "Stredný tok Hornádu"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Margecany",
+          "NATIONALSI": "607",
+          "SITETITLE_": "PP Margecianska línia"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Margecany",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "Rolova Huta",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

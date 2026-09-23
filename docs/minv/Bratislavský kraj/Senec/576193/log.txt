@@ -1,0 +1,52 @@
+[2026-09-23 20:54:03] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576193'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576193/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576193/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 57' zákona 'zák.č. 71/1967 Zb. o správnom konaní v znení neskorších predpisov, Vás informuje, že spisový materiál číslo OU- SC-OSZP-2026/004555/G-16/Ke(2025/02711'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods.2' zákona 'zák.č. 71/1967 Zb. o správnom konaní v znení neskorších predpisov, Vás informuje, že spisový materiál číslo OU- SC-OSZP-2026/004555/G-16/Ke(2025/02711'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 10' zákona 'súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'v' zákona 'súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 36 ods. 5 písm. b)' zákona '442/2002 Z.z. o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z.z. o regulácii v sieťových odvetviach v znení'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0079105}
+LLM_tokens: {"input": 6041, "output": 1630, "total": 7671, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576193/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576193/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Senec', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Senec', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+Fallback to OBEC: Senec
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'854964'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.34891 48.27853, 17.34896 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576193/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Senec', 'NATIONALSI': 'SKUEV0089', 'SITETITLE_': 'Martinský les'}], 'CHVU': [{'parcel_label': 'Senec', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576193/analysis.json...
+
+--- Časy spracovania dokumentu 576193 ---
+  download_and_text   :   1.35 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   7.16 s
+  gis_processing      :   0.47 s
+  CELKOVÝ ČAS         :   8.99 s
+------------------------------------------
+Dokument 576193 bol úspešne spracovaný.

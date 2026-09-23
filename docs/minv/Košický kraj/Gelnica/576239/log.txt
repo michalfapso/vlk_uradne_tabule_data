@@ -1,0 +1,70 @@
+[2026-09-23 20:56:51] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576239'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576239/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 3 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.026222}
+LLM_tokens: {"input": 850, "output": 65536, "total": 66386, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576239/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.041314500000000004}
+LLM_tokens: {"input": 69399, "output": 2205, "total": 71604, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576239/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576239/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Gelnica', 'obec': 'Margecany', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'úsek ZST Margocany - Červená skala', 'nazov_lokality_norm': 'Margecany - Červená skala'}
+data: {'kraj': 'Košický kraj', 'okres': 'Gelnica', 'obec': 'Margecany', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'úsek ZST Margocany - Červená skala', 'nazov_lokality_norm': 'Margecany - Červená skala'}
+Fallback to OBEC: Margecany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: margecany norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'836044', '836052'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.38 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Margecany - Červená skala
+get_geometry_of_a_geoname nazov_lokality: Margecany - Červená skala
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** - Červená skala, Margecany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** - Červená skala, Gelnica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** - Červená skala, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** - Červená skala, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.8927968, 'lon': 21.0140176, 'formatted_address': '055 01 Margecany, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Margecany, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.00192 48.92791, 21.00364 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((21.05782 48.90572, 21.05805 48...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576239/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Margecany', 'NATIONALSI': 'SKUEV0928', 'SITETITLE_': 'Stredný tok Hornádu'}], 'MCHU': [{'parcel_label': 'Margecany', 'NATIONALSI': '607', 'SITETITLE_': 'PP Margecianska línia'}, {'parcel_label': 'Rolova Huta', 'NATIONALSI': '510', 'SITETITLE_': 'OP NPR Bujanovská dubina'}], 'CHVU': [{'parcel_label': 'Margecany', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Rolova Huta', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/576239/analysis.json...
+
+--- Časy spracovania dokumentu 576239 ---
+  download_and_text   : 129.92 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.52 s
+  gis_processing      :   2.50 s
+  CELKOVÝ ČAS         : 143.94 s
+------------------------------------------
+Dokument 576239 bol úspešne spracovaný.

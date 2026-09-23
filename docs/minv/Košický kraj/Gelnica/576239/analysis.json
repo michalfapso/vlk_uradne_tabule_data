@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SMSÚ ZTS TO Margecany",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Gelnica",
+    "obec": "Margecany",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "úsek ZST Margocany - Červená skala",
+    "nazov_lokality_norm": "Margecany - Červená skala"
+  },
+  "typ_dokumentu": "Inventarizácia drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "inventarizácia drevín"
+  ],
+  "rozsah_zasahu": "na rok 2026 - 2027",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [],
+  "zhrnutie": "Dokument predstavuje inventarizáciu drevín na roky 2026-2027 v úseku železničnej trate Margecany – Červená skala. Ide o technický súpis drevín, ktorý pravdepodobne slúži ako podklad pre budúcu údržbu a výruby v ochrannom pásme železnice.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Margecany",
+          "NATIONALSI": "SKUEV0928",
+          "SITETITLE_": "Stredný tok Hornádu"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Margecany",
+          "NATIONALSI": "607",
+          "SITETITLE_": "PP Margecianska línia"
+        },
+        {
+          "parcel_label": "Rolova Huta",
+          "NATIONALSI": "510",
+          "SITETITLE_": "OP NPR Bujanovská dubina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Margecany",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "Rolova Huta",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}
