@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 15 dní odo dňa, keď bolo Oznámenie zverejnené dotknutou obcou"
+  },
+  "ziadatel_navrhovatel": "Obec Kočovce",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Kočovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kočovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Beckov",
+        "parcely": []
+      },
+      {
+        "nazov": "Kálnica",
+        "parcely": []
+      },
+      {
+        "nazov": "Nové Mesto nad Váhom",
+        "parcely": []
+      },
+      {
+        "nazov": "Nová Ves nad Váhom",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Obec Kočovce",
+    "nazov_lokality_norm": "Kočovce"
+  },
+  "typ_dokumentu": "Oznámenie o strategickom dokumente",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "Územný plán obce Kočovce",
+    "strategický dokument"
+  ],
+  "rozsah_zasahu": "katastrálne územie obce",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/uzemny-plan-obce-kocovce",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "4",
+        "5",
+        "6",
+        "63"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o strategickom dokumente 'Územný plán obce Kočovce' v procese posudzovania vplyvov na životné prostredie (SEA). Verejnosť môže predkladať stanoviská do 15 dní od zverejnenia oznámenia v dotknutej obci. Dokument sa týka rozvoja územia obce Kočovce a susediacich katastrálnych území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

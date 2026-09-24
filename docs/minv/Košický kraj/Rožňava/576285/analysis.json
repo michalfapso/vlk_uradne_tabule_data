@@ -1,0 +1,126 @@
+{
+  "cislo_konania_spisu": "OU-RV-OSZP-2026/011652-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-24",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "eustream",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Rožňava",
+    "obec": "Ardovo, Silická Brezová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ardovo",
+        "parcely": []
+      },
+      {
+        "nazov": "Silická Brezová",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "pásmo plynovodov",
+    "nazov_lokality_norm": "plynovod"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania o vydaní súhlasu na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "vyčistenie bezpečnostného pásma plynovodov"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "ochranné pásmo plynovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47",
+        "81",
+        "82"
+      ]
+    }
+  ],
+  "zhrnutie": "Spoločnosť eustream oznámila plánovaný výrub drevín za účelom vyčistenia bezpečnostného pásma plynovodov v katastroch obcí Ardovo a Silická Brezová. Práce majú prebiehať v novembri a decembri 2026. Účasť verejnosti v tomto konaní je podľa citovaných ustanovení zákona o ochrane prírody vylúčená.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Silická Brezová",
+          "NATIONALSI": "SKUEV4000",
+          "SITETITLE_": "Silickobrezovské lúky"
+        },
+        {
+          "parcel_label": "Silická Brezová",
+          "NATIONALSI": "SKUEV0922",
+          "SITETITLE_": "Bubeník"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Ardovo",
+          "NATIONALSI": "493",
+          "SITETITLE_": "NPP Ardovská jaskyňa"
+        },
+        {
+          "parcel_label": "Silická Brezová",
+          "NATIONALSI": "569",
+          "SITETITLE_": "NPP Milada"
+        },
+        {
+          "parcel_label": "Silická Brezová",
+          "NATIONALSI": "569",
+          "SITETITLE_": "OP NPP Milada"
+        },
+        {
+          "parcel_label": "Silická Brezová",
+          "NATIONALSI": "669",
+          "SITETITLE_": "NPP Silická ľadnica"
+        },
+        {
+          "parcel_label": "Silická Brezová",
+          "NATIONALSI": "536",
+          "SITETITLE_": "OP NPP Gombasecká jaskyňa"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Ardovo",
+          "NATIONALSI": "SKCHVU027",
+          "SITETITLE_": "Slovenský kras"
+        },
+        {
+          "parcel_label": "Silická Brezová",
+          "NATIONALSI": "SKCHVU027",
+          "SITETITLE_": "Slovenský kras"
+        }
+      ],
+      "UNESCO": [
+        {
+          "parcel_label": "Ardovo",
+          "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
+          "Kod_chrane": "UN01"
+        },
+        {
+          "parcel_label": "Silická Brezová",
+          "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
+          "Kod_chrane": "UN01"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

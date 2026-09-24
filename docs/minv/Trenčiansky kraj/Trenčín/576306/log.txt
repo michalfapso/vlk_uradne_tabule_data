@@ -1,0 +1,67 @@
+[2026-09-24 21:02:40] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576306'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576306/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576306/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1' zákona 'číslo 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'číslo 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'číslo 364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady číslo 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'číslo 50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona začatie konania o povolení zmeny predmetnej vodnej stavby pred jej dokončením podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona 'stavebného zákona účastníkom konania a dotknutým orgánom a zároveň vyzýva účastníkov konania a dotknuté orgány podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods.2' zákona 'od ústneho pojednávania a miestneho zisťovania. Účastníci konania môžu podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'stavebného zákona uplatniť svoje námietky a pripomienky k vodoprávnemu konaniu najneskôr do 8 pracovných dní odo dňa doručenia tohto oznámenia na Okre'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona, sa začatie konania oznamuje verejnou vyhláškou'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576306/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014146500000000001}
+LLM_tokens: {"input": 7899, "output": 3399, "total": 11298, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576306/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576306/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Mníchova Lehota', 'katastralne_uzemia': [{'nazov': 'Mníchova Lehota', 'parcely': [{'typ': 'C', 'cisla': ['2760', '2761', '3877', '1438/1', '1439', '1407/1', '1440', '1441', '1435', '544', '1442/1', '1414', '1337/8', '1452/1', '3838', '1427/1', '1229/7', '1229/14', '1229/3', '1431', '1437/1', '1436/1', '1433/2', '1433/6', '1408/2', '1409/5', '1409/1', '57/2', '1422', '7/6', '7/5', '7/2', '10/1', '10/2', '11', '13', '16', '21/2', '22/1', '25', '27', '30/2', '628/1', '1519/2', '1417', '1416/3', '2771', '2766', '2765', '2764', '2763', '3884', '2790/1', '2790/2', '3882', '3894', '2791/2', '3881', '3880', '3878', '138', '157', '1426/1', '1430']}, {'typ': 'E', 'cisla': ['5', '138/1', '139/1', '140/1', '141/1', '1389']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Kanalizácia obce Mníchova Lehota', 'nazov_lokality_norm': 'Mníchova Lehota'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Mníchova Lehota', 'katastralne_uzemia': [{'nazov': 'Mníchova Lehota', 'parcely': [{'typ': 'C', 'cisla': ['2760', '2761', '3877', '1438/1', '1439', '1407/1', '1440', '1441', '1435', '544', '1442/1', '1414', '1337/8', '1452/1', '3838', '1427/1', '1229/7', '1229/14', '1229/3', '1431', '1437/1', '1436/1', '1433/2', '1433/6', '1408/2', '1409/5', '1409/1', '57/2', '1422', '7/6', '7/5', '7/2', '10/1', '10/2', '11', '13', '16', '21/2', '22/1', '25', '27', '30/2', '628/1', '1519/2', '1417', '1416/3', '2771', '2766', '2765', '2764', '2763', '3884', '2790/1', '2790/2', '3882', '3894', '2791/2', '3881', '3880', '3878', '138', '157', '1426/1', '1430']}, {'typ': 'E', 'cisla': ['5', '138/1', '139/1', '140/1', '141/1', '1389']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Kanalizácia obce Mníchova Lehota', 'nazov_lokality_norm': 'Mníchova Lehota'}
+ku_name:Mníchova Lehota obec:Mníchova Lehota okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: mnichova lehota norm_ku: mnichova lehota
+_get_nationalCadastralZoningReferences() found_ids: {'837873'}
+nationalCadastralZoningReferences: ['837873']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.58 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.28 s
+nazov_lokality: Mníchova Lehota
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1589'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1589'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1589'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1589'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1589'}
+..              ...  ...                            ...
+63  CadastralParcel  ...  {'@href': '#auAdmUnitS.1589'}
+64  CadastralParcel  ...  {'@href': '#auAdmUnitS.1589'}
+65  CadastralParcel  ...  {'@href': '#auAdmUnitS.1589'}
+66  CadastralParcel  ...  {'@href': '#auAdmUnitS.1589'}
+67  CadastralParcel  ...  {'@href': '#auAdmUnitS.1589'}
+
+[68 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576306/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576306/analysis.json...
+
+--- Časy spracovania dokumentu 576306 ---
+  download_and_text   :   0.71 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.44 s
+  gis_processing      :   7.10 s
+  CELKOVÝ ČAS         :  21.25 s
+------------------------------------------
+Dokument 576306 bol úspešne spracovaný.

@@ -1,0 +1,97 @@
+[2026-09-24 21:02:07] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Vranov nad Topľou/576290'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Vranov nad Topľou/576290/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Vranov nad Topľou/576290/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013372499999999999}
+LLM_tokens: {"input": 6993, "output": 3292, "total": 10285, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Vranov nad Topľou/576290/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Vranov nad Topľou/576290/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Vranov nad Topľou', 'obec': 'Vranov nad Topľou', 'katastralne_uzemia': [{'nazov': 'Vranov nad Topľou', 'parcely': []}, {'nazov': 'Soľ', 'parcely': []}, {'nazov': 'Hanušovce nad Topľou', 'parcely': []}, {'nazov': 'Lipníky', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'úsek trate Strážske - Prešov (Vranov nad Topľou - Soľ, Hanušovce nad Topľou - Lipníky)', 'nazov_lokality_norm': 'Vranov nad Topľou'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Vranov nad Topľou', 'obec': 'Vranov nad Topľou', 'katastralne_uzemia': [{'nazov': 'Vranov nad Topľou', 'parcely': []}, {'nazov': 'Soľ', 'parcely': []}, {'nazov': 'Hanušovce nad Topľou', 'parcely': []}, {'nazov': 'Lipníky', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'úsek trate Strážske - Prešov (Vranov nad Topľou - Soľ, Hanušovce nad Topľou - Lipníky)', 'nazov_lokality_norm': 'Vranov nad Topľou'}
+ku_name:Vranov nad Topľou obec:Vranov nad Topľou okres:Vranov nad Topľou kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: vranov nad toplou norm_obec: vranov nad toplou norm_ku: vranov nad toplou
+_get_nationalCadastralZoningReferences() found_ids: {'870315'}
+nationalCadastralZoningReferences: ['870315']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Soľ obec:Vranov nad Topľou okres:Vranov nad Topľou kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: vranov nad toplou norm_obec: vranov nad toplou norm_ku: sol
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: vranov nad toplou norm_obec: None norm_ku: sol
+_get_nationalCadastralZoningReferences() found_ids: {'857271'}
+nationalCadastralZoningReferences: ['857271']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.22 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Hanušovce nad Topľou obec:Vranov nad Topľou okres:Vranov nad Topľou kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: vranov nad toplou norm_obec: vranov nad toplou norm_ku: hanusovce nad toplou
+Fuzzy match found: 'Hanušovce nad Topľou' -> 'Vranov nad Topľou' (ID: 870315)
+nationalCadastralZoningReferences: ['870315']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.22 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Lipníky obec:Vranov nad Topľou okres:Vranov nad Topľou kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: vranov nad toplou norm_obec: vranov nad toplou norm_ku: lipniky
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: vranov nad toplou norm_obec: None norm_ku: lipniky
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: None norm_obec: None norm_ku: lipniky
+_get_nationalCadastralZoningReferences() found_ids: {'860468'}
+nationalCadastralZoningReferences: ['860468']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.19 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Vranov nad Topľou
+get_geometry_of_a_geoname nazov_lokality: Vranov nad Topľou
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** nad Topľou, Vranov nad Topľou, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** nad Topľou, Vranov nad Topľou, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** nad Topľou, Prešovský kraj, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.63821 48.88107, 21.64018 48.87797...  ...  Vranov nad Topľou, okres Vranov nad Topľou, Pr...
+
+[1 rows x 11 columns]
+geoname_query: Vranov nad Topľou, Prešovský kraj, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.69168 48.91912, 21.6921 48....
+1  CadastralZoning  ...  MULTIPOLYGON (((21.59561 48.9434, 21.59676 48....
+2  CadastralZoning  ...  MULTIPOLYGON (((21.69168 48.91912, 21.6921 48....
+3  CadastralZoning  ...  MULTIPOLYGON (((21.41116 49.05938, 21.41177 49...
+
+[4 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.63821 48.88107, 21.64018 48.87797...  ...  Vranov nad Topľou, okres Vranov nad Topľou, Pr...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Vranov nad Topľou/576290/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Vranov nad Topľou/576290/analysis.json...
+
+--- Časy spracovania dokumentu 576290 ---
+  download_and_text   :   1.63 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.87 s
+  gis_processing      :   2.13 s
+  CELKOVÝ ČAS         :  18.64 s
+------------------------------------------
+Dokument 576290 bol úspešne spracovaný.

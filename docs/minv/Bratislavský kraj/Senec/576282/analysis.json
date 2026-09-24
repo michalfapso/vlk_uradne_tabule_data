@@ -1,0 +1,108 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2026/026255-013",
+  "cislo_rozhodnutia": "OU-SC-OSZP-2026/026255-0062468/2026",
+  "datum_dokumentu": "2026-09-24",
+  "datum_zverejnenia": "2026-09-24",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Obec Tureň",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Senec",
+    "obec": "Tureň",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tureň",
+        "parcely": []
+      },
+      {
+        "nazov": "Zonc",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Obec Tureň, katastrálne územia Tureň a Zonc",
+    "nazov_lokality_norm": "Tureň"
+  },
+  "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania strategického dokumentu",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "VYSTAVBA_V_PRIRODE",
+    "INZINIERSKE_SIETE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zmena funkčného využitia územia",
+    "výstavba čistiarne odpadových vôd",
+    "výstavba zberného dvora",
+    "výstavba rodinných domov",
+    "výstavba obslužných ciest",
+    "aktualizácia odkanalizovania"
+  ],
+  "rozsah_zasahu": "ČOV (0,48 ha), zberný dvor (0,17 ha), rodinné domy (cca 0,5 ha), obslužná cesta (630 m)",
+  "typ_uzemia": [
+    "Chránená vodohospodárska oblasť Žitný ostrov",
+    "CHVO",
+    "biokoridor nadregionálneho významu Malý Dunaj",
+    "biokoridor regionálneho významu Čierna voda",
+    "ochranné pásmo vodného toku",
+    "inundačné územie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "ichtyofauna",
+    "bentická fauna",
+    "pôvodné dreviny",
+    "invázne druhy rastlín"
+  ],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/zmeny-doplnky-c-4-upn-o-turen-",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "7",
+        "5"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "48",
+        "49"
+      ]
+    },
+    {
+      "nazov": "o chránených oblastiach prirodzenej akumulácie vôd",
+      "cislo": "305/2018",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o tom, že zmeny územného plánu obce Tureň sa nebudú ďalej posudzovať (SEA). Navrhované zmeny zahŕňajú výstavbu čistiarne odpadových vôd a zberného dvora na plochách ornej pôdy a krajinnej zelene, ako aj rozšírenie obytných zón a výstavbu ciest. Územie zasahuje do CHVO Žitný ostrov a nachádza sa v blízkosti významných biokoridorov riek Malý Dunaj a Čierna voda.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Tureň",
+          "NATIONALSI": "SKUEV0822",
+          "SITETITLE_": "Malý Dunaj"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

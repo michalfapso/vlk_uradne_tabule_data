@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZPV-2026/005647",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-06-25",
+  "datum_zverejnenia": "2026-09-22",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Parkovací dom BB, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Banská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Banská Bystrica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2590/67",
+              "2590/13"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Parkovací dom, parcela č. 2590/67 Banská Bystrica",
+    "nazov_lokality_norm": "Parkovací dom, Banská Bystrica"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie povolenia na uskutočnenie vodnej stavby",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "prípojka splaškovej kanalizácie",
+    "prípojka dažďovej kanalizácie",
+    "preložka splaškovej kanalizácie",
+    "odlučovač ropných látok"
+  ],
+  "rozsah_zasahu": "Prípojky pre parkovací dom s kapacitou 412 parkovacích miest",
+  "typ_uzemia": [
+    "nechránené"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/ia/detail/parkovaci-dom-parcela-c-2590-67-banska-bystrica",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "38"
+      ]
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "26"
+      ]
+    }
+  ],
+  "zhrnutie": "Stavebník žiada o povolenie na uskutočnenie vodnej stavby zahŕňajúcej kanalizačné prípojky a odlučovač ropných látok pre nový parkovací dom v Banskej Bystrici. Realizácia prebehne v zastavanom území na parcelách 2590/67 a 2590/13. Projekt sa nenachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

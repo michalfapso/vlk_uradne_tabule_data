@@ -1,0 +1,83 @@
+[2026-09-24 21:00:57] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/576285'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/576285/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0002768}
+LLM_tokens: {"input": 334, "output": 673, "total": 1007, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/576285/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 8' zákona 'v spojení s'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/576285/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010821999999999998}
+LLM_tokens: {"input": 5840, "output": 2634, "total": 8474, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/576285/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/576285/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Ardovo, Silická Brezová', 'katastralne_uzemia': [{'nazov': 'Ardovo', 'parcely': []}, {'nazov': 'Silická Brezová', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pásmo plynovodov', 'nazov_lokality_norm': 'plynovod'}
+data: {'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Ardovo, Silická Brezová', 'katastralne_uzemia': [{'nazov': 'Ardovo', 'parcely': []}, {'nazov': 'Silická Brezová', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pásmo plynovodov', 'nazov_lokality_norm': 'plynovod'}
+ku_name:Ardovo obec:Ardovo, Silická Brezová okres:Rožňava kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: roznava norm_obec: ardovo norm_ku: ardovo
+_get_nationalCadastralZoningReferences() found_ids: {'800252'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: roznava norm_obec: silicka brezova norm_ku: ardovo
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: roznava norm_obec: None norm_ku: ardovo
+_get_nationalCadastralZoningReferences() found_ids: {'800252'}
+nationalCadastralZoningReferences: ['800252']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Silická Brezová obec:Ardovo, Silická Brezová okres:Rožňava kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: roznava norm_obec: ardovo norm_ku: silicka brezova
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: roznava norm_obec: None norm_ku: silicka brezova
+_get_nationalCadastralZoningReferences() found_ids: {'855502'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: roznava norm_obec: silicka brezova norm_ku: silicka brezova
+_get_nationalCadastralZoningReferences() found_ids: {'855502'}
+nationalCadastralZoningReferences: ['855502']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: plynovod
+get_geometry_of_a_geoname nazov_lokality: plynovod
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ardovo, Silická Brezová, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Rožňava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.5328567, 'lon': 20.4189869, 'formatted_address': '049 55 Ardovo, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 55 Ardovo, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.45577 48.5392, 20.45681 48....
+1  CadastralZoning  ...  MULTIPOLYGON (((20.48426 48.55719, 20.48525 48...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/576285/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 5 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+Found 2 intersecting parcels with 'UNESCO'.
+intersections: {'UEV': [{'parcel_label': 'Silická Brezová', 'NATIONALSI': 'SKUEV4000', 'SITETITLE_': 'Silickobrezovské lúky'}, {'parcel_label': 'Silická Brezová', 'NATIONALSI': 'SKUEV0922', 'SITETITLE_': 'Bubeník'}], 'MCHU': [{'parcel_label': 'Ardovo', 'NATIONALSI': '493', 'SITETITLE_': 'NPP Ardovská jaskyňa'}, {'parcel_label': 'Silická Brezová', 'NATIONALSI': '569', 'SITETITLE_': 'NPP Milada'}, {'parcel_label': 'Silická Brezová', 'NATIONALSI': '569', 'SITETITLE_': 'OP NPP Milada'}, {'parcel_label': 'Silická Brezová', 'NATIONALSI': '669', 'SITETITLE_': 'NPP Silická ľadnica'}, {'parcel_label': 'Silická Brezová', 'NATIONALSI': '536', 'SITETITLE_': 'OP NPP Gombasecká jaskyňa'}], 'CHVU': [{'parcel_label': 'Ardovo', 'NATIONALSI': 'SKCHVU027', 'SITETITLE_': 'Slovenský kras'}, {'parcel_label': 'Silická Brezová', 'NATIONALSI': 'SKCHVU027', 'SITETITLE_': 'Slovenský kras'}], 'UNESCO': [{'parcel_label': 'Ardovo', 'Nazov_chra': 'Jaskyne Slovenského a Aggteleckého krasu', 'Kod_chrane': 'UN01'}, {'parcel_label': 'Silická Brezová', 'Nazov_chra': 'Jaskyne Slovenského a Aggteleckého krasu', 'Kod_chrane': 'UN01'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/576285/analysis.json...
+
+--- Časy spracovania dokumentu 576285 ---
+  download_and_text   :   4.48 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.38 s
+  gis_processing      :   2.88 s
+  CELKOVÝ ČAS         :  18.75 s
+------------------------------------------
+Dokument 576285 bol úspešne spracovaný.

@@ -1,0 +1,63 @@
+[2026-09-24 20:58:56] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576278'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576278/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576278/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 1)' zákona 'môže písomne oznámiť svoj záujem byť zúčastnenou osobou v začatom správnom konaní, pričom uvedie názov združenia,  sídlo, identifikačné číslo organizá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 odsek 3' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '6' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576278/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0074417500000000004}
+LLM_tokens: {"input": 5465, "output": 1872, "total": 7337, "cached": 2015}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576278/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576278/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Ivanka pri Dunaji', 'katastralne_uzemia': [{'nazov': 'Ivanka pri Dunaji', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ľavý breh vodného toku Malý Dunaj v rkm 111', 'nazov_lokality_norm': 'Malý Dunaj'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Ivanka pri Dunaji', 'katastralne_uzemia': [{'nazov': 'Ivanka pri Dunaji', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ľavý breh vodného toku Malý Dunaj v rkm 111', 'nazov_lokality_norm': 'Malý Dunaj'}
+ku_name:Ivanka pri Dunaji obec:Ivanka pri Dunaji okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: ivanka pri dunaji norm_ku: ivanka pri dunaji
+_get_nationalCadastralZoningReferences() found_ids: {'821446'}
+nationalCadastralZoningReferences: ['821446']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Malý Dunaj
+get_geometry_of_a_geoname nazov_lokality: Malý Dunaj
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Dunaj, Ivanka pri Dunaji, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Dunaj, Senec, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Dunaj, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Dunaj, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.1897372, 'lon': 17.2557153, 'formatted_address': '900 28 Ivanka pri Dunaji, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 28 Ivanka pri Dunaji, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.25718 48.20876, 17.25795 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576278/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': 'Ivanka pri Dunaji', 'NATIONALSI': 'SKUEV0822', 'SITETITLE_': 'Malý Dunaj'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/576278/analysis.json...
+
+--- Časy spracovania dokumentu 576278 ---
+  download_and_text   :   0.95 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   8.81 s
+  gis_processing      :   2.87 s
+  CELKOVÝ ČAS         :  12.64 s
+------------------------------------------
+Dokument 576278 bol úspešne spracovaný.
