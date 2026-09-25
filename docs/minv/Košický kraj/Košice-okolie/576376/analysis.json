@@ -1,0 +1,118 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2026/019590-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-25",
+  "datum_zverejnenia": "2026-09-25",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "TOPPRO, s.r.o. (poverená spoločnosťou SPP – distribúcia, a.s.)",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Nižný Čaj, Svinica, Bohdanovce, Ruskov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Nižný Čaj",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "216",
+              "220/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Svinica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1108/2"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Bohdanovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "603",
+              "659/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Ruskov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1098",
+              "1091/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo plynovodov",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub stromov a krovia",
+    "odstraňovanie náletových drevín"
+  ],
+  "rozsah_zasahu": "17 ks osika, 11 ks vŕba, 10 ks lieska, 3 ks topoľ a krovité porasty 3 560 m²",
+  "typ_uzemia": [
+    "ochranné pásmo plynovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "osika",
+    "vŕba",
+    "lieska",
+    "topoľ"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 7",
+        "47 ods. 3"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube 41 kusov stromov a krovitých porastov na ploche 3 560 m² v katastrálnych územiach Nižný Čaj, Svinica, Bohdanovce a Ruskov. Výrub je odôvodnený bezpečnosťou prevádzky plynovodov v ich ochrannom pásme. Realizácia výrubu je plánovaná do konca februára 2027.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "603",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

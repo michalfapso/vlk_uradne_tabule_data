@@ -1,0 +1,52 @@
+[2026-09-25 20:57:33] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576385'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576385/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576385/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'tretia veta zákona č. 543/2002 Z. z. o ochrane  prírody a krajiny v znení neskorších predpisov na internetovú stránku Okresného úradu  Šaľa        Okr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'tretia veta zákona  č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 49 ods. 1 písm. b)' zákona '364/2004 Z.z. o vodách v znení neskorších predpisov, kde správca vodného toku je oprávnený v  záujme starostlivosti o vodnú stavbu a jej ochranné pásm'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576385/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010689500000000001}
+LLM_tokens: {"input": 5947, "output": 2572, "total": 8519, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Expecting ',' delimiter: line 65 column 3 (char 1823)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0102524}
+LLM_tokens: {"input": 5947, "output": 2729, "total": 8676, "cached": 2018}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576385/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576385/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Šaľa', 'obec': 'Hájske', 'katastralne_uzemia': [{'nazov': 'Hájske', 'parcely': [{'typ': 'E', 'cisla': ['432']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'koryto Hájskeho kanála', 'nazov_lokality_norm': 'Hájsky kanál'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Šaľa', 'obec': 'Hájske', 'katastralne_uzemia': [{'nazov': 'Hájske', 'parcely': [{'typ': 'E', 'cisla': ['432']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'koryto Hájskeho kanála', 'nazov_lokality_norm': 'Hájsky kanál'}
+ku_name:Hájske obec:Hájske okres:Šaľa kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: sala norm_obec: hajske norm_ku: hajske
+_get_nationalCadastralZoningReferences() found_ids: {'815446'}
+nationalCadastralZoningReferences: ['815446']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.69 s
+nazov_lokality: Hájsky kanál
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.381'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576385/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576385/analysis.json...
+
+--- Časy spracovania dokumentu 576385 ---
+  download_and_text   :   1.84 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  20.08 s
+  gis_processing      :   2.81 s
+  CELKOVÝ ČAS         :  24.73 s
+------------------------------------------
+Dokument 576385 bol úspešne spracovaný.

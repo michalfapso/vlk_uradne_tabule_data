@@ -1,0 +1,63 @@
+[2026-09-25 21:01:26] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/576325'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/576325/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 4 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0012963999999999999}
+LLM_tokens: {"input": 1108, "output": 3222, "total": 4330, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/576325/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67' zákona '59/2015 Z. z. o odpadoch a s týmto doplnením niektorých ustanovení v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'o odpadoch. Vozidlo bolo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'o odpadoch. Vozidlo bolo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'o odpadoch. Vozidlo bolo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'o odpadoch. Vozidlo bolo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'o odpadoch. Vozidlo bolo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'o odpadoch. Vozidlo bolo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'o odpadoch. Vozidlo bolo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'o odpadoch. Vozidlo bolo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'o odpadoch. Vozidlo bolo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23' zákona 'správneho úradného konania majú právo nazerať do spisu, dostať kópiu spisu alebo dostať informáciu zo spisu.  Nahliadnuť do spisu je možné na Okresnom'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66 ods. 5' zákona 'o odpadoch prevádzkovateľovi verejného parkoviska a tento ho povinný ďalej s ním nakladať v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 63 ods. 1' zákona 'o odpadoch, teda bezodkladne zabezpečiť odovzdanie starého vozidla osobe vykonávajúcej zber starých vozidiel alebo spracovateľovi starých vozidiel.  V'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 10' zákona 'bude zverejnené po dobu 30 dní na úradnej tabuli Mesta Senica, úradnej tabuli správneho orgánu, na webovom sídle správneho orgánu a na centrálnej úrad'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/576325/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0162995}
+LLM_tokens: {"input": 7273, "output": 4221, "total": 11494, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/576325/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/576325/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Senica', 'obec': 'Senica', 'katastralne_uzemia': [{'nazov': 'Senica', 'parcely': [{'typ': 'C', 'cisla': ['14105/75']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Senica', 'obec': 'Senica', 'katastralne_uzemia': [{'nazov': 'Senica', 'parcely': [{'typ': 'C', 'cisla': ['14105/75']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Senica obec:Senica okres:Senica kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: senica norm_obec: senica norm_ku: senica
+_get_nationalCadastralZoningReferences() found_ids: {'855006'}
+nationalCadastralZoningReferences: ['855006']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.15 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1856'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/576325/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Senica/576325/analysis.json...
+
+--- Časy spracovania dokumentu 576325 ---
+  download_and_text   :  12.56 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  17.92 s
+  gis_processing      :   3.36 s
+  CELKOVÝ ČAS         :  33.84 s
+------------------------------------------
+Dokument 576325 bol úspešne spracovaný.

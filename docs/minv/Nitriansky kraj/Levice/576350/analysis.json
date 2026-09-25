@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2026/023032",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-25",
+  "datum_zverejnenia": "2026-09-25",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Malé Krškany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Malé Krškany",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82",
+        "47",
+        "2"
+      ]
+    },
+    {
+      "nazov": "správny poriadok",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub drevín rastúcich mimo zastavaného územia v k.ú. Malé Krškany. Verejnosť môže potvrdiť svoj záujem byť účastníkom konania do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Malé Krškany",
+          "NATIONALSI": "SKUEV0870",
+          "SITETITLE_": "Horšianska dolina"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Malé Krškany",
+          "NATIONALSI": "49",
+          "SITETITLE_": "NPR Horšianska dolina"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

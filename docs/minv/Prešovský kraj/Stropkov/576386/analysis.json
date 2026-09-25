@@ -1,0 +1,88 @@
+{
+  "cislo_konania_spisu": "0016112/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-21",
+  "datum_zverejnenia": "2026-09-25",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Hydromeliorácie, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Stropkov",
+    "obec": "Šandal",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Šandal",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1914"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "kanál Pod horou",
+    "nazov_lokality_norm": "Pod horou"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube drevín a odstránení krovín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie krovitých porastov",
+    "údržba odvodňovacieho kanála"
+  ],
+  "rozsah_zasahu": "8 ks drevín (vŕba, čerešňa) s obvodom nad 90 cm, nálety a kroviny na ploche 900 m2",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "jabloň",
+    "vŕba",
+    "dub",
+    "čerešňa",
+    "javor",
+    "pagaštan",
+    "trnka",
+    "šípka",
+    "lieska"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "52",
+        "53"
+      ]
+    },
+    {
+      "nazov": "ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "cislo": "170/2021",
+      "paragrafy": [
+        "22"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube 8 ks stromov a krovín na ploche 900 m2 v obci Šandal. Zásah je odôvodnený údržbou odvodňovacieho kanála 'Pod horou' správcom Hydromeliorácie, š.p., z dôvodu ohrozenia intravilánu obce.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

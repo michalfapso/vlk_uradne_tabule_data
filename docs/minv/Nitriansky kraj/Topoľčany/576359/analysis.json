@@ -1,0 +1,91 @@
+{
+  "cislo_konania_spisu": "OU-TO-OSZP-2026/012422",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-25",
+  "datum_zverejnenia": "2026-09-25",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní (vrátane) od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Topoľčany",
+    "obec": "Prašice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prašice",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47",
+        "82",
+        "15a"
+      ]
+    },
+    {
+      "nazov": "zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19",
+        "15a"
+      ]
+    },
+    {
+      "nazov": "zákon o združovaní občanov",
+      "cislo": "83/1990 Zb.",
+      "paragrafy": [
+        "6"
+      ]
+    },
+    {
+      "nazov": "Občiansky zákonník",
+      "cislo": "40/1964 Zb.",
+      "paragrafy": [
+        "20h"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o výrub drevín v extraviláne obce Prašice. Žiadosť podala fyzická osoba a verejnosť má lehotu 5 pracovných dní na potvrdenie záujmu byť účastníkom konania. Z dokumentu nie je zrejmý presný počet drevín ani to, či lokalita spadá pod konkrétne chránené územie.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Prašice",
+          "NATIONALSI": "SKUEV0880",
+          "SITETITLE_": "Prašická dubina"
+        },
+        {
+          "parcel_label": "Prašice",
+          "NATIONALSI": "SKUEV0134",
+          "SITETITLE_": "Kulháň"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

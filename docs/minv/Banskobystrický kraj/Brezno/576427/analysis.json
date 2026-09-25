@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-09-28",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Miroslav Porubský",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Horná Lehota",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horná Lehota",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2970"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "k.ú. Horná Lehota",
+    "nazov_lokality_norm": "Horná Lehota"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "82"
+      ]
+    },
+    {
+      "nazov": "zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "19"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť Miroslava Porubského o vydanie súhlasu na výrub drevín v obci Horná Lehota na parcele KN C 2970. Správne konanie sa začalo 28.09.2026 a verejnosť má 5 pracovných dní na vyjadrenie záujmu o účasť v konaní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}
