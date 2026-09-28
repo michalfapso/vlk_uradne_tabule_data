@@ -1,0 +1,99 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-22",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "VELE spol. s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Púchov",
+    "obec": "Beluša",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Beluša",
+        "parcely": []
+      },
+      {
+        "nazov": "Visolaje",
+        "parcely": []
+      },
+      {
+        "nazov": "Belušské Slatiny",
+        "parcely": []
+      },
+      {
+        "nazov": "Hloža Podhorie",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "VN linka č.200 v ochrannom pásme 22 kV vedenia",
+    "nazov_lokality_norm": "VN linka 200"
+  },
+  "typ_dokumentu": "Oznámenie o výrube porastov",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub porastov v ochrannom pásme 22 kV vedenia"
+  ],
+  "rozsah_zasahu": "VN linka č. 200 v 4 katastrálnych územiach",
+  "typ_uzemia": [
+    "ochranné pásmo 22 kV vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube porastov v ochrannom pásme 22 kV elektrického vedenia (linka č. 200) v katastroch obcí Beluša a Visolaje. Výrub je plánovaný v období november 2026 až február 2027 z dôvodu údržby energetických sietí. Zásah sa realizuje v ochrannom pásme inžinierskych sietí.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Beluša",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Hloža-Podhorie",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Beluša",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Hloža-Podhorie",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZV-1/2026/01/217-006",
+  "cislo_rozhodnutia": "OU-TN-OSZV-1/2026/01/217-006",
+  "datum_dokumentu": "2026-09-18",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ekorem s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Moravské Lieskové",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Moravské Lieskové",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "CHKO Biele Karpaty, UEV Holubyho kopanice, pod elektrickým vedením VN 1032 a NN",
+    "nazov_lokality_norm": "Holubyho kopanice"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub v ochrannom pásme",
+    "orezy korún stromov",
+    "odstraňovanie náletových porastov",
+    "obnova ochranného pásma"
+  ],
+  "rozsah_zasahu": "v ochrannom pásme pod elektrickým vedením VN 1032 a NN",
+  "typ_uzemia": [
+    "CHKO Biele Karpaty",
+    "Územie európskeho významu",
+    "Holubyho kopanice"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "541/2004",
+      "paragrafy": [
+        "37 c",
+        "37 d"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "43"
+      ]
+    },
+    {
+      "nazov": "vyhláška MŽP SR",
+      "cislo": "170/2021",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a údržbe porastov v ochrannom pásme elektrických vedení v k.ú. Moravské Lieskové v termíne od 01.10.2026 do 28.02.2027. Zásah sa realizuje v CHKO Biele Karpaty a území európskeho významu Holubyho kopanice na základe predchádzajúceho rozhodnutia OU Trenčín.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Moravské Lieskové",
+          "NATIONALSI": "SKUEV0367",
+          "SITETITLE_": "Holubyho kopanice"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Moravské Lieskové",
+          "NATIONALSI": "784",
+          "SITETITLE_": "PP Kohútová"
+        },
+        {
+          "parcel_label": "Moravské Lieskové",
+          "NATIONALSI": "897",
+          "SITETITLE_": "PP Baricovie lúky"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

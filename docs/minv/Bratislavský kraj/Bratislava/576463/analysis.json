@@ -1,0 +1,82 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2026/563772/VAD",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-25",
+  "datum_zverejnenia": "2026-09-28",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bratislava – Jarovce",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Jarovecké rameno Dunaja, poloha č. 242",
+    "nazov_lokality_norm": "Jarovecké rameno, Bratislava"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "státie plávajúceho zariadenia"
+  ],
+  "rozsah_zasahu": "poloha č. 242",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82",
+        "68"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o súhlas na státie plávajúceho zariadenia v Jaroveckom ramene Dunaja. Činnosť sa má realizovať na polohe č. 242 v katastrálnom území Bratislava – Jarovce. Verejnosť môže oznámiť svoju účasť v konaní do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Jarovce",
+          "NATIONALSI": "SKUEV0064",
+          "SITETITLE_": "Bratislavské luhy"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Jarovce",
+          "NATIONALSI": "1097",
+          "SITETITLE_": "CHA Jarovská bažantnica"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Jarovce",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "Jarovce",
+          "NATIONALSI": "SKCHVU029",
+          "SITETITLE_": "Sysľovské polia"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

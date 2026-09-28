@@ -1,0 +1,51 @@
+[2026-09-28 22:51:48] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576509'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576509/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576509/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 3' zákona 'na výrub 1 ks dreviny – cedrus atlantický, rastúca na pozemku   s par. č. 1746/15 v k. ú. Limbach, žiadateľovi  - fyzická osoba.  V zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie potvrdenia záujmu byť účastníkom konania podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona 'v začatom správnom konaní je 5 pracovných dní odo dňa zverejnenia tohto oznamu.  Účastníkom konania je podľa zákona združenie s právnou subjektivitou'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576509/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0105465}
+LLM_tokens: {"input": 5007, "output": 2681, "total": 7688, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576509/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576509/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Limbach', 'katastralne_uzemia': [{'nazov': 'Limbach', 'parcely': [{'typ': None, 'cisla': ['1746/15']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Limbach', 'katastralne_uzemia': [{'nazov': 'Limbach', 'parcely': [{'typ': None, 'cisla': ['1746/15']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Limbach obec:Limbach okres:Pezinok kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: limbach norm_ku: limbach
+_get_nationalCadastralZoningReferences() found_ids: {'832189'}
+nationalCadastralZoningReferences: ['832189']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.21 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.72 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1203'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576509/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576509/analysis.json...
+
+--- Časy spracovania dokumentu 576509 ---
+  download_and_text   :   1.42 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.83 s
+  gis_processing      :   6.06 s
+  CELKOVÝ ČAS         :  19.33 s
+------------------------------------------
+Dokument 576509 bol úspešne spracovaný.

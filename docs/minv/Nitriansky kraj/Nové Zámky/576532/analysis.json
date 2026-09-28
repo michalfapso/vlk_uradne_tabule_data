@@ -1,0 +1,98 @@
+{
+  "cislo_konania_spisu": "OU-NZ-OSZP-2026/028873",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-24",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "Do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Nové Zámky",
+    "obec": "Štúrovo",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Štúrovo",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub dreviny"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82",
+        "2"
+      ]
+    },
+    {
+      "nazov": "správny poriadok",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "15a"
+      ]
+    },
+    {
+      "nazov": "Občiansky zákonník",
+      "cislo": "40/1964",
+      "paragrafy": [
+        "20h"
+      ]
+    },
+    {
+      "nazov": "zákon o združovaní občanov",
+      "cislo": "83/1990",
+      "paragrafy": [
+        "6"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci žiadosti o súhlas na výrub dreviny v katastrálnom území Štúrovo. Združenia majú lehotu 5 pracovných dní od zverejnenia informácie na potvrdenie záujmu byť účastníkom konania. Bližší rozsah výrubu ani špecifikácia lokality nie sú v dokumente uvedené.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Štúrovo",
+          "NAZOV_UEV": "Dunaj",
+          "KOD_UEV": "SKUEV0393"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Štúrovo",
+          "NATIONALSI": "SKUEV0393",
+          "SITETITLE_": "Dunaj"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Štúrovo",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

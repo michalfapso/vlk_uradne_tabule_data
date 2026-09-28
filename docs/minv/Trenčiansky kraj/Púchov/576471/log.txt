@@ -1,0 +1,101 @@
+[2026-09-28 22:59:49] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576471'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576471/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576471/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. (1)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej vodnej správy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. (1)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č.372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č.372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. (2)' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. (1) písm. a)' zákona 'vodného zákona. Počas prerušenia konania lehoty podľa správneho poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. (14)' zákona 'vodného zákona a podľa 30'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23 ods. (1) písm. a)' zákona 'vodného zákona. K žiadosti predložil: - Rozhodnutie – Povolenie na uskutočnenie vodnej stavby podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. (3)' zákona 'vodného zákona a v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona 'stavebného zákona a povolenie na osobitné užívanie vôd – vypúšťanie odpadových vôd do povrchových vôd v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. (1) písm. c)' zákona 'vodného zákona; - inventarizácia drevín; - sprievodná správa. Na základe podanej žiadosti oznámil tunajší úrad začatie vodoprávneho konania verejnou v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9' zákona '513/2002 Z. z. Zákon o ochrane prírody a krajiny; - stanovisko obce Dolná Breznica'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. (1) písm. l)' zákona '513/2002 Z. z. Zákon o ochrane prírody a krajiny; - stanovisko obce Dolná Breznica'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9' zákona '513/2002 Z. z. Zákon o ochrane prírody a krajiny; a súčasne konanie prerušil. Stanovisko Obce Lednické Rovne č. j. SaP 896/2026/ AL1-3/Kuc. Zo dňa 13'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. (1) písm. l)' zákona '513/2002 Z. z. Zákon o ochrane prírody a krajiny; a súčasne konanie prerušil. Stanovisko Obce Lednické Rovne č. j. SaP 896/2026/ AL1-3/Kuc. Zo dňa 13'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 7 písm. e)' zákona 'Správneho súdneho poriadku'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576471/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0140275}
+LLM_tokens: {"input": 8051, "output": 3334, "total": 11385, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576471/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576471/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lednické Rovne', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'korytá vodných tokov, pobrežné pozemky a inundačné územia v obciach Lednické Rovne a Dolná Breznica', 'nazov_lokality_norm': None}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lednické Rovne', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'korytá vodných tokov, pobrežné pozemky a inundačné územia v obciach Lednické Rovne a Dolná Breznica', 'nazov_lokality_norm': None}
+Fallback to OBEC: Lednické Rovne
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: lednicke rovne norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'817007', '817015', '817023', '831077'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: korytá vodných tokov, pobrežné pozemky a inundačné územia v obciach Lednické Rovne a Dolná Breznica
+get_geometry_of_a_geoname nazov_lokality: korytá vodných tokov, pobrežné pozemky a inundačné územia v obciach Lednické Rovne a Dolná Breznica
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vodných tokov, pobrežné pozemky a inundačné územia v obciach Lednické Rovne a Dolná Breznica, Lednické Rovne, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vodných tokov, pobrežné pozemky a inundačné územia v obciach Lednické Rovne a Dolná Breznica, Púchov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vodných tokov, pobrežné pozemky a inundačné územia v obciach Lednické Rovne a Dolná Breznica, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vodných tokov, pobrežné pozemky a inundačné územia v obciach Lednické Rovne a Dolná Breznica, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0687794, 'lon': 18.2876767, 'formatted_address': '020 61 Lednické Rovne, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 61 Lednické Rovne, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.29894 49.07193, 18.29894 49.07192...  ...  YURA Corporation Slovakia, 413, Horenická Hôrk...
+
+[1 rows x 11 columns]
+geoname_query: 020 61 Lednické Rovne, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.2863 49.09571, 18.28634 49....
+1  CadastralZoning  ...  MULTIPOLYGON (((18.27231 49.10288, 18.27279 49...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.28964 49.0835, 18.28966 49....
+3  CadastralZoning  ...  MULTIPOLYGON (((18.2748 49.08831, 18.27495 49....
+
+[4 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.29894 49.07193, 18.29894 49.07192...  ...  YURA Corporation Slovakia, 413, Horenická Hôrk...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576471/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576471/analysis.json...
+
+--- Časy spracovania dokumentu 576471 ---
+  download_and_text   :   1.87 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.24 s
+  gis_processing      :   3.57 s
+  CELKOVÝ ČAS         :  20.68 s
+------------------------------------------
+Dokument 576471 bol úspešne spracovaný.

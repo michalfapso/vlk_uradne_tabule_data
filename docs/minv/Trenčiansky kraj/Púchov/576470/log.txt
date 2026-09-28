@@ -1,0 +1,89 @@
+[2026-09-28 23:00:10] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576470'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576470/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576470/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 odsek 4 písmena e)' zákona 'ktorým sa mení a dopíňa zákon Č. 543/2002 Z.z. o ochrane prírody a krajiny Vám oznamujeme, že bude vykonaný výrub porastov na VN linke č.200 v k.ú.: B'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 2 písm. a)' zákona ''.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014636000000000001}
+LLM_tokens: {"input": 4420, "output": 4142, "total": 8562, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576470/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576470/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Beluša', 'katastralne_uzemia': [{'nazov': 'Beluša', 'parcely': []}, {'nazov': 'Visolaje', 'parcely': []}, {'nazov': 'Belušské Slatiny', 'parcely': []}, {'nazov': 'Hloža Podhorie', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'VN linka č.200 v ochrannom pásme 22 kV vedenia', 'nazov_lokality_norm': 'VN linka 200'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Beluša', 'katastralne_uzemia': [{'nazov': 'Beluša', 'parcely': []}, {'nazov': 'Visolaje', 'parcely': []}, {'nazov': 'Belušské Slatiny', 'parcely': []}, {'nazov': 'Hloža Podhorie', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'VN linka č.200 v ochrannom pásme 22 kV vedenia', 'nazov_lokality_norm': 'VN linka 200'}
+ku_name:Beluša obec:Beluša okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: belusa norm_ku: belusa
+_get_nationalCadastralZoningReferences() found_ids: {'802506'}
+nationalCadastralZoningReferences: ['802506']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.50 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Visolaje obec:Beluša okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: belusa norm_ku: visolaje
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: None norm_ku: visolaje
+_get_nationalCadastralZoningReferences() found_ids: {'869619'}
+nationalCadastralZoningReferences: ['869619']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Belušské Slatiny obec:Beluša okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: belusa norm_ku: belusske slatiny
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: None norm_ku: belusske slatiny
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: belusske slatiny
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: belusske slatiny
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+ku_name:Hloža Podhorie obec:Beluša okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: belusa norm_ku: hloza podhorie
+Fuzzy match found: 'Hloža Podhorie' -> 'Hloža-Podhorie' (ID: 816400)
+nationalCadastralZoningReferences: ['816400']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VN linka 200
+get_geometry_of_a_geoname nazov_lokality: VN linka 200
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka 200, Beluša, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka 200, Púchov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka 200, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka 200, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0654258, 'lon': 18.3273949, 'formatted_address': '018 61 Beluša, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 61 Beluša, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.38275 49.10321, 18.38273 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.38947 49.09244, 18.38967 49...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.29225 49.06066, 18.29256 49...
+
+[3 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576470/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Beluša', 'NATIONALSI': 'SKUEV0256', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': 'Hloža-Podhorie', 'NATIONALSI': 'SKUEV0256', 'SITETITLE_': 'Strážovské vrchy'}], 'CHVU': [{'parcel_label': 'Beluša', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': 'Hloža-Podhorie', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576470/analysis.json...
+
+--- Časy spracovania dokumentu 576470 ---
+  download_and_text   :   3.75 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  18.82 s
+  gis_processing      :   3.76 s
+  CELKOVÝ ČAS         :  26.32 s
+------------------------------------------
+Dokument 576470 bol úspešne spracovaný.

@@ -1,0 +1,89 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP1-2026/086542/Bra",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-28",
+  "datum_zverejnenia": "2026-09-28",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie (t. j. do 05. 10. 2026, vrátane)"
+  },
+  "ziadatel_navrhovatel": "Negotiators, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": "Rajecká Lesná",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rajecká Lesná",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "ochranné pásmo CHS Brest Rajecká Lesná",
+    "nazov_lokality_norm": "Brest Rajecká Lesná"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE",
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "terénne úpravy",
+    "realizácia projektu pre ohlásenie drobnej stavby SSD Rajecká Lesná - vzdialená kolokácia OLT"
+  ],
+  "rozsah_zasahu": "terénne úpravy v ochrannom pásme CHS",
+  "typ_uzemia": [
+    "ochranné pásmo CHS",
+    "ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Brest"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Žiadosť o povolenie výnimky a súhlasu na terénne úpravy v ochrannom pásme chráneného stromu Brest v obci Rajecká Lesná. Zásah súvisí s výstavbou telekomunikačnej infraštruktúry (vzdialená kolokácia OLT) spoločnosťou Negotiators, s. r. o. Verejnosť sa môže prihlásiť do konania do 5. októbra 2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Rajecká Lesná",
+          "NATIONALSI": "SKUEV0256",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Rajecká Lesná",
+          "NATIONALSI": "SKUEV0255",
+          "SITETITLE_": "Šujské rašelinisko"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Rajecká Lesná",
+          "NATIONALSI": "445",
+          "SITETITLE_": "PR Šujské rašelinisko"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Rajecká Lesná",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Rajecká Lesná",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

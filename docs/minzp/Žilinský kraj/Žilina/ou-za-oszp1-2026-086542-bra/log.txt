@@ -1,0 +1,60 @@
+[2026-09-28 23:06:01] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-086542-bra'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-086542-bra/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-086542-bra/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012478}
+LLM_tokens: {"input": 4556, "output": 3400, "total": 7956, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-086542-bra/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-086542-bra/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Rajecká Lesná', 'katastralne_uzemia': [{'nazov': 'Rajecká Lesná', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo CHS Brest Rajecká Lesná', 'nazov_lokality_norm': 'Brest Rajecká Lesná'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Rajecká Lesná', 'katastralne_uzemia': [{'nazov': 'Rajecká Lesná', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo CHS Brest Rajecká Lesná', 'nazov_lokality_norm': 'Brest Rajecká Lesná'}
+ku_name:Rajecká Lesná obec:Rajecká Lesná okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: rajecka lesna norm_ku: rajecka lesna
+_get_nationalCadastralZoningReferences() found_ids: {'851230'}
+nationalCadastralZoningReferences: ['851230']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.38 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Brest Rajecká Lesná
+get_geometry_of_a_geoname nazov_lokality: Brest Rajecká Lesná
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Rajecká Lesná, Rajecká Lesná, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Rajecká Lesná, Žilina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Rajecká Lesná, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Rajecká Lesná, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0448978, 'lon': 18.6217565, 'formatted_address': 'Brest v Rajeckej Lesnej, Rajecká Lesná 4, 013 15 Rajecká Lesná, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** v Rajeckej Lesnej, Rajecká Lesná 4, 013 15 Rajecká Lesná, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.62373 49.06556, 18.6237 49....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-086542-bra/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Rajecká Lesná', 'NATIONALSI': 'SKUEV0256', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': 'Rajecká Lesná', 'NATIONALSI': 'SKUEV0255', 'SITETITLE_': 'Šujské rašelinisko'}], 'MCHU': [{'parcel_label': 'Rajecká Lesná', 'NATIONALSI': '445', 'SITETITLE_': 'PR Šujské rašelinisko'}], 'CHVU': [{'parcel_label': 'Rajecká Lesná', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': 'Rajecká Lesná', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-086542-bra/analysis.json...
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-086542-bra ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.08 s
+  gis_processing      :   3.74 s
+  CELKOVÝ ČAS         :  19.62 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-086542-bra bol úspešne spracovaný.

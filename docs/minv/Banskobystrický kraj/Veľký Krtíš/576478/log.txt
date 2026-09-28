@@ -1,0 +1,66 @@
+[2026-09-28 22:49:47] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Veľký Krtíš/576478'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Veľký Krtíš/576478/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Veľký Krtíš/576478/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§3' zákona 'Ciele podpory  regionálneho rozvoja zákona č. 539/2008 Z. z. o podpore regionálneho rozvoja v znení neskorších  predpisov, kde je hlavným cieľom podpo'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 1' zákona 'je zameraná najmä na komplexné využívanie  vnútorného rozvojového potenciálu územia - prírodných, kultúrnych, materiálnych,  finančných,  ľudských a i'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 140a' zákona '50/1976 Zb. v znení neskorších predpisov:    -  Ministerstvo obrany SR, Sekcia ekonomiky, národný riaditeľ pre infraštruktúru, Kutuzovova 8, 832 47 Br'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0260565}
+LLM_tokens: {"input": 30387, "output": 3621, "total": 34008, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Veľký Krtíš/576478/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Veľký Krtíš/576478/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Veľký Krtíš', 'obec': 'Obeckov', 'katastralne_uzemia': [{'nazov': 'Obeckov', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Obec Obeckov', 'nazov_lokality_norm': 'Obeckov'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Veľký Krtíš', 'obec': 'Obeckov', 'katastralne_uzemia': [{'nazov': 'Obeckov', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Obec Obeckov', 'nazov_lokality_norm': 'Obeckov'}
+ku_name:Obeckov obec:Obeckov okres:Veľký Krtíš kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: velky krtis norm_obec: obeckov norm_ku: obeckov
+_get_nationalCadastralZoningReferences() found_ids: {'843024'}
+nationalCadastralZoningReferences: ['843024']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.41 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Obeckov
+get_geometry_of_a_geoname nazov_lokality: Obeckov
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Obeckov, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.29196 48.17311, 19.29197 48.17303...  ...  Obeckov, okres Veľký Krtíš, Banskobystrický kr...
+
+[1 rows x 11 columns]
+geoname_query: Obeckov, Obeckov, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.33497 48.18492, 19.3351 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.29196 48.17311, 19.29197 48.17303...  ...  Obeckov, okres Veľký Krtíš, Banskobystrický kr...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Veľký Krtíš/576478/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Veľký Krtíš/576478/analysis.json...
+
+--- Časy spracovania dokumentu 576478 ---
+  download_and_text   :   5.85 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.78 s
+  gis_processing      :   0.60 s
+  CELKOVÝ ČAS         :  22.23 s
+------------------------------------------
+Dokument 576478 bol úspešne spracovaný.

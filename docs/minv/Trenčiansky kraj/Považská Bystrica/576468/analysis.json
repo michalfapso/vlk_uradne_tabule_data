@@ -1,0 +1,121 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2026/000627",
+  "cislo_rozhodnutia": "OU-PB-OSZP-2026/000627-006",
+  "datum_dokumentu": "2026-09-25",
+  "datum_zverejnenia": "2026-09-25",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa oznámenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Obec Prečín",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Prečín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prečín",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "904/4",
+              "911/17",
+              "911/2",
+              "305/1",
+              "911/1",
+              "306",
+              "308/1",
+              "260/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "126/2",
+              "451/1",
+              "113"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Vetva „K7“ pri pošte",
+    "nazov_lokality_norm": "Vetva K7, Prečín"
+  },
+  "typ_dokumentu": "Povolenie na užívanie vodnej stavby",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "užívanie líniovej vodnej stavby",
+    "splašková kanalizácia"
+  ],
+  "rozsah_zasahu": "kanalizačné potrubie PVC DN 300 dĺžky 204,16 m, 8 ks šácht, 8 ks prípojok",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "26",
+        "53",
+        "54"
+      ]
+    },
+    {
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "26",
+        "61",
+        "71"
+      ]
+    },
+    {
+      "nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "120",
+        "82"
+      ]
+    },
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    }
+  ],
+  "zhrnutie": "Vydanie povolenia na užívanie dokončenej splaškovej kanalizácie v dĺžke vyše 204 metrov v obci Prečín. Stavba sa nachádza v zastavanej časti obce a zahŕňa potrubie, 8 vstupných šácht a 8 prípojok. Dokument neobsahuje informácie o prítomnosti chránených území v mieste realizácie.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "904/4",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "911/1",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "126/2",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}
