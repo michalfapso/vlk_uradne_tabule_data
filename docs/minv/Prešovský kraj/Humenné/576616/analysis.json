@@ -1,0 +1,121 @@
+{
+  "cislo_konania_spisu": "OU-HE-OSZP-2026/013023-013-SL",
+  "cislo_rozhodnutia": "OU-HE-OSZP-2026/013023-013-SL",
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": "v lehote desať dní odo dňa doručenia výzvy"
+  },
+  "ziadatel_navrhovatel": "ANDRITZ Slovakia s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Humenné",
+    "obec": "Humenné",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Chemlonská 1",
+    "nazov_lokality_norm": "Chemlonská, Humenné"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o podanom odvolaní",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "obnova existujúceho objektu",
+    "prístavba k halám"
+  ],
+  "rozsah_zasahu": "obnova existujúceho objektu a prístavby k halám",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/andritz-slovakia-s-r-o-humenne-obnova-existujuceho-objektu-pristavby-k",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "24",
+        "30",
+        "3",
+        "56"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": [
+        "3"
+      ]
+    }
+  ],
+  "zhrnutie": "OÚ Humenné informuje o odvolaní podanom Združením domových samospráv proti záväznému stanovisku vo veci obnovy a prístavby hál spoločnosti ANDRITZ Slovakia. Ide o priemyselnú výstavbu v intraviláne mesta Humenné. Dokument nespomína zásah do chránených území ani výrub drevín.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Humenné",
+          "NAZOV_UEV": "Humenský Sokol",
+          "KOD_UEV": "SKUEV0050"
+        },
+        {
+          "parcel_label": "Humenné",
+          "NAZOV_UEV": "Humenský Sokol",
+          "KOD_UEV": "SKUEV0050"
+        },
+        {
+          "parcel_label": "Humenné",
+          "NAZOV_UEV": "Humenský Sokol",
+          "KOD_UEV": "SKUEV0050"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Humenné",
+          "NATIONALSI": "SKUEV0050",
+          "SITETITLE_": "Humenský Sokol"
+        },
+        {
+          "parcel_label": "Humenné",
+          "NATIONALSI": "SKUEV0206",
+          "SITETITLE_": "Humenská"
+        },
+        {
+          "parcel_label": "Humenné",
+          "NATIONALSI": "SKUEV0205",
+          "SITETITLE_": "Hubková"
+        },
+        {
+          "parcel_label": "Humenné",
+          "NATIONALSI": "SKUEV0895",
+          "SITETITLE_": "Stredný tok Laborca"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Humenné",
+          "NATIONALSI": "561",
+          "SITETITLE_": "NPR Humenský Sokol"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Humenné",
+          "NATIONALSI": "SKCHVU035",
+          "SITETITLE_": "Vihorlatské vrchy"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

@@ -1,0 +1,96 @@
+[2026-09-29 21:51:02] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/576609'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/576609/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/576609/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1' zákona 'drzitel' tohto poverenia moze vo verejnom zaujme: a) Pri doddani podmienok ochrany zivotneho prostredia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'Zakona 0 ochrane prirody oznamujeme, ze planujeme'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11' zákona ''.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009414500000000001}
+LLM_tokens: {"input": 4615, "output": 2369, "total": 6984, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 68 column 1 (char 1863)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008009450000000001}
+LLM_tokens: {"input": 4615, "output": 2202, "total": 6817, "cached": 2009}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 67 column 1 (char 1780)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01028945}
+LLM_tokens: {"input": 4615, "output": 2962, "total": 7577, "cached": 2009}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/576609/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/576609/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Nitrianske Rudno', 'katastralne_uzemia': [{'nazov': 'Nitrianske Rudno', 'parcely': []}, {'nazov': 'Ješkova Ves', 'parcely': []}, {'nazov': 'Diviaky nad Nitricou', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod vedením VN č. 259 a v jeho ochrannom pásme', 'nazov_lokality_norm': 'VN 259'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Nitrianske Rudno', 'katastralne_uzemia': [{'nazov': 'Nitrianske Rudno', 'parcely': []}, {'nazov': 'Ješkova Ves', 'parcely': []}, {'nazov': 'Diviaky nad Nitricou', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod vedením VN č. 259 a v jeho ochrannom pásme', 'nazov_lokality_norm': 'VN 259'}
+ku_name:Nitrianske Rudno obec:Nitrianske Rudno okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: nitrianske rudno norm_ku: nitrianske rudno
+_get_nationalCadastralZoningReferences() found_ids: {'840700'}
+nationalCadastralZoningReferences: ['840700']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.49 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Ješkova Ves obec:Nitrianske Rudno okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: nitrianske rudno norm_ku: jeskova ves
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: jeskova ves
+_get_nationalCadastralZoningReferences() found_ids: {'822825'}
+nationalCadastralZoningReferences: ['822825']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Diviaky nad Nitricou obec:Nitrianske Rudno okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: nitrianske rudno norm_ku: diviaky nad nitricou
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: diviaky nad nitricou
+_get_nationalCadastralZoningReferences() found_ids: {'810762'}
+nationalCadastralZoningReferences: ['810762']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.42 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VN 259
+get_geometry_of_a_geoname nazov_lokality: VN 259
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 259, Nitrianske Rudno, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 259, Prievidza, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 259, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 259, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.7986596, 'lon': 18.4768007, 'formatted_address': '972 26 Nitrianske Rudno, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 26 Nitrianske Rudno, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.483 48.81885, 18.48307 48.8...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.49004 48.78635, 18.49014 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.46776 48.77807, 18.46852 48...
+
+[3 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/576609/gis.geojson...
+Intersections with protected areas...
+Found 20 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Nitrianske Rudno', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Nitrianske Rudno', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Nitrianske Rudno', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Nitrianske Rudno', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Nitrianske Rudno', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Nitrianske Rudno', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Nitrianske Rudno', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Nitrianske Rudno', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Nitrianske Rudno', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Nitrianske Rudno', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Nitrianske Rudno', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Nitrianske Rudno', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Nitrianske Rudno', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Nitrianske Rudno', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Diviaky nad Nitricou', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Diviaky nad Nitricou', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Diviaky nad Nitricou', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Diviaky nad Nitricou', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Diviaky nad Nitricou', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}, {'parcel_label': 'Diviaky nad Nitricou', 'NAZOV_UEV': 'Rokoš', 'KOD_UEV': 'SKUEV0128'}], 'UEV': [{'parcel_label': 'Nitrianske Rudno', 'NATIONALSI': 'SKUEV0128', 'SITETITLE_': 'Rokoš'}, {'parcel_label': 'Ješkova Ves', 'NATIONALSI': 'SKUEV0128', 'SITETITLE_': 'Rokoš'}, {'parcel_label': 'Diviaky nad Nitricou', 'NATIONALSI': 'SKUEV0128', 'SITETITLE_': 'Rokoš'}], 'MCHU': [{'parcel_label': 'Nitrianske Rudno', 'NATIONALSI': '147', 'SITETITLE_': 'NPR Rokoš'}, {'parcel_label': 'Nitrianske Rudno', 'NATIONALSI': '1167', 'SITETITLE_': 'PP Košútova jaskyňa'}, {'parcel_label': 'Diviaky nad Nitricou', 'NATIONALSI': '147', 'SITETITLE_': 'NPR Rokoš'}], 'CHVU': [{'parcel_label': 'Nitrianske Rudno', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': 'Ješkova Ves', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': 'Diviaky nad Nitricou', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/576609/analysis.json...
+
+--- Časy spracovania dokumentu 576609 ---
+  download_and_text   :   2.51 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  30.43 s
+  gis_processing      :   5.53 s
+  CELKOVÝ ČAS         :  38.47 s
+------------------------------------------
+Dokument 576609 bol úspešne spracovaný.

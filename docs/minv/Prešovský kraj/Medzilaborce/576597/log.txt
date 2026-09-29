@@ -1,0 +1,75 @@
+[2026-09-29 21:48:18] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Medzilaborce/576597'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Medzilaborce/576597/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.026220399999999998}
+LLM_tokens: {"input": 1366, "output": 65532, "total": 66898, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Medzilaborce/576597/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.044509}
+LLM_tokens: {"input": 69422, "output": 3266, "total": 72688, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Medzilaborce/576597/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Medzilaborce/576597/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Medzilaborce', 'obec': 'Medzilaborce', 'katastralne_uzemia': [{'nazov': 'Medzilaborce', 'parcely': []}, {'nazov': 'Radvaň nad Laborcom', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'úsek trate Radvaň nad Laborcom – Medzilaborce – štátna hranica PKP', 'nazov_lokality_norm': 'Michafany'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Medzilaborce', 'obec': 'Medzilaborce', 'katastralne_uzemia': [{'nazov': 'Medzilaborce', 'parcely': []}, {'nazov': 'Radvaň nad Laborcom', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'úsek trate Radvaň nad Laborcom – Medzilaborce – štátna hranica PKP', 'nazov_lokality_norm': 'Michafany'}
+ku_name:Medzilaborce obec:Medzilaborce okres:Medzilaborce kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: medzilaborce norm_obec: medzilaborce norm_ku: medzilaborce
+_get_nationalCadastralZoningReferences() found_ids: {'836621'}
+nationalCadastralZoningReferences: ['836621']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.47 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Radvaň nad Laborcom obec:Medzilaborce okres:Medzilaborce kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: medzilaborce norm_obec: medzilaborce norm_ku: radvan nad laborcom
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: medzilaborce norm_obec: None norm_ku: radvan nad laborcom
+_get_nationalCadastralZoningReferences() found_ids: {'851167'}
+nationalCadastralZoningReferences: ['851167']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Michafany
+get_geometry_of_a_geoname nazov_lokality: Michafany
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Medzilaborce, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Medzilaborce, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Prešovský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.27211399999999, 'lon': 21.9025781, 'formatted_address': '068 01 Medzilaborce, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Medzilaborce, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.97004 49.33385, 21.97282 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((21.91581 49.14908, 21.91595 49...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Medzilaborce/576597/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Medzilaborce', 'NATIONALSI': 'SKUEV0043', 'SITETITLE_': 'Kamenná'}, {'parcel_label': 'Medzilaborce', 'NATIONALSI': 'SKUEV0211', 'SITETITLE_': 'Daňová'}, {'parcel_label': 'Radvaň nad Laborcom', 'NATIONALSI': 'SKUEV0895', 'SITETITLE_': 'Stredný tok Laborca'}], 'CHVU': [{'parcel_label': 'Medzilaborce', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': 'Radvaň nad Laborcom', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Medzilaborce/576597/analysis.json...
+
+--- Časy spracovania dokumentu 576597 ---
+  download_and_text   : 125.49 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.88 s
+  gis_processing      :   2.19 s
+  CELKOVÝ ČAS         : 142.57 s
+------------------------------------------
+Dokument 576597 bol úspešne spracovaný.

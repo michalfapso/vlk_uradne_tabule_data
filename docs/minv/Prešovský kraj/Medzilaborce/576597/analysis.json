@@ -1,0 +1,105 @@
+{
+  "cislo_konania_spisu": "7/2023/10156/3",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2023-09-23",
+  "datum_zverejnenia": "2023-09-23",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Medzilaborce",
+    "obec": "Medzilaborce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Medzilaborce",
+        "parcely": []
+      },
+      {
+        "nazov": "Radvaň nad Laborcom",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "úsek trate Radvaň nad Laborcom – Medzilaborce – štátna hranica PKP",
+    "nazov_lokality_norm": "Michafany"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub stromov",
+    "výrub krovín"
+  ],
+  "rozsah_zasahu": "6 ks stromov, kroviny 0.44 m3, celkový objem 2.571 m3",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "vŕba",
+    "agát"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o Železničných republiky",
+      "cislo": "258/1993",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o dráhach",
+      "cislo": "513/2009",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "ŽSR oznamuje výrub stromov a krovín v úsekoch Radvaň nad Laborcom – Medzilaborce a Medzilaborce – štátna hranica PKP za účelom zaistenia bezpečnosti dopravy. Celkový objem výrubu je 2.571 m3 a zahŕňa listnaté aj ihličnaté dreviny. Činnosť sa realizuje v blízkosti železničnej trate, informácia o chránenom území nie je uvedená.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Medzilaborce",
+          "NATIONALSI": "SKUEV0043",
+          "SITETITLE_": "Kamenná"
+        },
+        {
+          "parcel_label": "Medzilaborce",
+          "NATIONALSI": "SKUEV0211",
+          "SITETITLE_": "Daňová"
+        },
+        {
+          "parcel_label": "Radvaň nad Laborcom",
+          "NATIONALSI": "SKUEV0895",
+          "SITETITLE_": "Stredný tok Laborca"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Medzilaborce",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        },
+        {
+          "parcel_label": "Radvaň nad Laborcom",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

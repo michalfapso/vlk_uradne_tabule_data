@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": "OU-SN-OSZP-2026/019172-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-25",
+  "datum_zverejnenia": "2026-09-25",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Spišská Nová Ves",
+    "obec": "Hnilec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hnilec",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "úsek ŽST Margécany – ŽST Červená Skala v k.ú. Hnilec, v ochrannom pásme dráhy",
+    "nazov_lokality_norm": "Hnilec"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub stromov a krovitých porastov",
+    "nahnuté dreviny nad koľaj"
+  ],
+  "rozsah_zasahu": "podľa pasportu výrubu drevín",
+  "typ_uzemia": [
+    "ochranné pásmo dráhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "82"
+      ]
+    },
+    {
+      "nazov": "zákon o dráhach",
+      "cislo": "513/2009",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Železnice SR oznamujú výrub stromov a krovitých porastov v katastrálnom území Hnilec v ochrannom pásme dráhy na úseku Margecany – Červená Skala. Účelom výrubu je zaistenie bezpečnosti železničnej dopravy kvôli zlému stavu drevín. V tomto type konania nie je v zmysle zákona možná účasť verejnosti.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "Hnilec",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

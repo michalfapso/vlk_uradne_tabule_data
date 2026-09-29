@@ -1,0 +1,134 @@
+[
+  {
+    "cislo_konania_spisu": "46/2026/SMSÚ ŽTS TO PO",
+    "cislo_rozhodnutia": null,
+    "datum_dokumentu": "2026-09-11",
+    "datum_zverejnenia": "2026-03-16",
+    "faza_konania": "ZACIATOK",
+    "ucast_v_konani": {
+      "povolena": null,
+      "lehota_na_vyjadrenie": null
+    },
+    "ziadatel_navrhovatel": "ŽELEZNIČNÉ SLOVENSKÉ REPUBLIKY",
+    "miesto_realizacie": {
+      "kraj": "Prešovský kraj",
+      "okres": "Humenné",
+      "obec": "Humenné",
+      "katastralne_uzemia": [
+        {
+          "nazov": "Koškovce",
+          "parcely": [
+            {
+              "typ": null,
+              "cisla": [
+                "20451"
+              ]
+            }
+          ]
+        }
+      ],
+      "lokalita_zastavane_uzemie": false,
+      "nazov_lokality": "úsek trate: Michal'any - štátna hranica PPK; Humenné - Stakčín",
+      "nazov_lokality_norm": "Michal'any - štátna hranica PPK"
+    },
+    "typ_dokumentu": "Oznámenie o výrube",
+    "kategorie_vlk": [
+      "LES_VYRUB"
+    ],
+    "typ_zasahu": [
+      "výrub stromov",
+      "výrub krov"
+    ],
+    "rozsah_zasahu": "viaceré úseky železničnej trate (napr. žkm: 67,700 – 69,650; 70,700-72,770; 1,000 – 8,422)",
+    "typ_uzemia": [
+      "neviem"
+    ],
+    "je_v_chranenom_uzemi": null,
+    "dotknute_zivocichy_rastliny": [
+      "stromy",
+      "kroviny"
+    ],
+    "odkaz_enviroportal": null,
+    "zakony": [
+      {
+        "nazov": "o Železničných Spoločnostiach",
+        "cislo": "258/1993",
+        "paragrafy": []
+      },
+      {
+        "nazov": "o dráhach",
+        "cislo": "513/2009",
+        "paragrafy": []
+      },
+      {
+        "nazov": "o energetike",
+        "cislo": "251/2012",
+        "paragrafy": []
+      },
+      {
+        "nazov": "o ochrane prírody a krajiny",
+        "cislo": "543/2002",
+        "paragrafy": []
+      }
+    ],
+    "zhrnutie": "Oznámenie ŽSR o plánovanom výrube stromov a krov v ochrannom pásme železničných tratí v úsekoch Humenné – Udavské, Koškovce a Kamenica nad Cirochou. Výrub bude prebiehať v mimovegetačnom období od októbra 2026 do decembra 2029 z dôvodu zaistenia bezpečnosti dopravy.",
+    "gis": {
+      "zasiahnute_chranene_uzemia": {
+        "5st_konsUEV": [
+          {
+            "parcel_label": "Humenné",
+            "NAZOV_UEV": "Humenský Sokol",
+            "KOD_UEV": "SKUEV0050"
+          },
+          {
+            "parcel_label": "Humenné",
+            "NAZOV_UEV": "Humenský Sokol",
+            "KOD_UEV": "SKUEV0050"
+          },
+          {
+            "parcel_label": "Humenné",
+            "NAZOV_UEV": "Humenský Sokol",
+            "KOD_UEV": "SKUEV0050"
+          }
+        ],
+        "UEV": [
+          {
+            "parcel_label": "Humenné",
+            "NATIONALSI": "SKUEV0050",
+            "SITETITLE_": "Humenský Sokol"
+          },
+          {
+            "parcel_label": "Humenné",
+            "NATIONALSI": "SKUEV0206",
+            "SITETITLE_": "Humenská"
+          },
+          {
+            "parcel_label": "Humenné",
+            "NATIONALSI": "SKUEV0205",
+            "SITETITLE_": "Hubková"
+          },
+          {
+            "parcel_label": "Humenné",
+            "NATIONALSI": "SKUEV0895",
+            "SITETITLE_": "Stredný tok Laborca"
+          }
+        ],
+        "MCHU": [
+          {
+            "parcel_label": "Humenné",
+            "NATIONALSI": "561",
+            "SITETITLE_": "NPR Humenský Sokol"
+          }
+        ],
+        "CHVU": [
+          {
+            "parcel_label": "Humenné",
+            "NATIONALSI": "SKCHVU035",
+            "SITETITLE_": "Vihorlatské vrchy"
+          }
+        ]
+      },
+      "source_type": "OBEC"
+    }
+  }
+]

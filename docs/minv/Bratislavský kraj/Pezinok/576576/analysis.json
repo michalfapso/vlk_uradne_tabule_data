@@ -1,0 +1,90 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "EE Slovakia s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Pezinok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pezinok",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2916/56",
+              "2916/58"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "priemyselný areál spoločnosti SKOT Real, s.r.o.",
+    "nazov_lokality_norm": "SKOT Real, Pezinok"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o začatí zisťovacieho konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "vybudovanie a prevádzka batériového systému na ukladanie elektrickej energie",
+    "batériové úložisko"
+  ],
+  "rozsah_zasahu": "inštalovaný výkon 7,668 MW, využiteľná kapacita 30,09 MWh, 6 batériových kontajnerov",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "24",
+        "18",
+        "3",
+        "56",
+        "29",
+        "64",
+        "30",
+        "38"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015 Z. z.",
+      "paragrafy": [
+        "178"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí zisťovacieho konania (EIA) pre projekt vybudovania batériového úložiska s výkonom 7,668 MW v priemyselnom areáli v Pezinku. Realizácia zahŕňa inštaláciu šiestich batériových kontajnerov a transformátorovej stanice na parcelách registra C. Z dokumentu nevyplýva, že by sa projekt nachádzal v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

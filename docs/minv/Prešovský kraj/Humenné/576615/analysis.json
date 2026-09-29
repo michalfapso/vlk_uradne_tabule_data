@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 15 dní od zverejnenia oznámenia dotknutou obcou"
+  },
+  "ziadatel_navrhovatel": "Obec Chlmec",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Humenné",
+    "obec": "Chlmec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Chlmec",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Obec Chlmec",
+    "nazov_lokality_norm": "Chlmec"
+  },
+  "typ_dokumentu": "Oznámenie o strategickom dokumente",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zmeny a doplnky územného plánu obce"
+  ],
+  "rozsah_zasahu": "Zmeny a doplnky č.3",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/uzemny-plan-obce-chlmec-zmeny-doplnky-c-3-2026",
+  "zakony": [
+    {
+      "nazov": "zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "6",
+        "6 ods. 5"
+      ]
+    }
+  ],
+  "zhrnutie": "Okresný úrad Humenné informuje o oznámení strategického dokumentu „Územný plán obce Chlmec – Zmeny a doplnky č.3“. Verejnosť môže predkladať stanoviská do 15 dní od zverejnenia oznámenia obcou. Dokument je prístupný v informačnom systéme Enviroportal.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Chlmec",
+          "NATIONALSI": "SKUEV0250",
+          "SITETITLE_": "Krivoštianka"
+        },
+        {
+          "parcel_label": "Chlmec",
+          "NATIONALSI": "SKUEV0050",
+          "SITETITLE_": "Humenský Sokol"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Chlmec",
+          "NATIONALSI": "562",
+          "SITETITLE_": "PR Chlmecká skalka"
+        },
+        {
+          "parcel_label": "Chlmec",
+          "NATIONALSI": "561",
+          "SITETITLE_": "NPR Humenský Sokol"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Chlmec",
+          "NATIONALSI": "SKCHVU035",
+          "SITETITLE_": "Vihorlatské vrchy"
+        },
+        {
+          "parcel_label": "Chlmec",
+          "NATIONALSI": "SKCHVU035",
+          "SITETITLE_": "Vihorlatské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "cislo_konania_spisu": "OU-DK-OSZP-2026/008899",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-29",
+  "datum_zverejnenia": "2026-09-29",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Dolný Kubín",
+    "obec": "Zázrivá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zázrivá",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "14045",
+              "14046"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub krovitého porastu"
+  ],
+  "rozsah_zasahu": "400 m2",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "68 písm. c)",
+        "82 ods. 7",
+        "82 ods. 3",
+        "82 ods. 6"
+      ]
+    },
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z.z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "Vyhláška MŽP SR, ktorou sa vykonávajú niektoré ustanovenia zákona o ochrane prírody a krajiny",
+      "cislo": "170/2021 Z.z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Zákon o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19"
+      ]
+    }
+  ],
+  "zhrnutie": "Ide o začaté konanie na základe žiadosti o výrub krovitého porastu v rozsahu 400 m2 v k.ú. Zázrivá na parcelách typu E. Zásah sa plánuje v extraviláne (mimo zastavaného územia) z dôvodu napadnutia hmyzom a hubou. Verejnosť môže potvrdiť svoj záujem byť účastníkom konania do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "14045",
+          "NATIONALSI": "SKUEV0251",
+          "SITETITLE_": "Zázrivské lazy"
+        },
+        {
+          "parcel_label": "14046",
+          "NATIONALSI": "SKUEV0251",
+          "SITETITLE_": "Zázrivské lazy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "14045",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "14046",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

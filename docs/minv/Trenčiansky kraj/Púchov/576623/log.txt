@@ -1,0 +1,68 @@
+[2026-09-29 21:51:41] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576623'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576623/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576623/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. (1)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej vodnej správy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. (1)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 12 písm. d)' zákona '25/2025 Z.z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. (1)' zákona '25/2025 Z.z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. (5)' zákona 'Stavebného zákona oznamuje podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80 ods. (1)' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. (6)' zákona 'vodného zákona začatie kolaudačného konania prevádzkovej časti stavebných objektov majúcich charakter vodnej stavby „Kanalizácia a vodovod obce Lysá p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80 ods. (2)' zákona 'stavebného zákona účinného do 31. 03. 2025 tunajší úrad, ako špeciálny stavebný úrad, upozorňuje účastníkov a dotknuté orgány, že námietky a stanovisk'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. (6)' zákona 'vodného zákona orgán štátnej vodnej správy upozorňuje, že na námietky, ktoré nebudú oznámené najneskôr na ústnom pojednávaní, sa neprihliadne. V zmysl'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80 ods. (1)' zákona 'stavebného zákona účinného do 31. 03. 2025 pri líniových stavbách alebo v odôvodnených prípadoch pri zvlášť rozsiahlych stavbách, stavbách s veľkým po'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576623/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.023583}
+LLM_tokens: {"input": 19266, "output": 4650, "total": 23916, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576623/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576623/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lysá pod Makytou', 'katastralne_uzemia': [{'nazov': 'Lysá pod Makytou', 'parcely': [{'typ': 'C', 'cisla': ['2524/2', '2524/1', '5270/2', '5271/2', '2422/3', '2524/18', '5270/1', '5470/1', '2531/3', '2527/1', '5470/6', '2528', '2529', '2533/1', '2533/2', '2533/4', '2531/14', '3088/2', '3097/4', '3098/4', '3098/8', '3103/3', '3103/5', '3106/2', '5303/1', '5467/3', '392/1', '393/2', '394/8', '1161/3', '1161/1', '1160/1', '394', '395/4', '394/6', '5357/1', '5499/1']}, {'typ': 'E', 'cisla': ['5270/2', '2524/1', '5470/1', '5420/2', '5242/1', '5243', '5244', '5459/2', '5250/1', '5251', '5252', '5253', '5254', '5255', '392', '3292', '5467/1', '5459/201', '3089', '3088/2', '3088/3', '3093', '5303/1', '3091', '3092', '3094', '3095', '3096', '5467/6', '5357', '391', '5499/1', '5460/1']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'lokalita Štiepkovce, trasa smerom na Dešnú', 'nazov_lokality_norm': 'Štiepkovce'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lysá pod Makytou', 'katastralne_uzemia': [{'nazov': 'Lysá pod Makytou', 'parcely': [{'typ': 'C', 'cisla': ['2524/2', '2524/1', '5270/2', '5271/2', '2422/3', '2524/18', '5270/1', '5470/1', '2531/3', '2527/1', '5470/6', '2528', '2529', '2533/1', '2533/2', '2533/4', '2531/14', '3088/2', '3097/4', '3098/4', '3098/8', '3103/3', '3103/5', '3106/2', '5303/1', '5467/3', '392/1', '393/2', '394/8', '1161/3', '1161/1', '1160/1', '394', '395/4', '394/6', '5357/1', '5499/1']}, {'typ': 'E', 'cisla': ['5270/2', '2524/1', '5470/1', '5420/2', '5242/1', '5243', '5244', '5459/2', '5250/1', '5251', '5252', '5253', '5254', '5255', '392', '3292', '5467/1', '5459/201', '3089', '3088/2', '3088/3', '3093', '5303/1', '3091', '3092', '3094', '3095', '3096', '5467/6', '5357', '391', '5499/1', '5460/1']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'lokalita Štiepkovce, trasa smerom na Dešnú', 'nazov_lokality_norm': 'Štiepkovce'}
+ku_name:Lysá pod Makytou obec:Lysá pod Makytou okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: lysa pod makytou norm_ku: lysa pod makytou
+_get_nationalCadastralZoningReferences() found_ids: {'834483'}
+nationalCadastralZoningReferences: ['834483']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.73 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.26 s
+nazov_lokality: Štiepkovce
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.721'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.721'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.721'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.721'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.721'}
+..              ...  ...                           ...
+61  CadastralParcel  ...  {'@href': '#auAdmUnitS.721'}
+62  CadastralParcel  ...  {'@href': '#auAdmUnitS.721'}
+63  CadastralParcel  ...  {'@href': '#auAdmUnitS.721'}
+64  CadastralParcel  ...  {'@href': '#auAdmUnitS.721'}
+65  CadastralParcel  ...  {'@href': '#auAdmUnitS.721'}
+
+[66 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576623/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576623/analysis.json...
+
+--- Časy spracovania dokumentu 576623 ---
+  download_and_text   :   5.82 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  19.11 s
+  gis_processing      :   7.26 s
+  CELKOVÝ ČAS         :  32.19 s
+------------------------------------------
+Dokument 576623 bol úspešne spracovaný.

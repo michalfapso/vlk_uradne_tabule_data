@@ -1,0 +1,90 @@
+[2026-09-29 21:43:07] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/576635'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/576635/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.001024}
+LLM_tokens: {"input": 592, "output": 2541, "total": 3133, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/576635/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 3' zákona 'na výrub 10 ks drevín, z toho 1 ks druhu smrekovec opadavý'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'okresný úrad určuje na potvrdenie záujmu byť zúčastnenou osobou v uvedenom správnom konaní lehotu 5 pracovných dní od zverejnenia tohto oznámenia.  Po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona 'združenie s právnou subjektivitou uvedie v písomnom oznámení o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie, meno a priezvi'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/576635/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.015609}
+LLM_tokens: {"input": 6996, "output": 4037, "total": 11033, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/576635/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/576635/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [{'nazov': 'Terasa', 'parcely': [{'typ': 'C', 'cisla': ['4899', '2744/1', '62']}]}, {'nazov': 'Pereš', 'parcely': [{'typ': 'C', 'cisla': ['876']}]}, {'nazov': 'Severné mesto', 'parcely': [{'typ': 'C', 'cisla': ['2454']}]}, {'nazov': 'Furča', 'parcely': [{'typ': 'C', 'cisla': ['1993/4']}]}, {'nazov': 'Jazero', 'parcely': [{'typ': 'C', 'cisla': ['3993']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Súkromná základná škola Petzvalova č. 4 v Košiciach', 'nazov_lokality_norm': 'Petzvalova, Košice'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': 'Košice', 'katastralne_uzemia': [{'nazov': 'Terasa', 'parcely': [{'typ': 'C', 'cisla': ['4899', '2744/1', '62']}]}, {'nazov': 'Pereš', 'parcely': [{'typ': 'C', 'cisla': ['876']}]}, {'nazov': 'Severné mesto', 'parcely': [{'typ': 'C', 'cisla': ['2454']}]}, {'nazov': 'Furča', 'parcely': [{'typ': 'C', 'cisla': ['1993/4']}]}, {'nazov': 'Jazero', 'parcely': [{'typ': 'C', 'cisla': ['3993']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Súkromná základná škola Petzvalova č. 4 v Košiciach', 'nazov_lokality_norm': 'Petzvalova, Košice'}
+ku_name:Terasa obec:Košice okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: terasa
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: terasa
+_get_nationalCadastralZoningReferences() found_ids: {'827207'}
+nationalCadastralZoningReferences: ['827207']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.50 s
+ku_name:Pereš obec:Košice okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: peres
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: peres
+_get_nationalCadastralZoningReferences() found_ids: {'827401'}
+nationalCadastralZoningReferences: ['827401']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.06 s
+ku_name:Severné mesto obec:Košice okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: severne mesto
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: severne mesto
+_get_nationalCadastralZoningReferences() found_ids: {'827312'}
+nationalCadastralZoningReferences: ['827312']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.08 s
+ku_name:Furča obec:Košice okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: furca
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: furca
+_get_nationalCadastralZoningReferences() found_ids: {'827339'}
+nationalCadastralZoningReferences: ['827339']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.06 s
+ku_name:Jazero obec:Košice okres:Košice kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: kosice norm_ku: jazero
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice norm_obec: None norm_ku: jazero
+_get_nationalCadastralZoningReferences() found_ids: {'877999'}
+nationalCadastralZoningReferences: ['877999']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.04 s
+nazov_lokality: Petzvalova, Košice
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1503'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1503'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1503'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1650'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.1752'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.2372'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.2669'}
+
+[7 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/576635/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/576635/analysis.json...
+
+--- Časy spracovania dokumentu 576635 ---
+  download_and_text   :  12.96 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  14.79 s
+  gis_processing      :  16.08 s
+  CELKOVÝ ČAS         :  43.84 s
+------------------------------------------
+Dokument 576635 bol úspešne spracovaný.

@@ -1,0 +1,80 @@
+[2026-09-29 21:45:02] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Humenné/576615'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Humenné/576615/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Humenné/576615/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých  zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 5' zákona 'EIA/SEA do troch pracovných dní od  doručenia oznámenia informuje verejnosť spôsobom v mieste obvyklým a zároveň oznámi, kde  a kedy možno do oznámeni'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011082500000000002}
+LLM_tokens: {"input": 4477, "output": 2948, "total": 7425, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 45 column 1 (char 1490)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0092129}
+LLM_tokens: {"input": 4477, "output": 2626, "total": 7103, "cached": 2008}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 52 column 1 (char 1529)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0094739}
+LLM_tokens: {"input": 4477, "output": 2713, "total": 7190, "cached": 2008}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Humenné/576615/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Humenné/576615/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Humenné', 'obec': 'Chlmec', 'katastralne_uzemia': [{'nazov': 'Chlmec', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Obec Chlmec', 'nazov_lokality_norm': 'Chlmec'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Humenné', 'obec': 'Chlmec', 'katastralne_uzemia': [{'nazov': 'Chlmec', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Obec Chlmec', 'nazov_lokality_norm': 'Chlmec'}
+ku_name:Chlmec obec:Chlmec okres:Humenné kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: humenne norm_obec: chlmec norm_ku: chlmec
+_get_nationalCadastralZoningReferences() found_ids: {'820687'}
+nationalCadastralZoningReferences: ['820687']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.43 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Chlmec
+get_geometry_of_a_geoname nazov_lokality: Chlmec
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Chlmec, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.91552 48.88695, 21.91594 48.88659...  ...  Chlmec, okres Humenné, Prešovský kraj, 067 41,...
+1  POLYGON ((21.93876 48.89519, 21.93881 48.89489...  ...   Chlmec, okres Humenné, Prešovský kraj, Slovensko
+
+[2 rows x 11 columns]
+geoname_query: Chlmec, Chlmec, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.9455 48.89845, 21.94552 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.91552 48.88695, 21.91594 48.88659...  ...  Chlmec, okres Humenné, Prešovský kraj, 067 41,...
+1  POLYGON ((21.93876 48.89519, 21.93881 48.89489...  ...   Chlmec, okres Humenné, Prešovský kraj, Slovensko
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Humenné/576615/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Chlmec', 'NATIONALSI': 'SKUEV0250', 'SITETITLE_': 'Krivoštianka'}, {'parcel_label': 'Chlmec', 'NATIONALSI': 'SKUEV0050', 'SITETITLE_': 'Humenský Sokol'}], 'MCHU': [{'parcel_label': 'Chlmec', 'NATIONALSI': '562', 'SITETITLE_': 'PR Chlmecká skalka'}, {'parcel_label': 'Chlmec', 'NATIONALSI': '561', 'SITETITLE_': 'NPR Humenský Sokol'}], 'CHVU': [{'parcel_label': 'Chlmec', 'NATIONALSI': 'SKCHVU035', 'SITETITLE_': 'Vihorlatské vrchy'}, {'parcel_label': 'Chlmec', 'NATIONALSI': 'SKCHVU035', 'SITETITLE_': 'Vihorlatské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Humenné/576615/analysis.json...
+
+--- Časy spracovania dokumentu 576615 ---
+  download_and_text   :   1.37 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  30.65 s
+  gis_processing      :   0.81 s
+  CELKOVÝ ČAS         :  32.83 s
+------------------------------------------
+Dokument 576615 bol úspešne spracovaný.

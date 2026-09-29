@@ -1,0 +1,103 @@
+{
+  "cislo_konania_spisu": "OU-KE-OSZP-2026/063700",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-29",
+  "datum_zverejnenia": "2026-09-29",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Obec Slanec",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice - okolie",
+    "obec": "Slanec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Slanec",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "1103/4",
+              "1103/5",
+              "1102/6"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Slanský hrad",
+    "nazov_lokality_norm": "Slanský hrad"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "pokračovanie obnovy národnej kultúrnej pamiatky Slanský hrad",
+    "výnimky zo zakázaných činností",
+    "vydanie príslušných súhlasov"
+  ],
+  "rozsah_zasahu": "parcely č. 1103/4, 1103/5 a 1102/6",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti obce Slanec o povolenie výnimiek a súhlasov na pokračovanie obnovy hradu Slanec. Zásah sa týka parciel v katastrálnom území Slanec a predpokladá zásahy do chránených záujmov prírody, keďže sa žiadajú výnimky zo zakázaných činností.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "1103/4",
+          "NATIONALSI": "SKUEV0326",
+          "SITETITLE_": "Strahuľka"
+        },
+        {
+          "parcel_label": "1103/5",
+          "NATIONALSI": "SKUEV0326",
+          "SITETITLE_": "Strahuľka"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "1103/4",
+          "NATIONALSI": "675",
+          "SITETITLE_": "PR Slanský hradný vrch"
+        },
+        {
+          "parcel_label": "1103/5",
+          "NATIONALSI": "675",
+          "SITETITLE_": "PR Slanský hradný vrch"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "1103/4",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        },
+        {
+          "parcel_label": "1103/5",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}
