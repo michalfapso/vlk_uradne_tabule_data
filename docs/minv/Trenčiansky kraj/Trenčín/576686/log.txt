@@ -1,0 +1,48 @@
+[2026-09-30 21:47:20] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576686'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576686/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0005531999999999999}
+LLM_tokens: {"input": 592, "output": 1364, "total": 1956, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576686/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576686/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0106175}
+LLM_tokens: {"input": 5617, "output": 2603, "total": 8220, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576686/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576686/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Nemšová', 'katastralne_uzemia': [{'nazov': 'Nemšová', 'parcely': [{'typ': 'C', 'cisla': ['261/54']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Obnova škôlkovej siete Nemšová', 'nazov_lokality_norm': 'Nemšová'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Nemšová', 'katastralne_uzemia': [{'nazov': 'Nemšová', 'parcely': [{'typ': 'C', 'cisla': ['261/54']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Obnova škôlkovej siete Nemšová', 'nazov_lokality_norm': 'Nemšová'}
+ku_name:Nemšová obec:Nemšová okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: nemsova norm_ku: nemsova
+_get_nationalCadastralZoningReferences() found_ids: {'839639'}
+nationalCadastralZoningReferences: ['839639']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.14 s
+nazov_lokality: Nemšová
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2242'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576686/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/576686/analysis.json...
+
+--- Časy spracovania dokumentu 576686 ---
+  download_and_text   :   7.36 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.40 s
+  gis_processing      :   3.35 s
+  CELKOVÝ ČAS         :  22.11 s
+------------------------------------------
+Dokument 576686 bol úspešne spracovaný.

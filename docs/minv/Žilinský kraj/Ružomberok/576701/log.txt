@@ -1,0 +1,61 @@
+[2026-09-30 21:50:06] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/576701'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/576701/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/576701/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/576701/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008957999999999999}
+LLM_tokens: {"input": 4596, "output": 2220, "total": 6816, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/576701/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/576701/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Liptovská Teplá', 'katastralne_uzemia': [{'nazov': 'Liptovská Teplá', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok rieky Teplianka (rkm 1,000 - 1,400)', 'nazov_lokality_norm': 'Teplianka'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Liptovská Teplá', 'katastralne_uzemia': [{'nazov': 'Liptovská Teplá', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok rieky Teplianka (rkm 1,000 - 1,400)', 'nazov_lokality_norm': 'Teplianka'}
+ku_name:Liptovská Teplá obec:Liptovská Teplá okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: liptovska tepla norm_ku: liptovska tepla
+_get_nationalCadastralZoningReferences() found_ids: {'832511'}
+nationalCadastralZoningReferences: ['832511']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Teplianka
+get_geometry_of_a_geoname nazov_lokality: Teplianka
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Liptovská Teplá, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ružomberok, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.1008557, 'lon': 19.4087257, 'formatted_address': '034 83 Liptovská Teplá, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 83 Liptovská Teplá, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.42185 49.14543, 19.4224 49....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/576701/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Liptovská Teplá', 'NATIONALSI': 'SKUEV0253', 'SITETITLE_': 'Váh'}], 'CHVU': [{'parcel_label': 'Liptovská Teplá', 'NATIONALSI': 'SKCHVU050', 'SITETITLE_': 'Chočské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/576701/analysis.json...
+
+--- Časy spracovania dokumentu 576701 ---
+  download_and_text   :   0.83 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   9.44 s
+  gis_processing      :   2.49 s
+  CELKOVÝ ČAS         :  12.76 s
+------------------------------------------
+Dokument 576701 bol úspešne spracovaný.

@@ -1,0 +1,99 @@
+{
+  "cislo_konania_spisu": "16834/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-30",
+  "datum_zverejnenia": "2026-09-30",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Obec Záhorská Ves",
+  "miesto_realizacie": {
+    "kraj": "Ministerstvo",
+    "okres": "Ministerstvo",
+    "obec": "Záhorská Ves",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Záhorská Ves",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Obecný úrad Záhorská Ves, Centrum voľného času spolkov a združení, Pošta a Hasičská zbrojnica",
+    "nazov_lokality_norm": "Záhorská Ves"
+  },
+  "typ_dokumentu": "Žiadosť o povolenie výnimky zo zákazov z druhovej ochrany",
+  "kategorie_vlk": [
+    "ZIVOCICHY_USMRCOVANIE"
+  ],
+  "typ_zasahu": [
+    "odstránenie hniezd chránených živočíchov"
+  ],
+  "rozsah_zasahu": "odstránenie hniezd lastovičky domovej a belorítky obyčajnej na budovách obecného úradu, CVČ, pošty a hasičskej zbrojnice",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "lastovička domová (Hirundo rustica)",
+    "belorítka obyčajná (Delichon urbicum)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Obec Záhorská Ves žiada o povolenie výnimky na odstránenie hniezd lastovičky domovej a belorítky obyčajnej z viacerých verejných budov v obci. Ide o začiatok konania, kde verejnosť môže potvrdiť záujem o účasť do 5 pracovných dní od zverejnenia. Zásah sa realizuje v zastavanom území obce v rámci druhovej ochrany.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Záhorská Ves",
+          "NAZOV_UEV": "Horný les",
+          "KOD_UEV": "SKUEV0168"
+        },
+        {
+          "parcel_label": "Záhorská Ves",
+          "NAZOV_UEV": "Horný les",
+          "KOD_UEV": "SKUEV0168"
+        },
+        {
+          "parcel_label": "Záhorská Ves",
+          "NAZOV_UEV": "Horný les",
+          "KOD_UEV": "SKUEV0168"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Záhorská Ves",
+          "NATIONALSI": "SKUEV0168",
+          "SITETITLE_": "Horný les"
+        },
+        {
+          "parcel_label": "Záhorská Ves",
+          "NATIONALSI": "SKUEV0314",
+          "SITETITLE_": "Morava"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Záhorská Ves",
+          "NATIONALSI": "47",
+          "SITETITLE_": "NPR Horný les"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Záhorská Ves",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

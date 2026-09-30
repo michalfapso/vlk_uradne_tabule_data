@@ -1,0 +1,149 @@
+[
+  {
+    "cislo_konania_spisu": "OU-NM-OSZP-2026/014396",
+    "cislo_rozhodnutia": "OU-NM-OSZP-2026/014396-026",
+    "datum_dokumentu": "2026-09-30",
+    "datum_zverejnenia": "2026-09-30",
+    "faza_konania": "ROZHODNUTIE",
+    "ucast_v_konani": {
+      "povolena": false,
+      "lehota_na_vyjadrenie": null
+    },
+    "ziadatel_navrhovatel": "Obec Trenčianske Bohuslavice",
+    "miesto_realizacie": {
+      "kraj": "Trenčiansky kraj",
+      "okres": "Nové Mesto nad Váhom",
+      "obec": "Trenčianske Bohuslavice",
+      "katastralne_uzemia": [
+        {
+          "nazov": "Trenčianske Bohuslavice",
+          "parcely": []
+        }
+      ],
+      "lokalita_zastavane_uzemie": null,
+      "nazov_lokality": "B15 Vnútroblok, B16 Záhrada, OV6 Pod Tureckom, ZO2-3, potok Bošáčka",
+      "nazov_lokality_norm": "Turecko, Trenčianske Bohuslavice"
+    },
+    "typ_dokumentu": "Rozhodnutie zo zisťovacieho konania",
+    "kategorie_vlk": [
+      "VYSTAVBA_V_PRIRODE",
+      "INE"
+    ],
+    "typ_zasahu": [
+      "výstavba rodinných domov",
+      "občianska vybavenosť",
+      "premostenie vodného toku",
+      "zadržiavanie zrážkových vôd",
+      "zmeny územného plánu"
+    ],
+    "rozsah_zasahu": "0,5188 ha (záber poľnohospodárskej pôdy), rozvojové lokality pre bývanie a vybavenosť",
+    "typ_uzemia": [
+      "1. stupeň",
+      "3. stupeň",
+      "4. stupeň",
+      "Prírodná rezervácia Turecký vrch",
+      "Prírodná rezervácia Hájnica",
+      "Územie európskeho významu SKUEV0567 Turecký vrch",
+      "Územie európskeho významu SKUEV0805 Hájnica",
+      "NATURA 2000",
+      "regionálne biocentrum RBc 54 Turecký vrch",
+      "regionálny biokoridor Bošáčky",
+      "pásmo hygienickej ochrany II. stupňa",
+      "inundačné územie Q100",
+      "ochranné pásmo vodného toku"
+    ],
+    "je_v_chranenom_uzemi": true,
+    "dotknute_zivocichy_rastliny": [
+      "klokoč perovitý (Staphylea pinnata)",
+      "agát biely (Robinia pseudoacacia)",
+      "brehové porasty",
+      "ekotón lesa"
+    ],
+    "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/uzemny-plan-obce-trencianske-bohuslavice-zmeny-doplnky-c-2",
+    "zakony": [
+      {
+        "nazov": "o posudzovaní vplyvov na životné prostredie",
+        "cislo": "24/2006 Z.z.",
+        "paragrafy": [
+          "§ 7",
+          "§ 5",
+          "§ 53",
+          "§ 56",
+          "§ 63"
+        ]
+      },
+      {
+        "nazov": "o ochrane prírody a krajiny",
+        "cislo": "543/2002 Z.z.",
+        "paragrafy": [
+          "§ 12",
+          "§ 17"
+        ]
+      },
+      {
+        "nazov": "o vodách",
+        "cislo": "364/2004 Z.z.",
+        "paragrafy": [
+          "§ 49"
+        ]
+      },
+      {
+        "nazov": "o ochrane pred povodňami",
+        "cislo": "7/2010 Z.z.",
+        "paragrafy": [
+          "§ 6",
+          "§ 20",
+          "§ 37",
+          "§ 10",
+          "§ 8"
+        ]
+      },
+      {
+        "nazov": "o civilnom letectve (letecký zákon)",
+        "cislo": "143/1998 Z.z.",
+        "paragrafy": [
+          "§ 28",
+          "§ 30"
+        ]
+      },
+      {
+        "nazov": "o ochrane pamiatkového fondu",
+        "cislo": "49/2002 Z.z.",
+        "paragrafy": [
+          "§ 30",
+          "§ 41"
+        ]
+      }
+    ],
+    "zhrnutie": "Okresný úrad rozhodol, že Zmeny a doplnky č. 2 Územného plánu obce Trenčianske Bohuslavice sa nebudú ďalej posudzovať podľa zákona EIA/SEA. Strategický dokument rieši výstavbu rodinných domov a rozšírenie občianskej vybavenosti na celkovej ploche 0,51 ha v blízkosti významných chránených území (PR Turecký vrch a Hájnica) a v inundačnom území toku Bošáčka. Úrad stanovil 17 podmienok, ktoré zahŕňajú zákaz vyrubovania ekotónu lesa, ochranu klokoča perovitého, rešpektovanie ochranných pásiem vodných zdrojov a protipovodňovú ochranu.",
+    "gis": {
+      "zasiahnute_chranene_uzemia": {
+        "UEV": [
+          {
+            "parcel_label": "Trenčianske Bohuslavice",
+            "NATIONALSI": "SKUEV0567",
+            "SITETITLE_": "Turecký vrch"
+          },
+          {
+            "parcel_label": "Trenčianske Bohuslavice",
+            "NATIONALSI": "SKUEV0805",
+            "SITETITLE_": "Hájnica"
+          }
+        ],
+        "MCHU": [
+          {
+            "parcel_label": "Trenčianske Bohuslavice",
+            "NATIONALSI": "179",
+            "SITETITLE_": "PR Turecký vrch"
+          },
+          {
+            "parcel_label": "Trenčianske Bohuslavice",
+            "NATIONALSI": "42",
+            "SITETITLE_": "PR Hájnica"
+          }
+        ]
+      },
+      "source_type": "KATASTRALNE_UZEMIE"
+    }
+  }
+]

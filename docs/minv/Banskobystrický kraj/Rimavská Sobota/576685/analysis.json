@@ -1,0 +1,114 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2026/018681",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-25",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": "Martinová, Dubovec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Martinová",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "206",
+              "207",
+              "208",
+              "202",
+              "204"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dubovec",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "974/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "stromoradie",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstránenie poškodených stromov"
+  ],
+  "rozsah_zasahu": "16 ks topoľov",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "topole"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "47 ods. 3",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania na výrub 16 topoľov poškodených veternou smršťou v katastrálnych územiach Martinová a Dubovec. Dreviny sú poškodené a nestabilné, čo predstavuje riziko pre osoby a poľnohospodársku techniku. Verejnosť sa môže prihlásiť do konania v lehote 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "202",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        },
+        {
+          "parcel_label": "204",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        },
+        {
+          "parcel_label": "207",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        },
+        {
+          "parcel_label": "208",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        },
+        {
+          "parcel_label": "206",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        },
+        {
+          "parcel_label": "974/2",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-11",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenské elektrárne, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Piešťany",
+    "obec": "Pečeňady",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pečeňady",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "179/27",
+              "199/1",
+              "179/20",
+              "179/21"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "pri elektrárni Jaslovské Bohunice",
+    "nazov_lokality_norm": "Jaslovské Bohunice"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o začatí zisťovacieho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "výstavba novej administratívnej budovy",
+    "parkovisko",
+    "oddychová zóna",
+    "prístrešok pre bicykle",
+    "skladové priestory",
+    "trafostanica"
+  ],
+  "rozsah_zasahu": "administratívna budova s parkoviskom a infraštruktúrou",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "24",
+        "18",
+        "3",
+        "56",
+        "29",
+        "30",
+        "64",
+        "38"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025",
+      "paragrafy": [
+        "60",
+        "65",
+        "67"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "21"
+      ]
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015",
+      "paragrafy": [
+        "178"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí zisťovacieho konania (EIA) pre výstavbu novej administratívnej budovy Slovenských elektrární v katastrálnom území Pečeňady. Projekt zahŕňa administratívny objekt, parkovisko a trafostanicu v blízkosti areálu elektrárne. Dokument nešpecifikuje, či sa lokalita nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

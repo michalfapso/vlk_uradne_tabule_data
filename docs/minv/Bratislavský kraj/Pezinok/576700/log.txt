@@ -1,0 +1,96 @@
+[2026-09-30 21:43:56] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576700'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576700/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576700/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 48 ods. 5 písm. c)' zákona '364/2004 Z. z. o vodách v znení  neskorších predpisov.    Periodická údržba vodných tokov v nevyhnutnom rozsahu sa bude vykonávať v  nasledovných loka'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'a) vydá súhlasné stanovisko k oznámenému výrubu,   b) výrub obmedzí, zakáže alebo určí podmienky jeho uskutočnenia, ak si to vyžadujú záujmy  ochrany'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576700/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013341}
+LLM_tokens: {"input": 6192, "output": 3415, "total": 9607, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576700/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576700/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Budmerice', 'katastralne_uzemia': [{'nazov': 'Budmerice', 'parcely': []}, {'nazov': 'Častá', 'parcely': []}, {'nazov': 'Píla', 'parcely': []}, {'nazov': 'Doľany', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodný tok Gidra, Štefanovský, Ebingerov, Podhájsky, VN Budmerice', 'nazov_lokality_norm': 'Gidra, Štefanovský, Ebingerov, Podhájsky, Budmerice'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Budmerice', 'katastralne_uzemia': [{'nazov': 'Budmerice', 'parcely': []}, {'nazov': 'Častá', 'parcely': []}, {'nazov': 'Píla', 'parcely': []}, {'nazov': 'Doľany', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodný tok Gidra, Štefanovský, Ebingerov, Podhájsky, VN Budmerice', 'nazov_lokality_norm': 'Gidra, Štefanovský, Ebingerov, Podhájsky, Budmerice'}
+ku_name:Budmerice obec:Budmerice okres:Pezinok kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: budmerice norm_ku: budmerice
+_get_nationalCadastralZoningReferences() found_ids: {'807265'}
+nationalCadastralZoningReferences: ['807265']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Častá obec:Budmerice okres:Pezinok kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: budmerice norm_ku: casta
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: None norm_ku: casta
+_get_nationalCadastralZoningReferences() found_ids: {'808814'}
+nationalCadastralZoningReferences: ['808814']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Píla obec:Budmerice okres:Pezinok kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: budmerice norm_ku: pila
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: None norm_ku: pila
+_get_nationalCadastralZoningReferences() found_ids: {'846554'}
+nationalCadastralZoningReferences: ['846554']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.20 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Doľany obec:Budmerice okres:Pezinok kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: budmerice norm_ku: dolany
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: None norm_ku: dolany
+_get_nationalCadastralZoningReferences() found_ids: {'811483'}
+nationalCadastralZoningReferences: ['811483']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.35 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Gidra, Štefanovský, Ebingerov, Podhájsky, Budmerice
+get_geometry_of_a_geoname nazov_lokality: Gidra, Štefanovský, Ebingerov, Podhájsky, Budmerice
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Štefanovský, Ebingerov, Podhájsky, Budmerice, Budmerice, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Štefanovský, Ebingerov, Podhájsky, Budmerice, Pezinok, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Štefanovský, Ebingerov, Podhájsky, Budmerice, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Štefanovský, Ebingerov, Podhájsky, Budmerice, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.3565067, 'lon': 17.4093648, 'formatted_address': '900 86 Budmerice, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 86 Budmerice, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.3891 48.38831, 17.3892 48.3...
+1  CadastralZoning  ...  MULTIPOLYGON (((17.29362 48.43812, 17.29631 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((17.31443 48.39925, 17.31445 48...
+3  CadastralZoning  ...  MULTIPOLYGON (((17.31051 48.45627, 17.31081 48...
+
+[4 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576700/gis.geojson...
+Intersections with protected areas...
+Found 8 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 4 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Budmerice', 'NAZOV_UEV': 'Lindava', 'KOD_UEV': 'SKUEV0174'}, {'parcel_label': 'Budmerice', 'NAZOV_UEV': 'Lindava', 'KOD_UEV': 'SKUEV0174'}, {'parcel_label': 'Budmerice', 'NAZOV_UEV': 'Lindava', 'KOD_UEV': 'SKUEV0174'}, {'parcel_label': 'Budmerice', 'NAZOV_UEV': 'Lindava', 'KOD_UEV': 'SKUEV0174'}, {'parcel_label': 'Budmerice', 'NAZOV_UEV': 'Lindava', 'KOD_UEV': 'SKUEV0174'}, {'parcel_label': 'Budmerice', 'NAZOV_UEV': 'Lindava', 'KOD_UEV': 'SKUEV0174'}, {'parcel_label': 'Budmerice', 'NAZOV_UEV': 'Lindava', 'KOD_UEV': 'SKUEV0174'}, {'parcel_label': 'Budmerice', 'NAZOV_UEV': 'Lindava', 'KOD_UEV': 'SKUEV0174'}], 'UEV': [{'parcel_label': 'Budmerice', 'NATIONALSI': 'SKUEV0174', 'SITETITLE_': 'Lindava'}, {'parcel_label': 'Častá', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}, {'parcel_label': 'Doľany', 'NATIONALSI': 'SKUEV0267', 'SITETITLE_': 'Biele hory'}], 'MCHU': [{'parcel_label': 'Budmerice', 'NATIONALSI': '91', 'SITETITLE_': 'PR Lindava'}, {'parcel_label': 'Budmerice', 'NATIONALSI': '796', 'SITETITLE_': 'PR Alúvium Gidry'}, {'parcel_label': 'Častá', 'NATIONALSI': '41', 'SITETITLE_': 'NPR Hajdúchy'}], 'CHVU': [{'parcel_label': 'Budmerice', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': 'Častá', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': 'Píla', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': 'Doľany', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/576700/analysis.json...
+
+--- Časy spracovania dokumentu 576700 ---
+  download_and_text   :   0.76 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  14.32 s
+  gis_processing      :   3.30 s
+  CELKOVÝ ČAS         :  18.39 s
+------------------------------------------
+Dokument 576700 bol úspešne spracovaný.

@@ -1,0 +1,68 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-22",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "BIOHEM a. s.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Záblatie",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "815/83",
+              "815/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "k. ú. Záblatie",
+    "nazov_lokality_norm": "Záblatie"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania na vydanie súhlasu na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "výstavba Zdravotné stredisko"
+  ],
+  "rozsah_zasahu": "5 ks drevín (topoľ osikový)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "topoľ osikový"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82 ods. 7",
+        "47 ods. 3",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o vydanie súhlasu na výrub 5 ks topoľov osikových v katastrálnom území Záblatie (Trenčín) z dôvodu zlého zdravotného stavu a kolízie s plánovanou výstavbou zdravotného strediska. Činnosť sa realizuje v extraviláne a text neuvádza príslušnosť k chránenému územiu.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

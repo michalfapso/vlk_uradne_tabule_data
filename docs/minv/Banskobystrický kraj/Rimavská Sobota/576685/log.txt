@@ -1,0 +1,63 @@
+[2026-09-30 21:40:27] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/576685'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/576685/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/576685/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/576685/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0132545}
+LLM_tokens: {"input": 5419, "output": 3515, "total": 8934, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/576685/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/576685/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Martinová, Dubovec', 'katastralne_uzemia': [{'nazov': 'Martinová', 'parcely': [{'typ': 'E', 'cisla': ['206', '207', '208', '202', '204']}]}, {'nazov': 'Dubovec', 'parcely': [{'typ': 'E', 'cisla': ['974/2']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'stromoradie', 'nazov_lokality_norm': None}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Rimavská Sobota', 'obec': 'Martinová, Dubovec', 'katastralne_uzemia': [{'nazov': 'Martinová', 'parcely': [{'typ': 'E', 'cisla': ['206', '207', '208', '202', '204']}]}, {'nazov': 'Dubovec', 'parcely': [{'typ': 'E', 'cisla': ['974/2']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'stromoradie', 'nazov_lokality_norm': None}
+ku_name:Martinová obec:Martinová, Dubovec okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: martinova norm_ku: martinova
+_get_nationalCadastralZoningReferences() found_ids: {'836346'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: dubovec norm_ku: martinova
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: martinova
+_get_nationalCadastralZoningReferences() found_ids: {'836346'}
+nationalCadastralZoningReferences: ['836346']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.97 s
+ku_name:Dubovec obec:Martinová, Dubovec okres:Rimavská Sobota kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: martinova norm_ku: dubovec
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: None norm_ku: dubovec
+_get_nationalCadastralZoningReferences() found_ids: {'813389'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: rimavska sobota norm_obec: dubovec norm_ku: dubovec
+_get_nationalCadastralZoningReferences() found_ids: {'813389'}
+nationalCadastralZoningReferences: ['813389']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.70 s
+nazov_lokality: stromoradie
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1270'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1270'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1270'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1270'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.1270'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.1106'}
+
+[6 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/576685/gis.geojson...
+Intersections with protected areas...
+Found 6 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': '202', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': '204', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': '207', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': '208', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': '206', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}, {'parcel_label': '974/2', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Rimavská Sobota/576685/analysis.json...
+
+--- Časy spracovania dokumentu 576685 ---
+  download_and_text   :   1.20 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  15.39 s
+  gis_processing      :   7.04 s
+  CELKOVÝ ČAS         :  23.65 s
+------------------------------------------
+Dokument 576685 bol úspešne spracovaný.

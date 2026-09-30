@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": "OU-RK-OSZP-2026/012454",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-09-30",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š.p., OZ Povodie horného Váhu Ružomberok",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Ružomberok",
+    "obec": "Liptovská Teplá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Liptovská Teplá",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "tok rieky Teplianka (rkm 1,000 - 1,400)",
+    "nazov_lokality_norm": "Teplianka"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "údržba vodného toku"
+  ],
+  "rozsah_zasahu": "100 m2 kríkov + 20 ks stromov s obvodom do 40 cm",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznámil výrub 100 m2 kríkov a 20 stromov rastúcich v prietočnom profile toku Teplianka v k.ú. Liptovská Teplá. Účelom zásahu je údržba a zabezpečenie plynulého odtoku vody. Keďže ide o oznámenie podľa § 47 ods. 7, na konanie sa nevzťahujú všeobecné predpisy o správnom konaní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Liptovská Teplá",
+          "NATIONALSI": "SKUEV0253",
+          "SITETITLE_": "Váh"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Liptovská Teplá",
+          "NATIONALSI": "SKCHVU050",
+          "SITETITLE_": "Chočské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}
