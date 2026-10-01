@@ -1,0 +1,80 @@
+[2026-10-01 22:13:12] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/576723'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/576723/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/576723/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/576723/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012078499999999999}
+LLM_tokens: {"input": 5077, "output": 3180, "total": 8257, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 53 column 1 (char 1569)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00989765}
+LLM_tokens: {"input": 5077, "output": 2755, "total": 7832, "cached": 2013}
+Pokus 2 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 53 column 1 (char 1604)
+Pokus o LLM analýzu 3/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01328765}
+LLM_tokens: {"input": 5077, "output": 3885, "total": 8962, "cached": 2013}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/576723/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/576723/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Revúca', 'obec': 'Závadka nad Hronom', 'katastralne_uzemia': [{'nazov': 'Závadka nad Hronom', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'lesný celok Závadka nad Hronom, Národný park Muránska planina', 'nazov_lokality_norm': 'Muránska planina'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Revúca', 'obec': 'Závadka nad Hronom', 'katastralne_uzemia': [{'nazov': 'Závadka nad Hronom', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'lesný celok Závadka nad Hronom, Národný park Muránska planina', 'nazov_lokality_norm': 'Muránska planina'}
+ku_name:Závadka nad Hronom obec:Závadka nad Hronom okres:Revúca kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: revuca norm_obec: zavadka nad hronom norm_ku: zavadka nad hronom
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: revuca norm_obec: None norm_ku: zavadka nad hronom
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: zavadka nad hronom
+_get_nationalCadastralZoningReferences() found_ids: {'872563'}
+nationalCadastralZoningReferences: ['872563']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.39 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Muránska planina
+get_geometry_of_a_geoname nazov_lokality: Muránska planina
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** planina, Závadka nad Hronom, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** planina, Revúca, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.82808 48.66207, 19.82815 48.6589,...  ...  Muránska planina, okres Revúca, Banskobystrick...
+
+[1 rows x 11 columns]
+geoname_query: Muránska planina, Revúca, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.9227 48.90841, 19.92387 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.82808 48.66207, 19.82815 48.6589,...  ...  Muránska planina, okres Revúca, Banskobystrick...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/576723/gis.geojson...
+Intersections with protected areas...
+Found 31 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Závadka nad Hronom', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}], 'UEV': [{'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKUEV0225', 'SITETITLE_': 'Muránska planina'}], 'CHVU': [{'parcel_label': 'Závadka nad Hronom', 'NATIONALSI': 'SKCHVU017', 'SITETITLE_': 'Muránska planina - Stolica'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/576723/analysis.json...
+
+--- Časy spracovania dokumentu 576723 ---
+  download_and_text   :   1.22 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  42.57 s
+  gis_processing      :   1.42 s
+  CELKOVÝ ČAS         :  45.22 s
+------------------------------------------
+Dokument 576723 bol úspešne spracovaný.

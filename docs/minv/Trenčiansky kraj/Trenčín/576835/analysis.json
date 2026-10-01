@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-30",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "FO",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Drietoma",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Drietoma",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2258/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania na vydanie súhlasu na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 6 ks drevín druhu smrek"
+  ],
+  "rozsah_zasahu": "6 ks drevín (smrek)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "smrek"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "82"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci výrubu 6 ks smrekov v obci Drietoma na parcele C 2258/2 mimo zastavaného územia z dôvodu ohrozenia chaty. Verejnosť môže písomne oznámiť záujem o účasť v konaní do 5 pracovných dní od zverejnenia dokumentu.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

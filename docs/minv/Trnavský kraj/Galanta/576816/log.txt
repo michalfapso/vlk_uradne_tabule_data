@@ -1,0 +1,73 @@
+[2026-10-01 22:18:48] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576816'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576816/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576816/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576816/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0117}
+LLM_tokens: {"input": 5190, "output": 3035, "total": 8225, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576816/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576816/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Sereď', 'katastralne_uzemia': [{'nazov': 'Sereď', 'parcely': []}, {'nazov': 'Vinohrady nad Váhom', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo elektrického vedenia 220 kV vedenia V 425 Križovany-Veľký Ďur', 'nazov_lokality_norm': 'V 425 Križovany-Veľký Ďur'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Sereď', 'katastralne_uzemia': [{'nazov': 'Sereď', 'parcely': []}, {'nazov': 'Vinohrady nad Váhom', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo elektrického vedenia 220 kV vedenia V 425 Križovany-Veľký Ďur', 'nazov_lokality_norm': 'V 425 Križovany-Veľký Ďur'}
+ku_name:Sereď obec:Sereď okres:Galanta kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: sered norm_ku: sered
+_get_nationalCadastralZoningReferences() found_ids: {'855251'}
+nationalCadastralZoningReferences: ['855251']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Vinohrady nad Váhom obec:Sereď okres:Galanta kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: sered norm_ku: vinohrady nad vahom
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: None norm_ku: vinohrady nad vahom
+_get_nationalCadastralZoningReferences() found_ids: {'869546'}
+nationalCadastralZoningReferences: ['869546']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: V 425 Križovany-Veľký Ďur
+get_geometry_of_a_geoname nazov_lokality: V 425 Križovany-Veľký Ďur
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 425 Križovany-Veľký Ďur, Sereď, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 425 Križovany-Veľký Ďur, Galanta, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 425 Križovany-Veľký Ďur, Trnavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 425 Križovany-Veľký Ďur, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.320844, 'lon': 17.6473363, 'formatted_address': 'v, Križovany nad Dudváhom 425, 919 24 Križovany nad Dudváhom, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Križovany nad Dudváhom 425, 919 24 Križovany nad Dudváhom, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.73005 48.32262, 17.73052 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((17.75851 48.34059, 17.75854 48...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576816/gis.geojson...
+Intersections with protected areas...
+Found 4 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Vinohrady nad Váhom', 'NAZOV_UEV': 'Dubník', 'KOD_UEV': 'SKUEV0074'}, {'parcel_label': 'Vinohrady nad Váhom', 'NAZOV_UEV': 'Dubník', 'KOD_UEV': 'SKUEV0074'}, {'parcel_label': 'Vinohrady nad Váhom', 'NAZOV_UEV': 'Dubník', 'KOD_UEV': 'SKUEV0074'}, {'parcel_label': 'Vinohrady nad Váhom', 'NAZOV_UEV': 'Dubník', 'KOD_UEV': 'SKUEV0074'}], 'UEV': [{'parcel_label': 'Vinohrady nad Váhom', 'NATIONALSI': 'SKUEV0074', 'SITETITLE_': 'Dubník'}], 'MCHU': [{'parcel_label': 'Sereď', 'NATIONALSI': '971', 'SITETITLE_': 'CHA Seredsky park'}, {'parcel_label': 'Vinohrady nad Váhom', 'NATIONALSI': '39', 'SITETITLE_': 'NPR Dubník'}], 'CHVU': [{'parcel_label': 'Sereď', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576816/analysis.json...
+
+--- Časy spracovania dokumentu 576816 ---
+  download_and_text   :   0.94 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.33 s
+  gis_processing      :   4.85 s
+  CELKOVÝ ČAS         :  18.13 s
+------------------------------------------
+Dokument 576816 bol úspešne spracovaný.

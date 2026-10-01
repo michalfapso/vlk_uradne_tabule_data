@@ -1,0 +1,130 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Liptovský Mikuláš",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Liptovský Mikuláš",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "11"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Okoličné",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "22"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Beňadíková",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "27",
+              "103",
+              "106"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Uhorská Ves",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "103"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Liptovský Ján",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "107"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Závadná Poruba",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "112"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "vedenie 110 kV č.7721/7722 TR: LIPTOVSKÝ MIKULÁŠ - ZÁVÄZNÁ PORUBA",
+    "nazov_lokality_norm": "Liptovský Mikuláš - Závažná Poruba"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "nevyhnutný výrub náletových drevín",
+    "odstraňovanie stromov a iných porastov"
+  ],
+  "rozsah_zasahu": "ochranné pásmo 15m od krajného vodiča na obe strany",
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "náletové dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "19",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Spoločnosť ENZA s.r.o. oznamuje plánovaný výrub náletových drevín v ochrannom pásme 110 kV elektrického vedenia medzi Liptovským Mikulášom a Závažnou Porubou. Výrub sa dotkne šiestich katastrálnych území v období od októbra do decembra 2026. Zásah je odôvodnený bezpečnosťou energetického zariadenia v zmysle zákona o energetike.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

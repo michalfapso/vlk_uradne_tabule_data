@@ -1,0 +1,106 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2026/111693",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-01",
+  "datum_zverejnenia": "2026-10-01",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 09.10.2026"
+  },
+  "ziadatel_navrhovatel": "Martin Botík",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Lošonec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lošonec",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "1 ks smrek",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "smrek"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82",
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu jedného kusa smreka v katastrálnom území Lošonec. Žiadateľom je Martin Botík a lehota na potvrdenie záujmu byť účastníkom konania je stanovená do 9. októbra 2026. Dokument neuvádza, či sa drevina nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Lošonec",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        },
+        {
+          "parcel_label": "Lošonec",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        },
+        {
+          "parcel_label": "Lošonec",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        },
+        {
+          "parcel_label": "Lošonec",
+          "NAZOV_UEV": "Biele hory",
+          "KOD_UEV": "SKUEV0267"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Lošonec",
+          "NATIONALSI": "SKUEV0267",
+          "SITETITLE_": "Biele hory"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Lošonec",
+          "NATIONALSI": "1013",
+          "SITETITLE_": "PR Klokoč"
+        },
+        {
+          "parcel_label": "Lošonec",
+          "NATIONALSI": "1015",
+          "SITETITLE_": "PR Čierna skala"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Lošonec",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

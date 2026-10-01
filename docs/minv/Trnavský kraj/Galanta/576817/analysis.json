@@ -1,0 +1,147 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-22",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "RENAS s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Galanta",
+    "obec": "Sereď",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sereď",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "4-302",
+              "4-292/1",
+              "4-307",
+              "4-308",
+              "4-321",
+              "4-328",
+              "4-329",
+              "4-330",
+              "4-331",
+              "4-332",
+              "4-339",
+              "4-333",
+              "4-334",
+              "4-335",
+              "4-336",
+              "4-337",
+              "4-338",
+              "4-377",
+              "4-361",
+              "4-362",
+              "4-364",
+              "4-365"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "4808",
+              "3827/5",
+              "4966",
+              "4974",
+              "4975",
+              "4045",
+              "4236",
+              "4139",
+              "4983",
+              "4228",
+              "5627",
+              "3768",
+              "3952",
+              "4041",
+              "5341",
+              "4984",
+              "3682",
+              "4829",
+              "4951",
+              "4950",
+              "4049"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Vinohrady nad Váhom",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "5037",
+              "5038",
+              "5039",
+              "4459",
+              "4355",
+              "4456",
+              "4460"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "3058",
+              "4927",
+              "2227",
+              "2249",
+              "2250"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo 400 kV vedenia V425 Križovany – Veľký Ďur",
+    "nazov_lokality_norm": "V425 Križovany – Veľký Ďur"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub",
+    "odstránenie a oklieštenie stromov a iných porastov",
+    "použitie lesnej frézy"
+  ],
+  "rozsah_zasahu": "ochranné pásmo 400 kV vedenia, 26 parciel",
+  "typ_uzemia": [
+    "ochranné pásmo energetických zariadení",
+    "ochranné pásmo 400 kV vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 7",
+        "47 ods. 3"
+      ]
+    },
+    {
+      "nazov": "zákon o energetike",
+      "cislo": "251/2012 Z. z.",
+      "paragrafy": [
+        "11 ods. 1"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a oklieštení drevín v ochrannom pásme 400 kV elektrického vedenia V425 v k.ú. Sereď a Vinohrady nad Váhom. Zásah bude realizovaný v mimovegetačnom období pomocou lesnej frézy a ručným výrubom z dôvodu bezpečnosti energetických zariadení.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

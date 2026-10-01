@@ -1,0 +1,78 @@
+[2026-10-01 22:17:27] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576716'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576716/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576716/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a  doplnení niektorých zákonov, ako príslušný orgán štátnej vodnej správ'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej  rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976  Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84' zákona 'stavebného zákona č.  25/2025 Z. z. a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 1' zákona 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona  a súčasne nariaďuje na prejednanie predloženej žiadosti ústne konanie     na deň  28. októbra 2026'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 6' zákona 'stavebného zákona sa má za to, že ich  stanovisko je kladné.    Ak sa nechá niektorý z účastníkov konania zastupovať, jeho zástupca musí predložiť pís'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0127715}
+LLM_tokens: {"input": 7489, "output": 3009, "total": 10498, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576716/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576716/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Šaľa', 'obec': 'Šaľa', 'katastralne_uzemia': [{'nazov': 'Šaľa', 'parcely': [{'typ': 'E', 'cisla': ['2678/400', '2674/400', '2675/400', '2668/401', '2669/401', '2681/400', '2680/402', '2666/400', '2673/400', '2680/401', '2679/400', '2667/400', '2664/401', '2665/400', '2671/400', '2672/400', '2676/400', '2677/400']}, {'typ': 'C', 'cisla': ['5181/167', '5181/168', '5181/169', '5181/182', '5181/184', '5181/185', '5181/186']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Areál roľníckeho družstva', 'nazov_lokality_norm': 'Roľnícke družstvo, Šaľa'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Šaľa', 'obec': 'Šaľa', 'katastralne_uzemia': [{'nazov': 'Šaľa', 'parcely': [{'typ': 'E', 'cisla': ['2678/400', '2674/400', '2675/400', '2668/401', '2669/401', '2681/400', '2680/402', '2666/400', '2673/400', '2680/401', '2679/400', '2667/400', '2664/401', '2665/400', '2671/400', '2672/400', '2676/400', '2677/400']}, {'typ': 'C', 'cisla': ['5181/167', '5181/168', '5181/169', '5181/182', '5181/184', '5181/185', '5181/186']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Areál roľníckeho družstva', 'nazov_lokality_norm': 'Roľnícke družstvo, Šaľa'}
+ku_name:Šaľa obec:Šaľa okres:Šaľa kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: sala norm_obec: sala norm_ku: sala
+_get_nationalCadastralZoningReferences() found_ids: {'860182'}
+nationalCadastralZoningReferences: ['860182']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.13 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.07 s
+nazov_lokality: Roľnícke družstvo, Šaľa
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.384'}
+
+[25 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576716/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/576716/analysis.json...
+
+--- Časy spracovania dokumentu 576716 ---
+  download_and_text   :   2.16 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.56 s
+  gis_processing      :   7.42 s
+  CELKOVÝ ČAS         :  20.15 s
+------------------------------------------
+Dokument 576716 bol úspešne spracovaný.

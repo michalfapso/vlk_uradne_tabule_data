@@ -1,0 +1,79 @@
+[2026-10-01 22:19:06] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576817'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576817/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0010856}
+LLM_tokens: {"input": 1366, "output": 2695, "total": 4061, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576817/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1' zákona '251/2012 Z. z. o energetike a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§11' zákona 'o energetike  poveruje spoločnosť  RENAS s.r.o. Rérová 7 811 02 Bratislava  výkonom činnosti súvisiacich s výrubom porastov podľa ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1' zákona 'o energetike v rozsahu stanovenom v Rámcovej dohode č. 2022-0032-11210.  V279 Križovany - Šaľa, V045 EMO - Veľký Ďur, V047 EMO - Veľký Ďur, V048 EMO -'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576817/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013988}
+LLM_tokens: {"input": 6946, "output": 3505, "total": 10451, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576817/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576817/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Sereď', 'katastralne_uzemia': [{'nazov': 'Sereď', 'parcely': [{'typ': 'E', 'cisla': ['4-302', '4-292/1', '4-307', '4-308', '4-321', '4-328', '4-329', '4-330', '4-331', '4-332', '4-339', '4-333', '4-334', '4-335', '4-336', '4-337', '4-338', '4-377', '4-361', '4-362', '4-364', '4-365']}, {'typ': 'C', 'cisla': ['4808', '3827/5', '4966', '4974', '4975', '4045', '4236', '4139', '4983', '4228', '5627', '3768', '3952', '4041', '5341', '4984', '3682', '4829', '4951', '4950', '4049']}]}, {'nazov': 'Vinohrady nad Váhom', 'parcely': [{'typ': 'E', 'cisla': ['5037', '5038', '5039', '4459', '4355', '4456', '4460']}, {'typ': 'C', 'cisla': ['3058', '4927', '2227', '2249', '2250']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 400 kV vedenia V425 Križovany – Veľký Ďur', 'nazov_lokality_norm': 'V425 Križovany – Veľký Ďur'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Sereď', 'katastralne_uzemia': [{'nazov': 'Sereď', 'parcely': [{'typ': 'E', 'cisla': ['4-302', '4-292/1', '4-307', '4-308', '4-321', '4-328', '4-329', '4-330', '4-331', '4-332', '4-339', '4-333', '4-334', '4-335', '4-336', '4-337', '4-338', '4-377', '4-361', '4-362', '4-364', '4-365']}, {'typ': 'C', 'cisla': ['4808', '3827/5', '4966', '4974', '4975', '4045', '4236', '4139', '4983', '4228', '5627', '3768', '3952', '4041', '5341', '4984', '3682', '4829', '4951', '4950', '4049']}]}, {'nazov': 'Vinohrady nad Váhom', 'parcely': [{'typ': 'E', 'cisla': ['5037', '5038', '5039', '4459', '4355', '4456', '4460']}, {'typ': 'C', 'cisla': ['3058', '4927', '2227', '2249', '2250']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 400 kV vedenia V425 Križovany – Veľký Ďur', 'nazov_lokality_norm': 'V425 Križovany – Veľký Ďur'}
+ku_name:Sereď obec:Sereď okres:Galanta kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: sered norm_ku: sered
+_get_nationalCadastralZoningReferences() found_ids: {'855251'}
+nationalCadastralZoningReferences: ['855251']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.14 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'E', 'cisla': ['4-302', '4-292/1', '4-307', '4-308', '4-321', '4-328', '4-329', '4-330', '4-331', '4-332', '4-339', '4-333', '4-334', '4-335', '4-336', '4-337', '4-338', '4-377', '4-361', '4-362', '4-364', '4-365']}' v KU 'Sereď' sa nenašli dáta.
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.49 s
+ku_name:Vinohrady nad Váhom obec:Sereď okres:Galanta kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: sered norm_ku: vinohrady nad vahom
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: None norm_ku: vinohrady nad vahom
+_get_nationalCadastralZoningReferences() found_ids: {'869546'}
+nationalCadastralZoningReferences: ['869546']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.60 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.75 s
+nazov_lokality: V425 Križovany – Veľký Ďur
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1735'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1735'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1735'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1735'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1735'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1735'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1735'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1735'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1735'}
+
+[13 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576817/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/576817/analysis.json...
+
+--- Časy spracovania dokumentu 576817 ---
+  download_and_text   :  15.23 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.73 s
+  gis_processing      :  14.21 s
+  CELKOVÝ ČAS         :  44.17 s
+------------------------------------------
+Dokument 576817 bol úspešne spracovaný.

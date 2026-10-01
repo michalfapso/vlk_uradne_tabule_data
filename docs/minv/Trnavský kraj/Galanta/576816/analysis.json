@@ -1,0 +1,109 @@
+{
+  "cislo_konania_spisu": "OU-GA-OSZP-2026/018686-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-01",
+  "datum_zverejnenia": "2026-10-01",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "RENAS, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Galanta",
+    "obec": "Sereď",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Sereď",
+        "parcely": []
+      },
+      {
+        "nazov": "Vinohrady nad Váhom",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo elektrického vedenia 220 kV vedenia V 425 Križovany-Veľký Ďur",
+    "nazov_lokality_norm": "V 425 Križovany-Veľký Ďur"
+  },
+  "typ_dokumentu": "Upovedomenie o zverejnení oznámenia na výrub a orez drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "orez drevín"
+  ],
+  "rozsah_zasahu": "v ochrannom pásme p. b. č. 20 - 21, 21 - 22",
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    }
+  ],
+  "zhrnutie": "Spoločnosť RENAS, s.r.o. oznámila vykonávanie výrubu a orezu drevín v ochrannom pásme 220 kV elektrického vedenia V 425 v katastrálnych územiach Sereď a Vinohrady nad Váhom. Zásah je odôvodnený bezpečnosťou a bezporuchovosťou siete pre objednávateľa SEPS, a.s. a má byť realizovaný do 31. 01. 2027.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Vinohrady nad Váhom",
+          "NAZOV_UEV": "Dubník",
+          "KOD_UEV": "SKUEV0074"
+        },
+        {
+          "parcel_label": "Vinohrady nad Váhom",
+          "NAZOV_UEV": "Dubník",
+          "KOD_UEV": "SKUEV0074"
+        },
+        {
+          "parcel_label": "Vinohrady nad Váhom",
+          "NAZOV_UEV": "Dubník",
+          "KOD_UEV": "SKUEV0074"
+        },
+        {
+          "parcel_label": "Vinohrady nad Váhom",
+          "NAZOV_UEV": "Dubník",
+          "KOD_UEV": "SKUEV0074"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Vinohrady nad Váhom",
+          "NATIONALSI": "SKUEV0074",
+          "SITETITLE_": "Dubník"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Sereď",
+          "NATIONALSI": "971",
+          "SITETITLE_": "CHA Seredsky park"
+        },
+        {
+          "parcel_label": "Vinohrady nad Váhom",
+          "NATIONALSI": "39",
+          "SITETITLE_": "NPR Dubník"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Sereď",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}
