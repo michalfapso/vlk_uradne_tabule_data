@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "place_id": 185139754, "osm_type": "way", "osm_id": 81005424, "place_rank": 25, "category": "boundary", "type": "protected_area", "importance": 0.066720049591821165, "addresstype": "protected_area", "name": "Hričovská skalná ihla", "display_name": "Hričovská skalná ihla, Hričovské Podhradie, okres Žilina, Žilinský kraj, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 18.6137188, 49.2208405 ], [ 18.6137781, 49.2205619 ], [ 18.6139662, 49.2204642 ], [ 18.6144798, 49.2204945 ], [ 18.6146996, 49.2206863 ], [ 18.6152898, 49.2213092 ], [ 18.6159565, 49.2218686 ], [ 18.6150483, 49.2213835 ], [ 18.614537, 49.2211455 ], [ 18.6137188, 49.2208405 ] ] ] } }
+]
+}

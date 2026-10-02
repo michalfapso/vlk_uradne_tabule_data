@@ -1,0 +1,72 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-02",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÉ ŠTRKOPIESKY, s. r. o.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Peder",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Peder",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "324",
+              "326/1",
+              "325/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Ťažba pieskov Peder",
+    "nazov_lokality_norm": "Peder"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie povolenia na odkrytie hladiny podzemných vôd",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "odkrytie hladiny podzemných vôd",
+    "ťažba štrkopieskov",
+    "činnosť vykonávaná banským spôsobom"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "23"
+      ]
+    },
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "9"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o povolenie na odkrytie hladiny podzemných vôd z dôvodu plánovanej ťažby štrkopieskov v katastrálnom území Peder. Činnosť sa má realizovať na parcelách KN-C 324, 326/1 a 325/1 v rámci projektu „Ťažba pieskov Peder“. K žiadosti sú doložené hydrologické posudky a predchádzajúce súhlasné stanoviská dotknutých orgánov.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

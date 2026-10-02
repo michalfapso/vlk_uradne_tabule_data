@@ -1,0 +1,35 @@
+[2026-10-02 21:39:20] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576841'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576841/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576841/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576841/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0118125}
+LLM_tokens: {"input": 5979, "output": 2941, "total": 8920, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576841/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/576841/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': None, 'katastralne_uzemia': [{'nazov': None, 'parcely': [{'typ': 'C', 'cisla': ['1356']}, {'typ': 'E', 'cisla': ['1354', '1357']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': None, 'katastralne_uzemia': [{'nazov': None, 'parcely': [{'typ': 'C', 'cisla': ['1356']}, {'typ': 'E', 'cisla': ['1354', '1357']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:None obec:None okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (33), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 576841 ---
+  download_and_text   :   1.63 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  10.80 s
+  gis_processing      :   0.01 s
+  CELKOVÝ ČAS         :  12.44 s
+------------------------------------------
+Dokument 576841 bol úspešne spracovaný.

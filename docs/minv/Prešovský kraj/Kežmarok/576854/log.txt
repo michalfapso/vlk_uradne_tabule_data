@@ -1,0 +1,74 @@
+[2026-10-02 21:38:10] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/576854'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/576854/orig.doc
+Converting document to text...
+LibreOffice conversion stdout: convert /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/576854/orig.doc as a Writer document -> /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/576854/orig.txt using filter : Text
+
+LibreOffice conversion stderr: 
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/576854/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 33 ods. 2' zákona 'správneho zákona môžu účastníci konania svoje námietky a pripomienky uplatniť najneskôr do 06.08.2026. V rovnakej lehote oznámia svoje stanoviská i do'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/576854/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012907499999999999}
+LLM_tokens: {"input": 5613, "output": 3367, "total": 8980, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 77 column 1 (char 2267)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011886299999999999}
+LLM_tokens: {"input": 5613, "output": 3329, "total": 8942, "cached": 2016}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/576854/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/576854/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Kežmarok', 'obec': 'Stará Lesná, Spišská Stará Ves, Vojňany, Lysá nad Dunajcom, Stráňany', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'TANAP-u, PIENAP-u, cesty III/3102, II/542, II/543', 'nazov_lokality_norm': 'III/3102, II/542, II/543'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Kežmarok', 'obec': 'Stará Lesná, Spišská Stará Ves, Vojňany, Lysá nad Dunajcom, Stráňany', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'TANAP-u, PIENAP-u, cesty III/3102, II/542, II/543', 'nazov_lokality_norm': 'III/3102, II/542, II/543'}
+Fallback to OBEC: Stará Lesná, Spišská Stará Ves, Vojňany, Lysá nad Dunajcom, Stráňany
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: kezmarok norm_obec: stara lesna norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'858081'}
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: kezmarok norm_obec: spisska stara ves norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'834416', '857581'}
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: kezmarok norm_obec: vojnany norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'870048'}
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: kezmarok norm_obec: lysa nad dunajcom norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: None norm_obec: lysa nad dunajcom norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: lysa nad dunajcom norm_ku: None
+Fallback to OBEC failed: Nenašlo sa žiadne katastrálne uzemie pre zadané parametre kraj:None, okres:None, obec:Lysá nad Dunajcom, katastralneUzemie:None
+No geometries were found.
+nazov_lokality: III/3102, II/542, II/543
+get_geometry_of_a_geoname nazov_lokality: III/3102, II/542, II/543
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** II/542, II/543, Stará Lesná, Spišská Stará Ves, Vojňany, Lysá nad Dunajcom, Stráňany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** II/542, II/543, Kežmarok, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** II/542, II/543, Prešovský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** II/542, II/543, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.400091, 'lon': 20.3405916, 'formatted_address': '543, Lysá nad Dunajcom, Spišská Stará Ves, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Lysá nad Dunajcom, Spišská Stará Ves, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.31862 49.39435, 20.31897 49.39419...  ...  Lysá nad Dunajcom, Spišská Stará Ves, okres Ke...
+
+[1 rows x 11 columns]
+geoname_query: 543, Lysá nad Dunajcom, Spišská Stará Ves, Slovakia
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.31862 49.39435, 20.31897 49.39419...  ...  Lysá nad Dunajcom, Spišská Stará Ves, okres Ke...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/576854/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/576854/analysis.json...
+
+--- Časy spracovania dokumentu 576854 ---
+  download_and_text   :   2.02 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  23.97 s
+  gis_processing      :   3.41 s
+  CELKOVÝ ČAS         :  29.41 s
+------------------------------------------
+Dokument 576854 bol úspešne spracovaný.

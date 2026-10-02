@@ -1,0 +1,78 @@
+[2026-10-02 21:41:42] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576867'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576867/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576867/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576867/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010673}
+LLM_tokens: {"input": 5116, "output": 2705, "total": 7821, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576867/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576867/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': 'Kláštor pod Znievom, Vrícko', 'katastralne_uzemia': [{'nazov': 'Kláštor pod Znievom', 'parcely': []}, {'nazov': 'Vrícko', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodné plochy v k. ú. Kláštor pod Znievom a k. ú. Vrícko', 'nazov_lokality_norm': None}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': 'Kláštor pod Znievom, Vrícko', 'katastralne_uzemia': [{'nazov': 'Kláštor pod Znievom', 'parcely': []}, {'nazov': 'Vrícko', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodné plochy v k. ú. Kláštor pod Znievom a k. ú. Vrícko', 'nazov_lokality_norm': None}
+ku_name:Kláštor pod Znievom obec:Kláštor pod Znievom, Vrícko okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: klastor pod znievom norm_ku: klastor pod znievom
+_get_nationalCadastralZoningReferences() found_ids: {'824089'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: vricko norm_ku: klastor pod znievom
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: klastor pod znievom
+_get_nationalCadastralZoningReferences() found_ids: {'824089'}
+nationalCadastralZoningReferences: ['824089']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.68 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Vrícko obec:Kláštor pod Znievom, Vrícko okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: klastor pod znievom norm_ku: vricko
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: None norm_ku: vricko
+_get_nationalCadastralZoningReferences() found_ids: {'870633'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: vricko norm_ku: vricko
+_get_nationalCadastralZoningReferences() found_ids: {'870633'}
+nationalCadastralZoningReferences: ['870633']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: vodné plochy v k. ú. Kláštor pod Znievom a k. ú. Vrícko
+get_geometry_of_a_geoname nazov_lokality: vodné plochy v k. ú. Kláštor pod Znievom a k. ú. Vrícko
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** plochy v k. ú. Kláštor pod Znievom a k. ú. Vrícko, Kláštor pod Znievom, Vrícko, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** plochy v k. ú. Kláštor pod Znievom a k. ú. Vrícko, Martin, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** plochy v k. ú. Kláštor pod Znievom a k. ú. Vrícko, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** plochy v k. ú. Kláštor pod Znievom a k. ú. Vrícko, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.969594, 'lon': 18.7060683, 'formatted_address': '038 31 Vrícko, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 31 Vrícko, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.72023 49.00689, 18.72092 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.66891 48.99813, 18.66896 48...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576867/gis.geojson...
+Intersections with protected areas...
+Found 4 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 6 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Vrícko', 'NAZOV_UEV': 'Kľak', 'KOD_UEV': 'SKUEV0240'}, {'parcel_label': 'Vrícko', 'NAZOV_UEV': 'Kľak', 'KOD_UEV': 'SKUEV0240'}, {'parcel_label': 'Vrícko', 'NAZOV_UEV': 'Kľak', 'KOD_UEV': 'SKUEV0240'}, {'parcel_label': 'Vrícko', 'NAZOV_UEV': 'Kľak', 'KOD_UEV': 'SKUEV0240'}], 'UEV': [{'parcel_label': 'Kláštor pod Znievom', 'NATIONALSI': 'SKUEV0382', 'SITETITLE_': 'Turiec a Blatnický potok'}, {'parcel_label': 'Kláštor pod Znievom', 'NATIONALSI': 'SKUEV0381', 'SITETITLE_': 'Dielnice'}, {'parcel_label': 'Vrícko', 'NATIONALSI': 'SKUEV0240', 'SITETITLE_': 'Kľak'}], 'MCHU': [{'parcel_label': 'Kláštor pod Znievom', 'NATIONALSI': '458', 'SITETITLE_': 'OP NPR Turiec'}, {'parcel_label': 'Kláštor pod Znievom', 'NATIONALSI': '458', 'SITETITLE_': 'NPR Turiec'}, {'parcel_label': 'Kláštor pod Znievom', 'NATIONALSI': '305', 'SITETITLE_': 'NPR Kláštorské lúky'}, {'parcel_label': 'Vrícko', 'NATIONALSI': '1306', 'SITETITLE_': 'PR Pralesy Slovenska-Kľak'}, {'parcel_label': 'Vrícko', 'NATIONALSI': '304', 'SITETITLE_': 'NPR Kľak'}, {'parcel_label': 'Vrícko', 'NATIONALSI': '773', 'SITETITLE_': 'NPP Kľacký vodopád'}], 'CHVU': [{'parcel_label': 'Kláštor pod Znievom', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}, {'parcel_label': 'Vrícko', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/576867/analysis.json...
+
+--- Časy spracovania dokumentu 576867 ---
+  download_and_text   :   1.20 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.07 s
+  gis_processing      :   4.77 s
+  CELKOVÝ ČAS         :  16.05 s
+------------------------------------------
+Dokument 576867 bol úspešne spracovaný.

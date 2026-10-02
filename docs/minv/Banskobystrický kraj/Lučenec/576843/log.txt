@@ -1,0 +1,69 @@
+[2026-10-02 21:35:52] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/576843'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/576843/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/576843/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6' zákona '24/2006 Z.z. o posudzovaní vplyvov na životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 5' zákona '24/2006 Z.z. zverejniť a  informovať  do troch pracovných dní od doručenia tohto oznámenia podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 2' zákona '24/2006  o ňom  verejnosť formou informácie o oznámení povinne na úradnej tabuli, nepovinne miestnou tlačou,  miestnou televíziou alebo podobne'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 6' zákona '24/2006 Z.z. doručiť svoje písomné stanovisko  Okresnému úradu Lučenec, odboru starostlivosti o životné prostredie, Nám. republiky 26, 984 36  Lučenec'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 5' zákona '24/2006 Z.z.  zákona č. 24/2006 Z.z..      Stanoviská je možné doručiť na adresu:  Okresný úrad Lučenec   odbor starostlivosti o životné prostredie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 63' zákona 'je možné uskutočniť počas celého  procesu posudzovania vplyvov strategického dokumentu na Okresný úrad Lučenec,  odbor  starostlivosti o životné prost'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009068}
+LLM_tokens: {"input": 4870, "output": 2211, "total": 7081, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/576843/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/576843/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Lučenec', 'obec': 'Vidiná', 'katastralne_uzemia': [{'nazov': 'Vidiná', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Obec Vidiná', 'nazov_lokality_norm': 'Vidiná'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Lučenec', 'obec': 'Vidiná', 'katastralne_uzemia': [{'nazov': 'Vidiná', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Obec Vidiná', 'nazov_lokality_norm': 'Vidiná'}
+ku_name:Vidiná obec:Vidiná okres:Lučenec kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: lucenec norm_obec: vidina norm_ku: vidina
+_get_nationalCadastralZoningReferences() found_ids: {'869261'}
+nationalCadastralZoningReferences: ['869261']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.47 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Vidiná
+get_geometry_of_a_geoname nazov_lokality: Vidiná
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Vidiná, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.63649 48.36361, 19.6367 48.36344,...  ...  Vidiná, okres Lučenec, Banskobystrický kraj, 9...
+
+[1 rows x 11 columns]
+geoname_query: Vidiná, Vidiná, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.65128 48.38006, 19.65215 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.63649 48.36361, 19.6367 48.36344,...  ...  Vidiná, okres Lučenec, Banskobystrický kraj, 9...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/576843/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Lučenec/576843/analysis.json...
+
+--- Časy spracovania dokumentu 576843 ---
+  download_and_text   :   1.31 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   8.73 s
+  gis_processing      :   1.31 s
+  CELKOVÝ ČAS         :  11.36 s
+------------------------------------------
+Dokument 576843 bol úspešne spracovaný.

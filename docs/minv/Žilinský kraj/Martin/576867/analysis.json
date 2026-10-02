@@ -1,0 +1,142 @@
+{
+  "cislo_konania_spisu": "OU-MT-OSZP-2026/019963",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-10-02",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š. p., Povodie horného Váhu, OZ Ružomberok",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Martin",
+    "obec": "Kláštor pod Znievom, Vrícko",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kláštor pod Znievom",
+        "parcely": []
+      },
+      {
+        "nazov": "Vrícko",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "vodné plochy v k. ú. Kláštor pod Znievom a k. ú. Vrícko",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín z dôvodov podľa osobitných predpisov"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznámil plánovaný výrub drevín na vodných plochách v katastrálnych územiach Kláštor pod Znievom a Vrícko. Okresný úrad Martin k oznámeniu vydá stanovisko podľa zákona o ochrane prírody. Verejnosť sa do tohto procesu nemôže prihlásiť ako účastník konania.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Vrícko",
+          "NAZOV_UEV": "Kľak",
+          "KOD_UEV": "SKUEV0240"
+        },
+        {
+          "parcel_label": "Vrícko",
+          "NAZOV_UEV": "Kľak",
+          "KOD_UEV": "SKUEV0240"
+        },
+        {
+          "parcel_label": "Vrícko",
+          "NAZOV_UEV": "Kľak",
+          "KOD_UEV": "SKUEV0240"
+        },
+        {
+          "parcel_label": "Vrícko",
+          "NAZOV_UEV": "Kľak",
+          "KOD_UEV": "SKUEV0240"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Kláštor pod Znievom",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        },
+        {
+          "parcel_label": "Kláštor pod Znievom",
+          "NATIONALSI": "SKUEV0381",
+          "SITETITLE_": "Dielnice"
+        },
+        {
+          "parcel_label": "Vrícko",
+          "NATIONALSI": "SKUEV0240",
+          "SITETITLE_": "Kľak"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Kláštor pod Znievom",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Kláštor pod Znievom",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        },
+        {
+          "parcel_label": "Kláštor pod Znievom",
+          "NATIONALSI": "305",
+          "SITETITLE_": "NPR Kláštorské lúky"
+        },
+        {
+          "parcel_label": "Vrícko",
+          "NATIONALSI": "1306",
+          "SITETITLE_": "PR Pralesy Slovenska-Kľak"
+        },
+        {
+          "parcel_label": "Vrícko",
+          "NATIONALSI": "304",
+          "SITETITLE_": "NPR Kľak"
+        },
+        {
+          "parcel_label": "Vrícko",
+          "NATIONALSI": "773",
+          "SITETITLE_": "NPP Kľacký vodopád"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Kláštor pod Znievom",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        },
+        {
+          "parcel_label": "Vrícko",
+          "NATIONALSI": "SKCHVU013",
+          "SITETITLE_": "Malá Fatra"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}
