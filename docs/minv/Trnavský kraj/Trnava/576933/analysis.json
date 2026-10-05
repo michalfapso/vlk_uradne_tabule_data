@@ -1,0 +1,104 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP1-2026/112493-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-05",
+  "datum_zverejnenia": "2026-10-05",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 12.10.2026"
+  },
+  "ziadatel_navrhovatel": "Ústav krajinnej ekológie SAV, v. v. i.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Dunajská Streda",
+    "obec": "Dobrohošť",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Mliečno",
+        "parcely": []
+      },
+      {
+        "nazov": "Dobrohošť",
+        "parcely": []
+      },
+      {
+        "nazov": "Kyselica",
+        "parcely": []
+      },
+      {
+        "nazov": "Vojka nad Dunajom",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "účelová komunikácia pozdĺž starého ramena Dunaja medzi obcami Dobrohošť a Vojka nad Dunajom",
+    "nazov_lokality_norm": "staré rameno Dunaja"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "VJAZD_VOZIDLA"
+  ],
+  "typ_zasahu": [
+    "vjazd s motorovými vozidlami",
+    "státie s motorovými vozidlami"
+  ],
+  "rozsah_zasahu": "4 motorové vozidlá (NR 194 JV, NR 660 LX, NR 139 LY, NR 368 CX)",
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Dunajské Luhy",
+    "2. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 82 ods. 7",
+        "§ 82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Začatie správneho konania o predĺženie výnimky na vjazd a státie pre štyri motorové vozidlá Ústavu krajinnej ekológie SAV na účelovej komunikácii v extraviláne v CHKO Dunajské Luhy (2. stupeň ochrany). Konanie sa týka katastrálnych území Mliečno, Dobrohošť, Kyselica a Vojka nad Dunajom. Potvrdenie záujmu o účasť v konaní je možné zaslať do 12.10.2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Mliečno",
+          "NATIONALSI": "SKUEV0090",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "Dobrohošť",
+          "NATIONALSI": "SKUEV0090",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "Kyselica",
+          "NATIONALSI": "SKUEV0090",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Mliečno",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "Dobrohošť",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        },
+        {
+          "parcel_label": "Kyselica",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

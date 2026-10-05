@@ -1,0 +1,106 @@
+[2026-10-05 23:39:03] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/576933'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/576933/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/576933/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie písomného alebo elektronického  potvrdenia záujmu byť zúčastnenou osobou, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ', v začatom správnom  konaní je do: 12.10.2026.                      Ing. Rudolf Kormúth                         vedúci odboru              2'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/576933/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.016959000000000002}
+LLM_tokens: {"input": 5352, "output": 4761, "total": 10113, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/576933/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/576933/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Dunajská Streda', 'obec': 'Dobrohošť', 'katastralne_uzemia': [{'nazov': 'Mliečno', 'parcely': []}, {'nazov': 'Dobrohošť', 'parcely': []}, {'nazov': 'Kyselica', 'parcely': []}, {'nazov': 'Vojka nad Dunajom', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'účelová komunikácia pozdĺž starého ramena Dunaja medzi obcami Dobrohošť a Vojka nad Dunajom', 'nazov_lokality_norm': 'staré rameno Dunaja'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Dunajská Streda', 'obec': 'Dobrohošť', 'katastralne_uzemia': [{'nazov': 'Mliečno', 'parcely': []}, {'nazov': 'Dobrohošť', 'parcely': []}, {'nazov': 'Kyselica', 'parcely': []}, {'nazov': 'Vojka nad Dunajom', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'účelová komunikácia pozdĺž starého ramena Dunaja medzi obcami Dobrohošť a Vojka nad Dunajom', 'nazov_lokality_norm': 'staré rameno Dunaja'}
+ku_name:Mliečno obec:Dobrohošť okres:Dunajská Streda kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: dunajska streda norm_obec: dobrohost norm_ku: mliecno
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: dunajska streda norm_obec: None norm_ku: mliecno
+_get_nationalCadastralZoningReferences() found_ids: {'837725'}
+nationalCadastralZoningReferences: ['837725']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dobrohošť obec:Dobrohošť okres:Dunajská Streda kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: dunajska streda norm_obec: dobrohost norm_ku: dobrohost
+_get_nationalCadastralZoningReferences() found_ids: {'811343'}
+nationalCadastralZoningReferences: ['811343']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Kyselica obec:Dobrohošť okres:Dunajská Streda kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: dunajska streda norm_obec: dobrohost norm_ku: kyselica
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: dunajska streda norm_obec: None norm_ku: kyselica
+_get_nationalCadastralZoningReferences() found_ids: {'870013'}
+nationalCadastralZoningReferences: ['870013']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Vojka nad Dunajom obec:Dobrohošť okres:Dunajská Streda kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: dunajska streda norm_obec: dobrohost norm_ku: vojka nad dunajom
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: dunajska streda norm_obec: None norm_ku: vojka nad dunajom
+_get_nationalCadastralZoningReferences() found_ids: {'870021'}
+nationalCadastralZoningReferences: ['870021']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: staré rameno Dunaja
+get_geometry_of_a_geoname nazov_lokality: staré rameno Dunaja
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** rameno Dunaja, Dobrohošť, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** rameno Dunaja, Dunajská Streda, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** rameno Dunaja, Trnavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** rameno Dunaja, Slovensko
+response: <Response [200]>
+normalized: {'lat': 47.981421, 'lon': 17.3612942, 'formatted_address': '930 31 Dobrohošť, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 31 Dobrohošť, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.34651 47.98288, 17.34682 47.98255...  ...  Dobrohošť, okres Dunajská Streda, Trnavský kra...
+
+[1 rows x 11 columns]
+geoname_query: 930 31 Dobrohošť, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.32025 48.02532, 17.3208 48....
+1  CadastralZoning  ...  MULTIPOLYGON (((17.36285 48.00326, 17.36305 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((17.37103 48.0015, 17.37132 48....
+3  CadastralZoning  ...  MULTIPOLYGON (((17.39084 47.98281, 17.39094 47...
+
+[4 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.34651 47.98288, 17.34682 47.98255...  ...  Dobrohošť, okres Dunajská Streda, Trnavský kra...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/576933/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Mliečno', 'NATIONALSI': 'SKUEV0090', 'SITETITLE_': 'Dunajské luhy'}, {'parcel_label': 'Dobrohošť', 'NATIONALSI': 'SKUEV0090', 'SITETITLE_': 'Dunajské luhy'}, {'parcel_label': 'Kyselica', 'NATIONALSI': 'SKUEV0090', 'SITETITLE_': 'Dunajské luhy'}], 'CHVU': [{'parcel_label': 'Mliečno', 'NATIONALSI': 'SKCHVU007', 'SITETITLE_': 'Dunajské luhy'}, {'parcel_label': 'Dobrohošť', 'NATIONALSI': 'SKCHVU007', 'SITETITLE_': 'Dunajské luhy'}, {'parcel_label': 'Kyselica', 'NATIONALSI': 'SKCHVU007', 'SITETITLE_': 'Dunajské luhy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/576933/analysis.json...
+
+--- Časy spracovania dokumentu 576933 ---
+  download_and_text   :   2.54 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  18.56 s
+  gis_processing      :   3.58 s
+  CELKOVÝ ČAS         :  24.68 s
+------------------------------------------
+Dokument 576933 bol úspešne spracovaný.

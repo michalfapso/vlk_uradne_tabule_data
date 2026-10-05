@@ -1,0 +1,91 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2026/023555",
+  "cislo_rozhodnutia": "OU-LV-OSZP-2026/023555-002",
+  "datum_dokumentu": "2026-10-05",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "RENAS s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Levice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horša",
+        "parcely": []
+      },
+      {
+        "nazov": "Malé Krškany",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo 400 kV vedenia V426",
+    "nazov_lokality_norm": "V426"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub - odstránenie drevín v ochrannom pásme"
+  ],
+  "rozsah_zasahu": "ochranné pásmo 400 kV vedenia",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47 ods. 7",
+        "47 ods. 8",
+        "81 ods. 2 písm. m)"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a odstránení drevín v ochrannom pásme 400 kV elektrického vedenia V426. Zásah sa nachádza v extraviláne v katastrálnych územiach Horša a Malé Krškany. Oznámenie podala spoločnosť RENAS s.r.o. podľa § 47 ods. 7 zákona o ochrane prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Horša",
+          "NATIONALSI": "SKUEV0870",
+          "SITETITLE_": "Horšianska dolina"
+        },
+        {
+          "parcel_label": "Malé Krškany",
+          "NATIONALSI": "SKUEV0870",
+          "SITETITLE_": "Horšianska dolina"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Horša",
+          "NATIONALSI": "49",
+          "SITETITLE_": "NPR Horšianska dolina"
+        },
+        {
+          "parcel_label": "Malé Krškany",
+          "NATIONALSI": "49",
+          "SITETITLE_": "NPR Horšianska dolina"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-25",
+  "datum_zverejnenia": "2026-10-02",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Dolné Motešice, Púchova, Dubodiel",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolné Motešice",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "577/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Púchova",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1908/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dubodiel",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1629/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Tok Machnáč, Tok Trenčianka, Tok Inovec",
+    "nazov_lokality_norm": "Machnáč, Trenčianka, Inovec"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín a krovia na tokoch",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub náletových drevín",
+    "vysekávanie krovia"
+  ],
+  "rozsah_zasahu": "jelša (18 ks), jaseň (10 ks), vŕba (3 ks), krovie 100 m² na toku Inovec; vŕba obyčajná na toku Trenčianka; vŕba, jelša, jaseň na toku Machnáč",
+  "typ_uzemia": [
+    "CHKO Biele Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "jelša",
+    "vŕba",
+    "jaseň",
+    "vŕba obyčajná",
+    "kroviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "vyhláška, ktorou sa vykonáva zákon o ochrane prírody",
+      "cislo": "170/2001 Z.z.",
+      "paragrafy": [
+        "22 ods. 14"
+      ]
+    },
+    {
+      "nazov": "Zákon o vodách (vodný zákon)",
+      "cislo": "364/2004 Z.z.",
+      "paragrafy": [
+        "49 ods. 1 písm. b)"
+      ]
+    }
+  ],
+  "zhrnutie": "SVP oznamuje výrub drevín a krovín na tokoch Machnáč, Trenčianka a Inovec v k.ú. Dolné Motešice, Púchova a Dubodiel. Práce plánované na roky 2026-2028 zasahujú do CHKO Biele Karpaty a zahŕňajú najmä jelše, jasene a vŕby v celkovom zistenom rozsahu 31 stromov a 100 m2 krovín na toku Inovec.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "577/1",
+          "NATIONALSI": "138",
+          "SITETITLE_": "PP Potok Machnáč"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

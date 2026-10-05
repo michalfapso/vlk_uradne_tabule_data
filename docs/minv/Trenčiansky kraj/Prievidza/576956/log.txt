@@ -1,0 +1,184 @@
+[2026-10-05 23:35:53] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/576956'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/576956/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/576956/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 odst. 7' zákona 'zakona 543/2002 Z .z. v zneni neskorsich predpisov a v sulade s vykonavacim predpisom'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 22' zákona '- vyhlasky 170/2021 Z .Z., ktorou sa vykonava zakon 0 ochrane prirody, planuje vlastnymi kapacitami vykonat' v katastralnom uzemi Handlova, Brusno, Ra'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odst. 14' zákona '- vyhlasky 170/2021 Z .Z., ktorou sa vykonava zakon 0 ochrane prirody, planuje vlastnymi kapacitami vykonat' v katastralnom uzemi Handlova, Brusno, Ra'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 49 ods. 1' zákona ''.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.017105}
+LLM_tokens: {"input": 8020, "output": 4365, "total": 12385, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/576956/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/576956/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Prievidza', 'katastralne_uzemia': [{'nazov': 'Malá Lehôtka', 'parcely': [{'typ': 'C', 'cisla': ['244/1']}]}, {'nazov': 'Ráztočno', 'parcely': [{'typ': 'C', 'cisla': ['651/1', '651/3']}]}, {'nazov': 'Jalovec', 'parcely': [{'typ': 'C', 'cisla': ['826/1', '826/10']}]}, {'nazov': 'Brusno', 'parcely': [{'typ': 'C', 'cisla': ['540/1']}]}, {'nazov': 'Prievidza', 'parcely': [{'typ': 'C', 'cisla': ['120/13', '1792/11', '1792/12', '3556/10', '3556/9', '3556/3', '3556/8', '1792/3', '1792/2', '3575/34', '3575/33', '3575/36', '3575/38']}]}, {'nazov': 'Handlová', 'parcely': [{'typ': 'C', 'cisla': ['4660/8', '4660/9']}]}, {'nazov': 'Veľká Čausa', 'parcely': [{'typ': 'C', 'cisla': ['1567/4', '1567/12']}]}, {'nazov': 'Lipník', 'parcely': [{'typ': 'C', 'cisla': ['290/2']}]}, {'nazov': 'Dolné Vestenice', 'parcely': [{'typ': 'C', 'cisla': ['1246', '1016/1']}]}, {'nazov': 'Diviacka Nová Ves', 'parcely': [{'typ': 'C', 'cisla': ['106/1', '106/4', '1062', '466/2']}]}, {'nazov': 'Vrbany', 'parcely': [{'typ': 'C', 'cisla': ['539']}]}, {'nazov': 'Dobročná', 'parcely': [{'typ': 'C', 'cisla': ['169']}]}, {'nazov': 'Lomnica', 'parcely': [{'typ': 'C', 'cisla': ['232', '231/1']}]}, {'nazov': 'Nitrianske Rudno', 'parcely': [{'typ': 'C', 'cisla': ['154/11']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Hradeckého potoka, tok Handlovka, tok Moštenica, tok Pstruhársky, tok Hradecký, tok Nitrica, tok Rudnianka', 'nazov_lokality_norm': 'Hradeckého potoka, Handlovka, Moštenica, Pstruhársky, Hradecký, Nitrica, Rudnianka'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Prievidza', 'katastralne_uzemia': [{'nazov': 'Malá Lehôtka', 'parcely': [{'typ': 'C', 'cisla': ['244/1']}]}, {'nazov': 'Ráztočno', 'parcely': [{'typ': 'C', 'cisla': ['651/1', '651/3']}]}, {'nazov': 'Jalovec', 'parcely': [{'typ': 'C', 'cisla': ['826/1', '826/10']}]}, {'nazov': 'Brusno', 'parcely': [{'typ': 'C', 'cisla': ['540/1']}]}, {'nazov': 'Prievidza', 'parcely': [{'typ': 'C', 'cisla': ['120/13', '1792/11', '1792/12', '3556/10', '3556/9', '3556/3', '3556/8', '1792/3', '1792/2', '3575/34', '3575/33', '3575/36', '3575/38']}]}, {'nazov': 'Handlová', 'parcely': [{'typ': 'C', 'cisla': ['4660/8', '4660/9']}]}, {'nazov': 'Veľká Čausa', 'parcely': [{'typ': 'C', 'cisla': ['1567/4', '1567/12']}]}, {'nazov': 'Lipník', 'parcely': [{'typ': 'C', 'cisla': ['290/2']}]}, {'nazov': 'Dolné Vestenice', 'parcely': [{'typ': 'C', 'cisla': ['1246', '1016/1']}]}, {'nazov': 'Diviacka Nová Ves', 'parcely': [{'typ': 'C', 'cisla': ['106/1', '106/4', '1062', '466/2']}]}, {'nazov': 'Vrbany', 'parcely': [{'typ': 'C', 'cisla': ['539']}]}, {'nazov': 'Dobročná', 'parcely': [{'typ': 'C', 'cisla': ['169']}]}, {'nazov': 'Lomnica', 'parcely': [{'typ': 'C', 'cisla': ['232', '231/1']}]}, {'nazov': 'Nitrianske Rudno', 'parcely': [{'typ': 'C', 'cisla': ['154/11']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Hradeckého potoka, tok Handlovka, tok Moštenica, tok Pstruhársky, tok Hradecký, tok Nitrica, tok Rudnianka', 'nazov_lokality_norm': 'Hradeckého potoka, Handlovka, Moštenica, Pstruhársky, Hradecký, Nitrica, Rudnianka'}
+ku_name:Malá Lehôtka obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: mala lehotka
+_get_nationalCadastralZoningReferences() found_ids: {'850187'}
+nationalCadastralZoningReferences: ['850187']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.21 s
+ku_name:Ráztočno obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: raztocno
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: raztocno
+_get_nationalCadastralZoningReferences() found_ids: {'851868'}
+nationalCadastralZoningReferences: ['851868']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.56 s
+ku_name:Jalovec obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: jalovec
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: jalovec
+_get_nationalCadastralZoningReferences() found_ids: {'821977'}
+nationalCadastralZoningReferences: ['821977']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.48 s
+ku_name:Brusno obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: brusno
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: brusno
+_get_nationalCadastralZoningReferences() found_ids: {'820989'}
+nationalCadastralZoningReferences: ['820989']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.25 s
+ku_name:Prievidza obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: prievidza
+_get_nationalCadastralZoningReferences() found_ids: {'850063'}
+nationalCadastralZoningReferences: ['850063']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.73 s
+ku_name:Handlová obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: handlova
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: handlova
+_get_nationalCadastralZoningReferences() found_ids: {'815608'}
+nationalCadastralZoningReferences: ['815608']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.45 s
+ku_name:Veľká Čausa obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: velka causa
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: velka causa
+_get_nationalCadastralZoningReferences() found_ids: {'867659'}
+nationalCadastralZoningReferences: ['867659']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.51 s
+ku_name:Lipník obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: lipnik
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: lipnik
+_get_nationalCadastralZoningReferences() found_ids: {'832235'}
+nationalCadastralZoningReferences: ['832235']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.13 s
+ku_name:Dolné Vestenice obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: dolne vestenice
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: dolne vestenice
+_get_nationalCadastralZoningReferences() found_ids: {'812188'}
+nationalCadastralZoningReferences: ['812188']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.53 s
+ku_name:Diviacka Nová Ves obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: diviacka nova ves
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: diviacka nova ves
+_get_nationalCadastralZoningReferences() found_ids: {'810720'}
+nationalCadastralZoningReferences: ['810720']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.73 s
+ku_name:Vrbany obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: vrbany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: vrbany
+_get_nationalCadastralZoningReferences() found_ids: {'810738'}
+nationalCadastralZoningReferences: ['810738']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.15 s
+ku_name:Dobročná obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: dobrocna
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: dobrocna
+_get_nationalCadastralZoningReferences() found_ids: {'832081'}
+nationalCadastralZoningReferences: ['832081']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.15 s
+ku_name:Lomnica obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: lomnica
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: lomnica
+_get_nationalCadastralZoningReferences() found_ids: {'832103'}
+nationalCadastralZoningReferences: ['832103']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.48 s
+ku_name:Nitrianske Rudno obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: nitrianske rudno
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: nitrianske rudno
+_get_nationalCadastralZoningReferences() found_ids: {'840700'}
+nationalCadastralZoningReferences: ['840700']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.20 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['154/11']}' v KU 'Nitrianske Rudno' sa nenašli dáta.
+nazov_lokality: Hradeckého potoka, Handlovka, Moštenica, Pstruhársky, Hradecký, Nitrica, Rudnianka
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1063'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2330'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2330'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2200'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2200'}
+5   CadastralParcel  ...   {'@href': '#auAdmUnitS.522'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1063'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1063'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1063'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1063'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1063'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1063'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1063'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1063'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1063'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.1063'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.1063'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.1063'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.1695'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.1695'}
+20  CadastralParcel  ...   {'@href': '#auAdmUnitS.891'}
+21  CadastralParcel  ...   {'@href': '#auAdmUnitS.891'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.1024'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2611'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2611'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2286'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2286'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.2286'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.2286'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.2624'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.2624'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.2624'}
+
+[32 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/576956/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/576956/analysis.json...
+
+--- Časy spracovania dokumentu 576956 ---
+  download_and_text   :   3.33 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  17.52 s
+  gis_processing      :  48.09 s
+  CELKOVÝ ČAS         :  68.95 s
+------------------------------------------
+Dokument 576956 bol úspešne spracovaný.

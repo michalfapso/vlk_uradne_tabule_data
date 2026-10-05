@@ -1,0 +1,103 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2026/017271",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-05",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SVP, š.p., Povodie Dunaja",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Svätý Jur",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Svätý Jur",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "6775/1",
+              "6774",
+              "6773",
+              "6776/6",
+              "6617/2",
+              "6777",
+              "6778/1",
+              "7417"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Vajnorského potoka v r.km 0,4 -1,5 a Šúrskeho kanála v r.km 5,0 – 8,7",
+    "nazov_lokality_norm": "Vajnorský, Šúrsky kanál"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín v prietokovom profile a pobrežných pozemkoch"
+  ],
+  "rozsah_zasahu": "prietokový profil a pobrežné pozemky Vajnorského potoka (r.km 0,4 -1,5) a Šúrskeho kanála (r.km 5,0 – 8,7)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "68",
+        "47",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správe",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o ochrane pred povodňami",
+      "cislo": "7/2010 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube drevín správcom SVP, š.p. na brehoch Vajnorského potoka a Šúrskeho kanála v k. ú. Svätý Jur. Výrub je odôvodnený osobitnými predpismi o ochrane pred povodňami a má prebehnúť v mimovegetačnom období. Dokument explicitne uvádza, že na toto oznámenie sa nevzťahuje účasť verejnosti podľa správneho poriadku.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "6617/2",
+          "NATIONALSI": "168",
+          "SITETITLE_": "OP PR Šúr"
+        },
+        {
+          "parcel_label": "7417",
+          "NATIONALSI": "168",
+          "SITETITLE_": "OP PR Šúr"
+        },
+        {
+          "parcel_label": "6776/6",
+          "NATIONALSI": "168",
+          "SITETITLE_": "OP PR Šúr"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2026/016348-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-02",
+  "datum_zverejnenia": "2026-10-02",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "právnická osoba (v texte neuvedená)",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Beckov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Beckov",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "5188",
+              "5184"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo PR Beckovské Skalice a PP Skalka pri Beckove",
+    "nazov_lokality_norm": "Beckovské Skalice, Skalka pri Beckove"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "umiestnenie informačnej konštrukcie",
+    "umiestnenie reklamného alebo propagačného pútača",
+    "umiestnenie tabule",
+    "umiestnenie 3 ks informačných tabúľ"
+  ],
+  "rozsah_zasahu": "3 ks informačných tabúľ z kovu s rozmermi 2 x 1,2 m (plocha pod jednou tabuľou cca 1,25 m2)",
+  "typ_uzemia": [
+    "3. stupeň",
+    "PR Beckovské Skalice",
+    "PP Skalka pri Beckove",
+    "ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "18 ods. 3",
+        "19 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "2 ods. 1",
+        "14",
+        "14 ods. 2 písm. b)",
+        "64 ods. 1 písm. d)",
+        "68 písm. c)",
+        "82 ods. 3",
+        "82 ods. 6",
+        "82 ods. 7"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci umiestnenia 3 ks kovových informačných tabúľ v katastrálnom území Beckov. Zásah sa nachádza v extraviláne, v ochrannom pásme prírodnej rezervácie Beckovské Skalice a prírodnej pamiatky Skalka pri Beckove s 3. stupňom ochrany.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "5184",
+          "NATIONALSI": "SKUEV0566",
+          "SITETITLE_": "Beckovské Skalice"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "5184",
+          "NATIONALSI": "1129",
+          "SITETITLE_": "PR Beckovské Skalice"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,44 @@
+[2026-10-05 23:38:02] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/576927'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/576927/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/576927/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/576927/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012465}
+LLM_tokens: {"input": 5148, "output": 3297, "total": 8445, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/576927/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Hlohovec/576927/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Hlohovec', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pri cestách II/513, II/514, II/507, III/1315, III/1325, III/1676, III/1310, III/1319, III/1311, III/1312 a III/1322', 'nazov_lokality_norm': None}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Hlohovec', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pri cestách II/513, II/514, II/507, III/1315, III/1325, III/1676, III/1310, III/1319, III/1311, III/1312 a III/1322', 'nazov_lokality_norm': None}
+No geometries were found.
+nazov_lokality: pri cestách II/513, II/514, II/507, III/1315, III/1325, III/1676, III/1310, III/1319, III/1311, III/1312 a III/1322
+get_geometry_of_a_geoname nazov_lokality: pri cestách II/513, II/514, II/507, III/1315, III/1325, III/1676, III/1310, III/1319, III/1311, III/1312 a III/1322
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** cestách II/513, II/514, II/507, III/1315, III/1325, III/1676, III/1310, III/1319, III/1311, III/1312 a III/1322, Hlohovec, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** cestách II/513, II/514, II/507, III/1315, III/1325, III/1676, III/1310, III/1319, III/1311, III/1312 a III/1322, Trnavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** cestách II/513, II/514, II/507, III/1315, III/1325, III/1676, III/1310, III/1319, III/1311, III/1312 a III/1322, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.4532747, 'lon': 17.7619616, 'formatted_address': '1319, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 576927 ---
+  download_and_text   :   0.92 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.13 s
+  gis_processing      :   2.82 s
+  CELKOVÝ ČAS         :  18.88 s
+------------------------------------------
+Dokument 576927 bol úspešne spracovaný.

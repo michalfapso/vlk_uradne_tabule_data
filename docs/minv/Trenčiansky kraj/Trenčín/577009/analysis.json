@@ -1,0 +1,77 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-11",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kubrica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "257/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "ľavý breh vodného toku Kubrica",
+    "nazov_lokality_norm": "Kubrica"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 1 ks dreviny smrek obyčajný"
+  ],
+  "rozsah_zasahu": "1 ks smrek obyčajný (obvod kmeňa 95 cm)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný (Picea abies)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "48"
+      ]
+    },
+    {
+      "nazov": "o ochrane pred povodňami",
+      "cislo": "7/2010",
+      "paragrafy": [
+        "36"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube jedného smreka obyčajného na brehu toku Kubrica v k. ú. Kubrica. Drevina je nahnutá a ohrozuje priľahlý rodinný dom a plynulý odtok vody. Výrub sa má zrealizovať v mimovegetačnom období najneskôr do februára 2028.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

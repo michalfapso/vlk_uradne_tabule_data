@@ -1,0 +1,92 @@
+[2026-10-05 23:37:02] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577010'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577010/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 4 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0007535999999999999}
+LLM_tokens: {"input": 1108, "output": 1865, "total": 2973, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577010/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 22' zákona 'vyhláška 170/2001 Z.z., ktorou sa vykonáva zákon o ochrane prírody, vypn\uje vlastníkmi zazemiazenými výkon\u v katastrálnom území Dolné Motenice, Púc'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 14' zákona 'vyhláška 170/2001 Z.z., ktorou sa vykonáva zákon o ochrane prírody, vypn\uje vlastníkmi zazemiazenými výkon\u v katastrálnom území Dolné Motenice, Púc'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 49 ods. 1 písm. b)' zákona '364/2004 Z.z., znení** **neskorších predpisov, kde správca vodného toku je oprávnený v záujme starostlivosti o koryto'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577010/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013241}
+LLM_tokens: {"input": 6118, "output": 3394, "total": 9512, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577010/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577010/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Dolné Motešice, Púchova, Dubodiel', 'katastralne_uzemia': [{'nazov': 'Dolné Motešice', 'parcely': [{'typ': 'E', 'cisla': ['577/1']}]}, {'nazov': 'Púchova', 'parcely': [{'typ': 'E', 'cisla': ['1908/1']}]}, {'nazov': 'Dubodiel', 'parcely': [{'typ': 'C', 'cisla': ['1629/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Tok Machnáč, Tok Trenčianka, Tok Inovec', 'nazov_lokality_norm': 'Machnáč, Trenčianka, Inovec'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Dolné Motešice, Púchova, Dubodiel', 'katastralne_uzemia': [{'nazov': 'Dolné Motešice', 'parcely': [{'typ': 'E', 'cisla': ['577/1']}]}, {'nazov': 'Púchova', 'parcely': [{'typ': 'E', 'cisla': ['1908/1']}]}, {'nazov': 'Dubodiel', 'parcely': [{'typ': 'C', 'cisla': ['1629/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Tok Machnáč, Tok Trenčianka, Tok Inovec', 'nazov_lokality_norm': 'Machnáč, Trenčianka, Inovec'}
+ku_name:Dolné Motešice obec:Dolné Motešice, Púchova, Dubodiel okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: dolne motesice norm_ku: dolne motesice
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: dolne motesice
+_get_nationalCadastralZoningReferences() found_ids: {'838608'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: puchova norm_ku: dolne motesice
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: dolne motesice
+_get_nationalCadastralZoningReferences() found_ids: {'838608'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: dubodiel norm_ku: dolne motesice
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: dolne motesice
+_get_nationalCadastralZoningReferences() found_ids: {'838608'}
+nationalCadastralZoningReferences: ['838608']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.91 s
+ku_name:Púchova obec:Dolné Motešice, Púchova, Dubodiel okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: dolne motesice norm_ku: puchova
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: puchova
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: puchova
+Fuzzy match found: 'Púchova' -> 'Púchov' (ID: 850462)
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: puchova norm_ku: puchova
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: puchova
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: puchova
+Fuzzy match found: 'Púchova' -> 'Púchov' (ID: 850462)
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: dubodiel norm_ku: puchova
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: puchova
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: puchova
+Fuzzy match found: 'Púchova' -> 'Púchov' (ID: 850462)
+nationalCadastralZoningReferences: ['850462']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.75 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'E', 'cisla': ['1908/1']}' v KU 'Púchova' sa nenašli dáta.
+ku_name:Dubodiel obec:Dolné Motešice, Púchova, Dubodiel okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: dolne motesice norm_ku: dubodiel
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: dubodiel
+_get_nationalCadastralZoningReferences() found_ids: {'813290'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: puchova norm_ku: dubodiel
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: dubodiel
+_get_nationalCadastralZoningReferences() found_ids: {'813290'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: dubodiel norm_ku: dubodiel
+_get_nationalCadastralZoningReferences() found_ids: {'813290'}
+nationalCadastralZoningReferences: ['813290']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.14 s
+nazov_lokality: Machnáč, Trenčianka, Inovec
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.462'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.386'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577010/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'MCHU': [{'parcel_label': '577/1', 'NATIONALSI': '138', 'SITETITLE_': 'PP Potok Machnáč'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577010/analysis.json...
+
+--- Časy spracovania dokumentu 577010 ---
+  download_and_text   :  12.44 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.37 s
+  gis_processing      :   9.25 s
+  CELKOVÝ ČAS         :  37.07 s
+------------------------------------------
+Dokument 577010 bol úspešne spracovaný.
