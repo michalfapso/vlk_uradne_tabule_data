@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-10-07",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Anton Kliment",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Čierny Balog",
+    "katastralne_uzemia": [
+      {
+        "nazov": null,
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "6745",
+              "6746"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "oplotenie pozemku"
+  ],
+  "rozsah_zasahu": "oplotenie dvoch pozemkov (KN E 6745, KN E 6746)",
+  "typ_uzemia": [
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "13",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o vydanie súhlasu na oplotenie pozemkov KN E 6745 a KN E 6746 nachádzajúcich sa v extraviláne. Konanie sa vedie v režime 2. stupňa ochrany a lehota na potvrdenie záujmu byť účastníkom konania je 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

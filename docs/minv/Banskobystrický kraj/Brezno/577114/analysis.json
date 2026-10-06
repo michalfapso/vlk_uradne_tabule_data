@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-06",
+  "datum_zverejnenia": "2026-10-07",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ŽELEZNICE SLOVENSKEJ REPUBLIKY, Oblastné riaditeľstvo Zvolen",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Brezno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezno",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "836/8",
+              "836/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "traťový úsek žst. Brezno – žst Brezno Halny TU 3103 DU 04 žkm 9,600 – 9,950",
+    "nazov_lokality_norm": "Brezno – Brezno Halny, Brezno"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "Odstránenie drevín",
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "222 ks (breza sp., topoľ sp.)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "breza sp.",
+    "topoľ sp."
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47 ods. 7",
+        "47 ods. 4 písm. d)"
+      ]
+    },
+    {
+      "nazov": "zákon o dráhach",
+      "cislo": "513/2009",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Železnice SR oznámili plánovaný výrub 222 kusov drevín (breza, topoľ) v traťovom úseku Brezno – Brezno Halny z dôvodu bezpečnosti dopravy. Zásah sa dotýka parciel registra C v katastrálnom území Brezno. Dokument neuvádza informáciu o stupni ochrany ani o tom, či sa lokalita nachádza v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "836/2",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "836/8",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

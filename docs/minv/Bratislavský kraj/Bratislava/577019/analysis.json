@@ -1,0 +1,113 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2026/585478-2/BAK",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-05",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š. p.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rača",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Gaštanový hájik (Gaštanový kanál), Račiansky potok, Potok na Pántoch",
+    "nazov_lokality_norm": "Gaštanový hájik, Račiansky, Na Pántoch"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom nevyhnutnom uskutočnení výrubu drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "orez a výrub náletového a krovitého porastu",
+    "výrub stromov"
+  ],
+  "rozsah_zasahu": "25 ks stromov a krovité porasty do 4 000 m2",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "68",
+        "47",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správe",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2002 Z. z.",
+      "paragrafy": [
+        "48",
+        "49",
+        "53",
+        "55"
+      ]
+    },
+    {
+      "nazov": "o ochrane pred povodňami",
+      "cislo": "7/2010 Z. z.",
+      "paragrafy": [
+        "36"
+      ]
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje výrub 25 stromov a krovitých porastov v rozsahu 4 000 m2 pri vodných tokoch Gaštanový hájik, Račiansky potok a Potok na Pántoch v k. ú. Rača. Účelom je údržba koryta a protipovodňová ochrana. Dokument uvádza, že na toto konanie sa nevzťahujú predpisy o správnom konaní, čo obmedzuje účasť verejnosti.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Rača",
+          "NAZOV_UEV": "Homoľské Karpaty",
+          "KOD_UEV": "SKUEV0104"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Rača",
+          "NATIONALSI": "SKUEV0104",
+          "SITETITLE_": "Homoľské Karpaty"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Rača",
+          "NATIONALSI": "1356",
+          "SITETITLE_": "PR Vydrica"
+        },
+        {
+          "parcel_label": "Rača",
+          "NATIONALSI": "1356",
+          "SITETITLE_": "OP PR Vydrica"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Rača",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

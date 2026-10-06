@@ -1,0 +1,95 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2026/585479-2/BAK",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-05",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š. p.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vajnory",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Vajnorský potok, Račiansky potok, Kratina, Vajnorský kanál (Pračanský potok)",
+    "nazov_lokality_norm": "Vajnorský, Račiansky, Kratina, Vajnorský kanál, Pračanský"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom nevyhnutnom uskutočnení výrubu drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "orez náletového a krovitého porastu",
+    "výrub náletového a krovitého porastu",
+    "výrub stromov"
+  ],
+  "rozsah_zasahu": "82 ks stromov a orez/výrub porastov do 9050 m2",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "68",
+        "47",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2002 Z. z.",
+      "paragrafy": [
+        "48",
+        "49",
+        "53",
+        "55"
+      ]
+    },
+    {
+      "nazov": "o ochrane pred povodňami",
+      "cislo": "7/2010 Z. z.",
+      "paragrafy": [
+        "36"
+      ]
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje výrub 82 stromov a krovitých porastov na ploche 9050 m2 za účelom údržby koryta a protipovodňovej ochrany na tokoch Vajnorský potok, Račiansky potok, Kratina a Vajnorský kanál. Dokument uvádza, že na toto oznámenie sa nevzťahuje správne konanie a účasť verejnosti podľa § 82 ods. 7 nie je možná.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Vajnory",
+          "NATIONALSI": "SKUEV0104",
+          "SITETITLE_": "Homoľské Karpaty"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Vajnory",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

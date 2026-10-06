@@ -1,0 +1,63 @@
+[2026-10-06 22:06:37] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-089440-bra'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-089440-bra/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-089440-bra/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013434999999999999}
+LLM_tokens: {"input": 4544, "output": 3721, "total": 8265, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-089440-bra/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-089440-bra/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Turčianske Kľačany', 'katastralne_uzemia': [{'nazov': 'Turčianske Kľačany', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'LC Turany Jánošíkovo, lokalita Pod Príslopom', 'nazov_lokality_norm': 'Pod Príslopom'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Turčianske Kľačany', 'katastralne_uzemia': [{'nazov': 'Turčianske Kľačany', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'LC Turany Jánošíkovo, lokalita Pod Príslopom', 'nazov_lokality_norm': 'Pod Príslopom'}
+ku_name:Turčianske Kľačany obec:Turčianske Kľačany okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: turcianske klacany norm_ku: turcianske klacany
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: turcianske klacany
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: turcianske klacany
+_get_nationalCadastralZoningReferences() found_ids: {'865869'}
+nationalCadastralZoningReferences: ['865869']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.20 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Pod Príslopom
+get_geometry_of_a_geoname nazov_lokality: Pod Príslopom
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Príslopom, Turčianske Kľačany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Príslopom, Žilina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Príslopom, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Príslopom, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.11593389999999, 'lon': 18.9483176, 'formatted_address': '038 61 Turčianske Kľačany, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 61 Turčianske Kľačany, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.93624 49.15903, 18.93706 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-089440-bra/gis.geojson...
+Intersections with protected areas...
+Found 7 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Turčianske Kľačany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turčianske Kľačany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turčianske Kľačany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turčianske Kľačany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turčianske Kľačany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turčianske Kľačany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}, {'parcel_label': 'Turčianske Kľačany', 'NAZOV_UEV': 'Malá Fatra', 'KOD_UEV': 'SKUEV0252'}], 'UEV': [{'parcel_label': 'Turčianske Kľačany', 'NATIONALSI': 'SKUEV0252', 'SITETITLE_': 'Malá Fatra'}], 'MCHU': [{'parcel_label': 'Turčianske Kľačany', 'NATIONALSI': '303', 'SITETITLE_': 'NPR Kľačianska Magura'}], 'CHVU': [{'parcel_label': 'Turčianske Kľačany', 'NATIONALSI': 'SKCHVU013', 'SITETITLE_': 'Malá Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-089440-bra/analysis.json...
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-089440-bra ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.98 s
+  gis_processing      :   2.25 s
+  CELKOVÝ ČAS         :  18.71 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-089440-bra bol úspešne spracovaný.

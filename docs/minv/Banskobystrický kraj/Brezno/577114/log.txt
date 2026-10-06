@@ -1,0 +1,49 @@
+[2026-10-06 22:02:52] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577114'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577114/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577114/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 4 písm. d)' zákona ':   Na základe doručeného písomného oznámenia zo dňa 06.10.2026 na orgán ochrany prírody vo  veci uskutočnenia plánovaného výrubu drevín podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 4 písm. d)' zákona 'a splnenia si  oznamovacej povinnosti podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'uvádzame nasledovne:   •  • Subjekt: ŽELEZNICE SLOVENSKEJ REPUBLIKY, Oblastné riaditeľstvo Zvolen,  SMSÚ ŽST TO Banská Bystrica, 29. augusta 49, 974 0'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577114/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0124205}
+LLM_tokens: {"input": 5005, "output": 3306, "total": 8311, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577114/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577114/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Brezno', 'katastralne_uzemia': [{'nazov': 'Brezno', 'parcely': [{'typ': 'C', 'cisla': ['836/8', '836/2']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'traťový úsek žst. Brezno – žst Brezno Halny TU 3103 DU 04 žkm 9,600 – 9,950', 'nazov_lokality_norm': 'Brezno – Brezno Halny, Brezno'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Brezno', 'katastralne_uzemia': [{'nazov': 'Brezno', 'parcely': [{'typ': 'C', 'cisla': ['836/8', '836/2']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'traťový úsek žst. Brezno – žst Brezno Halny TU 3103 DU 04 žkm 9,600 – 9,950', 'nazov_lokality_norm': 'Brezno – Brezno Halny, Brezno'}
+ku_name:Brezno obec:Brezno okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: brezno
+_get_nationalCadastralZoningReferences() found_ids: {'806528'}
+nationalCadastralZoningReferences: ['806528']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.31 s
+nazov_lokality: Brezno – Brezno Halny, Brezno
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.569'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.569'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577114/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': '836/2', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': '836/8', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577114/analysis.json...
+
+--- Časy spracovania dokumentu 577114 ---
+  download_and_text   :   1.51 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  14.28 s
+  gis_processing      :   4.62 s
+  CELKOVÝ ČAS         :  20.43 s
+------------------------------------------
+Dokument 577114 bol úspešne spracovaný.

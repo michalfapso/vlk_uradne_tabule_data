@@ -1,0 +1,71 @@
+[2026-10-06 22:04:52] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577018'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577018/orig.doc
+Converting document to text...
+LibreOffice conversion stdout: convert /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577018/orig.doc as a Writer document -> /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577018/orig.txt using filter : Text
+
+LibreOffice conversion stderr: 
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577018/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 48' zákona '364/2002 Z. z. o vodách a z'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '49' zákona '364/2002 Z. z. o vodách a z'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '53' zákona '364/2002 Z. z. o vodách a z'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '55' zákona '364/2002 Z. z. o vodách a z'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 36' zákona '7/2010 Z. z. o ochrane pred povodňami.   Orgán ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'a) vydá súhlasné stanovisko k oznámenému výrubu,     b) výrub obmedzí, zakáže alebo určí podmienky jeho uskutočnenia, ak si to vyžadujú záujmy   ochra'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577018/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0125965}
+LLM_tokens: {"input": 6395, "output": 3133, "total": 9528, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577018/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577018/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'Vajnory', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Vajnorský potok, Račiansky potok, Kratina, Vajnorský kanál (Pračanský potok)', 'nazov_lokality_norm': 'Vajnorský, Račiansky, Kratina, Vajnorský kanál, Pračanský'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'Vajnory', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Vajnorský potok, Račiansky potok, Kratina, Vajnorský kanál (Pračanský potok)', 'nazov_lokality_norm': 'Vajnorský, Račiansky, Kratina, Vajnorský kanál, Pračanský'}
+ku_name:Vajnory obec:Bratislava okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: vajnory
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: None norm_ku: vajnory
+_get_nationalCadastralZoningReferences() found_ids: {'805700'}
+nationalCadastralZoningReferences: ['805700']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Vajnorský, Račiansky, Kratina, Vajnorský kanál, Pračanský
+get_geometry_of_a_geoname nazov_lokality: Vajnorský, Račiansky, Kratina, Vajnorský kanál, Pračanský
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Račiansky, Kratina, Vajnorský kanál, Pračanský, Bratislava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Račiansky, Kratina, Vajnorský kanál, Pračanský, Bratislava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Račiansky, Kratina, Vajnorský kanál, Pračanský, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Račiansky, Kratina, Vajnorský kanál, Pračanský, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.2088204, 'lon': 17.2063994, 'formatted_address': 'Kratiny, 831 07 Bratislava-Vajnory, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 831 07 Bratislava-Vajnory, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.16474 48.24433, 17.16482 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577018/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Vajnory', 'NATIONALSI': 'SKUEV0104', 'SITETITLE_': 'Homoľské Karpaty'}], 'CHVU': [{'parcel_label': 'Vajnory', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577018/analysis.json...
+
+--- Časy spracovania dokumentu 577018 ---
+  download_and_text   :   1.88 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  13.22 s
+  gis_processing      :   2.22 s
+  CELKOVÝ ČAS         :  17.34 s
+------------------------------------------
+Dokument 577018 bol úspešne spracovaný.

@@ -1,0 +1,88 @@
+[2026-10-06 22:06:25] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-043267'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-043267/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-043267/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-043267/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009196}
+LLM_tokens: {"input": 5876, "output": 2086, "total": 7962, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-043267/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-043267/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Horná Lehota, Telgárt', 'katastralne_uzemia': [{'nazov': 'Horná Lehota', 'parcely': []}, {'nazov': 'Telgárt', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'B a C zóny Národného parku Nízke Tatry', 'nazov_lokality_norm': 'Nízke Tatry'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Horná Lehota, Telgárt', 'katastralne_uzemia': [{'nazov': 'Horná Lehota', 'parcely': []}, {'nazov': 'Telgárt', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'B a C zóny Národného parku Nízke Tatry', 'nazov_lokality_norm': 'Nízke Tatry'}
+ku_name:Horná Lehota obec:Horná Lehota, Telgárt okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: horna lehota norm_ku: horna lehota
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: None norm_ku: horna lehota
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: horna lehota
+_get_nationalCadastralZoningReferences() found_ids: {'817201'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: telgart norm_ku: horna lehota
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: None norm_ku: horna lehota
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: horna lehota
+_get_nationalCadastralZoningReferences() found_ids: {'817201'}
+nationalCadastralZoningReferences: ['817201']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Telgárt obec:Horná Lehota, Telgárt okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: horna lehota norm_ku: telgart
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: None norm_ku: telgart
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: telgart
+_get_nationalCadastralZoningReferences() found_ids: {'862436'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: telgart norm_ku: telgart
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: None norm_ku: telgart
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: None norm_ku: telgart
+_get_nationalCadastralZoningReferences() found_ids: {'862436'}
+nationalCadastralZoningReferences: ['862436']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.38 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Nízke Tatry
+get_geometry_of_a_geoname nazov_lokality: Nízke Tatry
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Tatry, Horná Lehota, Telgárt, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Tatry, Banská Bystrica, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                           display_name
+0  POLYGON ((19.25901 48.92659, 19.25921 48.92549...  ...  Nízke Tatry, Žilinský kraj, Slovensko
+
+[1 rows x 11 columns]
+geoname_query: Nízke Tatry, Banská Bystrica, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.59101 48.94361, 19.59173 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((20.17671 48.90724, 20.17826 48...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                           display_name
+0  POLYGON ((19.25901 48.92659, 19.25921 48.92549...  ...  Nízke Tatry, Žilinský kraj, Slovensko
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-043267/gis.geojson...
+Intersections with protected areas...
+Found 47 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Horná Lehota', 'NAZOV_UEV': 'Ďumbierske Tatry', 'KOD_UEV': 'SKUEV0302'}, {'parcel_label': 'Telgárt', 'NAZOV_UEV': 'Kráľovohoľské Tatry', 'KOD_UEV': 'SKUEV0310'}, {'parcel_label': 'Telgárt', 'NAZOV_UEV': 'Kráľovohoľské Tatry', 'KOD_UEV': 'SKUEV0310'}, {'parcel_label': 'Telgárt', 'NAZOV_UEV': 'Kráľovohoľské Tatry', 'KOD_UEV': 'SKUEV0310'}, {'parcel_label': 'Telgárt', 'NAZOV_UEV': 'Kráľovohoľské Tatry', 'KOD_UEV': 'SKUEV0310'}, {'parcel_label': 'Telgárt', 'NAZOV_UEV': 'Kráľovohoľské Tatry', 'KOD_UEV': 'SKUEV0310'}, {'parcel_label': 'Telgárt', 'NAZOV_UEV': 'Kráľovohoľské Tatry', 'KOD_UEV': 'SKUEV0310'}], 'UEV': [{'parcel_label': 'Horná Lehota', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}, {'parcel_label': 'Telgárt', 'NATIONALSI': 'SKUEV0310', 'SITETITLE_': 'Kráľovohoľské Tatry'}], 'MCHU': [{'parcel_label': 'Horná Lehota', 'NATIONALSI': '1287', 'SITETITLE_': 'PR Pralesy Slovenska-Bystrá dolina'}, {'parcel_label': 'Horná Lehota', 'NATIONALSI': '246', 'SITETITLE_': 'NPR Ďumbier'}, {'parcel_label': 'Telgárt', 'NATIONALSI': '1321', 'SITETITLE_': 'PR Pralesy Slovenska-Martalúzka'}, {'parcel_label': 'Telgárt', 'NATIONALSI': '1057', 'SITETITLE_': 'PR Martalúzka'}], 'CHVU': [{'parcel_label': 'Horná Lehota', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Telgárt', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-043267/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp1-2026-043267 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   9.13 s
+  gis_processing      :   1.70 s
+  CELKOVÝ ČAS         :  11.96 s
+------------------------------------------
+Dokument ou-bb-oszp1-2026-043267 bol úspešne spracovaný.
