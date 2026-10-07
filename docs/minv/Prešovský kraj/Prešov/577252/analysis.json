@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": "OU-PO-OSZP3-2025/096002-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-01-20",
+  "datum_zverejnenia": "2026-01-23",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "FECUPRAL, spol. s r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Prešov",
+    "obec": "Prešov",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Jilemnického 3578/2, Prešov",
+    "nazov_lokality_norm": "Jilemnického, Prešov"
+  },
+  "typ_dokumentu": "Vyjadrenie účastníka konania k oznámeniu o začatí konania a návrh na zmenu žiadosti",
+  "kategorie_vlk": [
+    "CHEMIA"
+  ],
+  "typ_zasahu": [
+    "zmena povolenia zdroja znečisťovania ovzdušia",
+    "monitorovanie emisií",
+    "meranie vlhkosti odpadového plynu",
+    "náhradná hodnota objemového prietoku"
+  ],
+  "rozsah_zasahu": "priemerná náhradná hodnota objemového prietoku 0,43 m3/s",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane ovzdušia",
+      "cislo": "146/2023 Z. z.",
+      "paragrafy": [
+        "26",
+        "27",
+        "28"
+      ]
+    },
+    {
+      "nazov": "vyhláška MŽP SR",
+      "cislo": "249/2023 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Spoločnosť FECUPRAL reaguje na oznámenie o začatí konania vo veci zmeny povolenia zdroja znečisťovania ovzdušia v Prešove. Žiada o zosúladenie monitorovania emisií s nápravnými opatreniami SIŽP, vrátane určenia osobitných podmienok pre kontinuálne meranie vlhkosti a prietoku plynov. Zásah sa týka prevádzky v zastavanom území mesta.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Solivar",
+          "NATIONALSI": "SKUEV4005",
+          "SITETITLE_": "Solivarsko- švábske dúbravy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Solivar",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

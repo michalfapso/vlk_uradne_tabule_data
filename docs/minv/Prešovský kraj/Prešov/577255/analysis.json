@@ -1,0 +1,95 @@
+{
+  "cislo_konania_spisu": "OU-PO-OSZP3-2025/096002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-17",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "FECUPRAL, spol. s r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Prešov",
+    "obec": "Prešov",
+    "katastralne_uzemia": [],
+    "miesto_realizacie_podrobnosti": {
+      "katastralne_uzemia": [
+        {
+          "nazov": "Prešov",
+          "parcely": []
+        }
+      ]
+    },
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Jilemnického 2, Prešov",
+    "nazov_lokality_norm": "Jilemnického, Prešov"
+  },
+  "typ_dokumentu": "Príloha k žiadosti o zmenu povolenia zdroja / Zoznam podkladov",
+  "kategorie_vlk": [
+    "CHEMIA",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "rozšírenie zoznamu odpadov",
+    "prevádzka spaľovne nebezpečných odpadov",
+    "zmena automatizovaného monitorovacieho systému emisií (AMS-E)",
+    "spaľovanie v rotačnej peci"
+  ],
+  "rozsah_zasahu": "rozšírenie o 41 katalógových čísel odpadov; kapacita 950 t/rok",
+  "typ_uzemia": [
+    "priemyselná zóna"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane ovzdušia",
+      "cislo": "146/2023",
+      "paragrafy": [
+        "27",
+        "28",
+        "47"
+      ]
+    },
+    {
+      "nazov": "Zákon o odpadoch",
+      "cislo": "79/2015",
+      "paragrafy": [
+        "14"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "50/1976",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Zákon o ochrane pred požiarmi",
+      "cislo": "314/2001",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Ide o konanie o zmene povolenia pre spaľovňu nebezpečných odpadov spoločnosti FECUPRAL v Prešove na Jilemnického ulici. Žiadosť zahŕňa rozšírenie zoznamu spracovávaných odpadov o 41 druhov a modernizáciu monitorovacieho systému emisií. Zariadenie sa nachádza v priemyselnej zóne mesta a podľa dokumentácie nezasahuje do chránených území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Solivar",
+          "NATIONALSI": "SKUEV4005",
+          "SITETITLE_": "Solivarsko- švábske dúbravy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Solivar",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

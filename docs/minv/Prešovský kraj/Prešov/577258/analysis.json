@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-PO-OSZP3-2026/035152/009",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-21",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "FECUPRAL, spol. s r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Prešov",
+    "obec": "Prešov",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Jilemnického 2, Prešov",
+    "nazov_lokality_norm": "Jilemnického, Prešov"
+  },
+  "typ_dokumentu": "Doplnenie žiadosti o zmenu povolenia zdroja",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zmena povolenia zdroja znečisťovania ovzdušia",
+    "spaľovanie odpadov",
+    "prevádzka spaľovne s rotačnou pecou RSP 1000 a dohorievacou komorou",
+    "zmena automatizovaného meracieho systému emisií"
+  ],
+  "rozsah_zasahu": "spaľovňa s rotačnou pecou RSP 1000 a dohorievacou komorou",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane ovzdušia",
+      "cislo": "146/2023 Z. z.",
+      "paragrafy": [
+        "27",
+        "28"
+      ]
+    },
+    {
+      "nazov": "vyhláška",
+      "cislo": "249/2023 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Žiadateľ FECUPRAL dopĺňa žiadosť o zmenu povolenia pre prevádzku spaľovne odpadov v Prešove na ulici Jilemnického. Dokument rieši technické detaily filtrácie pomocou aktívneho uhlia a úpravu automatizovaného systému merania emisií. Konanie sa týka priemyselného areálu a nespomína zásah do chránených území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Solivar",
+          "NATIONALSI": "SKUEV4005",
+          "SITETITLE_": "Solivarsko- švábske dúbravy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Solivar",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

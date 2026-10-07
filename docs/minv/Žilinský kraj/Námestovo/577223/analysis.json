@@ -1,0 +1,130 @@
+{
+  "cislo_konania_spisu": "OU-NO-OSZP-2026/020351-005",
+  "cislo_rozhodnutia": "OU-NO-OSZP-2026/020351-0064660/2026",
+  "datum_dokumentu": "2026-10-07",
+  "datum_zverejnenia": "2026-10-07",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "odvolanie do 15 dní od jeho doručenia"
+  },
+  "ziadatel_navrhovatel": "Marek Dudášik",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Námestovo",
+    "obec": "Breza",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Breza",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "7306/1",
+              "7306/2",
+              "7307/1",
+              "7516/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Rozhodnutie - Súhlas na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 40 ks drevín",
+    "náhradná výsadba 120 ks"
+  ],
+  "rozsah_zasahu": "40 ks drevín (smrek obyčajný)",
+  "typ_uzemia": [
+    "CHKO Horná Orava"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný (Picea abies)",
+    "buk lesný (Fagus sylvatica)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "64 ods. 1 písm. d)",
+        "68 písm. c)",
+        "47 ods. 3",
+        "48 ods. 1",
+        "82 ods. 12",
+        "92 ods. 1 písm. f)",
+        "89 ods. 1",
+        "82 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "46",
+        "26 ods. 2",
+        "33 ods. 2",
+        "53",
+        "54"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z.z.",
+      "paragrafy": [
+        "2"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z.z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "ktorou sa vykonáva zákon o ochrane prírody a krajiny",
+      "cislo": "170/2021 Z.z.",
+      "paragrafy": [
+        "22 ods. 8"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o udelení súhlasu na výrub 40 ks smrekov napadnutých kôrovcom v extraviláne obce Breza, v území CHKO Horná Orava. Žiadateľovi bola zároveň uložená povinnosť náhradnej výsadby 120 ks drevín (smrek a buk) do konca februára 2028.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "7306/1",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        },
+        {
+          "parcel_label": "7306/2",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        },
+        {
+          "parcel_label": "7307/1",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        },
+        {
+          "parcel_label": "7516/1",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

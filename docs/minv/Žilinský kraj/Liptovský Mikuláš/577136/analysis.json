@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-01",
+  "datum_zverejnenia": "2026-10-05",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Urbárske POZEMKOVÉ SPOLOČENSTVO, HYBE",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Hybe",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hybe",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1694/1",
+              "6813",
+              "6760",
+              "6812",
+              "6852",
+              "6865/1"
+            ]
+          },
+          {
+            "typ": "C",
+            "cisla": [
+              "4657",
+              "4659",
+              "4592",
+              "4988",
+              "4575",
+              "4593"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "cesty I. triedy č. 1/18 v km 105,95 – 108,7",
+    "nazov_lokality_norm": "1/18, Hybe"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín na PPF",
+    "odstránenie krovitého porastu",
+    "odstránenie náletových drevín"
+  ],
+  "rozsah_zasahu": "celková plocha 19 360 m2 a súpis drevín s obvodom nad 90 cm",
+  "typ_uzemia": [
+    "ochranné pásmo cesty I. triedy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube krovín a náletových drevín na celkovej ploche 19 360 m2 v k.ú. Hybe. Výrub sa realizuje v ochrannom pásme cesty I/18 z dôvodu bezpečnosti na základe výzvy Slovenskej správy ciest. Práce sú naplánované na roky 2026 až 2027.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "1694/1",
+          "NATIONALSI": "SKUEV0142",
+          "SITETITLE_": "Hybica"
+        },
+        {
+          "parcel_label": "4659",
+          "NATIONALSI": "SKUEV0142",
+          "SITETITLE_": "Hybica"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

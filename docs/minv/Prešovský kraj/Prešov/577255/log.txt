@@ -1,0 +1,88 @@
+[2026-10-07 22:35:27] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/577255'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/577255/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/577255/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 3' zákona 'o ochrane ovzdušia  21. 11. 2025  FECUPRAL, spol. s r.o.  Žiadosť o zmenu povolenia zdroja podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 27 ods. 13 písm. a)' zákona '(pôvodné podanie; konanie č. OU-PO-OSZP3- 2025/096002)  23. 1. 2026  FECUPRAL, spol. s r.o.  Vyjadrenie účastníka konania k oznámeniu o začatí konania'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 27 ods. 1' zákona ')  a) Projekt stavby podľa Stavebného zákona  Stacionárny zdroj'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 28 ods. 1' zákona '(7.2.8).   Súhrnné hodnotenie'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 28 ods. 1' zákona '(kap. 7.2.8'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. A' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu 's' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'vyhlášky MŽP SR č. 371/2015 Z. z., ktorou sa vykonávajú  niektoré ustanovenia zákona o odpadoch: držiteľ nebezpečného odpadu, ktorý dodáva odpad do za'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 1 písm. i)' zákona '79/2015 Z. z. o odpadoch, podľa ktorého  možno odpad zhromažďovať najdlhšie jeden rok pred jeho zneškodnením alebo najdlhšie tri roky pred jeho zhodno'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 23' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 28 ods. 2' zákona ', spaľovne odpadov)  a) Súlad s požiadavkami, zohľadnenie kategórií a druhov odpadu  Súlad prevádzky s technickými požiadavkami na spaľovanie odpadu j'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 28' zákona 'Systém merania zodpovedá opisu uvedenému v bode 2'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. g)' zákona 'tejto prílohy'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.019355999999999998}
+LLM_tokens: {"input": 21564, "output": 2858, "total": 24422, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/577255/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/577255/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Prešov', 'obec': 'Prešov', 'katastralne_uzemia': [], 'miesto_realizacie_podrobnosti': {'katastralne_uzemia': [{'nazov': 'Prešov', 'parcely': []}]}, 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Jilemnického 2, Prešov', 'nazov_lokality_norm': 'Jilemnického, Prešov'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Prešov', 'obec': 'Prešov', 'katastralne_uzemia': [], 'miesto_realizacie_podrobnosti': {'katastralne_uzemia': [{'nazov': 'Prešov', 'parcely': []}]}, 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Jilemnického 2, Prešov', 'nazov_lokality_norm': 'Jilemnického, Prešov'}
+Fallback to OBEC: Prešov
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: presov norm_obec: presov norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'840955', '849502', '857301', '860328'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.43 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Jilemnického, Prešov
+get_geometry_of_a_geoname nazov_lokality: Jilemnického, Prešov
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Prešov, Prešov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Prešov, Prešov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Prešov, Prešovský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Prešov, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.9764665, 'lon': 21.2482315, 'formatted_address': 'Jilemnického, 080 01 Prešov, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 080 01 Prešov, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.27924 49.04028, 21.27945 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((21.25134 49.04668, 21.25165 49...
+2  CadastralZoning  ...  MULTIPOLYGON (((21.28151 48.99204, 21.28184 48...
+3  CadastralZoning  ...  MULTIPOLYGON (((21.32173 49.00438, 21.32201 49...
+
+[4 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/577255/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Solivar', 'NATIONALSI': 'SKUEV4005', 'SITETITLE_': 'Solivarsko- švábske dúbravy'}], 'CHVU': [{'parcel_label': 'Solivar', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/577255/analysis.json...
+
+--- Časy spracovania dokumentu 577255 ---
+  download_and_text   :   1.59 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.80 s
+  gis_processing      :   1.88 s
+  CELKOVÝ ČAS         :  17.27 s
+------------------------------------------
+Dokument 577255 bol úspešne spracovaný.

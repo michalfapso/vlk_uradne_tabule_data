@@ -1,0 +1,74 @@
+[2026-10-07 22:33:47] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/577250'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/577250/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/577250/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 28 ods.4 písm. a)' zákona '146/2023 Z.z. o ochrane ovzdušia a o zmene  a doplnení niektorých zákonov.     Okresný úrad Prešov, odbor starostlivosti o životné prostredie, oddelen'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 28 ods.4 písm. a)' zákona '146/2023 Z.z. o ochrane ovzdušia a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 27 ods.13 písm.a)' zákona 'v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 28 ods.1' zákona 'o ochrane ovzdušia,  v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 27 ods.1' zákona 'o ochrane ovzdušia, je  k nahliadnutiu na  tunajšom úrade miestnosť č. 427.  Žiadosť je zverejnená na webovom  sídle a elektronickej úradnej tabuli  t'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 28 ods.4  písm. a)' zákona 'o ochrane ovzdušia, je  k nahliadnutiu na  tunajšom úrade miestnosť č. 427.  Žiadosť je zverejnená na webovom  sídle a elektronickej úradnej tabuli  t'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'b)' zákona 'o ochrane ovzdušia, je  k nahliadnutiu na  tunajšom úrade miestnosť č. 427.  Žiadosť je zverejnená na webovom  sídle a elektronickej úradnej tabuli  t'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'c)' zákona 'o ochrane ovzdušia, je  k nahliadnutiu na  tunajšom úrade miestnosť č. 427.  Žiadosť je zverejnená na webovom  sídle a elektronickej úradnej tabuli  t'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 27 ods.13 písm.a)' zákona 'v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 28 ods.1' zákona 'o ochrane ovzdušia, v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 27 ods.1' zákona 'o ochrane ovzdušia, je možné predkladať do 21 dní od zverejnenia tunajším  úradom na adresu:     Okresný úrad Prešov   odbor starostlivosti o životné'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 28 ods.4  písm. a)' zákona 'o ochrane ovzdušia, je možné predkladať do 21 dní od zverejnenia tunajším  úradom na adresu:     Okresný úrad Prešov   odbor starostlivosti o životné'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'b)' zákona 'o ochrane ovzdušia, je možné predkladať do 21 dní od zverejnenia tunajším  úradom na adresu:     Okresný úrad Prešov   odbor starostlivosti o životné'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'c)' zákona 'o ochrane ovzdušia, je možné predkladať do 21 dní od zverejnenia tunajším  úradom na adresu:     Okresný úrad Prešov   odbor starostlivosti o životné'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0084735}
+LLM_tokens: {"input": 4665, "output": 2047, "total": 6712, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/577250/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/577250/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Prešov', 'obec': 'Veľký Šariš', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Ľ.Štúra 17, 082 21 Veľký Šariš', 'nazov_lokality_norm': 'Ľ.Štúra, Veľký Šariš'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Prešov', 'obec': 'Veľký Šariš', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Ľ.Štúra 17, 082 21 Veľký Šariš', 'nazov_lokality_norm': 'Ľ.Štúra, Veľký Šariš'}
+Fallback to OBEC: Veľký Šariš
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: presov norm_obec: velky saris norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'869198'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Ľ.Štúra, Veľký Šariš
+get_geometry_of_a_geoname nazov_lokality: Ľ.Štúra, Veľký Šariš
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Veľký Šariš, Veľký Šariš, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Veľký Šariš, Prešov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Veľký Šariš, Prešovský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Veľký Šariš, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0457153, 'lon': 21.1994525, 'formatted_address': 'Ľudovíta Štúra, 082 21 Veľký Šariš, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Štúra, 082 21 Veľký Šariš, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.23815 49.0746, 21.23847 49....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/577250/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Veľký Šariš', 'NATIONALSI': 'SKUEV0322', 'SITETITLE_': 'Fintické svahy'}], 'MCHU': [{'parcel_label': 'Veľký Šariš', 'NATIONALSI': '689', 'SITETITLE_': 'NPR Šarišský hradný vrch'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/577250/analysis.json...
+
+--- Časy spracovania dokumentu 577250 ---
+  download_and_text   :   1.59 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   9.25 s
+  gis_processing      :   3.86 s
+  CELKOVÝ ČAS         :  14.71 s
+------------------------------------------
+Dokument 577250 bol úspešne spracovaný.

@@ -1,0 +1,95 @@
+{
+  "cislo_konania_spisu": "OU-TR-OSZP-2026/000787",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-05",
+  "datum_zverejnenia": "2026-10-07",
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, š.p.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Turčianske Teplice",
+    "obec": "Kaľamenová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kaľamenová",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "207"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Liešno",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "483"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "brehy toku Jasenica, rkm 1,850 – 1,950",
+    "nazov_lokality_norm": "Jasenica"
+  },
+  "typ_dokumentu": "Oznámenie na výrub drevín rastúcich mimo les",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub krovitého porastu",
+    "údržba brehového porastu"
+  ],
+  "rozsah_zasahu": "150 m2 krovitého porastu",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "vodný zákon",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o výrube 150 m2 krovitého porastu na brehoch toku Jasenica v katastrálnych územiach Kaľamenová a Liešno. Výrub realizuje Slovenský vodohospodársky podnik z dôvodu údržby a zabezpečenia prietočnosti toku. Nejde o správne konanie, dokument má len informačný charakter a nie je možné sa doň prihlásiť.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "207",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "207",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

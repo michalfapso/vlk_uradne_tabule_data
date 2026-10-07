@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "@featureType": "CadastralParcel", "areaValue": { "value": 1298, "@uom": "m2" }, "beginLifespanVersion": { "@nilReason": "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated", "@nil": "true" }, "endLifespanVersion": { "@nilReason": "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated", "@nil": "true" }, "inspireId": { "@dataType": "Identifier", "localId": "810363_11015.C", "namespace": "SK.ESKN.CP", "versionId": "20261005T08:10:09" }, "label": "11015", "nationalCadastralReference": "810363_11015.C", "referencePoint": { "type": "Point", "coordinates": [ 19.42076617, 48.49598616 ] }, "validFrom": "2026-09-30T16:00:00Z", "validTo": { "@nilReason": "http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated", "@nil": "true" }, "administrativeUnit": { "@href": "#auAdmUnitS.1827" } }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 19.42044941, 48.49603924 ], [ 19.42046508, 48.49606152 ], [ 19.42052488, 48.49614702 ], [ 19.42057025, 48.49620379 ], [ 19.42060252, 48.49625228 ], [ 19.42096798, 48.49616192 ], [ 19.42092455, 48.49601182 ], [ 19.42090835, 48.4957284 ], [ 19.42060536, 48.49581305 ], [ 19.42066682, 48.49596706 ], [ 19.42055545, 48.49600401 ], [ 19.4204802, 48.49602905 ], [ 19.42044941, 48.49603924 ] ], [ [ 19.420704, 48.49595429 ], [ 19.42071248, 48.49592304 ], [ 19.42082819, 48.49593705 ], [ 19.42081971, 48.4959683 ], [ 19.420704, 48.49595429 ] ] ] } }
+]
+}

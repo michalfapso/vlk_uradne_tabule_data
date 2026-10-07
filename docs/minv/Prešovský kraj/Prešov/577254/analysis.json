@@ -1,0 +1,86 @@
+{
+  "cislo_konania_spisu": "OU-PO-OSZP3-2026/035 152/009",
+  "cislo_rozhodnutia": "01/26/ME-Lý",
+  "datum_dokumentu": "2026-09-17",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "FECUPRAL spol. s r. o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Prešov",
+    "obec": "Prešov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prešov",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Jilemnického 2, Prešov",
+    "nazov_lokality_norm": "Jilemnického, Prešov"
+  },
+  "typ_dokumentu": "Odborný posudok vo veciach ochrany ovzdušia",
+  "kategorie_vlk": [
+    "CHEMIA",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zmena automatizovaného meracieho systému emisií",
+    "prevádzka spaľovne nebezpečného odpadu",
+    "kontinuálne monitorovanie emisií"
+  ],
+  "rozsah_zasahu": "kapacita 150 kg/h, max. 950 t odpadu/rok",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane ovzdušia",
+      "cislo": "146/2023 Z. z.",
+      "paragrafy": [
+        "20",
+        "23",
+        "26",
+        "27",
+        "28"
+      ]
+    },
+    {
+      "nazov": "vyhláška o požiadavkách na stacionárne zdroje znečisťovania ovzdušia",
+      "cislo": "248/2023 Z. z.",
+      "paragrafy": [
+        "20",
+        "22",
+        "24"
+      ]
+    },
+    {
+      "nazov": "vyhláška o monitorovaní emisií zo stacionárnych zdrojov znečisťovania ovzdušia a kvality ovzdušia v ich okolí",
+      "cislo": "249/2023 Z. z.",
+      "paragrafy": [
+        "7",
+        "9",
+        "12",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "nazov": "vyhláška o odbornom posudzovaní vo veciach ochrany ovzdušia",
+      "cislo": "252/2023 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Odborný posudok k zmene automatizovaného meracieho systému emisií (AMS-E) v spaľovni nebezpečného odpadu FECUPRAL v Prešove. Dokument analyzuje metodiku merania vlhkosti a prietoku spalín a odporúča inštaláciu kontinuálneho merania vlhkosti pre zabezpečenie presnosti výpočtov emisií. Činnosť prebieha v zastavanom území mesta Prešov na Jilemnického ulici.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

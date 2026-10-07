@@ -1,0 +1,76 @@
+{
+  "cislo_konania_spisu": "OU-PO-OSZP3-2025/096002-002",
+  "cislo_rozhodnutia": "8135/53/2025-18509/2025",
+  "datum_dokumentu": "2026-01-21",
+  "datum_zverejnenia": "2026-02-09",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "FECUPRAL, spol. s r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Prešov",
+    "obec": "Prešov",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Jilemnického 3578/2, Prešov",
+    "nazov_lokality_norm": "Jilemnického, Prešov"
+  },
+  "typ_dokumentu": "Vyjadrenie účastníka konania a návrh na zmenu žiadosti",
+  "kategorie_vlk": [
+    "CHEMIA",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zmena povolenia zdroja znečisťovania ovzdušia",
+    "monitoring emisií",
+    "nápravné opatrenia SIŽP",
+    "meranie vlhkosti odpadového plynu",
+    "používanie náhradnej hodnoty objemového prietoku"
+  ],
+  "rozsah_zasahu": "náhradná hodnota objemového prietoku 0,43 m3/s",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane ovzdušia",
+      "cislo": "146/2023 Z. z.",
+      "paragrafy": [
+        "26",
+        "27",
+        "28"
+      ]
+    },
+    {
+      "nazov": "Vyhláška MŽP SR",
+      "cislo": "249/2023 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Spoločnosť FECUPRAL žiada o zmenu povolenia zdroja znečisťovania ovzdušia a vydanie súhlasov v rámci prebiehajúceho konania v Prešove. Cieľom je zosúladenie monitorovacieho systému emisií (AMS-E) s nápravnými opatreniami uloženými Slovenskou inšpekciou životného prostredia. Zásah sa týka technických parametrov priemyselnej prevádzky v zastavanom území mesta.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Solivar",
+          "NATIONALSI": "SKUEV4005",
+          "SITETITLE_": "Solivarsko- švábske dúbravy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Solivar",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 21 dní od zverejnenia"
+  },
+  "ziadatel_navrhovatel": "Fecupral, spol s r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Prešov",
+    "obec": "Veľký Šariš",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Ľ.Štúra 17, 082 21 Veľký Šariš",
+    "nazov_lokality_norm": "Ľ.Štúra, Veľký Šariš"
+  },
+  "typ_dokumentu": "Informácia o podanej žiadosti a začatí konania",
+  "kategorie_vlk": [
+    "CHEMIA"
+  ],
+  "typ_zasahu": [
+    "zmena povolenia zdroja znečisťovania ovzdušia"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane ovzdušia a o zmene a doplnení niektorých zákonov",
+      "cislo": "146/2023",
+      "paragrafy": [
+        "28",
+        "27"
+      ]
+    }
+  ],
+  "zhrnutie": "Spoločnosť Fecupral, spol s r.o. požiadala o zmenu povolenia zdroja znečisťovania ovzdušia vo Veľkom Šariši. Verejnosť môže predkladať pripomienky do 21 dní od zverejnenia informácie. Verejné prerokovanie žiadosti je naplánované na 13. 11. 2026 v Prešove.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Veľký Šariš",
+          "NATIONALSI": "SKUEV0322",
+          "SITETITLE_": "Fintické svahy"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Veľký Šariš",
+          "NATIONALSI": "689",
+          "SITETITLE_": "NPR Šarišský hradný vrch"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

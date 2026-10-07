@@ -1,0 +1,94 @@
+{
+  "cislo_konania_spisu": "OU-PP-OSZP-2026/028601",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-08",
+  "datum_zverejnenia": "2026-10-08",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní"
+  },
+  "ziadatel_navrhovatel": "Urbár pozemkové spoločenstvo Važec",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Poprad",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "Štrbské Pleso",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "7140/3",
+              "6872/3",
+              "6872/2",
+              "7157/2",
+              "7158"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "k. ú. Štrbské Pleso",
+    "nazov_lokality_norm": "Štrbské Pleso"
+  },
+  "typ_dokumentu": "Upovedomenie o začatých správnych konaniach",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "47 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Okresný úrad Poprad informuje o začatí správneho konania vo veci žiadosti o výrub drevín, ktorú podalo Urbárske pozemkové spoločenstvo Važec. Zásah sa má realizovať na parcelách registra E v katastrálnom území Štrbské Pleso. Verejnosť môže potvrdiť svoj záujem byť účastníkom konania do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "6872/2",
+          "NATIONALSI": "SKCHVU030",
+          "SITETITLE_": "Tatry"
+        },
+        {
+          "parcel_label": "6872/3",
+          "NATIONALSI": "SKCHVU030",
+          "SITETITLE_": "Tatry"
+        },
+        {
+          "parcel_label": "7140/3",
+          "NATIONALSI": "SKCHVU030",
+          "SITETITLE_": "Tatry"
+        },
+        {
+          "parcel_label": "7157/2",
+          "NATIONALSI": "SKCHVU030",
+          "SITETITLE_": "Tatry"
+        },
+        {
+          "parcel_label": "7158",
+          "NATIONALSI": "SKCHVU030",
+          "SITETITLE_": "Tatry"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}
