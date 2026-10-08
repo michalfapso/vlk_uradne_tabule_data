@@ -1,0 +1,90 @@
+[2026-10-08 22:42:18] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/577289'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/577289/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/577289/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'zák. č. 364/2004 Z.z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods.1' zákona 'zák. č. 364/2004 Z.z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods.1' zákona 'zák. č. 364/2004 Z.z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'zák. č. 525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona '180/2013 Z.z. o organizácii miestnej štátnej správy a doplnení niektorých zákonov, špeciálny stavebný úrad v zmysle ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'zák.č. 50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona 'stavebného zákona upúšťa sa od ústneho konania a miestneho zisťovania. Predloženú projektovú dokumentáciu vypracoval: Ing. Miroslava Šuchterová ev. č'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 5' zákona 'stavebného zákona, má sa za to, že so stavbou súhlasia. Ak sa nechá niektorý z účastníkov konania zastupovať, musí predložiť jeho zástupca písomnú pln'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 6' zákona 'vodného zákona, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 2' zákona 'správneho zákona, v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona, všetkým známym aj neznámym účastníkom konania, a účastníkom konania ktorých vlastnícke práva k susedným pozemkom a stavbám môžu byť'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.020376000000000002}
+LLM_tokens: {"input": 10284, "output": 5078, "total": 15362, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/577289/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/577289/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Senec', 'katastralne_uzemia': [{'nazov': 'Senec', 'parcely': [{'typ': None, 'cisla': ['4790/260', '4790/274', '4790/273', '4790/268', '4790/167', '4790/168', '4790/233', '4790/152', '4790/149', '4790/310', '4790/318', '4790/326', '4790/142', '4790/163', '4790/264', '4790/153', '4790/154', '4790/155', '4790/303', '4790/304', '4790/309', '4790/320', '4790/319', '4790/324', '4790/315', '4790/317', '4790/314', '4790/300', '4790/301', '4790/139']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'RZ Hlboké jazero II', 'nazov_lokality_norm': 'Hlboké jazero'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Senec', 'katastralne_uzemia': [{'nazov': 'Senec', 'parcely': [{'typ': None, 'cisla': ['4790/260', '4790/274', '4790/273', '4790/268', '4790/167', '4790/168', '4790/233', '4790/152', '4790/149', '4790/310', '4790/318', '4790/326', '4790/142', '4790/163', '4790/264', '4790/153', '4790/154', '4790/155', '4790/303', '4790/304', '4790/309', '4790/320', '4790/319', '4790/324', '4790/315', '4790/317', '4790/314', '4790/300', '4790/301', '4790/139']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'RZ Hlboké jazero II', 'nazov_lokality_norm': 'Hlboké jazero'}
+ku_name:Senec obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: senec
+_get_nationalCadastralZoningReferences() found_ids: {'854964'}
+nationalCadastralZoningReferences: ['854964']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.88 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.29 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+nazov_lokality: Hlboké jazero
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.2029'}
+
+[30 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/577289/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/577289/analysis.json...
+
+--- Časy spracovania dokumentu 577289 ---
+  download_and_text   :   1.51 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  21.47 s
+  gis_processing      :   7.32 s
+  CELKOVÝ ČAS         :  30.29 s
+------------------------------------------
+Dokument 577289 bol úspešne spracovaný.

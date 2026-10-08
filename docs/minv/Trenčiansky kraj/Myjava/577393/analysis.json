@@ -1,0 +1,94 @@
+{
+  "cislo_konania_spisu": "OU-MY-OSZP-2026/001074-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-08",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Myjava",
+    "obec": "Chvojnica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Chvojnica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "23429/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "časť Šifflovia",
+    "nazov_lokality_norm": "Šifflovia"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 6 ks stromu rodu jaseň štíhly"
+  ],
+  "rozsah_zasahu": "6 ks stromu rodu jaseň štíhly s obvodom kmeňa 63-151 cm",
+  "typ_uzemia": [
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "jaseň štíhly"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47",
+        "68",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "18"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci výrubu 6 ks jaseňov štíhlych v lokalite Šifflovia, katastrálne územie Chvojnica. Výrub sa má uskutočniť v extraviláne v území s 2. stupňom ochrany kvôli zlému zdravotnému stavu stromov. Združenia môžu potvrdiť záujem o účasť v konaní do 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "23429/1",
+          "NATIONALSI": "SKUEV0563",
+          "SITETITLE_": "Šifflovské"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "23429/1",
+          "NATIONALSI": "898",
+          "SITETITLE_": "PP Šifflovské"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

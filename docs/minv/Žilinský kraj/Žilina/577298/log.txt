@@ -1,0 +1,58 @@
+[2026-10-08 22:47:51] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/577298'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/577298/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/577298/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov, ako príslušný orgán štátnej starostlivosti o životné pro'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov, ako príslušný orgán štátnej starostlivosti o životné pro'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a ako miestne'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 108 ods. 1 písm. h)' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 6' zákona 'o odpadoch, že motorové vozidlo, zn. CITROËN XARA PICASSO, EČV: SM 0513A PL'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 5' zákona 'o odpadoch vlastníctvo k vozidlu nenadobúda štát. Držiteľ a vlastník motorového vozidla: majiteľ neznámy. Odôvodnenie Prevádzkovateľ určeného parkovis'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 60 ods. 8' zákona 'o odpadoch stáva prevádzkovateľ určeného parkoviska - spoločnosť HELPECO s.r.o., Mládežnícka 2275, 017 01 Považská Bystrica, ktorý je povinný ďalej s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14 ods. 1 písm. d)' zákona 'o odpadoch. Doručenie predmetného rozhodnutia sa vykoná verejnou vyhláškou tak, že sa písomnosť vyvesí po dobu 15 dní na úradnej tabuli a zverejní na'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/577298/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011168750000000002}
+LLM_tokens: {"input": 7888, "output": 2712, "total": 10600, "cached": 2025}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/577298/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Žilina/577298/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Žilina', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. Radlinského, Staré mesto, Žilina', 'nazov_lokality_norm': 'Radlinského, Žilina'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Žilina', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. Radlinského, Staré mesto, Žilina', 'nazov_lokality_norm': 'Radlinského, Žilina'}
+Fallback to OBEC: Žilina
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: zilina norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (14), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Radlinského, Žilina
+get_geometry_of_a_geoname nazov_lokality: Radlinského, Žilina
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilina, Žilina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilina, Žilina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilina, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilina, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.2278666, 'lon': 18.7361107, 'formatted_address': 'Radlinského, 010 01 Žilina, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 010 01 Žilina, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 577298 ---
+  download_and_text   :   1.16 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.81 s
+  gis_processing      :   1.65 s
+  CELKOVÝ ČAS         :  14.62 s
+------------------------------------------
+Dokument 577298 bol úspešne spracovaný.

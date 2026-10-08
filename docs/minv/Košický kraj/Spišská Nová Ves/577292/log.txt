@@ -1,0 +1,103 @@
+[2026-10-08 22:44:37] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/577292'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/577292/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0003672}
+LLM_tokens: {"input": 334, "output": 899, "total": 1233, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/577292/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/577292/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009671200000000001}
+LLM_tokens: {"input": 5303, "output": 2642, "total": 7945, "cached": 2014}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/577292/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/577292/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Spišská Nová Ves', 'obec': 'Olcnava, Vítkovce, Markušovce', 'katastralne_uzemia': [{'nazov': 'Olcnava', 'parcely': []}, {'nazov': 'Vítkovce', 'parcely': []}, {'nazov': 'Markušovce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'traťový úsek ŽST Spišské Vlachy - Markušovce koľaj číslo 2 ±km 151,700 - 163,900', 'nazov_lokality_norm': 'Spišské Vlachy - Markušovce'}
+data: {'kraj': 'Košický kraj', 'okres': 'Spišská Nová Ves', 'obec': 'Olcnava, Vítkovce, Markušovce', 'katastralne_uzemia': [{'nazov': 'Olcnava', 'parcely': []}, {'nazov': 'Vítkovce', 'parcely': []}, {'nazov': 'Markušovce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'traťový úsek ŽST Spišské Vlachy - Markušovce koľaj číslo 2 ±km 151,700 - 163,900', 'nazov_lokality_norm': 'Spišské Vlachy - Markušovce'}
+ku_name:Olcnava obec:Olcnava, Vítkovce, Markušovce okres:Spišská Nová Ves kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: olcnava norm_ku: olcnava
+_get_nationalCadastralZoningReferences() found_ids: {'843466'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: vitkovce norm_ku: olcnava
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: None norm_ku: olcnava
+_get_nationalCadastralZoningReferences() found_ids: {'843466'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: markusovce norm_ku: olcnava
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: None norm_ku: olcnava
+_get_nationalCadastralZoningReferences() found_ids: {'843466'}
+nationalCadastralZoningReferences: ['843466']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.39 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Vítkovce obec:Olcnava, Vítkovce, Markušovce okres:Spišská Nová Ves kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: olcnava norm_ku: vitkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: None norm_ku: vitkovce
+_get_nationalCadastralZoningReferences() found_ids: {'869759'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: vitkovce norm_ku: vitkovce
+_get_nationalCadastralZoningReferences() found_ids: {'869759'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: markusovce norm_ku: vitkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: None norm_ku: vitkovce
+_get_nationalCadastralZoningReferences() found_ids: {'869759'}
+nationalCadastralZoningReferences: ['869759']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Markušovce obec:Olcnava, Vítkovce, Markušovce okres:Spišská Nová Ves kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: olcnava norm_ku: marsovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: None norm_ku: marsovce
+Fuzzy match found: 'Markušovce' -> 'Markušovce' (ID: 836125)
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: vitkovce norm_ku: marsovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: None norm_ku: marsovce
+Fuzzy match found: 'Markušovce' -> 'Markušovce' (ID: 836125)
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: spisska nova ves norm_obec: markusovce norm_ku: marsovce
+Fuzzy match found: 'Markušovce' -> 'Markušovce' (ID: 836125)
+nationalCadastralZoningReferences: ['836125']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Spišské Vlachy - Markušovce
+get_geometry_of_a_geoname nazov_lokality: Spišské Vlachy - Markušovce
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Vlachy - Markušovce, Olcnava, Vítkovce, Markušovce, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Vlachy - Markušovce, Spišská Nová Ves, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Vlachy - Markušovce, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Vlachy - Markušovce, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.9285359, 'lon': 20.7208571, 'formatted_address': '053 63 Vítkovce, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 63 Vítkovce, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.75371 48.94315, 20.75431 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((20.73231 48.93897, 20.73233 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((20.62136 48.93108, 20.62175 48...
+
+[3 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/577292/gis.geojson...
+Intersections with protected areas...
+Found 4 intersecting parcels with '5st_konsUEV'.
+Found 7 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Olcnava', 'NAZOV_UEV': 'Galmus', 'KOD_UEV': 'SKUEV0287'}, {'parcel_label': 'Olcnava', 'NAZOV_UEV': 'Galmus', 'KOD_UEV': 'SKUEV0287'}, {'parcel_label': 'Olcnava', 'NAZOV_UEV': 'Galmus', 'KOD_UEV': 'SKUEV0287'}, {'parcel_label': 'Vítkovce', 'NAZOV_UEV': 'Hornádske vápence', 'KOD_UEV': 'SKUEV0286'}], 'UEV': [{'parcel_label': 'Olcnava', 'NATIONALSI': 'SKUEV0287', 'SITETITLE_': 'Galmus'}, {'parcel_label': 'Olcnava', 'NATIONALSI': 'SKUEV0928', 'SITETITLE_': 'Stredný tok Hornádu'}, {'parcel_label': 'Vítkovce', 'NATIONALSI': 'SKUEV0287', 'SITETITLE_': 'Galmus'}, {'parcel_label': 'Vítkovce', 'NATIONALSI': 'SKUEV0928', 'SITETITLE_': 'Stredný tok Hornádu'}, {'parcel_label': 'Vítkovce', 'NATIONALSI': 'SKUEV0286', 'SITETITLE_': 'Hornádske vápence'}, {'parcel_label': 'Markušovce', 'NATIONALSI': 'SKUEV0928', 'SITETITLE_': 'Stredný tok Hornádu'}, {'parcel_label': 'Markušovce', 'NATIONALSI': 'SKUEV0286', 'SITETITLE_': 'Hornádske vápence'}], 'MCHU': [{'parcel_label': 'Olcnava', 'NATIONALSI': '514', 'SITETITLE_': 'NPR Červené skaly'}, {'parcel_label': 'Olcnava', 'NATIONALSI': '1294', 'SITETITLE_': 'PR Pralesy Slovenska-Domková'}, {'parcel_label': 'Markušovce', 'NATIONALSI': '608', 'SITETITLE_': 'NPP Markušovské steny'}, {'parcel_label': 'Markušovce', 'NATIONALSI': '693', 'SITETITLE_': 'PP Markušovská transgresia paleogénu'}], 'CHVU': [{'parcel_label': 'Olcnava', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Vítkovce', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}, {'parcel_label': 'Markušovce', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Spišská Nová Ves/577292/analysis.json...
+
+--- Časy spracovania dokumentu 577292 ---
+  download_and_text   :   5.54 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.49 s
+  gis_processing      :   3.47 s
+  CELKOVÝ ČAS         :  20.50 s
+------------------------------------------
+Dokument 577292 bol úspešne spracovaný.

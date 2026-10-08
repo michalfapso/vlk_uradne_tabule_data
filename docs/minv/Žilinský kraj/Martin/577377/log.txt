@@ -1,0 +1,44 @@
+[2026-10-08 22:47:05] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/577377'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/577377/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/577377/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/577377/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00970065}
+LLM_tokens: {"input": 5097, "output": 2686, "total": 7783, "cached": 2013}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/577377/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/577377/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': 'Vrútky', 'katastralne_uzemia': [{'nazov': 'Vrútky', 'parcely': [{'typ': 'C', 'cisla': ['4261/1']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo dráhy', 'nazov_lokality_norm': 'ochranné pásmo dráhy'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Martin', 'obec': 'Vrútky', 'katastralne_uzemia': [{'nazov': 'Vrútky', 'parcely': [{'typ': 'C', 'cisla': ['4261/1']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo dráhy', 'nazov_lokality_norm': 'ochranné pásmo dráhy'}
+ku_name:Vrútky obec:Vrútky okres:Martin kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: martin norm_obec: vrutky norm_ku: vrutky
+_get_nationalCadastralZoningReferences() found_ids: {'870650'}
+nationalCadastralZoningReferences: ['870650']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.38 s
+nazov_lokality: ochranné pásmo dráhy
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.111'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/577377/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Martin/577377/analysis.json...
+
+--- Časy spracovania dokumentu 577377 ---
+  download_and_text   :   0.99 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.16 s
+  gis_processing      :   3.51 s
+  CELKOVÝ ČAS         :  15.66 s
+------------------------------------------
+Dokument 577377 bol úspešne spracovaný.

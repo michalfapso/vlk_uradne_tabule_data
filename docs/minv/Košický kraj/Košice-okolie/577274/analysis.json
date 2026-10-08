@@ -1,0 +1,106 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2026/019192-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-07",
+  "datum_zverejnenia": "2026-10-07",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr na ústnom pojednávaní dňa 27.10. 2026"
+  },
+  "ziadatel_navrhovatel": "Obec Ždaňa",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Ždaňa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ždaňa",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "498/4",
+              "1336/6",
+              "498/12"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Na kamennom poli",
+    "nazov_lokality_norm": "Na kamennom poli"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania a nariadenie ústneho pojednávania",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "Rozšírenie verejnej kanalizácie",
+    "Prípojky kanalizácie"
+  ],
+  "rozsah_zasahu": "Vetva A-300-397,4 m, Vetva B – 300-140,02, Vetva C – 300-27,4m; plastové revízne kanalizačné šachty",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "61",
+        "73"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": [
+        "16",
+        "51",
+        "53"
+      ]
+    },
+    {
+      "nazov": "Správny poriadok",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "26"
+      ]
+    }
+  ],
+  "zhrnutie": "Ide o oznámenie o začatí vodoprávneho konania pre rozšírenie verejnej kanalizácie a vybudovanie prípojok v obci Ždaňa, lokalita Na kamennom poli. Projekt zahŕňa tri vetvy kanalizácie v celkovej dĺžke viac ako 560 metrov v extraviláne obce. Ústne pojednávanie v danej veci je nariadené na 27.10.2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "1336/6",
+          "NATIONALSI": "SKCHVU009",
+          "SITETITLE_": "Košická kotlina"
+        },
+        {
+          "parcel_label": "498/4",
+          "NATIONALSI": "SKCHVU009",
+          "SITETITLE_": "Košická kotlina"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

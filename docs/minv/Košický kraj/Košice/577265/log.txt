@@ -1,0 +1,49 @@
+[2026-10-08 22:42:49] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/577265'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/577265/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0003048}
+LLM_tokens: {"input": 334, "output": 743, "total": 1077, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/577265/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'okresný úrad v sídle kraja určuje na potvrdenie záujmu byt' zúčastnenou osobou v uvedenom správnom konaní písomnou alebo elektronickou formou'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/577265/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014785}
+LLM_tokens: {"input": 5198, "output": 4062, "total": 9260, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/577265/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice/577265/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'plávajúca osvetlená fontána', 'nazov_lokality_norm': None}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'plávajúca osvetlená fontána', 'nazov_lokality_norm': None}
+No geometries were found.
+nazov_lokality: plávajúca osvetlená fontána
+get_geometry_of_a_geoname nazov_lokality: plávajúca osvetlená fontána
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** osvetlená fontána, Košice, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** osvetlená fontána, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** osvetlená fontána, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.7239174, 'lon': 21.2654442, 'formatted_address': 'Mestský park, 040 01 Košice-Staré Mesto, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** park, 040 01 Košice-Staré Mesto, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 577265 ---
+  download_and_text   :   5.40 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  17.46 s
+  gis_processing      :   1.58 s
+  CELKOVÝ ČAS         :  24.45 s
+------------------------------------------
+Dokument 577265 bol úspešne spracovaný.

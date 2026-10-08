@@ -1,0 +1,72 @@
+[2026-10-08 22:45:32] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577399'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577399/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577399/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'zakona NR SR C. 543/2002 Z.z. 0 ochrane prfrody a krajiny v znenf neskorsfch predpisov oznamujeme vyrub drevfn: predpokladana datum uskutocnenia vyrub'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 4' zákona 'pfsm. c) cit. zakona'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1' zákona 'pfsm. b) a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 35 ods. 3' zákona 'pfsm. c) a pfsm. d) zakona C.251/2012 Z. Z. 0 energetike a 0 zmene niektorYch zakonov v znenf neskorsfch predpisov. Planovany rozsah a ine okolnosti v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 3' zákona 'cit. zakona. Vyplnenie tohto oznamenia sa povazuje za suhlas v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13' zákona 'zakona NR SR c.18/2018 Z.z. oochrane osobnych udajov a 0 zmene a doplnenf niektorYch zakonov so spracuvanfm svojich osobnych udajov. Osobne udaje budu'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012153500000000001}
+LLM_tokens: {"input": 5389, "output": 3153, "total": 8542, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577399/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577399/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Brezany', 'katastralne_uzemia': [{'nazov': 'Brezany', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo nadzemnej prípojky vysokého napätia (VN) pre CS Brezany', 'nazov_lokality_norm': 'CS Brezany'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Brezany', 'katastralne_uzemia': [{'nazov': 'Brezany', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo nadzemnej prípojky vysokého napätia (VN) pre CS Brezany', 'nazov_lokality_norm': 'CS Brezany'}
+ku_name:Brezany obec:Brezany okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: brezany norm_ku: brezany
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: brezany
+_get_nationalCadastralZoningReferences() found_ids: {'839469'}
+nationalCadastralZoningReferences: ['839469']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: CS Brezany
+get_geometry_of_a_geoname nazov_lokality: CS Brezany
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Brezany, Brezany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Brezany, Prievidza, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.62457 48.79881, 18.62475 48.79872...  ...  Nedožery-Brezany, okres Prievidza, Trenčiansky...
+
+[1 rows x 11 columns]
+geoname_query: CS Brezany, Prievidza, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.70617 48.84296, 18.70646 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.62457 48.79881, 18.62475 48.79872...  ...  Nedožery-Brezany, okres Prievidza, Trenčiansky...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577399/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577399/analysis.json...
+
+--- Časy spracovania dokumentu 577399 ---
+  download_and_text   :   2.36 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.39 s
+  gis_processing      :   1.48 s
+  CELKOVÝ ČAS         :  17.23 s
+------------------------------------------
+Dokument 577399 bol úspešne spracovaný.

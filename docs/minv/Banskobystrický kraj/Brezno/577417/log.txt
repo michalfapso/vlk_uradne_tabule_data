@@ -1,0 +1,73 @@
+[2026-10-08 22:38:33] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577417'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577417/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577417/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 3' zákona '24/2006 Z.z. o posudzovaní vplyvov na životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov    k oznámeniu o strate'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009785499999999999}
+LLM_tokens: {"input": 4355, "output": 2536, "total": 6891, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 47 column 1 (char 1467)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00979435}
+LLM_tokens: {"input": 4355, "output": 2840, "total": 7195, "cached": 2007}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577417/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577417/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Polomka', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'obec Polomka', 'nazov_lokality_norm': 'Polomka'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Polomka', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'obec Polomka', 'nazov_lokality_norm': 'Polomka'}
+Fallback to OBEC: Polomka
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: polomka norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'848051'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 1.05 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Polomka
+get_geometry_of_a_geoname nazov_lokality: Polomka
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Polomka, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Brezno, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.77701 48.9061, 19.77762 48.90519,...  ...  Polomka, okres Brezno, Banskobystrický kraj, 9...
+
+[1 rows x 11 columns]
+geoname_query: Polomka, Brezno, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.8179 48.91611, 19.81813 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.77701 48.9061, 19.77762 48.90519,...  ...  Polomka, okres Brezno, Banskobystrický kraj, 9...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577417/gis.geojson...
+Intersections with protected areas...
+Found 46 intersecting parcels with '5st_konsUEV'.
+Found 4 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}, {'parcel_label': 'Polomka', 'NAZOV_UEV': 'Muránska planina', 'KOD_UEV': 'SKUEV0225'}], 'UEV': [{'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV0225', 'SITETITLE_': 'Muránska planina'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV4077', 'SITETITLE_': 'Lúky pod Volchovom'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKUEV0310', 'SITETITLE_': 'Kráľovohoľské Tatry'}], 'CHVU': [{'parcel_label': 'Polomka', 'NATIONALSI': 'SKCHVU017', 'SITETITLE_': 'Muránska planina - Stolica'}, {'parcel_label': 'Polomka', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577417/analysis.json...
+
+--- Časy spracovania dokumentu 577417 ---
+  download_and_text   :   1.40 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  22.00 s
+  gis_processing      :   1.89 s
+  CELKOVÝ ČAS         :  25.30 s
+------------------------------------------
+Dokument 577417 bol úspešne spracovaný.

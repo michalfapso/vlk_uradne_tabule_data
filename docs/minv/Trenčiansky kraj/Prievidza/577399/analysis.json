@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-30",
+  "datum_zverejnenia": "2026-10-05",
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská vodárenská prevádzková spoločnosť, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Brezany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Brezany",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo nadzemnej prípojky vysokého napätia (VN) pre CS Brezany",
+    "nazov_lokality_norm": "CS Brezany"
+  },
+  "typ_dokumentu": "Oznámenie o výrube podľa osobitného predpisu",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "odstránenie nežiaducej vegetácie",
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "5 ks stromy nad obv. 120 cm, 24 ks stromov nad obv. 50 cm a kroviny 1 100 m2",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11",
+        "35"
+      ]
+    },
+    {
+      "nazov": "Zákon o ochrane osobných údajov",
+      "cislo": "18/2018",
+      "paragrafy": [
+        "13"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube 29 stromov a 1100 m2 krovín v k.ú. Brezany. Zásah sa realizuje v ochrannom pásme vysokého napätia pre čerpaciu stanicu z dôvodu bezpečnosti prevádzky a ohrozenia majetku. Ide o oznámenie podľa energetického zákona, ktoré nevyžaduje štandardné povolenie na výrub.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

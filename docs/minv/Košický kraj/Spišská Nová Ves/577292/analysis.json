@@ -1,0 +1,169 @@
+{
+  "cislo_konania_spisu": "OU-SN-OSZP-2026/019694",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-30",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Spišská Nová Ves",
+    "obec": "Olcnava, Vítkovce, Markušovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Olcnava",
+        "parcely": []
+      },
+      {
+        "nazov": "Vítkovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Markušovce",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "traťový úsek ŽST Spišské Vlachy - Markušovce koľaj číslo 2 ±km 151,700 - 163,900",
+    "nazov_lokality_norm": "Spišské Vlachy - Markušovce"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub stromov",
+    "výrub krovitých porastov"
+  ],
+  "rozsah_zasahu": "traťový úsek ±km 151,700 - 163,900",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "47 ods. 7",
+        "82 ods. 8"
+      ]
+    },
+    {
+      "nazov": "o dráhach",
+      "cislo": "513/2009",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube stromov a krovín pozdĺž železničnej trate v úseku Spišské Vlachy – Markušovce v rozsahu km 151,700 až 163,900. Výrub realizujú ŽSR z dôvodu bezpečnosti dopravy a údržby trate. Do konania nie je možné sa prihlásiť ako účastník.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Olcnava",
+          "NAZOV_UEV": "Galmus",
+          "KOD_UEV": "SKUEV0287"
+        },
+        {
+          "parcel_label": "Olcnava",
+          "NAZOV_UEV": "Galmus",
+          "KOD_UEV": "SKUEV0287"
+        },
+        {
+          "parcel_label": "Olcnava",
+          "NAZOV_UEV": "Galmus",
+          "KOD_UEV": "SKUEV0287"
+        },
+        {
+          "parcel_label": "Vítkovce",
+          "NAZOV_UEV": "Hornádske vápence",
+          "KOD_UEV": "SKUEV0286"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Olcnava",
+          "NATIONALSI": "SKUEV0287",
+          "SITETITLE_": "Galmus"
+        },
+        {
+          "parcel_label": "Olcnava",
+          "NATIONALSI": "SKUEV0928",
+          "SITETITLE_": "Stredný tok Hornádu"
+        },
+        {
+          "parcel_label": "Vítkovce",
+          "NATIONALSI": "SKUEV0287",
+          "SITETITLE_": "Galmus"
+        },
+        {
+          "parcel_label": "Vítkovce",
+          "NATIONALSI": "SKUEV0928",
+          "SITETITLE_": "Stredný tok Hornádu"
+        },
+        {
+          "parcel_label": "Vítkovce",
+          "NATIONALSI": "SKUEV0286",
+          "SITETITLE_": "Hornádske vápence"
+        },
+        {
+          "parcel_label": "Markušovce",
+          "NATIONALSI": "SKUEV0928",
+          "SITETITLE_": "Stredný tok Hornádu"
+        },
+        {
+          "parcel_label": "Markušovce",
+          "NATIONALSI": "SKUEV0286",
+          "SITETITLE_": "Hornádske vápence"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Olcnava",
+          "NATIONALSI": "514",
+          "SITETITLE_": "NPR Červené skaly"
+        },
+        {
+          "parcel_label": "Olcnava",
+          "NATIONALSI": "1294",
+          "SITETITLE_": "PR Pralesy Slovenska-Domková"
+        },
+        {
+          "parcel_label": "Markušovce",
+          "NATIONALSI": "608",
+          "SITETITLE_": "NPP Markušovské steny"
+        },
+        {
+          "parcel_label": "Markušovce",
+          "NATIONALSI": "693",
+          "SITETITLE_": "PP Markušovská transgresia paleogénu"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Olcnava",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "Vítkovce",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        },
+        {
+          "parcel_label": "Markušovce",
+          "NATIONALSI": "SKCHVU036",
+          "SITETITLE_": "Volovské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}
