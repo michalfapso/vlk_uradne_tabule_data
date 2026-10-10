@@ -1,0 +1,126 @@
+{
+  "cislo_konania_spisu": "SVP 19597/2026/1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-25",
+  "datum_zverejnenia": "2026-10-10",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Lazisko",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lazisko",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "tok rieky Bezmenný",
+    "nazov_lokality_norm": "Bezmenný"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie krovia",
+    "periodická údržba vodného toku"
+  ],
+  "rozsah_zasahu": "odstraňovanie krovia 450 m2 a 9 ks stromov (4 ks vŕba krehká, 5 ks jelša sivá)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "Vŕba krehká",
+    "Jelša sivá"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "Vodný zákon",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "48",
+        "49"
+      ]
+    }
+  ],
+  "zhrnutie": "SVP oznamuje výrub 9 stromov (vŕba, jelša) a 450 m2 krovín na vodnom toku Bezmenný v katastri obce Lazisko. Zásah je odôvodnený údržbou koryta a zabezpečením prietoku, pričom práce majú prebiehať od októbra 2026 do februára 2028.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Lazisko",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Lazisko",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Lazisko",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Lazisko",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Lazisko",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Lazisko",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Lazisko",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Lazisko",
+          "NATIONALSI": "1024",
+          "SITETITLE_": "NPR Skalka"
+        },
+        {
+          "parcel_label": "Lazisko",
+          "NATIONALSI": "239",
+          "SITETITLE_": "NPR Demänovská dolina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Lazisko",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

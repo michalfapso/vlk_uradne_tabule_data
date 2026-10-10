@@ -1,0 +1,93 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP3-2026/590360/MAA",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-08",
+  "datum_zverejnenia": "2026-10-09",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia upovedomenia"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": null,
+    "katastralne_uzemia": [
+      {
+        "nazov": "ZB",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2905/9"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "chata",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatom správnom konaní",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub"
+  ],
+  "rozsah_zasahu": "3 x dub",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "dub"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "82 ods. 3",
+        "82 ods. 6",
+        "47 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci výrubu 3 kusov dubov rastúcich na parcele C-KN 2905/9 v katastrálnom území ZB. Žiadateľ odôvodňuje výrub ohrozovaním chaty koreňmi a konármi drevín.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "časť Piesok - Zochova Chata, Modra, okres Pezinok, Bratislavský kraj, Slovensko",
+          "NATIONALSI": "SKUEV0967",
+          "SITETITLE_": "Modransko- tŕňanské pustáky"
+        },
+        {
+          "parcel_label": "časť Piesok - Zochova Chata, Modra, okres Pezinok, Bratislavský kraj, Slovensko",
+          "NATIONALSI": "SKUEV0276",
+          "SITETITLE_": "Kuchynská hornatina"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "časť Piesok - Zochova Chata, Modra, okres Pezinok, Bratislavský kraj, Slovensko",
+          "NATIONALSI": "170",
+          "SITETITLE_": "PP Tisové skaly"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "časť Piesok - Zochova Chata, Modra, okres Pezinok, Bratislavský kraj, Slovensko",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "GEONAME"
+  }
+}

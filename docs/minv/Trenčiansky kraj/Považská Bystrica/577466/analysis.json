@@ -1,0 +1,133 @@
+{
+  "cislo_konania_spisu": "OU-PB-OSZP-2026/013779",
+  "cislo_rozhodnutia": "OU-PB-OSZP-2026/013779-005",
+  "datum_dokumentu": "2026-10-09",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "odvolanie v lehote 15 dní odo dňa oznámenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "VIKO spol. s r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Považská Teplá",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "641/1",
+              "641/3",
+              "641/11",
+              "642",
+              "643/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Biokoridor nadregionálneho významu (NRBk2) Rieka Váh",
+    "nazov_lokality_norm": "Váh"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom zámere",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "Protipovodňový oporný múr",
+    "novostavba",
+    "líniová stavba",
+    "terénne úpravy"
+  ],
+  "rozsah_zasahu": "železobetónový múr dĺžky 375,00 m a výšky 1,5 m",
+  "typ_uzemia": [
+    "Biokoridor nadregionálneho významu",
+    "brehové porasty lužného lesa",
+    "ochranné pásmo VN vedenia 22kV",
+    "ochranné pásmo dráhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vtáctvo",
+    "vodná fauna",
+    "brehové porasty lužného lesa"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "61",
+        "71",
+        "47"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": [
+        "16",
+        "60",
+        "65",
+        "35",
+        "30",
+        "19",
+        "66",
+        "67",
+        "21",
+        "57",
+        "61",
+        "62",
+        "50"
+      ]
+    },
+    {
+      "nazov": "zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "53",
+        "54"
+      ]
+    },
+    {
+      "nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "zákon o ochrane pred povodňami",
+      "cislo": "7/2010 Z. z.",
+      "paragrafy": [
+        "10",
+        "37"
+      ]
+    },
+    {
+      "nazov": "zákon o energetike",
+      "cislo": "251/2012 Z. z.",
+      "paragrafy": [
+        "43"
+      ]
+    },
+    {
+      "nazov": "zákon o dráhach",
+      "cislo": "513/2009 Z. z.",
+      "paragrafy": [
+        "101",
+        "102"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o povolení stavebného zámeru na výstavbu 375 m dlhého železobetónového protipovodňového múru v areáli firmy VIKO v Považskej Teplej. Stavba sa nachádza v tesnej blízkosti a zasahuje do nadregionálneho biokoridoru rieky Váh a fragmentov brehových porastov lužného lesa. Realizácia prebieha v ochrannom pásme 22kV elektrického vedenia a železničnej trate.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

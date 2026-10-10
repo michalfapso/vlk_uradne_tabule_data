@@ -1,0 +1,91 @@
+{
+  "cislo_konania_spisu": "18/15/2026 C 70-NE-087/2026,000661-co",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-01",
+  "datum_zverejnenia": "2026-10-09",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SVP, š. p., Povodie Bodrogu, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Medzilaborce",
+    "obec": "Krásny Brod",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Krásny Brod",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "805/10"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranná hrádza VT Laborce",
+    "nazov_lokality_norm": "Laborce"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub krovitých porastov"
+  ],
+  "rozsah_zasahu": "výmera cca 250 m²",
+  "typ_uzemia": [
+    "CHKO Východné Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "krovité porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "48 ods. 5 písm. b)",
+        "49 ods. 1 písm. b)"
+      ]
+    },
+    {
+      "nazov": "o priestupkoch",
+      "cislo": "372/1990 Zb.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje výrub krovitých porastov v rozsahu 250 m2 na ochrannej hrádzi rieky Laborce v k.ú. Krásny Brod. Zásah sa realizuje v rámci pravidelnej údržby v chránenom území CHKO Východné Karpaty. Plánovaný termín realizácie je od 15.10.2026 do 28.02.2027.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "805/10",
+          "NATIONALSI": "SKUEV0043",
+          "SITETITLE_": "Kamenná"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "805/10",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

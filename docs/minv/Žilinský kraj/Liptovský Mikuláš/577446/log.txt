@@ -1,0 +1,58 @@
+[2026-10-10 21:01:00] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/577446'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/577446/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0004416}
+LLM_tokens: {"input": 592, "output": 1085, "total": 1677, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/577446/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'Vám oznamujeme, že naša organizácia bude vykonávať v období od 19.10.2026 – 29.2.2028.výrub na vodohospodársky význame vodnom toku Demänovka, v príras'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 8' zákona 'Vám oznamujeme, že naša organizácia bude vykonávať v období od 19.10.2026 – 29.2.2028.výrub na vodohospodársky význame vodnom toku Demänovka, v príras'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 48' zákona 'vodného zákona č. 364/2004 Z. z. v znení platných predpisov.  Očakávame stanovisko v zmysle zákona o ochrane prirody Z.z. 543/2002'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 49' zákona 'vodného zákona č. 364/2004 Z. z. v znení platných predpisov.  Očakávame stanovisko v zmysle zákona o ochrane prirody Z.z. 543/2002'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§47 odsek 8' zákona ''.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011549}
+LLM_tokens: {"input": 4954, "output": 3024, "total": 7978, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/577446/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/577446/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Liptovský Mikuláš', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodný tok Demänovka, IDENTR 4-21-101-127m, 130m – 150 m a Kuliškovom', 'nazov_lokality_norm': 'Demänovka, Kuliškovo'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Liptovský Mikuláš', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodný tok Demänovka, IDENTR 4-21-101-127m, 130m – 150 m a Kuliškovom', 'nazov_lokality_norm': 'Demänovka, Kuliškovo'}
+Fallback to OBEC: Liptovský Mikuláš
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: liptovsky mikulas norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (11), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Demänovka, Kuliškovo
+get_geometry_of_a_geoname nazov_lokality: Demänovka, Kuliškovo
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kuliškovo, Liptovský Mikuláš, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kuliškovo, Liptovský Mikuláš, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kuliškovo, Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kuliškovo, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0635179, 'lon': 19.5863742, 'formatted_address': 'Demänová, 031 01 Liptovský Mikuláš, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 031 01 Liptovský Mikuláš, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 577446 ---
+  download_and_text   :  12.72 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.43 s
+  gis_processing      :   1.74 s
+  CELKOVÝ ČAS         :  25.88 s
+------------------------------------------
+Dokument 577446 bol úspešne spracovaný.

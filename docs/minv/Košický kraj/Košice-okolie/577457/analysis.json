@@ -1,0 +1,134 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2026/018911-004",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-08",
+  "datum_zverejnenia": "2026-10-08",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr na ústnom pojednávaní dňa 13. 11. 2026"
+  },
+  "ziadatel_navrhovatel": "Východoslovenská vodárenská spoločnosť, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Rozhanovce, Ďurďošík, Bidovce, Svinica, Ďurkov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rozhanovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Ďurďošík",
+        "parcely": []
+      },
+      {
+        "nazov": "Bidovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Svinica",
+        "parcely": []
+      },
+      {
+        "nazov": "Ďurkov",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "trasa medzi obcami Rozhanovce, Ďurďošík, Bidovce, Svinica a Ďurkov",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania a nariadenie ústneho pojednávania",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výstavba privádzacieho vodovodného potrubia",
+    "križovanie vodných tokov",
+    "bezvýkopová technológia riadeného horizontálneho vŕtania"
+  ],
+  "rozsah_zasahu": "privádzacie potrubie v dĺžke 6,950 km",
+  "typ_uzemia": [
+    "vodohospodársky významný vodný tok"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "61",
+        "73"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": [
+        "16",
+        "47",
+        "51"
+      ]
+    },
+    {
+      "nazov": "Zákon o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania pre výstavbu 6,95 km dlhého vodovodného privádzača na trase Rozhanovce – Ďurkov. Projekt prechádza extravilánom viacerých obcí a zahŕňa podvŕtavanie rieky Oľšava a ďalších potokov za účelom riešenia havarijného stavu zásobovania pitnou vodou.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Rozhanovce",
+          "NATIONALSI": "SKUEV4007",
+          "SITETITLE_": "Dolný tok Torysy"
+        },
+        {
+          "parcel_label": "Svinica",
+          "NATIONALSI": "SKUEV4009",
+          "SITETITLE_": "Dolný tok Oľšavy"
+        },
+        {
+          "parcel_label": "Ďurkov",
+          "NATIONALSI": "SKUEV4009",
+          "SITETITLE_": "Dolný tok Oľšavy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Svinica",
+          "NATIONALSI": "SKCHVU009",
+          "SITETITLE_": "Košická kotlina"
+        },
+        {
+          "parcel_label": "Svinica",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        },
+        {
+          "parcel_label": "Ďurkov",
+          "NATIONALSI": "SKCHVU009",
+          "SITETITLE_": "Košická kotlina"
+        },
+        {
+          "parcel_label": "Ďurkov",
+          "NATIONALSI": "SKCHVU025",
+          "SITETITLE_": "Slanské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,199 @@
+[2026-10-10 20:57:33] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/577457'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/577457/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/577457/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods.3' zákona 'Stavebného zákona a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona začatie vodoprávneho konania a nariaďuje k prerokovaniu návrhu ústne pojednávanie na deň 13. 11. 2026'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods. 2' zákona 'Stavebného zákona účastníci konania, dotknuté orgány a dotknuté právnické osoby môžu svoje návrhy, pripomienky a námietky uplatniť najneskôr na ústnom'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0159275}
+LLM_tokens: {"input": 12127, "output": 3288, "total": 15415, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/577457/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/577457/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Rozhanovce, Ďurďošík, Bidovce, Svinica, Ďurkov', 'katastralne_uzemia': [{'nazov': 'Rozhanovce', 'parcely': []}, {'nazov': 'Ďurďošík', 'parcely': []}, {'nazov': 'Bidovce', 'parcely': []}, {'nazov': 'Svinica', 'parcely': []}, {'nazov': 'Ďurkov', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'trasa medzi obcami Rozhanovce, Ďurďošík, Bidovce, Svinica a Ďurkov', 'nazov_lokality_norm': None}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Rozhanovce, Ďurďošík, Bidovce, Svinica, Ďurkov', 'katastralne_uzemia': [{'nazov': 'Rozhanovce', 'parcely': []}, {'nazov': 'Ďurďošík', 'parcely': []}, {'nazov': 'Bidovce', 'parcely': []}, {'nazov': 'Svinica', 'parcely': []}, {'nazov': 'Ďurkov', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'trasa medzi obcami Rozhanovce, Ďurďošík, Bidovce, Svinica a Ďurkov', 'nazov_lokality_norm': None}
+ku_name:Rozhanovce obec:Rozhanovce, Ďurďošík, Bidovce, Svinica, Ďurkov okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: rozhanovce norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() found_ids: {'852899'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: durdosik norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() found_ids: {'852899'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: bidovce norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() found_ids: {'852899'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: svinica norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() found_ids: {'852899'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: durkov norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: rozhanovce
+_get_nationalCadastralZoningReferences() found_ids: {'852899'}
+nationalCadastralZoningReferences: ['852899']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Ďurďošík obec:Rozhanovce, Ďurďošík, Bidovce, Svinica, Ďurkov okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: rozhanovce norm_ku: durdosik
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: durdosik
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: durdosik
+_get_nationalCadastralZoningReferences() found_ids: {'813893'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: durdosik norm_ku: durdosik
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: durdosik
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: durdosik
+_get_nationalCadastralZoningReferences() found_ids: {'813893'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: bidovce norm_ku: durdosik
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: durdosik
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: durdosik
+_get_nationalCadastralZoningReferences() found_ids: {'813893'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: svinica norm_ku: durdosik
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: durdosik
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: durdosik
+_get_nationalCadastralZoningReferences() found_ids: {'813893'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: durkov norm_ku: durdosik
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: durdosik
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: durdosik
+_get_nationalCadastralZoningReferences() found_ids: {'813893'}
+nationalCadastralZoningReferences: ['813893']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.18 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Bidovce obec:Rozhanovce, Ďurďošík, Bidovce, Svinica, Ďurkov okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: rozhanovce norm_ku: bidovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: bidovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: bidovce
+_get_nationalCadastralZoningReferences() found_ids: {'802875'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: durdosik norm_ku: bidovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: bidovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: bidovce
+_get_nationalCadastralZoningReferences() found_ids: {'802875'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: bidovce norm_ku: bidovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: bidovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: bidovce
+_get_nationalCadastralZoningReferences() found_ids: {'802875'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: svinica norm_ku: bidovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: bidovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: bidovce
+_get_nationalCadastralZoningReferences() found_ids: {'802875'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: durkov norm_ku: bidovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: bidovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: bidovce
+_get_nationalCadastralZoningReferences() found_ids: {'802875'}
+nationalCadastralZoningReferences: ['802875']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.19 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Svinica obec:Rozhanovce, Ďurďošík, Bidovce, Svinica, Ďurkov okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: rozhanovce norm_ku: svinica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: svinica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: svinica
+_get_nationalCadastralZoningReferences() found_ids: {'859877'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: durdosik norm_ku: svinica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: svinica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: svinica
+_get_nationalCadastralZoningReferences() found_ids: {'859877'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: bidovce norm_ku: svinica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: svinica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: svinica
+_get_nationalCadastralZoningReferences() found_ids: {'859877'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: svinica norm_ku: svinica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: svinica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: svinica
+_get_nationalCadastralZoningReferences() found_ids: {'859877'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: durkov norm_ku: svinica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: svinica
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: svinica
+_get_nationalCadastralZoningReferences() found_ids: {'859877'}
+nationalCadastralZoningReferences: ['859877']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.20 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Ďurkov obec:Rozhanovce, Ďurďošík, Bidovce, Svinica, Ďurkov okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: rozhanovce norm_ku: durkov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: durkov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: durkov
+_get_nationalCadastralZoningReferences() found_ids: {'813915'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: durdosik norm_ku: durkov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: durkov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: durkov
+_get_nationalCadastralZoningReferences() found_ids: {'813915'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: bidovce norm_ku: durkov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: durkov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: durkov
+_get_nationalCadastralZoningReferences() found_ids: {'813915'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: svinica norm_ku: durkov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: durkov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: durkov
+_get_nationalCadastralZoningReferences() found_ids: {'813915'}
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: durkov norm_ku: durkov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: durkov
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: durkov
+_get_nationalCadastralZoningReferences() found_ids: {'813915'}
+nationalCadastralZoningReferences: ['813915']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: trasa medzi obcami Rozhanovce, Ďurďošík, Bidovce, Svinica a Ďurkov
+get_geometry_of_a_geoname nazov_lokality: trasa medzi obcami Rozhanovce, Ďurďošík, Bidovce, Svinica a Ďurkov
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** medzi obcami Rozhanovce, Ďurďošík, Bidovce, Svinica a Ďurkov, Rozhanovce, Ďurďošík, Bidovce, Svinica, Ďurkov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** medzi obcami Rozhanovce, Ďurďošík, Bidovce, Svinica a Ďurkov, Košice-okolie, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** medzi obcami Rozhanovce, Ďurďošík, Bidovce, Svinica a Ďurkov, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** medzi obcami Rozhanovce, Ďurďošík, Bidovce, Svinica a Ďurkov, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.7315365, 'lon': 21.461822, 'formatted_address': '044 45 Svinica, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 45 Svinica, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.37218 48.7913, 21.3728 48.7...
+1  CadastralZoning  ...  MULTIPOLYGON (((21.41785 48.74953, 21.41817 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((21.42166 48.7617, 21.42244 48....
+3  CadastralZoning  ...  MULTIPOLYGON (((21.47418 48.75573, 21.47493 48...
+4  CadastralZoning  ...  MULTIPOLYGON (((21.45366 48.72683, 21.45363 48...
+
+[5 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/577457/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Rozhanovce', 'NATIONALSI': 'SKUEV4007', 'SITETITLE_': 'Dolný tok Torysy'}, {'parcel_label': 'Svinica', 'NATIONALSI': 'SKUEV4009', 'SITETITLE_': 'Dolný tok Oľšavy'}, {'parcel_label': 'Ďurkov', 'NATIONALSI': 'SKUEV4009', 'SITETITLE_': 'Dolný tok Oľšavy'}], 'CHVU': [{'parcel_label': 'Svinica', 'NATIONALSI': 'SKCHVU009', 'SITETITLE_': 'Košická kotlina'}, {'parcel_label': 'Svinica', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}, {'parcel_label': 'Ďurkov', 'NATIONALSI': 'SKCHVU009', 'SITETITLE_': 'Košická kotlina'}, {'parcel_label': 'Ďurkov', 'NATIONALSI': 'SKCHVU025', 'SITETITLE_': 'Slanské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/577457/analysis.json...
+
+--- Časy spracovania dokumentu 577457 ---
+  download_and_text   :   2.33 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.44 s
+  gis_processing      :   3.50 s
+  CELKOVÝ ČAS         :  19.27 s
+------------------------------------------
+Dokument 577457 bol úspešne spracovaný.

@@ -1,0 +1,59 @@
+[2026-10-10 20:57:07] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577441'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577441/orig.docx
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577441/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 1)' zákona 'môže písomne oznámiť svoj záujem byť zúčastnenou osobou v začatom správnom konaní, pričom uvedie názov združenia, sídlo, identifikačné číslo organizác'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 odsek 3' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '6' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577441/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010310900000000001}
+LLM_tokens: {"input": 6160, "output": 3016, "total": 9176, "cached": 4038}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577441/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577441/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': None, 'katastralne_uzemia': [{'nazov': 'ZB', 'parcely': [{'typ': 'C', 'cisla': ['2905/9']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'chata', 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': None, 'katastralne_uzemia': [{'nazov': 'ZB', 'parcely': [{'typ': 'C', 'cisla': ['2905/9']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'chata', 'nazov_lokality_norm': None}
+ku_name:ZB obec:None okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: None norm_ku: zb
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: None norm_obec: None norm_ku: zb
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: zb
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: chata
+get_geometry_of_a_geoname nazov_lokality: chata
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bratislava, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.11173 48.1814, 17.11178 48.1814, ...  ...  Chata Ahoj, 13612/83, Sliačska, Ahoj, Bratisla...
+1  POLYGON ((17.24222 48.39094, 17.24304 48.39051...  ...  časť Piesok - Zochova Chata, Modra, okres Pezi...
+
+[2 rows x 11 columns]
+geoname_query: chata, Bratislava, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.11173 48.1814, 17.11178 48.1814, ...  ...  Chata Ahoj, 13612/83, Sliačska, Ahoj, Bratisla...
+1  POLYGON ((17.24222 48.39094, 17.24304 48.39051...  ...  časť Piesok - Zochova Chata, Modra, okres Pezi...
+
+[2 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577441/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'časť Piesok - Zochova Chata, Modra, okres Pezinok, Bratislavský kraj, Slovensko', 'NATIONALSI': 'SKUEV0967', 'SITETITLE_': 'Modransko- tŕňanské pustáky'}, {'parcel_label': 'časť Piesok - Zochova Chata, Modra, okres Pezinok, Bratislavský kraj, Slovensko', 'NATIONALSI': 'SKUEV0276', 'SITETITLE_': 'Kuchynská hornatina'}], 'MCHU': [{'parcel_label': 'časť Piesok - Zochova Chata, Modra, okres Pezinok, Bratislavský kraj, Slovensko', 'NATIONALSI': '170', 'SITETITLE_': 'PP Tisové skaly'}], 'CHVU': [{'parcel_label': 'časť Piesok - Zochova Chata, Modra, okres Pezinok, Bratislavský kraj, Slovensko', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/577441/analysis.json...
+
+--- Časy spracovania dokumentu 577441 ---
+  download_and_text   :   1.86 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.78 s
+  gis_processing      :   0.44 s
+  CELKOVÝ ČAS         :  14.09 s
+------------------------------------------
+Dokument 577441 bol úspešne spracovaný.

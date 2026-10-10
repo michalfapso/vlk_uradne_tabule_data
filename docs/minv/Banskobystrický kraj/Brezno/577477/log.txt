@@ -1,0 +1,89 @@
+[2026-10-10 20:53:30] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577477'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577477/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577477/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 4 písm. d)' zákona ':     Na základe doručeného písomného oznámenia zo dňa 08.10.2026 na orgán ochrany  prírody vo veci uskutočnenia plánovaného výrubu drevín podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47  ods. 7' zákona 'uvádzame nasledovne:     • Subjekt: SVP š.p., Povodie Hrona, odštepný závod, Partizánska cesta 69, 974 98  Banská Bystrica      • Predmet oznámenia: v'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577477/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.017005}
+LLM_tokens: {"input": 5084, "output": 4821, "total": 9905, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577477/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577477/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Brezno, Polomka', 'katastralne_uzemia': [{'nazov': 'Brezno', 'parcely': []}, {'nazov': 'Polomka', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'VVVT Rohozná, drobný vodný tok bezmenný, DVT Krtičná', 'nazov_lokality_norm': 'Rohozná, Krtičná'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Brezno, Polomka', 'katastralne_uzemia': [{'nazov': 'Brezno', 'parcely': []}, {'nazov': 'Polomka', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'VVVT Rohozná, drobný vodný tok bezmenný, DVT Krtičná', 'nazov_lokality_norm': 'Rohozná, Krtičná'}
+ku_name:Brezno obec:Brezno, Polomka okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: brezno
+_get_nationalCadastralZoningReferences() found_ids: {'806528'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: polomka norm_ku: brezno
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: brezno
+_get_nationalCadastralZoningReferences() found_ids: {'806528'}
+nationalCadastralZoningReferences: ['806528']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.35 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Polomka obec:Brezno, Polomka okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: brezno norm_ku: polomka
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: polomka
+_get_nationalCadastralZoningReferences() found_ids: {'848051'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: polomka norm_ku: polomka
+_get_nationalCadastralZoningReferences() found_ids: {'848051'}
+nationalCadastralZoningReferences: ['848051']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Rohozná, Krtičná
+get_geometry_of_a_geoname nazov_lokality: Rohozná, Krtičná
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Krtičná, Brezno, Polomka, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Krtičná, Brezno, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Krtičná, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Krtičná, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.7948684, 'lon': 19.7069782, 'formatted_address': 'Rohozná, 977 01 Brezno, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 977 01 Brezno, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.68985 48.80452, 19.691 48.80404, ...  ...  Brezno - Rohozná, Brezno, okres Brezno, Bansko...
+
+[1 rows x 11 columns]
+geoname_query: Rohozná, 977 01 Brezno, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.64071 48.9362, 19.64434 48....
+1  CadastralZoning  ...  MULTIPOLYGON (((19.8179 48.91611, 19.81813 48....
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.68985 48.80452, 19.691 48.80404, ...  ...  Brezno - Rohozná, Brezno, okres Brezno, Bansko...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577477/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/577477/analysis.json...
+
+--- Časy spracovania dokumentu 577477 ---
+  download_and_text   :   1.21 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  18.33 s
+  gis_processing      :   2.97 s
+  CELKOVÝ ČAS         :  22.51 s
+------------------------------------------
+Dokument 577477 bol úspešne spracovaný.
