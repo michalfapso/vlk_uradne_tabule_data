@@ -1,0 +1,79 @@
+[2026-10-13 00:11:06] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577618'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577618/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577618/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 1' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'o posudzovaní  vplyvov oznámenie o strategickom dokumente „Územný plán obce Hrnčiarovce nad Parnou - Zmeny  a doplnky 11/2025“.    Okresný úrad Trnava'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6' zákona 'o posudzovaní vplyvov informuje verejnosť, že  oznámenie o strategickom dokumente „Územný plán obce Hrnčiarovce nad Parnou - Zmeny a doplnky  11/2025“'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 6' zákona 'o posudzovaní vplyvov najneskôr do 15 dní od zverejnenia oznámenia  dotknutou obcou na adresu:    Okresný úrad Trnava, odbor starostlivosti o životné'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 5' zákona 'o posudzovaní vplyvov informuje do troch pracovných  dní odo dňa doručenia oznámenia Okresným úradom Trnava verejnosť spôsobom v mieste obvyklým a  zá'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 63' zákona 'o posudzovaní vplyvov je možné v prípade potreby vykonať konzultácie počas  celého procesu posudzovania vplyvov k uvedenému strategického dokumentu na'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010838}
+LLM_tokens: {"input": 4765, "output": 3120, "total": 7885, "cached": 2010}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577618/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577618/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Hrnčiarovce nad Parnou', 'katastralne_uzemia': [{'nazov': 'Hrnčiarovce nad Parnou', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Hrnčiarovce nad Parnou', 'nazov_lokality_norm': 'Hrnčiarovce nad Parnou'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': 'Hrnčiarovce nad Parnou', 'katastralne_uzemia': [{'nazov': 'Hrnčiarovce nad Parnou', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Hrnčiarovce nad Parnou', 'nazov_lokality_norm': 'Hrnčiarovce nad Parnou'}
+ku_name:Hrnčiarovce nad Parnou obec:Hrnčiarovce nad Parnou okres:Trnava kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: hrnciarovce nad parnou norm_ku: hrnciarovce nad parnou
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: None norm_ku: hrnciarovce nad parnou
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: None norm_obec: None norm_ku: hrnciarovce nad parnou
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: hrnciarovce nad parnou
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+Fallback to OBEC: Hrnčiarovce nad Parnou
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: trnava norm_obec: hrnciarovce nad parnou norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'819476'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Hrnčiarovce nad Parnou
+get_geometry_of_a_geoname nazov_lokality: Hrnčiarovce nad Parnou
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** nad Parnou, Hrnčiarovce nad Parnou, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** nad Parnou, Trnava, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.51393 48.34634, 17.51396 48.34633...  ...  Hrnčiarovce nad Parnou, okres Trnava, Trnavský...
+
+[1 rows x 11 columns]
+geoname_query: Hrnčiarovce nad Parnou, Trnava, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.55425 48.36372, 17.55428 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.51393 48.34634, 17.51396 48.34633...  ...  Hrnčiarovce nad Parnou, okres Trnava, Trnavský...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577618/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'MCHU': [{'parcel_label': 'Hrnčiarovce', 'NATIONALSI': '175', 'SITETITLE_': 'CHA Trnavské rybníky'}], 'CHVU': [{'parcel_label': 'Hrnčiarovce', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577618/analysis.json...
+
+--- Časy spracovania dokumentu 577618 ---
+  download_and_text   :   1.42 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.59 s
+  gis_processing      :   1.36 s
+  CELKOVÝ ČAS         :  15.37 s
+------------------------------------------
+Dokument 577618 bol úspešne spracovaný.

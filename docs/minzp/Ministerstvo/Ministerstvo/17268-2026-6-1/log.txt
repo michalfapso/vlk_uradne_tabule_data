@@ -1,0 +1,53 @@
+[2026-10-13 00:12:21] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17268-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17268-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17268-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0115035}
+LLM_tokens: {"input": 4209, "output": 3133, "total": 7342, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17268-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17268-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Ministerstvo', 'okres': 'Ministerstvo', 'obec': 'Ružomberok', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Ministerstvo', 'okres': 'Ministerstvo', 'obec': 'Ružomberok', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+Fallback to OBEC: Ružomberok
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: ministerstvo norm_obec: ruzomberok norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: None norm_obec: ruzomberok norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: ruzomberok norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'819221', '853801'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.50 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.22179 49.13037, 19.22188 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.22486 49.11416, 19.22489 49...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17268-2026-6-1/gis.geojson...
+Intersections with protected areas...
+Found 20 intersecting parcels with '5st_konsUEV'.
+Found 6 intersecting parcels with 'UEV'.
+Found 7 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Salatín', 'KOD_UEV': 'SKUEV0197'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Salatín', 'KOD_UEV': 'SKUEV0197'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}], 'UEV': [{'parcel_label': 'Hrboltová', 'NATIONALSI': 'SKUEV0253', 'SITETITLE_': 'Váh'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': 'SKUEV0164', 'SITETITLE_': 'Revúca'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': 'SKUEV0197', 'SITETITLE_': 'Salatín'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': 'SKUEV4092', 'SITETITLE_': 'Lúky v Trlenskej doline'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': 'SKUEV0253', 'SITETITLE_': 'Váh'}], 'MCHU': [{'parcel_label': 'Ružomberok', 'NATIONALSI': '223', 'SITETITLE_': 'NPP Brankovský vodopád'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': '350', 'SITETITLE_': 'PP Matejkovský kamenný prúd'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': '454', 'SITETITLE_': 'PP Bukovinka'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': '287', 'SITETITLE_': 'PP Jazierske travertíny'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': '242', 'SITETITLE_': 'PP Dogerské skaly'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': '475', 'SITETITLE_': 'PP Vlčia skala'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': '325', 'SITETITLE_': 'PP Krkavá skala'}], 'CHVU': [{'parcel_label': 'Hrboltová', 'NATIONALSI': 'SKCHVU050', 'SITETITLE_': 'Chočské vrchy'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17268-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 17268-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.31 s
+  gis_processing      :   1.17 s
+  CELKOVÝ ČAS         :  16.11 s
+------------------------------------------
+Dokument 17268-2026-6-1 bol úspešne spracovaný.

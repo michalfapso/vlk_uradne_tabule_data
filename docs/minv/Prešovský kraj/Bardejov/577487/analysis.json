@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": "OU-BJ-OSZP-2026/014185-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-08",
+  "datum_zverejnenia": "2026-10-09",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenská správa ciest",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Bardejov",
+    "obec": "Bardejov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dlhá Lúka",
+        "parcely": []
+      },
+      {
+        "nazov": "Zborov",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "komunikácia I/77 v km 67,47-73,80",
+    "nazov_lokality_norm": "I/77, Bardejov"
+  },
+  "typ_dokumentu": "Upovedomenie o podanom oznámení o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "stavebné úpravy na komunikácii"
+  ],
+  "rozsah_zasahu": "215 ks stromov",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82",
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Slovenská správa ciest oznámila výrub 215 kusov stromov popri ceste I/77 v úseku Dlhá Lúka – Zborov z dôvodu plánovaných stavebných úprav. Konanie je v počiatočnej fáze upovedomenia o oznámení v súlade so zákonom o ochrane prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Zborov",
+          "NAZOV_UEV": "Stebnícka Magura",
+          "KOD_UEV": "SKUEV0754"
+        },
+        {
+          "parcel_label": "Zborov",
+          "NAZOV_UEV": "Stebnícka Magura",
+          "KOD_UEV": "SKUEV0754"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Zborov",
+          "NATIONALSI": "SKUEV0754",
+          "SITETITLE_": "Stebnícka Magura"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Zborov",
+          "NATIONALSI": "1338",
+          "SITETITLE_": "PR Pralesy Slovenska-Stebnícka Magura"
+        },
+        {
+          "parcel_label": "Zborov",
+          "NATIONALSI": "600",
+          "SITETITLE_": "NPR Stebnícka Magura"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-10-12",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Martina Stankovianska",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Valaská",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Valaská",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1176"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zásah do biotopu"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "biotop"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "6 ods. 2",
+        "82 ods. 7"
+      ]
+    },
+    {
+      "nazov": "správny poriadok",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19 ods. 1"
+      ]
+    }
+  ],
+  "zhrnutie": "Martina Stankovianska žiada o vydanie súhlasu na zásah do biotopu na parcele registra E č. 1176 v katastrálnom území Valaská. Konanie je v počiatočnej fáze a verejnosť môže požiadať o účasť v konaní do piatich pracovných dní od zverejnenia dokumentu (12.10.2026). Zásah sa týka chráneného biotopu podľa zákona o ochrane prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

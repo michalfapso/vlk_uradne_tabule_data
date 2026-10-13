@@ -1,0 +1,76 @@
+[2026-10-13 00:05:28] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577625'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577625/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.00021119999999999998}
+LLM_tokens: {"input": 592, "output": 509, "total": 1101, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577625/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odsek 4 písmena e)' zákona 'ktorým sa mení a dopĺňa zákon č. 543/2002 Z. z. o ochrane prírody a krajiny Vám oznamujeme, že na základe havarijného protokolu bude vykonaný výrub po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 2 písm. a)' zákona 'Príloha: poverenia SSD, a.s., Žilina súčasná mapa  S pozdravom Ing. Radovan Mesiárik  Dňa: 22.09.2026 VELE, spol. s r.o. Ladislava Hudeca 2A 974 01 Ba'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01096535}
+LLM_tokens: {"input": 4375, "output": 3227, "total": 7602, "cached": 2007}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577625/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577625/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Prievidza', 'katastralne_uzemia': [{'nazov': 'Prievidza', 'parcely': []}, {'nazov': 'Bojnice', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'VN linke č.1334', 'nazov_lokality_norm': 'VN 1334'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Prievidza', 'katastralne_uzemia': [{'nazov': 'Prievidza', 'parcely': []}, {'nazov': 'Bojnice', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'VN linke č.1334', 'nazov_lokality_norm': 'VN 1334'}
+ku_name:Prievidza obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: prievidza
+_get_nationalCadastralZoningReferences() found_ids: {'850063'}
+nationalCadastralZoningReferences: ['850063']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.43 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Bojnice obec:Prievidza okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: prievidza norm_ku: bojnice
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: bojnice
+_get_nationalCadastralZoningReferences() found_ids: {'803511'}
+nationalCadastralZoningReferences: ['803511']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.37 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VN 1334
+get_geometry_of_a_geoname nazov_lokality: VN 1334
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 1334, Prievidza, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 1334, Prievidza, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 1334, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 1334, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.7401202, 'lon': 18.6319579, 'formatted_address': 'PJRJ+2Q, 971 01 Prievidza, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 971 01 Prievidza, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.66645 48.79928, 18.66646 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.54938 48.81722, 18.55003 48...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577625/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'MCHU'.
+intersections: {'MCHU': [{'parcel_label': 'Bojnice', 'NATIONALSI': '387', 'SITETITLE_': 'OP NPP Prepoštská jaskyňa'}, {'parcel_label': 'Bojnice', 'NATIONALSI': '0', 'SITETITLE_': 'PP Bojnická hradná jaskyňa'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577625/analysis.json...
+
+--- Časy spracovania dokumentu 577625 ---
+  download_and_text   :   4.98 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.90 s
+  gis_processing      :   4.08 s
+  CELKOVÝ ČAS         :  23.96 s
+------------------------------------------
+Dokument 577625 bol úspešne spracovaný.

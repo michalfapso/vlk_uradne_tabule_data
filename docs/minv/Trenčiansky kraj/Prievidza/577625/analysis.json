@@ -1,0 +1,81 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-22",
+  "datum_zverejnenia": "2026-09-23",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "VELE, spol. s r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Prievidza",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prievidza",
+        "parcely": []
+      },
+      {
+        "nazov": "Bojnice",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "VN linke č.1334",
+    "nazov_lokality_norm": "VN 1334"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub porastov",
+    "údržba ochranného pásma elektrických vedení"
+  ],
+  "rozsah_zasahu": "porasty na VN linke č.1334",
+  "typ_uzemia": [
+    "ochranné pásmo elektrických vedení",
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11"
+      ]
+    }
+  ],
+  "zhrnutie": "Spoločnosť VELE, spol. s r.o. oznamuje plánovaný výrub porastov v ochrannom pásme 22 kV elektrického vedenia (linka č. 1334) v katastrálnych územiach Prievidza a Bojnice. Výrub bude prebiehať v období od novembra 2026 do februára 2027 na základe havarijného protokolu. Zásah sa realizuje v ochrannom pásme energetických vedení.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Bojnice",
+          "NATIONALSI": "387",
+          "SITETITLE_": "OP NPP Prepoštská jaskyňa"
+        },
+        {
+          "parcel_label": "Bojnice",
+          "NATIONALSI": "0",
+          "SITETITLE_": "PP Bojnická hradná jaskyňa"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

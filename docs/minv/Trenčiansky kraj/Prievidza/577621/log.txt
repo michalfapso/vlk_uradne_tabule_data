@@ -1,0 +1,97 @@
+[2026-10-13 00:07:53] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577621'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577621/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.026222}
+LLM_tokens: {"input": 592, "output": 65536, "total": 66128, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577621/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577621/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.047341999999999995}
+LLM_tokens: {"input": 69790, "output": 4149, "total": 73939, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577621/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577621/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Oslany', 'katastralne_uzemia': [{'nazov': 'Oslany', 'parcely': []}, {'nazov': 'Skýcov', 'parcely': []}, {'nazov': 'Dolné Vestenice', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo pod vonkajším elektrickým vedením VVN 8798', 'nazov_lokality_norm': 'VVN 8798'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Oslany', 'katastralne_uzemia': [{'nazov': 'Oslany', 'parcely': []}, {'nazov': 'Skýcov', 'parcely': []}, {'nazov': 'Dolné Vestenice', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo pod vonkajším elektrickým vedením VVN 8798', 'nazov_lokality_norm': 'VVN 8798'}
+ku_name:Oslany obec:Oslany okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: oslany norm_ku: oslany
+_get_nationalCadastralZoningReferences() found_ids: {'844489'}
+nationalCadastralZoningReferences: ['844489']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.49 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Skýcov obec:Oslany okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: oslany norm_ku: skycov
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: skycov
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: skycov
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: skycov
+_get_nationalCadastralZoningReferences() found_ids: {'855901'}
+nationalCadastralZoningReferences: ['855901']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.39 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dolné Vestenice obec:Oslany okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: oslany norm_ku: dolne vestenice
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: dolne vestenice
+_get_nationalCadastralZoningReferences() found_ids: {'812188'}
+nationalCadastralZoningReferences: ['812188']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VVN 8798
+get_geometry_of_a_geoname nazov_lokality: VVN 8798
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 8798, Oslany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 8798, Prievidza, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 8798, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.9983 48.87483, 17.99867 48.87427,...  ...  Intersnack Slovensko, a.s., Nozdrkovce, Noviny...
+1  POLYGON ((18.05477 48.91057, 18.05484 48.91045...  ...  Schiedel Slovensko, spol. s.r.o., 285, Zamarov...
+2  POLYGON ((18.23375 49.29448, 18.23381 49.29437...  ...  Slovensko-České infocentrum Kohútka, 1133, Laz...
+
+[3 rows x 11 columns]
+geoname_query: VVN 8798, Trenčiansky kraj, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.46048 48.64766, 18.46064 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.47868 48.54858, 18.47915 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.39614 48.74157, 18.39693 48...
+
+[3 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.9983 48.87483, 17.99867 48.87427,...  ...  Intersnack Slovensko, a.s., Nozdrkovce, Noviny...
+1  POLYGON ((18.05477 48.91057, 18.05484 48.91045...  ...  Schiedel Slovensko, spol. s.r.o., 285, Zamarov...
+2  POLYGON ((18.23375 49.29448, 18.23381 49.29437...  ...  Slovensko-České infocentrum Kohútka, 1133, Laz...
+
+[3 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577621/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/577621/analysis.json...
+
+--- Časy spracovania dokumentu 577621 ---
+  download_and_text   : 118.72 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  18.65 s
+  gis_processing      :   2.83 s
+  CELKOVÝ ČAS         : 140.21 s
+------------------------------------------
+Dokument 577621 bol úspešne spracovaný.

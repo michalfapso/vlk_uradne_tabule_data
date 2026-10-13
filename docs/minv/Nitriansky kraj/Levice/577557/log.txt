@@ -1,0 +1,71 @@
+[2026-10-13 00:01:24] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/577557'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/577557/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/577557/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 7' zákona 'sa považuje  za zúčastnenú osobu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona 'uvedie  v písomnom oznámení  o účasti v konaní názov združenia, sídlo, identifikačné číslo organizácie,  meno a priezvisko osoby oprávnenej konať v je'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 20h' zákona 'Občianskeho zákonníka, ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 2 písm.c)' zákona '83/1990 Zb.), ktoré  preukazujú, že jeho predmetom  činnosti  je ochrana prírody a krajiny podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 3' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/577557/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01351495}
+LLM_tokens: {"input": 6179, "output": 3778, "total": 9957, "cached": 2019}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/577557/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/577557/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Uhliská', 'katastralne_uzemia': [{'nazov': 'Uhliská', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k. ú. Uhliská', 'nazov_lokality_norm': 'Uhliská'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Uhliská', 'katastralne_uzemia': [{'nazov': 'Uhliská', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'k. ú. Uhliská', 'nazov_lokality_norm': 'Uhliská'}
+ku_name:Uhliská obec:Uhliská okres:Levice kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: levice norm_obec: uhliska norm_ku: uhliska
+_get_nationalCadastralZoningReferences() found_ids: {'866334'}
+nationalCadastralZoningReferences: ['866334']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Uhliská
+get_geometry_of_a_geoname nazov_lokality: Uhliská
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Uhliská, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.69831 48.39311, 18.6997 48.39245,...  ...  Uhliská, okres Levice, Nitriansky kraj, Slovensko
+1  POLYGON ((18.73988 48.40094, 18.73989 48.4009,...  ...  Chata Zlatý Jeleň, 100, Uhliská, okres Levice,...
+
+[2 rows x 11 columns]
+geoname_query: Uhliská, Uhliská, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.73191 48.41635, 18.73283 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.69831 48.39311, 18.6997 48.39245,...  ...  Uhliská, okres Levice, Nitriansky kraj, Slovensko
+1  POLYGON ((18.73988 48.40094, 18.73989 48.4009,...  ...  Chata Zlatý Jeleň, 100, Uhliská, okres Levice,...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/577557/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': 'Uhliská', 'NATIONALSI': 'SKUEV0263', 'SITETITLE_': 'Hodrušská hornatina'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/577557/analysis.json...
+
+--- Časy spracovania dokumentu 577557 ---
+  download_and_text   :   1.27 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  15.65 s
+  gis_processing      :   1.16 s
+  CELKOVÝ ČAS         :  18.08 s
+------------------------------------------
+Dokument 577557 bol úspešne spracovaný.

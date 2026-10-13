@@ -1,0 +1,45 @@
+[2026-10-13 00:13:39] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17223-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17223-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17223-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0108855}
+LLM_tokens: {"input": 4239, "output": 2922, "total": 7161, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17223-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17223-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': 'Poprad', 'obec': 'Poprad', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Gerlachovský potok a bezmenný potok v územnom obvode letiska Poprad Tatry', 'nazov_lokality_norm': 'Gerlachovský, Poprad'}
+data: {'kraj': None, 'okres': 'Poprad', 'obec': 'Poprad', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Gerlachovský potok a bezmenný potok v územnom obvode letiska Poprad Tatry', 'nazov_lokality_norm': 'Gerlachovský, Poprad'}
+Fallback to OBEC: Poprad
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: poprad norm_obec: poprad norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (5), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Gerlachovský, Poprad
+get_geometry_of_a_geoname nazov_lokality: Gerlachovský, Poprad
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Poprad, Poprad, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Poprad, Poprad, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Poprad, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.057741, 'lon': 20.295273, 'formatted_address': 'Poprad Hotel Gerlach, 058 01 Poprad, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hotel Gerlach, 058 01 Poprad, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 17223-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.25 s
+  gis_processing      :   1.66 s
+  CELKOVÝ ČAS         :  15.53 s
+------------------------------------------
+Dokument 17223-2026-6-1 bol úspešne spracovaný.

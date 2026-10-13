@@ -1,0 +1,94 @@
+{
+  "cislo_konania_spisu": "OU-RA-OSZP-2026/001207",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-10-12",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "MALUSA s.r.o",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Revúca",
+    "obec": "Tornaľa",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tornaľa",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "ochranné pásmo elektrického vedenia VN 479_k10_26_01",
+    "nazov_lokality_norm": "VN 479_k10_26_01"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub krovitých porastov"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Spoločnosť MALUSA s.r.o. oznámila plánovaný výrub drevín a krovitých porastov v katastrálnom území Tornaľa. Výrub sa má realizovať v ochrannom pásme elektrického vedenia VN 479_k10_26_01. Dokument informuje o začatí správneho konania v tejto veci.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Tornaľa",
+          "NATIONALSI": "SKUEV0398",
+          "SITETITLE_": "Slaná"
+        },
+        {
+          "parcel_label": "Tornaľa",
+          "NATIONALSI": "SKUEV4012",
+          "SITETITLE_": "Alúvium Západného Turca"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Tornaľa",
+          "NATIONALSI": "1199",
+          "SITETITLE_": "PP Morské oko"
+        },
+        {
+          "parcel_label": "Tornaľa",
+          "NATIONALSI": "568",
+          "SITETITLE_": "OP NPP Domica"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Tornaľa",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        }
+      ],
+      "UNESCO": [
+        {
+          "parcel_label": "Tornaľa",
+          "Nazov_chra": "Jaskyne Slovenského a Aggteleckého krasu",
+          "Kod_chrane": "UN01"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

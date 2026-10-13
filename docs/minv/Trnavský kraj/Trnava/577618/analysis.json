@@ -1,0 +1,71 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-25",
+  "datum_zverejnenia": "2026-10-12",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 15 dní od zverejnenia oznámenia dotknutou obcou"
+  },
+  "ziadatel_navrhovatel": "Obec Hrnčiarovce nad Parnou",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Hrnčiarovce nad Parnou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hrnčiarovce nad Parnou",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Hrnčiarovce nad Parnou",
+    "nazov_lokality_norm": "Hrnčiarovce nad Parnou"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o oznámení o strategickom dokumente",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zmeny a doplnky územného plánu"
+  ],
+  "rozsah_zasahu": "Zmeny a doplnky 11/2025",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "https://www.enviroportal.sk/eia/detail/uzemny-plan-obce-hrnciarovce-nad-parnou-zmeny-doplnky-11-2025",
+  "zakony": [
+    {
+      "nazov": "Zákon o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "§ 6",
+        "§ 5",
+        "§ 63"
+      ]
+    }
+  ],
+  "zhrnutie": "Obec Hrnčiarovce nad Parnou predložila oznámenie o strategickom dokumente týkajúcom sa zmien a doplnkov územného plánu 11/2025. Verejnosť môže predkladať svoje stanoviská najneskôr do 15 dní od zverejnenia oznámenia obcou. Dokumentácia je zverejnená na portáli Enviroportal a k dispozícii na nahliadnutie na obecnom úrade.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Hrnčiarovce",
+          "NATIONALSI": "175",
+          "SITETITLE_": "CHA Trnavské rybníky"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Hrnčiarovce",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

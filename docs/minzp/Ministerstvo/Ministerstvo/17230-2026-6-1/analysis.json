@@ -1,0 +1,70 @@
+{
+  "cislo_konania_spisu": "17230/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-12",
+  "datum_zverejnenia": "2026-10-11",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "obec Údol",
+  "miesto_realizacie": {
+    "kraj": "Ministerstvo",
+    "okres": "Stará Ľubovňa",
+    "obec": "Údol",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Údol",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "vodný tok Údolčanka",
+    "nazov_lokality_norm": "Údolčanka"
+  },
+  "typ_dokumentu": "Informácia o začatom správnom konaní",
+  "kategorie_vlk": [
+    "ZIVOCICHY_USMRCOVANIE"
+  ],
+  "typ_zasahu": [
+    "odstránenie hrádzí chráneného živočícha bobor vodný"
+  ],
+  "rozsah_zasahu": "odstránenie hrádzí",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "bobor vodný",
+    "Castor fiber"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Obec Údol žiada o povolenie výnimky na odstránenie hrádzí chráneného živočícha bobra vodného na vodnom toku Údolčanka v katastrálnom území Údol. Verejnosť môže potvrdiť záujem o účasť v konaní do 5 pracovných dní od zverejnenia dokumentu.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Údol",
+          "NATIONALSI": "SKUEV0951",
+          "SITETITLE_": "Stredný tok Popradu"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Údol",
+          "NATIONALSI": "672",
+          "SITETITLE_": "PP Údolské skalky"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

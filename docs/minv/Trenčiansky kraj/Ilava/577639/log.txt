@@ -1,0 +1,98 @@
+[2026-10-13 00:04:21] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/577639'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/577639/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/577639/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 60' zákona 'stavebného zákona v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona 'NR SR č. 364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'stavebného ____________________________________________________________________________________ Telefón +421961225744 E-mail oszp.il@minv.sk Internet'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 140b' zákona 'stavebného ____________________________________________________________________________________ Telefón +421961225744 E-mail oszp.il@minv.sk Internet'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43a ods. 3 písm. g)' zákona 'stavebného zákona inžinierska stavba a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 139 ods. 3 písm. e)' zákona 'stavebného zákona líniová stavba. Projektovú dokumentáciu predmetnej stavby z 07/2025 vypracovala oprávnená osoba Ing. Miloslav Remiš, autorizovaný st'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80' zákona 'stavebného zákona Okresný úrad Ilava, odbor starostlivosti o životné prostredie vykonáva z dôvodu, že sa jedná o líniovú stavbu podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 139 ods. 3 písm. e)' zákona 'stavebného zákona. Okresný úrad Ilava, odbor starostlivosti o životné prostredie, ako vecne a miestne príslušný orgán štátnej vodnej správy podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'vodného zákona a ako špeciálny stavebný úrad podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona 'stavebného zákona oznamuje verejnou vyhláškou podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona 'vodného zákona a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona 'stavebného zákona upúšťa od miestneho zisťovania, nakoľko sú mu dobre známe pomery staveniska a žiadosť poskytuje dostatočný podklad pre posúdenie nav'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/577639/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.025659}
+LLM_tokens: {"input": 21240, "output": 5013, "total": 26253, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/577639/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/577639/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Košeca', 'katastralne_uzemia': [{'nazov': 'Košeca', 'parcely': [{'typ': 'C', 'cisla': ['1878/9', '1878/13', '1878/14', '1878/15', '1878/35', '1878/36', '1878/37', '1878/38', '1878/39', '1878/40', '1878/41', '1878/42', '1878/43', '1878/44', '1878/45', '1878/46', '1878/47', '4878/48', '1878/49', '1878/50', '1878/51', '1878/52', '1878/53', '1878/54', '1878/55', '1878/56', '1878/57', '1878/58', '1878/59', '1878/60', '1878/61', '1878/62', '1878/63', '1579/1', '1878/10']}, {'typ': 'E', 'cisla': ['720/501', '720/504']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'IBV KOŠECA', 'nazov_lokality_norm': 'Košeca'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Ilava', 'obec': 'Košeca', 'katastralne_uzemia': [{'nazov': 'Košeca', 'parcely': [{'typ': 'C', 'cisla': ['1878/9', '1878/13', '1878/14', '1878/15', '1878/35', '1878/36', '1878/37', '1878/38', '1878/39', '1878/40', '1878/41', '1878/42', '1878/43', '1878/44', '1878/45', '1878/46', '1878/47', '4878/48', '1878/49', '1878/50', '1878/51', '1878/52', '1878/53', '1878/54', '1878/55', '1878/56', '1878/57', '1878/58', '1878/59', '1878/60', '1878/61', '1878/62', '1878/63', '1579/1', '1878/10']}, {'typ': 'E', 'cisla': ['720/501', '720/504']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'IBV KOŠECA', 'nazov_lokality_norm': 'Košeca'}
+ku_name:Košeca obec:Košeca okres:Ilava kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: ilava norm_obec: koseca norm_ku: koseca
+_get_nationalCadastralZoningReferences() found_ids: {'826880'}
+nationalCadastralZoningReferences: ['826880']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.83 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.03 s
+nazov_lokality: Košeca
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.2406'}
+
+[36 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/577639/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Ilava/577639/analysis.json...
+
+--- Časy spracovania dokumentu 577639 ---
+  download_and_text   :   2.94 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  17.05 s
+  gis_processing      :   7.12 s
+  CELKOVÝ ČAS         :  27.11 s
+------------------------------------------
+Dokument 577639 bol úspešne spracovaný.

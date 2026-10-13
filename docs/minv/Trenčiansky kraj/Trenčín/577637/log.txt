@@ -1,0 +1,65 @@
+[2026-10-13 00:10:13] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577637'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577637/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577637/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1 písm. b)' zákona '525/2003  Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov  a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 1' zákona '525/2003  Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov  a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 12' zákona '.  Orgán ochrany prírody upovedomuje o začatí konania aj združenia s právnou subjektivitou,  ktoré o to písomne požiadali podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona 'uvedeného zákona do piatich pracovných dní od zverejnenia tohto oznámenia  na internetovej stránke https://www.minv.sk/'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577637/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0089114}
+LLM_tokens: {"input": 6061, "output": 2263, "total": 8324, "cached": 2018}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 84 column 1 (char 2136)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012844850000000001}
+LLM_tokens: {"input": 6061, "output": 3877, "total": 9938, "cached": 4037}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577637/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577637/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Bánovce nad Bebravou', 'katastralne_uzemia': [{'nazov': 'Bánovce nad Bebravou', 'parcely': [{'typ': 'C', 'cisla': ['76/1', '3133', '3134', '4695/2']}, {'typ': 'E', 'cisla': ['291/1', '2390', '2391', '2509/102']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulica Farská, vodný tok Radiša', 'nazov_lokality_norm': 'Radiša'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Bánovce nad Bebravou', 'katastralne_uzemia': [{'nazov': 'Bánovce nad Bebravou', 'parcely': [{'typ': 'C', 'cisla': ['76/1', '3133', '3134', '4695/2']}, {'typ': 'E', 'cisla': ['291/1', '2390', '2391', '2509/102']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulica Farská, vodný tok Radiša', 'nazov_lokality_norm': 'Radiša'}
+ku_name:Bánovce nad Bebravou obec:Bánovce nad Bebravou okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: banovce nad bebravou norm_ku: banovce nad bebravou
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: None norm_ku: banovce nad bebravou
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: banovce nad bebravou
+_get_nationalCadastralZoningReferences() found_ids: {'800805'}
+nationalCadastralZoningReferences: ['800805']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.86 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.37 s
+nazov_lokality: Radiša
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2058'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2058'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2058'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2058'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.2058'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.2058'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.2058'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.2058'}
+
+[8 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577637/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577637/analysis.json...
+
+--- Časy spracovania dokumentu 577637 ---
+  download_and_text   :   1.14 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  24.52 s
+  gis_processing      :   7.47 s
+  CELKOVÝ ČAS         :  33.14 s
+------------------------------------------
+Dokument 577637 bol úspešne spracovaný.

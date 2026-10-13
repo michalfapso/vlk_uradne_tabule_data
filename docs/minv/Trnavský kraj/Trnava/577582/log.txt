@@ -1,0 +1,63 @@
+[2026-10-13 00:11:21] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577582'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577582/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577582/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§16 ods. 1 písm. b)' zákona 'za účelom spracovania asanačnej ťažby a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie písomného alebo elektronického  potvrdenia záujmu byť zúčastnenou osobou, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona ', v začatom správnom  konaní je do: 19.10.2026.                      Ing. Rudolf Kormúth                         vedúci odboru'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577582/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01083575}
+LLM_tokens: {"input": 5443, "output": 3007, "total": 8450, "cached": 2015}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577582/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577582/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Roštún, PR Klokoč', 'nazov_lokality_norm': 'Roštún, Klokoč'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Trnava', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'NPR Roštún, PR Klokoč', 'nazov_lokality_norm': 'Roštún, Klokoč'}
+No geometries were found.
+nazov_lokality: Roštún, Klokoč
+get_geometry_of_a_geoname nazov_lokality: Roštún, Klokoč
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Klokoč, Trnava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Klokoč, Trnavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Klokoč, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.3709108, 'lon': 17.5833218, 'formatted_address': 'Trnava, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.48744 48.37832, 17.48744 48.3783,...  ...     Trnava, okres Trnava, Trnavský kraj, Slovensko
+1  POLYGON ((17.54039 48.36768, 17.54057 48.36714...  ...     Trnava, okres Trnava, Trnavský kraj, Slovensko
+2  POLYGON ((21.9037 48.83104, 21.90548 48.8312, ...  ...  Trnava pri Laborci, okres Michalovce, Košický ...
+
+[3 rows x 11 columns]
+geoname_query: Trnava, Slovakia
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.48744 48.37832, 17.48744 48.3783,...  ...     Trnava, okres Trnava, Trnavský kraj, Slovensko
+1  POLYGON ((17.54039 48.36768, 17.54057 48.36714...  ...     Trnava, okres Trnava, Trnavský kraj, Slovensko
+2  POLYGON ((21.9037 48.83104, 21.90548 48.8312, ...  ...  Trnava pri Laborci, okres Michalovce, Košický ...
+
+[3 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577582/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 5 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Trnava pri Laborci, okres Michalovce, Košický kraj, Slovensko', 'NATIONALSI': 'SKUEV0965', 'SITETITLE_': 'Viniansky hradný vrch'}], 'MCHU': [{'parcel_label': 'Trnava, okres Trnava, Trnavský kraj, Slovensko', 'NATIONALSI': '175', 'SITETITLE_': 'CHA Trnavské rybníky'}, {'parcel_label': 'Trnava, okres Trnava, Trnavský kraj, Slovensko', 'NATIONALSI': '175', 'SITETITLE_': 'OP CHA Trnavské rybníky'}, {'parcel_label': 'Trnava, okres Trnava, Trnavský kraj, Slovensko', 'NATIONALSI': '175', 'SITETITLE_': 'CHA Trnavské rybníky'}, {'parcel_label': 'Trnava, okres Trnava, Trnavský kraj, Slovensko', 'NATIONALSI': '175', 'SITETITLE_': 'OP CHA Trnavské rybníky'}, {'parcel_label': 'Trnava pri Laborci, okres Michalovce, Košický kraj, Slovensko', 'NATIONALSI': '710', 'SITETITLE_': 'PR Viniansky hradný vrch'}], 'CHVU': [{'parcel_label': 'Trnava, okres Trnava, Trnavský kraj, Slovensko', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': 'Trnava, okres Trnava, Trnavský kraj, Slovensko', 'NATIONALSI': 'SKCHVU054', 'SITETITLE_': 'Špačinsko-nižnianske polia'}, {'parcel_label': 'Trnava pri Laborci, okres Michalovce, Košický kraj, Slovensko', 'NATIONALSI': 'SKCHVU035', 'SITETITLE_': 'Vihorlatské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Trnava/577582/analysis.json...
+
+--- Časy spracovania dokumentu 577582 ---
+  download_and_text   :   1.26 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.19 s
+  gis_processing      :   2.30 s
+  CELKOVÝ ČAS         :  15.75 s
+------------------------------------------
+Dokument 577582 bol úspešne spracovaný.

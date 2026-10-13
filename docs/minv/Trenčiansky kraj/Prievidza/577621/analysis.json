@@ -1,0 +1,72 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-21",
+  "datum_zverejnenia": "2026-09-25",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "EKOREM s.r.o. Lipany",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Oslany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Oslany",
+        "parcely": []
+      },
+      {
+        "nazov": "Skýcov",
+        "parcely": []
+      },
+      {
+        "nazov": "Dolné Vestenice",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo pod vonkajším elektrickým vedením VVN 8798",
+    "nazov_lokality_norm": "VVN 8798"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie náletových porastov",
+    "okliestenie stromov"
+  ],
+  "rozsah_zasahu": "v ochrannom pásme pod vonkajším elektrickým vedením VVN 8798",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "vyhláška MZP SR",
+      "cislo": "170/2021",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a oreze drevín v ochrannom pásme elektrického vedenia VVN 8798 v katastrálnych územiach Oslany, Skýcov a Dolné Vestenice. Zásah bude realizovaný v období vegetačného pokoja na pozemkoch mimo lesného pôdneho fondu z dôvodu údržby vedenia. Oznámenie podala spoločnosť EKOREM s.r.o. ako dodávateľ pre Západoslovenskú distribučnú.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

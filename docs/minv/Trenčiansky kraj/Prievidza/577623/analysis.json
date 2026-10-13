@@ -1,0 +1,147 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-08-02",
+  "datum_zverejnenia": "2026-08-02",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Správa ciest Trenčianskeho samosprávneho kraja",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Valašská Belá, Diviaky nad Nitricou, Diviacka Nová Ves, Horná Ves, Nitrianske Rudno",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Valašská Belá",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "18654/80",
+              "18656/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Diviaky n/Oraviciu",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "438/22"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Diviacka Nová Ves",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "654"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Strežovec",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "2101"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Horná Ves",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "2221/1"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Chotínová",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "1462"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Radocina",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "2223/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo ciest II/574, II/512, III/1789, III/1795, III/1774",
+    "nazov_lokality_norm": "II/574, II/512, III/1789, III/1795, III/1774"
+  },
+  "typ_dokumentu": "Žiadosť o schválenie výrubu drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "zimná údržba ciest"
+  ],
+  "rozsah_zasahu": "62 ks stromov (orech, slivka, breza, čerešňa, jabloň)",
+  "typ_uzemia": [
+    "ochranné pásmo ciest"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "Zákon o pozemných komunikáciách (cestný zákon)",
+      "cislo": "135/1961",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Správa ciest TSK žiada o výrub 62 kusov stromov v ochrannom pásme ciest II. a III. triedy vo viacerých katastrálnych územiach okresu Prievidza. Výrub je odôvodnený bezpečnosťou cestnej premávky kvôli zlému stavu stromov a je plánovaný na zimné obdobie 2026/2027. Dokument je formulovaný ako žiadosť v zmysle § 47 ods. 7 zákona o ochrane prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "18656/1",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "18654/80",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

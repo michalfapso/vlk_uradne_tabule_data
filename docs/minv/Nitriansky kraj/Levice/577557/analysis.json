@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2026/024002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-12",
+  "datum_zverejnenia": "2026-10-12",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Uhliská",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Uhliská",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "k. ú. Uhliská",
+    "nazov_lokality_norm": "Uhliská"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub dreviny"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82",
+        "47",
+        "2"
+      ]
+    },
+    {
+      "nazov": "zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "15a"
+      ]
+    },
+    {
+      "nazov": "Občiansky zákonník",
+      "cislo": "40/1964 Zb.",
+      "paragrafy": [
+        "20h"
+      ]
+    },
+    {
+      "nazov": "zákon o združovaní občanov",
+      "cislo": "83/1990 Zb.",
+      "paragrafy": [
+        "6"
+      ]
+    }
+  ],
+  "zhrnutie": "Správne konanie sa týka žiadosti o výrub dreviny v extraviláne obce v katastrálnom území Uhliská. Dokument neuvádza konkrétny počet ani druhové zloženie drevín určených na výrub. Zúčastnené osoby môžu potvrdiť svoj záujem v lehote 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Uhliská",
+          "NATIONALSI": "SKUEV0263",
+          "SITETITLE_": "Hodrušská hornatina"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

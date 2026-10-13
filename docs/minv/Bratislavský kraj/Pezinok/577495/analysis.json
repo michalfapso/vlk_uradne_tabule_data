@@ -1,0 +1,88 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2026/017352",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-25",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní odo dňa zverejnenia tohto oznamu"
+  },
+  "ziadatel_navrhovatel": "Hikemates club",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Modra",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Modra",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Veľká Homoľa",
+    "nazov_lokality_norm": "Veľká Homoľa"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "organizovanie verejnosti prístupných spoločenských podujatí"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "CHKO Malé Karpaty",
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "13",
+        "82"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci organizovania verejne prístupného podujatia 'Komunitný výstup na Veľkú Homoľu' dňa 20.02.2027. Činnosť sa má realizovať v extraviláne obce Modra, v území CHKO Malé Karpaty s 2. stupňom ochrany.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Modra",
+          "NATIONALSI": "SKUEV0967",
+          "SITETITLE_": "Modransko- tŕňanské pustáky"
+        },
+        {
+          "parcel_label": "Modra",
+          "NATIONALSI": "SKUEV0276",
+          "SITETITLE_": "Kuchynská hornatina"
+        },
+        {
+          "parcel_label": "Modra",
+          "NATIONALSI": "SKUEV0503",
+          "SITETITLE_": "Predhorie"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Modra",
+          "NATIONALSI": "170",
+          "SITETITLE_": "PP Tisové skaly"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Modra",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

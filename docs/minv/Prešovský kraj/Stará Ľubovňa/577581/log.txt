@@ -1,0 +1,110 @@
+[2026-10-13 00:03:15] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/577581'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/577581/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/577581/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písm. e)' zákona '180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov a ako príslušný orgán štátnej vodnej správy, v súlade s u'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. a)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18 ods. 3' zákona 'zák. č. 71/1967 Zb. o správnom konaní o z n a m u j e začatie kolaudačného konania dňom 01.07.2026 vo veci kolaudácie na stavbu „IBV – Šibeničná hora'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. 1 písm. d)' zákona 'vodného zákona dotknutým orgánom štátnej správy a známym účastníkom konania a súčasne n a r i a ď u j e na prerokovanie návrhu ústne pojednávanie spoj'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona dotknutým orgánom štátnej správy a známym účastníkom konania a súčasne n a r i a ď u j e na prerokovanie návrhu ústne pojednávanie spoj'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona orgán štátnej vodnej správy upozorňuje, že na námietky, ktoré nebudú oznámené najneskôr na ústnom pojednávaní, sa neprihliadne. Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 139 ods. 1 písm. a)' zákona '50/1976 Zb.) 7. Iné, požadované pri ústnom pojednávaní. Okresný úrad Stará Ľubovňa odbor starostlivosti o životné prostredie žiada Mesto Stará Ľubovňa'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/577581/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0184875}
+LLM_tokens: {"input": 12057, "output": 4153, "total": 16210, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/577581/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/577581/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Stará Ľubovňa', 'obec': 'Stará Ľubovňa', 'katastralne_uzemia': [{'nazov': 'Stará Ľubovňa', 'parcely': [{'typ': 'C', 'cisla': ['6266/21', '6266/1', '6266/377', '6266/269', '6266/375', '6266/428', '6195/3', '6266/97', '6266/98', '6266/261', '6266/430', '6266/414', '6266429', '4335/5', '6266/23', '433/61', '43335/10', '4335/6', '4335/36', '4335/37', '4335/38', '4335/1', '4335/39', '4335/41', '4335/40', '4609/34', '4609/33', '4333/119', '4609/3', '4061/2', '4060/150', '4059/32', '4057/2', '4056/3', '6257/2', '6257/5', '4333/95', '6257/3', '4333/114', '4609/28', '4609/29', '1895/1', '1895/4', '1897/1', '1940/2']}, {'typ': 'E', 'cisla': ['3453', '5498/13', '3985', '4043/3', '4040', '4039', '5498/6', '5498/1', '4075/1', '4074/1', '5547/12']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Šibeničná hora', 'nazov_lokality_norm': 'Šibeničná hora'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Stará Ľubovňa', 'obec': 'Stará Ľubovňa', 'katastralne_uzemia': [{'nazov': 'Stará Ľubovňa', 'parcely': [{'typ': 'C', 'cisla': ['6266/21', '6266/1', '6266/377', '6266/269', '6266/375', '6266/428', '6195/3', '6266/97', '6266/98', '6266/261', '6266/430', '6266/414', '6266429', '4335/5', '6266/23', '433/61', '43335/10', '4335/6', '4335/36', '4335/37', '4335/38', '4335/1', '4335/39', '4335/41', '4335/40', '4609/34', '4609/33', '4333/119', '4609/3', '4061/2', '4060/150', '4059/32', '4057/2', '4056/3', '6257/2', '6257/5', '4333/95', '6257/3', '4333/114', '4609/28', '4609/29', '1895/1', '1895/4', '1897/1', '1940/2']}, {'typ': 'E', 'cisla': ['3453', '5498/13', '3985', '4043/3', '4040', '4039', '5498/6', '5498/1', '4075/1', '4074/1', '5547/12']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Šibeničná hora', 'nazov_lokality_norm': 'Šibeničná hora'}
+ku_name:Stará Ľubovňa obec:Stará Ľubovňa okres:Stará Ľubovňa kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: stara lubovna norm_obec: stara lubovna norm_ku: stara lubovna
+_get_nationalCadastralZoningReferences() found_ids: {'858099'}
+nationalCadastralZoningReferences: ['858099']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.92 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.26 s
+nazov_lokality: Šibeničná hora
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+39  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+40  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+41  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+42  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+43  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+44  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+45  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+46  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+47  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+48  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+49  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+50  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+51  CadastralParcel  ...  {'@href': '#auAdmUnitS.2630'}
+
+[52 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/577581/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/577581/analysis.json...
+
+--- Časy spracovania dokumentu 577581 ---
+  download_and_text   :   2.97 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.59 s
+  gis_processing      :   7.43 s
+  CELKOVÝ ČAS         :  25.00 s
+------------------------------------------
+Dokument 577581 bol úspešne spracovaný.

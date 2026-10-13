@@ -1,0 +1,182 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-22",
+  "datum_zverejnenia": "2026-09-24",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "JMM s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Diviaky nad Nitricou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Banky",
+        "parcely": []
+      },
+      {
+        "nazov": "Ješkova Ves",
+        "parcely": []
+      },
+      {
+        "nazov": "Mačov",
+        "parcely": []
+      },
+      {
+        "nazov": "Diviaky nad Nitricou",
+        "parcely": []
+      },
+      {
+        "nazov": "Vrbany",
+        "parcely": []
+      },
+      {
+        "nazov": "Diviacka nová Ves",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo vedenia 22 kV č. VN 259_k20",
+    "nazov_lokality_norm": "VN 259_k20"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "odstránenie a okliesnenie drevín a iných porastov"
+  ],
+  "rozsah_zasahu": "v ochrannom pásme vedenia 22 kV",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a okliesnení drevín v ochrannom pásme 22 kV elektrického vedenia č. VN 259_k20. Zásah sa dotkne viacerých katastrálnych území v okrese Prievidza, pričom práce majú byť zrealizované najneskôr do 20.12.2026. Účelom je zabezpečenie bezpečnej prevádzky energetických sietí v súlade so zákonom o energetike.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviacka Nová Ves",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviacka Nová Ves",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviacka Nová Ves",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        },
+        {
+          "parcel_label": "Diviacka Nová Ves",
+          "NAZOV_UEV": "Rokoš",
+          "KOD_UEV": "SKUEV0128"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Ješkova Ves",
+          "NATIONALSI": "SKUEV0128",
+          "SITETITLE_": "Rokoš"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NATIONALSI": "SKUEV0128",
+          "SITETITLE_": "Rokoš"
+        },
+        {
+          "parcel_label": "Diviacka Nová Ves",
+          "NATIONALSI": "SKUEV0128",
+          "SITETITLE_": "Rokoš"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NATIONALSI": "147",
+          "SITETITLE_": "NPR Rokoš"
+        },
+        {
+          "parcel_label": "Diviacka Nová Ves",
+          "NATIONALSI": "147",
+          "SITETITLE_": "NPR Rokoš"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Ješkova Ves",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Diviaky nad Nitricou",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        },
+        {
+          "parcel_label": "Diviacka Nová Ves",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

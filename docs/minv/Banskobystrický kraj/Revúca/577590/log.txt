@@ -1,0 +1,63 @@
+[2026-10-12 23:59:31] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/577590'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/577590/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/577590/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/577590/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00821945}
+LLM_tokens: {"input": 4537, "output": 2285, "total": 6822, "cached": 2009}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/577590/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/577590/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Revúca', 'obec': 'Tornaľa', 'katastralne_uzemia': [{'nazov': 'Tornaľa', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo elektrického vedenia VN 479_k10_26_01', 'nazov_lokality_norm': 'VN 479_k10_26_01'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Revúca', 'obec': 'Tornaľa', 'katastralne_uzemia': [{'nazov': 'Tornaľa', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásmo elektrického vedenia VN 479_k10_26_01', 'nazov_lokality_norm': 'VN 479_k10_26_01'}
+ku_name:Tornaľa obec:Tornaľa okres:Revúca kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: revuca norm_obec: tornala norm_ku: tornala
+_get_nationalCadastralZoningReferences() found_ids: {'860123'}
+nationalCadastralZoningReferences: ['860123']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.47 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VN 479_k10_26_01
+get_geometry_of_a_geoname nazov_lokality: VN 479_k10_26_01
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 479_k10_26_01, Tornaľa, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 479_k10_26_01, Revúca, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 479_k10_26_01, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 479_k10_26_01, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.4226643, 'lon': 20.3222249, 'formatted_address': '982 01 Tornaľa, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Tornaľa, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.45573 48.47349, 20.45581 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/577590/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+Found 1 intersecting parcels with 'UNESCO'.
+intersections: {'UEV': [{'parcel_label': 'Tornaľa', 'NATIONALSI': 'SKUEV0398', 'SITETITLE_': 'Slaná'}, {'parcel_label': 'Tornaľa', 'NATIONALSI': 'SKUEV4012', 'SITETITLE_': 'Alúvium Západného Turca'}], 'MCHU': [{'parcel_label': 'Tornaľa', 'NATIONALSI': '1199', 'SITETITLE_': 'PP Morské oko'}, {'parcel_label': 'Tornaľa', 'NATIONALSI': '568', 'SITETITLE_': 'OP NPP Domica'}], 'CHVU': [{'parcel_label': 'Tornaľa', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}], 'UNESCO': [{'parcel_label': 'Tornaľa', 'Nazov_chra': 'Jaskyne Slovenského a Aggteleckého krasu', 'Kod_chrane': 'UN01'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Revúca/577590/analysis.json...
+
+--- Časy spracovania dokumentu 577590 ---
+  download_and_text   :   1.09 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.38 s
+  gis_processing      :   3.73 s
+  CELKOVÝ ČAS         :  15.21 s
+------------------------------------------
+Dokument 577590 bol úspešne spracovaný.

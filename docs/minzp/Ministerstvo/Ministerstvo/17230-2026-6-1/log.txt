@@ -1,0 +1,62 @@
+[2026-10-13 00:13:17] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17230-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17230-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17230-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014463}
+LLM_tokens: {"input": 4260, "output": 4111, "total": 8371, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17230-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17230-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Ministerstvo', 'okres': 'Stará Ľubovňa', 'obec': 'Údol', 'katastralne_uzemia': [{'nazov': 'Údol', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodný tok Údolčanka', 'nazov_lokality_norm': 'Údolčanka'}
+data: {'kraj': 'Ministerstvo', 'okres': 'Stará Ľubovňa', 'obec': 'Údol', 'katastralne_uzemia': [{'nazov': 'Údol', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodný tok Údolčanka', 'nazov_lokality_norm': 'Údolčanka'}
+ku_name:Údol obec:Údol okres:Stará Ľubovňa kraj:Ministerstvo
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: stara lubovna norm_obec: udol norm_ku: udol
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: stara lubovna norm_obec: None norm_ku: udol
+_get_nationalCadastralZoningReferences() norm_kraj: ministerstvo norm_okres: None norm_obec: None norm_ku: udol
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: udol
+_get_nationalCadastralZoningReferences() found_ids: {'866318'}
+nationalCadastralZoningReferences: ['866318']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.38 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Údolčanka
+get_geometry_of_a_geoname nazov_lokality: Údolčanka
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Údol, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Stará Ľubovňa, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ministerstvo, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.2918575, 'lon': 20.8084266, 'formatted_address': '065 45 Údol, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 45 Údol, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.806 49.31631, 20.80904 49.3...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17230-2026-6-1/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Údol', 'NATIONALSI': 'SKUEV0951', 'SITETITLE_': 'Stredný tok Popradu'}], 'MCHU': [{'parcel_label': 'Údol', 'NATIONALSI': '672', 'SITETITLE_': 'PP Údolské skalky'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17230-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 17230-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  17.88 s
+  gis_processing      :   2.93 s
+  CELKOVÝ ČAS         :  21.44 s
+------------------------------------------
+Dokument 17230-2026-6-1 bol úspešne spracovaný.

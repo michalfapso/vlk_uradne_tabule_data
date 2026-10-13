@@ -1,0 +1,110 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP1-2026/115169-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-12",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do: 19.10.2026"
+  },
+  "ziadatel_navrhovatel": "LESY Slovenskej republiky, štátny podnik, organizačná zložka OZ Karpaty",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": null,
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "NPR Roštún, PR Klokoč",
+    "nazov_lokality_norm": "Roštún, Klokoč"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "asanačná ťažba",
+    "odstraňovanie následkov pôsobenia škodlivých činiteľov v lesoch"
+  ],
+  "rozsah_zasahu": "1307,81 m3 drevnej hmoty (lesné dielce JPRL 349, 350, 361, 360A, 362A, 363, 355A, 357A, 358, 353)",
+  "typ_uzemia": [
+    "NPR Roštún",
+    "PR Klokoč",
+    "5. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "BK (buk)",
+    "JS (jaseň)",
+    "HB (hrab)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "16 ods. 1 písm. b)",
+        "82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Začaté konanie o udelenie súhlasu na asanačnú ťažbu v celkovom objeme cca 1307 m3 v lokalitách NPR Roštún a PR Klokoč, ktoré podliehajú 5. stupňu ochrany. Žiadateľom je štátny podnik LESY SR, pričom ťažba sa týka najmä buka, jaseňa a hrabu. Verejnosť môže potvrdiť záujem byť účastníkom konania do 19.10.2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Trnava pri Laborci, okres Michalovce, Košický kraj, Slovensko",
+          "NATIONALSI": "SKUEV0965",
+          "SITETITLE_": "Viniansky hradný vrch"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Trnava, okres Trnava, Trnavský kraj, Slovensko",
+          "NATIONALSI": "175",
+          "SITETITLE_": "CHA Trnavské rybníky"
+        },
+        {
+          "parcel_label": "Trnava, okres Trnava, Trnavský kraj, Slovensko",
+          "NATIONALSI": "175",
+          "SITETITLE_": "OP CHA Trnavské rybníky"
+        },
+        {
+          "parcel_label": "Trnava, okres Trnava, Trnavský kraj, Slovensko",
+          "NATIONALSI": "175",
+          "SITETITLE_": "CHA Trnavské rybníky"
+        },
+        {
+          "parcel_label": "Trnava, okres Trnava, Trnavský kraj, Slovensko",
+          "NATIONALSI": "175",
+          "SITETITLE_": "OP CHA Trnavské rybníky"
+        },
+        {
+          "parcel_label": "Trnava pri Laborci, okres Michalovce, Košický kraj, Slovensko",
+          "NATIONALSI": "710",
+          "SITETITLE_": "PR Viniansky hradný vrch"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Trnava, okres Trnava, Trnavský kraj, Slovensko",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Trnava, okres Trnava, Trnavský kraj, Slovensko",
+          "NATIONALSI": "SKCHVU054",
+          "SITETITLE_": "Špačinsko-nižnianske polia"
+        },
+        {
+          "parcel_label": "Trnava pri Laborci, okres Michalovce, Košický kraj, Slovensko",
+          "NATIONALSI": "SKCHVU035",
+          "SITETITLE_": "Vihorlatské vrchy"
+        }
+      ]
+    },
+    "source_type": "GEONAME"
+  }
+}
