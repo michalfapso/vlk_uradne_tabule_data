@@ -1,0 +1,118 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2026/044325-MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-13",
+  "datum_zverejnenia": "2026-10-13",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "právnická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Banská Bystrica, Vlkanová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Radvaň",
+        "parcely": []
+      },
+      {
+        "nazov": "Vlkanová",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "k. ú. Radvaň a Vlkanová",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Žiadosť na vydanie súhlasu zásah do biotopu",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zásah do biotopu"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "biotop"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "6",
+        "2",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "19",
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti o súhlas na zásah do biotopu v katastrálnych územiach Radvaň a Vlkanová. Právnické osoby zamerané na ochranu prírody môžu oznámiť svoju účasť v lehote 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Radvaň",
+          "NATIONALSI": "SKUEV0860",
+          "SITETITLE_": "Iliašská dolina"
+        },
+        {
+          "parcel_label": "Radvaň",
+          "NATIONALSI": "SKUEV0864",
+          "SITETITLE_": "Holý vŕšok"
+        },
+        {
+          "parcel_label": "Vlkanová",
+          "NATIONALSI": "SKUEV0860",
+          "SITETITLE_": "Iliašská dolina"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Radvaň",
+          "NATIONALSI": "319",
+          "SITETITLE_": "PR Kozlinec"
+        },
+        {
+          "parcel_label": "Radvaň",
+          "NATIONALSI": "343",
+          "SITETITLE_": "CHA Malachovské skalky"
+        },
+        {
+          "parcel_label": "Radvaň",
+          "NATIONALSI": "1026",
+          "SITETITLE_": "PR Urpínska lesostep"
+        },
+        {
+          "parcel_label": "Radvaň",
+          "NATIONALSI": "766",
+          "SITETITLE_": "PP Horná Roveň"
+        },
+        {
+          "parcel_label": "Radvaň",
+          "NATIONALSI": "874",
+          "SITETITLE_": "PP Králická tiesňava"
+        },
+        {
+          "parcel_label": "Radvaň",
+          "NATIONALSI": "767",
+          "SITETITLE_": "PP Tajovská kopa"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}
