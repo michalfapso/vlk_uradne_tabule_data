@@ -1,0 +1,79 @@
+{
+  "cislo_konania_spisu": "OU-TO-OSZP-2026/013056",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-13",
+  "datum_zverejnenia": "2026-10-14",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní (vrátane) od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Topoľčany",
+    "obec": "Prašice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prašice",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "za hranicami zastavaného územia obce",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "47 ods. 3",
+        "82 ods. 3",
+        "82 ods. 6",
+        "2 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19 ods. 1",
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí správneho konania vo veci výrubu drevín rastúcich mimo zastavaného územia obce v katastrálnom území Prašice. Žiadosť podala fyzická osoba a lehota na potvrdenie záujmu o účasť v konaní je 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Prašice",
+          "NATIONALSI": "SKUEV0880",
+          "SITETITLE_": "Prašická dubina"
+        },
+        {
+          "parcel_label": "Prašice",
+          "NATIONALSI": "SKUEV0134",
+          "SITETITLE_": "Kulháň"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

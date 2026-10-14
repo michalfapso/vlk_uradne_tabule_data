@@ -1,0 +1,70 @@
+[2026-10-14 21:17:05] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/577843'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/577843/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/577843/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov ako príslušný orgán štátnej vodnej správy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm. f)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71 ods. (1)' zákona '364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 63 ods. (1) písm. a)' zákona 'vodného zákona v rozhodnutí č.j. OU-PU-OSZP-2024/001384-002 dňa 18. októbra 2024. Odvolanie v zákonom stanovenej lehote proti rozhodnutiu č.j. S2025-0'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'b)' zákona 'vodného zákona v rozhodnutí č.j. OU-PU-OSZP-2024/001384-002 dňa 18. októbra 2024. Odvolanie v zákonom stanovenej lehote proti rozhodnutiu č.j. S2025-0'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§21 ods. (2)' zákona 'vodného zákona určiť účel, rozsah, čas povolenia na osobitné užívanie vôd, povinnosti a podmienky, za ktorých sa vydáva, pričom v napadnutom rozhodnut'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/577843/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012586}
+LLM_tokens: {"input": 11096, "output": 2346, "total": 13442, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/577843/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/577843/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Dolné Kočkovce', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Dolné Kočkovce', 'nazov_lokality_norm': 'Dolné Kočkovce'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Dolné Kočkovce', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Dolné Kočkovce', 'nazov_lokality_norm': 'Dolné Kočkovce'}
+Fallback to OBEC: Dolné Kočkovce
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: dolne kockovce norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'812013'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Dolné Kočkovce
+get_geometry_of_a_geoname nazov_lokality: Dolné Kočkovce
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kočkovce, Dolné Kočkovce, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.31171 49.09498, 18.31199 49.09424...  ...  Dolné Kočkovce, okres Púchov, Trenčiansky kraj...
+1  POLYGON ((18.32154 49.09234, 18.32154 49.09234...  ...  Dolné Kočkovce, A. Kmeťa, Dolné Kočkovce, okre...
+
+[2 rows x 11 columns]
+geoname_query: Dolné Kočkovce, Dolné Kočkovce, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.36122 49.1089, 18.36126 49....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.31171 49.09498, 18.31199 49.09424...  ...  Dolné Kočkovce, okres Púchov, Trenčiansky kraj...
+1  POLYGON ((18.32154 49.09234, 18.32154 49.09234...  ...  Dolné Kočkovce, A. Kmeťa, Dolné Kočkovce, okre...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/577843/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/577843/analysis.json...
+
+--- Časy spracovania dokumentu 577843 ---
+  download_and_text   :   1.14 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   9.57 s
+  gis_processing      :   0.87 s
+  CELKOVÝ ČAS         :  11.60 s
+------------------------------------------
+Dokument 577843 bol úspešne spracovaný.

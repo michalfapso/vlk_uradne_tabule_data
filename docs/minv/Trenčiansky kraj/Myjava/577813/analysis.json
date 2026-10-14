@@ -1,0 +1,106 @@
+{
+  "cislo_konania_spisu": "OU-MY-OSZP-2026/001090-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-14",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Myjava",
+    "obec": "Vrbovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vrbovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "25602"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Vrbovce, časť Štefanová",
+    "nazov_lokality_norm": "Štefanová, Vrbovce"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín rastúcich mimo lesa",
+    "výrub 5 ks jabloň",
+    "výrub 1 ks slivka"
+  ],
+  "rozsah_zasahu": "5 ks jabloň, 1 ks slivka",
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Biele Karpaty",
+    "2. stupeň",
+    "SKUEV 0371 Žalostiná",
+    "NATURA 2000",
+    "ochranné pásmo Prírodnej pamiatky Štefanová",
+    "3. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "jabloň",
+    "slivka"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z.z.",
+      "paragrafy": [
+        "3"
+      ]
+    },
+    {
+      "nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z.z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "64",
+        "68",
+        "82",
+        "18",
+        "47",
+        "17"
+      ]
+    },
+    {
+      "nazov": "správny poriadok",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "18",
+        "19"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci výrubu 5 jabloní a 1 slivky v k.ú. Vrbovce z dôvodu kolízie s navrhovanou stavbou. Lokalita sa nachádza v extraviláne, v CHKO Biele Karpaty (2. stupeň) a v ochrannom pásme PP Štefanová (3. stupeň ochrany).",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "25602",
+          "NATIONALSI": "SKUEV0371",
+          "SITETITLE_": "Žalostiná"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

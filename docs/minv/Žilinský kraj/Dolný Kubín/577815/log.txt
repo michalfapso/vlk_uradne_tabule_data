@@ -1,0 +1,72 @@
+[2026-10-14 21:17:51] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/577815'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/577815/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/577815/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 1' zákona '24/2006 Z. z. o posudzovaní vplyvov                na životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších  predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'o posudzovaní vplyvov oznámenie  o strategickom dokumente „Územný plán obce Jasenová“.      Okresný úrad Dolný Kubín v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6' zákona 'o posudzovaní vplyvov informuje verejnosť, že  oznámenie o strategickom dokumente „Územný plán obce Jasenová“ je sprístupnené v centrálnom  informačno'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 6' zákona 'o posudzovaní vplyvov najneskôr do 15 dní od zverejnenia oznámenia  dotknutou obcou na adresu:    Okresný úrad Dolný Kubín   odbor starostlivosti o ži'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 5' zákona 'o posudzovaní vplyvov informuje do troch pracovných  dní odo dňa doručenia oznámenia Okresným úradom Dolný Kubín verejnosť spôsobom v mieste  obvyklým'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 63' zákona 'o posudzovaní vplyvov je možné v prípade potreby vykonať konzultácie počas  celého procesu posudzovania vplyvov k uvedenému strategického dokumentu na'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011064500000000001}
+LLM_tokens: {"input": 4669, "output": 2910, "total": 7579, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/577815/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/577815/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Dolný Kubín', 'obec': 'Jasenová', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Obec Jasenová', 'nazov_lokality_norm': 'Jasenová'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Dolný Kubín', 'obec': 'Jasenová', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Obec Jasenová', 'nazov_lokality_norm': 'Jasenová'}
+Fallback to OBEC: Jasenová
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: dolny kubin norm_obec: jasenova norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'822345'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Jasenová
+get_geometry_of_a_geoname nazov_lokality: Jasenová
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Jasenová, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.26533 49.1641, 19.26539 49.16299,...  ...  Jasenová, okres Dolný Kubín, Žilinský kraj, Sl...
+
+[1 rows x 11 columns]
+geoname_query: Jasenová, Jasenová, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.29394 49.1857, 19.29396 49....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.26533 49.1641, 19.26539 49.16299,...  ...  Jasenová, okres Dolný Kubín, Žilinský kraj, Sl...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/577815/gis.geojson...
+Intersections with protected areas...
+Found 20 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Jasenová', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}], 'UEV': [{'parcel_label': 'Jasenová', 'NATIONALSI': 'SKUEV0305', 'SITETITLE_': 'Choč'}], 'MCHU': [{'parcel_label': 'Jasenová', 'NATIONALSI': '275', 'SITETITLE_': 'NPR Choč'}, {'parcel_label': 'Jasenová', 'NATIONALSI': '327', 'SITETITLE_': 'PR Kunovo'}], 'CHVU': [{'parcel_label': 'Jasenová', 'NATIONALSI': 'SKCHVU050', 'SITETITLE_': 'Chočské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Dolný Kubín/577815/analysis.json...
+
+--- Časy spracovania dokumentu 577815 ---
+  download_and_text   :   0.83 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.25 s
+  gis_processing      :   0.89 s
+  CELKOVÝ ČAS         :  14.97 s
+------------------------------------------
+Dokument 577815 bol úspešne spracovaný.

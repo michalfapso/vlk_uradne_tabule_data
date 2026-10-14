@@ -1,0 +1,88 @@
+{
+  "cislo_konania_spisu": "OU-RA-OSZP-2026/001210",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-10-14",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "FAGUS SR, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Revúca",
+    "obec": "Ploské, Ratková",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ploské",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "122/3",
+              "1887"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Ratková",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "1889/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 346 ks drevín",
+    "výrub 12000 m2 krovitých porastov"
+  ],
+  "rozsah_zasahu": "346 ks drevín a 12000 m2 krovitých porastov",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "47 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Začalo sa správne konanie vo veci vydania súhlasu na výrub 346 kusov drevín a 12 000 m2 krovitých porastov. Zásah sa má realizovať v katastrálnych územiach Ploské a Ratková pre žiadateľa FAGUS SR, s.r.o. Dokument nešpecifikuje, či sa dotknuté územie nachádza v chránenej oblasti.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "122/3",
+          "NATIONALSI": "SKUEV4012",
+          "SITETITLE_": "Alúvium Západného Turca"
+        },
+        {
+          "parcel_label": "1889/1",
+          "NATIONALSI": "SKUEV4012",
+          "SITETITLE_": "Alúvium Západného Turca"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

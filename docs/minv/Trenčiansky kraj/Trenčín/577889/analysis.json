@@ -1,0 +1,91 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP1-2026/048997-2/SD",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-14",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "Milan Gozora",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Lubina",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lubina",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "úsek cesty medzi Holubyho chatou a vysielačom Veľká Javorina",
+    "nazov_lokality_norm": "Veľká Javorina, Lubina"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "VJAZD_VOZIDLA"
+  ],
+  "typ_zasahu": [
+    "jazdiť a stáť motorovým vozidlom na pozemky za hranicami zastavaného územia obce"
+  ],
+  "rozsah_zasahu": "4 vysielania v kalendárnom roku",
+  "typ_uzemia": [
+    "Chránená krajinná oblasť Biele Karpaty",
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "89",
+        "67",
+        "13",
+        "82"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci predĺženia platnosti výnimky na vjazd a státie motorovým vozidlom v CHKO Biele Karpaty (2. stupeň ochrany) v k.ú. Lubina. Činnosť sa týka rádioamatérskych meraní realizovaných 4-krát ročne na úseku cesty medzi Holubyho chatou a vysielačom Veľká Javorina.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Lubina",
+          "NATIONALSI": "SKUEV0374",
+          "SITETITLE_": "Záhradská"
+        },
+        {
+          "parcel_label": "Lubina",
+          "NATIONALSI": "SKUEV0367",
+          "SITETITLE_": "Holubyho kopanice"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Lubina",
+          "NATIONALSI": "192",
+          "SITETITLE_": "PR Záhradská"
+        },
+        {
+          "parcel_label": "Lubina",
+          "NATIONALSI": "182",
+          "SITETITLE_": "PR Veľká Javorina"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

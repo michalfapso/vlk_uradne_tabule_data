@@ -1,0 +1,113 @@
+[2026-10-14 21:09:37] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/577845'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/577845/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/577845/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm. b)' zákona 'v spojení  s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '251/2012 Z.z. o energetike a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov okrem iných povinnosti aj povinnosť'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/577845/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0202535}
+LLM_tokens: {"input": 8269, "output": 5373, "total": 13642, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/577845/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/577845/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Žiar nad Hronom', 'obec': 'Žiar nad Hronom', 'katastralne_uzemia': [{'nazov': 'Ladomer', 'parcely': [{'typ': 'C', 'cisla': ['1037', '1036', '1032', '1031', '1030', '1017', '1016', '1015', '1014', '1013', '1012', '1009', '870', '869', '862', '861', '859', '858', '857', '856', '855', '854', '853', '852', '850', '849', '848', '847', '846', '843', '840', '839', '810', '809', '808', '838', '837', '836', '910', '775', '1049', '1048', '1047', '1002', '1001', '944', '943', '919', '918', '917', '916', '914', '912', '974', '973', '969', '967', '966', '965', '954', '953', '952', '951', '950', '949', '948', '947', '946', '945', '989', '975', '987', '968']}]}, {'nazov': 'Vieska', 'parcely': [{'typ': 'C', 'cisla': ['644/4', '644/3', '667/2', '663', '649/2', '649/1', '646/1', '645']}, {'typ': 'E', 'cisla': ['811']}]}, {'nazov': 'Pitelová', 'parcely': [{'typ': 'C', 'cisla': ['2578', '2577', '2574', '381', '380', '170/1', '5', '31/1', '387', '2585', '25', '21', '20', '378', '366', '302/1', '4', '390/1', '435', '391/2', '390/2', '301/1', '300', '2693', '874/1', '3229', '1625', '1624', '1098/1', '1544', '1540', '1497', '1496', '1965', '1964', '2100', '2067', '2066', '2046', '2029', '2018', '3180', '2090', '656/2', '1204/1']}, {'typ': 'E', 'cisla': ['513/1', '513/2', '513/18', '73', '75/1', '75/2', '76/1', '245/1', '252/1', '241/1', '321/3', '321/4', '517/4', '520/2']}]}, {'nazov': 'Šášovské Podhradie', 'parcely': [{'typ': 'C', 'cisla': ['547/1', '493/1', '926', '925', '923', '921', '912', '911', '910', '909', '796', '790', '784', '783', '782', '900', '899', '898', '896', '760', '751', '739', '738', '736', '1103', '1102', '1007', '1003', '994', '991', '731', '730', '729', '728', '726', '709', '708', '706', '705', '845', '844', '843', '842', '841', '840', '839', '838', '837', '836', '835', '834', '833', '832', '831', '830', '702/2', '701/12', '701/10', '701/8', '701/1', '700', '814', '809', '704/1', '704/2', '562/2', '562/1', '504/1', '503/1', '718']}, {'typ': 'E', 'cisla': ['191/29', '176/5', '427']}]}, {'nazov': 'Žiar nad Hronom', 'parcely': [{'typ': 'C', 'cisla': ['2101', '2270', '2283', '2112', '2110', '2109', '2275', '2271', '2274', '2281', '2282', '2280', '2107', '1639/2', '1645/2', '1647/2', '1658/1', '1978/2', '20/6', '65/1', '7/1', '31/5', '2573/4', '2573/3', '2251', '2252', '2571', '1819/26', '1903/20', '1652/33', '7/5', '65/3', '1911/25', '1911/26', '1911/30', '1912/5', '1913/4', '1819/29', '1903/21', '1477', '1478/5', '2035', '1979/3', '1912/2', '1911/4', '1979/1', '1652/66', '1478/1', '1651', '20/2', '1648/3', '1370/2', '1865/1', '1652/3', '2037/1', '31/3', '31/1', '31/2', '1978/1', '2053/1', '1652/12', '6', '2224/3', '2115', '2113', '2114', '1403/1', '1821/1', '2040/1', '1649/1', '1639/4', '63', '1911/92', '1903/7', '1903/40', '1911/1', '1911/13', '1911/12', '1644/3', '1903/3', '1911/5', '1911/7', '1912/4', '1652/62', '1652/36', '1652/37', '1652/38', '1820/3', '1659/1', '1657/1', '1652/46', '1652/75', '1913/2', '1979/4', '1820/4', '1820/1', '1912/1', '1652/48', '1903/15', '2029/7', '1911/32', '1911/33', '1911/34', '1903/22', '2057/1', '1911/60', '1911/61', '1659/25', '1652/7', '1821/14', '1821/15', '2056/1']}, {'typ': 'E', 'cisla': ['134/1', '146/1', '114/1', '127', '128', '129/1', '130', '131/1', '132/1', '171/1', '277/1', '1/1', '147/1', '309/1', '309/3', '309/4', '688/1', '689', '723/2', '725/2', '726', '729', '572/2', '713/1', '678/1', '679/1', '679/2', '690', '691/1', '691/2', '692', '722/2', '724/2', '727/1', '730/2', '903', '904', '905', '856/1', '861/1', '864', '877/1', '860/2', '741', '867/1']}]}, {'nazov': 'Horné Opatovce', 'parcely': [{'typ': 'C', 'cisla': ['219/1', '79', '84', '92/4', '219/18']}, {'typ': 'E', 'cisla': ['676', '677', '678/2', '683/2', '658/1', '659', '687/2', '688/1', '688/2', '813/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo VN vedenia č. 303_k30', 'nazov_lokality_norm': '303_k30'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Žiar nad Hronom', 'obec': 'Žiar nad Hronom', 'katastralne_uzemia': [{'nazov': 'Ladomer', 'parcely': [{'typ': 'C', 'cisla': ['1037', '1036', '1032', '1031', '1030', '1017', '1016', '1015', '1014', '1013', '1012', '1009', '870', '869', '862', '861', '859', '858', '857', '856', '855', '854', '853', '852', '850', '849', '848', '847', '846', '843', '840', '839', '810', '809', '808', '838', '837', '836', '910', '775', '1049', '1048', '1047', '1002', '1001', '944', '943', '919', '918', '917', '916', '914', '912', '974', '973', '969', '967', '966', '965', '954', '953', '952', '951', '950', '949', '948', '947', '946', '945', '989', '975', '987', '968']}]}, {'nazov': 'Vieska', 'parcely': [{'typ': 'C', 'cisla': ['644/4', '644/3', '667/2', '663', '649/2', '649/1', '646/1', '645']}, {'typ': 'E', 'cisla': ['811']}]}, {'nazov': 'Pitelová', 'parcely': [{'typ': 'C', 'cisla': ['2578', '2577', '2574', '381', '380', '170/1', '5', '31/1', '387', '2585', '25', '21', '20', '378', '366', '302/1', '4', '390/1', '435', '391/2', '390/2', '301/1', '300', '2693', '874/1', '3229', '1625', '1624', '1098/1', '1544', '1540', '1497', '1496', '1965', '1964', '2100', '2067', '2066', '2046', '2029', '2018', '3180', '2090', '656/2', '1204/1']}, {'typ': 'E', 'cisla': ['513/1', '513/2', '513/18', '73', '75/1', '75/2', '76/1', '245/1', '252/1', '241/1', '321/3', '321/4', '517/4', '520/2']}]}, {'nazov': 'Šášovské Podhradie', 'parcely': [{'typ': 'C', 'cisla': ['547/1', '493/1', '926', '925', '923', '921', '912', '911', '910', '909', '796', '790', '784', '783', '782', '900', '899', '898', '896', '760', '751', '739', '738', '736', '1103', '1102', '1007', '1003', '994', '991', '731', '730', '729', '728', '726', '709', '708', '706', '705', '845', '844', '843', '842', '841', '840', '839', '838', '837', '836', '835', '834', '833', '832', '831', '830', '702/2', '701/12', '701/10', '701/8', '701/1', '700', '814', '809', '704/1', '704/2', '562/2', '562/1', '504/1', '503/1', '718']}, {'typ': 'E', 'cisla': ['191/29', '176/5', '427']}]}, {'nazov': 'Žiar nad Hronom', 'parcely': [{'typ': 'C', 'cisla': ['2101', '2270', '2283', '2112', '2110', '2109', '2275', '2271', '2274', '2281', '2282', '2280', '2107', '1639/2', '1645/2', '1647/2', '1658/1', '1978/2', '20/6', '65/1', '7/1', '31/5', '2573/4', '2573/3', '2251', '2252', '2571', '1819/26', '1903/20', '1652/33', '7/5', '65/3', '1911/25', '1911/26', '1911/30', '1912/5', '1913/4', '1819/29', '1903/21', '1477', '1478/5', '2035', '1979/3', '1912/2', '1911/4', '1979/1', '1652/66', '1478/1', '1651', '20/2', '1648/3', '1370/2', '1865/1', '1652/3', '2037/1', '31/3', '31/1', '31/2', '1978/1', '2053/1', '1652/12', '6', '2224/3', '2115', '2113', '2114', '1403/1', '1821/1', '2040/1', '1649/1', '1639/4', '63', '1911/92', '1903/7', '1903/40', '1911/1', '1911/13', '1911/12', '1644/3', '1903/3', '1911/5', '1911/7', '1912/4', '1652/62', '1652/36', '1652/37', '1652/38', '1820/3', '1659/1', '1657/1', '1652/46', '1652/75', '1913/2', '1979/4', '1820/4', '1820/1', '1912/1', '1652/48', '1903/15', '2029/7', '1911/32', '1911/33', '1911/34', '1903/22', '2057/1', '1911/60', '1911/61', '1659/25', '1652/7', '1821/14', '1821/15', '2056/1']}, {'typ': 'E', 'cisla': ['134/1', '146/1', '114/1', '127', '128', '129/1', '130', '131/1', '132/1', '171/1', '277/1', '1/1', '147/1', '309/1', '309/3', '309/4', '688/1', '689', '723/2', '725/2', '726', '729', '572/2', '713/1', '678/1', '679/1', '679/2', '690', '691/1', '691/2', '692', '722/2', '724/2', '727/1', '730/2', '903', '904', '905', '856/1', '861/1', '864', '877/1', '860/2', '741', '867/1']}]}, {'nazov': 'Horné Opatovce', 'parcely': [{'typ': 'C', 'cisla': ['219/1', '79', '84', '92/4', '219/18']}, {'typ': 'E', 'cisla': ['676', '677', '678/2', '683/2', '658/1', '659', '687/2', '688/1', '688/2', '813/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo VN vedenia č. 303_k30', 'nazov_lokality_norm': '303_k30'}
+ku_name:Ladomer obec:Žiar nad Hronom okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: ziar nad hronom norm_ku: ladomer
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: ladomer
+_get_nationalCadastralZoningReferences() found_ids: {'830518'}
+nationalCadastralZoningReferences: ['830518']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.90 s
+ku_name:Vieska obec:Žiar nad Hronom okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: ziar nad hronom norm_ku: vieska
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: vieska
+_get_nationalCadastralZoningReferences() found_ids: {'877689'}
+nationalCadastralZoningReferences: ['877689']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.25 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.76 s
+ku_name:Pitelová obec:Žiar nad Hronom okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: ziar nad hronom norm_ku: pitelova
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: None norm_ku: pitelova
+_get_nationalCadastralZoningReferences() found_ids: {'846724'}
+nationalCadastralZoningReferences: ['846724']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.78 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.29 s
+ku_name:Šášovské Podhradie obec:Žiar nad Hronom okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: ziar nad hronom norm_ku: sasovske podhradie
+_get_nationalCadastralZoningReferences() found_ids: {'860654'}
+nationalCadastralZoningReferences: ['860654']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.83 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.15 s
+ku_name:Žiar nad Hronom obec:Žiar nad Hronom okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: ziar nad hronom norm_ku: ziar nad hronom
+_get_nationalCadastralZoningReferences() found_ids: {'874370'}
+nationalCadastralZoningReferences: ['874370']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 0.31 s
+get_geometry_of_cadastral_zone_parcels() request duration: 0.31 s
+get_geometry_of_cadastral_zone_parcels() Neočakávaná chyba pri sťahovaní dát: Expecting value: line 1 column 1 (char 0)
+get_geometry_of_cadastral_zone_parcels() data is None
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['2101', '2270', '2283', '2112', '2110', '2109', '2275', '2271', '2274', '2281', '2282', '2280', '2107', '1639/2', '1645/2', '1647/2', '1658/1', '1978/2', '20/6', '65/1', '7/1', '31/5', '2573/4', '2573/3', '2251', '2252', '2571', '1819/26', '1903/20', '1652/33', '7/5', '65/3', '1911/25', '1911/26', '1911/30', '1912/5', '1913/4', '1819/29', '1903/21', '1477', '1478/5', '2035', '1979/3', '1912/2', '1911/4', '1979/1', '1652/66', '1478/1', '1651', '20/2', '1648/3', '1370/2', '1865/1', '1652/3', '2037/1', '31/3', '31/1', '31/2', '1978/1', '2053/1', '1652/12', '6', '2224/3', '2115', '2113', '2114', '1403/1', '1821/1', '2040/1', '1649/1', '1639/4', '63', '1911/92', '1903/7', '1903/40', '1911/1', '1911/13', '1911/12', '1644/3', '1903/3', '1911/5', '1911/7', '1912/4', '1652/62', '1652/36', '1652/37', '1652/38', '1820/3', '1659/1', '1657/1', '1652/46', '1652/75', '1913/2', '1979/4', '1820/4', '1820/1', '1912/1', '1652/48', '1903/15', '2029/7', '1911/32', '1911/33', '1911/34', '1903/22', '2057/1', '1911/60', '1911/61', '1659/25', '1652/7', '1821/14', '1821/15', '2056/1']}' v KU 'Žiar nad Hronom' sa nenašli dáta.
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.44 s
+ku_name:Horné Opatovce obec:Žiar nad Hronom okres:Žiar nad Hronom kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: ziar nad hronom norm_obec: ziar nad hronom norm_ku: horne opatovce
+_get_nationalCadastralZoningReferences() found_ids: {'874515'}
+nationalCadastralZoningReferences: ['874515']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.88 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.30 s
+nazov_lokality: 303_k30
+gdf_parcelset:         @featureType  ...             administrativeUnit
+0    CadastralParcel  ...  {'@href': '#auAdmUnitS.2007'}
+1    CadastralParcel  ...  {'@href': '#auAdmUnitS.2007'}
+2    CadastralParcel  ...  {'@href': '#auAdmUnitS.2007'}
+3    CadastralParcel  ...  {'@href': '#auAdmUnitS.2007'}
+4    CadastralParcel  ...  {'@href': '#auAdmUnitS.2007'}
+..               ...  ...                            ...
+270  CadastralParcel  ...  {'@href': '#auAdmUnitS.2352'}
+271  CadastralParcel  ...  {'@href': '#auAdmUnitS.2352'}
+272  CadastralParcel  ...  {'@href': '#auAdmUnitS.2352'}
+273  CadastralParcel  ...  {'@href': '#auAdmUnitS.2352'}
+274  CadastralParcel  ...  {'@href': '#auAdmUnitS.2352'}
+
+[275 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/577845/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Žiar nad Hronom/577845/analysis.json...
+
+--- Časy spracovania dokumentu 577845 ---
+  download_and_text   :   1.03 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  20.75 s
+  gis_processing      :  36.32 s
+  CELKOVÝ ČAS         :  58.10 s
+------------------------------------------
+Dokument 577845 bol úspešne spracovaný.

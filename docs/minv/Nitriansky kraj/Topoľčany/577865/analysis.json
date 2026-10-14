@@ -1,0 +1,129 @@
+{
+  "cislo_konania_spisu": "OU-TO-OSZP-2026/010801-008",
+  "cislo_rozhodnutia": "OU-TO-OSZP-2026/010801-0040778/2026",
+  "datum_dokumentu": "2026-10-13",
+  "datum_zverejnenia": "2026-10-14",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "v lehote do 15 dní odo dňa doručenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Západoslovenská vodárenská spoločnosť a.s.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Topoľčany",
+    "obec": "Solčany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Solčany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2967/19",
+              "4725"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "miestna komunikácia, k. ú. Solčany",
+    "nazov_lokality_norm": "Solčany"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom zámere",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE",
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "dobudovanie vodovodu a kanalizácie",
+    "výkopové práce",
+    "pohyb motorových vozidiel a techniky",
+    "možný výrub drevín"
+  ],
+  "rozsah_zasahu": "vodovodný rad dĺžky 227,00 m, gravitačná splašková kanalizácia dĺžky 175,00 m",
+  "typ_uzemia": [
+    "Chránené vtáčie územie SKCHVU031 Tribeč",
+    "NATURA 2000",
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny",
+    "kroviny",
+    "invázne nepôvodné druhy rastlín"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "26"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": [
+        "16",
+        "57",
+        "60",
+        "61",
+        "62",
+        "65",
+        "66"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "18",
+        "24",
+        "26",
+        "33",
+        "46",
+        "47",
+        "53",
+        "54"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "3",
+        "4",
+        "9",
+        "12",
+        "34",
+        "35",
+        "47",
+        "68",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o prevencii a manažmente introdukcie a šírenia inváznych nepôvodných druhov",
+      "cislo": "150/2019 Z. z.",
+      "paragrafy": [
+        "3"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o stavebnom zámere na dobudovanie vodovodu (227 m) a kanalizácie (175 m) v zastavanom území obce Solčany. Stavba sa okrajovo dotýka chráneného vtáčieho územia Tribeč (1. stupeň ochrany). Podmienky určujú povinnosť ochrany drevín, minimalizáciu zásahu do terénu a zamedzenie šírenia inváznych druhov rastlín.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "4725",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

@@ -68,5 +68,20 @@
     "date": "2026-09-11 20:25:30",
     "type": "critical",
     "text": "Nezachytená výnimka v run_processing.py pre URL https://www.minzp.sk/ou-zilina/ou-za-oszp1-2026-082325-kub.html: Chyba pri sťahovaní URL https://www.minzp.sk/ou-zilina/ou-za-oszp1-2026-082325-kub.html: HTTPSConnectionPool(host='www.minzp.sk', port=443): Max retries exceeded with url: /ou-zilina/ou-za-oszp1-2026-082325-kub.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f253c38e0d0>, 'Connection to www.minzp.sk timed out. (connect timeout=30)'))"
+  },
+  {
+    "date": "2026-10-14 21:20:10",
+    "type": "critical",
+    "text": "Nezachytená výnimka v run_processing.py pre URL https://www.minzp.sk/uradna-tabula/priroda/ministerstvo/17359-2026-6-1.html: Chyba pri sťahovaní URL https://www.minzp.sk/uradna-tabula/priroda/ministerstvo/17359-2026-6-1.html: HTTPSConnectionPool(host='www.minzp.sk', port=443): Max retries exceeded with url: /uradna-tabula/priroda/ministerstvo/17359-2026-6-1.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7d784456d0>, 'Connection to www.minzp.sk timed out. (connect timeout=30)'))"
+  },
+  {
+    "date": "2026-10-14 21:20:40",
+    "type": "critical",
+    "text": "Nezachytená výnimka v run_processing.py pre URL https://www.minzp.sk/uradna-tabula/priroda/ministerstvo/17356-2026-6-1.html: Chyba pri sťahovaní URL https://www.minzp.sk/uradna-tabula/priroda/ministerstvo/17356-2026-6-1.html: HTTPSConnectionPool(host='www.minzp.sk', port=443): Max retries exceeded with url: /uradna-tabula/priroda/ministerstvo/17356-2026-6-1.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7d783c6ad0>, 'Connection to www.minzp.sk timed out. (connect timeout=30)'))"
+  },
+  {
+    "date": "2026-10-14 21:21:10",
+    "type": "critical",
+    "text": "Nezachytená výnimka v run_processing.py pre URL https://www.minzp.sk/ou-banska-bystrica/ou-bb_oszp1-2026-044570.html: Chyba pri sťahovaní URL https://www.minzp.sk/ou-banska-bystrica/ou-bb_oszp1-2026-044570.html: HTTPSConnectionPool(host='www.minzp.sk', port=443): Max retries exceeded with url: /ou-banska-bystrica/ou-bb_oszp1-2026-044570.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7d784b9810>, 'Connection to www.minzp.sk timed out. (connect timeout=30)'))"
   }
 ]

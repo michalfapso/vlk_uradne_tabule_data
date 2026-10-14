@@ -1,0 +1,61 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ZSR",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Staré Mesto",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2695"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "železničná trať km 51 - 54",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín pri železničnej trati"
+  ],
+  "rozsah_zasahu": "hromadný výrub (viac ako 500 ks stromov priemerov 20-50 cm)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [],
+  "zhrnutie": "Oznámenie o plánovanom hromadnom výrube drevín (viac ako 500 kusov) v okolí železničnej trate v k.ú. Staré Mesto, Bratislava. Výrub realizujú Železnice Slovenskej republiky (ŽSR) z dôvodu zaistenia bezpečnosti prevádzky. Ide o rôzne druhy drevín, najmä agát, jaseň, topoľ, javor a orech.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "NIPPON STEEL SLOVAKIA, 1, Košice-Šaca, okres Košice II, Košice, Košický kraj, 044 54, Slovensko",
+          "NATIONALSI": "SKCHVU009",
+          "SITETITLE_": "Košická kotlina"
+        }
+      ]
+    },
+    "source_type": "GEONAME"
+  }
+}
