@@ -1,0 +1,51 @@
+[2026-10-15 20:56:24] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-092303-buk'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-092303-buk/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-092303-buk/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009985500000000001}
+LLM_tokens: {"input": 4581, "output": 2565, "total": 7146, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-092303-buk/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-092303-buk/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Chata Smrekovica', 'nazov_lokality_norm': 'Smrekovica'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': None, 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Chata Smrekovica', 'nazov_lokality_norm': 'Smrekovica'}
+No geometries were found.
+nazov_lokality: Smrekovica
+get_geometry_of_a_geoname nazov_lokality: Smrekovica
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilina, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.84047 49.0327, 20.84143 49.03105,...  ...  Smrekovica, Šindliar, okres Prešov, Prešovský ...
+
+[1 rows x 11 columns]
+geoname_query: Smrekovica, Slovensko
+gdf_parcelset: None
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.84047 49.0327, 20.84143 49.03105,...  ...  Smrekovica, Šindliar, okres Prešov, Prešovský ...
+
+[1 rows x 11 columns]
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-092303-buk/gis.geojson...
+Intersections with protected areas...
+Found 16 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NAZOV_UEV': 'Kamenná Baba', 'KOD_UEV': 'SKUEV0207'}], 'UEV': [{'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NATIONALSI': 'SKUEV0320', 'SITETITLE_': 'Šindliar'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NATIONALSI': 'SKUEV0207', 'SITETITLE_': 'Kamenná Baba'}], 'MCHU': [{'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NATIONALSI': '865', 'SITETITLE_': 'PR Šindliar'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NATIONALSI': '1150', 'SITETITLE_': 'PP Komín'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NATIONALSI': '580', 'SITETITLE_': 'NPR Kamenná Baba'}, {'parcel_label': 'Smrekovica, Šindliar, okres Prešov, Prešovský kraj, Slovensko', 'NATIONALSI': '621', 'SITETITLE_': 'PR Na bani'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-092303-buk/analysis.json...
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-092303-buk ---
+  download_and_text   :   0.01 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.95 s
+  gis_processing      :   1.23 s
+  CELKOVÝ ČAS         :  13.12 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-092303-buk bol úspešne spracovaný.

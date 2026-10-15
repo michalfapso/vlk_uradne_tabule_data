@@ -1,0 +1,111 @@
+{
+  "cislo_konania_spisu": "SVP 13841/2026/12",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-07",
+  "datum_zverejnenia": "2026-10-13",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Krišovská Liesková, Pavlovce nad Uhom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Krišovská Liesková",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "851"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Pavlovce nad Uhom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2093",
+              "2101"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ľavobrežná OH Uhu",
+    "nazov_lokality_norm": "Uhu"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub krovitého porastu"
+  ],
+  "rozsah_zasahu": "18 ks vŕba, 9 ks topoľ, krovitý porast cca 15 000 m2",
+  "typ_uzemia": [
+    "CHKO Vihorlat"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vŕba",
+    "topoľ",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "48",
+        "49"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube 27 stromov (vŕba, topoľ) a krovitého porastu na ploche cca 1,5 ha na ochrannej hrádzi rieky Uh. Výrub sa bude realizovať v k. ú. Krišovská Liesková a Pavlovce nad Uhom v období vegetačného pokoja. Dokument je zaslaný na vedomie Správe CHKO Vihorlat.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "851",
+          "NATIONALSI": "SKUEV0235",
+          "SITETITLE_": "Stretavka"
+        },
+        {
+          "parcel_label": "2093",
+          "NATIONALSI": "SKUEV0235",
+          "SITETITLE_": "Stretavka"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "851",
+          "NATIONALSI": "1183",
+          "SITETITLE_": "CHA Stretavka"
+        },
+        {
+          "parcel_label": "2093",
+          "NATIONALSI": "1183",
+          "SITETITLE_": "CHA Stretavka"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

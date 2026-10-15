@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": "17356/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-14",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Spojená škola Turčianske Teplice",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Turčianske Teplice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Turčianske Teplice",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "budova Spojenej školy Turčianske Teplice",
+    "nazov_lokality_norm": "Spojená škola, Turčianske Teplice"
+  },
+  "typ_dokumentu": "Žiadosť o povolenie výnimky zo zákazov z druhovej ochrany",
+  "kategorie_vlk": [
+    "ZIVOCICHY_USMRCOVANIE"
+  ],
+  "typ_zasahu": [
+    "odstránenie hniezd chránených živočíchov"
+  ],
+  "rozsah_zasahu": "hniezda chránených živočíchov druhu belorítka obyčajná (Delichon urbicum)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "belorítka obyčajná (Delichon urbicum)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Žiadosť o povolenie výnimky na odstránenie hniezd belorítky obyčajnej z budovy Spojenej školy v Turčianskych Tepliciach. Konanie sa týka druhovej ochrany chránených živočíchov v zastavanom území obce. Verejnosť môže potvrdiť záujem o účasť v konaní do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Turčianske Teplice",
+          "NATIONALSI": "SKUEV0147",
+          "SITETITLE_": "Žarnovica"
+        },
+        {
+          "parcel_label": "Turčianske Teplice",
+          "NATIONALSI": "SKUEV0382",
+          "SITETITLE_": "Turiec a Blatnický potok"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Turčianske Teplice",
+          "NATIONALSI": "902",
+          "SITETITLE_": "CHA Žarnovica"
+        },
+        {
+          "parcel_label": "Turčianske Teplice",
+          "NATIONALSI": "458",
+          "SITETITLE_": "OP NPR Turiec"
+        },
+        {
+          "parcel_label": "Turčianske Teplice",
+          "NATIONALSI": "458",
+          "SITETITLE_": "NPR Turiec"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

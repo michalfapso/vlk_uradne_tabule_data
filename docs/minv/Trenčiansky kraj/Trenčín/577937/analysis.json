@@ -1,0 +1,122 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP1-2026/048824-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-14",
+  "datum_zverejnenia": "2026-10-14",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia na internetovej stránke orgánu ochrany prírody"
+  },
+  "ziadatel_navrhovatel": "PROENERGS s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Horná Súča",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Horná Súča",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "CHKO Biele Karpaty, Horná Súča, Dúbrava NNV",
+    "nazov_lokality_norm": "Dúbrava, Horná Súča"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania",
+  "kategorie_vlk": [
+    "VJAZD_VOZIDLA",
+    "INZINIERSKE_SIETE",
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "povolenie výnimky zo zákazu jazdenia a státia vozidlom",
+    "rekonštrukcia elektrického vedenia",
+    "výrub náletových drevín"
+  ],
+  "rozsah_zasahu": "rekonštrukcia elektrického vedenia TN – Horná Súča, Dúbrava NNV a vjazd mechanizmov do chráneného územia",
+  "typ_uzemia": [
+    "CHKO Biele Karpaty",
+    "2. stupeň ochrany",
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "chránené druhy vtáctva",
+    "chránené druhy obojživelníkov",
+    "náletové dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "§ 1 ods. 1 písm. b)",
+        "§ 4 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 13 ods. 1 písm. a)",
+        "§ 82 ods. 3",
+        "§ 82 ods. 6"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "§ 19",
+        "§ 33 ods. 2"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania o povolení výnimky na vjazd a státie motorových vozidiel v 2. stupni ochrany CHKO Biele Karpaty. Zásah súvisí s rekonštrukciou elektrického vedenia v obci Horná Súča (Dúbrava) a sprievodným výrubom náletových drevín. Orgán navrhuje podmienky na ochranu hniezdiaceho vtáctva, obojživelníkov a zamedzenie pôdnej erózii.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Horná Súča",
+          "NATIONALSI": "SKUEV0375",
+          "SITETITLE_": "Krasín"
+        },
+        {
+          "parcel_label": "Horná Súča",
+          "NATIONALSI": "SKUEV0778",
+          "SITETITLE_": "Lipníkovské"
+        },
+        {
+          "parcel_label": "Horná Súča",
+          "NATIONALSI": "SKUEV0588",
+          "SITETITLE_": "Stehlíkovské"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Horná Súča",
+          "NATIONALSI": "1036",
+          "SITETITLE_": "PP Podsalašie"
+        },
+        {
+          "parcel_label": "Horná Súča",
+          "NATIONALSI": "181",
+          "SITETITLE_": "PP Včelíny"
+        },
+        {
+          "parcel_label": "Horná Súča",
+          "NATIONALSI": "46",
+          "SITETITLE_": "PR Hornozávrská mokraď"
+        },
+        {
+          "parcel_label": "Horná Súča",
+          "NATIONALSI": "30",
+          "SITETITLE_": "PR Debšín"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

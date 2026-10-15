@@ -1,0 +1,167 @@
+[2026-10-15 20:50:12] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/577972'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/577972/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0003716}
+LLM_tokens: {"input": 1366, "output": 910, "total": 2276, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/577972/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 odst. 7' zákona 'Vám oznamujeme nevyhnutný výrub náletových drevín v existujúcom ochrannom pásme elektrického vedenia. Výrub bude prevedený pod el. vedením:  110 kV, v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11' zákona 'tomto zákona držiteľ povolenia na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odst. 1' zákona 'tomto zákona držiteľ povolenia na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '251/2012 Z. z. je definované u 110 kV vedení, ako kolmá vzdialenosť 15m od krajného vodiča na obv. strany.  Predpokladané: - začatie výrubu: 11.2026 -'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013711500000000001}
+LLM_tokens: {"input": 4803, "output": 3770, "total": 8573, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/577972/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/577972/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Liptovský Hrádok', 'katastralne_uzemia': [{'nazov': 'Kráľová Lehota', 'parcely': [{'typ': None, 'cisla': ['70', '71', '72', '73', '74', '75', '76', '77', '78']}]}, {'nazov': 'Liptovská Porúbka', 'parcely': [{'typ': None, 'cisla': ['63', '64', '65', '66', '67', '68', '69', '70']}]}, {'nazov': 'Liptovský Hrádok', 'parcely': [{'typ': None, 'cisla': ['60', '61', '62']}]}, {'nazov': 'Dovalovo', 'parcely': [{'typ': None, 'cisla': ['50', '51', '52', '53', '54', '55', '56', '57', '58', '59']}]}, {'nazov': 'Liptovský Peter', 'parcely': [{'typ': None, 'cisla': ['39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49']}]}, {'nazov': 'Podtureň', 'parcely': [{'typ': None, 'cisla': ['30', '31', '32', '33', '34', '35', '36', '37', '38']}]}, {'nazov': 'Uhorská Ves', 'parcely': [{'typ': None, 'cisla': ['28', '29']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': '110 kV, vedenie č. 7722/7723 TR: Uhrorská Ves - KRÁĽOVÁ LEHOTA', 'nazov_lokality_norm': 'Uhorská Ves - Kráľová Lehota'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Liptovský Hrádok', 'katastralne_uzemia': [{'nazov': 'Kráľová Lehota', 'parcely': [{'typ': None, 'cisla': ['70', '71', '72', '73', '74', '75', '76', '77', '78']}]}, {'nazov': 'Liptovská Porúbka', 'parcely': [{'typ': None, 'cisla': ['63', '64', '65', '66', '67', '68', '69', '70']}]}, {'nazov': 'Liptovský Hrádok', 'parcely': [{'typ': None, 'cisla': ['60', '61', '62']}]}, {'nazov': 'Dovalovo', 'parcely': [{'typ': None, 'cisla': ['50', '51', '52', '53', '54', '55', '56', '57', '58', '59']}]}, {'nazov': 'Liptovský Peter', 'parcely': [{'typ': None, 'cisla': ['39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49']}]}, {'nazov': 'Podtureň', 'parcely': [{'typ': None, 'cisla': ['30', '31', '32', '33', '34', '35', '36', '37', '38']}]}, {'nazov': 'Uhorská Ves', 'parcely': [{'typ': None, 'cisla': ['28', '29']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': '110 kV, vedenie č. 7722/7723 TR: Uhrorská Ves - KRÁĽOVÁ LEHOTA', 'nazov_lokality_norm': 'Uhorská Ves - Kráľová Lehota'}
+ku_name:Kráľová Lehota obec:Liptovský Hrádok okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: liptovsky hradok norm_ku: kralova lehota
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: None norm_ku: kralova lehota
+_get_nationalCadastralZoningReferences() found_ids: {'828173'}
+nationalCadastralZoningReferences: ['828173']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.74 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.17 s
+ku_name:Liptovská Porúbka obec:Liptovský Hrádok okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: liptovsky hradok norm_ku: liptovska porubka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: None norm_ku: liptovska porubka
+_get_nationalCadastralZoningReferences() found_ids: {'832448'}
+nationalCadastralZoningReferences: ['832448']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.24 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.66 s
+ku_name:Liptovský Hrádok obec:Liptovský Hrádok okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: liptovsky hradok norm_ku: liptovsky hradok
+_get_nationalCadastralZoningReferences() found_ids: {'832618'}
+nationalCadastralZoningReferences: ['832618']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.73 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.14 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+ku_name:Dovalovo obec:Liptovský Hrádok okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: liptovsky hradok norm_ku: dovalovo
+_get_nationalCadastralZoningReferences() found_ids: {'812714'}
+nationalCadastralZoningReferences: ['812714']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.89 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.21 s
+ku_name:Liptovský Peter obec:Liptovský Hrádok okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: liptovsky hradok norm_ku: liptovsky peter
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: None norm_ku: liptovsky peter
+_get_nationalCadastralZoningReferences() found_ids: {'832855'}
+nationalCadastralZoningReferences: ['832855']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.67 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.20 s
+ku_name:Podtureň obec:Liptovský Hrádok okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: liptovsky hradok norm_ku: podturen
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: None norm_ku: podturen
+_get_nationalCadastralZoningReferences() found_ids: {'847721'}
+nationalCadastralZoningReferences: ['847721']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.79 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.18 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+ku_name:Uhorská Ves obec:Liptovský Hrádok okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: liptovsky hradok norm_ku: uhorska ves
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: None norm_ku: uhorska ves
+_get_nationalCadastralZoningReferences() found_ids: {'866351'}
+nationalCadastralZoningReferences: ['866351']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.52 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.98 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+nazov_lokality: Uhorská Ves - Kráľová Lehota
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1768'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1768'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1768'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1768'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1768'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1180'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1180'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1180'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1180'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1180'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1180'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1180'}
+12  CadastralParcel  ...   {'@href': '#auAdmUnitS.320'}
+13  CadastralParcel  ...   {'@href': '#auAdmUnitS.320'}
+14  CadastralParcel  ...   {'@href': '#auAdmUnitS.320'}
+15  CadastralParcel  ...   {'@href': '#auAdmUnitS.320'}
+16  CadastralParcel  ...   {'@href': '#auAdmUnitS.320'}
+17  CadastralParcel  ...   {'@href': '#auAdmUnitS.320'}
+18  CadastralParcel  ...   {'@href': '#auAdmUnitS.320'}
+19  CadastralParcel  ...   {'@href': '#auAdmUnitS.320'}
+20  CadastralParcel  ...   {'@href': '#auAdmUnitS.320'}
+21  CadastralParcel  ...   {'@href': '#auAdmUnitS.320'}
+22  CadastralParcel  ...   {'@href': '#auAdmUnitS.320'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.1130'}
+24  CadastralParcel  ...  {'@href': '#auAdmUnitS.1130'}
+25  CadastralParcel  ...  {'@href': '#auAdmUnitS.1130'}
+26  CadastralParcel  ...  {'@href': '#auAdmUnitS.1130'}
+27  CadastralParcel  ...  {'@href': '#auAdmUnitS.1130'}
+28  CadastralParcel  ...  {'@href': '#auAdmUnitS.1130'}
+29  CadastralParcel  ...  {'@href': '#auAdmUnitS.1130'}
+30  CadastralParcel  ...  {'@href': '#auAdmUnitS.1130'}
+31  CadastralParcel  ...  {'@href': '#auAdmUnitS.1130'}
+32  CadastralParcel  ...  {'@href': '#auAdmUnitS.1130'}
+33  CadastralParcel  ...  {'@href': '#auAdmUnitS.1130'}
+34  CadastralParcel  ...  {'@href': '#auAdmUnitS.1130'}
+35  CadastralParcel  ...  {'@href': '#auAdmUnitS.1130'}
+36  CadastralParcel  ...  {'@href': '#auAdmUnitS.1073'}
+37  CadastralParcel  ...  {'@href': '#auAdmUnitS.1073'}
+38  CadastralParcel  ...  {'@href': '#auAdmUnitS.1073'}
+39  CadastralParcel  ...  {'@href': '#auAdmUnitS.1073'}
+40  CadastralParcel  ...  {'@href': '#auAdmUnitS.1073'}
+41  CadastralParcel  ...  {'@href': '#auAdmUnitS.1073'}
+42  CadastralParcel  ...  {'@href': '#auAdmUnitS.1073'}
+43  CadastralParcel  ...  {'@href': '#auAdmUnitS.1073'}
+44  CadastralParcel  ...  {'@href': '#auAdmUnitS.2807'}
+
+[45 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/577972/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/577972/analysis.json...
+
+--- Časy spracovania dokumentu 577972 ---
+  download_and_text   :  10.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.05 s
+  gis_processing      :  49.52 s
+  CELKOVÝ ČAS         :  74.57 s
+------------------------------------------
+Dokument 577972 bol úspešne spracovaný.

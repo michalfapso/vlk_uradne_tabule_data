@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 15 dní od zverejnenia predmetného oznámenia dotknutou obcou"
+  },
+  "ziadatel_navrhovatel": "Obec Trávnik",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Komárno",
+    "obec": "Trávnik",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trávnik",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Obec Trávnik",
+    "nazov_lokality_norm": "Trávnik"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o predložení strategického dokumentu",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "územný plán obce"
+  ],
+  "rozsah_zasahu": "celé územie obce Trávnik",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "http://www.enviroportal.sk/sk/sea",
+  "zakony": [
+    {
+      "nazov": "Zákon o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006",
+      "paragrafy": [
+        "6",
+        "63"
+      ]
+    },
+    {
+      "nazov": "Zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "1",
+        "5"
+      ]
+    }
+  ],
+  "zhrnutie": "Informácia o predložení strategického dokumentu „Územný plán obce Trávnik“, ktorý podlieha posudzovaniu vplyvov na životné prostredie (SEA). Verejnosť môže predkladať písomné stanoviská do 15 dní od zverejnenia oznámenia obcou. Dokumentácia je prístupná v systéme EIA/SEA a na Okresnom úrade Komárno.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Trávnik",
+          "NATIONALSI": "SKUEV0182",
+          "SITETITLE_": "Číčovské luhy"
+        },
+        {
+          "parcel_label": "Trávnik",
+          "NATIONALSI": "SKUEV0090",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Trávnik",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

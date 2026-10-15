@@ -1,0 +1,81 @@
+{
+  "cislo_konania_spisu": "OU-RS-OSZP-2026/019769",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-10-15",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 22.10.2026"
+  },
+  "ziadatel_navrhovatel": "Slovenská správa ciest",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Rimavská Sobota",
+    "obec": "Hačava, Rimavská Píla",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hačava",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1361"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Rimavská Píla",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "689/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "tesná blízkosť cesty I/72, v jej ochrannom pásme",
+    "nazov_lokality_norm": "I/72"
+  },
+  "typ_dokumentu": "Oznámenie o výrube v zmysle § 47 ods. 7 zákona č. 543/2002 Z. z. o ochrane prírody a krajiny",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "odstránenie a okliesnenie stromov a iných porastov",
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "odstránenie a okliesnenie prestarnutých stromov v ochrannom pásme cesty I/72",
+  "typ_uzemia": [
+    "ochranné pásmo cesty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 82 ods. 7",
+        "§ 47 ods. 7",
+        "§ 47 ods. 8",
+        "§ 81 ods. 2 písm. m)"
+      ]
+    },
+    {
+      "nazov": "Zákon o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Slovenská správa ciest oznamuje výrub a okliesnenie prestarnutých stromov pri ceste I/72 v katastroch Hačava a Rimavská Píla. Zásah je odôvodnený bezpečnosťou cestnej premávky, nakoľko dreviny v ochrannom pásme znižujú rozhľad a hrozia pádom na vozovku. Konanie je začaté v zmysle zákona o ochrane prírody a krajiny.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

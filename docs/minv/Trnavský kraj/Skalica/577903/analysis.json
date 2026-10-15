@@ -1,0 +1,96 @@
+{
+  "cislo_konania_spisu": "OU-SI-OSZP-2026/000854-005",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-14",
+  "datum_zverejnenia": "2026-10-14",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "na ústnom pojednávaní dňa 10.11.2026"
+  },
+  "ziadatel_navrhovatel": "Slovenský rybársky zväz – Miestna organizácia Holíč",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Skalica",
+    "obec": "Gbely",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Gbely",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Adamovské štrkovisko I. a II",
+    "nazov_lokality_norm": "Adamovské štrkovisko"
+  },
+  "typ_dokumentu": "Oznámenie o začatí správneho konania a pozvanie na ústne pojednávania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "umiestňovanie obytných zariadení",
+    "maringotky",
+    "prívesy",
+    "zmena zákazu činností"
+  ],
+  "rozsah_zasahu": "vzdialenosť menšia ako 25m od okraja vodnej plochy",
+  "typ_uzemia": [
+    "CHKO Záhorie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "64",
+        "89",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "18",
+        "21"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci zmeny zákazu činností na Adamovských štrkoviskách v k.ú. Gbely. Žiadosť podaná Slovenským rybárskym zväzom sa týka úpravy podmienok pre umiestňovanie obytných zariadení ako maringotky a prívesy v blízkosti brehu. Lokalita spadá pod ochranu CHKO Záhorie.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Gbely",
+          "NATIONALSI": "SKUEV0904",
+          "SITETITLE_": "Gbelský les"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Gbely",
+          "NATIONALSI": "1001",
+          "SITETITLE_": "CHA Vodná nádrž Petrova Ves"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Gbely",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

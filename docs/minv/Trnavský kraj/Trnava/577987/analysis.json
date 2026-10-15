@@ -1,0 +1,119 @@
+{
+  "cislo_konania_spisu": "OU-TT-OSZP3-2026/104285-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-12",
+  "datum_zverejnenia": "2026-10-13",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr pri ústnom konaní dňa 24.11.2026"
+  },
+  "ziadatel_navrhovatel": "ZH invest, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trnavský kraj",
+    "okres": "Trnava",
+    "obec": "Hrnčiarovce nad Parnou",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Hrnčiarovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2045/1",
+              "2056/25",
+              "2251",
+              "2271",
+              "2272"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "803/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "IBV Pri potoku – Hrnčiarovce nad Parnou",
+    "nazov_lokality_norm": "Pri potoku, Hrnčiarovce nad Parnou"
+  },
+  "typ_dokumentu": "Oznámenie o začatí kolaudačného konania",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "vodovod",
+    "splašková kanalizácia",
+    "dažďová kanalizácia"
+  ],
+  "rozsah_zasahu": "E2.2 Vodovod, E2.3 Splašková kanalizácia, E2.4 Dažďová kanalizácia",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "61",
+        "73"
+      ]
+    },
+    {
+      "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "120",
+        "80"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "21",
+        "26"
+      ]
+    },
+    {
+      "nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "cislo": "442/2002 Z. z.",
+      "paragrafy": [
+        "16"
+      ]
+    },
+    {
+      "nazov": "o územnom plánovaní a stavebnom poriadku",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": [
+        "84"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí kolaudačného konania pre vodovodnú a kanalizačnú infraštruktúru v rámci projektu IBV Pri potoku v obci Hrnčiarovce nad Parnou. Ústne pojednávanie spojené s miestnym zisťovaním je nariadené na 24.11.2026. Dokument neuvádza výskyt chránených území v mieste realizácie.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "2045/1",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

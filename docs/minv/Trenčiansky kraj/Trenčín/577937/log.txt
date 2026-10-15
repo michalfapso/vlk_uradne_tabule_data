@@ -1,0 +1,64 @@
+[2026-10-15 20:47:30] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577937'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577937/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577937/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1 ods. 1 písm. b)' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, na základe žiadosti spoločnosti PROENERGS'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov, na základe žiadosti spoločnosti PROENERGS'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577937/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0155425}
+LLM_tokens: {"input": 8063, "output": 3837, "total": 11900, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577937/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577937/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Horná Súča', 'katastralne_uzemia': [{'nazov': 'Horná Súča', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'CHKO Biele Karpaty, Horná Súča, Dúbrava NNV', 'nazov_lokality_norm': 'Dúbrava, Horná Súča'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Horná Súča', 'katastralne_uzemia': [{'nazov': 'Horná Súča', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'CHKO Biele Karpaty, Horná Súča, Dúbrava NNV', 'nazov_lokality_norm': 'Dúbrava, Horná Súča'}
+ku_name:Horná Súča obec:Horná Súča okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: horna suca norm_ku: horna suca
+_get_nationalCadastralZoningReferences() found_ids: {'817627'}
+nationalCadastralZoningReferences: ['817627']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Dúbrava, Horná Súča
+get_geometry_of_a_geoname nazov_lokality: Dúbrava, Horná Súča
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Horná Súča, Horná Súča, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Horná Súča, Trenčín, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Horná Súča, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Horná Súča, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.9581691, 'lon': 17.9690379, 'formatted_address': 'Dúbrava, 913 33 Horná Súča, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 913 33 Horná Súča, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.99155 49.02835, 17.99314 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577937/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Horná Súča', 'NATIONALSI': 'SKUEV0375', 'SITETITLE_': 'Krasín'}, {'parcel_label': 'Horná Súča', 'NATIONALSI': 'SKUEV0778', 'SITETITLE_': 'Lipníkovské'}, {'parcel_label': 'Horná Súča', 'NATIONALSI': 'SKUEV0588', 'SITETITLE_': 'Stehlíkovské'}], 'MCHU': [{'parcel_label': 'Horná Súča', 'NATIONALSI': '1036', 'SITETITLE_': 'PP Podsalašie'}, {'parcel_label': 'Horná Súča', 'NATIONALSI': '181', 'SITETITLE_': 'PP Včelíny'}, {'parcel_label': 'Horná Súča', 'NATIONALSI': '46', 'SITETITLE_': 'PR Hornozávrská mokraď'}, {'parcel_label': 'Horná Súča', 'NATIONALSI': '30', 'SITETITLE_': 'PR Debšín'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/577937/analysis.json...
+
+--- Časy spracovania dokumentu 577937 ---
+  download_and_text   :   1.50 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  15.24 s
+  gis_processing      :   2.68 s
+  CELKOVÝ ČAS         :  19.43 s
+------------------------------------------
+Dokument 577937 bol úspešne spracovaný.

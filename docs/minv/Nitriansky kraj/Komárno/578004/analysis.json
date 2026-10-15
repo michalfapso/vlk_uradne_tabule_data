@@ -1,0 +1,87 @@
+{
+  "cislo_konania_spisu": "OU-KN-OSZP-2026/021690-002-ZF",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-10-15",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Andrea Mester",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Komárno",
+    "obec": "Radvaň nad Dunajom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Radvaň nad Dunajom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "2312/143",
+              "2312/174"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "k. ú. Radvaň nad Dunajom",
+    "nazov_lokality_norm": "Radvaň nad Dunajom"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 3 ks dreviny",
+    "topoľ biely (Populus alba)"
+  ],
+  "rozsah_zasahu": "3 ks dreviny (topoľ biely)",
+  "typ_uzemia": [
+    "1. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "topoľ biely (Populus alba)"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82 ods. 7",
+        "47 ods. 3",
+        "12"
+      ]
+    }
+  ],
+  "zhrnutie": "Začaté správne konanie o výrub 3 kusov topoľa bieleho na parcelách registra C v obci Radvaň nad Dunajom. Dôvodom výrubu je ohrozenie elektrického vedenia pre rybník a zlý zdravotný stav stromov. Zásah sa realizuje v území s 1. stupňom ochrany.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "2312/174",
+          "NATIONALSI": "SKUEV0393",
+          "SITETITLE_": "Dunaj"
+        },
+        {
+          "parcel_label": "2312/143",
+          "NATIONALSI": "SKUEV0393",
+          "SITETITLE_": "Dunaj"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "2312/143",
+          "NATIONALSI": "SKCHVU007",
+          "SITETITLE_": "Dunajské luhy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

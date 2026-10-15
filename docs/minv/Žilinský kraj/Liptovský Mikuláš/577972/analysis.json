@@ -1,0 +1,184 @@
+{
+  "cislo_konania_spisu": "10.2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-15",
+  "datum_zverejnenia": "2026-10-15",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Liptovský Mikuláš",
+    "obec": "Liptovský Hrádok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kráľová Lehota",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "70",
+              "71",
+              "72",
+              "73",
+              "74",
+              "75",
+              "76",
+              "77",
+              "78"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Liptovská Porúbka",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "63",
+              "64",
+              "65",
+              "66",
+              "67",
+              "68",
+              "69",
+              "70"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Liptovský Hrádok",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "60",
+              "61",
+              "62"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Dovalovo",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "50",
+              "51",
+              "52",
+              "53",
+              "54",
+              "55",
+              "56",
+              "57",
+              "58",
+              "59"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Liptovský Peter",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "39",
+              "40",
+              "41",
+              "42",
+              "43",
+              "44",
+              "45",
+              "46",
+              "47",
+              "48",
+              "49"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Podtureň",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "30",
+              "31",
+              "32",
+              "33",
+              "34",
+              "35",
+              "36",
+              "37",
+              "38"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Uhorská Ves",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "28",
+              "29"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "110 kV, vedenie č. 7722/7723 TR: Uhrorská Ves - KRÁĽOVÁ LEHOTA",
+    "nazov_lokality_norm": "Uhorská Ves - Kráľová Lehota"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub náletových drevín",
+    "odstraňovanie a okliesňovanie stromov"
+  ],
+  "rozsah_zasahu": "v ochrannom pásme 110 kV vedenia (15 m od krajného vodiča)",
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "náletové dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o nevyhnutnom výrube náletových drevín v ochrannom pásme 110 kV elektrického vedenia medzi obcami Uhorská Ves a Kráľová Lehota. Výrub bude prebiehať na viacerých parcelách v 7 katastrálnych územiach v období od novembra 2026 do marca 2027.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}
