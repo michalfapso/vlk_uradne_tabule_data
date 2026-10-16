@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": "OU-GIL-OSZP-2026/001277",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-14",
+  "datum_zverejnenia": null,
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Správa ciest Košického samosprávneho kraja",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Gelnica",
+    "obec": "Jaklovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jaklovce",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1242/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "most M3386 Jaklovce pri ceste II/546",
+    "nazov_lokality_norm": "M3386, Jaklovce"
+  },
+  "typ_dokumentu": "Upozornenie o doručení oznámenia o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub 2 ks drevín druhu topoľ",
+    "výrub 10 ks drevín druhu vŕba",
+    "rekonštrukcia mosta"
+  ],
+  "rozsah_zasahu": "12 ks stromov (2 ks topoľ, 10 ks vŕba)",
+  "typ_uzemia": [
+    "ochranné pásmo cesty",
+    "extravilán"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "topoľ",
+    "vŕba"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 7",
+        "82 ods. 7",
+        "82 ods. 3"
+      ]
+    },
+    {
+      "nazov": "o pozemných komunikáciách (cestný zákon)",
+      "cislo": "135/1961 Zb.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube 12 stromov (2 topole a 10 vŕb) v katastri obce Jaklovce pri moste M3386. Výrub ohlásila Správa ciest KSK z dôvodu rekonštrukcie mostného objektu v ochrannom pásme cesty v extraviláne. Keďže ide o oznámenie podľa § 47 ods. 7 zákona o OPaK, nejde o správne konanie s možnosťou účasti verejnosti.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

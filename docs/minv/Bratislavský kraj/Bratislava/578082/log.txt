@@ -1,0 +1,63 @@
+[2026-10-16 20:15:11] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578082'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578082/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578082/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov ako'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 36 ods. 1 písm. c)' zákona '442/2002 Z. z. o verejných vodovodoch a verejných kanalizáciách a o zmene a doplnení zákona č. 276/2001 Z. z. o reguláciách v sieťových odvetviach v z'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 19 ods. 2 písm. a)' zákona '442/2002 Z. z., dotknutým orgánom štátnej správy a známym účastníkom konania. Okresnému úradu Bratislava sú známe pomery pre určenie pásma ochrany ver'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84' zákona '25/2025 Z.z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 33 ods. 2' zákona 'Vám tunajší úrad dáva možnosť vyjadriť sa k podkladom rozhodnutia a k spôsobu jeho zistenia, prípadne navrhnúť jeho doplnenie. Do podkladov rozhodnuti'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578082/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.018704}
+LLM_tokens: {"input": 16312, "output": 3516, "total": 19828, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578082/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578082/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava – Záhorská Bystrica', 'katastralne_uzemia': [{'nazov': 'Záhorská Bystrica', 'parcely': [{'typ': 'C', 'cisla': ['2659/120', '2659/817', '2659/847', '4121/468', '4121/469', '4121/470', '4121/471', '4121/472', '4121/473']}, {'typ': 'E', 'cisla': ['5740']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Obytné súbory pod vŕškami – Blok E', 'nazov_lokality_norm': 'Pod vŕškami, Bratislava'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava – Záhorská Bystrica', 'katastralne_uzemia': [{'nazov': 'Záhorská Bystrica', 'parcely': [{'typ': 'C', 'cisla': ['2659/120', '2659/817', '2659/847', '4121/468', '4121/469', '4121/470', '4121/471', '4121/472', '4121/473']}, {'typ': 'E', 'cisla': ['5740']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Obytné súbory pod vŕškami – Blok E', 'nazov_lokality_norm': 'Pod vŕškami, Bratislava'}
+ku_name:Záhorská Bystrica obec:Bratislava – Záhorská Bystrica okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava – zahorska bystrica norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: None norm_ku: zahorska bystrica
+_get_nationalCadastralZoningReferences() found_ids: {'871796'}
+nationalCadastralZoningReferences: ['871796']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.67 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.85 s
+nazov_lokality: Pod vŕškami, Bratislava
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+8  CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+9  CadastralParcel  ...  {'@href': '#auAdmUnitS.1526'}
+
+[10 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578082/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578082/analysis.json...
+
+--- Časy spracovania dokumentu 578082 ---
+  download_and_text   :   1.52 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.59 s
+  gis_processing      :   6.77 s
+  CELKOVÝ ČAS         :  22.88 s
+------------------------------------------
+Dokument 578082 bol úspešne spracovaný.

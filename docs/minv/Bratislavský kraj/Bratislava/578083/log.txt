@@ -1,0 +1,83 @@
+[2026-10-16 20:14:51] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578083'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578083/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578083/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 35 ods. 1 písm. b)' zákona '305/2013 Z. z. o elektronickej podobe výkonu pôsobnosti orgánov verejnej moci a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 24 ods. 5' zákona '153/2001 Z. z. o prokuratúre v znení neskorších predpisov vyhovel protestu prokurátora Okresnej  prokuratúry Bratislava I zo dňa 03.06.2024 č. Pd 42/2'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 40 ods. 1' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71 ods. 1)' zákona 'alebo ak sa začalo s využitím  územia na určený účel.“.    Na inžiniersku stavbu SO 20 Schodiskové prepojenie komunikácie bolo v minulosti vydané stav'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 8 ods. (2) písm. b)' zákona 'vyhlášky č. 453/2000  Z. z., ktorou sa vykonávajú niektoré ustanovenia stavebného zákona, najmä nebola vypracovaná  oprávnenou osobou s príslušným odb'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. (1) písm. a)' zákona 'citovanej vyhlášky, týkajúcej sa dodržania  podmienok rozhodnutia o umiestnení Stavby, kde bola v osobitných podmienkach uložená povinnosť pri  spraco'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 40 ods. 1' zákona 'stavebného zákona, územné rozhodnutie nestratí  platnosť, ak bola v lehote jeho platnosti podaná žiadosť o stavebné povolenie alebo o povolenie na  te'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 71 ods. 1)' zákona 'alebo ak sa začalo s využitím územia  na určený účel.    Máme za to, že na účely naplnenia obsahu ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 40 ods. 1' zákona 'stavebného zákona, platnosť územného  rozhodnutia zostáva zachovaná iba v prípade, ak bola žiadosť o stavebné povolenie podaná  riadne, t. j. nemôže s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 40 ods.  1' zákona 'stavebného zákona nebola žiadosť o stavebné  povolenie riadne podaná, a teda predmetné územné  rozhodnutie stratilo platnosť dňa 13.10.2009, a preto ú'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 40 ods. 1' zákona 'stavebného zákona rozhodnutie o umiestnení stavby  platí dva roky odo dňa, keď nadobudlo právoplatnosť'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 40 ods. 1' zákona 'stavebného zákona nebolo to, aby akékoľvek územné  rozhodnutie na umiestnenie súboru stavieb, podobne ako v prípade Územného rozhodnutia,  zostalo v p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 40 ods. 1' zákona 'stavebného zákona, a teda nemá oporu v zákone.     V tejto veci Územné rozhodnutie nadobudlo právoplatnosť pred viac ako 15 rokmi, počas ktorých sa  p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 4 ods. 2' zákona 'vyhlášky Ministerstva životného prostredia Slovenskej republiky, ktorou sa  ustanovujú podrobnosti o všeobecných technických požiadavkách na výstavbu'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 127 ods. 1' zákona 'Občianskeho zákonníka platí, že:    „Vlastník veci sa musí zdržať všetkého, čím by nad mieru primeranú pomerom obťažoval iného alebo  čím by vážne ohr'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0231935}
+LLM_tokens: {"input": 28303, "output": 3014, "total": 31317, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578083/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578083/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'Vinohrady', 'parcely': [{'typ': 'C', 'cisla': ['18250', '18251', '18525/1', '18252/2', '18253/1', '18253/2', '18253/3', '18253/4', '18253/5', '18253/6', '18253/7', '18253/8', '18253/12', '18254/1', '18254/2', '18254/3', '18254/4', '18254/5', '18254/6', '18254/7', '18254/8', '18254/9', '18249/1', '21698/1', '21698/4']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulice Bellova – Ôsma v Bratislave, projekt VILLA KOLIBA', 'nazov_lokality_norm': 'Bellova, Bratislava'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'Vinohrady', 'parcely': [{'typ': 'C', 'cisla': ['18250', '18251', '18525/1', '18252/2', '18253/1', '18253/2', '18253/3', '18253/4', '18253/5', '18253/6', '18253/7', '18253/8', '18253/12', '18254/1', '18254/2', '18254/3', '18254/4', '18254/5', '18254/6', '18254/7', '18254/8', '18254/9', '18249/1', '21698/1', '21698/4']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ulice Bellova – Ôsma v Bratislave, projekt VILLA KOLIBA', 'nazov_lokality_norm': 'Bellova, Bratislava'}
+ku_name:Vinohrady obec:Bratislava okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: vinohrady
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: None norm_ku: vinohrady
+_get_nationalCadastralZoningReferences() found_ids: {'804380'}
+nationalCadastralZoningReferences: ['804380']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.56 s
+nazov_lokality: Bellova, Bratislava
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+15  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+16  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+17  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+18  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+19  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+20  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+21  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+22  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+23  CadastralParcel  ...  {'@href': '#auAdmUnitS.2255'}
+
+[24 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578083/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578083/analysis.json...
+
+--- Časy spracovania dokumentu 578083 ---
+  download_and_text   :   2.24 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.65 s
+  gis_processing      :   4.91 s
+  CELKOVÝ ČAS         :  19.81 s
+------------------------------------------
+Dokument 578083 bol úspešne spracovaný.

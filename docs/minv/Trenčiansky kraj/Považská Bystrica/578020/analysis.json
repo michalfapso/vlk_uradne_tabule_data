@@ -1,0 +1,67 @@
+{
+  "cislo_konania_spisu": "0052329/2026",
+  "cislo_rozhodnutia": "12-10-2026",
+  "datum_dokumentu": "2026-10-12",
+  "datum_zverejnenia": null,
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "ENZA s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Považská Bystrica",
+    "obec": "Považská Bystrica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jelšové",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "pod el. vedením (Jelšové, Holovské, Horná Kamenná)",
+    "nazov_lokality_norm": "Jelšové, Považská Bystrica"
+  },
+  "typ_dokumentu": "Oznámenie o nevyhnutnom výrube drevín pod el. vedením",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub náletových drevín",
+    "odstraňovanie a okliešťovanie stromov"
+  ],
+  "rozsah_zasahu": "náletové dreviny v ochrannom pásme elektrického vedenia",
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia",
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "náletové dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube náletových drevín a orezávaní stromov v ochrannom pásme elektrického vedenia v lokalite Jelšové a okolí. Zásah realizuje spoločnosť ENZA s.r.o. za účelom zabezpečenia bezpečnej prevádzky energetických zariadení v súlade so zákonom o energetike.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,75 @@
+[2026-10-16 20:19:17] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578020'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578020/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0003264}
+LLM_tokens: {"input": 592, "output": 797, "total": 1389, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578020/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 odst. 7' zákona 'Vám oznamujeme nevyhnutný výrub náletových drevín v existujúcom ochrannom pásme elektrického vedenia. Výrub bude prevedený pod el. vedením: kV, vedeni'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11' zákona 'tohto zákona držiteľ povolenia na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odst. 1' zákona 'tohto zákona držiteľ povolenia na podnikanie v energetike'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 43' zákona '251/2012 Z.z. o plnení v ... kV vedeni, ako veľmi vzdialenosť krajného vodiča na obe strany.  Predpokladané: - začatie výrubu: - ukončenie výrubu:  Za'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009576999999999999}
+LLM_tokens: {"input": 4664, "output": 2415, "total": 7079, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 64 column 1 (char 1786)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0097135}
+LLM_tokens: {"input": 4664, "output": 2762, "total": 7426, "cached": 2010}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578020/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578020/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Považská Bystrica', 'obec': 'Považská Bystrica', 'katastralne_uzemia': [{'nazov': 'Jelšové', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod el. vedením (Jelšové, Holovské, Horná Kamenná)', 'nazov_lokality_norm': 'Jelšové, Považská Bystrica'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Považská Bystrica', 'obec': 'Považská Bystrica', 'katastralne_uzemia': [{'nazov': 'Jelšové', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod el. vedením (Jelšové, Holovské, Horná Kamenná)', 'nazov_lokality_norm': 'Jelšové, Považská Bystrica'}
+ku_name:Jelšové obec:Považská Bystrica okres:Považská Bystrica kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: povazska bystrica norm_ku: jelsove
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: None norm_ku: jelsove
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: jelsove
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: jelsove
+Fuzzy match found: 'Jelšové' -> 'Jelšovec' (ID: 822736)
+nationalCadastralZoningReferences: ['822736']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Jelšové, Považská Bystrica
+get_geometry_of_a_geoname nazov_lokality: Jelšové, Považská Bystrica
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Považská Bystrica, Považská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Považská Bystrica, Považská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Považská Bystrica, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Považská Bystrica, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.10828100000001, 'lon': 18.432937, 'formatted_address': 'Považská Bystrica,Jelšové,cintorín, 017 01 Považská Bystrica, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bystrica,Jelšové,cintorín, 017 01 Považská Bystrica, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.5731 48.30397, 19.57321 48....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578020/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578020/analysis.json...
+
+--- Časy spracovania dokumentu 578020 ---
+  download_and_text   :   9.02 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  21.97 s
+  gis_processing      :   2.82 s
+  CELKOVÝ ČAS         :  33.81 s
+------------------------------------------
+Dokument 578020 bol úspešne spracovaný.

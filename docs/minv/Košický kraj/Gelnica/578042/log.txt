@@ -1,0 +1,50 @@
+[2026-10-16 20:15:55] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/578042'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/578042/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 1 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0004288}
+LLM_tokens: {"input": 334, "output": 1053, "total": 1387, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/578042/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/578042/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0087335}
+LLM_tokens: {"input": 5203, "output": 2044, "total": 7247, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/578042/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/578042/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Gelnica', 'obec': 'Margecany', 'katastralne_uzemia': [{'nazov': 'Margecany', 'parcely': [{'typ': 'C', 'cisla': ['2443/1', '2347/2', '2388/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Košický kraj', 'okres': 'Gelnica', 'obec': 'Margecany', 'katastralne_uzemia': [{'nazov': 'Margecany', 'parcely': [{'typ': 'C', 'cisla': ['2443/1', '2347/2', '2388/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Margecany obec:Margecany okres:Gelnica kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: margecany norm_ku: margecany
+_get_nationalCadastralZoningReferences() found_ids: {'836044'}
+nationalCadastralZoningReferences: ['836044']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.73 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1066'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1066'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1066'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/578042/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/578042/analysis.json...
+
+--- Časy spracovania dokumentu 578042 ---
+  download_and_text   :   7.29 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   9.15 s
+  gis_processing      :   3.95 s
+  CELKOVÝ ČAS         :  20.39 s
+------------------------------------------
+Dokument 578042 bol úspešne spracovaný.
