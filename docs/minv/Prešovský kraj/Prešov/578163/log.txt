@@ -1,0 +1,79 @@
+[2026-10-19 22:01:47] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/578163'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/578163/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/578163/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 24 ods. 1' zákona '24/2006 Z. z. o posudzovaní  vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 22 ods. 1' zákona '24/2006 Z. z. o posudzovaní vplyvov na životné prostredie a o zmene a doplnení  niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18 ods. 2' zákona '.    Príslušný orgán   Okresný úrad Prešov   odbor starostlivosti o životné prostredie  oddelenie ochrany prírody a vybraných zložiek  životného prost'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. b)' zákona '.    Príslušný orgán   Okresný úrad Prešov   odbor starostlivosti o životné prostredie  oddelenie ochrany prírody a vybraných zložiek  životného prost'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 ods. 1 písm. e)' zákona '180/2013 Z.z. o organizácii miestnej štátnej správy a o  zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 písm. k)' zákona ', oznamuje,  že dňom 23. 09. 2026 sa začalo zisťovacie konanie o posudzovaní vplyvov  navrhovanej činnosti na životné prostredie doručením zámeru navr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 56 písm. b)' zákona ', oznamuje,  že dňom 23. 09. 2026 sa začalo zisťovacie konanie o posudzovaní vplyvov  navrhovanej činnosti na životné prostredie doručením zámeru navr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 64 ods. 1 písm. f)' zákona 'na konania podľa tohto zákona sa vzťahuje  všeobecný predpis o správnom konaní okrem zisťovacieho konania podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 29' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 29 ods. 16' zákona 'proti záväznému stanovisku zo zisťovacieho konania, v  ktorom príslušný orgán určil, že sa navrhovaná činnosť, alebo jej zmena a) bude  posudzovať pod'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§3 písm. t)' zákona '.   Odvolanie proti záväznému stanovisku zo zisťovacieho konania, ktoré bude  výsledkom zisťovacieho konania, je možné podať na Okresný úrad Prešov, o'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 3 písm. t)' zákona 'sa môže žalobou domáhať zrušenia  záväzného stanoviska zo zisťovacieho konania vydaného podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 29 ods. 15' zákona ',  ktorým sa určilo, že navrhovaná činnosť a jej zmena sa nebude posudzovať podľa tohto  zákona, a napadnúť jeho vecnú, alebo procesnú zákonnosť.  i)'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 29 ods. 2' zákona 'príslušný orgán na základe zámeru alebo oznámenia o  zmene navrhovanej činnosti vykoná zisťovacie konanie o posudzovaní navrhovanej  činnosti k oznáme'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 38 ods. 4' zákona 'má príslušný orgán v povoľovacom konaní k navrhovanej  činnosti alebo jej zmene postavenie dotknutého orgánu, ak k nej vydal záverečné  stanovisko ale'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01266935}
+LLM_tokens: {"input": 5860, "output": 3549, "total": 9409, "cached": 2017}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/578163/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/578163/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Prešov', 'obec': 'Záborské', 'katastralne_uzemia': [{'nazov': 'Záborské', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Záborské', 'nazov_lokality_norm': 'Záborské'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Prešov', 'obec': 'Záborské', 'katastralne_uzemia': [{'nazov': 'Záborské', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'Záborské', 'nazov_lokality_norm': 'Záborské'}
+ku_name:Záborské obec:Záborské okres:Prešov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: presov norm_obec: zaborske norm_ku: zaborske
+_get_nationalCadastralZoningReferences() found_ids: {'871681'}
+nationalCadastralZoningReferences: ['871681']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Záborské
+get_geometry_of_a_geoname nazov_lokality: Záborské
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Záborské, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.25813 48.95649, 21.25877 48.95164...  ...  Záborské, okres Prešov, Prešovský kraj, Slovensko
+
+[1 rows x 11 columns]
+geoname_query: Záborské, Záborské, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.2642 48.95888, 21.26614 48....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.25813 48.95649, 21.25877 48.95164...  ...  Záborské, okres Prešov, Prešovský kraj, Slovensko
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/578163/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Prešov/578163/analysis.json...
+
+--- Časy spracovania dokumentu 578163 ---
+  download_and_text   :   0.88 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  13.78 s
+  gis_processing      :   0.89 s
+  CELKOVÝ ČAS         :  15.55 s
+------------------------------------------
+Dokument 578163 bol úspešne spracovaný.

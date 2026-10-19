@@ -1,0 +1,126 @@
+[2026-10-19 21:57:11] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578213'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578213/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578213/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona 'pís. g) a h) zákona č.543/2002  Z. z. o ochrane prírody a krajiny v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm. b)' zákona '251/2012 Z. z. o energetike a o zmene a doplnení niektorých zákonov v znení neskorších predpisov.  Orgán ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'a) vydá súhlasné stanovisko k oznámenému výrubu,  b) výrub obmedzí, zakáže alebo určí podmienky jeho uskutočnenia, ak si to vyžadujú záujmy    ochrany'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578213/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011709500000000001}
+LLM_tokens: {"input": 6349, "output": 3148, "total": 9497, "cached": 2020}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578213/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578213/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Senec', 'katastralne_uzemia': [{'nazov': 'Bernolákovo', 'parcely': []}, {'nazov': 'Farná', 'parcely': []}, {'nazov': 'Chorvátsky Grob', 'parcely': []}, {'nazov': 'Ivanka pri Dunaji', 'parcely': []}, {'nazov': 'Malý Biel', 'parcely': []}, {'nazov': 'Senec', 'parcely': []}, {'nazov': 'Veľký Biel', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásma plynárenských zariadení a v bezprostrednej blízkosti plynovodov', 'nazov_lokality_norm': 'plynovod'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Senec', 'katastralne_uzemia': [{'nazov': 'Bernolákovo', 'parcely': []}, {'nazov': 'Farná', 'parcely': []}, {'nazov': 'Chorvátsky Grob', 'parcely': []}, {'nazov': 'Ivanka pri Dunaji', 'parcely': []}, {'nazov': 'Malý Biel', 'parcely': []}, {'nazov': 'Senec', 'parcely': []}, {'nazov': 'Veľký Biel', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochranné pásma plynárenských zariadení a v bezprostrednej blízkosti plynovodov', 'nazov_lokality_norm': 'plynovod'}
+ku_name:Bernolákovo obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: bernolakovo
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: None norm_ku: bernolakovo
+_get_nationalCadastralZoningReferences() found_ids: {'802735'}
+nationalCadastralZoningReferences: ['802735']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Farná obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: farna
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: None norm_ku: farna
+_get_nationalCadastralZoningReferences() found_ids: {'821438'}
+nationalCadastralZoningReferences: ['821438']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Chorvátsky Grob obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: chorvatsky grob
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: None norm_ku: chorvatsky grob
+_get_nationalCadastralZoningReferences() found_ids: {'820865'}
+nationalCadastralZoningReferences: ['820865']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Ivanka pri Dunaji obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: ivanka pri dunaji
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: None norm_ku: ivanka pri dunaji
+_get_nationalCadastralZoningReferences() found_ids: {'821446'}
+nationalCadastralZoningReferences: ['821446']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.20 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Malý Biel obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: maly biel
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: None norm_ku: maly biel
+_get_nationalCadastralZoningReferences() found_ids: {'868850'}
+nationalCadastralZoningReferences: ['868850']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Senec obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: senec
+_get_nationalCadastralZoningReferences() found_ids: {'854964'}
+nationalCadastralZoningReferences: ['854964']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Veľký Biel obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: velky biel
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: None norm_ku: velky biel
+_get_nationalCadastralZoningReferences() found_ids: {'868868'}
+nationalCadastralZoningReferences: ['868868']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.22 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: plynovod
+get_geometry_of_a_geoname nazov_lokality: plynovod
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Senec, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Senec, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.2170352, 'lon': 17.4061427, 'formatted_address': '903 01 Senec, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Senec, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.31311 48.23008, 17.31385 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((17.23175 48.19847, 17.23183 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((17.2576 48.24175, 17.25767 48....
+3  CadastralZoning  ...  MULTIPOLYGON (((17.25718 48.20876, 17.25795 48...
+4  CadastralZoning  ...  MULTIPOLYGON (((17.33481 48.24857, 17.33534 48...
+5  CadastralZoning  ...  MULTIPOLYGON (((17.34891 48.27853, 17.34896 48...
+6  CadastralZoning  ...  MULTIPOLYGON (((17.32334 48.24193, 17.32336 48...
+
+[7 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578213/gis.geojson...
+Intersections with protected areas...
+Found 4 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Bernolákovo', 'NATIONALSI': 'SKUEV0822', 'SITETITLE_': 'Malý Dunaj'}, {'parcel_label': 'Chorvátsky Grob', 'NATIONALSI': 'SKUEV0279', 'SITETITLE_': 'Šúr'}, {'parcel_label': 'Ivanka pri Dunaji', 'NATIONALSI': 'SKUEV0822', 'SITETITLE_': 'Malý Dunaj'}, {'parcel_label': 'Senec', 'NATIONALSI': 'SKUEV0089', 'SITETITLE_': 'Martinský les'}], 'MCHU': [{'parcel_label': 'Chorvátsky Grob', 'NATIONALSI': '168', 'SITETITLE_': 'OP PR Šúr'}, {'parcel_label': 'Chorvátsky Grob', 'NATIONALSI': '168', 'SITETITLE_': 'PR Šúr'}], 'CHVU': [{'parcel_label': 'Senec', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578213/analysis.json...
+
+--- Časy spracovania dokumentu 578213 ---
+  download_and_text   :   1.03 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.47 s
+  gis_processing      :   4.19 s
+  CELKOVÝ ČAS         :  16.70 s
+------------------------------------------
+Dokument 578213 bol úspešne spracovaný.

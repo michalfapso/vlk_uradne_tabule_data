@@ -1,0 +1,49 @@
+[2026-10-19 22:00:10] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Levoča/578194'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Levoča/578194/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Levoča/578194/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Levoča/578194/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008938749999999999}
+LLM_tokens: {"input": 5399, "output": 2382, "total": 7781, "cached": 2015}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 60 column 1 (char 1635)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00973975}
+LLM_tokens: {"input": 5399, "output": 2649, "total": 8048, "cached": 2015}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Levoča/578194/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Levoča/578194/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Levoča', 'obec': 'Levoča', 'katastralne_uzemia': [{'nazov': 'Levoča', 'parcely': [{'typ': 'C', 'cisla': ['6659/1']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Levoča', 'obec': 'Levoča', 'katastralne_uzemia': [{'nazov': 'Levoča', 'parcely': [{'typ': 'C', 'cisla': ['6659/1']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Levoča obec:Levoča okres:Levoča kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: levoca norm_obec: levoca norm_ku: levoca
+_get_nationalCadastralZoningReferences() found_ids: {'831859'}
+nationalCadastralZoningReferences: ['831859']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.70 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.768'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Levoča/578194/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Levoča/578194/analysis.json...
+
+--- Časy spracovania dokumentu 578194 ---
+  download_and_text   :   0.97 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  19.88 s
+  gis_processing      :   3.91 s
+  CELKOVÝ ČAS         :  24.76 s
+------------------------------------------
+Dokument 578194 bol úspešne spracovaný.

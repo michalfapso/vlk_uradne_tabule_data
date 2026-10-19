@@ -1,0 +1,44 @@
+[2026-10-19 22:04:52] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578207'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578207/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578207/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578207/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00874435}
+LLM_tokens: {"input": 5840, "output": 2244, "total": 8084, "cached": 2017}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578207/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578207/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Považská Bystrica', 'obec': 'Udiča', 'katastralne_uzemia': [{'nazov': 'Prosné', 'parcely': [{'typ': 'C', 'cisla': ['738/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'cintorín', 'nazov_lokality_norm': 'cintorín, Udiča'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Považská Bystrica', 'obec': 'Udiča', 'katastralne_uzemia': [{'nazov': 'Prosné', 'parcely': [{'typ': 'C', 'cisla': ['738/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'cintorín', 'nazov_lokality_norm': 'cintorín, Udiča'}
+ku_name:Prosné obec:Udiča okres:Považská Bystrica kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: udica norm_ku: prosne
+_get_nationalCadastralZoningReferences() found_ids: {'850314'}
+nationalCadastralZoningReferences: ['850314']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.29 s
+nazov_lokality: cintorín, Udiča
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1239'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578207/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578207/analysis.json...
+
+--- Časy spracovania dokumentu 578207 ---
+  download_and_text   :   1.05 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   8.83 s
+  gis_processing      :   3.50 s
+  CELKOVÝ ČAS         :  13.39 s
+------------------------------------------
+Dokument 578207 bol úspešne spracovaný.

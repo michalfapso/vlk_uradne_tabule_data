@@ -1,0 +1,70 @@
+[2026-10-19 21:58:24] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/578168'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/578168/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 5 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0020047999999999997}
+LLM_tokens: {"input": 1366, "output": 4993, "total": 6359, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/578168/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov“  Okresný úrad Levice, odbor starostlivosti o životné pr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 108 písm. b)' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 60' zákona '**OKRESNÝ** **ÚRAD** **LEVICE**  Telefón 0961322063  E-mail Romana.Hrebičková@minv.sk  Internet www.minv.sk  IČO 00151866  372/190 o priestupkoch od M'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 3' zákona '**OKRESNÝ** **ÚRAD** **LEVICE**  Telefón 0961322063  E-mail Romana.Hrebičková@minv.sk  Internet www.minv.sk  IČO 00151866  372/190 o priestupkoch od M'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. c)' zákona '**OKRESNÝ** **ÚRAD** **LEVICE**  Telefón 0961322063  E-mail Romana.Hrebičková@minv.sk  Internet www.minv.sk  IČO 00151866  372/190 o priestupkoch od M'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 1' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov, kde sa uvádza, že držiteľ vozidla je povinný zabrániť na vlastné náklady'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. a)' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov, kde sa uvádza, že držiteľ vozidla je povinný zabrániť na vlastné náklady'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 3' zákona '79/2015 Z. z. o odpadoch a o zmene a doplnení niektorých zákonov.  Oznámenie o'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 1 písm. b)' zákona 'bod. 1, Technickej kontrole pravidelnej v lehote do štyroch rokov po jeho prvom prihlásení do evidencie a potom periodicky v dvojročných lehotách podľ'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods. 1 písm. b)' zákona 'bod. 1, vyhlášky Ministerstva dopravy a výstavby Slovenskej republiky č. 138/2018 Z. z., ktorou sa upravujú podrobnosti v oblasti emisnej kontroly, po'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51 ods. 1 písm. b)' zákona 'bod. 1, Emisnej kontrole pravidelnej v lehote do štyroch rokov po jeho prvom prihlásení do evidencie a potom periodicky v dvojročných lehotách podľa z'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 45 ods. 1 písm. b)' zákona 'bodu 3. zákona č. 106/2018 Z. z. o prevádzke vozidiel v cestnej premávke a o zmene a doplnení niektorých zákonov je prevádzkovateľ vozidla povinný voz'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 45 ods. 1 písm. b)' zákona 'bodu 4. zákona č. 106/2018 Z. z. o prevádzke vozidiel v cestnej premávke a o zmene a doplnení niektorých zákonov je prevádzkovateľ vozidla povinný mot'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 67 ods. 5' zákona 'o odpadoch vo veci posúdenia technického stavu starého vozidla'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 60 ods. 8' zákona 'o odpadoch, staré prevádzkovateľ’ určeného parkoviska, spoločnosť AUTOVRAKOVISKO s. r. o., IČO: 35 686 375, so sídlom Priemyselná 2721/11, 900 27 Bern'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 97' zákona 'o odpadoch.  Podľa ust'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/578168/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013954999999999999}
+LLM_tokens: {"input": 9736, "output": 3029, "total": 12765, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/578168/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/578168/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Levice', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. Ľ. Štúra 490/57, 934 01 Levice', 'nazov_lokality_norm': 'Ľ. Štúra, Levice'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Levice', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'ul. Ľ. Štúra 490/57, 934 01 Levice', 'nazov_lokality_norm': 'Ľ. Štúra, Levice'}
+Fallback to OBEC: Levice
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: levice norm_obec: levice norm_ku: None
+Fallback to OBEC failed: Nájdených príliš veľa katastrálnych území (5), pravdepodobne je niekde chyba.
+No geometries were found.
+nazov_lokality: Ľ. Štúra, Levice
+get_geometry_of_a_geoname nazov_lokality: Ľ. Štúra, Levice
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Štúra, Levice, Levice, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Štúra, Levice, Levice, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Štúra, Levice, Nitriansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Štúra, Levice, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.2146382, 'lon': 18.6008968, 'formatted_address': 'Ľudovíta Štúra, 934 05 Levice, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Štúra, 934 05 Levice, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 578168 ---
+  download_and_text   :  21.44 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.83 s
+  gis_processing      :   2.37 s
+  CELKOVÝ ČAS         :  36.63 s
+------------------------------------------
+Dokument 578168 bol úspešne spracovaný.

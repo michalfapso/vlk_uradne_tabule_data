@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-09-24",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa zverejnenia záväzného stanoviska zo zisťovacieho konania v centrálnom informačnom systéme"
+  },
+  "ziadatel_navrhovatel": "Mesto Prešov",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Prešov",
+    "obec": "Prešov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Prešov",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "športovo-rekreačný areál ICE Aréna Prešov",
+    "nazov_lokality_norm": "ICE Aréna, Prešov"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť k zámeru navrhovanej činnosti",
+  "kategorie_vlk": [
+    "INE"
+  ],
+  "typ_zasahu": [
+    "výstavba tréningovej haly pre ľadové športy",
+    "rekonštrukcia a nadstavba technického objektu",
+    "úprava trafostanice",
+    "realizácia a preložky inžinierskych sietí",
+    "rozšírenie technológie chladenia"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "urbanizované územie"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "nazov": "o posudzovaní vplyvov na životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "24",
+        "18",
+        "3",
+        "56",
+        "64",
+        "30",
+        "29",
+        "38"
+      ]
+    },
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "5"
+      ]
+    }
+  ],
+  "zhrnutie": "Informácia o začatí zisťovacieho konania pre projekt výstavby novej tréningovej haly a rozšírenie areálu ICE Aréna v Prešove. Navrhovaná zmena zahŕňa aj rekonštrukciu technických objektov a preložky inžinierskych sietí. Činnosť sa realizuje v zastavanom území obce a podľa dokumentu nezasahuje do chránených území prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

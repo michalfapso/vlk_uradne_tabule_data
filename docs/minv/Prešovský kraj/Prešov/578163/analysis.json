@@ -1,0 +1,79 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do 15 dní odo dňa oznámenia doručením písomného vyhotovenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "VEDOS, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Prešov",
+    "obec": "Záborské",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Záborské",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "Záborské",
+    "nazov_lokality_norm": "Záborské"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť podľa § 24 ods. 1 zákona o posudzovaní vplyvov",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "výstavba logistickej haly"
+  ],
+  "rozsah_zasahu": "výstavba haly pre skladovanie a distribúciu",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": "www.enviroportal.sk",
+  "zakony": [
+    {
+      "nazov": "zákon o posudzovaní vplyvov na životné prostredie",
+      "cislo": "24/2006 Z. z.",
+      "paragrafy": [
+        "24",
+        "22",
+        "18",
+        "29",
+        "64",
+        "3",
+        "38"
+      ]
+    },
+    {
+      "nazov": "zákon o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "5"
+      ]
+    },
+    {
+      "nazov": "zákon o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z. z.",
+      "paragrafy": [
+        "3"
+      ]
+    },
+    {
+      "nazov": "Správny súdny poriadok",
+      "cislo": "162/2015 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí zisťovacieho konania (EIA) pre projekt 'Logistická hala Záborské' v okrese Prešov. Navrhovateľ VEDOS, s.r.o. plánuje výstavbu haly na skladovanie a distribúciu tovaru v katastrálnom území Záborské.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

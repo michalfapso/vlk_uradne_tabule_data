@@ -1,0 +1,134 @@
+[2026-10-19 22:05:05] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578171'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578171/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 3 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.00022319999999999998}
+LLM_tokens: {"input": 850, "output": 539, "total": 1389, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578171/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 odsek 4 písmena e)' zákona 'ktorým sa mení a dopĺňa zákon č. 343/2002 Z.z. o ochrane prírody a krajiny Vám oznamujeme, že bude vykonaný výrub porastov na VN linke č.200 v k.ú. Se'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 2 písm. a)' zákona ''.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01284685}
+LLM_tokens: {"input": 4406, "output": 3849, "total": 8255, "cached": 2007}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578171/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578171/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Považská Bystrica', 'obec': 'Považská Bystrica', 'katastralne_uzemia': [{'nazov': 'Severíec', 'parcely': []}, {'nazov': 'Považská Bystrica', 'parcely': []}, {'nazov': 'Stopná', 'parcely': []}, {'nazov': 'Dolný Lieskov', 'parcely': []}, {'nazov': 'Lútie', 'parcely': []}, {'nazov': 'Podskalie', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'VN linka č.200 v ochrannom pásme 22 kV vedenia', 'nazov_lokality_norm': 'VN linka 200'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Považská Bystrica', 'obec': 'Považská Bystrica', 'katastralne_uzemia': [{'nazov': 'Severíec', 'parcely': []}, {'nazov': 'Považská Bystrica', 'parcely': []}, {'nazov': 'Stopná', 'parcely': []}, {'nazov': 'Dolný Lieskov', 'parcely': []}, {'nazov': 'Lútie', 'parcely': []}, {'nazov': 'Podskalie', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'VN linka č.200 v ochrannom pásme 22 kV vedenia', 'nazov_lokality_norm': 'VN linka 200'}
+ku_name:Severíec obec:Považská Bystrica okres:Považská Bystrica kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: povazska bystrica norm_ku: severiec
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: None norm_ku: severiec
+Fuzzy match found: 'Severíec' -> 'Sverepec' (ID: 859702)
+nationalCadastralZoningReferences: ['859702']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Považská Bystrica obec:Považská Bystrica okres:Považská Bystrica kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: povazska bystrica norm_ku: povazska bystrica
+_get_nationalCadastralZoningReferences() found_ids: {'848832'}
+nationalCadastralZoningReferences: ['848832']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.46 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Stopná obec:Považská Bystrica okres:Považská Bystrica kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: povazska bystrica norm_ku: stopna
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: None norm_ku: stopna
+Fuzzy match found: 'Stopná' -> 'Slopná' (ID: 856479)
+nationalCadastralZoningReferences: ['856479']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dolný Lieskov obec:Považská Bystrica okres:Považská Bystrica kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: povazska bystrica norm_ku: dolny lieskov
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: None norm_ku: dolny lieskov
+_get_nationalCadastralZoningReferences() found_ids: {'812471'}
+nationalCadastralZoningReferences: ['812471']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Lútie obec:Považská Bystrica okres:Považská Bystrica kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: povazska bystrica norm_ku: lutie
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: None norm_ku: lutie
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: None norm_obec: None norm_ku: lutie
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: lutie
+Fuzzy match found: 'Lútie' -> 'Lutiše' (ID: 834319)
+nationalCadastralZoningReferences: ['834319']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.20 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Podskalie obec:Považská Bystrica okres:Považská Bystrica kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: povazska bystrica norm_ku: podskalie
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: povazska bystrica norm_obec: None norm_ku: podskalie
+_get_nationalCadastralZoningReferences() found_ids: {'847712'}
+nationalCadastralZoningReferences: ['847712']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VN linka 200
+get_geometry_of_a_geoname nazov_lokality: VN linka 200
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka 200, Považská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka 200, Považská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka 200, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** linka 200, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.1161264, 'lon': 18.4419739, 'formatted_address': 'Považská Bystrica, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bystrica, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.37628 49.13806, 18.37634 49.13795...  ...  Považská Bystrica, okres Považská Bystrica, Tr...
+
+[1 rows x 11 columns]
+geoname_query: Považská Bystrica, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.40078 49.09843, 18.40226 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.41699 49.12861, 18.41731 49...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.38981 49.06077, 18.38983 49...
+3  CadastralZoning  ...  MULTIPOLYGON (((18.40874 49.06438, 18.40897 49...
+4  CadastralZoning  ...  MULTIPOLYGON (((18.9055 49.31502, 18.90625 49....
+5  CadastralZoning  ...  MULTIPOLYGON (((18.46484 49.06345, 18.46507 49...
+
+[6 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.37628 49.13806, 18.37634 49.13795...  ...  Považská Bystrica, okres Považská Bystrica, Tr...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578171/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Podskalie', 'NAZOV_UEV': 'Strážovské vrchy', 'KOD_UEV': 'SKUEV0256'}], 'UEV': [{'parcel_label': 'Považská Bystrica', 'NATIONALSI': 'SKUEV0256', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': 'Podskalie', 'NATIONALSI': 'SKUEV0256', 'SITETITLE_': 'Strážovské vrchy'}], 'MCHU': [{'parcel_label': 'Podskalie', 'NATIONALSI': '841', 'SITETITLE_': 'NPR Podskalský Roháč'}], 'CHVU': [{'parcel_label': 'Považská Bystrica', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}, {'parcel_label': 'Podskalie', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Považská Bystrica/578171/analysis.json...
+
+--- Časy spracovania dokumentu 578171 ---
+  download_and_text   :   7.35 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.22 s
+  gis_processing      :   4.96 s
+  CELKOVÝ ČAS         :  27.54 s
+------------------------------------------
+Dokument 578171 bol úspešne spracovaný.

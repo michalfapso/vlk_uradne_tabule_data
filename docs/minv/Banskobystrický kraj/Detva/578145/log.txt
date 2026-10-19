@@ -1,0 +1,67 @@
+[2026-10-19 21:52:02] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/578145'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/578145/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/578145/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/578145/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011479}
+LLM_tokens: {"input": 4754, "output": 3034, "total": 7788, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/578145/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/578145/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Detva', 'obec': 'Hriňová', 'katastralne_uzemia': [{'nazov': 'Hriňová', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochrannom pásme vedenia 22 kV-VN 384 k20', 'nazov_lokality_norm': 'Hriňová'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Detva', 'obec': 'Hriňová', 'katastralne_uzemia': [{'nazov': 'Hriňová', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'ochrannom pásme vedenia 22 kV-VN 384 k20', 'nazov_lokality_norm': 'Hriňová'}
+ku_name:Hriňová obec:Hriňová okres:Detva kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: detva norm_obec: hrinova norm_ku: hrinova
+_get_nationalCadastralZoningReferences() found_ids: {'819298'}
+nationalCadastralZoningReferences: ['819298']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 1.04 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Hriňová
+get_geometry_of_a_geoname nazov_lokality: Hriňová
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hriňová, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.5259 48.57728, 19.52595 48.57726,...  ...  Hriňová, 1378/35, Partizánska, Slanec, Hriňová...
+1  POLYGON ((19.53717 48.6013, 19.53717 48.60125,...  ...  vodná nádrž Hriňová, Hriňová, okres Detva, Ban...
+
+[2 rows x 11 columns]
+geoname_query: Hriňová, Hriňová, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.52302 48.66095, 19.52385 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.5259 48.57728, 19.52595 48.57726,...  ...  Hriňová, 1378/35, Partizánska, Slanec, Hriňová...
+1  POLYGON ((19.53717 48.6013, 19.53717 48.60125,...  ...  vodná nádrž Hriňová, Hriňová, okres Detva, Ban...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/578145/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Hriňová', 'NATIONALSI': 'SKCHVU022', 'SITETITLE_': 'Poľana'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Detva/578145/analysis.json...
+
+--- Časy spracovania dokumentu 578145 ---
+  download_and_text   :   1.15 s
+  laws_excerpts       :   0.02 s
+  llm_analysis        :  11.69 s
+  gis_processing      :   1.64 s
+  CELKOVÝ ČAS         :  14.49 s
+------------------------------------------
+Dokument 578145 bol úspešne spracovaný.
