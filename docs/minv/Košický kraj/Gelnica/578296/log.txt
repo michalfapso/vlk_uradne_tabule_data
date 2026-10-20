@@ -1,0 +1,83 @@
+[2026-10-20 21:05:26] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/578296'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/578296/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 4 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0013147999999999999}
+LLM_tokens: {"input": 1108, "output": 3268, "total": 4376, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/578296/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'NR SR č. 525/2003 Z. z. o životnom prostredí starostlivosť o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov v'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona 'NR SR č. 180/2013 Z. z.  Telefón +421534822542 E-mail oszp.gl@minv.sk Internet www.minv.sk IČO 00151866  OU-GL-OSZP-2026/001251-00041774/2026  o organ'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'NR SR č. 364/2004 Z. z. o vodách a o zmene a zákona SNR č. 372/1990 Z. z. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'NR SR č. 364/2004 Z. z. o vodách a o zmene a zákona SNR č. 372/1990 Z. z. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 12' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 16 ods. 3' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 64 ods. 4' zákona '25/2025 Z. z. Stavebný zákon a o zmene a doplnení niektorých zákonov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 81 ods. 4' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov začatie vodoprávneho konania vo veci vydania povolenia podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '4' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov na stavbu alebo pred dodatková k stavbám „Margencany – miestne komun'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 80 ods. 1' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov začatie vodoprávneho konania vo veci vydania povolenia podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 3' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '4' zákona 'vodného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov na užívanie stavby „Margencany – miestne komunikácie, vodovod a kana'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 81 ods. 4' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov. Tunajší úrad Vám Obec Margencany, aby predmetnú verejnú vyhlášku zv'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 3' zákona 'vyznačenom dátume, v yvyseenia. Posledný deň lehoty je dňom doručenja.  Dátum vyvesenia, peciatka, podpis  Dátum zvesenia, pečiatka, podpis  Ing. Daňk'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/578296/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0143445}
+LLM_tokens: {"input": 7161, "output": 3588, "total": 10749, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/578296/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Gelnica/578296/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Gelnica', 'obec': 'Margencany', 'katastralne_uzemia': [{'nazov': 'Margencany', 'parcely': [{'typ': 'E', 'cisla': ['2443/1', '2393/1', '2392/2', '2395/1', '2395/2', '2396/1', '2396/2', '2398/1', '2398/2', '2399/1', '2400/1', '2401/1', '2405/1', '2405/2', '2407/1', '2407/2', '2409/1', '2411/1', '2411/2', '2413/1', '2414/1', '2415/1', '2374/1', '2374/2', '2378/1', '2378/2', '2379/1', '2379/2', '2380/1', '2380/2', '2382/1', '2382/2', '2382/6', '2382/4', '2384/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'IBV Pod Horou', 'nazov_lokality_norm': 'Pod Horou, Margencany'}
+data: {'kraj': 'Košický kraj', 'okres': 'Gelnica', 'obec': 'Margencany', 'katastralne_uzemia': [{'nazov': 'Margencany', 'parcely': [{'typ': 'E', 'cisla': ['2443/1', '2393/1', '2392/2', '2395/1', '2395/2', '2396/1', '2396/2', '2398/1', '2398/2', '2399/1', '2400/1', '2401/1', '2405/1', '2405/2', '2407/1', '2407/2', '2409/1', '2411/1', '2411/2', '2413/1', '2414/1', '2415/1', '2374/1', '2374/2', '2378/1', '2378/2', '2379/1', '2379/2', '2380/1', '2380/2', '2382/1', '2382/2', '2382/6', '2382/4', '2384/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'IBV Pod Horou', 'nazov_lokality_norm': 'Pod Horou, Margencany'}
+ku_name:Margencany obec:Margencany okres:Gelnica kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: margencany norm_ku: margencany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: None norm_ku: margencany
+Fuzzy match found: 'Margencany' -> 'Margecany' (ID: 836044)
+nationalCadastralZoningReferences: ['836044']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.32 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'E', 'cisla': ['2443/1', '2393/1', '2392/2', '2395/1', '2395/2', '2396/1', '2396/2', '2398/1', '2398/2', '2399/1', '2400/1', '2401/1', '2405/1', '2405/2', '2407/1', '2407/2', '2409/1', '2411/1', '2411/2', '2413/1', '2414/1', '2415/1', '2374/1', '2374/2', '2378/1', '2378/2', '2379/1', '2379/2', '2380/1', '2380/2', '2382/1', '2382/2', '2382/6', '2382/4', '2384/1']}' v KU 'Margencany' sa nenašli dáta.
+Fallback to OBEC: Margencany
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: gelnica norm_obec: margencany norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: margencany norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: margencany norm_ku: None
+Fallback to OBEC failed: Nenašlo sa žiadne katastrálne uzemie pre zadané parametre kraj:None, okres:None, obec:Margencany, katastralneUzemie:None
+No geometries were found.
+nazov_lokality: Pod Horou, Margencany
+get_geometry_of_a_geoname nazov_lokality: Pod Horou, Margencany
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Horou, Margencany, Margencany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Horou, Margencany, Gelnica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Horou, Margencany, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Horou, Margencany, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.8927968, 'lon': 21.0140176, 'formatted_address': '055 01 Margecany, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Margecany, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset: None
+gdf_geoname: None
+[WARNING]: Nepodarilo sa získať geometriu parcel set alebo geoname
+
+--- Časy spracovania dokumentu 578296 ---
+  download_and_text   :  14.40 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.30 s
+  gis_processing      :   5.56 s
+  CELKOVÝ ČAS         :  34.27 s
+------------------------------------------
+Dokument 578296 bol úspešne spracovaný.

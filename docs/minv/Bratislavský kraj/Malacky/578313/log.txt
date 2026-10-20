@@ -1,0 +1,50 @@
+[2026-10-20 21:04:16] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578313'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578313/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578313/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 48 ods. 2' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578313/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01005}
+LLM_tokens: {"input": 4638, "output": 2577, "total": 7215, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578313/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578313/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Stupava', 'katastralne_uzemia': [{'nazov': 'Stupava', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Stupava', 'katastralne_uzemia': [{'nazov': 'Stupava', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Stupava obec:Stupava okres:Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: stupava norm_ku: stupava
+_get_nationalCadastralZoningReferences() found_ids: {'859338'}
+nationalCadastralZoningReferences: ['859338']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((16.94608 48.30719, 16.94662 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578313/gis.geojson...
+Intersections with protected areas...
+Found 13 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Stupava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}, {'parcel_label': 'Stupava', 'NAZOV_UEV': 'Homoľské Karpaty', 'KOD_UEV': 'SKUEV0104'}], 'UEV': [{'parcel_label': 'Stupava', 'NATIONALSI': 'SKUEV0911', 'SITETITLE_': 'Vrchná hora'}, {'parcel_label': 'Stupava', 'NATIONALSI': 'SKUEV0104', 'SITETITLE_': 'Homoľské Karpaty'}, {'parcel_label': 'Stupava', 'NATIONALSI': 'SKUEV0313', 'SITETITLE_': 'Devínske jazero'}], 'MCHU': [{'parcel_label': 'Stupava', 'NATIONALSI': '160', 'SITETITLE_': 'PR Strmina'}, {'parcel_label': 'Stupava', 'NATIONALSI': '134', 'SITETITLE_': 'PR Pod Pajštúnom'}, {'parcel_label': 'Stupava', 'NATIONALSI': '1262', 'SITETITLE_': 'CHA Devínske jazero'}], 'CHVU': [{'parcel_label': 'Stupava', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}, {'parcel_label': 'Stupava', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578313/analysis.json...
+
+--- Časy spracovania dokumentu 578313 ---
+  download_and_text   :   0.85 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.88 s
+  gis_processing      :   0.69 s
+  CELKOVÝ ČAS         :  12.43 s
+------------------------------------------
+Dokument 578313 bol úspešne spracovaný.

@@ -1,0 +1,50 @@
+[2026-10-20 21:04:29] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578312'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578312/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578312/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 48 ods. 2' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578312/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00702645}
+LLM_tokens: {"input": 4641, "output": 1870, "total": 6511, "cached": 2009}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578312/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578312/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Plavecký Štvrtok', 'katastralne_uzemia': [{'nazov': 'Plavecký Štvrtok', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Plavecký Štvrtok', 'katastralne_uzemia': [{'nazov': 'Plavecký Štvrtok', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Plavecký Štvrtok obec:Plavecký Štvrtok okres:Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: plavecky stvrtok norm_ku: plavecky stvrtok
+_get_nationalCadastralZoningReferences() found_ids: {'846813'}
+nationalCadastralZoningReferences: ['846813']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.38 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((16.97228 48.41744, 16.97238 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578312/gis.geojson...
+Intersections with protected areas...
+Found 4 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Plavecký Štvrtok', 'NAZOV_UEV': 'Bezodné', 'KOD_UEV': 'SKUEV0167'}, {'parcel_label': 'Plavecký Štvrtok', 'NAZOV_UEV': 'Bezodné', 'KOD_UEV': 'SKUEV0167'}, {'parcel_label': 'Plavecký Štvrtok', 'NAZOV_UEV': 'Bezodné', 'KOD_UEV': 'SKUEV0167'}, {'parcel_label': 'Plavecký Štvrtok', 'NAZOV_UEV': 'Bezodné', 'KOD_UEV': 'SKUEV0167'}], 'UEV': [{'parcel_label': 'Plavecký Štvrtok', 'NATIONALSI': 'SKUEV0167', 'SITETITLE_': 'Bezodné'}, {'parcel_label': 'Plavecký Štvrtok', 'NATIONALSI': 'SKUEV0123', 'SITETITLE_': 'Dúbrava'}, {'parcel_label': 'Plavecký Štvrtok', 'NATIONALSI': 'SKUEV0116', 'SITETITLE_': 'Jakubovské rybníky'}], 'MCHU': [{'parcel_label': 'Plavecký Štvrtok', 'NATIONALSI': '9', 'SITETITLE_': 'PR Bezodné'}, {'parcel_label': 'Plavecký Štvrtok', 'NATIONALSI': '9', 'SITETITLE_': 'OP PR Bezodné'}], 'CHVU': [{'parcel_label': 'Plavecký Štvrtok', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578312/analysis.json...
+
+--- Časy spracovania dokumentu 578312 ---
+  download_and_text   :   2.67 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   8.46 s
+  gis_processing      :   0.60 s
+  CELKOVÝ ČAS         :  11.74 s
+------------------------------------------
+Dokument 578312 bol úspešne spracovaný.

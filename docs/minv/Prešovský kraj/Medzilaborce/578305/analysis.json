@@ -1,0 +1,89 @@
+{
+  "cislo_konania_spisu": "1326/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-10",
+  "datum_zverejnenia": "2026-10-12",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Prešovský kraj",
+    "okres": "Medzilaborce",
+    "obec": "Kalinov",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kalinov",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "615"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Hlboký potok, r.km 4,150 – 4,300",
+    "nazov_lokality_norm": "Hlboký potok"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "odstraňovanie brehových porastov"
+  ],
+  "rozsah_zasahu": "19 ks smreka obyčajného (obvod 30-80 cm), 9 ks borovice lesnej (obvod 60-100 cm)",
+  "typ_uzemia": [
+    "CHKO Východné Karpaty"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný",
+    "borovica lesná",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "48",
+        "49"
+      ]
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje výrub 28 ihličnatých stromov na pobrežných pozemkoch Hlbokého potoka v katastri obce Kalinov. Zásah sa nachádza v CHKO Východné Karpaty a je odôvodnený prevenciou pred povodňami a ochranou majetku pred vývratmi. Výrub je plánovaný v období vegetačného pokoja od novembra 2026 do februára 2028.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Kalinov",
+          "NATIONALSI": "SKUEV0211",
+          "SITETITLE_": "Daňová"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Kalinov",
+          "NATIONALSI": "SKCHVU011",
+          "SITETITLE_": "Laborecká vrchovina"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

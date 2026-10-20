@@ -1,0 +1,121 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP/2026/039816",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-20",
+  "datum_zverejnenia": "2026-10-20",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SVP š.p. OZ Bratislava",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": "Plavecký Štvrtok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Plavecký Štvrtok",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "48 ods. 2b",
+        "48 ods. 3c"
+      ]
+    }
+  ],
+  "zhrnutie": "Spoločnosť SVP š.p. OZ Bratislava plánuje uskutočniť výrub drevín v katastrálnom území obce Plavecký Štvrtok. Oznámenie bolo zverejnené dňa 20.10.2026 v súlade so zákonom o ochrane prírody a krajiny. Presný rozsah výrubu ani konkrétna lokalita nie sú v dokumente špecifikované.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Plavecký Štvrtok",
+          "NAZOV_UEV": "Bezodné",
+          "KOD_UEV": "SKUEV0167"
+        },
+        {
+          "parcel_label": "Plavecký Štvrtok",
+          "NAZOV_UEV": "Bezodné",
+          "KOD_UEV": "SKUEV0167"
+        },
+        {
+          "parcel_label": "Plavecký Štvrtok",
+          "NAZOV_UEV": "Bezodné",
+          "KOD_UEV": "SKUEV0167"
+        },
+        {
+          "parcel_label": "Plavecký Štvrtok",
+          "NAZOV_UEV": "Bezodné",
+          "KOD_UEV": "SKUEV0167"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Plavecký Štvrtok",
+          "NATIONALSI": "SKUEV0167",
+          "SITETITLE_": "Bezodné"
+        },
+        {
+          "parcel_label": "Plavecký Štvrtok",
+          "NATIONALSI": "SKUEV0123",
+          "SITETITLE_": "Dúbrava"
+        },
+        {
+          "parcel_label": "Plavecký Štvrtok",
+          "NATIONALSI": "SKUEV0116",
+          "SITETITLE_": "Jakubovské rybníky"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Plavecký Štvrtok",
+          "NATIONALSI": "9",
+          "SITETITLE_": "PR Bezodné"
+        },
+        {
+          "parcel_label": "Plavecký Štvrtok",
+          "NATIONALSI": "9",
+          "SITETITLE_": "OP PR Bezodné"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Plavecký Štvrtok",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

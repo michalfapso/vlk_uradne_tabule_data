@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": "OU-PK-OSZP-2026/017899",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-19",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní odo dňa zverejnenia tohto oznamu"
+  },
+  "ziadatel_navrhovatel": "StreetGarage Drift",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Pezinok",
+    "obec": "Pezinok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pezinok",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "areál bývalého kameňolomu",
+    "nazov_lokality_norm": "kameňolom, Pezinok"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "VJAZD_VOZIDLA",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "organizovanie športových a verejnosti prístupných spoločenských podujatí",
+    "usporiadanie motošportových podujatí drift tréningov"
+  ],
+  "rozsah_zasahu": "2 termíny (14.11.2026, 28.11.2026)",
+  "typ_uzemia": [
+    "CHKO Malé Karpaty",
+    "2. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 82 ods. 7",
+        "§ 13 ods. 2 písm. k)",
+        "§ 82 ods. 3"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci súhlasu na usporiadanie motošportových drift tréningov v areáli bývalého kameňolomu v Pezinku. Akcia je plánovaná na dva novembrové termíny v roku 2026. Lokalita sa nachádza v CHKO Malé Karpaty a platí v nej 2. stupeň ochrany.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Pezinok",
+          "NATIONALSI": "SKUEV0104",
+          "SITETITLE_": "Homoľské Karpaty"
+        },
+        {
+          "parcel_label": "Pezinok",
+          "NATIONALSI": "SKUEV0967",
+          "SITETITLE_": "Modransko- tŕňanské pustáky"
+        },
+        {
+          "parcel_label": "Pezinok",
+          "NATIONALSI": "SKUEV0276",
+          "SITETITLE_": "Kuchynská hornatina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Pezinok",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

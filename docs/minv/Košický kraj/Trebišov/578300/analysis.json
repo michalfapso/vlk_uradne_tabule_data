@@ -1,0 +1,102 @@
+{
+  "cislo_konania_spisu": "OU-TV-OSZP-2026/017854-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-14",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Hydromeliorácie, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Trebišov",
+    "obec": "Vojčice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Vojčice",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "462/1",
+              "462/3"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Milhostov",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "462/1",
+              "462/3"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "odvodňovací kanál Vojčice 2 ev.č. 5412 026 001",
+    "nazov_lokality_norm": "Vojčice 2"
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín rastúcich mimo lesa",
+    "údržba odvodňovacieho kanála"
+  ],
+  "rozsah_zasahu": "údržba odvodňovacieho kanála Vojčice 2",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47",
+        "81"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z.z.",
+      "paragrafy": [
+        "52",
+        "53"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Štátny podnik Hydromeliorácie oznámil plánovaný výrub drevín rastúcich mimo lesa v rámci údržby odvodňovacieho kanála Vojčice 2 v katastrálnych územiach Vojčice a Milhostov. Orgán ochrany prírody má 15 pracovných dní na to, aby výrub obmedzil, zakázal alebo určil podmienky. Všeobecné predpisy o správnom konaní sa na tento proces nevzťahujú.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "462/1",
+          "NATIONALSI": "SKCHVU037",
+          "SITETITLE_": "Ondavská rovina"
+        },
+        {
+          "parcel_label": "462/3",
+          "NATIONALSI": "SKCHVU037",
+          "SITETITLE_": "Ondavská rovina"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

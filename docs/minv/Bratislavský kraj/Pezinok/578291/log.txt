@@ -1,0 +1,64 @@
+[2026-10-20 21:04:40] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/578291'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/578291/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/578291/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 13 ods. 2 písm. k)' zákona 'na organizovanie športových a verejnosti prístupných  spoločenských podujatí - usporiadanie motošportových podujatí drift tréningov v areáli bývalého'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie potvrdenia záujmu byť zúčastnenou osobou  podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona 'v začatom správnom konaní je 5 pracovných dní odo dňa zverejnenia tohto oznamu.  Zúčastnenou osobou je podľa zákona združenie s právnou subjektivitou'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/578291/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012846}
+LLM_tokens: {"input": 5130, "output": 3427, "total": 8557, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/578291/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/578291/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Pezinok', 'katastralne_uzemia': [{'nazov': 'Pezinok', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'areál bývalého kameňolomu', 'nazov_lokality_norm': 'kameňolom, Pezinok'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Pezinok', 'obec': 'Pezinok', 'katastralne_uzemia': [{'nazov': 'Pezinok', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'areál bývalého kameňolomu', 'nazov_lokality_norm': 'kameňolom, Pezinok'}
+ku_name:Pezinok obec:Pezinok okres:Pezinok kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: pezinok norm_obec: pezinok norm_ku: pezinok
+_get_nationalCadastralZoningReferences() found_ids: {'846163'}
+nationalCadastralZoningReferences: ['846163']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.23 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: kameňolom, Pezinok
+get_geometry_of_a_geoname nazov_lokality: kameňolom, Pezinok
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Pezinok, Pezinok, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Pezinok, Pezinok, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Pezinok, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Pezinok, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.3401003, 'lon': 17.2224315, 'formatted_address': 'Malacká cesta, 902 01 Pezinok, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** cesta, 902 01 Pezinok, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.22956 48.38113, 17.2296 48....
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/578291/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Pezinok', 'NATIONALSI': 'SKUEV0104', 'SITETITLE_': 'Homoľské Karpaty'}, {'parcel_label': 'Pezinok', 'NATIONALSI': 'SKUEV0967', 'SITETITLE_': 'Modransko- tŕňanské pustáky'}, {'parcel_label': 'Pezinok', 'NATIONALSI': 'SKUEV0276', 'SITETITLE_': 'Kuchynská hornatina'}], 'CHVU': [{'parcel_label': 'Pezinok', 'NATIONALSI': 'SKCHVU014', 'SITETITLE_': 'Malé Karpaty'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Pezinok/578291/analysis.json...
+
+--- Časy spracovania dokumentu 578291 ---
+  download_and_text   :   0.96 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  14.12 s
+  gis_processing      :   2.35 s
+  CELKOVÝ ČAS         :  17.44 s
+------------------------------------------
+Dokument 578291 bol úspešne spracovaný.

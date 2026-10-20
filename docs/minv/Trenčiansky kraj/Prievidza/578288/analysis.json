@@ -1,0 +1,80 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-06",
+  "datum_zverejnenia": "2026-10-07",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SPP - distribúcia, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Bojnice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bojnice",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "1499/6"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "ochranné pásmo plynovodov",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub 1 ks smreka obyčajného"
+  ],
+  "rozsah_zasahu": "1 ks smrek obyčajný",
+  "typ_uzemia": [
+    "ochranné pásmo plynovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "smrek obyčajný"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "Vyhláška MZP SR",
+      "cislo": "170/2021 Z.z.",
+      "paragrafy": [
+        "22"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012 Z.z.",
+      "paragrafy": [
+        "64",
+        "11",
+        "79"
+      ]
+    }
+  ],
+  "zhrnutie": "Spoločnosť SPP - distribúcia, a.s. oznamuje plánovaný výrub 1 kusa smreka obyčajného v katastrálnom území Bojnice na parcele 1499/6. Výrub je odôvodnený umiestnením dreviny v ochrannom pásme plynovodov, kde by koreňový systém alebo vyvrátenie stromu mohlo poškodiť potrubie. Konanie sa realizuje podľa zákona o ochrane prírody a energetike.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

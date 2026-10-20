@@ -1,0 +1,83 @@
+{
+  "cislo_konania_spisu": "30/6/ESYS/Zia/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-15",
+  "datum_zverejnenia": "2026-10-15",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Ekosystemy, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Prievidza",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Koš",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3291/13",
+              "3301/12",
+              "3303/12"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Prievidza",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1205/12",
+              "1205/116",
+              "1201/12",
+              "1189/14"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo dráhy",
+    "nazov_lokality_norm": "železničná vlečka"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub v ochrannom pásme dráhy"
+  ],
+  "rozsah_zasahu": "155 ks drevín (breza, agát, jelša, čerešňa, vŕba, topoľ, javor, borovica)",
+  "typ_uzemia": [
+    "ochranné pásmo dráhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o dráhach a o zmene a doplnení niektorých zákonov",
+      "cislo": "513/2009 Z.z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube 155 ks stromov rôznych druhov v ochrannom pásme železničnej vlečky v k.ú. Koš a Prievidza. Výrub sa realizuje z dôvodu bezpečnosti dráhy a zlého stavu drevín, pričom práce majú začať 20.10.2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}
