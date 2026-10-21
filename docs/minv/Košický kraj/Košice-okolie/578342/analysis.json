@@ -1,0 +1,75 @@
+{
+  "cislo_konania_spisu": "OU-KS-OSZP-2026/020845-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-20",
+  "datum_zverejnenia": "2026-10-20",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Hydromeliorácie, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Košice-okolie",
+    "obec": "Obišovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Obišovce",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "odvodňovací kanál - ev. č. 5407 031 004 – kanál 4C v km 0,000-0,435",
+    "nazov_lokality_norm": "4C"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub a odstránenie krovitých porastov",
+    "odstránenie sedimentov",
+    "údržba odvodňovacieho kanála"
+  ],
+  "rozsah_zasahu": "krovité porasty na úseku v dĺžke 435 m (km 0,000-0,435)",
+  "typ_uzemia": [
+    "ochranné pásmo"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "krovité porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47 ods. 7",
+        "47 ods. 3"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "52 ods. 1 písm. f)",
+        "53 písm. a)"
+      ]
+    }
+  ],
+  "zhrnutie": "Štátny podnik Hydromeliorácie oznámil plánovaný výrub krovitých porastov a vyčistenie odvodňovacieho kanála 4C v k. ú. Obišovce v dĺžke 435 metrov. Účelom zásahu je obnova funkčnosti a prietoku kanála v období od októbra 2026 do konca februára 2027. Činnosť sa realizuje v ochranných pásmach infraštruktúry v súlade s vodným zákonom.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Obišovce",
+          "NATIONALSI": "SKUEV4007",
+          "SITETITLE_": "Dolný tok Torysy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "cislo_konania_spisu": "OU-NM-OSZP-2026/005672-0045440/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-21",
+  "datum_zverejnenia": "2026-10-21",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "STAT-KON s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Nové Mesto nad Váhom",
+    "obec": "Bošáca",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Bošáca",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1602/4",
+              "1602/14",
+              "1602/15",
+              "1602/17"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania a nariadenie ústneho pojednávania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "úprava dažďovej kanalizácie",
+    "vodná stavba",
+    "vodohospodárska infraštruktúra"
+  ],
+  "rozsah_zasahu": "SO 01/2 Úprava dažďovej kanalizácie, SO 01/3 Úprava dažďovej kanalizácie",
+  "typ_uzemia": [
+    "ochrana vodných zdrojov"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o vodách",
+      "cislo": "364/2004 Z.z.",
+      "paragrafy": [
+        "26"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "66"
+      ]
+    },
+    {
+      "nazov": "Správny poriadok",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "26"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania pre stavbu dažďovej kanalizácie v obci Bošáca na parcelách 1602/4, 1602/14, 1602/15 a 1602/17. Projekt zahŕňa úpravu stôk O1 a O2 a súvisiacej infraštruktúry, pričom konanie zohľadňuje ochranu vodných zdrojov. Žiadateľom je spoločnosť STAT-KON s.r.o. zastupujúca stavebníka Franko TR – Reality, s.r.o.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Bošáca",
+          "NATIONALSI": "SKUEV0805",
+          "SITETITLE_": "Hájnica"
+        },
+        {
+          "parcel_label": "Bošáca",
+          "NATIONALSI": "SKUEV0367",
+          "SITETITLE_": "Holubyho kopanice"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

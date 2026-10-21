@@ -1,0 +1,150 @@
+{
+  "cislo_konania_spisu": "ou-bb-oszp1-2026-045329-si",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-21",
+  "datum_zverejnenia": "2026-10-21",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Banská Štiavnica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Banská Štiavnica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "6472/68"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatom správnom konaní",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "vŕtaná studňa",
+    "technické geologické práce"
+  ],
+  "rozsah_zasahu": "vŕtaná studňa na parcele C-KN 6472/68",
+  "typ_uzemia": [
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "13 ods. 2 písm. f)",
+        "82 ods. 3",
+        "2 ods. 1",
+        "82 ods. 6"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19",
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci súhlasu na vybudovanie vŕtanej studne v katastrálnom území Banská Štiavnica. Činnosť predstavuje technické geologické práce v území s 2. stupňom ochrany. Združenia môžu oznámiť svoju účasť v konaní do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Banky",
+          "NAZOV_UEV": "Suť",
+          "KOD_UEV": "SKUEV0265"
+        },
+        {
+          "parcel_label": "Banky",
+          "NAZOV_UEV": "Suť",
+          "KOD_UEV": "SKUEV0265"
+        },
+        {
+          "parcel_label": "Banky",
+          "NAZOV_UEV": "Suť",
+          "KOD_UEV": "SKUEV0265"
+        },
+        {
+          "parcel_label": "Banky",
+          "NAZOV_UEV": "Suť",
+          "KOD_UEV": "SKUEV0265"
+        },
+        {
+          "parcel_label": "Banky",
+          "NAZOV_UEV": "Suť",
+          "KOD_UEV": "SKUEV0265"
+        },
+        {
+          "parcel_label": "Banky",
+          "NAZOV_UEV": "Suť",
+          "KOD_UEV": "SKUEV0265"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Banky",
+          "NATIONALSI": "SKUEV0264",
+          "SITETITLE_": "Klokoč"
+        },
+        {
+          "parcel_label": "Banky",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        },
+        {
+          "parcel_label": "Banská Štiavnica",
+          "NATIONALSI": "SKUEV0216",
+          "SITETITLE_": "Sitno"
+        },
+        {
+          "parcel_label": "Banská Štiavnica",
+          "NATIONALSI": "SKUEV0265",
+          "SITETITLE_": "Suť"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Banky",
+          "NATIONALSI": "832",
+          "SITETITLE_": "PR Kamenný jarok"
+        },
+        {
+          "parcel_label": "Banská Štiavnica",
+          "NATIONALSI": "203",
+          "SITETITLE_": "CHA Arboretum Kysihýbeľ"
+        },
+        {
+          "parcel_label": "Banská Štiavnica",
+          "NATIONALSI": "221",
+          "SITETITLE_": "CHA Banskoštiavnická botanická záhrada"
+        },
+        {
+          "parcel_label": "Banská Štiavnica",
+          "NATIONALSI": "1041",
+          "SITETITLE_": "CHA Michalské rašelinisko"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

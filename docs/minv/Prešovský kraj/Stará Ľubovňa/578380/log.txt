@@ -1,0 +1,67 @@
+[2026-10-21 21:09:04] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/578380'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/578380/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/578380/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'písomne oznamuje plánovaný výrub a likvidáciu samovýsevných drevín a krovinatých porastov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/578380/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011782}
+LLM_tokens: {"input": 6092, "output": 2912, "total": 9004, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/578380/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/578380/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Stará Ľubovňa', 'obec': 'Stará Ľubovňa', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'cesta I/68 (km 0,000 až 43,000), cesta I/77 (km 7,800 až 25,600 a 25,600 až 38,300)', 'nazov_lokality_norm': 'I/68, Stará Ľubovňa'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Stará Ľubovňa', 'obec': 'Stará Ľubovňa', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'cesta I/68 (km 0,000 až 43,000), cesta I/77 (km 7,800 až 25,600 a 25,600 až 38,300)', 'nazov_lokality_norm': 'I/68, Stará Ľubovňa'}
+Fallback to OBEC: Stará Ľubovňa
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: stara lubovna norm_obec: stara lubovna norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'858099'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: I/68, Stará Ľubovňa
+get_geometry_of_a_geoname nazov_lokality: I/68, Stará Ľubovňa
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Stará Ľubovňa, Stará Ľubovňa, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.64701 49.31945, 20.64702 49.31922...  ...  Stará Ľubovňa, okres Stará Ľubovňa, Prešovský ...
+
+[1 rows x 11 columns]
+geoname_query: I/68, Stará Ľubovňa, Stará Ľubovňa, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.70563 49.35161, 20.70589 49...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.64701 49.31945, 20.64702 49.31922...  ...  Stará Ľubovňa, okres Stará Ľubovňa, Prešovský ...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/578380/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+intersections: {'UEV': [{'parcel_label': 'Stará Ľubovňa', 'NATIONALSI': 'SKUEV0951', 'SITETITLE_': 'Stredný tok Popradu'}, {'parcel_label': 'Stará Ľubovňa', 'NATIONALSI': 'SKUEV4106', 'SITETITLE_': 'Lúka pod Marmonom'}], 'MCHU': [{'parcel_label': 'Stará Ľubovňa', 'NATIONALSI': '597', 'SITETITLE_': 'PP Litmanovský potok'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stará Ľubovňa/578380/analysis.json...
+
+--- Časy spracovania dokumentu 578380 ---
+  download_and_text   :   1.27 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.08 s
+  gis_processing      :   0.98 s
+  CELKOVÝ ČAS         :  14.34 s
+------------------------------------------
+Dokument 578380 bol úspešne spracovaný.

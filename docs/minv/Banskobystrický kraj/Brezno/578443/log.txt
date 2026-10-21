@@ -1,0 +1,102 @@
+[2026-10-21 21:03:27] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/578443'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/578443/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/578443/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 4 písm. e)' zákona ':     Na základe doručeného písomného oznámenia zo dňa 20.10.2025 na orgán ochrany  prírody vo veci uskutočnenia plánovaného výrubu drevín podľa ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 4 písm. e)' zákona 'a splnenia si oznamovacej povinnosti podľa ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'uvádzame nasledovne:     • Subjekt: Stredoslovenská distribučná, a. s., sídlom Pri Rajčianke 2927/8, 010 47 Žilina  v zast. JPRL s.r.o., sídlom M. R'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/578443/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0139425}
+LLM_tokens: {"input": 4959, "output": 3821, "total": 8780, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/578443/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/578443/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Podbrezová, Predajná, Nemecká', 'katastralne_uzemia': [{'nazov': 'Podbrezová', 'parcely': []}, {'nazov': 'Predajná', 'parcely': []}, {'nazov': 'Nemecká', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 22KV vedenia VN 425 k10', 'nazov_lokality_norm': 'VN 425 k10'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Brezno', 'obec': 'Podbrezová, Predajná, Nemecká', 'katastralne_uzemia': [{'nazov': 'Podbrezová', 'parcely': []}, {'nazov': 'Predajná', 'parcely': []}, {'nazov': 'Nemecká', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 22KV vedenia VN 425 k10', 'nazov_lokality_norm': 'VN 425 k10'}
+ku_name:Podbrezová obec:Podbrezová, Predajná, Nemecká okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: podbrezova norm_ku: podbrezova
+_get_nationalCadastralZoningReferences() found_ids: {'847216'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: predajna norm_ku: podbrezova
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: podbrezova
+_get_nationalCadastralZoningReferences() found_ids: {'847216'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: nemecka norm_ku: podbrezova
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: podbrezova
+_get_nationalCadastralZoningReferences() found_ids: {'847216'}
+nationalCadastralZoningReferences: ['847216']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.39 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Predajná obec:Podbrezová, Predajná, Nemecká okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: podbrezova norm_ku: predajna
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: predajna
+_get_nationalCadastralZoningReferences() found_ids: {'849413'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: predajna norm_ku: predajna
+_get_nationalCadastralZoningReferences() found_ids: {'849413'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: nemecka norm_ku: predajna
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: predajna
+_get_nationalCadastralZoningReferences() found_ids: {'849413'}
+nationalCadastralZoningReferences: ['849413']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Nemecká obec:Podbrezová, Predajná, Nemecká okres:Brezno kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: podbrezova norm_ku: nemecka
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: nemecka
+_get_nationalCadastralZoningReferences() found_ids: {'839591'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: predajna norm_ku: nemecka
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: None norm_ku: nemecka
+_get_nationalCadastralZoningReferences() found_ids: {'839591'}
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: brezno norm_obec: nemecka norm_ku: nemecka
+_get_nationalCadastralZoningReferences() found_ids: {'839591'}
+nationalCadastralZoningReferences: ['839591']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: VN 425 k10
+get_geometry_of_a_geoname nazov_lokality: VN 425 k10
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 425 k10, Podbrezová, Predajná, Nemecká, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 425 k10, Brezno, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 425 k10, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 425 k10, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.8144599, 'lon': 19.4623619, 'formatted_address': '976 63 Predajná, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 63 Predajná, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.48796 48.83346, 19.48813 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.48533 48.84683, 19.48518 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((19.4152 48.84804, 19.41555 48....
+
+[3 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/578443/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with '5st_konsUEV'.
+Found 6 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Predajná', 'NAZOV_UEV': 'Predajnianska slatina', 'KOD_UEV': 'SKUEV0862'}, {'parcel_label': 'Predajná', 'NAZOV_UEV': 'Predajnianska slatina', 'KOD_UEV': 'SKUEV0862'}], 'UEV': [{'parcel_label': 'Podbrezová', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Podbrezová', 'NATIONALSI': 'SKUEV0862', 'SITETITLE_': 'Predajnianska slatina'}, {'parcel_label': 'Predajná', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Predajná', 'NATIONALSI': 'SKUEV0862', 'SITETITLE_': 'Predajnianska slatina'}, {'parcel_label': 'Nemecká', 'NATIONALSI': 'SKUEV0303', 'SITETITLE_': 'Alúvium Hrona'}, {'parcel_label': 'Nemecká', 'NATIONALSI': 'SKUEV0302', 'SITETITLE_': 'Ďumbierske Tatry'}], 'MCHU': [{'parcel_label': 'Predajná', 'NATIONALSI': '772', 'SITETITLE_': 'PP Predajnianske vodopády'}, {'parcel_label': 'Predajná', 'NATIONALSI': '1050', 'SITETITLE_': 'PP Jajkovská sutina'}, {'parcel_label': 'Predajná', 'NATIONALSI': '386', 'SITETITLE_': 'PR Predajnianska slatina'}], 'CHVU': [{'parcel_label': 'Nemecká', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Brezno/578443/analysis.json...
+
+--- Časy spracovania dokumentu 578443 ---
+  download_and_text   :   1.47 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.72 s
+  gis_processing      :   4.38 s
+  CELKOVÝ ČAS         :  21.57 s
+------------------------------------------
+Dokument 578443 bol úspešne spracovaný.

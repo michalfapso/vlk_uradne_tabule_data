@@ -1,0 +1,69 @@
+[2026-10-21 21:05:29] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/578342'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/578342/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/578342/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 1 písm. f)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53 písm. a)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/578342/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013949499999999998}
+LLM_tokens: {"input": 5963, "output": 3656, "total": 9619, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/578342/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/578342/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Obišovce', 'katastralne_uzemia': [{'nazov': 'Obišovce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'odvodňovací kanál - ev. č. 5407 031 004 – kanál 4C v km 0,000-0,435', 'nazov_lokality_norm': '4C'}
+data: {'kraj': 'Košický kraj', 'okres': 'Košice-okolie', 'obec': 'Obišovce', 'katastralne_uzemia': [{'nazov': 'Obišovce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'odvodňovací kanál - ev. č. 5407 031 004 – kanál 4C v km 0,000-0,435', 'nazov_lokality_norm': '4C'}
+ku_name:Obišovce obec:Obišovce okres:Košice-okolie kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: obisovce norm_ku: obisovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: kosice-okolie norm_obec: None norm_ku: obisovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: obisovce
+_get_nationalCadastralZoningReferences() found_ids: {'843041'}
+nationalCadastralZoningReferences: ['843041']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: 4C
+get_geometry_of_a_geoname nazov_lokality: 4C
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Obišovce, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.18152 48.87062, 21.18173 48.87032...  ...  Obišovce, okres Košice-okolie, Košický kraj, S...
+
+[1 rows x 11 columns]
+geoname_query: 4C, Obišovce, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.19708 48.88448, 21.19718 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((21.18152 48.87062, 21.18173 48.87032...  ...  Obišovce, okres Košice-okolie, Košický kraj, S...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/578342/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': 'Obišovce', 'NATIONALSI': 'SKUEV4007', 'SITETITLE_': 'Dolný tok Torysy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Košice-okolie/578342/analysis.json...
+
+--- Časy spracovania dokumentu 578342 ---
+  download_and_text   :   1.94 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.10 s
+  gis_processing      :   0.95 s
+  CELKOVÝ ČAS         :  18.00 s
+------------------------------------------
+Dokument 578342 bol úspešne spracovaný.

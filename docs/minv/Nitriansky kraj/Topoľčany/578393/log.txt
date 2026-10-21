@@ -1,0 +1,260 @@
+[2026-10-21 21:07:07] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/578393'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/578393/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/578393/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'tretia veta zákona č. 543/2002 Z. z. o ochrane  prírody a krajiny v znení neskorších predpisov na internetovú stránku Okresného úradu  Topoľčany    Ok'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'tretia veta  zákona č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 64 ods. 6 písm. a)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 16 písm. d)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§  11 ods. 1 písm. b)' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 79 ods. 1' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '6' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/578393/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.015320499999999999}
+LLM_tokens: {"input": 6533, "output": 4018, "total": 10551, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/578393/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/578393/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Topoľčany', 'obec': 'Topoľčany', 'katastralne_uzemia': [{'nazov': 'Krušovce', 'parcely': []}, {'nazov': 'Topoľčany', 'parcely': []}, {'nazov': 'Jacovce', 'parcely': []}, {'nazov': 'Súlovce', 'parcely': []}, {'nazov': 'Oponice', 'parcely': []}, {'nazov': 'Kamanová', 'parcely': []}, {'nazov': 'Hrušovany', 'parcely': []}, {'nazov': 'Obsolovce', 'parcely': []}, {'nazov': 'Veľké Ripňany', 'parcely': []}, {'nazov': 'Krtovce', 'parcely': []}, {'nazov': 'Radošina', 'parcely': []}, {'nazov': 'Horné Obdokovce', 'parcely': []}, {'nazov': 'Nemčice', 'parcely': []}, {'nazov': 'Chrabrany', 'parcely': []}, {'nazov': 'Urmince', 'parcely': []}, {'nazov': 'Ludanice', 'parcely': []}, {'nazov': 'Dvorany nad Nitrou', 'parcely': []}, {'nazov': 'Mýtna Nová Ves', 'parcely': []}, {'nazov': 'Tovarníky', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'v trasách plynovodov v správe SPP-D', 'nazov_lokality_norm': None}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Topoľčany', 'obec': 'Topoľčany', 'katastralne_uzemia': [{'nazov': 'Krušovce', 'parcely': []}, {'nazov': 'Topoľčany', 'parcely': []}, {'nazov': 'Jacovce', 'parcely': []}, {'nazov': 'Súlovce', 'parcely': []}, {'nazov': 'Oponice', 'parcely': []}, {'nazov': 'Kamanová', 'parcely': []}, {'nazov': 'Hrušovany', 'parcely': []}, {'nazov': 'Obsolovce', 'parcely': []}, {'nazov': 'Veľké Ripňany', 'parcely': []}, {'nazov': 'Krtovce', 'parcely': []}, {'nazov': 'Radošina', 'parcely': []}, {'nazov': 'Horné Obdokovce', 'parcely': []}, {'nazov': 'Nemčice', 'parcely': []}, {'nazov': 'Chrabrany', 'parcely': []}, {'nazov': 'Urmince', 'parcely': []}, {'nazov': 'Ludanice', 'parcely': []}, {'nazov': 'Dvorany nad Nitrou', 'parcely': []}, {'nazov': 'Mýtna Nová Ves', 'parcely': []}, {'nazov': 'Tovarníky', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'v trasách plynovodov v správe SPP-D', 'nazov_lokality_norm': None}
+ku_name:Krušovce obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: krusovce
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: krusovce
+_get_nationalCadastralZoningReferences() found_ids: {'829617'}
+nationalCadastralZoningReferences: ['829617']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Topoľčany obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: topolcany
+_get_nationalCadastralZoningReferences() found_ids: {'863548'}
+nationalCadastralZoningReferences: ['863548']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Jacovce obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: jacovce
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: jacovce
+_get_nationalCadastralZoningReferences() found_ids: {'821781'}
+nationalCadastralZoningReferences: ['821781']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Súlovce obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: sulovce
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: sulovce
+_get_nationalCadastralZoningReferences() found_ids: {'859591'}
+nationalCadastralZoningReferences: ['859591']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Oponice obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: oponice
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: oponice
+_get_nationalCadastralZoningReferences() found_ids: {'844012'}
+nationalCadastralZoningReferences: ['844012']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Kamanová obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: kamanova
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: kamanova
+_get_nationalCadastralZoningReferences() found_ids: {'823236'}
+nationalCadastralZoningReferences: ['823236']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Hrušovany obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: hrusovany
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: hrusovany
+_get_nationalCadastralZoningReferences() found_ids: {'819981'}
+nationalCadastralZoningReferences: ['819981']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.24 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Obsolovce obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: obsolovce
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: obsolovce
+_get_nationalCadastralZoningReferences() found_ids: {'843083'}
+nationalCadastralZoningReferences: ['843083']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Veľké Ripňany obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: velke ripnany
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: velke ripnany
+_get_nationalCadastralZoningReferences() found_ids: {'868299'}
+nationalCadastralZoningReferences: ['868299']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Krtovce obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: krtovce
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: krtovce
+_get_nationalCadastralZoningReferences() found_ids: {'829471'}
+nationalCadastralZoningReferences: ['829471']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Radošina obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: radosina
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: radosina
+_get_nationalCadastralZoningReferences() found_ids: {'851078'}
+nationalCadastralZoningReferences: ['851078']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Horné Obdokovce obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: horne obdokovce
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: horne obdokovce
+_get_nationalCadastralZoningReferences() found_ids: {'818089'}
+nationalCadastralZoningReferences: ['818089']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Nemčice obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: nemcice
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: nemcice
+_get_nationalCadastralZoningReferences() found_ids: {'839558'}
+nationalCadastralZoningReferences: ['839558']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.39 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Chrabrany obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: chrabrany
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: chrabrany
+_get_nationalCadastralZoningReferences() found_ids: {'820903'}
+nationalCadastralZoningReferences: ['820903']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Urmince obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: urmince
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: urmince
+_get_nationalCadastralZoningReferences() found_ids: {'866539'}
+nationalCadastralZoningReferences: ['866539']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Ludanice obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: ludanice
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: ludanice
+_get_nationalCadastralZoningReferences() found_ids: {'834076'}
+nationalCadastralZoningReferences: ['834076']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Dvorany nad Nitrou obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: dvorany nad nitrou
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: dvorany nad nitrou
+_get_nationalCadastralZoningReferences() found_ids: {'813958'}
+nationalCadastralZoningReferences: ['813958']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.25 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Mýtna Nová Ves obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: mytna nova ves
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: mytna nova ves
+_get_nationalCadastralZoningReferences() found_ids: {'839124'}
+nationalCadastralZoningReferences: ['839124']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Tovarníky obec:Topoľčany okres:Topoľčany kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: topolcany norm_ku: tovarniky
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: topolcany norm_obec: None norm_ku: tovarniky
+_get_nationalCadastralZoningReferences() found_ids: {'864056'}
+nationalCadastralZoningReferences: ['864056']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: v trasách plynovodov v správe SPP-D
+get_geometry_of_a_geoname nazov_lokality: v trasách plynovodov v správe SPP-D
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** trasách plynovodov v správe SPP-D, Topoľčany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** trasách plynovodov v správe SPP-D, Topoľčany, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** trasách plynovodov v správe SPP-D, Nitriansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** trasách plynovodov v správe SPP-D, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.5589454, 'lon': 18.1700065, 'formatted_address': 'Topoľčany, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.13682 48.61767, 18.13718 48.61638...  ...  Topoľčany, okres Topoľčany, Nitriansky kraj, 9...
+
+[1 rows x 11 columns]
+geoname_query: Topoľčany, Slovakia
+gdf_parcelset:        @featureType  ...                                           geometry
+0   CadastralZoning  ...  MULTIPOLYGON (((18.18981 48.61613, 18.18983 48...
+1   CadastralZoning  ...  MULTIPOLYGON (((18.17677 48.58631, 18.17711 48...
+2   CadastralZoning  ...  MULTIPOLYGON (((18.13824 48.61457, 18.13825 48...
+3   CadastralZoning  ...  MULTIPOLYGON (((18.13262 48.49012, 18.13264 48...
+4   CadastralZoning  ...  MULTIPOLYGON (((18.13462 48.47978, 18.13463 48...
+5   CadastralZoning  ...  MULTIPOLYGON (((18.06904 48.48553, 18.06917 48...
+6   CadastralZoning  ...  MULTIPOLYGON (((18.06521 48.44803, 18.06552 48...
+7   CadastralZoning  ...  MULTIPOLYGON (((18.00683 48.51089, 18.0069 48....
+8   CadastralZoning  ...  MULTIPOLYGON (((17.99056 48.52094, 17.99056 48...
+9   CadastralZoning  ...  MULTIPOLYGON (((18.01614 48.55299, 18.01627 48...
+10  CadastralZoning  ...  MULTIPOLYGON (((17.897 48.59267, 17.89729 48.5...
+11  CadastralZoning  ...  MULTIPOLYGON (((18.03814 48.52074, 18.03816 48...
+12  CadastralZoning  ...  MULTIPOLYGON (((18.11182 48.56823, 18.11193 48...
+13  CadastralZoning  ...  MULTIPOLYGON (((18.14486 48.5411, 18.14503 48....
+14  CadastralZoning  ...  MULTIPOLYGON (((18.09709 48.55972, 18.09729 48...
+15  CadastralZoning  ...  MULTIPOLYGON (((18.09781 48.52087, 18.09815 48...
+16  CadastralZoning  ...  MULTIPOLYGON (((18.08519 48.50212, 18.08554 48...
+17  CadastralZoning  ...  MULTIPOLYGON (((18.07819 48.49396, 18.07844 48...
+18  CadastralZoning  ...  MULTIPOLYGON (((18.16728 48.5833, 18.16731 48....
+
+[19 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.13682 48.61767, 18.13718 48.61638...  ...  Topoľčany, okres Topoľčany, Nitriansky kraj, 9...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/578393/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Topoľčany', 'NATIONALSI': 'SKCHVU031', 'SITETITLE_': 'Tribeč'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Topoľčany/578393/analysis.json...
+
+--- Časy spracovania dokumentu 578393 ---
+  download_and_text   :   1.67 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.07 s
+  gis_processing      :   7.65 s
+  CELKOVÝ ČAS         :  25.39 s
+------------------------------------------
+Dokument 578393 bol úspešne spracovaný.

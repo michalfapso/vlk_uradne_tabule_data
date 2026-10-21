@@ -1,0 +1,139 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2025-10-20",
+  "datum_zverejnenia": "2026-10-23",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Podbrezová, Predajná, Nemecká",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Podbrezová",
+        "parcely": []
+      },
+      {
+        "nazov": "Predajná",
+        "parcely": []
+      },
+      {
+        "nazov": "Nemecká",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo 22KV vedenia VN 425 k10",
+    "nazov_lokality_norm": "VN 425 k10"
+  },
+  "typ_dokumentu": "Upovedomenie o plánovaných výruboch",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub drevín a krovín"
+  ],
+  "rozsah_zasahu": "ochranné pásmo 22KV vedenia VN 425 k10",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47",
+        "47 ods. 7",
+        "47 ods. 4 písm. e"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012 Z.z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Stredoslovenská distribučná, a. s. oznamuje plánovaný výrub drevín a krovín v ochrannom pásme 22kV elektrického vedenia VN 425 k10. Zásah sa uskutoční na nelesných pozemkoch v katastrálnych územiach obcí Podbrezová, Predajná a Nemecká za účelom bezpečnej prevádzky energetických zariadení.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Predajná",
+          "NAZOV_UEV": "Predajnianska slatina",
+          "KOD_UEV": "SKUEV0862"
+        },
+        {
+          "parcel_label": "Predajná",
+          "NAZOV_UEV": "Predajnianska slatina",
+          "KOD_UEV": "SKUEV0862"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Podbrezová",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Podbrezová",
+          "NATIONALSI": "SKUEV0862",
+          "SITETITLE_": "Predajnianska slatina"
+        },
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "SKUEV0862",
+          "SITETITLE_": "Predajnianska slatina"
+        },
+        {
+          "parcel_label": "Nemecká",
+          "NATIONALSI": "SKUEV0303",
+          "SITETITLE_": "Alúvium Hrona"
+        },
+        {
+          "parcel_label": "Nemecká",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "772",
+          "SITETITLE_": "PP Predajnianske vodopády"
+        },
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "1050",
+          "SITETITLE_": "PP Jajkovská sutina"
+        },
+        {
+          "parcel_label": "Predajná",
+          "NATIONALSI": "386",
+          "SITETITLE_": "PR Predajnianska slatina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Nemecká",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

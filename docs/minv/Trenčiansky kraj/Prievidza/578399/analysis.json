@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": "SVP 19973/2026/4",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-07",
+  "datum_zverejnenia": "2026-10-19",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik s. p., Povodie dolného Váhu, OZ Piešťany",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Poluvsie",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Pravenec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1452/5"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Poluvsie",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "282/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "rieka Nitra, rkm 152,580-152,700",
+    "nazov_lokality_norm": "Nitra"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub krovitého porastu",
+    "výrub výmladkov",
+    "opilenie stromov"
+  ],
+  "rozsah_zasahu": "500 m2",
+  "typ_uzemia": [
+    "CHKO Ponitrie"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vŕba",
+    "jelša",
+    "javorovce"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "§ 47 odst. 7"
+      ]
+    },
+    {
+      "nazov": "Vyhláška, ktorou sa vykonáva zákon o ochrane prírody",
+      "cislo": "170/2021",
+      "paragrafy": [
+        "§ 22 odst. 14"
+      ]
+    },
+    {
+      "nazov": "Zákon o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "§ 48 ods. 1 písm. b)"
+      ]
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje zámer vykonať výrub krovín a orez stromov (vŕba, jelša, javorovce) v okolí rieky Nitra v obciach Pravenec a Poluvsie. Práce v celkovom rozsahu 500 m2 sú plánované na zimné obdobie 2026/2027. Dokument žiada o účasť zástupcov CHKO Ponitrie pri miestnom šetrení.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

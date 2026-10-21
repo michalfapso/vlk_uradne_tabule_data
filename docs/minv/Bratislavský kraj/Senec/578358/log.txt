@@ -1,0 +1,72 @@
+[2026-10-21 21:05:09] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578358'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578358/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578358/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona 'zák. č. 364/2004 Z.z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 21 ods. 1 písm. d)' zákona 'vodného zákona. Okresný úrad Senec, odbor starostlivosti o životné prostredie, úsek štátnej vodnej správy'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'zák. č. 525/2003 Z.z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 2 ods. 3' zákona '180/2013 Z.z. o organizácii miestnej štátnej správy a doplnení niektorých zákonov, v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods.4' zákona 'zák. č. 364/2004 Z.z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 5' zákona 'zák. č. 364/2004 Z.z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 5' zákona 'stavebného zákona, má sa za to, že so stavbou z hľadiska nimi sledovaných záujmov súhlasia. Ak sa nechá niektorý z účastníkov konania zastupovať, musí'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona účastníkom konania z dôvodu veľkého počtu účastníkov konania vyvesením po dobu 15 dní na úradnej tabuli Okresného úradu Senec, odboru s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 4' zákona 'vodného zákona, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 6' zákona 'vodného zákona, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 2' zákona 'správneho zákona, v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona, všetkým známym aj neznámym účastníkom konania, aj účastníkom konania ktorých vlastnícke práva k susedným pozemkom a stavbám môžu by'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 2' zákona 'správneho zákona, v súlade s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona. Mgr. Renata Ruják vedúci odboru Informatívna poznámka - tento dokument bol vytvorený elektronicky Rozdeľovník k číslu OU-SC-OSZP-20'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0160765}
+LLM_tokens: {"input": 10067, "output": 3681, "total": 13748, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578358/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578358/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Chorvátsky Grob', 'katastralne_uzemia': [{'nazov': 'Chorvátsky Grob', 'parcely': [{'typ': 'C', 'cisla': ['1647/213', '1647/107', '1647/108', '1647/161', '1647/126', '1647/128', '1647/129', '1647/130', '1647/131', '1647/133', '1647/158', '1647/159', '1647/160', '1647/215']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Čierna voda 6 RD, Hlavný dvor', 'nazov_lokality_norm': 'Hlavný dvor, Chorvátsky Grob'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Chorvátsky Grob', 'katastralne_uzemia': [{'nazov': 'Chorvátsky Grob', 'parcely': [{'typ': 'C', 'cisla': ['1647/213', '1647/107', '1647/108', '1647/161', '1647/126', '1647/128', '1647/129', '1647/130', '1647/131', '1647/133', '1647/158', '1647/159', '1647/160', '1647/215']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Čierna voda 6 RD, Hlavný dvor', 'nazov_lokality_norm': 'Hlavný dvor, Chorvátsky Grob'}
+ku_name:Chorvátsky Grob obec:Chorvátsky Grob okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: chorvatsky grob norm_ku: chorvatsky grob
+_get_nationalCadastralZoningReferences() found_ids: {'820865'}
+nationalCadastralZoningReferences: ['820865']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.77 s
+nazov_lokality: Hlavný dvor, Chorvátsky Grob
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.798'}
+
+[14 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578358/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578358/analysis.json...
+
+--- Časy spracovania dokumentu 578358 ---
+  download_and_text   :   1.28 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.78 s
+  gis_processing      :   3.93 s
+  CELKOVÝ ČAS         :  19.99 s
+------------------------------------------
+Dokument 578358 bol úspešne spracovaný.

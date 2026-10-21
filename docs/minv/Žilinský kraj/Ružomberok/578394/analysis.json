@@ -1,0 +1,74 @@
+{
+  "cislo_konania_spisu": "OU-RK-OSZP-2026/013171",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-10-21",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Mestský podnik Ružomberok, s.r.o. Ružomberok",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Ružomberok",
+    "obec": "Ružomberok",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Ružomberok",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "7235",
+              "7311/1",
+              "7311/2",
+              "7311/10",
+              "7329/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "ochranné pásmo horúcovodu",
+    "nazov_lokality_norm": "horúcovod, Ružomberok"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "pravidelná údržba prevádzky tepelného zariadenia"
+  ],
+  "rozsah_zasahu": "dreviny v ochrannom pásme horúcovodu",
+  "typ_uzemia": [
+    "ochranné pásmo horúcovodu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47",
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o tepelnej energetike",
+      "cislo": "657/2004 Z. z.",
+      "paragrafy": [
+        "10 ods. 1 písm. b)"
+      ]
+    }
+  ],
+  "zhrnutie": "Mestský podnik Ružomberok oznámil plánovaný výrub drevín v ochrannom pásme horúcovodu v Ružomberku. Ide o pravidelnú údržbu v zastavanom území obce na parcelách registra C. Verejnosť je o konaní len informovaná, nakoľko sa naň nevzťahujú všeobecné predpisy o správnom konaní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

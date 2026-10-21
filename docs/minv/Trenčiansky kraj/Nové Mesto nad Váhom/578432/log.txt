@@ -1,0 +1,60 @@
+[2026-10-21 21:09:18] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/578432'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/578432/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 4 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.026222}
+LLM_tokens: {"input": 1108, "output": 65536, "total": 66644, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/578432/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26 ods. 1' zákona '364/2004 Z.z. o vodách a o zmene zákona SNR č. 11/1990 Zb. o priestupkoch a o zmene niektorých predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 66' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku v znení neskorších predpisov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/578432/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0441875}
+LLM_tokens: {"input": 69499, "output": 3146, "total": 72645, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/578432/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/578432/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Bošáca', 'katastralne_uzemia': [{'nazov': 'Bošáca', 'parcely': [{'typ': 'C', 'cisla': ['1602/4', '1602/14', '1602/15', '1602/17']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Nové Mesto nad Váhom', 'obec': 'Bošáca', 'katastralne_uzemia': [{'nazov': 'Bošáca', 'parcely': [{'typ': 'C', 'cisla': ['1602/4', '1602/14', '1602/15', '1602/17']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Bošáca obec:Bošáca okres:Nové Mesto nad Váhom kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: bosaca norm_ku: bosaca
+_get_nationalCadastralZoningReferences() found_ids: {'803863'}
+nationalCadastralZoningReferences: ['803863']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.90 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'C', 'cisla': ['1602/4', '1602/14', '1602/15', '1602/17']}' v KU 'Bošáca' sa nenašli dáta.
+Fallback to OBEC: Bošáca
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: nove mesto nad vahom norm_obec: bosaca norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'803863'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.35 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.82299 48.89819, 17.82309 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/578432/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+intersections: {'UEV': [{'parcel_label': 'Bošáca', 'NATIONALSI': 'SKUEV0805', 'SITETITLE_': 'Hájnica'}, {'parcel_label': 'Bošáca', 'NATIONALSI': 'SKUEV0367', 'SITETITLE_': 'Holubyho kopanice'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Nové Mesto nad Váhom/578432/analysis.json...
+
+--- Časy spracovania dokumentu 578432 ---
+  download_and_text   : 130.04 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.51 s
+  gis_processing      :   4.42 s
+  CELKOVÝ ČAS         : 148.97 s
+------------------------------------------
+Dokument 578432 bol úspešne spracovaný.
