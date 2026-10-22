@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": "SVP 1384/2026/16",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-13",
+  "datum_zverejnenia": "2026-10-15",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Petrovce nad Laborcom, Nacina Ves",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Petrovce nad Laborcom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "736",
+              "737",
+              "744"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Nacina Ves",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1394/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "päta pravobrežnej OH Laborca",
+    "nazov_lokality_norm": "Laborec"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub krovitého porastu"
+  ],
+  "rozsah_zasahu": "krovitý porast na ploche 8 000 m2",
+  "typ_uzemia": [
+    "CHKO Vihorlat"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "zákon o vodách",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "48",
+        "49"
+      ]
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje výrub krovitých porastov na ploche 8 000 m2 na ochrannej hrádzi rieky Laborec. Zásah sa realizuje v katastrálnych územiach Petrovce nad Laborcom a Nacina Ves z dôvodu údržby vodného toku. Oznámenie bolo zaslané na vedomie Správe CHKO Vihorlat.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

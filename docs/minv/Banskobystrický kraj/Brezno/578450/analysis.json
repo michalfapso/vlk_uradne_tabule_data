@@ -1,0 +1,64 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-21",
+  "datum_zverejnenia": "2026-10-22",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SVP š.p., Povodie Hrona, odštepný závod",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Brezno",
+    "obec": "Jasenie",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Jasenie",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "3889"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Jasenský potok",
+    "nazov_lokality_norm": "Jasenský"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub rizikovej dreviny"
+  ],
+  "rozsah_zasahu": "1 ks (jelša lepkavá)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "jelša lepkavá"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47 ods. 7",
+        "47 ods. 4 písm. d)"
+      ]
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznamuje výrub jednej rizikovej jelše lepkavej na pravom brehu Jasenského potoka v obci Jasenie. Výrub je realizovaný ako zákonná výnimka pri údržbe vodohospodárskeho toku na parcele KN C 3889. Dokument slúži ako upovedomenie o plánovanom výrube podľa zákona o ochrane prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

@@ -1,0 +1,47 @@
+[2026-10-22 22:40:33] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/578473'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/578473/orig.doc
+Converting document to text...
+LibreOffice conversion stdout: convert /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/578473/orig.doc as a Writer document -> /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/578473/orig.txt using filter : Text
+
+LibreOffice conversion stderr: 
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/578473/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 33 ods. 2' zákona 'správneho zákona môžu účastníci konania svoje námietky a pripomienky uplatniť najneskôr do 02.10.2026. Ak sa niekto z účastníkov konania nechá zastupo'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/578473/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0117635}
+LLM_tokens: {"input": 5593, "output": 2989, "total": 8582, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/578473/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/578473/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Kežmarok', 'obec': 'Stará Lesná', 'katastralne_uzemia': [{'nazov': 'Stará Lesná', 'parcely': [{'typ': 'E', 'cisla': ['794/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Kežmarok', 'obec': 'Stará Lesná', 'katastralne_uzemia': [{'nazov': 'Stará Lesná', 'parcely': [{'typ': 'E', 'cisla': ['794/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Stará Lesná obec:Stará Lesná okres:Kežmarok kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: kezmarok norm_obec: stara lesna norm_ku: stara lesna
+_get_nationalCadastralZoningReferences() found_ids: {'858081'}
+nationalCadastralZoningReferences: ['858081']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 2.92 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2516'}
+
+[1 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/578473/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Kežmarok/578473/analysis.json...
+
+--- Časy spracovania dokumentu 578473 ---
+  download_and_text   :   5.54 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.13 s
+  gis_processing      :   3.14 s
+  CELKOVÝ ČAS         :  20.81 s
+------------------------------------------
+Dokument 578473 bol úspešne spracovaný.

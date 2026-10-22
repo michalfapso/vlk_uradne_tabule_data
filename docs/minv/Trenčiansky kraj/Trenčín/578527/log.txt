@@ -1,0 +1,82 @@
+[2026-10-22 22:42:24] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/578527'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/578527/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/578527/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18' zákona 'zák. č. 71/1967 Zb. o správnom konaní'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 84 ods. 5' zákona '25/2025 Z. z. „Ak ide o stavbu, pre ktorú je vydané územné rozhodnutie podľa doterajších predpisov, použijú sa doterajšie predpisy v znení účinnom do'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a o doplnení niektorých zákonov v znení neskorších predpisov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a o doplnení niektorých zákonov v znení neskorších predpisov, podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona '364/2004 Z. z. o vodách a o zmene zákona Slovenskej národnej rady č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 1' zákona 'stavebného zákona začatie vodoprávneho konania na povolenie vodnej stavby „Komunikácie, spevnené plochy a inžinierske siete, Biskupická ulica, Trenčín'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 18' zákona 'zák. č. 71/1967 Zb. o správnom konaní v znení neskorších predpisov začatie vodoprávneho konania na osobitné užívanie vôd, známym účastníkom konania a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 2' zákona 'stavebného zákona od ústneho pojednávania a miestneho zisťovania. Účastníci konania môžu v zmysle'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'stavebného zákona uplatniť svoje námietky k projektovej dokumentácii stavby a ku konaniu o osobitnom užívaní vôd písomne doručením na Okresný úrad Tre'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 4' zákona 'stavebného zákona doručuje verejnou vyhláškou – líniová stavba, veľký počet účastníkov konania. Oznámenie bude vyvesené na úradnej tabuli a webovom sí'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'písm. a' zákona ''.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0133405}
+LLM_tokens: {"input": 7343, "output": 3223, "total": 10566, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 126 column 1 (char 3205)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01163635}
+LLM_tokens: {"input": 7343, "output": 3262, "total": 10605, "cached": 4047}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/578527/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/578527/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Trenčín', 'katastralne_uzemia': [{'nazov': 'Trenčianske Biskupice', 'parcely': [{'typ': 'C', 'cisla': ['1127/59', '1127/160', '1127/166', '1127/173', '1127/1', '1127/159', '1127/161', '1127/11', '1127/62', '1127/177']}]}, {'nazov': 'Trenčín', 'parcely': [{'typ': 'C', 'cisla': ['1706/1', '1725/27', '1725/29', '3569', '3570/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Biskupická ulica Trenčín', 'nazov_lokality_norm': 'Biskupická, Trenčín'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Trenčín', 'obec': 'Trenčín', 'katastralne_uzemia': [{'nazov': 'Trenčianske Biskupice', 'parcely': [{'typ': 'C', 'cisla': ['1127/59', '1127/160', '1127/166', '1127/173', '1127/1', '1127/159', '1127/161', '1127/11', '1127/62', '1127/177']}]}, {'nazov': 'Trenčín', 'parcely': [{'typ': 'C', 'cisla': ['1706/1', '1725/27', '1725/29', '3569', '3570/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Biskupická ulica Trenčín', 'nazov_lokality_norm': 'Biskupická, Trenčín'}
+ku_name:Trenčianske Biskupice obec:Trenčín okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: trencin norm_ku: trencianske bispice
+Fuzzy match found: 'Trenčianske Biskupice' -> 'Trenčianske Biskupice' (ID: 864668)
+nationalCadastralZoningReferences: ['864668']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.77 s
+ku_name:Trenčín obec:Trenčín okres:Trenčín kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: trencin norm_obec: trencin norm_ku: trencin
+_get_nationalCadastralZoningReferences() found_ids: {'864528'}
+nationalCadastralZoningReferences: ['864528']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.01 s
+nazov_lokality: Biskupická, Trenčín
+gdf_parcelset:        @featureType  ...            administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.672'}
+
+[15 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/578527/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Trenčín/578527/analysis.json...
+
+--- Časy spracovania dokumentu 578527 ---
+  download_and_text   :   1.47 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  24.11 s
+  gis_processing      :   8.02 s
+  CELKOVÝ ČAS         :  33.60 s
+------------------------------------------
+Dokument 578527 bol úspešne spracovaný.

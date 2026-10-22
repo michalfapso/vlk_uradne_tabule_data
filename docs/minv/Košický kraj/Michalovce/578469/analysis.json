@@ -1,0 +1,78 @@
+{
+  "cislo_konania_spisu": "SVP 1384/2026/15",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-13",
+  "datum_zverejnenia": "2026-10-15",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SLOVENSKÝ VODOHOSPODÁRSKY PODNIK, štátny podnik",
+  "miesto_realizacie": {
+    "kraj": "Košický kraj",
+    "okres": "Michalovce",
+    "obec": "Michalovce",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Michalovce",
+        "parcely": [
+          {
+            "typ": "E",
+            "cisla": [
+              "2586/1",
+              "2585/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "pobrežný pozemok VT Laborec (ID 4-30-04-108) r.km 40,600 - 41,000",
+    "nazov_lokality_norm": "Laborec"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub stromov",
+    "výrub krovitého porastu"
+  ],
+  "rozsah_zasahu": "15 ks stromov (vŕba, topoľ, orech) a krovitý porast na ploche 7 600 m2",
+  "typ_uzemia": [
+    "CHKO Vihorlat",
+    "pobrežný pozemok"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "vŕba",
+    "topoľ",
+    "orech",
+    "krovitý porast",
+    "brehové porasty"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "Zákon o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "48 ods. 5 písm. c)",
+        "49 ods. 1 písm. b)"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube 15 ks stromov (vŕba, topoľ, orech) a krovitého porastu na ploche 7 600 m2 na pobrežných pozemkoch rieky Laborec v Michalovciach. Výrub sa odôvodňuje zlým zdravotným stavom drevín a ich kolíziou s oplotením kasární MOSR; dokument je zaslaný na vedomie aj Správe CHKO Vihorlat.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

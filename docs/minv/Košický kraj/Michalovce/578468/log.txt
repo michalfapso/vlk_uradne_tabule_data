@@ -1,0 +1,76 @@
+[2026-10-22 22:36:58] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/578468'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/578468/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/578468/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'ciel'om zabezpečenia bezpečnosti železničnej dopravy, vol'ného schodného a manipulačného priestoru, primeraných rozhradových pomerov a podmienok na ri'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 's' zákona 'ciel'om zabezpečenia bezpečnosti železničnej dopravy, vol'ného schodného a manipulačného priestoru, primeraných rozhradových pomerov a podmienok na ri'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0199985}
+LLM_tokens: {"input": 12655, "output": 4557, "total": 17212, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/578468/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/578468/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Michalovce', 'obec': 'Maťovské Vojkovce', 'katastralne_uzemia': [{'nazov': 'Maťovské Vojkovce', 'parcely': [{'typ': 'C', 'cisla': ['2570/25']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ŽST Maťovce ŠRT, úseky ŠRT (širokorozchodná trať)', 'nazov_lokality_norm': 'Maťovce'}
+data: {'kraj': 'Košický kraj', 'okres': 'Michalovce', 'obec': 'Maťovské Vojkovce', 'katastralne_uzemia': [{'nazov': 'Maťovské Vojkovce', 'parcely': [{'typ': 'C', 'cisla': ['2570/25']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ŽST Maťovce ŠRT, úseky ŠRT (širokorozchodná trať)', 'nazov_lokality_norm': 'Maťovce'}
+ku_name:Maťovské Vojkovce obec:Maťovské Vojkovce okres:Michalovce kraj:Košický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: matovske vojkovce norm_ku: matovske vojkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: None norm_ku: matovske vojkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: None norm_obec: None norm_ku: matovske vojkovce
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: matovske vojkovce
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+Fallback to OBEC: Maťovské Vojkovce
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: michalovce norm_obec: matovske vojkovce norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'836443', '836435'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.30 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Maťovce
+get_geometry_of_a_geoname nazov_lokality: Maťovce
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Maťovské Vojkovce, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((22.12578 48.58727, 22.1258 48.58635,...  ...  Maťovce, Maťovské Vojkovce, okres Michalovce, ...
+
+[1 rows x 11 columns]
+geoname_query: Maťovce, Maťovské Vojkovce, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((22.13665 48.59669, 22.13678 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((22.12609 48.58341, 22.12619 48...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((22.12578 48.58727, 22.1258 48.58635,...  ...  Maťovce, Maťovské Vojkovce, okres Michalovce, ...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/578468/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Michalovce/578468/analysis.json...
+
+--- Časy spracovania dokumentu 578468 ---
+  download_and_text   :   2.58 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  18.57 s
+  gis_processing      :   1.45 s
+  CELKOVÝ ČAS         :  22.60 s
+------------------------------------------
+Dokument 578468 bol úspešne spracovaný.

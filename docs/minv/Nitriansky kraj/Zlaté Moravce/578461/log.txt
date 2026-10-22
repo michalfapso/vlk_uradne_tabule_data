@@ -1,0 +1,116 @@
+[2026-10-22 22:37:47] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/578461'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/578461/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/578461/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'tretia veta zákona č. 543/2002 Z. z. o ochrane  prírody a krajiny v znení neskorších predpisov      Okresný úrad Zlaté Moravce, odbor starostlivosti o'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'tretia veta  zákona č. 543/2002 Z. z. o ochrane prírody a krajiny v znení neskorších predpisov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/578461/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0120685}
+LLM_tokens: {"input": 5819, "output": 3053, "total": 8872, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/578461/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/578461/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Zlaté Moravce', 'obec': 'Topoľčianky, Žitavany, Opatovce, Velčice', 'katastralne_uzemia': [{'nazov': 'Topoľčianky', 'parcely': []}, {'nazov': 'Žitavany', 'parcely': []}, {'nazov': 'Opatovce', 'parcely': []}, {'nazov': 'Velčice', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Leveš, Hostiansky potok, Žitava, Čerešňový potok', 'nazov_lokality_norm': 'Leveš, Hostiansky, Žitava, Čerešňový'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Zlaté Moravce', 'obec': 'Topoľčianky, Žitavany, Opatovce, Velčice', 'katastralne_uzemia': [{'nazov': 'Topoľčianky', 'parcely': []}, {'nazov': 'Žitavany', 'parcely': []}, {'nazov': 'Opatovce', 'parcely': []}, {'nazov': 'Velčice', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Leveš, Hostiansky potok, Žitava, Čerešňový potok', 'nazov_lokality_norm': 'Leveš, Hostiansky, Žitava, Čerešňový'}
+ku_name:Topoľčianky obec:Topoľčianky, Žitavany, Opatovce, Velčice okres:Zlaté Moravce kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: topolcianky norm_ku: topolcianky
+_get_nationalCadastralZoningReferences() found_ids: {'863882'}
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: zitavany norm_ku: topolcianky
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: None norm_ku: topolcianky
+_get_nationalCadastralZoningReferences() found_ids: {'863882'}
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: opatovce norm_ku: topolcianky
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: None norm_ku: topolcianky
+_get_nationalCadastralZoningReferences() found_ids: {'863882'}
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: velcice norm_ku: topolcianky
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: None norm_ku: topolcianky
+_get_nationalCadastralZoningReferences() found_ids: {'863882'}
+nationalCadastralZoningReferences: ['863882']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.43 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Žitavany obec:Topoľčianky, Žitavany, Opatovce, Velčice okres:Zlaté Moravce kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: topolcianky norm_ku: zitavany
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: None norm_ku: zitavany
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: None norm_obec: None norm_ku: zitavany
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: zitavany
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: None
+[ERROR]: Nájdených príliš veľa katastrálnych území (3559), pravdepodobne je niekde chyba.
+ku_name:Opatovce obec:Topoľčianky, Žitavany, Opatovce, Velčice okres:Zlaté Moravce kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: topolcianky norm_ku: opatovce
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: None norm_ku: opatovce
+_get_nationalCadastralZoningReferences() found_ids: {'874957'}
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: zitavany norm_ku: opatovce
+_get_nationalCadastralZoningReferences() found_ids: {'874957'}
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: opatovce norm_ku: opatovce
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: None norm_ku: opatovce
+_get_nationalCadastralZoningReferences() found_ids: {'874957'}
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: velcice norm_ku: opatovce
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: None norm_ku: opatovce
+_get_nationalCadastralZoningReferences() found_ids: {'874957'}
+nationalCadastralZoningReferences: ['874957']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Velčice obec:Topoľčianky, Žitavany, Opatovce, Velčice okres:Zlaté Moravce kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: topolcianky norm_ku: velcice
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: None norm_ku: velcice
+_get_nationalCadastralZoningReferences() found_ids: {'867594'}
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: zitavany norm_ku: velcice
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: None norm_ku: velcice
+_get_nationalCadastralZoningReferences() found_ids: {'867594'}
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: opatovce norm_ku: velcice
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: None norm_ku: velcice
+_get_nationalCadastralZoningReferences() found_ids: {'867594'}
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: zlate moravce norm_obec: velcice norm_ku: velcice
+_get_nationalCadastralZoningReferences() found_ids: {'867594'}
+nationalCadastralZoningReferences: ['867594']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Leveš, Hostiansky, Žitava, Čerešňový
+get_geometry_of_a_geoname nazov_lokality: Leveš, Hostiansky, Žitava, Čerešňový
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hostiansky, Žitava, Čerešňový, Topoľčianky, Žitavany, Opatovce, Velčice, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hostiansky, Žitava, Čerešňový, Zlaté Moravce, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hostiansky, Žitava, Čerešňový, Nitriansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hostiansky, Žitava, Čerešňový, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.4000473, 'lon': 18.4217093, 'formatted_address': 'Opatovce, 951 97 Žitavany, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 951 97 Žitavany, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.39174 48.50395, 18.39357 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.42817 48.40452, 18.42844 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((18.27457 48.4877, 18.2746 48.4...
+
+[3 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/578461/gis.geojson...
+Intersections with protected areas...
+Found 3 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Topoľčianky', 'NATIONALSI': 'SKUEV0133', 'SITETITLE_': 'Hôrky'}, {'parcel_label': 'Opatovce', 'NATIONALSI': 'SKUEV0873', 'SITETITLE_': 'Pohronský Inovec'}, {'parcel_label': 'Velčice', 'NATIONALSI': 'SKUEV0133', 'SITETITLE_': 'Hôrky'}], 'MCHU': [{'parcel_label': 'Topoľčianky', 'NATIONALSI': '981', 'SITETITLE_': 'CHA Topoľčiansky park'}], 'CHVU': [{'parcel_label': 'Velčice', 'NATIONALSI': 'SKCHVU031', 'SITETITLE_': 'Tribeč'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Zlaté Moravce/578461/analysis.json...
+
+--- Časy spracovania dokumentu 578461 ---
+  download_and_text   :   1.29 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.75 s
+  gis_processing      :   3.86 s
+  CELKOVÝ ČAS         :  16.90 s
+------------------------------------------
+Dokument 578461 bol úspešne spracovaný.

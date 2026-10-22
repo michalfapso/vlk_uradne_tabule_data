@@ -1,0 +1,69 @@
+[2026-10-22 22:37:20] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578481'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578481/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578481/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona 'NR SR č. 525/2003 Z. z. o štátnej  správe starostlivosti o životné prostredie a o zmene a doplnení  niektorých zákonov v znení neskorších predpisov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'NR SR č. 364/2004 Z. z. o vodách  a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73' zákona 'vodného zákona      a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51' zákona 'stavebného zákona o stavebnom zámere stavby.     ID stavby'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 8' zákona 'vodného zákona v lehote do 30.11.2026.   Okresný úrad Košice, odbor opravných prostriedkov, referát starostlivosti o životné prostredie  listom pod čí'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 51z' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578481/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0119895}
+LLM_tokens: {"input": 8367, "output": 2602, "total": 10969, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578481/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578481/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Gemerská Poloma', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Gemerská Poloma', 'nazov_lokality_norm': 'Gemerská Poloma'}
+data: {'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Gemerská Poloma', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Gemerská Poloma', 'nazov_lokality_norm': 'Gemerská Poloma'}
+Fallback to OBEC: Gemerská Poloma
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: roznava norm_obec: gemerska poloma norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'814938'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Gemerská Poloma
+get_geometry_of_a_geoname nazov_lokality: Gemerská Poloma
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Poloma, Gemerská Poloma, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.43447 48.68648, 20.43519 48.68582...  ...  Gemerská Poloma, okres Rožňava, Košický kraj, ...
+
+[1 rows x 11 columns]
+geoname_query: Gemerská Poloma, Gemerská Poloma, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.49605 48.80719, 20.49716 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.43447 48.68648, 20.43519 48.68582...  ...  Gemerská Poloma, okres Rožňava, Košický kraj, ...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578481/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'CHVU': [{'parcel_label': 'Gemerská Poloma', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578481/analysis.json...
+
+--- Časy spracovania dokumentu 578481 ---
+  download_and_text   :   1.45 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   9.32 s
+  gis_processing      :   1.21 s
+  CELKOVÝ ČAS         :  11.99 s
+------------------------------------------
+Dokument 578481 bol úspešne spracovaný.

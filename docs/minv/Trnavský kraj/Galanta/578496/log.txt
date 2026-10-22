@@ -1,0 +1,73 @@
+[2026-10-22 22:43:53] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578496'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578496/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578496/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 ods. 1' zákona '50/1976 Zb. o územnom  plánovaní a stavebnom poriadku v znení účinnom do 31.03.2025'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 4' zákona '50/1976 Zb. o územnom  plánovaní a stavebnom poriadku v znení účinnom do 31.03.2025'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'NR SR č. 364/2004 Z. z. o vodách a o zmene zákona  SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 60  ods. 1' zákona 'stavebného zákona a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 26' zákona 'vodného zákona, aby ku konaniu doložil určené podklady a  konanie rozhodnutím pod č. OU-GA-OSZP-2026/010740-003 zo dňa 20.05.2026 prerušil.   Určené p'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5 ods. 1' zákona '525/2003 Z. z. o štátnej správe starostlivosti o životné  prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61 písm.  a)' zákona 'NR SR č. 364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o  priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'c)' zákona 'NR SR č. 364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o  priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§  120' zákona '50/1976 Zb. o územnom plánovaní a stavebnom poriadku'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona    oznamuje                                                                                                                          za'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 5' zákona 'vodného zákona    nariaďuje      miestne zisťovanie a ústne pojednávanie na deň  26.11.2026 o 9:00 hod.  so stretnutím pozvaných účastníkov pri vstupe'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 17 ods. 1' zákona 'správneho priadku, ak sa niektorý z účastníkov konania nechá v  konaní zastupovať, musí jeho zástupca predložiť písomnú plnú moc s podpisom toho účast'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'ods. 3' zákona 'správneho priadku, ak sa niektorý z účastníkov konania nechá v  konaní zastupovať, musí jeho zástupca predložiť písomnú plnú moc s podpisom toho účast'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§  61 ods. 4' zákona 'stavebného zákona v súbehu s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 73 ods. 6' zákona 'vodného zákona z dôvodu, že konanie sa  týka líniovej stavby. Oznámenie musí byť vyvesené po dobu 15 dní na úradnej tabuli a na  webovom sídle Okresné'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578496/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014376000000000002}
+LLM_tokens: {"input": 7518, "output": 3539, "total": 11057, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578496/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578496/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Sereď', 'katastralne_uzemia': [{'nazov': 'Sereď', 'parcely': [{'typ': 'C', 'cisla': ['2367/4', '2398/13', '2398/14', '2398/15', '2398/16', '2398/25', '2415/21', '2415/22', '2712/1', '2712/32', '2712/50', '2712/51', '2712/53', '2712/55', '2712/59']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Sedita Sereď', 'nazov_lokality_norm': 'Sedita, Sereď'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Sereď', 'katastralne_uzemia': [{'nazov': 'Sereď', 'parcely': [{'typ': 'C', 'cisla': ['2367/4', '2398/13', '2398/14', '2398/15', '2398/16', '2398/25', '2415/21', '2415/22', '2712/1', '2712/32', '2712/50', '2712/51', '2712/53', '2712/55', '2712/59']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Sedita Sereď', 'nazov_lokality_norm': 'Sedita, Sereď'}
+ku_name:Sereď obec:Sereď okres:Galanta kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: sered norm_ku: sered
+_get_nationalCadastralZoningReferences() found_ids: {'855251'}
+nationalCadastralZoningReferences: ['855251']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.75 s
+nazov_lokality: Sedita, Sereď
+gdf_parcelset:        @featureType  ...             administrativeUnit
+0   CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+1   CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+2   CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+3   CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+4   CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+5   CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+6   CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+7   CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+8   CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+9   CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+10  CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+11  CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+12  CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+13  CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+14  CadastralParcel  ...  {'@href': '#auAdmUnitS.1931'}
+
+[15 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578496/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578496/analysis.json...
+
+--- Časy spracovania dokumentu 578496 ---
+  download_and_text   :   2.63 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  12.92 s
+  gis_processing      :   3.97 s
+  CELKOVÝ ČAS         :  19.53 s
+------------------------------------------
+Dokument 578496 bol úspešne spracovaný.

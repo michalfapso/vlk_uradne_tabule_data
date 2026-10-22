@@ -1,0 +1,128 @@
+[2026-10-22 22:32:45] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/578448'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/578448/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/578448/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/578448/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012211}
+LLM_tokens: {"input": 4856, "output": 3261, "total": 8117, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/578448/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/578448/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Medzibrod', 'parcely': []}, {'nazov': 'Hiadeľ', 'parcely': []}, {'nazov': 'Lučatín', 'parcely': []}, {'nazov': 'Moštenica', 'parcely': []}, {'nazov': 'Priechod', 'parcely': []}, {'nazov': 'Selce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo elektrického vedenia 110 kV: č. VVN 7638, 7637', 'nazov_lokality_norm': '7638, 7637'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': None, 'katastralne_uzemia': [{'nazov': 'Medzibrod', 'parcely': []}, {'nazov': 'Hiadeľ', 'parcely': []}, {'nazov': 'Lučatín', 'parcely': []}, {'nazov': 'Moštenica', 'parcely': []}, {'nazov': 'Priechod', 'parcely': []}, {'nazov': 'Selce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo elektrického vedenia 110 kV: č. VVN 7638, 7637', 'nazov_lokality_norm': '7638, 7637'}
+ku_name:Medzibrod obec:None okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: None norm_ku: medzibrod
+_get_nationalCadastralZoningReferences() found_ids: {'836605'}
+nationalCadastralZoningReferences: ['836605']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.43 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Hiadeľ obec:None okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: None norm_ku: hiadel
+_get_nationalCadastralZoningReferences() found_ids: {'816124'}
+nationalCadastralZoningReferences: ['816124']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Lučatín obec:None okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: None norm_ku: lucatin
+_get_nationalCadastralZoningReferences() found_ids: {'833657'}
+nationalCadastralZoningReferences: ['833657']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Moštenica obec:None okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: None norm_ku: mostenica
+_get_nationalCadastralZoningReferences() found_ids: {'838586'}
+nationalCadastralZoningReferences: ['838586']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Priechod obec:None okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: None norm_ku: priechod
+_get_nationalCadastralZoningReferences() found_ids: {'849782'}
+nationalCadastralZoningReferences: ['849782']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Selce obec:None okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: None norm_ku: selce
+_get_nationalCadastralZoningReferences() found_ids: {'854794'}
+nationalCadastralZoningReferences: ['854794']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.27 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: 7638, 7637
+get_geometry_of_a_geoname nazov_lokality: 7638, 7637
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 7637, Banská Bystrica, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 7637, Banskobystrický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 7637, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.17814 48.17133, 17.17821 48.17126...  ...  Danucem, Trnávka, Bratislava, okres Bratislava...
+1  POLYGON ((21.263 48.75058, 21.26503 48.74926, ...  ...  Howe Slovensko s.r.o, Košice-Ťahanovce, okres ...
+2  POLYGON ((21.26245 48.74706, 21.26275 48.74654...  ...  Danucem Slovensko a.s., Košice-Ťahanovce, okre...
+3  POLYGON ((21.27492 48.71542, 21.27516 48.71488...  ...  Danucem Slovensko a.s., Košice-Juh, okres Koši...
+4  POLYGON ((16.18212 50.58364, 16.18214 50.58363...  ...  Coca-Cola HBC Česko a Slovensko, Lachov, Tepli...
+5  POLYGON ((22.02865 48.66875, 22.02981 48.66755...  ...  Ekofarma SOS/BirdLife Slovensko, Senné, okres ...
+6  POLYGON ((21.90268 48.92129, 21.90289 48.92125...  ...  Oldrati Slovensko s.r.o, Sídlisko pod Sokolejo...
+7  POLYGON ((17.15135 48.81801, 17.15263 48.81759...  ...  Eissmann Automotive Slovensko s. r. o., Holíč,...
+8  POLYGON ((20.86369 49.27996, 20.86458 49.27846...  ...  CRH (Slovensko), Orlov, okres Stará Ľubovňa, P...
+
+[9 rows x 11 columns]
+geoname_query: 7638, 7637, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.32915 48.84569, 19.33033 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.31851 48.87659, 19.31925 48...
+2  CadastralZoning  ...  MULTIPOLYGON (((19.30264 48.80614, 19.30262 48...
+3  CadastralZoning  ...  MULTIPOLYGON (((19.28117 48.86015, 19.2816 48....
+4  CadastralZoning  ...  MULTIPOLYGON (((19.21189 48.81669, 19.21204 48...
+5  CadastralZoning  ...  MULTIPOLYGON (((19.1584 48.82159, 19.1586 48.8...
+
+[6 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((17.17814 48.17133, 17.17821 48.17126...  ...  Danucem, Trnávka, Bratislava, okres Bratislava...
+1  POLYGON ((21.263 48.75058, 21.26503 48.74926, ...  ...  Howe Slovensko s.r.o, Košice-Ťahanovce, okres ...
+2  POLYGON ((21.26245 48.74706, 21.26275 48.74654...  ...  Danucem Slovensko a.s., Košice-Ťahanovce, okre...
+3  POLYGON ((21.27492 48.71542, 21.27516 48.71488...  ...  Danucem Slovensko a.s., Košice-Juh, okres Koši...
+4  POLYGON ((16.18212 50.58364, 16.18214 50.58363...  ...  Coca-Cola HBC Česko a Slovensko, Lachov, Tepli...
+5  POLYGON ((22.02865 48.66875, 22.02981 48.66755...  ...  Ekofarma SOS/BirdLife Slovensko, Senné, okres ...
+6  POLYGON ((21.90268 48.92129, 21.90289 48.92125...  ...  Oldrati Slovensko s.r.o, Sídlisko pod Sokolejo...
+7  POLYGON ((17.15135 48.81801, 17.15263 48.81759...  ...  Eissmann Automotive Slovensko s. r. o., Holíč,...
+8  POLYGON ((20.86369 49.27996, 20.86458 49.27846...  ...  CRH (Slovensko), Orlov, okres Stará Ľubovňa, P...
+
+[9 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/578448/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Banská Bystrica/578448/analysis.json...
+
+--- Časy spracovania dokumentu 578448 ---
+  download_and_text   :   1.28 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.68 s
+  gis_processing      :   3.35 s
+  CELKOVÝ ČAS         :  17.32 s
+------------------------------------------
+Dokument 578448 bol úspešne spracovaný.

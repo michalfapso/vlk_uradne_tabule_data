@@ -1,0 +1,104 @@
+{
+  "cislo_konania_spisu": "OU-ZM-OSZP-2026/001683-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-21",
+  "datum_zverejnenia": "2026-10-21",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Slovenský vodohospodársky podnik š. p.",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Zlaté Moravce",
+    "obec": "Topoľčianky, Žitavany, Opatovce, Velčice",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Topoľčianky",
+        "parcely": []
+      },
+      {
+        "nazov": "Žitavany",
+        "parcely": []
+      },
+      {
+        "nazov": "Opatovce",
+        "parcely": []
+      },
+      {
+        "nazov": "Velčice",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Leveš, Hostiansky potok, Žitava, Čerešňový potok",
+    "nazov_lokality_norm": "Leveš, Hostiansky, Žitava, Čerešňový"
+  },
+  "typ_dokumentu": "Zverejnenie oznámenia o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "odstránenie náletového, nežiaduceho vegetačného porastu"
+  ],
+  "rozsah_zasahu": "náletový vegetačný porast na úsekoch štyroch vodných tokov",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47",
+        "81"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Slovenský vodohospodársky podnik oznámil výrub náletových drevín na brehoch a v korytách tokov Leveš, Hostiansky potok, Žitava a Čerešňový potok. Zásah sa dotýka katastrálnych území Topoľčianky, Žitavany, Opatovce a Velčice a bude realizovaný v mimovegetačnom období.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Topoľčianky",
+          "NATIONALSI": "SKUEV0133",
+          "SITETITLE_": "Hôrky"
+        },
+        {
+          "parcel_label": "Opatovce",
+          "NATIONALSI": "SKUEV0873",
+          "SITETITLE_": "Pohronský Inovec"
+        },
+        {
+          "parcel_label": "Velčice",
+          "NATIONALSI": "SKUEV0133",
+          "SITETITLE_": "Hôrky"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Topoľčianky",
+          "NATIONALSI": "981",
+          "SITETITLE_": "CHA Topoľčiansky park"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Velčice",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

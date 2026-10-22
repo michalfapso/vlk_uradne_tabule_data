@@ -1,0 +1,92 @@
+{
+  "cislo_konania_spisu": "OU-TS-OSZP-2026/001111-003",
+  "cislo_rozhodnutia": "OU-TS-OSZP-2026/001111-0007375/2026",
+  "datum_dokumentu": "2026-10-19",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "najneskôr do 8 dní odo dňa doručenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "RODACH, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Tvrdošín",
+    "obec": "Zuberec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Zuberec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1337/1"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "11892"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "lokalita Lán",
+    "nazov_lokality_norm": "Lán, Zuberec"
+  },
+  "typ_dokumentu": "Oznámenie o začatí vodoprávneho konania verejnou vyhláškou",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "rozšírenie vodovodu",
+    "výkopové práce",
+    "stavba vodného objektu"
+  ],
+  "rozsah_zasahu": "64,00 m (vodovodné potrubie DN100)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o vodách (vodný zákon)",
+      "cislo": "364/2004",
+      "paragrafy": [
+        "73",
+        "73 ods. 5"
+      ]
+    },
+    {
+      "nazov": "Zákon o priestupkoch",
+      "cislo": "372/1990",
+      "paragrafy": []
+    },
+    {
+      "nazov": "Zákon o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976",
+      "paragrafy": [
+        "61",
+        "61 ods. 3",
+        "61 ods. 6"
+      ]
+    },
+    {
+      "nazov": "Zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "18",
+        "33 ods. 2"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí vodoprávneho konania pre stavbu rozšírenia vodovodu v dĺžke 64 metrov v obci Zuberec, lokalita Lán. Projekt rieši zásobovanie rodinných domov pitnou vodou a zásah sa realizuje v zastavanom území na parcelách C-KN 1337/1 a E-KN 11892. Dokument neobsahuje informácie o prítomnosti v chránenom území.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}
