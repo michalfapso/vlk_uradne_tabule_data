@@ -1,0 +1,82 @@
+{
+  "cislo_konania_spisu": "OU-TR-OSZP-2026/000806",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-22",
+  "datum_zverejnenia": "2026-10-23",
+  "faza_konania": "INE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Turčianske Teplice",
+    "obec": "Dolný Turček",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolný Turček",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "306"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Horný Turček",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "684/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "traťový úsek žst. Kremnické Bane – Horná Štubňa",
+    "nazov_lokality_norm": "Kremnické Bane – Horná Štubňa"
+  },
+  "typ_dokumentu": "Oznámenie o výrube drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín rastúcich mimo les",
+    "výrub stromov"
+  ],
+  "rozsah_zasahu": "minimálne 26 kusov stromov (smrek, osika)",
+  "typ_uzemia": [
+    "1. stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "smrek",
+    "osika"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47",
+        "12"
+      ]
+    },
+    {
+      "nazov": "o dráhach",
+      "cislo": "513/2009",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "ŽSR oznámili výrub minimálne 26 stromov (smrek, osika) pozdĺž železničnej trate v úseku Kremnické Bane – Horná Štubňa. Výrub sa realizuje v 1. stupni ochrany v katastroch obcí Dolný Turček a Horný Turček z dôvodu bezpečnosti dráhy. Keďže ide o oznámenie o výrube, nie je možné sa do konania prihlásiť.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

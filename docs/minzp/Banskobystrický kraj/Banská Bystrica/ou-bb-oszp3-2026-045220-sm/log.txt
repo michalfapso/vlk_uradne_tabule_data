@@ -1,0 +1,55 @@
+[2026-10-23 21:00:17] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-045220-sm'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-045220-sm/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-045220-sm/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-045220-sm/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.015581000000000001}
+LLM_tokens: {"input": 6190, "output": 4162, "total": 10352, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-045220-sm/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-045220-sm/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Banská Bystrica', 'katastralne_uzemia': [{'nazov': 'Kremnička', 'parcely': [{'typ': 'C', 'cisla': ['269/11', '269/12', '269/8', '269/13', '269/14', '269/15', '269/45', '269/40', '269/43']}, {'typ': 'E', 'cisla': ['1-322', '1-319/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'k.ú. Kremnička', 'nazov_lokality_norm': 'Kremnička'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Banská Bystrica', 'katastralne_uzemia': [{'nazov': 'Kremnička', 'parcely': [{'typ': 'C', 'cisla': ['269/11', '269/12', '269/8', '269/13', '269/14', '269/15', '269/45', '269/40', '269/43']}, {'typ': 'E', 'cisla': ['1-322', '1-319/2']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'k.ú. Kremnička', 'nazov_lokality_norm': 'Kremnička'}
+ku_name:Kremnička obec:Banská Bystrica okres:Banská Bystrica kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: banska bystrica norm_ku: kremnicka
+_get_nationalCadastralZoningReferences() found_ids: {'801381'}
+nationalCadastralZoningReferences: ['801381']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.80 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.22 s
+Pre zadané referencie neboli nájdené žiadne parcely.
+[WARNING]: Pre parcelu '{'typ': 'E', 'cisla': ['1-322', '1-319/2']}' v KU 'Kremnička' sa nenašli dáta.
+nazov_lokality: Kremnička
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+7  CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+8  CadastralParcel  ...  {'@href': '#auAdmUnitS.2183'}
+
+[9 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-045220-sm/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp3-2026-045220-sm/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp3-2026-045220-sm ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  15.88 s
+  gis_processing      :   7.23 s
+  CELKOVÝ ČAS         :  23.80 s
+------------------------------------------
+Dokument ou-bb-oszp3-2026-045220-sm bol úspešne spracovaný.

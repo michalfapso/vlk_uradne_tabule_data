@@ -1,0 +1,72 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-09",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Púchov",
+    "obec": "Lúky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Lúky",
+        "parcely": []
+      },
+      {
+        "nazov": "Lysá pod Makytou",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásmo/pod elektrickým vedením 22kV VN I.č. 204 k60 Lúky, smer Lysá pod Makytou - Beňadín",
+    "nazov_lokality_norm": "Lúky, Lysá pod Makytou, Beňadín"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub",
+    "odstránenie stromov",
+    "okliesnenie stromov",
+    "odstránenie iných porastov"
+  ],
+  "rozsah_zasahu": "v ochrannom pásme 22kV VN vedenia",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47",
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "o energetike a o zmene a doplnení niektorých zákonov",
+      "cislo": "251/2012 Z.z.",
+      "paragrafy": [
+        "11",
+        "11 ods. 1 písm. b",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a orezávaní stromov v ochrannom pásme 22kV elektrického vedenia v katastrálnych územiach Lúky a Lysá pod Makytou. Zásah bude realizovaný v období od novembra 2026 do marca 2027 spoločnosťou JR Forest Tech pre Stredoslovenskú distribučnú, a.s. z dôvodu bezpečnosti prevádzky.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "cislo_konania_spisu": "OU-LV-OSZP-2026/024791",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-23",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Levice",
+    "obec": "Tešmák",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Tešmák",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "k.ú. Tešmák",
+    "nazov_lokality_norm": "Tešmák"
+  },
+  "typ_dokumentu": "Informácia o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "dreviny"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "82",
+        "47",
+        "2"
+      ]
+    },
+    {
+      "nazov": "správny poriadok",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Začatie správneho konania vo veci žiadosti o výrub drevín v katastrálnom území Tešmák mimo zastavaného územia obce. Záujem o účasť v konaní je potrebné potvrdiť do 5 pracovných dní od zverejnenia informácie.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Tešmák",
+          "NAZOV_UEV": "Alúvium Ipľa",
+          "KOD_UEV": "SKUEV0257"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Tešmák",
+          "NATIONALSI": "SKUEV0257",
+          "SITETITLE_": "Alúvium Ipľa"
+        },
+        {
+          "parcel_label": "Tešmák",
+          "NATIONALSI": "SKUEV0865",
+          "SITETITLE_": "Rataj"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Tešmák",
+          "NATIONALSI": "1092",
+          "SITETITLE_": "PR Ryžovisko"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Tešmák",
+          "NATIONALSI": "SKCHVU021",
+          "SITETITLE_": "Poiplie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

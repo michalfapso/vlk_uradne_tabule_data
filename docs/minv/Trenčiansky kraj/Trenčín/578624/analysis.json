@@ -1,0 +1,112 @@
+{
+  "cislo_konania_spisu": "OU-TN-OSZP3-2026/033071-013",
+  "cislo_rozhodnutia": "OU-TN-OSZP3-2026/033071-013",
+  "datum_dokumentu": "2026-10-23",
+  "datum_zverejnenia": null,
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "v lehote 15 dní odo dňa oznámenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Obec Trenčianske Jastrabie",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčianske Jastrabie",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčianske Jastrabie",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1046/1",
+              "3983/1",
+              "1049/4"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Rekonštrukcia verejného vodovodu vetva F-2-3, Trenčianske Jastrabie",
+    "nazov_lokality_norm": "Trenčianske Jastrabie"
+  },
+  "typ_dokumentu": "Kolaudačné rozhodnutie",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "rekonštrukcia verejného vodovodu",
+    "rekonštrukcia automatickej tlakovej stanice"
+  ],
+  "rozsah_zasahu": "dĺžka 420,30 m, 4 ks hydrantov, 1 ks ATS",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z. z.",
+      "paragrafy": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "61",
+        "26",
+        "73"
+      ]
+    },
+    {
+      "nazov": "o územnom plánovaní a stavebnom poriadku (stavebný zákon)",
+      "cislo": "50/1976 Zb.",
+      "paragrafy": [
+        "120",
+        "81",
+        "82",
+        "86",
+        "79",
+        "80",
+        "69"
+      ]
+    },
+    {
+      "nazov": "o verejných vodovodoch a verejných kanalizáciách",
+      "cislo": "442/2002 Z. z.",
+      "paragrafy": [
+        "2",
+        "5"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "21",
+        "53",
+        "54"
+      ]
+    }
+  ],
+  "zhrnutie": "Kolaudačné rozhodnutie povoľujúce užívanie rekonštruovaného verejného vodovodu v dĺžke 420,3 m a automatickej tlakovej stanice v obci Trenčianske Jastrabie. Stavba je líniového charakteru umiestnená na parcelách registra C. Dokument neuvádza, či sa stavba nachádza v chránenom území prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "3983/1",
+          "NATIONALSI": "162",
+          "SITETITLE_": "PP Svinica"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

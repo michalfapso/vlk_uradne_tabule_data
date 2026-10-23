@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "gis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "place_id": 188031563, "osm_type": "way", "osm_id": 61154367, "place_rank": 30, "category": "building", "type": "yes", "importance": 6.6565194171008127e-05, "addresstype": "building", "name": "", "display_name": "370/6A, Dolná, Banská Bystrica, okres Banská Bystrica, Banskobystrický kraj, 974 01, Slovensko" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 19.1428517, 48.7348102 ], [ 19.1429773, 48.7347754 ], [ 19.1429953, 48.7347706 ], [ 19.1432625, 48.7346585 ], [ 19.1433115, 48.7347061 ], [ 19.1430717, 48.7348103 ], [ 19.143074, 48.7348127 ], [ 19.1428918, 48.734868 ], [ 19.1428517, 48.7348102 ] ] ] } }
+]
+}

@@ -1,0 +1,82 @@
+[2026-10-23 20:51:57] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Humenné/578576'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Humenné/578576/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 4 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0262212}
+LLM_tokens: {"input": 1108, "output": 65534, "total": 66642, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Humenné/578576/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 5' zákona 'cieľom zabezpečenia bezpečnosti železničnej** **dopravy, voľného schodného a manipulačného priestoru, rozhľadových Vám oznamujeme** **plánovaný výrub'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 's' zákona 'cieľom zabezpečenia bezpečnosti železničnej** **dopravy, voľného schodného a manipulačného priestoru, rozhľadových Vám oznamujeme** **plánovaný výrub'.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0446715}
+LLM_tokens: {"input": 69399, "output": 3324, "total": 72723, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Humenné/578576/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Humenné/578576/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Humenné', 'obec': 'Udavské, Hankovce', 'katastralne_uzemia': [{'nazov': 'Udavské', 'parcely': []}, {'nazov': 'Hankovce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'medzistaničný úsek Udavské – Hankovce, od 2km 70,400 do 2km 76,500', 'nazov_lokality_norm': 'Udavské, Hankovce'}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Humenné', 'obec': 'Udavské, Hankovce', 'katastralne_uzemia': [{'nazov': 'Udavské', 'parcely': []}, {'nazov': 'Hankovce', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'medzistaničný úsek Udavské – Hankovce, od 2km 70,400 do 2km 76,500', 'nazov_lokality_norm': 'Udavské, Hankovce'}
+ku_name:Udavské obec:Udavské, Hankovce okres:Humenné kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: humenne norm_obec: udavske norm_ku: udavske
+_get_nationalCadastralZoningReferences() found_ids: {'866253'}
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: humenne norm_obec: hankovce norm_ku: udavske
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: humenne norm_obec: None norm_ku: udavske
+_get_nationalCadastralZoningReferences() found_ids: {'866253'}
+nationalCadastralZoningReferences: ['866253']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.42 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Hankovce obec:Udavské, Hankovce okres:Humenné kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: humenne norm_obec: udavske norm_ku: hankovce
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: humenne norm_obec: None norm_ku: hankovce
+_get_nationalCadastralZoningReferences() found_ids: {'815730'}
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: humenne norm_obec: hankovce norm_ku: hankovce
+_get_nationalCadastralZoningReferences() found_ids: {'815730'}
+nationalCadastralZoningReferences: ['815730']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.39 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Udavské, Hankovce
+get_geometry_of_a_geoname nazov_lokality: Udavské, Hankovce
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hankovce, Udavské, Hankovce, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hankovce, Humenné, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hankovce, Prešovský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Hankovce, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0286105, 'lon': 21.9467021, 'formatted_address': '067 12 Hankovce, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 12 Hankovce, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((21.9806 48.99556, 21.98152 48....
+1  CadastralZoning  ...  MULTIPOLYGON (((21.92427 49.04708, 21.92433 49...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Humenné/578576/gis.geojson...
+Intersections with protected areas...
+Found 4 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Udavské', 'NATIONALSI': 'SKUEV0205', 'SITETITLE_': 'Hubková'}, {'parcel_label': 'Udavské', 'NATIONALSI': 'SKUEV0895', 'SITETITLE_': 'Stredný tok Laborca'}, {'parcel_label': 'Hankovce', 'NATIONALSI': 'SKUEV0897', 'SITETITLE_': 'Belušky'}, {'parcel_label': 'Hankovce', 'NATIONALSI': 'SKUEV0895', 'SITETITLE_': 'Stredný tok Laborca'}], 'CHVU': [{'parcel_label': 'Udavské', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}, {'parcel_label': 'Hankovce', 'NATIONALSI': 'SKCHVU011', 'SITETITLE_': 'Laborecká vrchovina'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Humenné/578576/analysis.json...
+
+--- Časy spracovania dokumentu 578576 ---
+  download_and_text   : 124.31 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.11 s
+  gis_processing      :   3.76 s
+  CELKOVÝ ČAS         : 143.19 s
+------------------------------------------
+Dokument 578576 bol úspešne spracovaný.

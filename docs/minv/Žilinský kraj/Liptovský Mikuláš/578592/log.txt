@@ -1,0 +1,68 @@
+[2026-10-23 20:57:44] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/578592'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/578592/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 2 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0002608}
+LLM_tokens: {"input": 592, "output": 633, "total": 1225, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/578592/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'Vám oznamujeme, že naša organizácia bude vykonávat od 01.11.2026 do 29.2.2028 výrub stromov v prietočnom profile toku Demänovka rkm 0,582 k. ú. Palúdz'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '8' zákona 'Vám oznamujeme, že naša organizácia bude vykonávat od 01.11.2026 do 29.2.2028 výrub stromov v prietočnom profile toku Demänovka rkm 0,582 k. ú. Palúdz'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 48' zákona 'vodného zákona č. 364/2004 Z. z. v znení platných predpisov.  Očakávame stanovisko v zmysle zákona o ochrane prírody Z.z. 543/2002'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 49' zákona 'vodného zákona č. 364/2004 Z. z. v znení platných predpisov.  Očakávame stanovisko v zmysle zákona o ochrane prírody Z.z. 543/2002'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§47 odsek 8' zákona ''.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.015811000000000002}
+LLM_tokens: {"input": 4502, "output": 4520, "total": 9022, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/578592/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/578592/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Liptovský Mikuláš', 'katastralne_uzemia': [{'nazov': 'Palúdzka', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'tok Demänovka rkm 0,582', 'nazov_lokality_norm': 'Demänovka'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Liptovský Mikuláš', 'obec': 'Liptovský Mikuláš', 'katastralne_uzemia': [{'nazov': 'Palúdzka', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'tok Demänovka rkm 0,582', 'nazov_lokality_norm': 'Demänovka'}
+ku_name:Palúdzka obec:Liptovský Mikuláš okres:Liptovský Mikuláš kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: liptovsky mikulas norm_obec: liptovsky mikulas norm_ku: paludzka
+_get_nationalCadastralZoningReferences() found_ids: {'832766'}
+nationalCadastralZoningReferences: ['832766']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.38 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Demänovka
+get_geometry_of_a_geoname nazov_lokality: Demänovka
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Liptovský Mikuláš, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Liptovský Mikuláš, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilinský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.0635179, 'lon': 19.5863742, 'formatted_address': 'Demänová, 031 01 Liptovský Mikuláš, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 031 01 Liptovský Mikuláš, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.57417 49.09742, 19.57432 49...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/578592/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Liptovský Mikuláš/578592/analysis.json...
+
+--- Časy spracovania dokumentu 578592 ---
+  download_and_text   :   5.77 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  17.36 s
+  gis_processing      :   1.66 s
+  CELKOVÝ ČAS         :  24.79 s
+------------------------------------------
+Dokument 578592 bol úspešne spracovaný.

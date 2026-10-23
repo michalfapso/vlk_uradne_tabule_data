@@ -1,0 +1,84 @@
+[2026-10-23 20:55:03] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/578611'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/578611/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/578611/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm. b)' zákona 'v spojení s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§43' zákona '251/2012 Z. z. o energetike). Výrub -'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/578611/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010949}
+LLM_tokens: {"input": 5146, "output": 2792, "total": 7938, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/578611/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/578611/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lúky', 'katastralne_uzemia': [{'nazov': 'Lúky', 'parcely': []}, {'nazov': 'Lysá pod Makytou', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo/pod elektrickým vedením 22kV VN I.č. 204 k60 Lúky, smer Lysá pod Makytou - Beňadín', 'nazov_lokality_norm': 'Lúky, Lysá pod Makytou, Beňadín'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Púchov', 'obec': 'Lúky', 'katastralne_uzemia': [{'nazov': 'Lúky', 'parcely': []}, {'nazov': 'Lysá pod Makytou', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo/pod elektrickým vedením 22kV VN I.č. 204 k60 Lúky, smer Lysá pod Makytou - Beňadín', 'nazov_lokality_norm': 'Lúky, Lysá pod Makytou, Beňadín'}
+ku_name:Lúky obec:Lúky okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: luky norm_ku: luky
+_get_nationalCadastralZoningReferences() found_ids: {'834211'}
+nationalCadastralZoningReferences: ['834211']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.35 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Lysá pod Makytou obec:Lúky okres:Púchov kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: luky norm_ku: lysa pod makytou
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: puchov norm_obec: None norm_ku: lysa pod makytou
+_get_nationalCadastralZoningReferences() found_ids: {'834483'}
+nationalCadastralZoningReferences: ['834483']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Lúky, Lysá pod Makytou, Beňadín
+get_geometry_of_a_geoname nazov_lokality: Lúky, Lysá pod Makytou, Beňadín
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Lysá pod Makytou, Beňadín, Lúky, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Lysá pod Makytou, Beňadín, Púchov, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Lysá pod Makytou, Beňadín, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Lysá pod Makytou, Beňadín, Slovensko
+response: <Response [200]>
+normalized: {'lat': 49.236048, 'lon': 18.1639233, 'formatted_address': 'Beňadín, 020 54 Lysá pod Makytou, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 020 54 Lysá pod Makytou, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.16043 49.2443, 18.16078 49.2442, ...  ...  Františkánska pustovňa Beňadín, 1935, Lysá pod...
+
+[1 rows x 11 columns]
+geoname_query: Beňadín, 020 54 Lysá pod Makytou, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.23942 49.20765, 18.23917 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.16538 49.25798, 18.16574 49...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.16043 49.2443, 18.16078 49.2442, ...  ...  Františkánska pustovňa Beňadín, 1935, Lysá pod...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/578611/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Púchov/578611/analysis.json...
+
+--- Časy spracovania dokumentu 578611 ---
+  download_and_text   :   2.20 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  11.03 s
+  gis_processing      :   3.03 s
+  CELKOVÝ ČAS         :  16.27 s
+------------------------------------------
+Dokument 578611 bol úspešne spracovaný.

@@ -1,0 +1,55 @@
+[2026-10-23 20:48:24] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578615'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578615/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578615/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 52 ods. 1 písm. f)' zákona '364/2004 Z.  z. o vodách a o zmene a doplnení niektorých zákonov v znení neskorších  predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 53 písm. a)' zákona '364/2004 Z.  z. o vodách a o zmene a doplnení niektorých zákonov v znení neskorších  predpisov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578615/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012029}
+LLM_tokens: {"input": 4660, "output": 3233, "total": 7893, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 59 column 1 (char 1417)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0071075}
+LLM_tokens: {"input": 4660, "output": 1894, "total": 6554, "cached": 2010}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578615/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578615/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Závod', 'katastralne_uzemia': [{'nazov': 'Závod', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Malacky', 'obec': 'Závod', 'katastralne_uzemia': [{'nazov': 'Závod', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Závod obec:Závod okres:Malacky kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: malacky norm_obec: zavod norm_ku: zavod
+_get_nationalCadastralZoningReferences() found_ids: {'872679'}
+nationalCadastralZoningReferences: ['872679']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 1.02 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.05276 48.56378, 17.05323 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578615/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Závod', 'NATIONALSI': 'SKUEV0125', 'SITETITLE_': 'Gajarské alúvium Moravy'}, {'parcel_label': 'Závod', 'NATIONALSI': 'SKUEV0166', 'SITETITLE_': 'Ciglát'}], 'MCHU': [{'parcel_label': 'Závod', 'NATIONALSI': '1075', 'SITETITLE_': 'CHA Jazerinky'}], 'CHVU': [{'parcel_label': 'Závod', 'NATIONALSI': 'SKCHVU016', 'SITETITLE_': 'Záhorské Pomoravie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Malacky/578615/analysis.json...
+
+--- Časy spracovania dokumentu 578615 ---
+  download_and_text   :   1.43 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  20.34 s
+  gis_processing      :   1.35 s
+  CELKOVÝ ČAS         :  23.14 s
+------------------------------------------
+Dokument 578615 bol úspešne spracovaný.

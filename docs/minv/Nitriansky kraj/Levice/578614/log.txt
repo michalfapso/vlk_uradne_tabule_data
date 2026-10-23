@@ -1,0 +1,63 @@
+[2026-10-23 20:50:55] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/578614'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/578614/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/578614/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§47 ods. 7' zákona 'koná v súlade  s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 8  písm. a) až c)' zákona '. Podľa ust'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 81 ods. 2 písm. m)' zákona 'sa všeobecné predpisy o správnom konaní'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 8' zákona '.                    PhDr. Andrea Kabátová  vedúca odboru                odbor starostlivosti o životné prostredie  Rozmarínová ul. 4, 934 01  Levice'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/578614/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008931999999999999}
+LLM_tokens: {"input": 4904, "output": 2160, "total": 7064, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/578614/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/578614/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Dolný Pial', 'katastralne_uzemia': [{'nazov': 'Dolný Pial', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 110kV vedenia V8745/8747', 'nazov_lokality_norm': 'V8745/8747'}
+data: {'kraj': 'Nitriansky kraj', 'okres': 'Levice', 'obec': 'Dolný Pial', 'katastralne_uzemia': [{'nazov': 'Dolný Pial', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásmo 110kV vedenia V8745/8747', 'nazov_lokality_norm': 'V8745/8747'}
+ku_name:Dolný Pial obec:Dolný Pial okres:Levice kraj:Nitriansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: nitriansky norm_okres: levice norm_obec: dolny pial norm_ku: dolny pial
+_get_nationalCadastralZoningReferences() found_ids: {'812544'}
+nationalCadastralZoningReferences: ['812544']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.37 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: V8745/8747
+get_geometry_of_a_geoname nazov_lokality: V8745/8747
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Dolný Pial, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Levice, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Nitriansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.1313987, 'lon': 18.4619925, 'formatted_address': '935 37 Dolný Pial, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 37 Dolný Pial, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.47011 48.15013, 18.47129 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/578614/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Levice/578614/analysis.json...
+
+--- Časy spracovania dokumentu 578614 ---
+  download_and_text   :   1.22 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   8.62 s
+  gis_processing      :   3.33 s
+  CELKOVÝ ČAS         :  13.18 s
+------------------------------------------
+Dokument 578614 bol úspešne spracovaný.

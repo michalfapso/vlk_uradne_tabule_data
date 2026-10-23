@@ -1,0 +1,89 @@
+{
+  "cislo_konania_spisu": "OU-MA-OSZP/2026/039995",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-23",
+  "datum_zverejnenia": "2026-10-23",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": "5 dní"
+  },
+  "ziadatel_navrhovatel": "HYDROMELIORÁCIE, š. p.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Malacky",
+    "obec": "Závod",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Závod",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47 ods. 7"
+      ]
+    },
+    {
+      "nazov": "zákon o vodách",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "52 ods. 1 písm. f)",
+        "53 písm. a)"
+      ]
+    }
+  ],
+  "zhrnutie": "Spoločnosť HYDROMELIORÁCIE, š. p. oznámila plánovaný výrub drevín v katastrálnom území Závod. Výrub sa realizuje z dôvodov podľa zákona o vodách a oznámenie je zverejnené na dobu 5 dní. V dokumente nie je špecifikovaný presný rozsah výrubu ani konkrétna lokalita v rámci k.ú.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Závod",
+          "NATIONALSI": "SKUEV0125",
+          "SITETITLE_": "Gajarské alúvium Moravy"
+        },
+        {
+          "parcel_label": "Závod",
+          "NATIONALSI": "SKUEV0166",
+          "SITETITLE_": "Ciglát"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Závod",
+          "NATIONALSI": "1075",
+          "SITETITLE_": "CHA Jazerinky"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Závod",
+          "NATIONALSI": "SKCHVU016",
+          "SITETITLE_": "Záhorské Pomoravie"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

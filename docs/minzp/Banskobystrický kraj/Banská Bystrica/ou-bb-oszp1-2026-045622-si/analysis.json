@@ -1,0 +1,77 @@
+{
+  "cislo_konania_spisu": "ou-bb-oszp1-2026-045622-si",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-23",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Kriváň, Mýtna",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "R2 Kriváň - Mýtna, prístupové cesty k mostným pilierom",
+    "nazov_lokality_norm": "R2 Kriváň - Mýtna"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie súhlasu",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE"
+  ],
+  "typ_zasahu": [
+    "umiestnenie stavby",
+    "prístupové cesty k mostným pilierom"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "4. stupeň",
+    "Štvrtý stupeň ochrany"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "15 ods. 2 písm. c)",
+        "82 ods. 3",
+        "2 ods. 1",
+        "82 ods. 6"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19",
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o podaní žiadosti na vydanie súhlasu pre stavbu prístupových ciest k mostným pilierom na úseku R2 Kriváň - Mýtna. Zásah sa nachádza v území so štvrtým stupňom ochrany prírody. Verejnosť môže oznámiť svoju účasť v konaní do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "MCHU": [
+        {
+          "parcel_label": "Mýtna",
+          "NATIONALSI": "1067",
+          "SITETITLE_": "PP Krivánsky potok"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Kriváň",
+          "NATIONALSI": "SKCHVU022",
+          "SITETITLE_": "Poľana"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

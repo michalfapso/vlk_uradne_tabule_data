@@ -1,0 +1,73 @@
+{
+  "cislo_konania_spisu": "OU-SA-OSZP-2026/009131-2",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-10-20",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Šaľa",
+    "obec": "Trnovec nad Váhom",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trnovec nad Váhom",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "700/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "križovatka ulíc Športová, Športová v obci Trnovec nad Váhom",
+    "nazov_lokality_norm": "Športová, Trnovec nad Váhom"
+  },
+  "typ_dokumentu": "Zverejnenie informácie o začatí správneho konania",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín rastúcich mimo les",
+    "výrub 3 ks Smrek obyčajný",
+    "výrub 2 ks Smrek pichľavý"
+  ],
+  "rozsah_zasahu": "5 ks stromov (3x Smrek obyčajný, 2x Smrek pichľavý)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "Smrek obyčajný",
+    "Smrek pichľavý"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967",
+      "paragrafy": [
+        "19"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o výrub 5 smrekov v intraviláne obce Trnovec nad Váhom na ulici Športová. Dôvodom je ohrozenie rodinného domu a oplotenia kvôli zlému stavu a veľkosti stromov. Konanie sa nachádza v počiatočnej fáze s lehotou na prihlásenie 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

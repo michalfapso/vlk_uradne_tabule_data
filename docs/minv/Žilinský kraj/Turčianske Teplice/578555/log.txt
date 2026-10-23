@@ -1,0 +1,227 @@
+[2026-10-23 20:59:13] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578555'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578555/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578555/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 14' zákona '135/1961 Zb.  o pozemných komunikáciách'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578555/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.015194000000000001}
+LLM_tokens: {"input": 5128, "output": 4210, "total": 9338, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578555/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578555/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Turčianske Teplice', 'obec': 'Turčianske Teplice', 'katastralne_uzemia': [{'nazov': 'Jasenovo', 'parcely': []}, {'nazov': 'Moškovec', 'parcely': []}, {'nazov': 'Turčiansky Michal', 'parcely': []}, {'nazov': 'Mošovce', 'parcely': []}, {'nazov': 'Sklené', 'parcely': []}, {'nazov': 'Čremošné', 'parcely': []}, {'nazov': 'Jazernica', 'parcely': []}, {'nazov': 'Bodorová', 'parcely': []}, {'nazov': 'Malý Čepčín', 'parcely': []}, {'nazov': 'Veľký Čepčín', 'parcely': []}, {'nazov': 'Ivančiná', 'parcely': []}, {'nazov': 'Diviaky', 'parcely': []}, {'nazov': 'Budiš', 'parcely': []}, {'nazov': 'Blážovce', 'parcely': []}, {'nazov': 'Kaľamenová', 'parcely': []}, {'nazov': 'Brieštie', 'parcely': []}, {'nazov': 'Láclavá', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pri cestách II. a III. triedy v okrese Turčianske Teplice', 'nazov_lokality_norm': 'Turčianske Teplice'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Turčianske Teplice', 'obec': 'Turčianske Teplice', 'katastralne_uzemia': [{'nazov': 'Jasenovo', 'parcely': []}, {'nazov': 'Moškovec', 'parcely': []}, {'nazov': 'Turčiansky Michal', 'parcely': []}, {'nazov': 'Mošovce', 'parcely': []}, {'nazov': 'Sklené', 'parcely': []}, {'nazov': 'Čremošné', 'parcely': []}, {'nazov': 'Jazernica', 'parcely': []}, {'nazov': 'Bodorová', 'parcely': []}, {'nazov': 'Malý Čepčín', 'parcely': []}, {'nazov': 'Veľký Čepčín', 'parcely': []}, {'nazov': 'Ivančiná', 'parcely': []}, {'nazov': 'Diviaky', 'parcely': []}, {'nazov': 'Budiš', 'parcely': []}, {'nazov': 'Blážovce', 'parcely': []}, {'nazov': 'Kaľamenová', 'parcely': []}, {'nazov': 'Brieštie', 'parcely': []}, {'nazov': 'Láclavá', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pri cestách II. a III. triedy v okrese Turčianske Teplice', 'nazov_lokality_norm': 'Turčianske Teplice'}
+ku_name:Jasenovo obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: jasenovo
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: jasenovo
+_get_nationalCadastralZoningReferences() found_ids: {'822396'}
+nationalCadastralZoningReferences: ['822396']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.41 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Moškovec obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: moskovec
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: moskovec
+_get_nationalCadastralZoningReferences() found_ids: {'838560'}
+nationalCadastralZoningReferences: ['838560']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Turčiansky Michal obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: turciansky michal
+_get_nationalCadastralZoningReferences() found_ids: {'865923'}
+nationalCadastralZoningReferences: ['865923']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Mošovce obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: mosovce
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: mosovce
+_get_nationalCadastralZoningReferences() found_ids: {'838578'}
+nationalCadastralZoningReferences: ['838578']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Sklené obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: sklene
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: sklene
+_get_nationalCadastralZoningReferences() found_ids: {'855863'}
+nationalCadastralZoningReferences: ['855863']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.42 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Čremošné obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: cremosne
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: cremosne
+_get_nationalCadastralZoningReferences() found_ids: {'809951'}
+nationalCadastralZoningReferences: ['809951']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Jazernica obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: jazernica
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: jazernica
+_get_nationalCadastralZoningReferences() found_ids: {'822566'}
+nationalCadastralZoningReferences: ['822566']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Bodorová obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: bodorova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: bodorova
+_get_nationalCadastralZoningReferences() found_ids: {'803308'}
+nationalCadastralZoningReferences: ['803308']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Malý Čepčín obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: maly cepcin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: maly cepcin
+_get_nationalCadastralZoningReferences() found_ids: {'835846'}
+nationalCadastralZoningReferences: ['835846']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.31 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Veľký Čepčín obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: velky cepcin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: velky cepcin
+_get_nationalCadastralZoningReferences() found_ids: {'868922'}
+nationalCadastralZoningReferences: ['868922']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Ivančiná obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: ivancina
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: ivancina
+_get_nationalCadastralZoningReferences() found_ids: {'821411'}
+nationalCadastralZoningReferences: ['821411']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Diviaky obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: diviaky
+_get_nationalCadastralZoningReferences() found_ids: {'810746'}
+nationalCadastralZoningReferences: ['810746']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.35 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Budiš obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: budis
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: budis
+_get_nationalCadastralZoningReferences() found_ids: {'807222'}
+nationalCadastralZoningReferences: ['807222']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Blážovce obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: blazovce
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: blazovce
+_get_nationalCadastralZoningReferences() found_ids: {'803146'}
+nationalCadastralZoningReferences: ['803146']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.33 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Kaľamenová obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: kalamenova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: kalamenova
+_get_nationalCadastralZoningReferences() found_ids: {'822973'}
+nationalCadastralZoningReferences: ['822973']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.41 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Brieštie obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: briestie
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: briestie
+_get_nationalCadastralZoningReferences() found_ids: {'806935'}
+nationalCadastralZoningReferences: ['806935']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Láclavá obec:Turčianske Teplice okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: turcianske teplice norm_ku: laclava
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: laclava
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: laclava
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: None norm_ku: laclava
+Fuzzy match found: 'Láclavá' -> 'Kaľava' (ID: 822990)
+nationalCadastralZoningReferences: ['822990']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.36 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Turčianske Teplice
+get_geometry_of_a_geoname nazov_lokality: Turčianske Teplice
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Teplice, Turčianske Teplice, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.80892 48.85468, 18.80895 48.85462...  ...  Turčianske Teplice, okres Turčianske Teplice, ...
+1  POLYGON ((18.80892 48.85468, 18.80895 48.85462...  ...  Turčianske Teplice, okres Turčianske Teplice, ...
+
+[2 rows x 11 columns]
+geoname_query: Turčianske Teplice, Turčianske Teplice, Slovensko
+gdf_parcelset:        @featureType  ...                                           geometry
+0   CadastralZoning  ...  MULTIPOLYGON (((18.7081 48.89531, 18.7082 48.8...
+1   CadastralZoning  ...  MULTIPOLYGON (((18.83015 48.95189, 18.83055 48...
+2   CadastralZoning  ...  MULTIPOLYGON (((18.86924 48.90033, 18.86931 48...
+3   CadastralZoning  ...  MULTIPOLYGON (((18.87255 48.93851, 18.87259 48...
+4   CadastralZoning  ...  MULTIPOLYGON (((18.81875 48.83034, 18.81871 48...
+5   CadastralZoning  ...  MULTIPOLYGON (((18.9109 48.85225, 18.91134 48....
+6   CadastralZoning  ...  MULTIPOLYGON (((18.83416 48.93328, 18.83427 48...
+7   CadastralZoning  ...  MULTIPOLYGON (((18.86903 48.91256, 18.87087 48...
+8   CadastralZoning  ...  MULTIPOLYGON (((18.83539 48.91233, 18.83563 48...
+9   CadastralZoning  ...  MULTIPOLYGON (((18.79665 48.90132, 18.79674 48...
+10  CadastralZoning  ...  MULTIPOLYGON (((18.8337 48.91933, 18.83394 48....
+11  CadastralZoning  ...  MULTIPOLYGON (((18.84751 48.89652, 18.84775 48...
+12  CadastralZoning  ...  MULTIPOLYGON (((18.75338 48.8755, 18.75427 48....
+13  CadastralZoning  ...  MULTIPOLYGON (((18.84976 48.9496, 18.85027 48....
+14  CadastralZoning  ...  MULTIPOLYGON (((18.79364 48.90311, 18.79378 48...
+15  CadastralZoning  ...  MULTIPOLYGON (((18.72868 48.94001, 18.72884 48...
+16  CadastralZoning  ...  MULTIPOLYGON (((20.85014 48.94859, 20.85019 48...
+
+[17 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((18.80892 48.85468, 18.80895 48.85462...  ...  Turčianske Teplice, okres Turčianske Teplice, ...
+1  POLYGON ((18.80892 48.85468, 18.80895 48.85462...  ...  Turčianske Teplice, okres Turčianske Teplice, ...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578555/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578555/analysis.json...
+
+--- Časy spracovania dokumentu 578555 ---
+  download_and_text   :   1.01 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  16.79 s
+  gis_processing      :   6.92 s
+  CELKOVÝ ČAS         :  24.73 s
+------------------------------------------
+Dokument 578555 bol úspešne spracovaný.

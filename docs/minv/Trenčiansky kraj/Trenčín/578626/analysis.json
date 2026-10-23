@@ -1,0 +1,66 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-22",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do 5 pracovných dní od zverejnenia tohto oznámenia"
+  },
+  "ziadatel_navrhovatel": "SIAG Fachmarktzentren, s.r.o.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Trenčín",
+    "obec": "Trenčín",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Trenčianske Biskupice",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "468/417"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "Trenčianske Biskupice",
+    "nazov_lokality_norm": "Trenčianske Biskupice"
+  },
+  "typ_dokumentu": "Upovedomenie o začatí správneho konania na vydanie súhlasu na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "výrub 7 ks dreviny druhu čerešňa",
+    "výrub 5 ks dreviny neidentifikovaného druhu"
+  ],
+  "rozsah_zasahu": "12 ks drevín (7 čerešní, 5 neidentifikovaných)",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [
+    "čerešňa"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "82",
+        "47"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o výrub 12 kusov drevín (7 čerešní a 5 neidentifikovaných) v katastrálnom území Trenčianske Biskupice na parcele C-KN 468/417. Výrub sa má realizovať mimo zastavaného územia obce z dôvodu vyschnutia drevín a bezpečnosti dopravy. Konanie sa začalo 22.10.2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

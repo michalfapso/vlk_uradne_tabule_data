@@ -1,0 +1,54 @@
+[2026-10-23 20:58:54] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578553'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578553/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578553/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578553/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.010636}
+LLM_tokens: {"input": 5144, "output": 2688, "total": 7832, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578553/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578553/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Turčianske Teplice', 'obec': 'Dolný Turček', 'katastralne_uzemia': [{'nazov': 'Dolný Turček', 'parcely': [{'typ': 'C', 'cisla': ['306']}]}, {'nazov': 'Horný Turček', 'parcely': [{'typ': 'C', 'cisla': ['684/2']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'traťový úsek žst. Kremnické Bane – Horná Štubňa', 'nazov_lokality_norm': 'Kremnické Bane – Horná Štubňa'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Turčianske Teplice', 'obec': 'Dolný Turček', 'katastralne_uzemia': [{'nazov': 'Dolný Turček', 'parcely': [{'typ': 'C', 'cisla': ['306']}]}, {'nazov': 'Horný Turček', 'parcely': [{'typ': 'C', 'cisla': ['684/2']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'traťový úsek žst. Kremnické Bane – Horná Štubňa', 'nazov_lokality_norm': 'Kremnické Bane – Horná Štubňa'}
+ku_name:Dolný Turček obec:Dolný Turček okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: dolny turcek norm_ku: dolny turcek
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: dolny turcek
+_get_nationalCadastralZoningReferences() found_ids: {'865826'}
+nationalCadastralZoningReferences: ['865826']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.17 s
+ku_name:Horný Turček obec:Dolný Turček okres:Turčianske Teplice kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: dolny turcek norm_ku: horny turcek
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: turcianske teplice norm_obec: None norm_ku: horny turcek
+_get_nationalCadastralZoningReferences() found_ids: {'865834'}
+nationalCadastralZoningReferences: ['865834']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.33 s
+nazov_lokality: Kremnické Bane – Horná Štubňa
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2569'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2569'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578553/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Turčianske Teplice/578553/analysis.json...
+
+--- Časy spracovania dokumentu 578553 ---
+  download_and_text   :   1.27 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.50 s
+  gis_processing      :   6.74 s
+  CELKOVÝ ČAS         :  18.52 s
+------------------------------------------
+Dokument 578553 bol úspešne spracovaný.
