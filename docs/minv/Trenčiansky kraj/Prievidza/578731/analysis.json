@@ -1,0 +1,95 @@
+{
+  "cislo_konania_spisu": null,
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-23",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Pavol Ciern - FUCHSFARM",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Prievidza",
+    "obec": "Valaská Belá, Čierna Lehota",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Valaská Belá",
+        "parcely": []
+      },
+      {
+        "nazov": "Čierna Lehota",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "VN vedenie č. 259",
+    "nazov_lokality_norm": "vedenie 259"
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "odstránenie a oklieštenie stromov a iných porastov"
+  ],
+  "rozsah_zasahu": "porast pod vedením VN č. 259",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "Zákon o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube a oklieštení drevín v ochrannom pásme vysokonapäťového vedenia č. 259 v katastroch Valaská Belá a Čierna Lehota. Účelom je zabezpečenie prevádzkyschopnosti vedenia, pričom práce majú prebiehať od novembra do januára.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Valaská Belá",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "SKUEV0275",
+          "SITETITLE_": "Kňaží stôl"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "1133",
+          "SITETITLE_": "PR Rysia"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Valaská Belá",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

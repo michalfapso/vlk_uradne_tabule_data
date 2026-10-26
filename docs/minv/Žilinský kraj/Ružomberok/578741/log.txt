@@ -1,0 +1,58 @@
+[2026-10-26 22:11:33] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578741'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578741/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578741/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'Vás upovedomujeme o začatom správnom  konaní, v ktorom môžu byť dotknuté záujmy ochrany prírody a krajiny.       Podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'je orgán ochrany prírody  povinný zverejniť na svojej internetovej  stránke informáciu o začatí každého správneho konania, v ktorom môžu byť dotknuté'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 8' zákona ', a to najneskôr do  troch pracovných dní od začatia konania; súčasťou uvedenej informácie je údaj o lehote, ktorú určil na  doručenie potvrdenia záuj'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods.3' zákona ', ktorá nesmie byť kratšia ako päť pracovných dní od zverejnenia informácie.         Združenie s právnou subjektivitou, ktorého predmetom činnosti naj'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 6' zákona ', je  zúčastnenou osobou konania, ak spôsobom podľa osobitného predpisu potvrdilo svoj záujem byť  zúčastnenou osobou v začatom správnom konaní; potvr'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona '.       Potvrdenie záujmu byť zúčastnenou osobou v konkrétnom správnom konaní je potrebné doručiť  príslušnému orgánu ochrany prírody nasledovným spôs'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578741/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008655}
+LLM_tokens: {"input": 5124, "output": 2031, "total": 7155, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578741/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578741/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Ružomberok', 'katastralne_uzemia': [{'nazov': 'Ružomberok', 'parcely': [{'typ': 'C', 'cisla': ['14963/1']}, {'typ': 'E', 'cisla': ['6718/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Malá Smrekovica', 'nazov_lokality_norm': 'Malá Smrekovica'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Ružomberok', 'katastralne_uzemia': [{'nazov': 'Ružomberok', 'parcely': [{'typ': 'C', 'cisla': ['14963/1']}, {'typ': 'E', 'cisla': ['6718/1']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'Malá Smrekovica', 'nazov_lokality_norm': 'Malá Smrekovica'}
+ku_name:Ružomberok obec:Ružomberok okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: ruzomberok norm_ku: ruzomberok
+_get_nationalCadastralZoningReferences() found_ids: {'853801'}
+nationalCadastralZoningReferences: ['853801']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.28 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.02 s
+nazov_lokality: Malá Smrekovica
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.500'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.500'}
+
+[2 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578741/gis.geojson...
+Intersections with protected areas...
+Found 8 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 2 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': '6718/1', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': '6718/1', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': '6718/1', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': '6718/1', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': '6718/1', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': '6718/1', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': '6718/1', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': '6718/1', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}], 'UEV': [{'parcel_label': '14963/1', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '6718/1', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}], 'MCHU': [{'parcel_label': '6718/1', 'NATIONALSI': '350', 'SITETITLE_': 'PP Matejkovský kamenný prúd'}], 'CHVU': [{'parcel_label': '14963/1', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': '6718/1', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578741/analysis.json...
+
+--- Časy spracovania dokumentu 578741 ---
+  download_and_text   :   1.19 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   7.39 s
+  gis_processing      :   6.53 s
+  CELKOVÝ ČAS         :  15.11 s
+------------------------------------------
+Dokument 578741 bol úspešne spracovaný.

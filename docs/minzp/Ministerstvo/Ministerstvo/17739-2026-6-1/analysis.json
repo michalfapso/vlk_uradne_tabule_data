@@ -1,0 +1,84 @@
+{
+  "cislo_konania_spisu": "17739/2026-6.1",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-26",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Bc. Jaroslav Slašťan",
+  "miesto_realizacie": {
+    "kraj": null,
+    "okres": null,
+    "obec": "Kremnica",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": true,
+    "nazov_lokality": "Dolná 51/25",
+    "nazov_lokality_norm": "Dolná, Kremnica"
+  },
+  "typ_dokumentu": "Informácia o začatom správnom konaní",
+  "kategorie_vlk": [
+    "ZIVOCICHY_USMRCOVANIE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "výnimka zo zakázaných činností na držbu a prepravu neživého jedinca chráneného živočícha"
+  ],
+  "rozsah_zasahu": "držba a preprava 1 neživého jedinca (medveď hnedý)",
+  "typ_uzemia": [],
+  "je_v_chranenom_uzemi": false,
+  "dotknute_zivocichy_rastliny": [
+    "medveď hnedý"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [],
+  "zhrnutie": "Žiadosť o výnimku na držbu a prepravu neživého jedinca medveďa hnedého, ktorú podal Bc. Jaroslav Slašťan. Konanie prebieha na Ministerstve životného prostredia SR a verejnosť môže oznámiť svoju účasť do 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Kremnica",
+          "NAZOV_UEV": "Horná skala",
+          "KOD_UEV": "SKUEV0858"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Kremnica",
+          "NATIONALSI": "SKUEV0858",
+          "SITETITLE_": "Horná skala"
+        },
+        {
+          "parcel_label": "Kremnica",
+          "NATIONALSI": "SKUEV0640",
+          "SITETITLE_": "Bujačia lúka"
+        },
+        {
+          "parcel_label": "Kremnica",
+          "NATIONALSI": "SKUEV0893",
+          "SITETITLE_": "Kunešovské lúky"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Kremnica",
+          "NATIONALSI": "322",
+          "SITETITLE_": "PR Kremnický Štós"
+        },
+        {
+          "parcel_label": "Kremnica",
+          "NATIONALSI": "230",
+          "SITETITLE_": "PR Bujačia lúka"
+        },
+        {
+          "parcel_label": "Kremnica",
+          "NATIONALSI": "1300",
+          "SITETITLE_": "PR Pralesy Slovenska-Horná skala"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

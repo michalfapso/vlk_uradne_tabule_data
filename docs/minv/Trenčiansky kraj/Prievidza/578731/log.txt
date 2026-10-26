@@ -1,0 +1,97 @@
+[2026-10-26 22:10:43] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/578731'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/578731/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/578731/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1' zákona 'drzitel' tohto poverenia moze vo verejnom zaujme: a) Pri doddani podmienok ochrany zivotneho prostredia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 47 ods. 7' zákona 'Zakona 0 ochrane prirody omamujeme, ze planujeme'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11' zákona ''.
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013774}
+LLM_tokens: {"input": 4604, "output": 3824, "total": 8428, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/578731/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/578731/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Valaská Belá, Čierna Lehota', 'katastralne_uzemia': [{'nazov': 'Valaská Belá', 'parcely': []}, {'nazov': 'Čierna Lehota', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'VN vedenie č. 259', 'nazov_lokality_norm': 'vedenie 259'}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Prievidza', 'obec': 'Valaská Belá, Čierna Lehota', 'katastralne_uzemia': [{'nazov': 'Valaská Belá', 'parcely': []}, {'nazov': 'Čierna Lehota', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'VN vedenie č. 259', 'nazov_lokality_norm': 'vedenie 259'}
+ku_name:Valaská Belá obec:Valaská Belá, Čierna Lehota okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: valaska bela norm_ku: valaska bela
+_get_nationalCadastralZoningReferences() found_ids: {'867195'}
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: cierna lehota norm_ku: valaska bela
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: valaska bela
+_get_nationalCadastralZoningReferences() found_ids: {'867195'}
+nationalCadastralZoningReferences: ['867195']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.63 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Čierna Lehota obec:Valaská Belá, Čierna Lehota okres:Prievidza kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: valaska bela norm_ku: cierna lehota
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: cierna lehota
+Fuzzy match found: 'Čierna Lehota' -> 'Nová Lehota' (ID: 841803)
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: cierna lehota norm_ku: cierna lehota
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: prievidza norm_obec: None norm_ku: cierna lehota
+Fuzzy match found: 'Čierna Lehota' -> 'Nová Lehota' (ID: 841803)
+nationalCadastralZoningReferences: ['841803']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.34 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: vedenie 259
+get_geometry_of_a_geoname nazov_lokality: vedenie 259
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 259, Valaská Belá, Čierna Lehota, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 259, Prievidza, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 259, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 259, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.8669879, 'lon': 18.3333849, 'formatted_address': '956 53 Čierna Lehota, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 53 Čierna Lehota, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.18122 48.741, 20.18142 48.74055, ...  ...  Čierna Lehota, okres Rožňava, Košický kraj, Sl...
+1  POLYGON ((18.30206 48.87841, 18.30311 48.87667...  ...  Čierna Lehota, okres Bánovce nad Bebravou, Tre...
+
+[2 rows x 11 columns]
+geoname_query: 956 53 Čierna Lehota, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.37286 48.93851, 18.37337 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((18.6903 48.69533, 18.69095 48....
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.18122 48.741, 20.18142 48.74055, ...  ...  Čierna Lehota, okres Rožňava, Košický kraj, Sl...
+1  POLYGON ((18.30206 48.87841, 18.30311 48.87667...  ...  Čierna Lehota, okres Bánovce nad Bebravou, Tre...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/578731/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with '5st_konsUEV'.
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Valaská Belá', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}], 'UEV': [{'parcel_label': 'Valaská Belá', 'NATIONALSI': 'SKUEV0275', 'SITETITLE_': 'Kňaží stôl'}], 'MCHU': [{'parcel_label': 'Valaská Belá', 'NATIONALSI': '1133', 'SITETITLE_': 'PR Rysia'}], 'CHVU': [{'parcel_label': 'Valaská Belá', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Prievidza/578731/analysis.json...
+
+--- Časy spracovania dokumentu 578731 ---
+  download_and_text   :   3.66 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  15.12 s
+  gis_processing      :   4.32 s
+  CELKOVÝ ČAS         :  23.11 s
+------------------------------------------
+Dokument 578731 bol úspešne spracovaný.

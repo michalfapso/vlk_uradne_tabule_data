@@ -1,0 +1,67 @@
+[2026-10-26 22:11:20] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578758'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578758/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578758/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578758/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0113565}
+LLM_tokens: {"input": 4593, "output": 3020, "total": 7613, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578758/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578758/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Likavka', 'katastralne_uzemia': [{'nazov': 'Likavka', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok rieky Likavka, rkm 2,200 - 2,300', 'nazov_lokality_norm': 'Likavka'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Ružomberok', 'obec': 'Likavka', 'katastralne_uzemia': [{'nazov': 'Likavka', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'tok rieky Likavka, rkm 2,200 - 2,300', 'nazov_lokality_norm': 'Likavka'}
+ku_name:Likavka obec:Likavka okres:Ružomberok kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: ruzomberok norm_obec: likavka norm_ku: likavka
+_get_nationalCadastralZoningReferences() found_ids: {'832171'}
+nationalCadastralZoningReferences: ['832171']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.54 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Likavka
+get_geometry_of_a_geoname nazov_lokality: Likavka
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Likavka, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.26821 49.11243, 19.26837 49.11187...  ...  Likavka, okres Ružomberok, Žilinský kraj, 034 ...
+
+[1 rows x 11 columns]
+geoname_query: Likavka, Likavka, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.33366 49.13781, 19.33435 49...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.26821 49.11243, 19.26837 49.11187...  ...  Likavka, okres Ružomberok, Žilinský kraj, 034 ...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578758/gis.geojson...
+Intersections with protected areas...
+Found 33 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}, {'parcel_label': 'Likavka', 'NAZOV_UEV': 'Choč', 'KOD_UEV': 'SKUEV0305'}], 'UEV': [{'parcel_label': 'Likavka', 'NATIONALSI': 'SKUEV0253', 'SITETITLE_': 'Váh'}, {'parcel_label': 'Likavka', 'NATIONALSI': 'SKUEV0305', 'SITETITLE_': 'Choč'}], 'MCHU': [{'parcel_label': 'Likavka', 'NATIONALSI': '275', 'SITETITLE_': 'NPR Choč'}], 'CHVU': [{'parcel_label': 'Likavka', 'NATIONALSI': 'SKCHVU050', 'SITETITLE_': 'Chočské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Žilinský kraj/Ružomberok/578758/analysis.json...
+
+--- Časy spracovania dokumentu 578758 ---
+  download_and_text   :   1.12 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  10.62 s
+  gis_processing      :   1.12 s
+  CELKOVÝ ČAS         :  12.87 s
+------------------------------------------
+Dokument 578758 bol úspešne spracovaný.

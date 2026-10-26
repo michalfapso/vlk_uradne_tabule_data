@@ -1,0 +1,53 @@
+[2026-10-26 22:06:18] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/578734'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/578734/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/578734/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0104595}
+LLM_tokens: {"input": 6015, "output": 2484, "total": 8499, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/578734/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/578734/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Zvolen', 'obec': 'Kováčová', 'katastralne_uzemia': [{'nazov': 'Kováčová', 'parcely': [{'typ': None, 'cisla': ['21', '22', '33/3', '663', '430/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Kováčová - Ul. Trávniky, Ul. Slobody', 'nazov_lokality_norm': 'Trávniky, Kováčová'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Zvolen', 'obec': 'Kováčová', 'katastralne_uzemia': [{'nazov': 'Kováčová', 'parcely': [{'typ': None, 'cisla': ['21', '22', '33/3', '663', '430/1']}]}], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Kováčová - Ul. Trávniky, Ul. Slobody', 'nazov_lokality_norm': 'Trávniky, Kováčová'}
+ku_name:Kováčová obec:Kováčová okres:Zvolen kraj:Banskobystrický kraj
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: zvolen norm_obec: kovacova norm_ku: kovacova
+_get_nationalCadastralZoningReferences() found_ids: {'827771'}
+nationalCadastralZoningReferences: ['827771']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 4.06 s
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp_uo/ogc/features/v1/collections/CP.CadastralParcelUO/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.50 s
+nazov_lokality: Trávniky, Kováčová
+gdf_parcelset:       @featureType  ...            administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.177'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.177'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.177'}
+3  CadastralParcel  ...  {'@href': '#auAdmUnitS.177'}
+4  CadastralParcel  ...  {'@href': '#auAdmUnitS.177'}
+5  CadastralParcel  ...  {'@href': '#auAdmUnitS.177'}
+6  CadastralParcel  ...  {'@href': '#auAdmUnitS.177'}
+
+[7 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/578734/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Banskobystrický kraj/Zvolen/578734/analysis.json...
+
+--- Časy spracovania dokumentu 578734 ---
+  download_and_text   :   3.76 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   9.65 s
+  gis_processing      :   7.77 s
+  CELKOVÝ ČAS         :  21.18 s
+------------------------------------------
+Dokument 578734 bol úspešne spracovaný.

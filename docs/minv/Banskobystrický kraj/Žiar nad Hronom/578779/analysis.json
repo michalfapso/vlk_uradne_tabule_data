@@ -1,0 +1,82 @@
+{
+  "cislo_konania_spisu": "OU-ZH-OSZP-2026/017651-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-22",
+  "datum_zverejnenia": "2026-10-26",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Železnice Slovenskej republiky, oblastné riaditeľstvo Zvolen",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žiar nad Hronom",
+    "obec": "Kremnické Bane, Jastrabá",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kremnické Bane",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "678"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Jastrabá",
+        "parcely": [
+          {
+            "typ": null,
+            "cisla": [
+              "2833/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "žst. Kremnické Bane – Kremnica, žst. Bartošova Lehôtka – Kremnica",
+    "nazov_lokality_norm": "Kremnické Bane – Kremnica, Bartošova Lehôtka – Kremnica"
+  },
+  "typ_dokumentu": "Informácia pre verejnosť o plánovanom výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub porastov v ochrannom pásme dráhy",
+    "výrub 2 ks drevín",
+    "výrub 20 ks drevín"
+  ],
+  "rozsah_zasahu": "2 ks smrek (obvod 120 a 160 cm) a 20 ks drevín",
+  "typ_uzemia": [
+    "ochranné pásmo dráhy"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "smrek"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o dráhach",
+      "cislo": "513/2009 Z. z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Železnice SR oznámili plánovaný výrub 22 kusov drevín (vrátane dvoch smrekov) v ochrannom pásme dráhy v katastrálnych územiach Kremnické Bane a Jastrabá. Výrub sa bude realizovať v zimných obdobiach 2026 – 2028 mimo zastavaného územia obce kvôli bezpečnosti dopravy. Ide o oznámenie podľa § 47 ods. 7 zákona o ochrane prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {},
+    "source_type": "PARCELA"
+  }
+}

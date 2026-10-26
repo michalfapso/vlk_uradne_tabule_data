@@ -1,0 +1,74 @@
+[2026-10-26 22:08:32] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578665'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578665/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578665/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 5' zákona 'NR SR č. 525/2003 Z. z. o štátnej správe starostlivosti o životné prostredie a o zmene a doplnení niektorých zákonov v znení neskorších predpisov, v s'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9' zákona 'NR SR č. 180/2013 Z. z. o organizácii miestnej štátnej správy a o zmene a doplnení niektorých zákonov a'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 61' zákona 'NR SR č. 364/2004 Z. z. o vodách a o zmene zákona SNR č. 372/1990 Zb. o priestupkoch v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 9 ods. 2 písm. a)' zákona '272/2016 Z. z. Zastúpená osoba: Ministerstvo vnútra Slovenskej republiky SK IČO 00151866 Spôsob autorizácie: kvalifikovaný elektronický podpis vyhotov'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578665/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.013264000000000001}
+LLM_tokens: {"input": 7904, "output": 3104, "total": 11008, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 72 column 1 (char 2056)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009386499999999999}
+LLM_tokens: {"input": 7904, "output": 2419, "total": 10323, "cached": 4050}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578665/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578665/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Rožňava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'IBV NOVA Rožňava', 'nazov_lokality_norm': 'IBV NOVA, Rožňava'}
+data: {'kraj': 'Košický kraj', 'okres': 'Rožňava', 'obec': 'Rožňava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'IBV NOVA Rožňava', 'nazov_lokality_norm': 'IBV NOVA, Rožňava'}
+Fallback to OBEC: Rožňava
+_get_nationalCadastralZoningReferences() norm_kraj: kosicky norm_okres: roznava norm_obec: roznava norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'853151', '852945'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.44 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.51 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: IBV NOVA, Rožňava
+get_geometry_of_a_geoname nazov_lokality: IBV NOVA, Rožňava
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** NOVA, Rožňava, Rožňava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** NOVA, Rožňava, Rožňava, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** NOVA, Rožňava, Košický kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** NOVA, Rožňava, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.6587194, 'lon': 20.531052, 'formatted_address': '048 01 Rožňava, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Rožňava, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.53416 48.6946, 20.53419 48....
+1  CadastralZoning  ...  MULTIPOLYGON (((20.60624 48.74955, 20.60615 48...
+
+[2 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578665/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Rožňava', 'NATIONALSI': 'SKUEV0918', 'SITETITLE_': 'Volovské bučiny'}], 'CHVU': [{'parcel_label': 'Rožňava', 'NATIONALSI': 'SKCHVU036', 'SITETITLE_': 'Volovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Košický kraj/Rožňava/578665/analysis.json...
+
+--- Časy spracovania dokumentu 578665 ---
+  download_and_text   :   1.56 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  21.70 s
+  gis_processing      :   3.47 s
+  CELKOVÝ ČAS         :  26.73 s
+------------------------------------------
+Dokument 578665 bol úspešne spracovaný.

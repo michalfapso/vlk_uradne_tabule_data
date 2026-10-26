@@ -1,0 +1,48 @@
+[2026-10-26 22:11:06] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578737'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578737/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578737/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 7' zákona 'lehota na doručenie písomného alebo elektronického  potvrdenia záujmu byť účastníkom konania  podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 82 ods. 3' zákona 'v začatom správnom  konaní je do: 02.11.2026.                                                                 RNDr. Eva   N e v i ď a n s k á'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578737/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0100635}
+LLM_tokens: {"input": 5367, "output": 2460, "total": 7827, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578737/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578737/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Galanta', 'katastralne_uzemia': [{'nazov': 'Nebojsa', 'parcely': [{'typ': 'C', 'cisla': ['106/1', '106/14', '106/15']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'kat. úz. Nebojsa', 'nazov_lokality_norm': 'Nebojsa'}
+data: {'kraj': 'Trnavský kraj', 'okres': 'Galanta', 'obec': 'Galanta', 'katastralne_uzemia': [{'nazov': 'Nebojsa', 'parcely': [{'typ': 'C', 'cisla': ['106/1', '106/14', '106/15']}]}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'kat. úz. Nebojsa', 'nazov_lokality_norm': 'Nebojsa'}
+ku_name:Nebojsa obec:Galanta okres:Galanta kraj:Trnavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trnavsky norm_okres: galanta norm_obec: galanta norm_ku: nebojsa
+_get_nationalCadastralZoningReferences() found_ids: {'814610'}
+nationalCadastralZoningReferences: ['814610']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.78 s
+nazov_lokality: Nebojsa
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.2295'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.2295'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.2295'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578737/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trnavský kraj/Galanta/578737/analysis.json...
+
+--- Časy spracovania dokumentu 578737 ---
+  download_and_text   :   1.29 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :   9.06 s
+  gis_processing      :   3.99 s
+  CELKOVÝ ČAS         :  14.35 s
+------------------------------------------
+Dokument 578737 bol úspešne spracovaný.
