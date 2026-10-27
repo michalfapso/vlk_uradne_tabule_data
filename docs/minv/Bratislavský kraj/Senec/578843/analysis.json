@@ -1,0 +1,111 @@
+{
+  "cislo_konania_spisu": "OU-SC-OSZP-2026/032356",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-27",
+  "datum_zverejnenia": "2026-10-27",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "SPP – distribúcia, a.s.",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Senec",
+    "obec": "Senec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Blatné",
+        "parcely": []
+      },
+      {
+        "nazov": "Boldog",
+        "parcely": []
+      },
+      {
+        "nazov": "Kaplna",
+        "parcely": []
+      },
+      {
+        "nazov": "Senec",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ochranné pásma plynárenských zariadení",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o plánovanom uskutočnení výrubu drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub drevín na trasách plynovodov"
+  ],
+  "rozsah_zasahu": "pri STL a NTL 1 m na každú stranu od osi, pri VTL 2 m na každú stranu od osi",
+  "typ_uzemia": [
+    "ochranné pásmo plynárenského zariadenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "68",
+        "47",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie spoločnosti SPP – distribúcia, a.s. o plánovanom výrube drevín v ochranných pásmach plynovodov v katastroch Blatné, Boldog, Kaplna a Senec. Výrub sa realizuje z bezpečnostných dôvodov v rozsahu 1 až 2 metre od osi plynovodu. Dokument uvádza, že na toto oznámenie sa nevzťahuje možnosť účasti verejnosti podľa § 82 zákona o ochrane prírody.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Senec",
+          "NATIONALSI": "SKUEV0089",
+          "SITETITLE_": "Martinský les"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Blatné",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Boldog",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Kaplna",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        },
+        {
+          "parcel_label": "Senec",
+          "NATIONALSI": "SKCHVU023",
+          "SITETITLE_": "Úľanská mokraď"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

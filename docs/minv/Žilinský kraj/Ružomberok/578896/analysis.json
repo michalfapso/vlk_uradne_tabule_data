@@ -1,0 +1,143 @@
+{
+  "cislo_konania_spisu": "OU-RK-OSZP-2026/013361-002",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia informácie"
+  },
+  "ziadatel_navrhovatel": "Lesy SR, š.p., OZ Tatry",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Ružomberok",
+    "obec": "Liptovská Lúžna, Stankovany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Liptovská Lúžna",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4748/1",
+              "4748/5",
+              "4748/6",
+              "4749",
+              "4963/1",
+              "4963/2",
+              "4963/3",
+              "4963/4"
+            ]
+          }
+        ]
+      },
+      {
+        "nazov": "Stankovany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "4271/2",
+              "4271/3",
+              "4305"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Upovedomenie o začatom správnom konaní",
+  "kategorie_vlk": [
+    "CHEMIA"
+  ],
+  "typ_zasahu": [
+    "aplikácia chemických prípravkov na ochranu lesa",
+    "pestovateľská činnosť",
+    "CERVACOL EXTRA",
+    "SANATEX VS"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "3. stupeň územnej ochrany prírody a krajiny"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "§ 14 ods. 2 písm. c)",
+        "§ 82 ods. 7",
+        "§ 82 ods. 3",
+        "§ 82 ods. 6"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "§ 19 ods. 1"
+      ]
+    }
+  ],
+  "zhrnutie": "Štátny podnik Lesy SR žiada o súhlas na aplikáciu chemických prípravkov CERVACOL EXTRA a SANATEX VS na ochranu lesa v katastroch Liptovská Lúžna a Stankovany. Zásah sa má realizovať v území s 3. stupňom ochrany prírody. Verejnosť a združenia môžu potvrdiť záujem o účastníctvo v konaní do 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "4271/2",
+          "NAZOV_UEV": "Veľká Fatra",
+          "KOD_UEV": "SKUEV0238"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "4748/1",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        },
+        {
+          "parcel_label": "4271/3",
+          "NATIONALSI": "SKUEV0238",
+          "SITETITLE_": "Veľká Fatra"
+        },
+        {
+          "parcel_label": "4271/2",
+          "NATIONALSI": "SKUEV0238",
+          "SITETITLE_": "Veľká Fatra"
+        },
+        {
+          "parcel_label": "4305",
+          "NATIONALSI": "SKUEV0238",
+          "SITETITLE_": "Veľká Fatra"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "4271/2",
+          "NATIONALSI": "312",
+          "SITETITLE_": "PR Korbeľka"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "4963/4",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        },
+        {
+          "parcel_label": "4748/1",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

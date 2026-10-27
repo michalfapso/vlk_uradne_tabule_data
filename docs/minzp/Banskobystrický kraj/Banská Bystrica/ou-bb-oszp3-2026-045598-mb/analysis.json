@@ -1,0 +1,107 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2026/045598-MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-27",
+  "datum_zverejnenia": "2026-10-27",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Dolný Harmanec",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolný Harmanec",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "909",
+              "910"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "lesný celok Dolný Harmanec, JPRL – 88",
+    "nazov_lokality_norm": "Dolný Harmanec"
+  },
+  "typ_dokumentu": "Ohlásenia asanačnej ťažby",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "asanačná ťažba"
+  ],
+  "rozsah_zasahu": "JPRL – 88, parcely KN-C 909 a 910",
+  "typ_uzemia": [
+    "3. stupeň",
+    "Národný park Veľká Fatra",
+    "SKUEV0238",
+    "SKCHVU033"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "14",
+        "2",
+        "82"
+      ]
+    },
+    {
+      "nazov": "Zákon o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19",
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o ohlásení asanačnej ťažby v k. ú. Dolný Harmanec na parcelách registra C 909 a 910. Lokalita sa nachádza v 3. stupni ochrany v Národnom parku Veľká Fatra a v chránených územiach SKUEV0238 a SKCHVU033. Verejnosť môže oznámiť svoju účasť v konaní do 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "909",
+          "NAZOV_UEV": "Veľká Fatra",
+          "KOD_UEV": "SKUEV0238"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "910",
+          "NATIONALSI": "SKUEV0238",
+          "SITETITLE_": "Veľká Fatra"
+        },
+        {
+          "parcel_label": "909",
+          "NATIONALSI": "SKUEV0238",
+          "SITETITLE_": "Veľká Fatra"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "910",
+          "NATIONALSI": "SKCHVU033",
+          "SITETITLE_": "Veľká Fatra"
+        },
+        {
+          "parcel_label": "909",
+          "NATIONALSI": "SKCHVU033",
+          "SITETITLE_": "Veľká Fatra"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

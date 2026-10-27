@@ -1,0 +1,358 @@
+{
+  "cislo_konania_spisu": "OU-TO-OSZP-2026/011871-009",
+  "cislo_rozhodnutia": "OU-TO-OSZP-2026/011871-0042423/2026",
+  "datum_dokumentu": "2026-10-26",
+  "datum_zverejnenia": "2026-10-27",
+  "faza_konania": "ROZHODNUTIE",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": "lehota do 15 dní odo dňa doručenia rozhodnutia"
+  },
+  "ziadatel_navrhovatel": "Miroslav Blanár",
+  "miesto_realizacie": {
+    "kraj": "Nitriansky kraj",
+    "okres": "Topoľčany",
+    "obec": "Solčany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Solčany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1447/2",
+              "1440/141",
+              "1435/34",
+              "1435/53",
+              "1435/8",
+              "1435/36",
+              "1435/9",
+              "1435/17",
+              "1437/5",
+              "1435/18",
+              "1435/48",
+              "1435/47",
+              "1435/46",
+              "1447/8",
+              "1438/2",
+              "1440/237",
+              "1435/35",
+              "1435/5",
+              "4263",
+              "1435/54",
+              "1447/7",
+              "1447/102",
+              "1438/4",
+              "4262",
+              "4223",
+              "1435/45",
+              "1437/8",
+              "1435/49",
+              "1435/41",
+              "1435/42",
+              "1435/43",
+              "1435/44",
+              "1437/4",
+              "1437/6",
+              "1437/7",
+              "1437/1",
+              "1437/11",
+              "1437/3",
+              "1437/2",
+              "1437/9",
+              "1437/51",
+              "1447/3"
+            ]
+          },
+          {
+            "typ": "E",
+            "cisla": [
+              "1437/101",
+              "1437/102"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "ul. Záhradná, vodný tok Lišňa",
+    "nazov_lokality_norm": "Lišňa"
+  },
+  "typ_dokumentu": "Rozhodnutie o stavebnom zámere",
+  "kategorie_vlk": [
+    "INZINIERSKE_SIETE",
+    "VYSTAVBA_V_PRIRODE",
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "vodovodná prípojka",
+    "areálová kanalizácia",
+    "rekonštrukcia prečerpávacej stanice",
+    "kríženie vodného toku",
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "vodovod d63x5,8 dĺžka 264,4 m, kanalizácia DN200 dĺžka 163,0 m, infraštruktúra pre 15 RD",
+  "typ_uzemia": [
+    "1. stupeň",
+    "NATURA 2000",
+    "SKCHVU031 Tribeč",
+    "Chránené vtáčie územie",
+    "regionálny biokoridor"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "ichtyofauna",
+    "bentická fauna",
+    "brehové porasty",
+    "chránené druhy rastlín",
+    "chránené druhy živočíchov",
+    "invázne druhy rastlín"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o vodách (vodný zákon)",
+      "cislo": "364/2004 Z. z.",
+      "paragrafy": [
+        "26",
+        "27",
+        "39",
+        "48",
+        "49",
+        "61",
+        "73"
+      ]
+    },
+    {
+      "nazov": "Stavebný zákon",
+      "cislo": "25/2025 Z. z.",
+      "paragrafy": [
+        "16",
+        "26",
+        "49",
+        "52",
+        "57",
+        "60",
+        "61",
+        "62",
+        "65",
+        "66"
+      ]
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "3",
+        "4",
+        "9",
+        "12",
+        "28",
+        "34",
+        "35",
+        "47",
+        "68",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "18",
+        "24",
+        "26",
+        "33",
+        "46",
+        "47",
+        "53",
+        "54"
+      ]
+    },
+    {
+      "nazov": "o prevencii a manažmente introdukcie a šírenia inváznych nepôvodných druhov",
+      "cislo": "150/2019 Z. z.",
+      "paragrafy": [
+        "3"
+      ]
+    }
+  ],
+  "zhrnutie": "Rozhodnutie o stavebnom zámere pre výstavbu vodovodu a kanalizácie pre projekt 'SOLČANY RESIDENCE – 15 RD IBV'. Činnosť sa realizuje v katastrálnom území Solčany v chránenom vtáčom území Tribeč (Natura 2000) a zahŕňa kríženie vodného toku Lišňa, ktorý je regionálnym biokoridorom. Dokument stanovuje podmienky pre ochranu drevín, chránených druhov a zamedzenie šírenia inváznych rastlín.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "CHVU": [
+        {
+          "parcel_label": "4262",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "4263",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "4223",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/36",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1437/7",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/8",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/53",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/34",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/5",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/9",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1447/7",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1438/4",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1447/3",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/49",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/48",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1437/3",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1437/11",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1437/9",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1437/2",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1437/5",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/17",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1437/8",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1437/1",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1437/6",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1437/4",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/47",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/46",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/45",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/44",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/43",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/42",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/41",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1435/18",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        },
+        {
+          "parcel_label": "1437/101",
+          "NATIONALSI": "SKCHVU031",
+          "SITETITLE_": "Tribeč"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

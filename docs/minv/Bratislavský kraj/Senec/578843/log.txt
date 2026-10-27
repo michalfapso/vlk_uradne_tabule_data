@@ -1,0 +1,95 @@
+[2026-10-27 21:41:21] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578843'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578843/orig.pdf
+Converting document to text...
+text extracted via fitz
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578843/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 68' zákona 'pís. g) a h) zákona č.543/2002  Z. z. o ochrane prírody a krajiny v znení neskorších predpisov'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods.  1 písm. b)' zákona '251/2012 Z. z. o energetike a o zmene a doplnení niektorých zákonov v znení  neskorších predpisov.  Orgán ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'a) vydá súhlasné stanovisko k oznámenému výrubu,  b) výrub obmedzí, zakáže alebo určí podmienky jeho uskutočnenia, ak si to vyžadujú záujmy    ochrany'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578843/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00924245}
+LLM_tokens: {"input": 6310, "output": 2332, "total": 8642, "cached": 2019}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578843/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578843/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Senec', 'katastralne_uzemia': [{'nazov': 'Blatné', 'parcely': []}, {'nazov': 'Boldog', 'parcely': []}, {'nazov': 'Kaplna', 'parcely': []}, {'nazov': 'Senec', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásma plynárenských zariadení', 'nazov_lokality_norm': None}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Senec', 'obec': 'Senec', 'katastralne_uzemia': [{'nazov': 'Blatné', 'parcely': []}, {'nazov': 'Boldog', 'parcely': []}, {'nazov': 'Kaplna', 'parcely': []}, {'nazov': 'Senec', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'ochranné pásma plynárenských zariadení', 'nazov_lokality_norm': None}
+ku_name:Blatné obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: blatne
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: None norm_ku: blatne
+_get_nationalCadastralZoningReferences() found_ids: {'803065'}
+nationalCadastralZoningReferences: ['803065']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Boldog obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: boldog
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: None norm_ku: boldog
+_get_nationalCadastralZoningReferences() found_ids: {'803570'}
+nationalCadastralZoningReferences: ['803570']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Kaplna obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: kaplna
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: None norm_ku: kaplna
+_get_nationalCadastralZoningReferences() found_ids: {'823554'}
+nationalCadastralZoningReferences: ['823554']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.22 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Senec obec:Senec okres:Senec kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: senec norm_obec: senec norm_ku: senec
+_get_nationalCadastralZoningReferences() found_ids: {'854964'}
+nationalCadastralZoningReferences: ['854964']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.26 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: ochranné pásma plynárenských zariadení
+get_geometry_of_a_geoname nazov_lokality: ochranné pásma plynárenských zariadení
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** pásma plynárenských zariadení, Senec, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** pásma plynárenských zariadení, Senec, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** pásma plynárenských zariadení, Bratislavský kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** pásma plynárenských zariadení, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.2170352, 'lon': 17.4061427, 'formatted_address': '903 01 Senec, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 01 Senec, Slovakia
+response: <Response [200]>
+gdf_geoname: None
+geoname_query: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.39894 48.29556, 17.39945 48...
+1  CadastralZoning  ...  MULTIPOLYGON (((17.42446 48.2488, 17.42462 48....
+2  CadastralZoning  ...  MULTIPOLYGON (((17.46501 48.31044, 17.46543 48...
+3  CadastralZoning  ...  MULTIPOLYGON (((17.34891 48.27853, 17.34896 48...
+
+[4 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578843/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with 'UEV'.
+Found 4 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Senec', 'NATIONALSI': 'SKUEV0089', 'SITETITLE_': 'Martinský les'}], 'CHVU': [{'parcel_label': 'Blatné', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': 'Boldog', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': 'Kaplna', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}, {'parcel_label': 'Senec', 'NATIONALSI': 'SKCHVU023', 'SITETITLE_': 'Úľanská mokraď'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Senec/578843/analysis.json...
+
+--- Časy spracovania dokumentu 578843 ---
+  download_and_text   :   1.05 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  10.50 s
+  gis_processing      :   2.61 s
+  CELKOVÝ ČAS         :  14.16 s
+------------------------------------------
+Dokument 578843 bol úspešne spracovaný.

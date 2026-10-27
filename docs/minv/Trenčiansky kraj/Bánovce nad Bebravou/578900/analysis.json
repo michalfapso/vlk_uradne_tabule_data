@@ -1,0 +1,156 @@
+{
+  "cislo_konania_spisu": "OBJ 161/2026",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-23",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": false,
+    "lehota_na_vyjadrenie": null
+  },
+  "ziadatel_navrhovatel": "Stredoslovenská distribučná, a. s.",
+  "miesto_realizacie": {
+    "kraj": "Trenčiansky kraj",
+    "okres": "Bánovce nad Bebravou",
+    "obec": "Čierna Lehota",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Čierna Lehota",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "pod vedením VN l.č.259",
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Oznámenie o výrube",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "odstránenie a okliesnenie stromov a iných porastov"
+  ],
+  "rozsah_zasahu": "porast pod vedením VN l.č.259 a v ochrannom pásme (7m od krajného vodiča)",
+  "typ_uzemia": [
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": [
+        "47"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012",
+      "paragrafy": [
+        "11"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie spoločnosti Stredoslovenská distribučná, a. s. o plánovanom výrube a okliesnení stromov ohrozujúcich bezpečnosť VN vedenia l.č.259 v k.ú. Čierna Lehota. Zásah bude prebiehať v mesiacoch november až január v ochrannom pásme vedenia. Konanie je vedené ako oznámenie o výrube v zmysle energetického zákona.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Čierna Lehota",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        },
+        {
+          "parcel_label": "Čierna Lehota",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        },
+        {
+          "parcel_label": "Čierna Lehota",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        },
+        {
+          "parcel_label": "Čierna Lehota",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        },
+        {
+          "parcel_label": "Čierna Lehota",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        },
+        {
+          "parcel_label": "Čierna Lehota",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        },
+        {
+          "parcel_label": "Čierna Lehota",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        },
+        {
+          "parcel_label": "Čierna Lehota",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        },
+        {
+          "parcel_label": "Čierna Lehota",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        },
+        {
+          "parcel_label": "Čierna Lehota",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        },
+        {
+          "parcel_label": "Čierna Lehota",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        },
+        {
+          "parcel_label": "Čierna Lehota",
+          "NAZOV_UEV": "Kňaží stôl",
+          "KOD_UEV": "SKUEV0275"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Čierna Lehota",
+          "NATIONALSI": "SKUEV0275",
+          "SITETITLE_": "Kňaží stôl"
+        },
+        {
+          "parcel_label": "Čierna Lehota",
+          "NATIONALSI": "SKUEV0274",
+          "SITETITLE_": "Baské"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Čierna Lehota",
+          "NATIONALSI": "1133",
+          "SITETITLE_": "PR Rysia"
+        },
+        {
+          "parcel_label": "Čierna Lehota",
+          "NATIONALSI": "158",
+          "SITETITLE_": "PP Stará Bebrava"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Čierna Lehota",
+          "NATIONALSI": "SKCHVU028",
+          "SITETITLE_": "Strážovské vrchy"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

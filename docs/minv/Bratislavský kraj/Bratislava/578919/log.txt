@@ -1,0 +1,73 @@
+[2026-10-27 21:39:25] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578919'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578919/orig.doc
+Converting document to text...
+LibreOffice conversion stdout: convert /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578919/orig.doc as a Writer document -> /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578919/orig.txt using filter : Text
+
+LibreOffice conversion stderr: 
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578919/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 48' zákona '364/2002 Z. z. o vodách a z'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '49' zákona '364/2002 Z. z. o vodách a z'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '53' zákona '364/2002 Z. z. o vodách a z'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '55' zákona '364/2002 Z. z. o vodách a z'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 36' zákona '7/2010 Z. z. o ochrane pred povodňami.   Orgán ochrany prírody podľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona 'a) vydá súhlasné stanovisko k oznámenému výrubu,     b) výrub obmedzí, zakáže alebo určí podmienky jeho uskutočnenia, ak si to vyžadujú záujmy   ochra'.
+Warning: Nebol nájdený kľúč zákona pre referenciu 'odseku 7' zákona ''.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578919/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.009074949999999998}
+LLM_tokens: {"input": 6185, "output": 2297, "total": 8482, "cached": 2019}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578919/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578919/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'Vajnory', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'tok rieky Vydrica', 'nazov_lokality_norm': 'Vydrica'}
+data: {'kraj': 'Bratislavský kraj', 'okres': 'Bratislava', 'obec': 'Bratislava', 'katastralne_uzemia': [{'nazov': 'Vajnory', 'parcely': []}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': 'tok rieky Vydrica', 'nazov_lokality_norm': 'Vydrica'}
+ku_name:Vajnory obec:Bratislava okres:Bratislava kraj:Bratislavský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: bratislava norm_ku: vajnory
+_get_nationalCadastralZoningReferences() norm_kraj: bratislavsky norm_okres: bratislava norm_obec: None norm_ku: vajnory
+_get_nationalCadastralZoningReferences() found_ids: {'805700'}
+nationalCadastralZoningReferences: ['805700']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Vydrica
+get_geometry_of_a_geoname nazov_lokality: Vydrica
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Bratislava, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((17.07309 48.17936, 17.07315 48...  ...  Vydrica, okres Bratislava III, Bratislava, Bor...
+
+[1 rows x 11 columns]
+geoname_query: Vydrica, Bratislava, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((17.16474 48.24433, 17.16482 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  MULTIPOLYGON (((17.07309 48.17936, 17.07315 48...  ...  Vydrica, okres Bratislava III, Bratislava, Bor...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578919/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Bratislavský kraj/Bratislava/578919/analysis.json...
+
+--- Časy spracovania dokumentu 578919 ---
+  download_and_text   :   2.26 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.37 s
+  gis_processing      :   0.87 s
+  CELKOVÝ ČAS         :  14.51 s
+------------------------------------------
+Dokument 578919 bol úspešne spracovaný.

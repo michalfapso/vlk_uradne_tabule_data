@@ -1,0 +1,94 @@
+{
+  "cislo_konania_spisu": "OU-ZC-OSZP-2026/001339",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-26",
+  "datum_zverejnenia": "2026-10-27",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": null,
+    "lehota_na_vyjadrenie": "v lehote 15 pracovných dní od doručenia oznámenia"
+  },
+  "ziadatel_navrhovatel": "prevádzkovateľ distribučnej sústavy",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Žarnovica",
+    "obec": "Žarnovica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Revištské Podzámčie",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "458"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "ochranné pásmo elektrického vedenia 397_k10",
+    "nazov_lokality_norm": "397_k10, Revištské Podzámčie"
+  },
+  "typ_dokumentu": "Oznámenie o vykonaní výrubu",
+  "kategorie_vlk": [
+    "LES_VYRUB",
+    "INZINIERSKE_SIETE"
+  ],
+  "typ_zasahu": [
+    "výrub stromov a iných porastov"
+  ],
+  "rozsah_zasahu": "výrub stromov a iných porastov v ochrannom pásme VN vedenia",
+  "typ_uzemia": [
+    "ochranné pásmo elektrického vedenia",
+    "ochranné pásmo VN vedenia"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o štátnej správe starostlivosti o životné prostredie",
+      "cislo": "525/2003 Z.z.",
+      "paragrafy": [
+        "1 ods. 1 písm. c)",
+        "5 ods. 1"
+      ]
+    },
+    {
+      "nazov": "o organizácii miestnej štátnej správy",
+      "cislo": "180/2013 Z.z.",
+      "paragrafy": []
+    },
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47 ods. 7",
+        "47 ods. 8",
+        "47 ods. 3"
+      ]
+    },
+    {
+      "nazov": "o energetike",
+      "cislo": "251/2012 Z.z.",
+      "paragrafy": [
+        "11 ods. 1 písm. b)",
+        "43"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o plánovanom výrube stromov a porastov v ochrannom pásme VN elektrického vedenia v katastri Revištské Podzámčie. Výrub je odôvodnený energetickým zákonom kvôli zarastaniu linky a výpadkom elektriny. Orgán ochrany prírody má 15-dňovú lehotu na vydanie stanoviska alebo obmedzenie výrubu.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "458",
+          "NATIONALSI": "SKUEV0947",
+          "SITETITLE_": "Stredný tok Hrona"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

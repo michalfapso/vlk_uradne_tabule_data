@@ -1,0 +1,99 @@
+{
+  "cislo_konania_spisu": "OU-BA-OSZP1-2026/602058/SME",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": null,
+  "datum_zverejnenia": "2026-10-27",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "5 pracovných dní"
+  },
+  "ziadatel_navrhovatel": "Mgr. Dušan Vitáloš",
+  "miesto_realizacie": {
+    "kraj": "Bratislavský kraj",
+    "okres": "Bratislava",
+    "obec": "Bratislava",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Rača",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "CHKO Malé Karpaty",
+    "nazov_lokality_norm": "Malé Karpaty"
+  },
+  "typ_dokumentu": "Informácia o začatom správnom konaní",
+  "kategorie_vlk": [
+    "VJAZD_VOZIDLA"
+  ],
+  "typ_zasahu": [
+    "státie s motorovým vozidlom",
+    "výnimka zo zákazu v 2. stupni ochrany"
+  ],
+  "rozsah_zasahu": "státie s motorovým vozidlom",
+  "typ_uzemia": [
+    "CHKO",
+    "Malé Karpaty",
+    "2. stupeň"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "13",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19"
+      ]
+    }
+  ],
+  "zhrnutie": "Začaté správne konanie na základe žiadosti Mgr. Dušana Vitáloša o povolenie výnimky na státie s motorovým vozidlom v katastrálnom území Rača. Lokalita sa nachádza v chránenom území CHKO Malé Karpaty (2. stupeň ochrany). Verejnosť môže potvrdiť záujem byť zúčastnenou osobou v lehote 5 pracovných dní od zverejnenia.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Rača",
+          "NAZOV_UEV": "Homoľské Karpaty",
+          "KOD_UEV": "SKUEV0104"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Rača",
+          "NATIONALSI": "SKUEV0104",
+          "SITETITLE_": "Homoľské Karpaty"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Rača",
+          "NATIONALSI": "1356",
+          "SITETITLE_": "PR Vydrica"
+        },
+        {
+          "parcel_label": "Rača",
+          "NATIONALSI": "1356",
+          "SITETITLE_": "OP PR Vydrica"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Rača",
+          "NATIONALSI": "SKCHVU014",
+          "SITETITLE_": "Malé Karpaty"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

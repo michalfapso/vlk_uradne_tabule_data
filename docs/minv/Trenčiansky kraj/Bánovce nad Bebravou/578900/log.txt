@@ -1,0 +1,86 @@
+[2026-10-27 21:44:00] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/578900'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/578900/orig.pdf
+Converting document to text...
+Info: Fitz extracted text is too short (0 chars). Falling back to LLM OCR.
+Info: Sending 3 page images to gemini/gemini-2.5-flash-lite for OCR.
+LLM_cost: {"cost": 0.0008056}
+LLM_tokens: {"input": 850, "output": 1995, "total": 2845, "cached": null}
+Info: Received OCR text from LLM.
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/578900/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1' zákona 'držiteľ tohto poverenia môže vo verejnom záujme:  a) Pri dodržaní podmienok ochrany životného prostredia'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11' zákona ''.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 1 písm. b)' zákona 'o energetike. - Splnomocnený zástupca zodpovedné vlastníkovi nehnuteľnosti za majetkovú ujmu, ktorú spôsobil vlastníkovi pri uplatňovaní práv držiteľa'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 11 ods. 2' zákona 'o energetike. - Splnomocnený zástupca zodpovedné vlastníkovi nehnuteľnosti za majetkovú ujmu, ktorú spôsobil vlastníkovi pri uplatňovaní práv držiteľa'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/578900/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.00999745}
+LLM_tokens: {"input": 6224, "output": 2598, "total": 8822, "cached": 2019}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/578900/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/578900/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Trenčiansky kraj', 'okres': 'Bánovce nad Bebravou', 'obec': 'Čierna Lehota', 'katastralne_uzemia': [{'nazov': 'Čierna Lehota', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod vedením VN l.č.259', 'nazov_lokality_norm': None}
+data: {'kraj': 'Trenčiansky kraj', 'okres': 'Bánovce nad Bebravou', 'obec': 'Čierna Lehota', 'katastralne_uzemia': [{'nazov': 'Čierna Lehota', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pod vedením VN l.č.259', 'nazov_lokality_norm': None}
+ku_name:Čierna Lehota obec:Čierna Lehota okres:Bánovce nad Bebravou kraj:Trenčiansky kraj
+_get_nationalCadastralZoningReferences() norm_kraj: trenciansky norm_okres: banovce nad bebravou norm_obec: cierna lehota norm_ku: cierna lehota
+_get_nationalCadastralZoningReferences() found_ids: {'809560'}
+nationalCadastralZoningReferences: ['809560']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.28 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: pod vedením VN l.č.259
+get_geometry_of_a_geoname nazov_lokality: pod vedením VN l.č.259
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vedením VN l.č.259, Čierna Lehota, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vedením VN l.č.259, Bánovce nad Bebravou, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vedením VN l.č.259, Trenčiansky kraj, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** vedením VN l.č.259, Slovensko
+response: <Response [200]>
+normalized: {'lat': 48.8669879, 'lon': 18.3333849, 'formatted_address': '956 53 Čierna Lehota, Slovakia'}
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** 53 Čierna Lehota, Slovakia
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.18122 48.741, 20.18142 48.74055, ...  ...  Čierna Lehota, okres Rožňava, Košický kraj, Sl...
+1  POLYGON ((18.30206 48.87841, 18.30311 48.87667...  ...  Čierna Lehota, okres Bánovce nad Bebravou, Tre...
+
+[2 rows x 11 columns]
+geoname_query: 956 53 Čierna Lehota, Slovakia
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((18.33295 48.89489, 18.33297 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.18122 48.741, 20.18142 48.74055, ...  ...  Čierna Lehota, okres Rožňava, Košický kraj, Sl...
+1  POLYGON ((18.30206 48.87841, 18.30311 48.87667...  ...  Čierna Lehota, okres Bánovce nad Bebravou, Tre...
+
+[2 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/578900/gis.geojson...
+Intersections with protected areas...
+Found 12 intersecting parcels with '5st_konsUEV'.
+Found 2 intersecting parcels with 'UEV'.
+Found 2 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}, {'parcel_label': 'Čierna Lehota', 'NAZOV_UEV': 'Kňaží stôl', 'KOD_UEV': 'SKUEV0275'}], 'UEV': [{'parcel_label': 'Čierna Lehota', 'NATIONALSI': 'SKUEV0275', 'SITETITLE_': 'Kňaží stôl'}, {'parcel_label': 'Čierna Lehota', 'NATIONALSI': 'SKUEV0274', 'SITETITLE_': 'Baské'}], 'MCHU': [{'parcel_label': 'Čierna Lehota', 'NATIONALSI': '1133', 'SITETITLE_': 'PR Rysia'}, {'parcel_label': 'Čierna Lehota', 'NATIONALSI': '158', 'SITETITLE_': 'PP Stará Bebrava'}], 'CHVU': [{'parcel_label': 'Čierna Lehota', 'NATIONALSI': 'SKCHVU028', 'SITETITLE_': 'Strážovské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Trenčiansky kraj/Bánovce nad Bebravou/578900/analysis.json...
+
+--- Časy spracovania dokumentu 578900 ---
+  download_and_text   :  12.20 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  12.28 s
+  gis_processing      :   2.15 s
+  CELKOVÝ ČAS         :  26.64 s
+------------------------------------------
+Dokument 578900 bol úspešne spracovaný.

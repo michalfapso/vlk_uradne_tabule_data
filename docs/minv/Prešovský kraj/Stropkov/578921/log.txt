@@ -1,0 +1,45 @@
+[2026-10-27 21:43:00] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/578921'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/578921/orig.docx
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/578921/text.txt...
+Getting law excerpts...
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/578921/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.012796499999999999}
+LLM_tokens: {"input": 5205, "output": 3398, "total": 8603, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/578921/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/578921/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Prešovský kraj', 'okres': 'Stropkov', 'obec': 'Chotča', 'katastralne_uzemia': [{'nazov': 'Chotča', 'parcely': [{'typ': 'C', 'cisla': ['1157', '730', '2026']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': 'Prešovský kraj', 'okres': 'Stropkov', 'obec': 'Chotča', 'katastralne_uzemia': [{'nazov': 'Chotča', 'parcely': [{'typ': 'C', 'cisla': ['1157', '730', '2026']}]}], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+ku_name:Chotča obec:Chotča okres:Stropkov kraj:Prešovský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: presovsky norm_okres: stropkov norm_obec: chotca norm_ku: chotca
+_get_nationalCadastralZoningReferences() found_ids: {'820873'}
+nationalCadastralZoningReferences: ['820873']
+get_geometry_of_cadastral_zone_parcels() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralParcel/items?limit=***&filter-lang=***&filter=*** (via proxy)
+response: <Response [200]>
+get_geometry_of_cadastral_zone_parcels() request duration: 3.60 s
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...             administrativeUnit
+0  CadastralParcel  ...  {'@href': '#auAdmUnitS.1215'}
+1  CadastralParcel  ...  {'@href': '#auAdmUnitS.1215'}
+2  CadastralParcel  ...  {'@href': '#auAdmUnitS.1215'}
+
+[3 rows x 12 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/578921/gis.geojson...
+Intersections with protected areas...
+intersections: {}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Prešovský kraj/Stropkov/578921/analysis.json...
+
+--- Časy spracovania dokumentu 578921 ---
+  download_and_text   :   0.86 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  14.51 s
+  gis_processing      :   3.82 s
+  CELKOVÝ ČAS         :  19.20 s
+------------------------------------------
+Dokument 578921 bol úspešne spracovaný.
