@@ -1,0 +1,87 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2026/045847-ŠM",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-28",
+  "datum_zverejnenia": "2026-10-28",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "fyzická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Motyčky",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Motyčky",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1013/2"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Informácia o začatí konania vo veci vydania súhlasu na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín",
+    "čistenie trvalo trávneho porastu"
+  ],
+  "rozsah_zasahu": "čistenie trvalo trávneho porastu",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "47",
+        "2",
+        "82"
+      ]
+    },
+    {
+      "nazov": "o správnom konaní (správny poriadok)",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19",
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť fyzickej osoby o vydanie súhlasu na výrub drevín v k.ú. Motyčky na parcele C-KN 1013/2. Účelom výrubu je čistenie trvalo trávneho porastu. Informácia slúži pre združenia na uplatnenie účasti v konaní v lehote 5 pracovných dní.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "1013/2",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "1013/2",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}

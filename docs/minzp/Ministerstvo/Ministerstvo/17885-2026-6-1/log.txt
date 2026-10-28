@@ -1,0 +1,64 @@
+[2026-10-28 22:02:31] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17885-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17885-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17885-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0108615}
+LLM_tokens: {"input": 4191, "output": 2922, "total": 7113, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17885-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17885-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': None, 'obec': 'Liptovská Kokava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Liptovská Kokava 9', 'nazov_lokality_norm': 'Liptovská Kokava'}
+data: {'kraj': None, 'okres': None, 'obec': 'Liptovská Kokava', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': True, 'nazov_lokality': 'Liptovská Kokava 9', 'nazov_lokality_norm': 'Liptovská Kokava'}
+Fallback to OBEC: Liptovská Kokava
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: liptovska kokava norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'832405'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 1.33 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Liptovská Kokava
+get_geometry_of_a_geoname nazov_lokality: Liptovská Kokava
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Kokava, Liptovská Kokava, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.79382 49.08458, 19.79429 49.0844,...  ...  Liptovská Kokava, okres Liptovský Mikuláš, Žil...
+
+[1 rows x 11 columns]
+geoname_query: Liptovská Kokava, Liptovská Kokava, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.8989 49.13103, 19.89908 49....
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.79382 49.08458, 19.79429 49.0844,...  ...  Liptovská Kokava, okres Liptovský Mikuláš, Žil...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17885-2026-6-1/gis.geojson...
+Intersections with protected areas...
+Found 1 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Liptovská Kokava', 'NAZOV_UEV': 'Machy', 'KOD_UEV': 'SKUEV0308'}], 'UEV': [{'parcel_label': 'Liptovská Kokava', 'NATIONALSI': 'SKUEV0141', 'SITETITLE_': 'Belá'}, {'parcel_label': 'Liptovská Kokava', 'NATIONALSI': 'SKUEV0308', 'SITETITLE_': 'Machy'}, {'parcel_label': 'Liptovská Kokava', 'NATIONALSI': 'SKUEV0307', 'SITETITLE_': 'Tatry'}], 'MCHU': [{'parcel_label': 'Liptovská Kokava', 'NATIONALSI': '341', 'SITETITLE_': 'PR Machy'}], 'CHVU': [{'parcel_label': 'Liptovská Kokava', 'NATIONALSI': 'SKCHVU030', 'SITETITLE_': 'Tatry'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/17885-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 17885-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  11.53 s
+  gis_processing      :   1.95 s
+  CELKOVÝ ČAS         :  14.26 s
+------------------------------------------
+Dokument 17885-2026-6-1 bol úspešne spracovaný.
