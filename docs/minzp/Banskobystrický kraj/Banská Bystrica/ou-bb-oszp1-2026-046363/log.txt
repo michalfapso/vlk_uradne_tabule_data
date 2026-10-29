@@ -1,0 +1,65 @@
+[2026-10-29 22:11:55] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-046363'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-046363/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-046363/text.txt...
+Getting law excerpts...
+Warning: Nebol nájdený kľúč zákona pre referenciu '§ 6 ods. 2' zákona 'na zmenu stavu mokrade súvisiacu s plánovanou realizáciou stavby „Umelé jazero pri obci Gemer – odkrytie hladiny podzemnej vody“ a stým súvisiaci aj z'.
+Warning: Nebol nájdený kľúč zákona pre referenciu '5' zákona 'na zmenu stavu mokrade súvisiacu s plánovanou realizáciou stavby „Umelé jazero pri obci Gemer – odkrytie hladiny podzemnej vody“ a stým súvisiaci aj z'.
+Saving laws to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-046363/laws.txt...
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.014103999999999998}
+LLM_tokens: {"input": 6152, "output": 3676, "total": 9828, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-046363/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-046363/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Gemer', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pri obci Gemer', 'nazov_lokality_norm': 'Gemer'}
+data: {'kraj': 'Banskobystrický kraj', 'okres': 'Banská Bystrica', 'obec': 'Gemer', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'pri obci Gemer', 'nazov_lokality_norm': 'Gemer'}
+Fallback to OBEC: Gemer
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: banska bystrica norm_obec: gemer norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: banskobystricky norm_okres: None norm_obec: gemer norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'814865'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.62 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Gemer
+get_geometry_of_a_geoname nazov_lokality: Gemer
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Gemer, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.29208 48.45591, 20.29214 48.45529...  ...  Gemer, okres Revúca, Banskobystrický kraj, Slo...
+
+[1 rows x 11 columns]
+geoname_query: Gemer, Gemer, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((20.30662 48.47957, 20.30666 48...
+
+[1 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((20.29208 48.45591, 20.29214 48.45529...  ...  Gemer, okres Revúca, Banskobystrický kraj, Slo...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-046363/gis.geojson...
+Intersections with protected areas...
+Found 2 intersecting parcels with 'UEV'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Gemer', 'NATIONALSI': 'SKUEV0398', 'SITETITLE_': 'Slaná'}, {'parcel_label': 'Gemer', 'NATIONALSI': 'SKUEV4080', 'SITETITLE_': 'Pasienky pod Veľkým lesom'}], 'CHVU': [{'parcel_label': 'Gemer', 'NATIONALSI': 'SKCHVU003', 'SITETITLE_': 'Cerová vrchovina - Porimavie'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Banskobystrický kraj/Banská Bystrica/ou-bb-oszp1-2026-046363/analysis.json...
+
+--- Časy spracovania dokumentu ou-bb-oszp1-2026-046363 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  14.44 s
+  gis_processing      :   1.54 s
+  CELKOVÝ ČAS         :  18.62 s
+------------------------------------------
+Dokument ou-bb-oszp1-2026-046363 bol úspešne spracovaný.

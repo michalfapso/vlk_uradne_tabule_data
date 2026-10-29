@@ -1,0 +1,14 @@
+[2026-10-29 22:10:42] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/579074'
+Sťahujem dokument z: https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=***
+Unsupported content type: application/octet-stream, defaulting to .bin
+Úspešne stiahnuté a uložené ako: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/579074/orig.bin
+Converting document to text...
+Zlyhalo spracovanie dokumentu 579074 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=*** Nepodporovaný typ súboru pre konverziu na text: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/579074/orig.bin
+Traceback (most recent call last):
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 359, in process_document
+    text_content = _convert_to_text(orig_file, source, status_filepath)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/analyzer/shared/document_processor.py", line 161, in _convert_to_text
+    raise RuntimeError(f"Nepodporovaný typ súboru pre konverziu na text: {source_file_path}")
+RuntimeError: Nepodporovaný typ súboru pre konverziu na text: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/579074/orig.bin
+[ERROR]: Zlyhalo spracovanie dokumentu 579074 (https://www.minv.sk/?okresne-urady-klientske-centra&urad=***&odbor=***&sekcia=***&subor=*** Nepodporovaný typ súboru pre konverziu na text: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minv/Nitriansky kraj/Šaľa/579074/orig.bin

@@ -1,0 +1,85 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP1-2026/046363",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-10-29",
+  "datum_zverejnenia": null,
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": null,
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Gemer",
+    "katastralne_uzemia": [],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "pri obci Gemer",
+    "nazov_lokality_norm": "Gemer"
+  },
+  "typ_dokumentu": "Oznámenie o začatí konania",
+  "kategorie_vlk": [
+    "VYSTAVBA_V_PRIRODE",
+    "INE"
+  ],
+  "typ_zasahu": [
+    "zmena stavu mokrade",
+    "odkrytie hladiny podzemnej vody",
+    "zásah do biotopu národného významu LK 10"
+  ],
+  "rozsah_zasahu": "zásah do biotopu národného významu LK 10 Vegetácia vysokých ostríc",
+  "typ_uzemia": [
+    "mokraď",
+    "biotop národného významu"
+  ],
+  "je_v_chranenom_uzemi": true,
+  "dotknute_zivocichy_rastliny": [
+    "Vegetácia vysokých ostríc"
+  ],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": [
+        "6",
+        "82",
+        "2"
+      ]
+    },
+    {
+      "nazov": "Zákon o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "19",
+        "15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Oznámenie o začatí konania vo veci žiadosti o súhlas na zmenu stavu mokrade a zásah do biotopu národného významu LK 10 pri obci Gemer. Projekt sa týka výstavby umelého jazera a odkrytia hladiny podzemnej vody v prírodnom prostredí.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Gemer",
+          "NATIONALSI": "SKUEV0398",
+          "SITETITLE_": "Slaná"
+        },
+        {
+          "parcel_label": "Gemer",
+          "NATIONALSI": "SKUEV4080",
+          "SITETITLE_": "Pasienky pod Veľkým lesom"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Gemer",
+          "NATIONALSI": "SKCHVU003",
+          "SITETITLE_": "Cerová vrchovina - Porimavie"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}
