@@ -1,0 +1,70 @@
+[2026-11-03 00:12:04] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-096683-drn'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-096683-drn/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-096683-drn/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.0074285}
+LLM_tokens: {"input": 4111, "output": 1791, "total": 5902, "cached": null}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-096683-drn/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-096683-drn/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Ružomberok', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'lom Ružomberok', 'nazov_lokality_norm': 'Ružomberok'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Ružomberok', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'lom Ružomberok', 'nazov_lokality_norm': 'Ružomberok'}
+Fallback to OBEC: Ružomberok
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: ruzomberok norm_ku: None
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: ruzomberok norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'853801', '819221'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 1.33 s
+get_cadastral_zone() features retrieved successfully
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.42 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Ružomberok
+get_geometry_of_a_geoname nazov_lokality: Ružomberok
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Ružomberok, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.1955 48.98562, 19.19714 48.98509,...  ...  Ružomberok, okres Ružomberok, Žilinský kraj, S...
+
+[1 rows x 11 columns]
+geoname_query: Ružomberok, Ružomberok, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.22486 49.11416, 19.22489 49...
+1  CadastralZoning  ...  MULTIPOLYGON (((19.22179 49.13037, 19.22188 49...
+
+[2 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                                       display_name
+0  POLYGON ((19.1955 48.98562, 19.19714 48.98509,...  ...  Ružomberok, okres Ružomberok, Žilinský kraj, S...
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-096683-drn/gis.geojson...
+Intersections with protected areas...
+Found 20 intersecting parcels with '5st_konsUEV'.
+Found 6 intersecting parcels with 'UEV'.
+Found 7 intersecting parcels with 'MCHU'.
+Found 3 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Salatín', 'KOD_UEV': 'SKUEV0197'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Salatín', 'KOD_UEV': 'SKUEV0197'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}, {'parcel_label': 'Ružomberok', 'NAZOV_UEV': 'Veľká Fatra', 'KOD_UEV': 'SKUEV0238'}], 'UEV': [{'parcel_label': 'Ružomberok', 'NATIONALSI': 'SKUEV0164', 'SITETITLE_': 'Revúca'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': 'SKUEV0197', 'SITETITLE_': 'Salatín'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': 'SKUEV0238', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': 'SKUEV4092', 'SITETITLE_': 'Lúky v Trlenskej doline'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': 'SKUEV0253', 'SITETITLE_': 'Váh'}, {'parcel_label': 'Hrboltová', 'NATIONALSI': 'SKUEV0253', 'SITETITLE_': 'Váh'}], 'MCHU': [{'parcel_label': 'Ružomberok', 'NATIONALSI': '223', 'SITETITLE_': 'NPP Brankovský vodopád'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': '350', 'SITETITLE_': 'PP Matejkovský kamenný prúd'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': '454', 'SITETITLE_': 'PP Bukovinka'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': '287', 'SITETITLE_': 'PP Jazierske travertíny'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': '242', 'SITETITLE_': 'PP Dogerské skaly'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': '475', 'SITETITLE_': 'PP Vlčia skala'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': '325', 'SITETITLE_': 'PP Krkavá skala'}], 'CHVU': [{'parcel_label': 'Ružomberok', 'NATIONALSI': 'SKCHVU018', 'SITETITLE_': 'Nízke Tatry'}, {'parcel_label': 'Ružomberok', 'NATIONALSI': 'SKCHVU033', 'SITETITLE_': 'Veľká Fatra'}, {'parcel_label': 'Hrboltová', 'NATIONALSI': 'SKCHVU050', 'SITETITLE_': 'Chočské vrchy'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-096683-drn/analysis.json...
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-096683-drn ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :   7.41 s
+  gis_processing      :   2.75 s
+  CELKOVÝ ČAS         :  10.77 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-096683-drn bol úspešne spracovaný.
