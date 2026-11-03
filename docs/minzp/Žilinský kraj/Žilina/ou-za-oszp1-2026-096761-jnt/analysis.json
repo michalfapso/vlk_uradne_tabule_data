@@ -1,0 +1,154 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP1-2026/096761/Jnt",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-11-03",
+  "datum_zverejnenia": "2026-11-03",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie (t. j. do 10. 11. 2026, vrátane)"
+  },
+  "ziadatel_navrhovatel": "SVP, š. p. , Povodie horného Váhu, o.z.",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": "Dolný Kubín, Sedliacka Dubová, Nižná, Krásna Hôrka, Trstená, Vitanová",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Dolný Kubín",
+        "parcely": []
+      },
+      {
+        "nazov": "Sedliacka Dubová",
+        "parcely": []
+      },
+      {
+        "nazov": "Nižná",
+        "parcely": []
+      },
+      {
+        "nazov": "Krásna Hôrka",
+        "parcely": []
+      },
+      {
+        "nazov": "Trstená",
+        "parcely": []
+      },
+      {
+        "nazov": "Vitanová",
+        "parcely": []
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": "vodný tok Orava",
+    "nazov_lokality_norm": "Orava"
+  },
+  "typ_dokumentu": "Žiadosť o povolenie výnimky",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín a krovín"
+  ],
+  "rozsah_zasahu": null,
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z.z.",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Žiadosť o povolenie výnimky na výrub drevín a krovín v blízkosti vodného toku Orava v katastrálnych územiach viacerých obcí (napr. Dolný Kubín, Trstená). Dôvodom je zmenšený prietokový profil koryta. Účasť v konaní je možná podaním prihlášky do 10.11.2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "UEV": [
+        {
+          "parcel_label": "Dolný Kubín",
+          "NATIONALSI": "SKUEV0243",
+          "SITETITLE_": "Orava"
+        },
+        {
+          "parcel_label": "Sedliacka Dubová",
+          "NATIONALSI": "SKUEV0243",
+          "SITETITLE_": "Orava"
+        },
+        {
+          "parcel_label": "Nižná",
+          "NATIONALSI": "SKUEV0243",
+          "SITETITLE_": "Orava"
+        },
+        {
+          "parcel_label": "Krásna Hôrka",
+          "NATIONALSI": "SKUEV0243",
+          "SITETITLE_": "Orava"
+        },
+        {
+          "parcel_label": "Trstená",
+          "NATIONALSI": "SKUEV0193",
+          "SITETITLE_": "Zimník"
+        },
+        {
+          "parcel_label": "Trstená",
+          "NATIONALSI": "SKUEV0222",
+          "SITETITLE_": "Jelešňa"
+        },
+        {
+          "parcel_label": "Trstená",
+          "NATIONALSI": "SKUEV0057",
+          "SITETITLE_": "Rašeliniská Oravskej kotliny"
+        },
+        {
+          "parcel_label": "Trstená",
+          "NATIONALSI": "SKUEV0304",
+          "SITETITLE_": "Oravská vodná nádrž"
+        },
+        {
+          "parcel_label": "Trstená",
+          "NATIONALSI": "SKUEV0963",
+          "SITETITLE_": "Osadská"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Dolný Kubín",
+          "NATIONALSI": "1034",
+          "SITETITLE_": "CHA Rieka Orava"
+        },
+        {
+          "parcel_label": "Sedliacka Dubová",
+          "NATIONALSI": "1034",
+          "SITETITLE_": "CHA Rieka Orava"
+        },
+        {
+          "parcel_label": "Nižná",
+          "NATIONALSI": "1034",
+          "SITETITLE_": "CHA Rieka Orava"
+        },
+        {
+          "parcel_label": "Krásna Hôrka",
+          "NATIONALSI": "1034",
+          "SITETITLE_": "CHA Rieka Orava"
+        },
+        {
+          "parcel_label": "Trstená",
+          "NATIONALSI": "1055",
+          "SITETITLE_": "CHA Bratkovčík"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Trstená",
+          "NATIONALSI": "SKCHVU008",
+          "SITETITLE_": "Horná Orava"
+        }
+      ]
+    },
+    "source_type": "KATASTRALNE_UZEMIE"
+  }
+}

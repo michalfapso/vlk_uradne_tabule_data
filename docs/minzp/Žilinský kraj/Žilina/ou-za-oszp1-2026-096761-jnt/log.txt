@@ -1,0 +1,237 @@
+[2026-11-03 22:45:01] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-096761-jnt'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-096761-jnt/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-096761-jnt/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.01181195}
+LLM_tokens: {"input": 4606, "output": 3471, "total": 8077, "cached": 2009}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-096761-jnt/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-096761-jnt/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Dolný Kubín, Sedliacka Dubová, Nižná, Krásna Hôrka, Trstená, Vitanová', 'katastralne_uzemia': [{'nazov': 'Dolný Kubín', 'parcely': []}, {'nazov': 'Sedliacka Dubová', 'parcely': []}, {'nazov': 'Nižná', 'parcely': []}, {'nazov': 'Krásna Hôrka', 'parcely': []}, {'nazov': 'Trstená', 'parcely': []}, {'nazov': 'Vitanová', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodný tok Orava', 'nazov_lokality_norm': 'Orava'}
+data: {'kraj': 'Žilinský kraj', 'okres': 'Žilina', 'obec': 'Dolný Kubín, Sedliacka Dubová, Nižná, Krásna Hôrka, Trstená, Vitanová', 'katastralne_uzemia': [{'nazov': 'Dolný Kubín', 'parcely': []}, {'nazov': 'Sedliacka Dubová', 'parcely': []}, {'nazov': 'Nižná', 'parcely': []}, {'nazov': 'Krásna Hôrka', 'parcely': []}, {'nazov': 'Trstená', 'parcely': []}, {'nazov': 'Vitanová', 'parcely': []}], 'lokalita_zastavane_uzemie': False, 'nazov_lokality': 'vodný tok Orava', 'nazov_lokality_norm': 'Orava'}
+ku_name:Dolný Kubín obec:Dolný Kubín, Sedliacka Dubová, Nižná, Krásna Hôrka, Trstená, Vitanová okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dolny kubin norm_ku: dolnybin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: dolnybin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: dolnybin
+Fuzzy match found: 'Dolný Kubín' -> 'Dolný Kubín' (ID: 812315)
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: sedliacka dubova norm_ku: dolnybin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: dolnybin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: dolnybin
+Fuzzy match found: 'Dolný Kubín' -> 'Dolný Kubín' (ID: 812315)
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: nizna norm_ku: dolnybin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: dolnybin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: dolnybin
+Fuzzy match found: 'Dolný Kubín' -> 'Dolný Kubín' (ID: 812315)
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: krasna horka norm_ku: dolnybin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: dolnybin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: dolnybin
+Fuzzy match found: 'Dolný Kubín' -> 'Dolný Kubín' (ID: 812315)
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: trstena norm_ku: dolnybin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: dolnybin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: dolnybin
+Fuzzy match found: 'Dolný Kubín' -> 'Dolný Kubín' (ID: 812315)
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: vitanova norm_ku: dolnybin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: dolnybin
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: dolnybin
+Fuzzy match found: 'Dolný Kubín' -> 'Dolný Kubín' (ID: 812315)
+nationalCadastralZoningReferences: ['812315']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.37 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Sedliacka Dubová obec:Dolný Kubín, Sedliacka Dubová, Nižná, Krásna Hôrka, Trstená, Vitanová okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dolny kubin norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() found_ids: {'854701'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: sedliacka dubova norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() found_ids: {'854701'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: nizna norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() found_ids: {'854701'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: krasna horka norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() found_ids: {'854701'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: trstena norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() found_ids: {'854701'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: vitanova norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: sedliacka dubova
+_get_nationalCadastralZoningReferences() found_ids: {'854701'}
+nationalCadastralZoningReferences: ['854701']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.32 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Nižná obec:Dolný Kubín, Sedliacka Dubová, Nižná, Krásna Hôrka, Trstená, Vitanová okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dolny kubin norm_ku: nizna
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: nizna
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: nizna
+_get_nationalCadastralZoningReferences() found_ids: {'840777'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: sedliacka dubova norm_ku: nizna
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: nizna
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: nizna
+_get_nationalCadastralZoningReferences() found_ids: {'840777'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: nizna norm_ku: nizna
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: nizna
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: nizna
+_get_nationalCadastralZoningReferences() found_ids: {'840777'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: krasna horka norm_ku: nizna
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: nizna
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: nizna
+_get_nationalCadastralZoningReferences() found_ids: {'840777'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: trstena norm_ku: nizna
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: nizna
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: nizna
+_get_nationalCadastralZoningReferences() found_ids: {'840777'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: vitanova norm_ku: nizna
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: nizna
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: nizna
+_get_nationalCadastralZoningReferences() found_ids: {'840777'}
+nationalCadastralZoningReferences: ['840777']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.40 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Krásna Hôrka obec:Dolný Kubín, Sedliacka Dubová, Nižná, Krásna Hôrka, Trstená, Vitanová okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dolny kubin norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() found_ids: {'828386'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: sedliacka dubova norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() found_ids: {'828386'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: nizna norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() found_ids: {'828386'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: krasna horka norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() found_ids: {'828386'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: trstena norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() found_ids: {'828386'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: vitanova norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: krasna horka
+_get_nationalCadastralZoningReferences() found_ids: {'828386'}
+nationalCadastralZoningReferences: ['828386']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Trstená obec:Dolný Kubín, Sedliacka Dubová, Nižná, Krásna Hôrka, Trstená, Vitanová okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dolny kubin norm_ku: trstena
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: trstena
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: trstena
+_get_nationalCadastralZoningReferences() found_ids: {'865478'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: sedliacka dubova norm_ku: trstena
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: trstena
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: trstena
+_get_nationalCadastralZoningReferences() found_ids: {'865478'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: nizna norm_ku: trstena
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: trstena
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: trstena
+_get_nationalCadastralZoningReferences() found_ids: {'865478'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: krasna horka norm_ku: trstena
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: trstena
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: trstena
+_get_nationalCadastralZoningReferences() found_ids: {'865478'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: trstena norm_ku: trstena
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: trstena
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: trstena
+_get_nationalCadastralZoningReferences() found_ids: {'865478'}
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: vitanova norm_ku: trstena
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: trstena
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: None norm_obec: None norm_ku: trstena
+_get_nationalCadastralZoningReferences() found_ids: {'865478'}
+nationalCadastralZoningReferences: ['865478']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.46 s
+get_cadastral_zone() features retrieved successfully
+ku_name:Vitanová obec:Dolný Kubín, Sedliacka Dubová, Nižná, Krásna Hôrka, Trstená, Vitanová okres:Žilina kraj:Žilinský kraj
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: dolny kubin norm_ku: vitanova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: vitanova
+Fuzzy match found: 'Vitanová' -> 'Bitarová' (ID: 803014)
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: sedliacka dubova norm_ku: vitanova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: vitanova
+Fuzzy match found: 'Vitanová' -> 'Bitarová' (ID: 803014)
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: nizna norm_ku: vitanova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: vitanova
+Fuzzy match found: 'Vitanová' -> 'Bitarová' (ID: 803014)
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: krasna horka norm_ku: vitanova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: vitanova
+Fuzzy match found: 'Vitanová' -> 'Bitarová' (ID: 803014)
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: trstena norm_ku: vitanova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: vitanova
+Fuzzy match found: 'Vitanová' -> 'Bitarová' (ID: 803014)
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: vitanova norm_ku: vitanova
+_get_nationalCadastralZoningReferences() norm_kraj: zilinsky norm_okres: zilina norm_obec: None norm_ku: vitanova
+Fuzzy match found: 'Vitanová' -> 'Bitarová' (ID: 803014)
+nationalCadastralZoningReferences: ['803014']
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 0.29 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: Orava
+get_geometry_of_a_geoname nazov_lokality: Orava
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Dolný Kubín, Sedliacka Dubová, Nižná, Krásna Hôrka, Trstená, Vitanová, Slovensko
+response: <Response [200]>
+url: https://nominatim.openstreetmap.org/search?format=***&polygon_geojson=***&accept-language=***&q=*** Žilina, Slovensko
+response: <Response [200]>
+gdf_geoname:                                             geometry  ...                     display_name
+0  POLYGON ((19.07756 49.20617, 19.07759 49.20598...  ...  Orava, Žilinský kraj, Slovensko
+
+[1 rows x 11 columns]
+geoname_query: Orava, Žilina, Slovensko
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.3007 49.22344, 19.30089 49....
+1  CadastralZoning  ...  MULTIPOLYGON (((19.40663 49.30856, 19.4073 49....
+2  CadastralZoning  ...  MULTIPOLYGON (((19.46415 49.352, 19.46491 49.3...
+3  CadastralZoning  ...  MULTIPOLYGON (((19.48662 49.35993, 19.48713 49...
+4  CadastralZoning  ...  MULTIPOLYGON (((19.59378 49.45868, 19.59404 49...
+5  CadastralZoning  ...  MULTIPOLYGON (((18.67895 49.22086, 18.67911 49...
+
+[6 rows x 13 columns]
+gdf_geoname:                                             geometry  ...                     display_name
+0  POLYGON ((19.07756 49.20617, 19.07759 49.20598...  ...  Orava, Žilinský kraj, Slovensko
+
+[1 rows x 11 columns]
+/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/geopandas/geodataframe.py:2861: UserWarning: CRS mismatch between the CRS of left geometries and the CRS of right geometries.
+Use `to_crs()` to reproject one of the input geometries to match the CRS of the other.
+
+Left CRS: EPSG:4258
+Right CRS: EPSG:4326
+
+  return geopandas.overlay(
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-096761-jnt/gis.geojson...
+Intersections with protected areas...
+Found 9 intersecting parcels with 'UEV'.
+Found 5 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'UEV': [{'parcel_label': 'Dolný Kubín', 'NATIONALSI': 'SKUEV0243', 'SITETITLE_': 'Orava'}, {'parcel_label': 'Sedliacka Dubová', 'NATIONALSI': 'SKUEV0243', 'SITETITLE_': 'Orava'}, {'parcel_label': 'Nižná', 'NATIONALSI': 'SKUEV0243', 'SITETITLE_': 'Orava'}, {'parcel_label': 'Krásna Hôrka', 'NATIONALSI': 'SKUEV0243', 'SITETITLE_': 'Orava'}, {'parcel_label': 'Trstená', 'NATIONALSI': 'SKUEV0193', 'SITETITLE_': 'Zimník'}, {'parcel_label': 'Trstená', 'NATIONALSI': 'SKUEV0222', 'SITETITLE_': 'Jelešňa'}, {'parcel_label': 'Trstená', 'NATIONALSI': 'SKUEV0057', 'SITETITLE_': 'Rašeliniská Oravskej kotliny'}, {'parcel_label': 'Trstená', 'NATIONALSI': 'SKUEV0304', 'SITETITLE_': 'Oravská vodná nádrž'}, {'parcel_label': 'Trstená', 'NATIONALSI': 'SKUEV0963', 'SITETITLE_': 'Osadská'}], 'MCHU': [{'parcel_label': 'Dolný Kubín', 'NATIONALSI': '1034', 'SITETITLE_': 'CHA Rieka Orava'}, {'parcel_label': 'Sedliacka Dubová', 'NATIONALSI': '1034', 'SITETITLE_': 'CHA Rieka Orava'}, {'parcel_label': 'Nižná', 'NATIONALSI': '1034', 'SITETITLE_': 'CHA Rieka Orava'}, {'parcel_label': 'Krásna Hôrka', 'NATIONALSI': '1034', 'SITETITLE_': 'CHA Rieka Orava'}, {'parcel_label': 'Trstená', 'NATIONALSI': '1055', 'SITETITLE_': 'CHA Bratkovčík'}], 'CHVU': [{'parcel_label': 'Trstená', 'NATIONALSI': 'SKCHVU008', 'SITETITLE_': 'Horná Orava'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Žilinský kraj/Žilina/ou-za-oszp1-2026-096761-jnt/analysis.json...
+
+--- Časy spracovania dokumentu ou-za-oszp1-2026-096761-jnt ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.00 s
+  llm_analysis        :  14.04 s
+  gis_processing      :   4.74 s
+  CELKOVÝ ČAS         :  19.26 s
+------------------------------------------
+Dokument ou-za-oszp1-2026-096761-jnt bol úspešne spracovaný.
