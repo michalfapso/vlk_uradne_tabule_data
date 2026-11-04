@@ -1,0 +1,145 @@
+{
+  "cislo_konania_spisu": "OU-BB-OSZP3-2026/047054-MB",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-11-04",
+  "datum_zverejnenia": "2026-11-04",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "do piatich pracovných dní od zverejnenia tejto informácie"
+  },
+  "ziadatel_navrhovatel": "neuvedená právnická osoba",
+  "miesto_realizacie": {
+    "kraj": "Banskobystrický kraj",
+    "okres": "Banská Bystrica",
+    "obec": "Moštenica",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Moštenica",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "1356/5"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": null,
+    "nazov_lokality": "k. ú. Moštenica",
+    "nazov_lokality_norm": "Moštenica"
+  },
+  "typ_dokumentu": "Žiadosť o vydanie súhlasu na výrub drevín",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub drevín"
+  ],
+  "rozsah_zasahu": "1 ks dreviny",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "Zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002 Z. z.",
+      "paragrafy": [
+        "§ 47 ods. 3",
+        "§ 2 ods. 1",
+        "§ 82 ods. 6"
+      ]
+    },
+    {
+      "nazov": "Zákon o správnom konaní",
+      "cislo": "71/1967 Zb.",
+      "paragrafy": [
+        "§ 19",
+        "§ 15a"
+      ]
+    }
+  ],
+  "zhrnutie": "Žiadosť o súhlas na výrub 1 ks dreviny v katastrálnom území Moštenica na parcele C-KN 1356/5 z dôvodu zhoršeného zdravotného stavu. Verejnosť (združenia) môže oznámiť svoju účasť v konaní v lehote 5 pracovných dní od zverejnenia informácie.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "Moštenica",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Moštenica",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Moštenica",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Moštenica",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Moštenica",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Moštenica",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Moštenica",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Moštenica",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        },
+        {
+          "parcel_label": "Moštenica",
+          "NAZOV_UEV": "Ďumbierske Tatry",
+          "KOD_UEV": "SKUEV0302"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "Moštenica",
+          "NATIONALSI": "SKUEV0302",
+          "SITETITLE_": "Ďumbierske Tatry"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "Moštenica",
+          "NATIONALSI": "364",
+          "SITETITLE_": "PP Moštenické travertíny"
+        },
+        {
+          "parcel_label": "Moštenica",
+          "NATIONALSI": "1310",
+          "SITETITLE_": "PR Pralesy Slovenska-Kozí chrbát"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "Moštenica",
+          "NATIONALSI": "SKCHVU018",
+          "SITETITLE_": "Nízke Tatry"
+        }
+      ]
+    },
+    "source_type": "OBEC"
+  }
+}

@@ -1,0 +1,51 @@
+[2026-11-04 23:02:58] processing document '/home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/18097-2026-6-1'
+Orig doc already downloaded: /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/18097-2026-6-1/orig.html
+Converting document to text...
+Saving text doc to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/18097-2026-6-1/text.txt...
+Getting law excerpts...
+No law excerpts found.
+Pokus o LLM analýzu 1/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.008803}
+LLM_tokens: {"input": 4190, "output": 2236, "total": 6426, "cached": null}
+Pokus 1 zlyhal: LLM nevrátil platný JSON. Chyba: Extra data: line 41 column 1 (char 1341)
+Pokus o LLM analýzu 2/3...
+Spúšťam analýzu textu cez LLM
+LLM_cost: {"cost": 0.011410749999999999}
+LLM_tokens: {"input": 4190, "output": 3406, "total": 7596, "cached": 2005}
+LLM analýza úspešná, získaný platný JSON.
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/18097-2026-6-1/analysis.txt...
+Saving analysis to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/18097-2026-6-1/analysis.json...
+Getting geometry of parcel set...
+place_info:{'kraj': None, 'okres': None, 'obec': 'Ľubietová', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+data: {'kraj': None, 'okres': None, 'obec': 'Ľubietová', 'katastralne_uzemia': [], 'lokalita_zastavane_uzemie': None, 'nazov_lokality': None, 'nazov_lokality_norm': None}
+Fallback to OBEC: Ľubietová
+_get_nationalCadastralZoningReferences() norm_kraj: None norm_okres: None norm_obec: lubietova norm_ku: None
+_get_nationalCadastralZoningReferences() found_ids: {'833339'}
+get_cadastral_zone() request GET url: https://inspirews.skgeodesy.sk/geoserver/cp/ogc/features/v1/collections/CP.CadastralZoning/items?limit=***&filter-lang=***&filter=***&f=*** (via proxy)
+response: <Response [200]>
+get_cadastral_zone() request duration: 1.22 s
+get_cadastral_zone() features retrieved successfully
+nazov_lokality: None
+gdf_parcelset:       @featureType  ...                                           geometry
+0  CadastralZoning  ...  MULTIPOLYGON (((19.33851 48.77209, 19.33877 48...
+
+[1 rows x 13 columns]
+gdf_geoname: None
+Saving geometry to /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/18097-2026-6-1/gis.geojson...
+Intersections with protected areas...
+Found 38 intersecting parcels with '5st_konsUEV'.
+Found 3 intersecting parcels with 'UEV'.
+Found 3 intersecting parcels with 'MCHU'.
+Found 1 intersecting parcels with 'CHVU'.
+intersections: {'5st_konsUEV': [{'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Ľubietovské dúbravy', 'KOD_UEV': 'SKUEV0859'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Ľubietovské dúbravy', 'KOD_UEV': 'SKUEV0859'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Ľubietovské dúbravy', 'KOD_UEV': 'SKUEV0859'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Ľubietovské dúbravy', 'KOD_UEV': 'SKUEV0859'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Ľubietovské dúbravy', 'KOD_UEV': 'SKUEV0859'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}, {'parcel_label': 'Ľubietová', 'NAZOV_UEV': 'Poľana', 'KOD_UEV': 'SKUEV0319'}], 'UEV': [{'parcel_label': 'Ľubietová', 'NATIONALSI': 'SKUEV0319', 'SITETITLE_': 'Poľana'}, {'parcel_label': 'Ľubietová', 'NATIONALSI': 'SKUEV0863', 'SITETITLE_': 'Nad Kostolnicou'}, {'parcel_label': 'Ľubietová', 'NATIONALSI': 'SKUEV0859', 'SITETITLE_': 'Ľubietovské dúbravy'}], 'MCHU': [{'parcel_label': 'Ľubietová', 'NATIONALSI': '473', 'SITETITLE_': 'PP Veporské skalky'}, {'parcel_label': 'Ľubietová', 'NATIONALSI': '335', 'SITETITLE_': 'NPR Ľubietovský Vepor'}, {'parcel_label': 'Ľubietová', 'NATIONALSI': '376', 'SITETITLE_': 'PR Periská'}], 'CHVU': [{'parcel_label': 'Ľubietová', 'NATIONALSI': 'SKCHVU022', 'SITETITLE_': 'Poľana'}]}
+Updating analysis JSON at /home/runner/work/vlk_uradne_tabule/vlk_uradne_tabule/data/docs/minzp/Ministerstvo/Ministerstvo/18097-2026-6-1/analysis.json...
+
+--- Časy spracovania dokumentu 18097-2026-6-1 ---
+  download_and_text   :   0.00 s
+  laws_excerpts       :   0.01 s
+  llm_analysis        :  24.77 s
+  gis_processing      :   1.56 s
+  CELKOVÝ ČAS         :  26.98 s
+------------------------------------------
+Dokument 18097-2026-6-1 bol úspešne spracovaný.

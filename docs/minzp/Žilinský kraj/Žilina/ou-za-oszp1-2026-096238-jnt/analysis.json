@@ -1,0 +1,98 @@
+{
+  "cislo_konania_spisu": "OU-ZA-OSZP1-2026/096238/Jnt",
+  "cislo_rozhodnutia": null,
+  "datum_dokumentu": "2026-11-04",
+  "datum_zverejnenia": "2026-11-04",
+  "faza_konania": "ZACIATOK",
+  "ucast_v_konani": {
+    "povolena": true,
+    "lehota_na_vyjadrenie": "v lehote 5 pracovných dní od zverejnenia informácie (t. j. do 11. 11. 2026, vrátane)"
+  },
+  "ziadatel_navrhovatel": "PSU Liptovská Sielnica",
+  "miesto_realizacie": {
+    "kraj": "Žilinský kraj",
+    "okres": "Žilina",
+    "obec": "Kvačany",
+    "katastralne_uzemia": [
+      {
+        "nazov": "Kvačany",
+        "parcely": [
+          {
+            "typ": "C",
+            "cisla": [
+              "549/1"
+            ]
+          }
+        ]
+      }
+    ],
+    "lokalita_zastavane_uzemie": false,
+    "nazov_lokality": null,
+    "nazov_lokality_norm": null
+  },
+  "typ_dokumentu": "Žiadosť o povolenie výnimky v zmysle zákona č. 543/2002 Z. z. o ochrane prírody a krajiny",
+  "kategorie_vlk": [
+    "LES_VYRUB"
+  ],
+  "typ_zasahu": [
+    "výrub (výsek) krov"
+  ],
+  "rozsah_zasahu": "výmera 0,07 ha",
+  "typ_uzemia": [
+    "neviem"
+  ],
+  "je_v_chranenom_uzemi": null,
+  "dotknute_zivocichy_rastliny": [],
+  "odkaz_enviroportal": null,
+  "zakony": [
+    {
+      "nazov": "zákon o ochrane prírody a krajiny",
+      "cislo": "543/2002",
+      "paragrafy": []
+    }
+  ],
+  "zhrnutie": "Žiadosť o povolenie výnimky na výrub (výsek) krov na výmere 0,07 ha v katastrálnom území Kvačany. Konanie začalo na podnet žiadateľa PSU Liptovská Sielnica. Verejnosť môže požiadať o účasť v konaní do 11. 11. 2026.",
+  "gis": {
+    "zasiahnute_chranene_uzemia": {
+      "5st_konsUEV": [
+        {
+          "parcel_label": "549/1",
+          "NAZOV_UEV": "Tatry",
+          "KOD_UEV": "SKUEV0307"
+        },
+        {
+          "parcel_label": "549/1",
+          "NAZOV_UEV": "Tatry",
+          "KOD_UEV": "SKUEV0307"
+        },
+        {
+          "parcel_label": "549/1",
+          "NAZOV_UEV": "Tatry",
+          "KOD_UEV": "SKUEV0307"
+        }
+      ],
+      "UEV": [
+        {
+          "parcel_label": "549/1",
+          "NATIONALSI": "SKUEV0307",
+          "SITETITLE_": "Tatry"
+        }
+      ],
+      "MCHU": [
+        {
+          "parcel_label": "549/1",
+          "NATIONALSI": "845",
+          "SITETITLE_": "NPR Suchá dolina"
+        }
+      ],
+      "CHVU": [
+        {
+          "parcel_label": "549/1",
+          "NATIONALSI": "SKCHVU050",
+          "SITETITLE_": "Chočské vrchy"
+        }
+      ]
+    },
+    "source_type": "PARCELA"
+  }
+}
