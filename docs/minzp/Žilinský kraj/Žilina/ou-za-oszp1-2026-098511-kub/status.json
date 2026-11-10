@@ -1,0 +1,7 @@
+[
+  {
+    "date": "2026-11-10 01:00:17",
+    "type": "error",
+    "text": "Zlyhalo spracovanie dokumentu ou-za-oszp1-2026-098511-kub (https://www.minzp.sk/ou-zilina/ou-za-oszp1-2026-098511-kub.html): Chyba počas LLM analýzy: litellm.APIConnectionError: GeminiException - {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  }
+]
